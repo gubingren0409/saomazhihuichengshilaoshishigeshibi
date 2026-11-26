@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>上海博物馆 · 路线差异诊断 R2</title>
+<link rel="stylesheet" href="viewer.css">
+<script defer src="data.js"></script>
+<script defer src="viewer.js"></script>
+</head>
+<body>
+<header class="mast">
+  <div class="shell mast-grid">
+    <div>
+      <p class="eyebrow">OSM × Geoapify · R2 · 单场景只读审查</p>
+      <h1>上海博物馆路线差异诊断</h1>
+      <p class="lead">在同一坐标框架内检查起点分歧、南侧广场和入口前缺口。首轮视觉判断与路线功能证据分开展示。</p>
+    </div>
+    <nav aria-label="页面导航"><a href="#map-section">交互地图</a><a href="#visuals">证据图</a><a href="#scores">原评分</a></nav>
+  </div>
+</header>
+<main class="shell">
+  <section class="kpis" id="metrics" aria-label="关键量化结果"></section>
+  <section class="workspace" id="map-section" aria-labelledby="map-title">
+    <div class="section-head">
+      <div><p class="eyebrow">几何诊断</p><h2 id="map-title">真实要素与路线</h2></div>
+      <p>北向上 · Web Mercator 显示 · WGS84 输入</p>
+    </div>
+    <div class="view-toolbar" aria-label="地图操作">
+      <div class="presets" id="presets" aria-label="地理视图">
+        <button type="button" data-view="overview" aria-pressed="true">全局</button>
+        <button type="button" data-view="origin" aria-pressed="false">起点分歧</button>
+        <button type="button" data-view="plaza" aria-pressed="false">南侧广场</button>
+        <button type="button" data-view="endpoint" aria-pressed="false">入口缺口</button>
+      </div>
+      <div class="view-actions">
+        <button id="zoom-in" type="button" title="放大" aria-label="放大">＋</button>
+        <button id="zoom-out" type="button" title="缩小" aria-label="缩小">－</button>
+        <button id="download" class="primary" type="button">导出当前 SVG</button>
+      </div>
+    </div>
+    <div class="map-grid">
+      <div class="map-surface">
+        <svg id="map" role="group" aria-label="上海博物馆可交互证据地图" viewBox="0 0 1040 660">
+          <title>上海博物馆 R2 证据地图</title>
+          <style id="map-style"></style>
+          <defs><clipPath id="frame-clip"><rect x="0" y="0" width="1040" height="660"/></clipPath></defs>
+          <rect x="0" y="0" width="1040" height="660" class="paper"/>
+          <g id="map-geometries" clip-path="url(#frame-clip)"></g>
+          <g id="map-marginalia"></g>
+        </svg>
+      </div>
+      <aside class="inspect">
+        <h3>图层与来源</h3>
+        <label class="select-label" for="route-side">查看路线</label>
+        <select id="route-side">
+          <option value="both">A 与 B</option>
+          <option value="geoapify">仅 A · Geoapify</option>
+          <option value="local">仅 B · 本地 OSM 诊断</option>
+        </select>
+        <fieldset id="layers"><legend>可见图层</legend></fieldset>
+        <div id="selection" class="selection" aria-live="polite">
+          <p class="eyebrow">要素检查器</p>
+          <h3>选择地图中的线、点或面</h3>
+          <p>点击要素或用键盘选择，可查看原生 ID、标签与证据等级。</p>
+        </div>
+      </aside>
+    </div>
+    <p class="map-foot" id="map-message" aria-live="polite"></p>
+  </section>
+
+  <section class="section" aria-labelledby="base-title">
+    <details id="base-detail"><summary id="base-title">切换首轮同尺度原始底图</summary>
+      <div class="base-panel">
+        <div class="base-controls"><label>底图 <select id="base-side"><option value="A">A · Geoapify</option><option value="B">B · 本地 OSM</option></select></label><label>视野 <select id="base-view"><option value="detail">近景</option><option value="context">上下文</option></select></label><a id="base-original" target="_blank" rel="noopener">另页放大原图</a></div>
+        <img id="base-image" width="1200" height="900" alt="首轮 1200×900 无路线地图">
+        <p id="base-credit"></p>
+      </div>
+    </details>
+  </section>
+
+  <section id="visuals" class="section" aria-labelledby="fig-title">
+    <div class="section-head"><div><p class="eyebrow">人工核验</p><h2 id="fig-title">六张证据图</h2></div><p>原图可另行放大查看</p></div>
+    <div class="figure-grid" id="figure-list"></div>
+  </section>
+
+  <section id="scores" class="section" aria-labelledby="score-title">
+    <div class="section-head"><div><p class="eyebrow">首轮 · 原始记录</p><h2 id="score-title">人工评分与文字反馈</h2></div><p id="score-source"></p></div>
+    <div id="score-body" class="score-grid"></div>
+  </section>
+
+  <section class="section" aria-labelledby="questions-title">
+    <div class="section-head"><div><p class="eyebrow">第二轮 · 待用户判断</p><h2 id="questions-title">请看四处证据</h2></div></div>
+    <ol class="questions">
+      <li><strong>起点过街</strong><span>过街路线与你掌握的现场或独立资料一致吗？哪些路口细节仍看不清？</span></li>
+      <li><strong>南侧广场</strong><span>你指的广场具体对应图中哪一面？有没有可定位的现场接入证据？</span></li>
+      <li><strong>入口参考</strong><span>你认为正确的是哪个门？请区分建筑门、场地门与实际开放入口。</span></li>
+      <li><strong>图面信息</strong><span>哪些标签或色差会影响你判断路径？原首轮分数已保留，可直接补充观察。</span></li>
+    </ol>
+  </section>
+  <footer>地图及要素数据 © OpenStreetMap contributors（ODbL）。Geoapify 原图保留应有署名。本页仅为单场景几何和人工核验。</footer>
+</main>
+</body>
+</html>

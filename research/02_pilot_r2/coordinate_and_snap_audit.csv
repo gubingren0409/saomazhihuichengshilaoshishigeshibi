@@ -1,0 +1,16 @@
+﻿branch,measurement,value,method,evidence_status
+local,origin_wgs84,"[121.4671613, 31.2309408]","WGS84 [lon,lat]",RECOMPUTED
+local,end_wgs84,"[121.4713292, 31.2304473]","WGS84 [lon,lat]",RECOMPUTED
+local,start_offset_m,0.0,WGS84 ellipsoid m,RECOMPUTED
+local,target_gap_m,55.02217444013307,WGS84 ellipsoid m,RECOMPUTED
+local,length_m,1416.7193428331866,WGS84 ellipsoid m,RECOMPUTED
+hosted,origin_wgs84,"[121.467161, 31.230941]","WGS84 [lon,lat]",RECOMPUTED
+hosted,end_wgs84,"[121.471329, 31.230447]","WGS84 [lon,lat]",RECOMPUTED
+hosted,start_offset_m,0.03617523242292412,WGS84 ellipsoid m,RECOMPUTED
+hosted,target_gap_m,54.98581971942229,WGS84 ellipsoid m,RECOMPUTED
+hosted,length_m,961.8193148263103,WGS84 ellipsoid m,RECOMPUTED
+shared,origin_wgs84,"[121.4671613, 31.2309408]",R1 locked contract,OBSERVED
+shared,target_reference_wgs84,"[121.4712158, 31.2299607]",R1 locked contract,OBSERVED
+shared,frozen_threshold_m,35,R1 locked contract,OBSERVED
+hosted,declared_provider_distance_m,964,retained provider response summary,OBSERVED
+paired,whole_route_hausdorff_m,150.25462064908865,EPSG:32651 planar m,RECOMPUTED

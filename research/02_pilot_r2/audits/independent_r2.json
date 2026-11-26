@@ -1,0 +1,144 @@
+{
+  "source_archive": {
+    "archive_checked": true,
+    "sha256": "a4b902b530163477bdfd1092d7a88441c11e76950ee394cfb440213eb4453c12",
+    "manifest_entries": 96,
+    "working_files_identical": [
+      "data/sh-huangpu-01.osm.json",
+      "runs/scene_contract.json",
+      "runs/pilot_plan.json",
+      "runs/local_approach_diagnostic.geojson",
+      "runs/local_approach_diagnostic.json",
+      "runs/local_route.json",
+      "runs/local_route.geojson",
+      "runs/geoapify_walk_probe_proxy.json",
+      "visuals/geoapify/sh-huangpu-01_probe_walk.geojson",
+      "runs/local_viewports.json",
+      "runs/geoapify_static_completion.json"
+    ]
+  },
+  "score_original": {
+    "sha256": "bf9031591b4d67be39ec7e0239432116a01f3197b414e88d3e8a682a68db108a",
+    "size": 1583,
+    "scene": "S-1814",
+    "pairs": [
+      "P-872C",
+      "P-2CAE"
+    ],
+    "scores": {
+      "A": {
+        "eight_map_context_fields": 37,
+        "route_alignment": 5,
+        "route_visibly_unreasonable": "否",
+        "nine_item_total": 42
+      },
+      "B": {
+        "eight_map_context_fields": 38,
+        "route_alignment": 5,
+        "route_visibly_unreasonable": "不确定",
+        "nine_item_total": 43
+      }
+    },
+    "preference": "相同",
+    "time": "2026-11-09T11:03:07.129Z",
+    "comment_untouched": true,
+    "mapping_checked": true
+  },
+  "projection_for_topology": "EPSG:32651 / WGS84 UTM 51N",
+  "length_distance_basis": "GeographicLib WGS84 ellipsoid using saved raw vertices",
+  "routes": {
+    "local_vertices": 90,
+    "hosted_vertices": 80,
+    "local_diagnostic_length_m": 1416.71934282719,
+    "hosted_polyline_length_m": 961.8193148173871,
+    "hosted_provider_length_m": 964,
+    "local_origin_gap_m": 0.0,
+    "hosted_origin_gap_m": 0.03617523242292413,
+    "local_end_gap_m": 55.02217444119203,
+    "hosted_end_gap_m": 54.9858197201278,
+    "endpoint_separation_m": 0.038333363226779923,
+    "snap_gate_m": 35,
+    "full_local_route": false,
+    "overlap_length_fraction_within_1m": [
+      0.566745,
+      0.834611
+    ],
+    "target_building_interior_route_m": [
+      0.0,
+      0.0
+    ],
+    "plaza_interior_route_m": [
+      0.0,
+      0.0
+    ],
+    "diagnostic_chord_building_interior_m": 50.46409349707153,
+    "hausdorff_utm_m": 150.25462064908865
+  },
+  "origin": {
+    "shared_departure_way": 39764601,
+    "fork_native_node": 13763096985,
+    "fork_chainage_m": [
+      44.158805636222645,
+      44.15792716718981
+    ],
+    "rejoin_native_node": 7113798201,
+    "fork_to_rejoin_m": [
+      537.3540401541896,
+      73.90155015506012
+    ],
+    "crossing_native_way": 761403176,
+    "crossing_native_nodes": [
+      1890935445,
+      7113798197,
+      7113798198,
+      7113798199,
+      7113798200,
+      7113798201
+    ],
+    "hosted_axis_spatial_matches": [
+      654297629,
+      1074409256
+    ],
+    "those_axes_eligible_local": false
+  },
+  "plaza": {
+    "relation": 2385771,
+    "outer": 178721643,
+    "target_reference": 6897141353,
+    "way_shared_native_attachments": {
+      "178737605": [
+        1890935454
+      ],
+      "178737608": [
+        1890935415
+      ],
+      "761403177": [
+        1890745480
+      ]
+    },
+    "attachments_reachable_from_local_start": {
+      "178737605": true,
+      "178737608": true,
+      "761403177": true
+    },
+    "traversal_lengths_m": {
+      "178737605": 0.0,
+      "178737608": 0.0,
+      "761403177": 0.0
+    },
+    "target_is_in_local_linear_graph": false,
+    "nearest_accepted_walkway": 178719573,
+    "closest_segment": [
+      55.014552726710875,
+      178719573,
+      98,
+      1891590993,
+      1890732610
+    ],
+    "nearest_accepted_walkway_to_plaza_polygon_utm_m": 10.303363225400508
+  },
+  "provider_raw_route_payload": "NOT_RETAINED_IN_SCOPED_ARTIFACTS",
+  "provider_internal_graph": "UNKNOWN",
+  "provider_calls": 0,
+  "site_visits": 0
+}

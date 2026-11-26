@@ -1,0 +1,86 @@
+{
+  "crs": "EPSG:4326 WGS84 [lon,lat]; EPSG:32651 for planar geometry; WGS84 ellipsoid for distances",
+  "building_way_id": "way/161090899",
+  "entrance_node_id": "node/6897141353",
+  "northwest_exit_node_id": "node/6897145227",
+  "entrance_tags": {
+    "entrance": "main"
+  },
+  "northwest_exit_tags": {
+    "entrance": "exit"
+  },
+  "reference_evidence": "OSM native node on the building perimeter and south plaza outer ring; R1 museum public guidance names the south entrance, no surveyed coordinate/current public access.",
+  "reference_status": "REFERENCE_UNCERTAIN_FOR_PHYSICAL_DOOR_OR_CURRENT_ACCESS",
+  "point_on_building_boundary_error_m": 0.0,
+  "plaza_boundary_error_m": 0.0,
+  "eligible_snap_way_id": "way/178719573",
+  "eligible_snap_node_id": "node/1890732610",
+  "eligible_snap_tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "surface": "paving_stones"
+  },
+  "eligible_snap_wgs84": [
+    121.4713292,
+    31.2304473
+  ],
+  "eligible_snap_way_to_reference_m_planar": 55.014552726710875,
+  "local_r1_snap_distance_m": 55.02217444013307,
+  "frozen_threshold_m": 35,
+  "threshold_frozen_before_route": true,
+  "gap_measurement_chord_inside_building_m_planar": 50.46409349707153,
+  "origin_wgs84": [
+    121.4671613,
+    31.2309408
+  ],
+  "target_reference_wgs84": [
+    121.4712158,
+    31.2299607
+  ],
+  "local": {
+    "role": "DIAGNOSTIC_TO_NETWORK",
+    "main_request_status": "TARGET_SNAP_OUTSIDE_LIMIT",
+    "length_m": 1416.7193428331866,
+    "start_offset_m": 0.0,
+    "target_gap_m": 55.02217444013307,
+    "origin_wgs84": [
+      121.4671613,
+      31.2309408
+    ],
+    "end_wgs84": [
+      121.4713292,
+      31.2304473
+    ],
+    "vertices": 90,
+    "overlap_within_1m_of_other_route_fraction": 0.5667449609068401,
+    "target_building_interior_intersection_m": 0.0
+  },
+  "hosted": {
+    "role": "PROVIDER_ROUTE",
+    "http_status": 200,
+    "provider_distance_m": 964,
+    "provider_duration_s": 912.079,
+    "length_m": 961.8193148263103,
+    "start_offset_m": 0.03617523242292412,
+    "target_gap_m": 54.98581971942229,
+    "origin_wgs84": [
+      121.467161,
+      31.230941
+    ],
+    "end_wgs84": [
+      121.471329,
+      31.230447
+    ],
+    "vertices": 80,
+    "entrance_field": null,
+    "entrance_identity": "UNKNOWN",
+    "overlap_within_1m_of_other_route_fraction": 0.8346110962777195,
+    "target_building_interior_intersection_m": 0.0
+  },
+  "paired_start_distance_m": 0.03617523242292412,
+  "paired_end_distance_m": 0.038333363226779923,
+  "whole_route_hausdorff_m_planar": 150.25462064908865,
+  "nearest_node_is_nearest_on_snap_way": true,
+  "geoapify_internal_route_graph": "UNKNOWN",
+  "field_validation": 0
+}

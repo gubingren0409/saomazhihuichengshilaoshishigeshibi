@@ -1,0 +1,11 @@
+﻿branch,item,native_ref,value,method_or_basis,evidence_status
+shared,entrance_reference,node/6897141353,"[121.4712158, 31.2299607]",WGS84 native OSM node,RECOMPUTED
+shared,boundary_residual,way/161090899,0.0,EPSG:32651 metres,RECOMPUTED
+local,nearest_eligible_edge,way/178719573,55.014552726710875,EPSG:32651 planar edge distance,RECOMPUTED
+local,nearest_on_snap_way_node,node/1890732610,"[121.4713292, 31.2304473]","native node, WGS84",RECOMPUTED
+local,historical_threshold,runs/pilot_plan.json,35,frozen metres,OBSERVED
+local,diagnostic_terminal_to_reference,node/1890732610,55.02217444013307,WGS84 ellipsoid metres,RECOMPUTED
+hosted,returned_terminal_to_reference,R1 normalized GeoJSON,54.98581971942229,WGS84 ellipsoid metres,RECOMPUTED
+paired,terminal_distance,R1 frozen route geometries,0.038333363226779923,WGS84 ellipsoid metres,RECOMPUTED
+shared,not_a_path_measurement_interior,museum footprint,50.46409349707153,EPSG:32651 line length intersecting building inner 0.25m buffer,RECOMPUTED
+hosted,provider_entrance,R1 response receipt,,provider does not expose verified entrance identity,UNKNOWN
