@@ -16,3 +16,5 @@
 地图© OpenStreetMap contributors：https://www.openstreetmap.org/copyright ，OSM数据库沿用ODbL：https://opendatacommons.org/licenses/odbl/1-0/ 。保留原归属/NOTICE/第三方许可，不给研究源码代选新许可证。Geoapify托管图像/响应及私有截图、用户评分的公开再分发许可未确认，因此列例外而不上传。没有新增采集、API、训练、求路或费用。
 
 北门7.95米前导小试05a单列，源为正式NORTH-R1包内的原实现；与正式R1不混作同一次实验。缺失的WALKABILITY-R1没有重建或编造。代码/页面统计包含历史重复版本，不能解释为独立算法数。
+
+Geoapify适配器源代码属于研究实现，已包含在03/src/hosted_support及hosted_batch.py；未公开的是实际托管导出/响应，不是调用服务的算法代码。ARTIFACTS的completion_commit记录这项补全，不伪改最初导入提交。
