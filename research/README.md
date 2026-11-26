@@ -18,3 +18,5 @@
 北门7.95米前导小试05a单列，源为正式NORTH-R1包内的原实现；与正式R1不混作同一次实验。缺失的WALKABILITY-R1没有重建或编造。代码/页面统计包含历史重复版本，不能解释为独立算法数。
 
 Geoapify适配器源代码属于研究实现，已包含在03/src/hosted_support及hosted_batch.py；未公开的是实际托管导出/响应，不是调用服务的算法代码。ARTIFACTS的completion_commit记录这项补全，不伪改最初导入提交。
+
+公开检查见PUBLICATION_AUDIT.json；最新R3图册30张图的离线阅读检查见PUBLIC_BROWSER_CHECK.json。当前授权为公开研究成果同步，不等于G0/G1/G2或科学泛化验收通过。
