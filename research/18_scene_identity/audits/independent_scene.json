@@ -1,0 +1,92 @@
+{
+  "reviewer": "/root/recon_independent",
+  "checked_at": "2026-11-12T21:49:46.930022+00:00",
+  "status": "PASS_SOURCE_SCENE_AND_TARGET_ANCHORED_VIEWS",
+  "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "raw_drawable_objects_in_block": 914,
+  "exported_context_objects": 914,
+  "packaged_full_raw_records_checked_against_original": 58006,
+  "packaged_full_source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "source_object_failures": [],
+  "views": [
+    {
+      "view_id": "block_context",
+      "objects": 914,
+      "target_fully_inside": true,
+      "both_original_doors_inside": true,
+      "bounds_xy": [
+        353750,
+        3455750,
+        354570,
+        3456570
+      ],
+      "viewport_hash": "e67b8640e3e326b8a02496e9c717d59b9d07b69b878585a2041f7f3727f93aa7"
+    },
+    {
+      "view_id": "target_overview",
+      "objects": 407,
+      "target_fully_inside": true,
+      "both_original_doors_inside": true,
+      "bounds_xy": [
+        353880,
+        3455900,
+        354540,
+        3456330
+      ],
+      "viewport_hash": "32b544383d7803ecb9ae9e721b1a24d15866be53ab7fabbcebe5bda5b37025fc"
+    },
+    {
+      "view_id": "huangpi_detail",
+      "objects": 727,
+      "target_fully_inside": true,
+      "both_original_doors_inside": true,
+      "bounds_xy": [
+        353810,
+        3455810,
+        354510,
+        3456510
+      ],
+      "viewport_hash": "204dc529bab5ae29baa969848119db944abd017d1e6c0825da3421b188905e2e"
+    },
+    {
+      "view_id": "south_detail",
+      "objects": 127,
+      "target_fully_inside": true,
+      "both_original_doors_inside": true,
+      "bounds_xy": [
+        354266.35132172017,
+        3455965.105993877,
+        354526.35132172017,
+        3456225.105993877
+      ],
+      "viewport_hash": "d7477922ed4e09f3d1a6195cf922efe472b5595b6d5393990e7986d170d04b7a"
+    },
+    {
+      "view_id": "north_detail",
+      "objects": 107,
+      "target_fully_inside": true,
+      "both_original_doors_inside": true,
+      "bounds_xy": [
+        354214.3888134466,
+        3456033.0891986894,
+        354474.3888134466,
+        3456293.0891986894
+      ],
+      "viewport_hash": "0128a8de1faf9781639014f6c15fdf3a79ebcd47680759d86d8c46313d2a710e"
+    }
+  ],
+  "all_target_identity_and_original_door_checks": true,
+  "all7roads_complete_in_block_and_road_detail": true,
+  "block_window_independent_union_rule": [
+    353750,
+    3455750,
+    354570,
+    3456570
+  ],
+  "same_name_platform_not_in_roadset": "way/478271881",
+  "independent_current_field_reference": "REAL_WORLD_GEOMETRY_UNVERIFIED",
+  "algorithm_runs_added": 0,
+  "solver_calls_added": 0,
+  "BFS_calls_added": 0,
+  "routing_graph_rebuilds_added": 0
+}

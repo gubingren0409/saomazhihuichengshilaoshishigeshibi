@@ -1,0 +1,103 @@
+{
+  "started_at": "2026-11-13T05:36:07+08:00",
+  "checked_at": "2026-11-13T05:38:27.423254+08:00",
+  "input_zip_sha256": "6d781978e8cbb5b03704dffccc929cc08abbc88d58b3100b333e13b0303e3cbe",
+  "input_manifest_records": 3,
+  "archives": [
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\delivery\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1_REVIEW.zip",
+      "sha256": "04100802bf631379177bc96991e442c5e108ee4d4d926022835217b8211ce110",
+      "members": 107,
+      "manifest_records": 106,
+      "full_CRC_SHA": "PASS"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\PG1_RESUME_STREET_SIDE_R1_REVIEW_FIXED.zip",
+      "sha256": "6b2db66e8347603c2aa346810846f4d6c5cf39e2e830f12a162b0e6c6e9485ab",
+      "members": 130,
+      "manifest_records": 129,
+      "full_CRC_SHA": "PASS"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+      "sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+      "members": 344,
+      "manifest_records": 343,
+      "full_CRC_SHA": "PASS"
+    }
+  ],
+  "old_git_indices": [
+    {
+      "path": "E:\\智慧城市和位置服务\\.git\\index",
+      "exists": true,
+      "sha256": "4216b12478e717dcb367733fbbb430911edf77b785c1d3fc9ebd9cd8a80e2bd4"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services\\.git\\index",
+      "exists": true,
+      "sha256": "67f47e86c92bc814144043bdb235f62149b9e0d95aad58cbec356fa68e7f2f0f"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\repository\\.git\\index",
+      "exists": true,
+      "sha256": "b1a6843b2bec15aa68f33229fa8d9d629e62224e4103714c4f54eab37a8219d6"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\repository\\.git\\index",
+      "exists": true,
+      "sha256": "03525ed495f231d7f9f737d459d277cc8afff91584a2e80481aeef2420164dbb"
+    }
+  ],
+  "old_repositories": [
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\repository",
+      "HEAD": "ddd1927c8cac86e30c2cd8fd023304efd8b1aa34",
+      "status": ""
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\repository",
+      "HEAD": "1ab7fd75704d98e85fe4e69a85dc828e7df2ffb5",
+      "status": ""
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\repository",
+      "HEAD": "3134c0ea68e00871ed6dc86ca7bc905071449dae",
+      "status": ""
+    }
+  ],
+  "old_services": [
+    {
+      "pid": 99416,
+      "port": 53511,
+      "exists": true,
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\serve_review.py",
+        "--port",
+        "53511"
+      ],
+      "created_at": "2026-11-13T03:39:50.017499+08:00",
+      "listen": true
+    },
+    {
+      "pid": 119704,
+      "port": 53521,
+      "exists": true,
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\scripts\\serve_review.py",
+        "--port",
+        "53521"
+      ],
+      "created_at": "2026-11-13T04:32:31.087013+08:00",
+      "listen": true
+    }
+  ],
+  "memory_available_bytes": 2952572928
+}

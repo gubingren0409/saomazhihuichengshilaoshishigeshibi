@@ -1,0 +1,135 @@
+{
+  "status": "TARGET_SOURCE_COVERAGE_PASS",
+  "target_building": "way/161090899",
+  "source_geometry_valid": true,
+  "both_door_original_nodes_on_boundary": true,
+  "road_way_count": 7,
+  "same_name_platform_excluded": true,
+  "all7roads_fullinside_block": true,
+  "views": [
+    {
+      "id": "block_context",
+      "target_building_fully_inside": true,
+      "both_registered_doors_inside": true,
+      "source_count": 914
+    },
+    {
+      "id": "target_overview",
+      "target_building_fully_inside": true,
+      "both_registered_doors_inside": true,
+      "source_count": 407
+    },
+    {
+      "id": "huangpi_detail",
+      "target_building_fully_inside": true,
+      "both_registered_doors_inside": true,
+      "source_count": 727
+    },
+    {
+      "id": "south_detail",
+      "target_building_fully_inside": true,
+      "both_registered_doors_inside": true,
+      "source_count": 127
+    },
+    {
+      "id": "north_detail",
+      "target_building_fully_inside": true,
+      "both_registered_doors_inside": true,
+      "source_count": 107
+    }
+  ],
+  "scene_identity_not_real_world_accuracy": "Sourceobjectidentityverified; noindependentcurrentgeoreferencedreferencefound",
+  "world_geometry_status": "REAL_WORLD_GEOMETRY_UNVERIFIED",
+  "actual_render_source_artist_checks": [
+    {
+      "figure": "target_context_full",
+      "view_id": "block_context",
+      "variant": null,
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    },
+    {
+      "figure": "target_approach_overview",
+      "view_id": "target_overview",
+      "variant": null,
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    },
+    {
+      "figure": "huangpi_north_road_detail",
+      "view_id": "huangpi_detail",
+      "variant": null,
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    },
+    {
+      "figure": "south_entrance_detail",
+      "view_id": "south_detail",
+      "variant": null,
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    },
+    {
+      "figure": "north_exit_detail",
+      "view_id": "north_detail",
+      "variant": null,
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    },
+    {
+      "figure": "R0_R1_R2_same_extent",
+      "view_id": "block_context",
+      "variant": "R0",
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    },
+    {
+      "figure": "R0_R1_R2_same_extent",
+      "view_id": "block_context",
+      "variant": "R1",
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    },
+    {
+      "figure": "R0_R1_R2_same_extent",
+      "view_id": "block_context",
+      "variant": "R2",
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    },
+    {
+      "figure": "source_vs_algorithm",
+      "view_id": "block_context",
+      "variant": null,
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    },
+    {
+      "figure": "source_vs_algorithm",
+      "view_id": "block_context",
+      "variant": "R2",
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    },
+    {
+      "figure": "object_provenance_inspection",
+      "view_id": "target_overview",
+      "variant": null,
+      "target_source_artist_present": true,
+      "South_native_point_present": true,
+      "North_native_point_present": true
+    }
+  ],
+  "actual_render_source_artists_present": true,
+  "visual_recognizability": "See actual author and independent image/browser review; artistpresence alone is not real-world validation"
+}

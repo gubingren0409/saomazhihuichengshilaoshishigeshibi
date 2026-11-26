@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:53531/",
+  "port": 53531,
+  "pid": 122288,
+  "start": "python -X utf8 -B src/serve_review.py --port 53531",
+  "foreground_stop": "Ctrl+C",
+  "this_instance_stop": "Stop-Process -Id 122288",
+  "old_services_not_stopped": true,
+  "scope": "Read-only static map/page, no solver backend"
+}

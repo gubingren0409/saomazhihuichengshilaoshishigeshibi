@@ -1,0 +1,1786 @@
+{
+  "reviewer": "/root/recon_independent",
+  "checked_at": "2026-11-12T21:46:59.790251+00:00",
+  "status": "PASS_SOURCE_TARGET_IDENTITY",
+  "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "target_raw": {
+    "type": "way",
+    "id": 161090899,
+    "nodes": [
+      1891590950,
+      1890745401,
+      6897141353,
+      1890745448,
+      1891590903,
+      476675046,
+      1730907217,
+      1730907215,
+      6897145227,
+      1730907212,
+      1730907214,
+      476675043,
+      1891590950
+    ],
+    "tags": {
+      "addr:housenumber": "201",
+      "addr:street": "人民大道",
+      "building": "yes",
+      "contact:bilibili": "586852858",
+      "contact:instagram": "theshanghaimuseum",
+      "contact:phone": "+86-21-63723500-132",
+      "contact:tiktok": "MS4wLjABAAAAvgW-hMLuZNKCgJaueieZXzqQrEeaAace1q-NmJlZ_oE",
+      "contact:twitter": "ShanghaiMuseum",
+      "contact:weibo": "6584156654",
+      "contact:youtube": "@theshanghaimuseum3655",
+      "fee": "no",
+      "name": "上海博物馆",
+      "name:en": "Shanghai Museum",
+      "name:fr": "Musée de Shanghaï",
+      "name:hi": "शंघाई संग्रहालय",
+      "name:pt": "Museu de Shanghai (People Square)",
+      "name:ru": "Шанхайский музей",
+      "name:zh": "上海博物馆",
+      "name:zh-Hans": "上海博物馆",
+      "name:zh-Hant": "上海博物館",
+      "opening_hours": "Mo-Su 09:00-17:00",
+      "toilets:wheelchair": "no",
+      "tourism": "museum",
+      "website": "https://www.shanghaimuseum.net/",
+      "website:en": "https://www.shanghaimuseum.net/mu/frontend/pg/en/index",
+      "wheelchair": "yes",
+      "wikidata": "Q1051293",
+      "wikipedia": "zh:上海博物馆"
+    },
+    "version": 21
+  },
+  "target_bounds_xy": [
+    354311.2067927949,
+    3456055.521474262,
+    354447.95565824304,
+    3456186.7269163537
+  ],
+  "target_centroid_xy": [
+    354372.4324775354,
+    3456124.4186801356
+  ],
+  "target_native_relation": "Standalone closed buildingway with13references includingrepeatclosure; bothregistereddoorsliteralwaymembers",
+  "entrances": [
+    {
+      "source_id": "node/6897141353",
+      "raw": {
+        "type": "node",
+        "id": 6897141353,
+        "lon": 121.4712158,
+        "lat": 31.2299607,
+        "tags": {
+          "entrance": "main"
+        },
+        "version": 2
+      },
+      "xy": [
+        354396.35132172017,
+        3456095.105993877
+      ],
+      "native_member_of_target": true,
+      "boundary_distance_m": 0.0
+    },
+    {
+      "source_id": "node/6897145227",
+      "raw": {
+        "type": "node",
+        "id": 6897145227,
+        "lon": 121.4706605,
+        "lat": 31.2305674,
+        "tags": {
+          "entrance": "exit"
+        },
+        "version": 2
+      },
+      "xy": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "native_member_of_target": true,
+      "boundary_distance_m": 0.0
+    }
+  ],
+  "huangpi_road_ways": [
+    {
+      "source_id": "way/10628430",
+      "raw": {
+        "type": "way",
+        "id": 10628430,
+        "nodes": [
+          71127847,
+          1890811965,
+          10296384648,
+          477576916
+        ],
+        "tags": {
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lanes": "2",
+          "name": "黄陂北路",
+          "name:en": "North Huangpi Road",
+          "name:zh": "黄陂北路",
+          "name:zh-Hans": "黄陂北路",
+          "name:zh-Hant": "黃陂北路",
+          "surface": "asphalt",
+          "trolley_wire": "yes"
+        },
+        "version": 24
+      },
+      "bounds_xy": [
+        354063.8245824295,
+        3455959.440217462,
+        354107.07794057904,
+        3456043.247050448
+      ],
+      "source_polyline_length_m": 94.33052212029209,
+      "shared_source_nodes": [
+        {
+          "source_node_id": 71127847,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/24576913",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            },
+            {
+              "source_id": "way/449565665",
+              "name": "武胜路",
+              "highway": "residential"
+            },
+            {
+              "source_id": "way/1131969257",
+              "name": "武胜路",
+              "highway": "residential"
+            }
+          ]
+        },
+        {
+          "source_node_id": 477576916,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/39838751",
+              "name": "大沽路",
+              "highway": "residential"
+            },
+            {
+              "source_id": "way/1125986386",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "way/24576913",
+      "raw": {
+        "type": "way",
+        "id": 24576913,
+        "nodes": [
+          71127847,
+          1890812009,
+          1890812067,
+          1890812037,
+          1890811951,
+          1890811880,
+          9778597704,
+          267195068,
+          1890811911,
+          848254817,
+          1928785175,
+          267195150
+        ],
+        "tags": {
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lanes": "2",
+          "name": "黄陂北路",
+          "name:en": "North Huangpi Road",
+          "name:zh": "黄陂北路",
+          "name:zh-Hans": "黄陂北路",
+          "name:zh-Hant": "黃陂北路"
+        },
+        "version": 32
+      },
+      "bounds_xy": [
+        354006.8836769974,
+        3456043.247050448,
+        354063.8245824295,
+        3456108.662379727
+      ],
+      "source_polyline_length_m": 89.59616379661776,
+      "shared_source_nodes": [
+        {
+          "source_node_id": 71127847,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/10628430",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            },
+            {
+              "source_id": "way/449565665",
+              "name": "武胜路",
+              "highway": "residential"
+            },
+            {
+              "source_id": "way/1131969257",
+              "name": "武胜路",
+              "highway": "residential"
+            }
+          ]
+        },
+        {
+          "source_node_id": 1890811951,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/178723092",
+              "name": "人民广场地下停车场",
+              "highway": "service"
+            },
+            {
+              "source_id": "way/178723093",
+              "name": "人民广场地下停车场",
+              "highway": "service"
+            }
+          ]
+        },
+        {
+          "source_node_id": 1928785175,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/161086368",
+              "name": null,
+              "highway": "cycleway"
+            }
+          ]
+        },
+        {
+          "source_node_id": 267195150,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/24576922",
+              "name": "人民大道",
+              "highway": "tertiary"
+            },
+            {
+              "source_id": "way/1074771160",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "way/513272949",
+      "raw": {
+        "type": "way",
+        "id": 513272949,
+        "nodes": [
+          5002541034,
+          476794486
+        ],
+        "tags": {
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lanes": "2",
+          "name": "黄陂北路",
+          "name:en": "North Huangpi Road",
+          "surface": "asphalt",
+          "trolley_wire": "yes"
+        },
+        "version": 2
+      },
+      "bounds_xy": [
+        354140.5838504839,
+        3455878.8301286395,
+        354145.2792548331,
+        3455887.875580609
+      ],
+      "source_polyline_length_m": 10.19151722429751,
+      "shared_source_nodes": [
+        {
+          "source_node_id": 5002541034,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/511404873",
+              "name": "延安东路",
+              "highway": "primary"
+            },
+            {
+              "source_id": "way/513272950",
+              "name": "延安东路",
+              "highway": "primary"
+            },
+            {
+              "source_id": "way/1125986386",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            }
+          ]
+        },
+        {
+          "source_node_id": 476794486,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/39838530",
+              "name": null,
+              "highway": "tertiary"
+            },
+            {
+              "source_id": "way/666886084",
+              "name": "延安东路",
+              "highway": "primary"
+            },
+            {
+              "source_id": "way/1100626087",
+              "name": "延安东路",
+              "highway": "primary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "way/654297629",
+      "raw": {
+        "type": "way",
+        "id": 654297629,
+        "nodes": [
+          477568284,
+          13075885199,
+          476682036,
+          476682057,
+          267195069,
+          602259562,
+          477575777,
+          4353429880,
+          620101576,
+          4397696163,
+          5437083667,
+          5437083665,
+          5437083703,
+          5437083666,
+          132491635
+        ],
+        "tags": {
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lanes": "2",
+          "name": "黄陂北路",
+          "name:en": "North Huangpi Road",
+          "name:zh": "黄陂北路",
+          "name:zh-Hans": "黄陂北路",
+          "name:zh-Hant": "黃陂北路"
+        },
+        "version": 3
+      },
+      "bounds_xy": [
+        353874.3419962933,
+        3456162.859465331,
+        353977.00637814496,
+        3456445.4356357655
+      ],
+      "source_polyline_length_m": 303.09390814421056,
+      "shared_source_nodes": [
+        {
+          "source_node_id": 477568284,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/39838520",
+              "name": "威海路",
+              "highway": "residential"
+            },
+            {
+              "source_id": "way/1074409256",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            }
+          ]
+        },
+        {
+          "source_node_id": 476682036,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/39764601",
+              "name": null,
+              "highway": "footway"
+            }
+          ]
+        },
+        {
+          "source_node_id": 476682057,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/39764609",
+              "name": null,
+              "highway": "footway"
+            }
+          ]
+        },
+        {
+          "source_node_id": 602259562,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/165953415",
+              "name": null,
+              "highway": "footway"
+            }
+          ]
+        },
+        {
+          "source_node_id": 477575777,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/39838691",
+              "name": "江阴路",
+              "highway": "residential"
+            }
+          ]
+        },
+        {
+          "source_node_id": 4397696163,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/48872352",
+              "name": null,
+              "highway": "service"
+            }
+          ]
+        },
+        {
+          "source_node_id": 5437083703,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/564273562",
+              "name": null,
+              "highway": "footway"
+            }
+          ]
+        },
+        {
+          "source_node_id": 132491635,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/131671623",
+              "name": "南京西路",
+              "highway": "secondary"
+            },
+            {
+              "source_id": "way/279209078",
+              "name": null,
+              "highway": "tertiary_link"
+            },
+            {
+              "source_id": "way/564273552",
+              "name": "南京西路",
+              "highway": "secondary"
+            },
+            {
+              "source_id": "way/564273553",
+              "name": "南京西路",
+              "highway": "secondary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "way/1074409256",
+      "raw": {
+        "type": "way",
+        "id": 1074409256,
+        "nodes": [
+          476675200,
+          9854898689,
+          1928785178,
+          5021317172,
+          477568284
+        ],
+        "tags": {
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lanes": "2",
+          "name": "黄陂北路",
+          "name:en": "North Huangpi Road",
+          "name:zh": "黄陂北路",
+          "name:zh-Hans": "黄陂北路",
+          "name:zh-Hant": "黃陂北路"
+        },
+        "version": 3
+      },
+      "bounds_xy": [
+        353977.00637814496,
+        3456118.84583558,
+        354000.88003603497,
+        3456162.859465331
+      ],
+      "source_polyline_length_m": 50.07282264606367,
+      "shared_source_nodes": [
+        {
+          "source_node_id": 476675200,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/39763700",
+              "name": "人民大道",
+              "highway": "tertiary"
+            },
+            {
+              "source_id": "way/71269782",
+              "name": "武胜路",
+              "highway": "residential"
+            },
+            {
+              "source_id": "way/1074771160",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            }
+          ]
+        },
+        {
+          "source_node_id": 1928785178,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/161086369",
+              "name": null,
+              "highway": "cycleway"
+            }
+          ]
+        },
+        {
+          "source_node_id": 5021317172,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/513764740",
+              "name": null,
+              "highway": "footway"
+            }
+          ]
+        },
+        {
+          "source_node_id": 477568284,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/39838520",
+              "name": "威海路",
+              "highway": "residential"
+            },
+            {
+              "source_id": "way/654297629",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "way/1074771160",
+      "raw": {
+        "type": "way",
+        "id": 1074771160,
+        "nodes": [
+          267195150,
+          476675200
+        ],
+        "tags": {
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lanes": "2",
+          "name": "黄陂北路",
+          "name:en": "North Huangpi Road",
+          "name:zh": "黄陂北路",
+          "name:zh-Hans": "黄陂北路",
+          "name:zh-Hant": "黃陂北路"
+        },
+        "version": 2
+      },
+      "bounds_xy": [
+        354000.88003603497,
+        3456108.662379727,
+        354006.8836769974,
+        3456118.84583558
+      ],
+      "source_polyline_length_m": 11.82144144852195,
+      "shared_source_nodes": [
+        {
+          "source_node_id": 267195150,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/24576913",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            },
+            {
+              "source_id": "way/24576922",
+              "name": "人民大道",
+              "highway": "tertiary"
+            }
+          ]
+        },
+        {
+          "source_node_id": 476675200,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/39763700",
+              "name": "人民大道",
+              "highway": "tertiary"
+            },
+            {
+              "source_id": "way/71269782",
+              "name": "武胜路",
+              "highway": "residential"
+            },
+            {
+              "source_id": "way/1074409256",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "way/1125986386",
+      "raw": {
+        "type": "way",
+        "id": 1125986386,
+        "nodes": [
+          477576916,
+          5002541034
+        ],
+        "tags": {
+          "cycleway": "lane",
+          "highway": "tertiary",
+          "lanes": "2",
+          "name": "黄陂北路",
+          "name:en": "North Huangpi Road",
+          "name:zh": "黄陂北路",
+          "name:zh-Hans": "黄陂北路",
+          "name:zh-Hant": "黃陂北路",
+          "surface": "asphalt",
+          "trolley_wire": "yes"
+        },
+        "version": 3
+      },
+      "bounds_xy": [
+        354107.07794057904,
+        3455887.875580609,
+        354140.5838504839,
+        3455959.440217462
+      ],
+      "source_polyline_length_m": 79.01989146070214,
+      "shared_source_nodes": [
+        {
+          "source_node_id": 477576916,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/10628430",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            },
+            {
+              "source_id": "way/39838751",
+              "name": "大沽路",
+              "highway": "residential"
+            }
+          ]
+        },
+        {
+          "source_node_id": 5002541034,
+          "same_native_node_highways": [
+            {
+              "source_id": "way/511404873",
+              "name": "延安东路",
+              "highway": "primary"
+            },
+            {
+              "source_id": "way/513272949",
+              "name": "黄陂北路",
+              "highway": "tertiary"
+            },
+            {
+              "source_id": "way/513272950",
+              "name": "延安东路",
+              "highway": "primary"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "same_name_bus_platform_not_road": [
+    {
+      "type": "way",
+      "id": 478271881,
+      "nodes": [
+        4715079381,
+        10073042342,
+        10073042341,
+        4715079382
+      ],
+      "tags": {
+        "bench": "yes",
+        "highway": "platform",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "name:zh-Hans": "黄陂北路",
+        "name:zh-Hant": "黄陂北路",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "version": 7
+    }
+  ],
+  "road_chain_geo_check": {
+    "method": "GISlinemergeoforiginalsourcepolylines; notroutegraphorsearch",
+    "merged_geometry_type": "LineString",
+    "unpaired_source_end_nodes": [
+      132491635,
+      476794486
+    ],
+    "bounds_xy": [
+      353874.3419962933,
+      3455878.8301286395,
+      354145.2792548331,
+      3456445.4356357655
+    ]
+  },
+  "confounders": [
+    {
+      "source_id": "node/5437083655",
+      "tags": {
+        "bus": "yes",
+        "name": "上海历史博物馆",
+        "name:zh": "上海历史博物馆",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "source_id": "node/5530017322",
+      "tags": {
+        "addr:housenumber": "325",
+        "addr:street": "南京西路",
+        "museum": "history",
+        "name": "上海市历史博物馆",
+        "name:en": "Shanghai History Museum",
+        "name:zh": "上海市历史博物馆",
+        "name:zh-Hans": "上海市历史博物馆",
+        "name:zh-Hant": "上海市歷史博物館",
+        "toilets:wheelchair": "no",
+        "tourism": "museum",
+        "wheelchair": "yes",
+        "wikidata": "Q779273",
+        "wikimedia_commons": "Category:Shanghai History Museum",
+        "wikipedia": "zh:上海市历史博物馆"
+      }
+    },
+    {
+      "source_id": "node/12023157347",
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "上海历史博物馆",
+        "name:zh": "上海历史博物馆",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "source_id": "way/39763758",
+      "tags": {
+        "addr:city": "上海市",
+        "addr:housenumber": "300",
+        "addr:postcode": "200003",
+        "addr:street": "上海市人民大道",
+        "amenity": "theatre",
+        "architect": "Jean-Marie Charpentier",
+        "architect:wikidata": "Q296915",
+        "building": "yes",
+        "name": "上海大剧院",
+        "name:en": "Shanghai Grand Theatre",
+        "name:fr": "Opéra de Shanghai",
+        "name:zh": "上海大剧院",
+        "name:zh-Hans": "上海大剧院",
+        "name:zh-Hant": "上海大劇院",
+        "name:zh-Latn-pinyin": "Shànghǎidàjùyuàn",
+        "phone": "+86 21-5107 8885",
+        "tourism": "attraction",
+        "website": "http://www.dajuyuansh.com.cn/",
+        "wikidata": "Q1325611",
+        "wikimedia_commons": "Category:Shanghai Grand Theatre",
+        "wikipedia": "zh:上海大剧院"
+      }
+    }
+  ],
+  "prior_wrong_scene": {
+    "old_anchor": "way/39764359",
+    "actual_source_tags": {
+      "footway": "sidewalk",
+      "highway": "footway"
+    },
+    "old_window_bounds_xy": [
+      353729.5267431182,
+      3456270.902233435,
+      354049.5267431182,
+      3456590.902233435
+    ],
+    "old_window_intersects_target": false,
+    "old_window_contains_target": false,
+    "old_window_center_to_target_centroid_m": 571.9528973402714,
+    "old_queries": [
+      {
+        "query_id": "native-along",
+        "kind": "NATIVE_ALONG",
+        "road_id": "way/39764359",
+        "start_node": 13763096983,
+        "end_node": 1728701622,
+        "start_side": "left",
+        "end_side": "left",
+        "description": "NATIVE_ALONG",
+        "bindings": {
+          "R0": {
+            "start": "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+            "end": "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+            "meaning": "exact native source nodes"
+          },
+          "R1": {
+            "start": "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+            "end": "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+            "meaning": "exact native source nodes"
+          },
+          "R2": {
+            "start": "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+            "end": "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+            "meaning": "exact native source nodes"
+          }
+        },
+        "results": {
+          "R0": {
+            "status": "CONNECTED",
+            "solver_invoked": true,
+            "edge_ids": [
+              "R0:native:way/39764359:2",
+              "R0:native:way/39764359:3",
+              "R0:native:way/39764359:4",
+              "R0:native:way/39764359:5",
+              "R0:native:way/39764359:6",
+              "R0:native:way/39764359:7",
+              "R0:native:way/39764359:8",
+              "R0:native:way/39764359:9",
+              "R0:native:way/39764359:10",
+              "R0:native:way/39764359:11",
+              "R0:native:way/39764359:12",
+              "R0:native:way/39764359:13",
+              "R0:native:way/39764359:14"
+            ],
+            "node_path": [
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no",
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no",
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no"
+            ],
+            "cost_f1_proxy": 266.10326541632566,
+            "cost_f0_proxy": 266.10326541632566,
+            "source_line_reference_length_m": 266.10326541632566,
+            "hypothesis_edges": 0,
+            "schematic_edges": 0,
+            "physical_route_length_m": 266.10326541632566,
+            "popped_nodes": 120,
+            "distance_labels": {
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no": 0.0,
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no": 132.85034001405262,
+              "native:479442751:layer=0;level=0;bridge=no;tunnel=no": 40.94796684361568,
+              "native:602259562:layer=0;level=0;bridge=no;tunnel=no": 7.9928724941135405,
+              "native:479442750:layer=0;level=0;bridge=no;tunnel=no": 101.67770127288475,
+              "native:1774546618:layer=0;level=0;bridge=no;tunnel=no": 127.11740199830504,
+              "native:476682050:layer=0;level=0;bridge=no;tunnel=no": 127.6958934181601,
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no": 138.23037347261817,
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no": 144.80395744641245,
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no": 150.5958697224237,
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no": 156.19242453840175,
+              "native:5437083703:layer=0;level=0;bridge=no;tunnel=no": 163.0619361052971,
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no": 160.21361980588674,
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no": 166.59585201776596,
+              "native:5437083694:layer=0;level=0;bridge=no;tunnel=no": 180.8156745432883,
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no": 176.4569708953066,
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no": 186.37103545499193,
+              "native:5437083696:layer=0;level=0;bridge=no;tunnel=no": 195.12713165795384,
+              "native:5437083695:layer=0;level=0;bridge=no;tunnel=no": 188.8591076789868,
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no": 195.75556420143857,
+              "native:5437083702:layer=0;level=0;bridge=no;tunnel=no": 208.18397199882776,
+              "native:5437083697:layer=0;level=0;bridge=no;tunnel=no": 192.2375347588558,
+              "native:5437083698:layer=0;level=0;bridge=no;tunnel=no": 209.55887712425786,
+              "native:13763096987:layer=0;level=0;bridge=no;tunnel=no": 258.55211807158156,
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no": 221.2214007982831,
+              "native:5436983729:layer=0;level=0;bridge=no;tunnel=no": 219.6148996248173,
+              "native:13763096988:layer=0;level=0;bridge=no;tunnel=no": 310.7227964633057,
+              "native:5436983728:layer=0;level=0;bridge=no;tunnel=no": 225.96262433309326,
+              "native:5437083701:layer=0;level=0;bridge=no;tunnel=no": 223.9235000103549,
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no": 248.2075167279731,
+              "native:476680363:layer=0;level=0;bridge=no;tunnel=no": 256.3389473267271,
+              "native:5436983730:layer=0;level=0;bridge=no;tunnel=no": 227.9559289243012,
+              "native:5436983727:layer=0;level=0;bridge=no;tunnel=no": 236.01898851367227,
+              "native:5437083700:layer=0;level=0;bridge=no;tunnel=no": 235.9349173230066,
+              "native:5437083699:layer=0;level=0;bridge=no;tunnel=no": 244.094532101115,
+              "native:5436983723:layer=0;level=0;bridge=no;tunnel=no": 249.39272828083412,
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no": 266.10326541632566,
+              "native:5437083670:layer=0;level=0;bridge=no;tunnel=no": 256.2785167803789,
+              "native:5436983724:layer=0;level=0;bridge=no;tunnel=no": 262.542945588094,
+              "native:5436983726:layer=0;level=0;bridge=no;tunnel=no": 275.4722632120902,
+              "native:5436983616:layer=0;level=0;bridge=no;tunnel=no": 262.28291150707355,
+              "native:476680901:layer=0;level=0;bridge=no;tunnel=no": 294.1961909951098,
+              "native:1774546615:layer=0;level=0;bridge=no;tunnel=no": 278.5193181927127,
+              "native:1774546625:layer=0;level=0;bridge=no;tunnel=no": 284.60664422816205,
+              "native:4479328410:layer=0;level=0;bridge=no;tunnel=no": 295.0980156512843,
+              "native:4397696161:layer=0;level=0;bridge=no;tunnel=no": 259.6433170283514,
+              "native:13763096986:layer=0;level=0;bridge=no;tunnel=no": 270.94067884595887,
+              "native:4397696162:layer=0;level=0;bridge=no;tunnel=no": 316.90835395688566,
+              "native:5436983613:layer=0;level=0;bridge=no;tunnel=no": 273.92539762808343,
+              "native:5436983722:layer=0;level=0;bridge=no;tunnel=no": 275.49200443670793,
+              "native:4479328411:layer=0;level=0;bridge=no;tunnel=no": 305.4452744606948,
+              "native:477575777:layer=0;level=0;bridge=no;tunnel=no": 283.96079673613235,
+              "native:5436983612:layer=0;level=0;bridge=no;tunnel=no": 279.52473433453525,
+              "native:5436983615:layer=0;level=0;bridge=no;tunnel=no": 282.3915947170774,
+              "native:5436983725:layer=0;level=0;bridge=no;tunnel=no": 289.1038796542478,
+              "native:476681108:layer=0;level=0;bridge=no;tunnel=no": 302.343666027646,
+              "native:1774546585:layer=0;level=0;bridge=no;tunnel=no": 305.27473942567946,
+              "native:5436983611:layer=0;level=0;bridge=no;tunnel=no": 293.9119321680402,
+              "native:5436983731:layer=0;level=0;bridge=no;tunnel=no": 310.1389210757339,
+              "native:1774546579:layer=0;level=0;bridge=no;tunnel=no": 306.13740920320913,
+              "native:11936982404:layer=0;level=0;bridge=no;tunnel=no": 299.85837505438644,
+              "native:7116097510:layer=0;level=0;bridge=no;tunnel=no": 319.33175801573634,
+              "native:476680903:layer=0;level=0;bridge=no;tunnel=no": 327.5538010710998,
+              "native:620101575:layer=0;level=0;bridge=no;tunnel=no": 328.2259902450235,
+              "native:1774546573:layer=0;level=0;bridge=no;tunnel=no": 307.90460066263665,
+              "native:1774546587:layer=0;level=0;bridge=no;tunnel=no": 309.3538126375842,
+              "native:1774546595:layer=0;level=0;bridge=no;tunnel=no": 321.76455802329644,
+              "native:4464835965:layer=0;level=0;bridge=no;tunnel=no": 315.9601842853169,
+              "native:1774546581:layer=0;level=0;bridge=no;tunnel=no": 347.2028069251607,
+              "native:476681109:layer=0;level=0;bridge=no;tunnel=no": 325.9799079741449,
+              "native:1774546621:layer=0;level=0;bridge=no;tunnel=no": 316.132639573945,
+              "native:620101572:layer=0;level=0;bridge=no;tunnel=no": 365.1345830579993,
+              "native:477575763:layer=0;level=0;bridge=no;tunnel=no": 351.2256645437723,
+              "native:4464835970:layer=0;level=0;bridge=no;tunnel=no": 340.38682528143136,
+              "native:1774546592:layer=0;level=0;bridge=no;tunnel=no": 334.8392479729016,
+              "native:4397696163:layer=0;level=0;bridge=no;tunnel=no": 330.5556388013026,
+              "native:3906828085:layer=0;level=0;bridge=no;tunnel=no": 346.9566422316237,
+              "native:476675362:layer=0;level=0;bridge=no;tunnel=no": 327.64067075093044,
+              "native:5436983610:layer=0;level=0;bridge=no;tunnel=no": 331.853178778504,
+              "native:1774546600:layer=0;level=0;bridge=no;tunnel=no": 338.36031942848354,
+              "native:479442698:layer=0;level=0;bridge=no;tunnel=no": 342.7751251749346,
+              "native:476680905:layer=0;level=0;bridge=no;tunnel=no": 347.67468425892855,
+              "native:620101574:layer=0;level=0;bridge=no;tunnel=no": 341.77174960158874,
+              "native:11936982399:layer=0;level=0;bridge=no;tunnel=no": 348.6934212574726,
+              "native:4464835969:layer=0;level=0;bridge=no;tunnel=no": 361.39797742190046,
+              "native:4464835971:layer=0;level=0;bridge=no;tunnel=no": 362.28157068524894,
+              "native:620101573:layer=0;level=0;bridge=no;tunnel=no": 353.3599633309585,
+              "native:11936982385:layer=0;level=0;bridge=no;tunnel=no": 350.55407155087727,
+              "native:479442746:layer=0;level=0;bridge=no;tunnel=no": 359.2669955782286,
+              "native:3906828087:layer=0;level=0;bridge=no;tunnel=no": 364.6182270417353,
+              "native:476772931:layer=0;level=0;bridge=no;tunnel=no": 358.3949416220098,
+              "native:476773261:layer=0;level=0;bridge=no;tunnel=no": 356.2189129072712,
+              "native:1774546577:layer=0;level=0;bridge=no;tunnel=no": 370.6898585685961,
+              "native:11936982386:layer=0;level=0;bridge=no;tunnel=no": 366.5290790674587,
+              "native:4337268711:layer=0;level=0;bridge=no;tunnel=no": 362.5139322108852,
+              "native:476681122:layer=0;level=0;bridge=no;tunnel=no": 372.7605114137283,
+              "native:11936982370:layer=0;level=0;bridge=no;tunnel=no": 372.97098238577524,
+              "native:8941646061:layer=0;level=0;bridge=no;tunnel=no": 400.79816133610325,
+              "native:477575747:layer=0;level=0;bridge=no;tunnel=no": 366.76251239783244,
+              "native:4337268710:layer=0;level=0;bridge=no;tunnel=no": 376.0472753985627,
+              "native:11936982387:layer=0;level=0;bridge=no;tunnel=no": 382.95332555624947,
+              "native:477575732:layer=0;level=0;bridge=no;tunnel=no": 390.0593785672687,
+              "native:1774546582:layer=0;level=0;bridge=no;tunnel=no": 380.42809401916804,
+              "native:476681121:layer=0;level=0;bridge=no;tunnel=no": 390.24233688218123,
+              "native:11936982388:layer=0;level=0;bridge=no;tunnel=no": 389.3601558122006,
+              "native:11936982375:layer=0;level=0;bridge=no;tunnel=no": 393.5259466527892,
+              "native:4381580529:layer=0;level=0;bridge=no;tunnel=no": 394.11672665561554,
+              "native:1728704271:layer=0;level=0;bridge=no;tunnel=no": 401.40251939199464,
+              "native:11936982374:layer=0;level=0;bridge=no;tunnel=no": 404.41304212393277,
+              "native:477575712:layer=0;level=0;bridge=no;tunnel=no": 412.68672470030265,
+              "native:476681036:layer=0;level=0;bridge=no;tunnel=no": 403.6571601184111,
+              "native:8941646060:layer=0;level=0;bridge=no;tunnel=no": 416.34649984132517,
+              "native:11936982373:layer=0;level=0;bridge=no;tunnel=no": 417.2244934925888,
+              "native:4464834316:layer=0;level=0;bridge=no;tunnel=no": 421.1557392982072,
+              "native:11936982372:layer=0;level=0;bridge=no;tunnel=no": 428.83904338088735,
+              "native:4465151264:layer=0;level=0;bridge=no;tunnel=no": 432.2071544068775,
+              "native:11936982371:layer=0;level=0;bridge=no;tunnel=no": 437.13244655455577,
+              "native:4465151265:layer=0;level=0;bridge=no;tunnel=no": 453.7948027335471,
+              "native:4479305195:layer=0;level=0;bridge=no;tunnel=no": 473.23283895520956,
+              "native:4479305196:layer=0;level=0;bridge=no;tunnel=no": 499.4543240872925
+            },
+            "length_interpretation": "MAPPED_NATIVE_PEDESTRIAN_LINE_LENGTH_NOT_FIELD_WALKING_TRUTH",
+            "qualified_from_original_registry": false,
+            "current_formal_attempt": 19
+          },
+          "R1": {
+            "status": "CONNECTED",
+            "solver_invoked": true,
+            "edge_ids": [
+              "R1:native:way/39764359:2",
+              "R1:native:way/39764359:3",
+              "R1:native:way/39764359:4",
+              "R1:native:way/39764359:5",
+              "R1:native:way/39764359:6",
+              "R1:native:way/39764359:7",
+              "R1:native:way/39764359:8",
+              "R1:native:way/39764359:9",
+              "R1:native:way/39764359:10",
+              "R1:native:way/39764359:11",
+              "R1:native:way/39764359:12",
+              "R1:native:way/39764359:13",
+              "R1:native:way/39764359:14"
+            ],
+            "node_path": [
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no",
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no",
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no"
+            ],
+            "cost_f1_proxy": 266.10326541632566,
+            "cost_f0_proxy": 266.10326541632566,
+            "source_line_reference_length_m": 266.10326541632566,
+            "hypothesis_edges": 0,
+            "schematic_edges": 0,
+            "physical_route_length_m": 266.10326541632566,
+            "popped_nodes": 91,
+            "distance_labels": {
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no": 0.0,
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no": 132.85034001405262,
+              "native:479442751:layer=0;level=0;bridge=no;tunnel=no": 40.94796684361568,
+              "native:602259562:layer=0;level=0;bridge=no;tunnel=no": 7.9928724941135405,
+              "native:479442750:layer=0;level=0;bridge=no;tunnel=no": 101.67770127288475,
+              "native:1774546618:layer=0;level=0;bridge=no;tunnel=no": 127.11740199830504,
+              "native:476682050:layer=0;level=0;bridge=no;tunnel=no": 127.6958934181601,
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no": 138.23037347261817,
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no": 144.80395744641245,
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no": 150.5958697224237,
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no": 156.19242453840175,
+              "native:5437083703:layer=0;level=0;bridge=no;tunnel=no": 163.0619361052971,
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no": 160.21361980588674,
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no": 166.59585201776596,
+              "native:5437083694:layer=0;level=0;bridge=no;tunnel=no": 180.8156745432883,
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no": 176.4569708953066,
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no": 186.37103545499193,
+              "native:5437083696:layer=0;level=0;bridge=no;tunnel=no": 195.12713165795384,
+              "native:5437083695:layer=0;level=0;bridge=no;tunnel=no": 188.8591076789868,
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no": 195.75556420143857,
+              "native:5437083702:layer=0;level=0;bridge=no;tunnel=no": 208.18397199882776,
+              "native:5437083697:layer=0;level=0;bridge=no;tunnel=no": 192.2375347588558,
+              "native:5437083698:layer=0;level=0;bridge=no;tunnel=no": 209.55887712425786,
+              "native:13763096987:layer=0;level=0;bridge=no;tunnel=no": 258.55211807158156,
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no": 221.2214007982831,
+              "native:5436983729:layer=0;level=0;bridge=no;tunnel=no": 219.6148996248173,
+              "native:13763096988:layer=0;level=0;bridge=no;tunnel=no": 310.7227964633057,
+              "native:5436983728:layer=0;level=0;bridge=no;tunnel=no": 225.96262433309326,
+              "native:5437083701:layer=0;level=0;bridge=no;tunnel=no": 223.9235000103549,
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no": 248.2075167279731,
+              "native:476680363:layer=0;level=0;bridge=no;tunnel=no": 256.3389473267271,
+              "native:5436983730:layer=0;level=0;bridge=no;tunnel=no": 227.9559289243012,
+              "native:5436983727:layer=0;level=0;bridge=no;tunnel=no": 236.01898851367227,
+              "native:5437083700:layer=0;level=0;bridge=no;tunnel=no": 235.9349173230066,
+              "native:5437083699:layer=0;level=0;bridge=no;tunnel=no": 244.094532101115,
+              "native:5436983723:layer=0;level=0;bridge=no;tunnel=no": 249.39272828083412,
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no": 266.10326541632566,
+              "native:5437083670:layer=0;level=0;bridge=no;tunnel=no": 256.2785167803789,
+              "native:5436983724:layer=0;level=0;bridge=no;tunnel=no": 262.542945588094,
+              "native:5436983726:layer=0;level=0;bridge=no;tunnel=no": 275.4722632120902,
+              "native:5436983616:layer=0;level=0;bridge=no;tunnel=no": 262.28291150707355,
+              "native:476680901:layer=0;level=0;bridge=no;tunnel=no": 294.1961909951098,
+              "native:1774546615:layer=0;level=0;bridge=no;tunnel=no": 278.5193181927127,
+              "native:1774546625:layer=0;level=0;bridge=no;tunnel=no": 284.60664422816205,
+              "native:13763096986:layer=0;level=0;bridge=no;tunnel=no": 270.94067884595887,
+              "native:5436983613:layer=0;level=0;bridge=no;tunnel=no": 273.92539762808343,
+              "native:5436983722:layer=0;level=0;bridge=no;tunnel=no": 275.49200443670793,
+              "native:5436983612:layer=0;level=0;bridge=no;tunnel=no": 279.52473433453525,
+              "native:5436983615:layer=0;level=0;bridge=no;tunnel=no": 282.3915947170774,
+              "native:5436983725:layer=0;level=0;bridge=no;tunnel=no": 289.1038796542478,
+              "native:476681108:layer=0;level=0;bridge=no;tunnel=no": 302.343666027646,
+              "native:1774546585:layer=0;level=0;bridge=no;tunnel=no": 305.27473942567946,
+              "native:5436983611:layer=0;level=0;bridge=no;tunnel=no": 293.9119321680402,
+              "native:5436983731:layer=0;level=0;bridge=no;tunnel=no": 310.1389210757339,
+              "native:1774546579:layer=0;level=0;bridge=no;tunnel=no": 306.13740920320913,
+              "native:11936982404:layer=0;level=0;bridge=no;tunnel=no": 299.85837505438644,
+              "native:7116097510:layer=0;level=0;bridge=no;tunnel=no": 319.33175801573634,
+              "native:476680903:layer=0;level=0;bridge=no;tunnel=no": 327.5538010710998,
+              "native:1774546573:layer=0;level=0;bridge=no;tunnel=no": 307.90460066263665,
+              "native:1774546587:layer=0;level=0;bridge=no;tunnel=no": 309.3538126375842,
+              "native:1774546595:layer=0;level=0;bridge=no;tunnel=no": 321.76455802329644,
+              "native:1774546581:layer=0;level=0;bridge=no;tunnel=no": 347.2028069251607,
+              "native:476681109:layer=0;level=0;bridge=no;tunnel=no": 325.9799079741449,
+              "native:1774546621:layer=0;level=0;bridge=no;tunnel=no": 316.132639573945,
+              "native:1774546592:layer=0;level=0;bridge=no;tunnel=no": 334.8392479729016,
+              "native:5436983610:layer=0;level=0;bridge=no;tunnel=no": 331.853178778504,
+              "native:1774546600:layer=0;level=0;bridge=no;tunnel=no": 338.36031942848354,
+              "native:479442698:layer=0;level=0;bridge=no;tunnel=no": 342.7751251749346,
+              "native:476680905:layer=0;level=0;bridge=no;tunnel=no": 347.67468425892855,
+              "native:11936982399:layer=0;level=0;bridge=no;tunnel=no": 348.6934212574726,
+              "native:11936982385:layer=0;level=0;bridge=no;tunnel=no": 350.55407155087727,
+              "native:479442746:layer=0;level=0;bridge=no;tunnel=no": 359.2669955782286,
+              "native:476772931:layer=0;level=0;bridge=no;tunnel=no": 358.3949416220098,
+              "native:476773261:layer=0;level=0;bridge=no;tunnel=no": 356.2189129072712,
+              "native:1774546577:layer=0;level=0;bridge=no;tunnel=no": 370.6898585685961,
+              "native:11936982386:layer=0;level=0;bridge=no;tunnel=no": 366.5290790674587,
+              "native:476681122:layer=0;level=0;bridge=no;tunnel=no": 372.7605114137283,
+              "native:11936982370:layer=0;level=0;bridge=no;tunnel=no": 372.97098238577524,
+              "native:8941646061:layer=0;level=0;bridge=no;tunnel=no": 400.79816133610325,
+              "native:11936982387:layer=0;level=0;bridge=no;tunnel=no": 382.95332555624947,
+              "native:1774546582:layer=0;level=0;bridge=no;tunnel=no": 380.42809401916804,
+              "native:476681121:layer=0;level=0;bridge=no;tunnel=no": 390.24233688218123,
+              "native:11936982388:layer=0;level=0;bridge=no;tunnel=no": 389.3601558122006,
+              "native:11936982375:layer=0;level=0;bridge=no;tunnel=no": 393.5259466527892,
+              "native:1728704271:layer=0;level=0;bridge=no;tunnel=no": 401.40251939199464,
+              "native:11936982374:layer=0;level=0;bridge=no;tunnel=no": 404.41304212393277,
+              "native:476681036:layer=0;level=0;bridge=no;tunnel=no": 403.6571601184111,
+              "native:8941646060:layer=0;level=0;bridge=no;tunnel=no": 416.34649984132517,
+              "native:11936982373:layer=0;level=0;bridge=no;tunnel=no": 417.2244934925888,
+              "native:11936982372:layer=0;level=0;bridge=no;tunnel=no": 428.83904338088735,
+              "native:11936982371:layer=0;level=0;bridge=no;tunnel=no": 437.13244655455577
+            },
+            "length_interpretation": "MAPPED_NATIVE_PEDESTRIAN_LINE_LENGTH_NOT_FIELD_WALKING_TRUTH",
+            "qualified_from_original_registry": true
+          },
+          "R2": {
+            "status": "CONNECTED",
+            "solver_invoked": true,
+            "edge_ids": [
+              "R2:native:way/39764359:2",
+              "R2:native:way/39764359:3",
+              "R2:native:way/39764359:4",
+              "R2:native:way/39764359:5",
+              "R2:native:way/39764359:6",
+              "R2:native:way/39764359:7",
+              "R2:native:way/39764359:8",
+              "R2:native:way/39764359:9",
+              "R2:native:way/39764359:10",
+              "R2:native:way/39764359:11",
+              "R2:native:way/39764359:12",
+              "R2:native:way/39764359:13",
+              "R2:native:way/39764359:14"
+            ],
+            "node_path": [
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no",
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no",
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no"
+            ],
+            "cost_f1_proxy": 266.10326541632566,
+            "cost_f0_proxy": 266.10326541632566,
+            "source_line_reference_length_m": 266.10326541632566,
+            "hypothesis_edges": 0,
+            "schematic_edges": 0,
+            "physical_route_length_m": 266.10326541632566,
+            "popped_nodes": 91,
+            "distance_labels": {
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no": 0.0,
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no": 132.85034001405262,
+              "native:479442751:layer=0;level=0;bridge=no;tunnel=no": 40.94796684361568,
+              "native:602259562:layer=0;level=0;bridge=no;tunnel=no": 7.9928724941135405,
+              "native:479442750:layer=0;level=0;bridge=no;tunnel=no": 101.67770127288475,
+              "native:1774546618:layer=0;level=0;bridge=no;tunnel=no": 127.11740199830504,
+              "native:476682050:layer=0;level=0;bridge=no;tunnel=no": 127.6958934181601,
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no": 138.23037347261817,
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no": 144.80395744641245,
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no": 150.5958697224237,
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no": 156.19242453840175,
+              "native:5437083703:layer=0;level=0;bridge=no;tunnel=no": 163.0619361052971,
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no": 160.21361980588674,
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no": 166.59585201776596,
+              "native:5437083694:layer=0;level=0;bridge=no;tunnel=no": 180.8156745432883,
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no": 176.4569708953066,
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no": 186.37103545499193,
+              "native:5437083696:layer=0;level=0;bridge=no;tunnel=no": 195.12713165795384,
+              "native:5437083695:layer=0;level=0;bridge=no;tunnel=no": 188.8591076789868,
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no": 195.75556420143857,
+              "native:5437083702:layer=0;level=0;bridge=no;tunnel=no": 208.18397199882776,
+              "native:5437083697:layer=0;level=0;bridge=no;tunnel=no": 192.2375347588558,
+              "native:5437083698:layer=0;level=0;bridge=no;tunnel=no": 209.55887712425786,
+              "native:13763096987:layer=0;level=0;bridge=no;tunnel=no": 258.55211807158156,
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no": 221.2214007982831,
+              "native:5436983729:layer=0;level=0;bridge=no;tunnel=no": 219.6148996248173,
+              "native:13763096988:layer=0;level=0;bridge=no;tunnel=no": 310.7227964633057,
+              "native:5436983728:layer=0;level=0;bridge=no;tunnel=no": 225.96262433309326,
+              "native:5437083701:layer=0;level=0;bridge=no;tunnel=no": 223.9235000103549,
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no": 248.2075167279731,
+              "native:476680363:layer=0;level=0;bridge=no;tunnel=no": 256.3389473267271,
+              "native:5436983730:layer=0;level=0;bridge=no;tunnel=no": 227.9559289243012,
+              "native:5436983727:layer=0;level=0;bridge=no;tunnel=no": 236.01898851367227,
+              "native:5437083700:layer=0;level=0;bridge=no;tunnel=no": 235.9349173230066,
+              "native:5437083699:layer=0;level=0;bridge=no;tunnel=no": 244.094532101115,
+              "native:5436983723:layer=0;level=0;bridge=no;tunnel=no": 249.39272828083412,
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no": 266.10326541632566,
+              "native:5437083670:layer=0;level=0;bridge=no;tunnel=no": 256.2785167803789,
+              "native:5436983724:layer=0;level=0;bridge=no;tunnel=no": 262.542945588094,
+              "native:5436983726:layer=0;level=0;bridge=no;tunnel=no": 275.4722632120902,
+              "native:5436983616:layer=0;level=0;bridge=no;tunnel=no": 262.28291150707355,
+              "native:476680901:layer=0;level=0;bridge=no;tunnel=no": 294.1961909951098,
+              "native:1774546615:layer=0;level=0;bridge=no;tunnel=no": 278.5193181927127,
+              "native:1774546625:layer=0;level=0;bridge=no;tunnel=no": 284.60664422816205,
+              "native:13763096986:layer=0;level=0;bridge=no;tunnel=no": 270.94067884595887,
+              "native:5436983613:layer=0;level=0;bridge=no;tunnel=no": 273.92539762808343,
+              "native:5436983722:layer=0;level=0;bridge=no;tunnel=no": 275.49200443670793,
+              "native:5436983612:layer=0;level=0;bridge=no;tunnel=no": 279.52473433453525,
+              "native:5436983615:layer=0;level=0;bridge=no;tunnel=no": 282.3915947170774,
+              "native:5436983725:layer=0;level=0;bridge=no;tunnel=no": 289.1038796542478,
+              "native:476681108:layer=0;level=0;bridge=no;tunnel=no": 302.343666027646,
+              "native:1774546585:layer=0;level=0;bridge=no;tunnel=no": 305.27473942567946,
+              "native:5436983611:layer=0;level=0;bridge=no;tunnel=no": 293.9119321680402,
+              "native:5436983731:layer=0;level=0;bridge=no;tunnel=no": 310.1389210757339,
+              "native:1774546579:layer=0;level=0;bridge=no;tunnel=no": 306.13740920320913,
+              "native:11936982404:layer=0;level=0;bridge=no;tunnel=no": 299.85837505438644,
+              "native:7116097510:layer=0;level=0;bridge=no;tunnel=no": 319.33175801573634,
+              "native:476680903:layer=0;level=0;bridge=no;tunnel=no": 327.5538010710998,
+              "native:1774546573:layer=0;level=0;bridge=no;tunnel=no": 307.90460066263665,
+              "native:1774546587:layer=0;level=0;bridge=no;tunnel=no": 309.3538126375842,
+              "native:1774546595:layer=0;level=0;bridge=no;tunnel=no": 321.76455802329644,
+              "native:1774546581:layer=0;level=0;bridge=no;tunnel=no": 347.2028069251607,
+              "native:476681109:layer=0;level=0;bridge=no;tunnel=no": 325.9799079741449,
+              "native:1774546621:layer=0;level=0;bridge=no;tunnel=no": 316.132639573945,
+              "native:1774546592:layer=0;level=0;bridge=no;tunnel=no": 334.8392479729016,
+              "native:5436983610:layer=0;level=0;bridge=no;tunnel=no": 331.853178778504,
+              "native:1774546600:layer=0;level=0;bridge=no;tunnel=no": 338.36031942848354,
+              "native:479442698:layer=0;level=0;bridge=no;tunnel=no": 342.7751251749346,
+              "native:476680905:layer=0;level=0;bridge=no;tunnel=no": 347.67468425892855,
+              "native:11936982399:layer=0;level=0;bridge=no;tunnel=no": 348.6934212574726,
+              "native:11936982385:layer=0;level=0;bridge=no;tunnel=no": 350.55407155087727,
+              "native:479442746:layer=0;level=0;bridge=no;tunnel=no": 359.2669955782286,
+              "native:476772931:layer=0;level=0;bridge=no;tunnel=no": 358.3949416220098,
+              "native:476773261:layer=0;level=0;bridge=no;tunnel=no": 356.2189129072712,
+              "native:1774546577:layer=0;level=0;bridge=no;tunnel=no": 370.6898585685961,
+              "native:11936982386:layer=0;level=0;bridge=no;tunnel=no": 366.5290790674587,
+              "native:476681122:layer=0;level=0;bridge=no;tunnel=no": 372.7605114137283,
+              "native:11936982370:layer=0;level=0;bridge=no;tunnel=no": 372.97098238577524,
+              "native:8941646061:layer=0;level=0;bridge=no;tunnel=no": 400.79816133610325,
+              "native:11936982387:layer=0;level=0;bridge=no;tunnel=no": 382.95332555624947,
+              "native:1774546582:layer=0;level=0;bridge=no;tunnel=no": 380.42809401916804,
+              "native:476681121:layer=0;level=0;bridge=no;tunnel=no": 390.24233688218123,
+              "native:11936982388:layer=0;level=0;bridge=no;tunnel=no": 389.3601558122006,
+              "native:11936982375:layer=0;level=0;bridge=no;tunnel=no": 393.5259466527892,
+              "native:1728704271:layer=0;level=0;bridge=no;tunnel=no": 401.40251939199464,
+              "native:11936982374:layer=0;level=0;bridge=no;tunnel=no": 404.41304212393277,
+              "native:476681036:layer=0;level=0;bridge=no;tunnel=no": 403.6571601184111,
+              "native:8941646060:layer=0;level=0;bridge=no;tunnel=no": 416.34649984132517,
+              "native:11936982373:layer=0;level=0;bridge=no;tunnel=no": 417.2244934925888,
+              "native:11936982372:layer=0;level=0;bridge=no;tunnel=no": 428.83904338088735,
+              "native:11936982371:layer=0;level=0;bridge=no;tunnel=no": 437.13244655455577
+            },
+            "length_interpretation": "MAPPED_NATIVE_PEDESTRIAN_LINE_LENGTH_NOT_FIELD_WALKING_TRUTH",
+            "qualified_from_original_registry": true
+          }
+        }
+      },
+      {
+        "query_id": "native-reverse",
+        "kind": "NATIVE_REVERSE",
+        "road_id": "way/39764359",
+        "start_node": 1728701622,
+        "end_node": 13763096983,
+        "start_side": "left",
+        "end_side": "left",
+        "description": "NATIVE_REVERSE",
+        "bindings": {
+          "R0": {
+            "start": "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+            "end": "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+            "meaning": "exact native source nodes"
+          },
+          "R1": {
+            "start": "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+            "end": "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+            "meaning": "exact native source nodes"
+          },
+          "R2": {
+            "start": "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+            "end": "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+            "meaning": "exact native source nodes"
+          }
+        },
+        "results": {
+          "R0": {
+            "status": "CONNECTED",
+            "solver_invoked": true,
+            "edge_ids": [
+              "R0:native:way/39764359:14",
+              "R0:native:way/39764359:13",
+              "R0:native:way/39764359:12",
+              "R0:native:way/39764359:11",
+              "R0:native:way/39764359:10",
+              "R0:native:way/39764359:9",
+              "R0:native:way/39764359:8",
+              "R0:native:way/39764359:7",
+              "R0:native:way/39764359:6",
+              "R0:native:way/39764359:5",
+              "R0:native:way/39764359:4",
+              "R0:native:way/39764359:3",
+              "R0:native:way/39764359:2"
+            ],
+            "node_path": [
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no",
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no"
+            ],
+            "cost_f1_proxy": 266.10326541632566,
+            "cost_f0_proxy": 266.10326541632566,
+            "source_line_reference_length_m": 266.10326541632566,
+            "hypothesis_edges": 0,
+            "schematic_edges": 0,
+            "physical_route_length_m": 266.10326541632566,
+            "popped_nodes": 120,
+            "distance_labels": {
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no": 0.0,
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no": 17.89574868835258,
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no": 44.88186461804256,
+              "native:5437083670:layer=0;level=0;bridge=no;tunnel=no": 25.96674874075836,
+              "native:5436983616:layer=0;level=0;bridge=no;tunnel=no": 31.971143467453025,
+              "native:5436983613:layer=0;level=0;bridge=no;tunnel=no": 43.61362958846291,
+              "native:5436983612:layer=0;level=0;bridge=no;tunnel=no": 49.21296629491475,
+              "native:5436983615:layer=0;level=0;bridge=no;tunnel=no": 52.07982667745685,
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no": 70.34770121488708,
+              "native:476680363:layer=0;level=0;bridge=no;tunnel=no": 79.99941114648657,
+              "native:5436983611:layer=0;level=0;bridge=no;tunnel=no": 63.60016412841969,
+              "native:5436983731:layer=0;level=0;bridge=no;tunnel=no": 79.82715303611332,
+              "native:5436983725:layer=0;level=0;bridge=no;tunnel=no": 65.10064628291705,
+              "native:7116097510:layer=0;level=0;bridge=no;tunnel=no": 89.01998997611582,
+              "native:5436983722:layer=0;level=0;bridge=no;tunnel=no": 78.71252150045694,
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no": 79.73222996133373,
+              "native:5436983724:layer=0;level=0;bridge=no;tunnel=no": 91.66158034907083,
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no": 89.64629452101904,
+              "native:476680901:layer=0;level=0;bridge=no;tunnel=no": 117.85665481486927,
+              "native:1774546615:layer=0;level=0;bridge=no;tunnel=no": 102.17978201247217,
+              "native:1774546625:layer=0;level=0;bridge=no;tunnel=no": 108.26710804792148,
+              "native:3906828085:layer=0;level=0;bridge=no;tunnel=no": 116.64487419200317,
+              "native:476675362:layer=0;level=0;bridge=no;tunnel=no": 97.3289027113099,
+              "native:5436983610:layer=0;level=0;bridge=no;tunnel=no": 101.54141073888349,
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no": 99.50741339855968,
+              "native:5436983723:layer=0;level=0;bridge=no;tunnel=no": 104.81179765633074,
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no": 105.8896456104389,
+              "native:476681108:layer=0;level=0;bridge=no;tunnel=no": 126.00412984740545,
+              "native:1774546585:layer=0;level=0;bridge=no;tunnel=no": 128.93520324543888,
+              "native:5436983726:layer=0;level=0;bridge=no;tunnel=no": 130.8913325875868,
+              "native:5436983727:layer=0;level=0;bridge=no;tunnel=no": 118.18553742349259,
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no": 109.91084087792387,
+              "native:1774546579:layer=0;level=0;bridge=no;tunnel=no": 129.79787302296856,
+              "native:11936982404:layer=0;level=0;bridge=no;tunnel=no": 123.51883887414589,
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no": 115.5073956939019,
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no": 121.29930796991317,
+              "native:5437083703:layer=0;level=0;bridge=no;tunnel=no": 127.97346207677528,
+              "native:3906828087:layer=0;level=0;bridge=no;tunnel=no": 134.3064590021148,
+              "native:476680903:layer=0;level=0;bridge=no;tunnel=no": 151.2142648908593,
+              "native:5436983728:layer=0;level=0;bridge=no;tunnel=no": 128.24190160407161,
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no": 127.87289194370747,
+              "native:1774546573:layer=0;level=0;bridge=no;tunnel=no": 131.56506448239608,
+              "native:1774546587:layer=0;level=0;bridge=no;tunnel=no": 133.01427645734364,
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no": 133.25292540227304,
+              "native:5437083694:layer=0;level=0;bridge=no;tunnel=no": 145.7272005147665,
+              "native:5436983729:layer=0;level=0;bridge=no;tunnel=no": 134.58962631234758,
+              "native:1774546595:layer=0;level=0;bridge=no;tunnel=no": 145.4250218430559,
+              "native:1774546581:layer=0;level=0;bridge=no;tunnel=no": 170.86327074492013,
+              "native:476681109:layer=0;level=0;bridge=no;tunnel=no": 149.64037179390434,
+              "native:1774546621:layer=0;level=0;bridge=no;tunnel=no": 139.79310339370446,
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no": 266.10326541632566,
+              "native:5437083701:layer=0;level=0;bridge=no;tunnel=no": 138.89822669788518,
+              "native:5437083702:layer=0;level=0;bridge=no;tunnel=no": 146.02055393833712,
+              "native:5436983730:layer=0;level=0;bridge=no;tunnel=no": 142.93065561183147,
+              "native:1774546592:layer=0;level=0;bridge=no;tunnel=no": 158.49971179266106,
+              "native:5437083700:layer=0;level=0;bridge=no;tunnel=no": 150.90964401053688,
+              "native:1774546600:layer=0;level=0;bridge=no;tunnel=no": 162.02078324824302,
+              "native:5437083696:layer=0;level=0;bridge=no;tunnel=no": 160.03865762943204,
+              "native:5437083695:layer=0;level=0;bridge=no;tunnel=no": 153.770633650465,
+              "native:479442698:layer=0;level=0;bridge=no;tunnel=no": 166.435588994694,
+              "native:5437083699:layer=0;level=0;bridge=no;tunnel=no": 159.06925878864527,
+              "native:476680905:layer=0;level=0;bridge=no;tunnel=no": 171.33514807868806,
+              "native:5437083697:layer=0;level=0;bridge=no;tunnel=no": 157.14906073033399,
+              "native:5437083698:layer=0;level=0;bridge=no;tunnel=no": 174.47040309573606,
+              "native:13763096987:layer=0;level=0;bridge=no;tunnel=no": 223.46364404305973,
+              "native:11936982399:layer=0;level=0;bridge=no;tunnel=no": 172.3538850772321,
+              "native:11936982385:layer=0;level=0;bridge=no;tunnel=no": 174.2145353706367,
+              "native:479442746:layer=0;level=0;bridge=no;tunnel=no": 182.92745939798803,
+              "native:476772931:layer=0;level=0;bridge=no;tunnel=no": 182.05540544176932,
+              "native:476773261:layer=0;level=0;bridge=no;tunnel=no": 179.87937672703063,
+              "native:1774546577:layer=0;level=0;bridge=no;tunnel=no": 194.35032238835555,
+              "native:11936982386:layer=0;level=0;bridge=no;tunnel=no": 190.18954288721812,
+              "native:13763096988:layer=0;level=0;bridge=no;tunnel=no": 275.6343224347839,
+              "native:476681122:layer=0;level=0;bridge=no;tunnel=no": 196.42097523348775,
+              "native:11936982370:layer=0;level=0;bridge=no;tunnel=no": 196.63144620553467,
+              "native:8941646061:layer=0;level=0;bridge=no;tunnel=no": 224.45862515586276,
+              "native:11936982387:layer=0;level=0;bridge=no;tunnel=no": 206.61378937600884,
+              "native:1774546582:layer=0;level=0;bridge=no;tunnel=no": 204.08855783892753,
+              "native:476681121:layer=0;level=0;bridge=no;tunnel=no": 213.90280070194072,
+              "native:11936982388:layer=0;level=0;bridge=no;tunnel=no": 213.02061963196,
+              "native:11936982375:layer=0;level=0;bridge=no;tunnel=no": 217.18641047254854,
+              "native:1728704271:layer=0;level=0;bridge=no;tunnel=no": 225.0629832117541,
+              "native:11936982374:layer=0;level=0;bridge=no;tunnel=no": 228.07350594369214,
+              "native:4479328410:layer=0;level=0;bridge=no;tunnel=no": 260.00954162276247,
+              "native:4397696161:layer=0;level=0;bridge=no;tunnel=no": 224.5548429998296,
+              "native:13763096986:layer=0;level=0;bridge=no;tunnel=no": 235.852204817437,
+              "native:476681036:layer=0;level=0;bridge=no;tunnel=no": 227.31762393817067,
+              "native:4397696162:layer=0;level=0;bridge=no;tunnel=no": 281.81987992836383,
+              "native:8941646060:layer=0;level=0;bridge=no;tunnel=no": 240.0069636610847,
+              "native:11936982373:layer=0;level=0;bridge=no;tunnel=no": 240.8849573123482,
+              "native:4479328411:layer=0;level=0;bridge=no;tunnel=no": 270.3568004321729,
+              "native:477575777:layer=0;level=0;bridge=no;tunnel=no": 248.8723227076105,
+              "native:11936982372:layer=0;level=0;bridge=no;tunnel=no": 252.49950720064675,
+              "native:11936982371:layer=0;level=0;bridge=no;tunnel=no": 260.79291037431517,
+              "native:620101575:layer=0;level=0;bridge=no;tunnel=no": 293.1375162165017,
+              "native:479442751:layer=0;level=0;bridge=no;tunnel=no": 307.05123225994134,
+              "native:602259562:layer=0;level=0;bridge=no;tunnel=no": 274.0961379104392,
+              "native:4464835965:layer=0;level=0;bridge=no;tunnel=no": 280.87171025679504,
+              "native:620101572:layer=0;level=0;bridge=no;tunnel=no": 330.0461090294774,
+              "native:477575763:layer=0;level=0;bridge=no;tunnel=no": 316.13719051525044,
+              "native:4464835970:layer=0;level=0;bridge=no;tunnel=no": 305.29835125290947,
+              "native:4397696163:layer=0;level=0;bridge=no;tunnel=no": 295.4671647727808,
+              "native:620101574:layer=0;level=0;bridge=no;tunnel=no": 306.6832755730669,
+              "native:4464835969:layer=0;level=0;bridge=no;tunnel=no": 326.3095033933786,
+              "native:4464835971:layer=0;level=0;bridge=no;tunnel=no": 327.19309665672705,
+              "native:620101573:layer=0;level=0;bridge=no;tunnel=no": 318.27148930243663,
+              "native:479442750:layer=0;level=0;bridge=no;tunnel=no": 367.7809666892104,
+              "native:4337268711:layer=0;level=0;bridge=no;tunnel=no": 327.4254581823633,
+              "native:477575747:layer=0;level=0;bridge=no;tunnel=no": 331.67403836931055,
+              "native:4337268710:layer=0;level=0;bridge=no;tunnel=no": 340.9588013700408,
+              "native:477575732:layer=0;level=0;bridge=no;tunnel=no": 354.9709045387468,
+              "native:4381580529:layer=0;level=0;bridge=no;tunnel=no": 359.02825262709365,
+              "native:477575712:layer=0;level=0;bridge=no;tunnel=no": 377.59825067178076,
+              "native:1774546618:layer=0;level=0;bridge=no;tunnel=no": 393.22066741463067,
+              "native:4464834316:layer=0;level=0;bridge=no;tunnel=no": 386.0672652696853,
+              "native:4465151264:layer=0;level=0;bridge=no;tunnel=no": 397.11868037835563,
+              "native:476682050:layer=0;level=0;bridge=no;tunnel=no": 393.79915883448575,
+              "native:4465151265:layer=0;level=0;bridge=no;tunnel=no": 418.7063287050252,
+              "native:4479305195:layer=0;level=0;bridge=no;tunnel=no": 438.1443649266877,
+              "native:4479305196:layer=0;level=0;bridge=no;tunnel=no": 464.3658500587706
+            },
+            "length_interpretation": "MAPPED_NATIVE_PEDESTRIAN_LINE_LENGTH_NOT_FIELD_WALKING_TRUTH",
+            "qualified_from_original_registry": false,
+            "current_formal_attempt": 20
+          },
+          "R1": {
+            "status": "CONNECTED",
+            "solver_invoked": true,
+            "edge_ids": [
+              "R1:native:way/39764359:14",
+              "R1:native:way/39764359:13",
+              "R1:native:way/39764359:12",
+              "R1:native:way/39764359:11",
+              "R1:native:way/39764359:10",
+              "R1:native:way/39764359:9",
+              "R1:native:way/39764359:8",
+              "R1:native:way/39764359:7",
+              "R1:native:way/39764359:6",
+              "R1:native:way/39764359:5",
+              "R1:native:way/39764359:4",
+              "R1:native:way/39764359:3",
+              "R1:native:way/39764359:2"
+            ],
+            "node_path": [
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no",
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no"
+            ],
+            "cost_f1_proxy": 266.10326541632566,
+            "cost_f0_proxy": 266.10326541632566,
+            "source_line_reference_length_m": 266.10326541632566,
+            "hypothesis_edges": 0,
+            "schematic_edges": 0,
+            "physical_route_length_m": 266.10326541632566,
+            "popped_nodes": 91,
+            "distance_labels": {
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no": 0.0,
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no": 17.89574868835258,
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no": 44.88186461804256,
+              "native:5437083670:layer=0;level=0;bridge=no;tunnel=no": 25.96674874075836,
+              "native:5436983616:layer=0;level=0;bridge=no;tunnel=no": 31.971143467453025,
+              "native:5436983613:layer=0;level=0;bridge=no;tunnel=no": 43.61362958846291,
+              "native:5436983612:layer=0;level=0;bridge=no;tunnel=no": 49.21296629491475,
+              "native:5436983615:layer=0;level=0;bridge=no;tunnel=no": 52.07982667745685,
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no": 70.34770121488708,
+              "native:476680363:layer=0;level=0;bridge=no;tunnel=no": 79.99941114648657,
+              "native:5436983611:layer=0;level=0;bridge=no;tunnel=no": 63.60016412841969,
+              "native:5436983731:layer=0;level=0;bridge=no;tunnel=no": 79.82715303611332,
+              "native:5436983725:layer=0;level=0;bridge=no;tunnel=no": 65.10064628291705,
+              "native:7116097510:layer=0;level=0;bridge=no;tunnel=no": 89.01998997611582,
+              "native:5436983722:layer=0;level=0;bridge=no;tunnel=no": 78.71252150045694,
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no": 79.73222996133373,
+              "native:5436983724:layer=0;level=0;bridge=no;tunnel=no": 91.66158034907083,
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no": 89.64629452101904,
+              "native:476680901:layer=0;level=0;bridge=no;tunnel=no": 117.85665481486927,
+              "native:1774546615:layer=0;level=0;bridge=no;tunnel=no": 102.17978201247217,
+              "native:1774546625:layer=0;level=0;bridge=no;tunnel=no": 108.26710804792148,
+              "native:5436983610:layer=0;level=0;bridge=no;tunnel=no": 101.54141073888349,
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no": 99.50741339855968,
+              "native:5436983723:layer=0;level=0;bridge=no;tunnel=no": 104.81179765633074,
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no": 105.8896456104389,
+              "native:476681108:layer=0;level=0;bridge=no;tunnel=no": 126.00412984740545,
+              "native:1774546585:layer=0;level=0;bridge=no;tunnel=no": 128.93520324543888,
+              "native:5436983726:layer=0;level=0;bridge=no;tunnel=no": 130.8913325875868,
+              "native:5436983727:layer=0;level=0;bridge=no;tunnel=no": 118.18553742349259,
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no": 109.91084087792387,
+              "native:1774546579:layer=0;level=0;bridge=no;tunnel=no": 129.79787302296856,
+              "native:11936982404:layer=0;level=0;bridge=no;tunnel=no": 123.51883887414589,
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no": 115.5073956939019,
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no": 121.29930796991317,
+              "native:5437083703:layer=0;level=0;bridge=no;tunnel=no": 127.97346207677528,
+              "native:476680903:layer=0;level=0;bridge=no;tunnel=no": 151.2142648908593,
+              "native:5436983728:layer=0;level=0;bridge=no;tunnel=no": 128.24190160407161,
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no": 127.87289194370747,
+              "native:1774546573:layer=0;level=0;bridge=no;tunnel=no": 131.56506448239608,
+              "native:1774546587:layer=0;level=0;bridge=no;tunnel=no": 133.01427645734364,
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no": 133.25292540227304,
+              "native:5437083694:layer=0;level=0;bridge=no;tunnel=no": 145.7272005147665,
+              "native:5436983729:layer=0;level=0;bridge=no;tunnel=no": 134.58962631234758,
+              "native:1774546595:layer=0;level=0;bridge=no;tunnel=no": 145.4250218430559,
+              "native:1774546581:layer=0;level=0;bridge=no;tunnel=no": 170.86327074492013,
+              "native:476681109:layer=0;level=0;bridge=no;tunnel=no": 149.64037179390434,
+              "native:1774546621:layer=0;level=0;bridge=no;tunnel=no": 139.79310339370446,
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no": 266.10326541632566,
+              "native:5437083701:layer=0;level=0;bridge=no;tunnel=no": 138.89822669788518,
+              "native:5437083702:layer=0;level=0;bridge=no;tunnel=no": 146.02055393833712,
+              "native:5436983730:layer=0;level=0;bridge=no;tunnel=no": 142.93065561183147,
+              "native:1774546592:layer=0;level=0;bridge=no;tunnel=no": 158.49971179266106,
+              "native:5437083700:layer=0;level=0;bridge=no;tunnel=no": 150.90964401053688,
+              "native:1774546600:layer=0;level=0;bridge=no;tunnel=no": 162.02078324824302,
+              "native:5437083696:layer=0;level=0;bridge=no;tunnel=no": 160.03865762943204,
+              "native:5437083695:layer=0;level=0;bridge=no;tunnel=no": 153.770633650465,
+              "native:479442698:layer=0;level=0;bridge=no;tunnel=no": 166.435588994694,
+              "native:5437083699:layer=0;level=0;bridge=no;tunnel=no": 159.06925878864527,
+              "native:476680905:layer=0;level=0;bridge=no;tunnel=no": 171.33514807868806,
+              "native:5437083697:layer=0;level=0;bridge=no;tunnel=no": 157.14906073033399,
+              "native:5437083698:layer=0;level=0;bridge=no;tunnel=no": 174.47040309573606,
+              "native:13763096987:layer=0;level=0;bridge=no;tunnel=no": 223.46364404305973,
+              "native:11936982399:layer=0;level=0;bridge=no;tunnel=no": 172.3538850772321,
+              "native:11936982385:layer=0;level=0;bridge=no;tunnel=no": 174.2145353706367,
+              "native:479442746:layer=0;level=0;bridge=no;tunnel=no": 182.92745939798803,
+              "native:476772931:layer=0;level=0;bridge=no;tunnel=no": 182.05540544176932,
+              "native:476773261:layer=0;level=0;bridge=no;tunnel=no": 179.87937672703063,
+              "native:1774546577:layer=0;level=0;bridge=no;tunnel=no": 194.35032238835555,
+              "native:11936982386:layer=0;level=0;bridge=no;tunnel=no": 190.18954288721812,
+              "native:13763096988:layer=0;level=0;bridge=no;tunnel=no": 275.6343224347839,
+              "native:476681122:layer=0;level=0;bridge=no;tunnel=no": 196.42097523348775,
+              "native:11936982370:layer=0;level=0;bridge=no;tunnel=no": 196.63144620553467,
+              "native:8941646061:layer=0;level=0;bridge=no;tunnel=no": 224.45862515586276,
+              "native:11936982387:layer=0;level=0;bridge=no;tunnel=no": 206.61378937600884,
+              "native:1774546582:layer=0;level=0;bridge=no;tunnel=no": 204.08855783892753,
+              "native:476681121:layer=0;level=0;bridge=no;tunnel=no": 213.90280070194072,
+              "native:11936982388:layer=0;level=0;bridge=no;tunnel=no": 213.02061963196,
+              "native:11936982375:layer=0;level=0;bridge=no;tunnel=no": 217.18641047254854,
+              "native:1728704271:layer=0;level=0;bridge=no;tunnel=no": 225.0629832117541,
+              "native:11936982374:layer=0;level=0;bridge=no;tunnel=no": 228.07350594369214,
+              "native:13763096986:layer=0;level=0;bridge=no;tunnel=no": 235.852204817437,
+              "native:476681036:layer=0;level=0;bridge=no;tunnel=no": 227.31762393817067,
+              "native:8941646060:layer=0;level=0;bridge=no;tunnel=no": 240.0069636610847,
+              "native:11936982373:layer=0;level=0;bridge=no;tunnel=no": 240.8849573123482,
+              "native:11936982372:layer=0;level=0;bridge=no;tunnel=no": 252.49950720064675,
+              "native:11936982371:layer=0;level=0;bridge=no;tunnel=no": 260.79291037431517,
+              "native:479442751:layer=0;level=0;bridge=no;tunnel=no": 307.05123225994134,
+              "native:602259562:layer=0;level=0;bridge=no;tunnel=no": 274.0961379104392,
+              "native:479442750:layer=0;level=0;bridge=no;tunnel=no": 367.7809666892104,
+              "native:1774546618:layer=0;level=0;bridge=no;tunnel=no": 393.22066741463067,
+              "native:476682050:layer=0;level=0;bridge=no;tunnel=no": 393.79915883448575
+            },
+            "length_interpretation": "MAPPED_NATIVE_PEDESTRIAN_LINE_LENGTH_NOT_FIELD_WALKING_TRUTH",
+            "qualified_from_original_registry": true
+          },
+          "R2": {
+            "status": "CONNECTED",
+            "solver_invoked": true,
+            "edge_ids": [
+              "R2:native:way/39764359:14",
+              "R2:native:way/39764359:13",
+              "R2:native:way/39764359:12",
+              "R2:native:way/39764359:11",
+              "R2:native:way/39764359:10",
+              "R2:native:way/39764359:9",
+              "R2:native:way/39764359:8",
+              "R2:native:way/39764359:7",
+              "R2:native:way/39764359:6",
+              "R2:native:way/39764359:5",
+              "R2:native:way/39764359:4",
+              "R2:native:way/39764359:3",
+              "R2:native:way/39764359:2"
+            ],
+            "node_path": [
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no",
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no",
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no"
+            ],
+            "cost_f1_proxy": 266.10326541632566,
+            "cost_f0_proxy": 266.10326541632566,
+            "source_line_reference_length_m": 266.10326541632566,
+            "hypothesis_edges": 0,
+            "schematic_edges": 0,
+            "physical_route_length_m": 266.10326541632566,
+            "popped_nodes": 91,
+            "distance_labels": {
+              "native:1728701622:layer=0;level=0;bridge=no;tunnel=no": 0.0,
+              "native:132489729:layer=0;level=0;bridge=no;tunnel=no": 17.89574868835258,
+              "native:5436983620:layer=0;level=0;bridge=no;tunnel=no": 44.88186461804256,
+              "native:5437083670:layer=0;level=0;bridge=no;tunnel=no": 25.96674874075836,
+              "native:5436983616:layer=0;level=0;bridge=no;tunnel=no": 31.971143467453025,
+              "native:5436983613:layer=0;level=0;bridge=no;tunnel=no": 43.61362958846291,
+              "native:5436983612:layer=0;level=0;bridge=no;tunnel=no": 49.21296629491475,
+              "native:5436983615:layer=0;level=0;bridge=no;tunnel=no": 52.07982667745685,
+              "native:5436983732:layer=0;level=0;bridge=no;tunnel=no": 70.34770121488708,
+              "native:476680363:layer=0;level=0;bridge=no;tunnel=no": 79.99941114648657,
+              "native:5436983611:layer=0;level=0;bridge=no;tunnel=no": 63.60016412841969,
+              "native:5436983731:layer=0;level=0;bridge=no;tunnel=no": 79.82715303611332,
+              "native:5436983725:layer=0;level=0;bridge=no;tunnel=no": 65.10064628291705,
+              "native:7116097510:layer=0;level=0;bridge=no;tunnel=no": 89.01998997611582,
+              "native:5436983722:layer=0;level=0;bridge=no;tunnel=no": 78.71252150045694,
+              "native:5436983733:layer=0;level=0;bridge=no;tunnel=no": 79.73222996133373,
+              "native:5436983724:layer=0;level=0;bridge=no;tunnel=no": 91.66158034907083,
+              "native:5437083689:layer=0;level=0;bridge=no;tunnel=no": 89.64629452101904,
+              "native:476680901:layer=0;level=0;bridge=no;tunnel=no": 117.85665481486927,
+              "native:1774546615:layer=0;level=0;bridge=no;tunnel=no": 102.17978201247217,
+              "native:1774546625:layer=0;level=0;bridge=no;tunnel=no": 108.26710804792148,
+              "native:5436983610:layer=0;level=0;bridge=no;tunnel=no": 101.54141073888349,
+              "native:5437083690:layer=0;level=0;bridge=no;tunnel=no": 99.50741339855968,
+              "native:5436983723:layer=0;level=0;bridge=no;tunnel=no": 104.81179765633074,
+              "native:5437083691:layer=0;level=0;bridge=no;tunnel=no": 105.8896456104389,
+              "native:476681108:layer=0;level=0;bridge=no;tunnel=no": 126.00412984740545,
+              "native:1774546585:layer=0;level=0;bridge=no;tunnel=no": 128.93520324543888,
+              "native:5436983726:layer=0;level=0;bridge=no;tunnel=no": 130.8913325875868,
+              "native:5436983727:layer=0;level=0;bridge=no;tunnel=no": 118.18553742349259,
+              "native:5437083692:layer=0;level=0;bridge=no;tunnel=no": 109.91084087792387,
+              "native:1774546579:layer=0;level=0;bridge=no;tunnel=no": 129.79787302296856,
+              "native:11936982404:layer=0;level=0;bridge=no;tunnel=no": 123.51883887414589,
+              "native:5437083693:layer=0;level=0;bridge=no;tunnel=no": 115.5073956939019,
+              "native:5437083704:layer=0;level=0;bridge=no;tunnel=no": 121.29930796991317,
+              "native:5437083703:layer=0;level=0;bridge=no;tunnel=no": 127.97346207677528,
+              "native:476680903:layer=0;level=0;bridge=no;tunnel=no": 151.2142648908593,
+              "native:5436983728:layer=0;level=0;bridge=no;tunnel=no": 128.24190160407161,
+              "native:5437083706:layer=0;level=0;bridge=no;tunnel=no": 127.87289194370747,
+              "native:1774546573:layer=0;level=0;bridge=no;tunnel=no": 131.56506448239608,
+              "native:1774546587:layer=0;level=0;bridge=no;tunnel=no": 133.01427645734364,
+              "native:5437083705:layer=0;level=0;bridge=no;tunnel=no": 133.25292540227304,
+              "native:5437083694:layer=0;level=0;bridge=no;tunnel=no": 145.7272005147665,
+              "native:5436983729:layer=0;level=0;bridge=no;tunnel=no": 134.58962631234758,
+              "native:1774546595:layer=0;level=0;bridge=no;tunnel=no": 145.4250218430559,
+              "native:1774546581:layer=0;level=0;bridge=no;tunnel=no": 170.86327074492013,
+              "native:476681109:layer=0;level=0;bridge=no;tunnel=no": 149.64037179390434,
+              "native:1774546621:layer=0;level=0;bridge=no;tunnel=no": 139.79310339370446,
+              "native:13763096983:layer=0;level=0;bridge=no;tunnel=no": 266.10326541632566,
+              "native:5437083701:layer=0;level=0;bridge=no;tunnel=no": 138.89822669788518,
+              "native:5437083702:layer=0;level=0;bridge=no;tunnel=no": 146.02055393833712,
+              "native:5436983730:layer=0;level=0;bridge=no;tunnel=no": 142.93065561183147,
+              "native:1774546592:layer=0;level=0;bridge=no;tunnel=no": 158.49971179266106,
+              "native:5437083700:layer=0;level=0;bridge=no;tunnel=no": 150.90964401053688,
+              "native:1774546600:layer=0;level=0;bridge=no;tunnel=no": 162.02078324824302,
+              "native:5437083696:layer=0;level=0;bridge=no;tunnel=no": 160.03865762943204,
+              "native:5437083695:layer=0;level=0;bridge=no;tunnel=no": 153.770633650465,
+              "native:479442698:layer=0;level=0;bridge=no;tunnel=no": 166.435588994694,
+              "native:5437083699:layer=0;level=0;bridge=no;tunnel=no": 159.06925878864527,
+              "native:476680905:layer=0;level=0;bridge=no;tunnel=no": 171.33514807868806,
+              "native:5437083697:layer=0;level=0;bridge=no;tunnel=no": 157.14906073033399,
+              "native:5437083698:layer=0;level=0;bridge=no;tunnel=no": 174.47040309573606,
+              "native:13763096987:layer=0;level=0;bridge=no;tunnel=no": 223.46364404305973,
+              "native:11936982399:layer=0;level=0;bridge=no;tunnel=no": 172.3538850772321,
+              "native:11936982385:layer=0;level=0;bridge=no;tunnel=no": 174.2145353706367,
+              "native:479442746:layer=0;level=0;bridge=no;tunnel=no": 182.92745939798803,
+              "native:476772931:layer=0;level=0;bridge=no;tunnel=no": 182.05540544176932,
+              "native:476773261:layer=0;level=0;bridge=no;tunnel=no": 179.87937672703063,
+              "native:1774546577:layer=0;level=0;bridge=no;tunnel=no": 194.35032238835555,
+              "native:11936982386:layer=0;level=0;bridge=no;tunnel=no": 190.18954288721812,
+              "native:13763096988:layer=0;level=0;bridge=no;tunnel=no": 275.6343224347839,
+              "native:476681122:layer=0;level=0;bridge=no;tunnel=no": 196.42097523348775,
+              "native:11936982370:layer=0;level=0;bridge=no;tunnel=no": 196.63144620553467,
+              "native:8941646061:layer=0;level=0;bridge=no;tunnel=no": 224.45862515586276,
+              "native:11936982387:layer=0;level=0;bridge=no;tunnel=no": 206.61378937600884,
+              "native:1774546582:layer=0;level=0;bridge=no;tunnel=no": 204.08855783892753,
+              "native:476681121:layer=0;level=0;bridge=no;tunnel=no": 213.90280070194072,
+              "native:11936982388:layer=0;level=0;bridge=no;tunnel=no": 213.02061963196,
+              "native:11936982375:layer=0;level=0;bridge=no;tunnel=no": 217.18641047254854,
+              "native:1728704271:layer=0;level=0;bridge=no;tunnel=no": 225.0629832117541,
+              "native:11936982374:layer=0;level=0;bridge=no;tunnel=no": 228.07350594369214,
+              "native:13763096986:layer=0;level=0;bridge=no;tunnel=no": 235.852204817437,
+              "native:476681036:layer=0;level=0;bridge=no;tunnel=no": 227.31762393817067,
+              "native:8941646060:layer=0;level=0;bridge=no;tunnel=no": 240.0069636610847,
+              "native:11936982373:layer=0;level=0;bridge=no;tunnel=no": 240.8849573123482,
+              "native:11936982372:layer=0;level=0;bridge=no;tunnel=no": 252.49950720064675,
+              "native:11936982371:layer=0;level=0;bridge=no;tunnel=no": 260.79291037431517,
+              "native:479442751:layer=0;level=0;bridge=no;tunnel=no": 307.05123225994134,
+              "native:602259562:layer=0;level=0;bridge=no;tunnel=no": 274.0961379104392,
+              "native:479442750:layer=0;level=0;bridge=no;tunnel=no": 367.7809666892104,
+              "native:1774546618:layer=0;level=0;bridge=no;tunnel=no": 393.22066741463067,
+              "native:476682050:layer=0;level=0;bridge=no;tunnel=no": 393.79915883448575
+            },
+            "length_interpretation": "MAPPED_NATIVE_PEDESTRIAN_LINE_LENGTH_NOT_FIELD_WALKING_TRUTH",
+            "qualified_from_original_registry": true
+          }
+        }
+      }
+    ],
+    "old_query_endpoints_are_museum_doors": false,
+    "meaning": "Old northwestsidewalktopologydiagnostics retained unchanged; cannot be relabelled as Museumdoor routes. Correct source-to-render fidelity did not establish correct businessscene."
+  },
+  "scope_statement": "Frozen-sourceidentity verified usingnative buildingID,tags,address,PeopleSquarebranchtext,andexactdoor-membership; no independent currentfieldgeometry certification",
+  "algorithm_runs_added": 0,
+  "solver_calls_added": 0,
+  "BFS_calls_added": 0,
+  "routing_graph_rebuilds_added": 0
+}

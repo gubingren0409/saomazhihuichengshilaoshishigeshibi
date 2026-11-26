@@ -1,0 +1,39 @@
+{
+  "identity": "VERIFIED_REGISTERED_ORIGINAL_DOOR",
+  "source_id": "node/6897145227",
+  "type": "node",
+  "id": 6897145227,
+  "source_version": 2,
+  "tags": {
+    "entrance": "exit"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      354344.3888134466,
+      3456163.0891986894
+    ]
+  },
+  "xy": [
+    354344.3888134466,
+    3456163.0891986894
+  ],
+  "wgs84": [
+    121.4706605,
+    31.2305674
+  ],
+  "role": "NORTH_REGISTERED_EXIT_OUTSIDE_ONLY",
+  "outer_ring_member": true,
+  "boundary_distance_m": 0,
+  "inbound_applicability": "NOT_AN_INBOUND_ENTRANCE",
+  "source": {
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-huangpu-01\\source.osm.json",
+    "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "timestamp": "2026-11-08T21:21:00Z",
+    "source_crs": "EPSG:4326",
+    "working_crs": "EPSG:32651",
+    "bytes": 6356390
+  },
+  "coordinates_moved": false,
+  "not_entry_if_exit": true
+}

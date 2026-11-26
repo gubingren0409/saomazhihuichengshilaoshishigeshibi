@@ -1,0 +1,96 @@
+{
+  "reviewer": "/root/recon_independent",
+  "checked_at": "2026-11-12T21:56:28.330732+00:00",
+  "status": "PASS_STATIC_MAP_TARGET_AND_FROZEN_OVERLAYS",
+  "figure_pairs": 8,
+  "checks": [
+    {
+      "figure": "target_context_full",
+      "panels": 1,
+      "same_target": true,
+      "both_original_markers_correct": true,
+      "base_hash": "38ebc2b23a9e371b09507fb9d450e81936d7335cd464384ddeff135d8a338045",
+      "viewport_hash": "e67b8640e3e326b8a02496e9c717d59b9d07b69b878585a2041f7f3727f93aa7",
+      "same_base_extent_scale": true,
+      "svg_unique_ids": true
+    },
+    {
+      "figure": "target_approach_overview",
+      "panels": 1,
+      "same_target": true,
+      "both_original_markers_correct": true,
+      "base_hash": "28481aee31b0c554c078abca14671090ad34062ef36f3230ddb7d4f703189054",
+      "viewport_hash": "32b544383d7803ecb9ae9e721b1a24d15866be53ab7fabbcebe5bda5b37025fc",
+      "same_base_extent_scale": true,
+      "svg_unique_ids": true
+    },
+    {
+      "figure": "huangpi_north_road_detail",
+      "panels": 1,
+      "same_target": true,
+      "both_original_markers_correct": true,
+      "base_hash": "67844353be95115dfb7dc410fb1e437bc10dc42842af8ddf7333a1d5848ca7d8",
+      "viewport_hash": "204dc529bab5ae29baa969848119db944abd017d1e6c0825da3421b188905e2e",
+      "same_base_extent_scale": true,
+      "svg_unique_ids": true
+    },
+    {
+      "figure": "south_entrance_detail",
+      "panels": 1,
+      "same_target": true,
+      "both_original_markers_correct": true,
+      "base_hash": "1d6ea1508349bd9b97e22f8f4281ad71086b22de4392bc3cc9947f2df397f302",
+      "viewport_hash": "d7477922ed4e09f3d1a6195cf922efe472b5595b6d5393990e7986d170d04b7a",
+      "same_base_extent_scale": true,
+      "svg_unique_ids": true
+    },
+    {
+      "figure": "north_exit_detail",
+      "panels": 1,
+      "same_target": true,
+      "both_original_markers_correct": true,
+      "base_hash": "9a0bb66a489564afb60a3c0d7a8ebe19ca8f86953c316a4dca44ddd7bf2b6bec",
+      "viewport_hash": "0128a8de1faf9781639014f6c15fdf3a79ebcd47680759d86d8c46313d2a710e",
+      "same_base_extent_scale": true,
+      "svg_unique_ids": true
+    },
+    {
+      "figure": "R0_R1_R2_same_extent",
+      "panels": 3,
+      "same_target": true,
+      "both_original_markers_correct": true,
+      "base_hash": "38ebc2b23a9e371b09507fb9d450e81936d7335cd464384ddeff135d8a338045",
+      "viewport_hash": "e67b8640e3e326b8a02496e9c717d59b9d07b69b878585a2041f7f3727f93aa7",
+      "same_base_extent_scale": true,
+      "svg_unique_ids": true
+    },
+    {
+      "figure": "source_vs_algorithm",
+      "panels": 2,
+      "same_target": true,
+      "both_original_markers_correct": true,
+      "base_hash": "38ebc2b23a9e371b09507fb9d450e81936d7335cd464384ddeff135d8a338045",
+      "viewport_hash": "e67b8640e3e326b8a02496e9c717d59b9d07b69b878585a2041f7f3727f93aa7",
+      "same_base_extent_scale": true,
+      "svg_unique_ids": true
+    },
+    {
+      "figure": "object_provenance_inspection",
+      "panels": 1,
+      "same_target": true,
+      "both_original_markers_correct": true,
+      "base_hash": "28481aee31b0c554c078abca14671090ad34062ef36f3230ddb7d4f703189054",
+      "viewport_hash": "32b544383d7803ecb9ae9e721b1a24d15866be53ab7fabbcebe5bda5b37025fc",
+      "same_base_extent_scale": true,
+      "svg_unique_ids": true
+    }
+  ],
+  "target_polygon_checks": 11,
+  "original_door_marker_checks": 22,
+  "actual_saved_overlay_artist_checks": 607,
+  "outside_canvas_artists": 0,
+  "failures": [],
+  "real_world_geometry_status": "REAL_WORLD_GEOMETRY_UNVERIFIED",
+  "solver_calls_added": 0,
+  "routing_graph_rebuilds_added": 0
+}

@@ -1,0 +1,58 @@
+{
+  "actual_checked_at": "2026-11-13T05:52:10.394421+08:00",
+  "isolated_root": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\source_final_clean_20261113T055206",
+  "no_old_parent_directory": true,
+  "commands": [
+    "python -X utf8 -B src/build_target_scene.py --from-packaged",
+    "python -X utf8 -B src/build_target_scene.py --finalize-inventory"
+  ],
+  "exit": 0,
+  "files": [
+    {
+      "path": "data/scene.json",
+      "byte_identical": true,
+      "sha256": "85f748f558f1fca73ec16afcd32bbc897978122a1db0bdaf3fc64cd1166e5643"
+    },
+    {
+      "path": "audit/target_objects.json",
+      "byte_identical": true,
+      "sha256": "ea3ae0c8850e0de0fd254f7c2f8088edc5ec0216d274927073517878b5eab3b7"
+    },
+    {
+      "path": "audit/huangpi_north_road_objects.json",
+      "byte_identical": true,
+      "sha256": "f384ec3aa22281fdf44c1ca312bec26b43c7d3f5f27ed359109b89f83af9e0d7"
+    },
+    {
+      "path": "audit/window_definition.json",
+      "byte_identical": true,
+      "sha256": "f9911f68cb1686d2a652c85ea1d41d80b2bf8a91294b9504e20a36a58fdc53ef"
+    },
+    {
+      "path": "audit/target_coverage_checks.json",
+      "byte_identical": true,
+      "sha256": "69ca65ed877a697a8ab56c82bbbc69c764ee257ff8b0d837b4dc5b4d0b06e669"
+    },
+    {
+      "path": "audit/window_object_inventory.csv",
+      "byte_identical": true,
+      "sha256": "29903af6e5567fe68eb6ec04f428d82a8c90aa5a508169fe878a19deb3fef1fe"
+    },
+    {
+      "path": "audit/source_to_render_inventory.csv",
+      "byte_identical": true,
+      "sha256": "df39ec2cee48a4476d94f417d616b8aa5d90d0d1246071b871bdd6add5f0520f"
+    },
+    {
+      "path": "audit/source_to_render_inventory.json",
+      "byte_identical": true,
+      "sha256": "1ec1c0e82569e4c7ebbe3b2cf3027edb9752d0e2fb793b15c9def71c98c6b3c0"
+    }
+  ],
+  "script_sha256": "f3e0cb1b9f8d483741c7c20ffdb5dccc54010c61d50be7f55c935e606ebaf14a",
+  "scope": "Rebuildidentity+context+views+rendercensus frompackagedfullraw+lineage+frozenmap+actualfiguremanifest only, notgraphconstructionornewroute",
+  "algorithm_runs_added": 0,
+  "solver_calls_added": 0,
+  "external_map_requests": 0,
+  "new_data_downloads": 0
+}

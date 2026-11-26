@@ -1,0 +1,82 @@
+{
+  "task": "PG1-MAP-CONTEXT-RECONSTRUCTION-R2",
+  "at": "2026-11-13T06:08:55.120180+08:00",
+  "visual_source_commit": "e0f4d184808f35740e5867d13fdf803e369066af",
+  "base_visual_commit": "ddd1927c8cac86e30c2cd8fd023304efd8b1aa34",
+  "frozen_algorithm_result_commit": "1ab7fd75704d98e85fe4e69a85dc828e7df2ffb5",
+  "new_source_files": [
+    {
+      "execution_path": "src/build_target_scene.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/src/build_target_scene.py",
+      "bytes": 30800,
+      "sha256": "f3e0cb1b9f8d483741c7c20ffdb5dccc54010c61d50be7f55c935e606ebaf14a"
+    },
+    {
+      "execution_path": "src/build_web.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/src/build_web.py",
+      "bytes": 11003,
+      "sha256": "d02b7f189f40cd4a899cce2831df58c895a27ee2c1b1b1f104e99dcef8d045ac"
+    },
+    {
+      "execution_path": "src/cartography.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/src/cartography.py",
+      "bytes": 11526,
+      "sha256": "7d3f7640d266b6cc49bb8bf5000a4ad4fb7cd21ed279fa412f3c22d5d4d133dc"
+    },
+    {
+      "execution_path": "src/render_maps.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/src/render_maps.py",
+      "bytes": 8883,
+      "sha256": "b92b2709d1a0977f1048d34e1ab4f38f0429e21a6edda975c438884974a0146b"
+    },
+    {
+      "execution_path": "src/serve_review.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/src/serve_review.py",
+      "bytes": 1580,
+      "sha256": "6ad77d73fe0eda97a6669310cc381333f725cb39f55bf87690434ac2d818e85c"
+    },
+    {
+      "execution_path": "tests/check_browser.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/tests/check_browser.py",
+      "bytes": 4426,
+      "sha256": "b393e1328c7dc2d01e2203df46674ba81076094e2738890d86cac9a7ef30b44d"
+    },
+    {
+      "execution_path": "tests/independent_check.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/tests/independent_check.py",
+      "bytes": 29889,
+      "sha256": "07661cd948de83d23a12f45421034c3c48aeaa1797bfc837b5808914555874cc"
+    },
+    {
+      "execution_path": "web/viewer.js",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/web/viewer.js",
+      "bytes": 28655,
+      "sha256": "ab5cad324923ba9f9598cf3069557e349cd49eaaa5466b4846e3ab3f72d3a002"
+    },
+    {
+      "execution_path": "web/viewer.css",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/web/viewer.css",
+      "bytes": 5341,
+      "sha256": "bc21fa68420326ec693521aedc618aa1d184454c4a19d555e422c42b753e8d1d"
+    },
+    {
+      "execution_path": "README.md",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/README.md",
+      "bytes": 3143,
+      "sha256": "b3cf3dac37d6a655129cf8a0354387d6742c1f2b8f0f85b5e9455231901464c9"
+    },
+    {
+      "execution_path": "TARGET_SCENE_CORRECTION.md",
+      "git_path": "rounds/PG1_MAP_CONTEXT_RECONSTRUCTION_R2/TARGET_SCENE_CORRECTION.md",
+      "bytes": 4423,
+      "sha256": "e3ea42c0caa5095dd482bc0768df24ad70bc0ec347ff83d6b7fd41c30119dcd9"
+    }
+  ],
+  "branch": "codex/pg1-map-context-reconstruction-r2",
+  "public_pushes": 0,
+  "current_remote_state": "NOT_QUERIED_THIS_TASK",
+  "old38_public_candidates": "UNCHANGED",
+  "license_selected": false,
+  "secret_scan_scope": "Newselectedtextsource4knownprefixrules",
+  "secret_findings": 0
+}

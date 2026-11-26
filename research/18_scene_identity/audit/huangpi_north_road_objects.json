@@ -1,0 +1,1233 @@
+{
+  "status": "SOURCE_ROAD_IDENTITY_VERIFIED",
+  "road_way_ids": [
+    "way/10628430",
+    "way/24576913",
+    "way/513272949",
+    "way/654297629",
+    "way/1074409256",
+    "way/1074771160",
+    "way/1125986386"
+  ],
+  "road_objects": [
+    {
+      "source_id": "way/10628430",
+      "type": "way",
+      "id": 10628430,
+      "source_version": 24,
+      "tags": {
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "name:zh-Hans": "黄陂北路",
+        "name:zh-Hant": "黃陂北路",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            354063.8245824295,
+            3456043.247050448
+          ],
+          [
+            354079.3013630006,
+            3456011.9891422694
+          ],
+          [
+            354104.8507248678,
+            3455964.4047587337
+          ],
+          [
+            354107.07794057904,
+            3455959.440217462
+          ]
+        ]
+      },
+      "node_ids": [
+        71127847,
+        1890811965,
+        10296384648,
+        477576916
+      ],
+      "bounds_xy": [
+        354063.8245824295,
+        3455959.440217462,
+        354107.07794057904,
+        3456043.247050448
+      ],
+      "source_line_length_m": 94.33052212029209,
+      "junction_ids": [
+        "node/71127847",
+        "node/477576916"
+      ],
+      "centerline_only": true,
+      "cycleway_lane_geometry": "ATTRIBUTE_ONLY_NO_SEPARATE_GEOMETRY_INVENTED"
+    },
+    {
+      "source_id": "way/24576913",
+      "type": "way",
+      "id": 24576913,
+      "source_version": 32,
+      "tags": {
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "name:zh-Hans": "黄陂北路",
+        "name:zh-Hant": "黃陂北路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            354063.8245824295,
+            3456043.247050448
+          ],
+          [
+            354059.212096411,
+            3456047.9564259634
+          ],
+          [
+            354051.60378016374,
+            3456053.7273488855
+          ],
+          [
+            354045.0639685864,
+            3456057.54325175
+          ],
+          [
+            354035.9499019816,
+            3456062.5922511877
+          ],
+          [
+            354031.87496866856,
+            3456064.8439810965
+          ],
+          [
+            354025.8240768061,
+            3456072.311787457
+          ],
+          [
+            354022.4826100291,
+            3456075.928120469
+          ],
+          [
+            354018.6763009231,
+            3456083.1208816078
+          ],
+          [
+            354015.6853213124,
+            3456090.025160698
+          ],
+          [
+            354012.6497859153,
+            3456096.4644097313
+          ],
+          [
+            354006.8836769974,
+            3456108.662379727
+          ]
+        ]
+      },
+      "node_ids": [
+        71127847,
+        1890812009,
+        1890812067,
+        1890812037,
+        1890811951,
+        1890811880,
+        9778597704,
+        267195068,
+        1890811911,
+        848254817,
+        1928785175,
+        267195150
+      ],
+      "bounds_xy": [
+        354006.8836769974,
+        3456043.247050448,
+        354063.8245824295,
+        3456108.662379727
+      ],
+      "source_line_length_m": 89.59616379661776,
+      "junction_ids": [
+        "node/71127847",
+        "node/267195150",
+        "node/1890811951"
+      ],
+      "centerline_only": true,
+      "cycleway_lane_geometry": "ATTRIBUTE_ONLY_NO_SEPARATE_GEOMETRY_INVENTED"
+    },
+    {
+      "source_id": "way/513272949",
+      "type": "way",
+      "id": 513272949,
+      "source_version": 2,
+      "tags": {
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            354140.5838504839,
+            3455887.875580609
+          ],
+          [
+            354145.2792548331,
+            3455878.8301286395
+          ]
+        ]
+      },
+      "node_ids": [
+        5002541034,
+        476794486
+      ],
+      "bounds_xy": [
+        354140.5838504839,
+        3455878.8301286395,
+        354145.2792548331,
+        3455887.875580609
+      ],
+      "source_line_length_m": 10.19151722429751,
+      "junction_ids": [
+        "node/476794486",
+        "node/5002541034"
+      ],
+      "centerline_only": true,
+      "cycleway_lane_geometry": "ATTRIBUTE_ONLY_NO_SEPARATE_GEOMETRY_INVENTED"
+    },
+    {
+      "source_id": "way/654297629",
+      "type": "way",
+      "id": 654297629,
+      "source_version": 3,
+      "tags": {
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "name:zh-Hans": "黄陂北路",
+        "name:zh-Hant": "黃陂北路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            353977.00637814496,
+            3456162.859465331
+          ],
+          [
+            353970.1749323694,
+            3456175.8594144178
+          ],
+          [
+            353969.1818948451,
+            3456177.757967895
+          ],
+          [
+            353944.55510224553,
+            3456228.578407771
+          ],
+          [
+            353933.8014569317,
+            3456250.701911706
+          ],
+          [
+            353923.9324180251,
+            3456277.5250796177
+          ],
+          [
+            353902.74388548476,
+            3456335.105269591
+          ],
+          [
+            353900.98759966274,
+            3456341.0389738106
+          ],
+          [
+            353897.7588273778,
+            3456348.6450733594
+          ],
+          [
+            353879.4805533992,
+            3456398.3021317883
+          ],
+          [
+            353876.36967656075,
+            3456406.848989534
+          ],
+          [
+            353874.73851578473,
+            3456414.244433383
+          ],
+          [
+            353874.3419962933,
+            3456419.3055676734
+          ],
+          [
+            353874.39126091544,
+            3456422.8526920453
+          ],
+          [
+            353875.2669851655,
+            3456445.4356357655
+          ]
+        ]
+      },
+      "node_ids": [
+        477568284,
+        13075885199,
+        476682036,
+        476682057,
+        267195069,
+        602259562,
+        477575777,
+        4353429880,
+        620101576,
+        4397696163,
+        5437083667,
+        5437083665,
+        5437083703,
+        5437083666,
+        132491635
+      ],
+      "bounds_xy": [
+        353874.3419962933,
+        3456162.859465331,
+        353977.00637814496,
+        3456445.4356357655
+      ],
+      "source_line_length_m": 303.09390814421056,
+      "junction_ids": [
+        "node/132491635",
+        "node/477568284",
+        "node/477575777",
+        "node/4397696163"
+      ],
+      "centerline_only": true,
+      "cycleway_lane_geometry": "ATTRIBUTE_ONLY_NO_SEPARATE_GEOMETRY_INVENTED"
+    },
+    {
+      "source_id": "way/1074409256",
+      "type": "way",
+      "id": 1074409256,
+      "source_version": 3,
+      "tags": {
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "name:zh-Hans": "黄陂北路",
+        "name:zh-Hant": "黃陂北路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            354000.88003603497,
+            3456118.84583558
+          ],
+          [
+            353996.94716279686,
+            3456125.840798654
+          ],
+          [
+            353992.815815492,
+            3456133.6367736817
+          ],
+          [
+            353990.83740331983,
+            3456137.300726394
+          ],
+          [
+            353977.00637814496,
+            3456162.859465331
+          ]
+        ]
+      },
+      "node_ids": [
+        476675200,
+        9854898689,
+        1928785178,
+        5021317172,
+        477568284
+      ],
+      "bounds_xy": [
+        353977.00637814496,
+        3456118.84583558,
+        354000.88003603497,
+        3456162.859465331
+      ],
+      "source_line_length_m": 50.07282264606367,
+      "junction_ids": [
+        "node/476675200",
+        "node/477568284"
+      ],
+      "centerline_only": true,
+      "cycleway_lane_geometry": "ATTRIBUTE_ONLY_NO_SEPARATE_GEOMETRY_INVENTED"
+    },
+    {
+      "source_id": "way/1074771160",
+      "type": "way",
+      "id": 1074771160,
+      "source_version": 2,
+      "tags": {
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "name:zh-Hans": "黄陂北路",
+        "name:zh-Hant": "黃陂北路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            354006.8836769974,
+            3456108.662379727
+          ],
+          [
+            354000.88003603497,
+            3456118.84583558
+          ]
+        ]
+      },
+      "node_ids": [
+        267195150,
+        476675200
+      ],
+      "bounds_xy": [
+        354000.88003603497,
+        3456108.662379727,
+        354006.8836769974,
+        3456118.84583558
+      ],
+      "source_line_length_m": 11.82144144852195,
+      "junction_ids": [
+        "node/267195150",
+        "node/476675200"
+      ],
+      "centerline_only": true,
+      "cycleway_lane_geometry": "ATTRIBUTE_ONLY_NO_SEPARATE_GEOMETRY_INVENTED"
+    },
+    {
+      "source_id": "way/1125986386",
+      "type": "way",
+      "id": 1125986386,
+      "source_version": 3,
+      "tags": {
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "name:zh-Hans": "黄陂北路",
+        "name:zh-Hant": "黃陂北路",
+        "surface": "asphalt",
+        "trolley_wire": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            354107.07794057904,
+            3455959.440217462
+          ],
+          [
+            354140.5838504839,
+            3455887.875580609
+          ]
+        ]
+      },
+      "node_ids": [
+        477576916,
+        5002541034
+      ],
+      "bounds_xy": [
+        354107.07794057904,
+        3455887.875580609,
+        354140.5838504839,
+        3455959.440217462
+      ],
+      "source_line_length_m": 79.01989146070214,
+      "junction_ids": [
+        "node/477576916",
+        "node/5002541034"
+      ],
+      "centerline_only": true,
+      "cycleway_lane_geometry": "ATTRIBUTE_ONLY_NO_SEPARATE_GEOMETRY_INVENTED"
+    }
+  ],
+  "excluded_same_name_objects": [
+    {
+      "source_id": "way/478271881",
+      "type": "way",
+      "id": 478271881,
+      "source_version": 7,
+      "tags": {
+        "bench": "yes",
+        "highway": "platform",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "name:zh-Hans": "黄陂北路",
+        "name:zh-Hant": "黄陂北路",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            354147.5031302329,
+            3455871.5595741193
+          ],
+          [
+            354167.1796916162,
+            3455880.0122484774
+          ],
+          [
+            354216.1371992037,
+            3455900.4322253703
+          ],
+          [
+            354260.4495303038,
+            3455919.0985056977
+          ]
+        ]
+      },
+      "reason": "SAME_NAME_PUBLIC_TRANSPORT_PLATFORM_NOT_ROAD"
+    }
+  ],
+  "junctions": [
+    {
+      "source_id": "node/71127847",
+      "xy": [
+        354063.8245824295,
+        3456043.247050448
+      ],
+      "wgs84": [
+        121.467733,
+        31.2294514
+      ],
+      "node_tags": {
+        "highway": "traffic_signals"
+      },
+      "incident_road_ids": [
+        "way/10628430",
+        "way/24576913",
+        "way/449565665",
+        "way/1131969257"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/449565665",
+          "name": "武胜路",
+          "tags": {
+            "cycleway": "lane",
+            "highway": "residential",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "name:zh": "武胜路",
+            "name:zh-Hans": "武胜路",
+            "name:zh-Hant": "武勝路",
+            "surface": "asphalt",
+            "trolley_wire": "yes"
+          }
+        },
+        {
+          "source_id": "way/1131969257",
+          "name": "武胜路",
+          "tags": {
+            "highway": "residential",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "name:zh": "武胜路",
+            "name:zh-Hans": "武胜路",
+            "name:zh-Hant": "武勝路",
+            "surface": "asphalt"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "node/132491635",
+      "xy": [
+        353875.2669851655,
+        3456445.4356357655
+      ],
+      "wgs84": [
+        121.4656952,
+        31.2330554
+      ],
+      "node_tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "signal"
+      },
+      "incident_road_ids": [
+        "way/131671623",
+        "way/279209078",
+        "way/564273552",
+        "way/564273553",
+        "way/654297629"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/131671623",
+          "name": "南京西路",
+          "tags": {
+            "bicycle": "no",
+            "highway": "secondary",
+            "lanes": "2",
+            "lit": "yes",
+            "name": "南京西路",
+            "name:en": "West Nanjing Road",
+            "name:zh": "南京西路",
+            "name:zh-Hans": "南京西路",
+            "name:zh-Hant": "南京西路",
+            "oneway": "yes",
+            "source": "interpolation",
+            "trolley_wire": "yes",
+            "wikidata": "Q10906894",
+            "wikipedia": "zh:南京西路 (上海市)"
+          }
+        },
+        {
+          "source_id": "way/279209078",
+          "name": null,
+          "tags": {
+            "highway": "tertiary_link",
+            "oneway": "yes"
+          }
+        },
+        {
+          "source_id": "way/564273552",
+          "name": "南京西路",
+          "tags": {
+            "bicycle": "no",
+            "highway": "secondary",
+            "lit": "yes",
+            "name": "南京西路",
+            "name:en": "West Nanjing Road",
+            "name:zh": "南京西路",
+            "name:zh-Hans": "南京西路",
+            "name:zh-Hant": "南京西路",
+            "oneway": "yes",
+            "trolley_wire": "yes",
+            "wikidata": "Q10906894",
+            "wikipedia": "zh:南京西路 (上海市)"
+          }
+        },
+        {
+          "source_id": "way/564273553",
+          "name": "南京西路",
+          "tags": {
+            "bicycle": "no",
+            "highway": "secondary",
+            "lanes": "2",
+            "name": "南京西路",
+            "name:en": "West Nanjing Road",
+            "name:zh": "南京西路",
+            "name:zh-Hans": "南京西路",
+            "name:zh-Hant": "南京西路",
+            "source": "interpolation",
+            "trolley_wire": "yes",
+            "wikidata": "Q10906894",
+            "wikipedia": "zh:南京西路 (上海市)"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "node/267195150",
+      "xy": [
+        354006.8836769974,
+        3456108.662379727
+      ],
+      "wgs84": [
+        121.4671258,
+        31.2300343
+      ],
+      "node_tags": {
+        "highway": "traffic_signals"
+      },
+      "incident_road_ids": [
+        "way/24576913",
+        "way/24576922",
+        "way/1074771160"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/24576922",
+          "name": "人民大道",
+          "tags": {
+            "bicycle": "no",
+            "highway": "tertiary",
+            "lanes": "3",
+            "name": "人民大道",
+            "name:en": "People's Avenue",
+            "name:zh": "人民大道",
+            "name:zh-Hans": "人民大道",
+            "name:zh-Hant": "人民大道",
+            "oneway": "yes",
+            "surface": "asphalt"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "node/476675200",
+      "xy": [
+        354000.88003603497,
+        3456118.84583558
+      ],
+      "wgs84": [
+        121.4670613,
+        31.2301254
+      ],
+      "node_tags": {
+        "highway": "traffic_signals"
+      },
+      "incident_road_ids": [
+        "way/39763700",
+        "way/71269782",
+        "way/1074409256",
+        "way/1074771160"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/39763700",
+          "name": "人民大道",
+          "tags": {
+            "bicycle": "no",
+            "highway": "tertiary",
+            "lanes": "3",
+            "name": "人民大道",
+            "name:en": "People's Avenue",
+            "name:zh": "人民大道",
+            "name:zh-Hans": "人民大道",
+            "name:zh-Hant": "人民大道",
+            "oneway": "yes",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "source_id": "way/71269782",
+          "name": "武胜路",
+          "tags": {
+            "access": "no",
+            "bicycle": "yes",
+            "highway": "residential",
+            "motor_vehicle": "no",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "surface": "asphalt"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "node/476794486",
+      "xy": [
+        354145.2792548331,
+        3455878.8301286395
+      ],
+      "wgs84": [
+        121.4686119,
+        31.2279786
+      ],
+      "node_tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "incident_road_ids": [
+        "way/39838530",
+        "way/513272949",
+        "way/666886084",
+        "way/1100626087"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/39838530",
+          "name": null,
+          "tags": {
+            "cycleway": "lane",
+            "highway": "tertiary",
+            "lanes": "2",
+            "trolley_wire": "yes"
+          }
+        },
+        {
+          "source_id": "way/666886084",
+          "name": "延安东路",
+          "tags": {
+            "busway:left": "lane",
+            "highway": "primary",
+            "lanes": "3",
+            "name": "延安东路",
+            "name:en": "East Yan'an Road",
+            "name:zh": "延安东路",
+            "name:zh-Hans": "延安东路",
+            "name:zh-Hant": "延安東路",
+            "name:zh-Latn-pinyin": "Yán'ān Dōnglù",
+            "oneway": "yes"
+          }
+        },
+        {
+          "source_id": "way/1100626087",
+          "name": "延安东路",
+          "tags": {
+            "busway:left": "lane",
+            "highway": "primary",
+            "lanes": "3",
+            "name": "延安东路",
+            "name:en": "East Yan'an Road",
+            "name:zh": "延安东路",
+            "name:zh-Hans": "延安东路",
+            "name:zh-Hant": "延安東路",
+            "name:zh-Latn-pinyin": "Yán'ān Dōnglù",
+            "oneway": "yes",
+            "surface": "asphalt"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "node/477568284",
+      "xy": [
+        353977.00637814496,
+        3456162.859465331
+      ],
+      "wgs84": [
+        121.4668043,
+        31.2305194
+      ],
+      "node_tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "incident_road_ids": [
+        "way/39838520",
+        "way/654297629",
+        "way/1074409256"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/39838520",
+          "name": "威海路",
+          "tags": {
+            "cycleway": "lane",
+            "highway": "residential",
+            "name": "威海路",
+            "name:en": "Weihai Road",
+            "oneway": "yes",
+            "oneway:bicycle": "no"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "node/477575777",
+      "xy": [
+        353902.74388548476,
+        3456335.105269591
+      ],
+      "wgs84": [
+        121.4659997,
+        31.2320637
+      ],
+      "node_tags": {},
+      "incident_road_ids": [
+        "way/39838691",
+        "way/654297629"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/39838691",
+          "name": "江阴路",
+          "tags": {
+            "highway": "residential",
+            "name": "江阴路",
+            "name:en": "Jiangyin Road",
+            "oneway:bicycle": "yes",
+            "oneway:electric_scooter": "no"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "node/477576916",
+      "xy": [
+        354107.07794057904,
+        3455959.440217462
+      ],
+      "wgs84": [
+        121.4681992,
+        31.2287009
+      ],
+      "node_tags": {},
+      "incident_road_ids": [
+        "way/10628430",
+        "way/39838751",
+        "way/1125986386"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/39838751",
+          "name": "大沽路",
+          "tags": {
+            "highway": "residential",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "name": "大沽路",
+            "name:en": "Dagu Road",
+            "name:zh": "大沽路",
+            "name:zh-Hans": "大沽路",
+            "name:zh-Hant": "大沽路"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "node/1890811951",
+      "xy": [
+        354035.9499019816,
+        3456062.5922511877
+      ],
+      "wgs84": [
+        121.4674376,
+        31.2296224
+      ],
+      "node_tags": {
+        "highway": "traffic_signals"
+      },
+      "incident_road_ids": [
+        "way/24576913",
+        "way/178723092",
+        "way/178723093"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/178723092",
+          "name": "人民广场地下停车场",
+          "tags": {
+            "highway": "service",
+            "name": "人民广场地下停车场",
+            "name:en": "People's Square Underground Parking"
+          }
+        },
+        {
+          "source_id": "way/178723093",
+          "name": "人民广场地下停车场",
+          "tags": {
+            "highway": "service",
+            "maxspeed": "5",
+            "name": "人民广场地下停车场",
+            "name:en": "People's Square Underground Parking"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "node/4397696163",
+      "xy": [
+        353879.4805533992,
+        3456398.3021317883
+      ],
+      "wgs84": [
+        121.4657463,
+        31.2326308
+      ],
+      "node_tags": {},
+      "incident_road_ids": [
+        "way/48872352",
+        "way/654297629"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/48872352",
+          "name": null,
+          "tags": {
+            "highway": "service",
+            "service": "parking_aisle"
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "node/5002541034",
+      "xy": [
+        354140.5838504839,
+        3455887.875580609
+      ],
+      "wgs84": [
+        121.4685613,
+        31.2280596
+      ],
+      "node_tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "incident_road_ids": [
+        "way/511404873",
+        "way/513272949",
+        "way/513272950",
+        "way/1125986386"
+      ],
+      "other_roads": [
+        {
+          "source_id": "way/511404873",
+          "name": "延安东路",
+          "tags": {
+            "highway": "primary",
+            "lanes": "1",
+            "name": "延安东路",
+            "name:en": "East Yan'an Road",
+            "name:zh": "延安东路",
+            "name:zh-Hans": "延安东路",
+            "name:zh-Hant": "延安東路",
+            "name:zh-Latn-pinyin": "Yán'ān Dōnglù",
+            "oneway": "yes"
+          }
+        },
+        {
+          "source_id": "way/513272950",
+          "name": "延安东路",
+          "tags": {
+            "highway": "primary",
+            "name": "延安东路",
+            "name:en": "East Yan'an Road",
+            "name:zh": "延安东路",
+            "name:zh-Hans": "延安东路",
+            "name:zh-Hant": "延安東路",
+            "name:zh-Latn-pinyin": "Yán'ān Dōnglù",
+            "oneway": "yes"
+          }
+        }
+      ]
+    }
+  ],
+  "endpoint_source_node_ids": [
+    132491635,
+    476794486
+  ],
+  "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+      [
+        [
+          354063.8245824295,
+          3456043.247050448
+        ],
+        [
+          354079.3013630006,
+          3456011.9891422694
+        ],
+        [
+          354104.8507248678,
+          3455964.4047587337
+        ],
+        [
+          354107.07794057904,
+          3455959.440217462
+        ]
+      ],
+      [
+        [
+          354063.8245824295,
+          3456043.247050448
+        ],
+        [
+          354059.212096411,
+          3456047.9564259634
+        ],
+        [
+          354051.60378016374,
+          3456053.7273488855
+        ],
+        [
+          354045.0639685864,
+          3456057.54325175
+        ],
+        [
+          354035.9499019816,
+          3456062.5922511877
+        ],
+        [
+          354031.87496866856,
+          3456064.8439810965
+        ],
+        [
+          354025.8240768061,
+          3456072.311787457
+        ],
+        [
+          354022.4826100291,
+          3456075.928120469
+        ],
+        [
+          354018.6763009231,
+          3456083.1208816078
+        ],
+        [
+          354015.6853213124,
+          3456090.025160698
+        ],
+        [
+          354012.6497859153,
+          3456096.4644097313
+        ],
+        [
+          354006.8836769974,
+          3456108.662379727
+        ]
+      ],
+      [
+        [
+          354140.5838504839,
+          3455887.875580609
+        ],
+        [
+          354145.2792548331,
+          3455878.8301286395
+        ]
+      ],
+      [
+        [
+          353977.00637814496,
+          3456162.859465331
+        ],
+        [
+          353970.1749323694,
+          3456175.8594144178
+        ],
+        [
+          353969.1818948451,
+          3456177.757967895
+        ],
+        [
+          353944.55510224553,
+          3456228.578407771
+        ],
+        [
+          353933.8014569317,
+          3456250.701911706
+        ],
+        [
+          353923.9324180251,
+          3456277.5250796177
+        ],
+        [
+          353902.74388548476,
+          3456335.105269591
+        ],
+        [
+          353900.98759966274,
+          3456341.0389738106
+        ],
+        [
+          353897.7588273778,
+          3456348.6450733594
+        ],
+        [
+          353879.4805533992,
+          3456398.3021317883
+        ],
+        [
+          353876.36967656075,
+          3456406.848989534
+        ],
+        [
+          353874.73851578473,
+          3456414.244433383
+        ],
+        [
+          353874.3419962933,
+          3456419.3055676734
+        ],
+        [
+          353874.39126091544,
+          3456422.8526920453
+        ],
+        [
+          353875.2669851655,
+          3456445.4356357655
+        ]
+      ],
+      [
+        [
+          354000.88003603497,
+          3456118.84583558
+        ],
+        [
+          353996.94716279686,
+          3456125.840798654
+        ],
+        [
+          353992.815815492,
+          3456133.6367736817
+        ],
+        [
+          353990.83740331983,
+          3456137.300726394
+        ],
+        [
+          353977.00637814496,
+          3456162.859465331
+        ]
+      ],
+      [
+        [
+          354006.8836769974,
+          3456108.662379727
+        ],
+        [
+          354000.88003603497,
+          3456118.84583558
+        ]
+      ],
+      [
+        [
+          354107.07794057904,
+          3455959.440217462
+        ],
+        [
+          354140.5838504839,
+          3455887.875580609
+        ]
+      ]
+    ]
+  },
+  "source_total_centerline_length_m": 638.1262668407056,
+  "source": {
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-huangpu-01\\source.osm.json",
+    "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "timestamp": "2026-11-08T21:21:00Z",
+    "source_crs": "EPSG:4326",
+    "working_crs": "EPSG:32651",
+    "bytes": 6356390
+  },
+  "world_geometry_accuracy": "REAL_WORLD_GEOMETRY_UNVERIFIED",
+  "no_new_connections": true
+}
