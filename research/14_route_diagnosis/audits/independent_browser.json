@@ -1,0 +1,283 @@
+{
+  "reviewer": "/root/r2_independent",
+  "actual_browser": "Microsoft Edge headless via Playwright; new separate browser context",
+  "at": "2026-11-12T13:23:24.325010+08:00",
+  "HTML_sha256": "83d8fd44a43d9af27e394d45bcd852a8e0dc2027bb860e3d4d99b1bc62b67600",
+  "status": "PASS_FOR_ACTUAL_INTERACTIVE_AND_OFFLINE_RENDER",
+  "HTTP_status": 200,
+  "default_interfaces_checked": false,
+  "rows": [
+    {
+      "case": "south",
+      "combinations": [
+        {
+          "mode": "B0",
+          "method": "F0",
+          "SVG_children": 171,
+          "summary": "B0 / F0 · 148.863米\n\n广义代价 148.863 加权米\n原起点 node/10073042336\n原登记门 node/6897141353\n历史run RUN-20261112T014120-854cf312f0"
+        },
+        {
+          "mode": "B0",
+          "method": "F1",
+          "SVG_children": 171,
+          "summary": "B0 / F1 · 148.863米\n\n广义代价 148.863 加权米\n原起点 node/10073042336\n原登记门 node/6897141353\n历史run RUN-20261112T015627-46c4d75781"
+        },
+        {
+          "mode": "B1",
+          "method": "F0",
+          "SVG_children": 198,
+          "summary": "B1 / F0 · 148.863米\n\n广义代价 148.863 加权米\n原起点 node/10073042336\n原登记门 node/6897141353\n历史run RUN-20261112T014418-5a6e60cc11"
+        },
+        {
+          "mode": "B1",
+          "method": "F1",
+          "SVG_children": 198,
+          "summary": "B1 / F1 · 148.863米\n\n广义代价 148.863 加权米\n原起点 node/10073042336\n原登记门 node/6897141353\n历史run RUN-20261112T015634-194a048966"
+        },
+        {
+          "mode": "B2",
+          "method": "F0",
+          "SVG_children": 198,
+          "summary": "B2 / F0 · 148.863米\n\n广义代价 148.863 加权米\n原起点 node/10073042336\n原登记门 node/6897141353\n历史run RUN-20261112T014845-9f9ccaf9dd"
+        },
+        {
+          "mode": "B2",
+          "method": "F1",
+          "SVG_children": 198,
+          "summary": "B2 / F1 · 148.863米\n\n广义代价 148.863 加权米\n原起点 node/10073042336\n原登记门 node/6897141353\n历史run RUN-20261112T015640-407ba76179"
+        },
+        {
+          "mode": "B3",
+          "method": "F0",
+          "SVG_children": 199,
+          "summary": "B3 / F0 · 148.863米\n\n广义代价 148.863 加权米\n原起点 node/10073042336\n原登记门 node/6897141353\n历史run RUN-20261112T015521-bb55088ddb"
+        },
+        {
+          "mode": "B3",
+          "method": "F1",
+          "SVG_children": 199,
+          "summary": "B3 / F1 · 148.863米\n\n广义代价 148.863 加权米\n原起点 node/10073042336\n原登记门 node/6897141353\n历史run RUN-20261112T015651-bf37c97cdb"
+        }
+      ],
+      "selected_interface": "interface/7fcfc89abb68fc1da1f853cf",
+      "counterfactual_text_chars": 313,
+      "screenshot": "audits\\independent_browser\\south.png",
+      "screenshot_sha256": "157f69dda19db266519de5179b717133c1a5d56484accff126b7866e2a14d9f1"
+    },
+    {
+      "case": "north_near",
+      "combinations": [
+        {
+          "mode": "B0",
+          "method": "F0",
+          "SVG_children": 335,
+          "summary": "B0 / F0 · 299.531米\n\n广义代价 299.531 加权米\n原起点 node/10073042336\n原登记门 node/6897145227\n历史run RUN-20261112T015659-017ffc002e"
+        },
+        {
+          "mode": "B0",
+          "method": "F1",
+          "SVG_children": 321,
+          "summary": "B0 / F1 · 300.784米\n\n广义代价 310.466 加权米\n原起点 node/10073042336\n原登记门 node/6897145227\n历史run RUN-20261112T021123-bb7538c812"
+        },
+        {
+          "mode": "B1",
+          "method": "F0",
+          "SVG_children": 362,
+          "summary": "B1 / F0 · 299.531米\n\n广义代价 299.531 加权米\n原起点 node/10073042336\n原登记门 node/6897145227\n历史run RUN-20261112T015919-f73bc985c0"
+        },
+        {
+          "mode": "B1",
+          "method": "F1",
+          "SVG_children": 348,
+          "summary": "B1 / F1 · 300.784米\n\n广义代价 310.466 加权米\n原起点 node/10073042336\n原登记门 node/6897145227\n历史run RUN-20261112T021126-c03bff8348"
+        },
+        {
+          "mode": "B2",
+          "method": "F0",
+          "SVG_children": 362,
+          "summary": "B2 / F0 · 299.531米\n\n广义代价 299.531 加权米\n原起点 node/10073042336\n原登记门 node/6897145227\n历史run RUN-20261112T020327-d30f80b549"
+        },
+        {
+          "mode": "B2",
+          "method": "F1",
+          "SVG_children": 348,
+          "summary": "B2 / F1 · 300.784米\n\n广义代价 310.466 加权米\n原起点 node/10073042336\n原登记门 node/6897145227\n历史run RUN-20261112T021131-7b02e8a8fb"
+        },
+        {
+          "mode": "B3",
+          "method": "F0",
+          "SVG_children": 363,
+          "summary": "B3 / F0 · 299.531米\n\n广义代价 299.531 加权米\n原起点 node/10073042336\n原登记门 node/6897145227\n历史run RUN-20261112T021014-c0606583a4"
+        },
+        {
+          "mode": "B3",
+          "method": "F1",
+          "SVG_children": 349,
+          "summary": "B3 / F1 · 300.784米\n\n广义代价 310.466 加权米\n原起点 node/10073042336\n原登记门 node/6897145227\n历史run RUN-20261112T021137-983fd8a137"
+        }
+      ],
+      "selected_interface": "interface/b331350877ff42db7e00fbc6",
+      "counterfactual_text_chars": 318,
+      "screenshot": "audits\\independent_browser\\north_near.png",
+      "screenshot_sha256": "43d798cfdd45d076ca524218532348b68f933856eb4efe7fcad654661a296f2f"
+    },
+    {
+      "case": "north_far",
+      "combinations": [
+        {
+          "mode": "B0",
+          "method": "F0",
+          "SVG_children": 463,
+          "summary": "B0 / F0 · 666.664米\n\n广义代价 666.664 加权米\n原起点 node/11667615960\n原登记门 node/6897145227\n历史run RUN-20261112T021145-f8116e45fa"
+        },
+        {
+          "mode": "B0",
+          "method": "F1",
+          "SVG_children": 449,
+          "summary": "B0 / F1 · 667.916米\n\n广义代价 677.598 加权米\n原起点 node/11667615960\n原登记门 node/6897145227\n历史run RUN-20261112T021207-f8df1b370e"
+        },
+        {
+          "mode": "B1",
+          "method": "F0",
+          "SVG_children": 490,
+          "summary": "B1 / F0 · 666.664米\n\n广义代价 666.664 加权米\n原起点 node/11667615960\n原登记门 node/6897145227\n历史run RUN-20261112T021147-036d6cf6fc"
+        },
+        {
+          "mode": "B1",
+          "method": "F1",
+          "SVG_children": 476,
+          "summary": "B1 / F1 · 667.916米\n\n广义代价 677.598 加权米\n原起点 node/11667615960\n原登记门 node/6897145227\n历史run RUN-20261112T021209-a770d19dd3"
+        },
+        {
+          "mode": "B2",
+          "method": "F0",
+          "SVG_children": 490,
+          "summary": "B2 / F0 · 666.664米\n\n广义代价 666.664 加权米\n原起点 node/11667615960\n原登记门 node/6897145227\n历史run RUN-20261112T021153-446d76fa4d"
+        },
+        {
+          "mode": "B2",
+          "method": "F1",
+          "SVG_children": 476,
+          "summary": "B2 / F1 · 667.916米\n\n广义代价 677.598 加权米\n原起点 node/11667615960\n原登记门 node/6897145227\n历史run RUN-20261112T021213-58e3cd2824"
+        },
+        {
+          "mode": "B3",
+          "method": "F0",
+          "SVG_children": 491,
+          "summary": "B3 / F0 · 666.664米\n\n广义代价 666.664 加权米\n原起点 node/11667615960\n原登记门 node/6897145227\n历史run RUN-20261112T021159-1f2e6e5725"
+        },
+        {
+          "mode": "B3",
+          "method": "F1",
+          "SVG_children": 477,
+          "summary": "B3 / F1 · 667.916米\n\n广义代价 677.598 加权米\n原起点 node/11667615960\n原登记门 node/6897145227\n历史run RUN-20261112T021222-c4b4c8e476"
+        }
+      ],
+      "selected_interface": "interface/b331350877ff42db7e00fbc6",
+      "counterfactual_text_chars": 318,
+      "screenshot": "audits\\independent_browser\\north_far.png",
+      "screenshot_sha256": "ff31393fe32ebb1d9600c367bfd71442ca5e7a96f622bc9585affdf9fdee99a2"
+    },
+    {
+      "case": "library",
+      "combinations": [
+        {
+          "mode": "B0",
+          "method": "F0",
+          "SVG_children": 117,
+          "summary": "B0 / F0 · 180.581米\n\n广义代价 180.581 加权米\n原起点 node/105253317\n原登记门 node/11300000483\n历史run RUN-20261112T021229-fd061236ef"
+        },
+        {
+          "mode": "B0",
+          "method": "F1",
+          "SVG_children": 117,
+          "summary": "B0 / F1 · 180.581米\n\n广义代价 180.581 加权米\n原起点 node/105253317\n原登记门 node/11300000483\n历史run RUN-20261112T021345-36c8e03a40"
+        },
+        {
+          "mode": "B1",
+          "method": "F0",
+          "SVG_children": 128,
+          "summary": "B1 / F0 · 180.581米\n\n广义代价 180.581 加权米\n原起点 node/105253317\n原登记门 node/11300000483\n历史run RUN-20261112T021303-c2925cc810"
+        },
+        {
+          "mode": "B1",
+          "method": "F1",
+          "SVG_children": 128,
+          "summary": "B1 / F1 · 180.581米\n\n广义代价 180.581 加权米\n原起点 node/105253317\n原登记门 node/11300000483\n历史run RUN-20261112T021345-07a89765e8"
+        },
+        {
+          "mode": "B2",
+          "method": "F0",
+          "SVG_children": 128,
+          "summary": "B2 / F0 · 180.581米\n\n广义代价 180.581 加权米\n原起点 node/105253317\n原登记门 node/11300000483\n历史run RUN-20261112T021318-cbe5e3e9d2"
+        },
+        {
+          "mode": "B2",
+          "method": "F1",
+          "SVG_children": 128,
+          "summary": "B2 / F1 · 180.581米\n\n广义代价 180.581 加权米\n原起点 node/105253317\n原登记门 node/11300000483\n历史run RUN-20261112T021345-80d2c26df3"
+        },
+        {
+          "mode": "B3",
+          "method": "F0",
+          "SVG_children": 128,
+          "summary": "B3 / F0 · 180.581米\n\n广义代价 180.581 加权米\n原起点 node/105253317\n原登记门 node/11300000483\n历史run RUN-20261112T021335-505ec0b269"
+        },
+        {
+          "mode": "B3",
+          "method": "F1",
+          "SVG_children": 128,
+          "summary": "B3 / F1 · 180.581米\n\n广义代价 180.581 加权米\n原起点 node/105253317\n原登记门 node/11300000483\n历史run RUN-20261112T021346-5d56eb2eaf"
+        }
+      ],
+      "selected_interface": "interface/63fdb98c76ab6d247a6e7afd",
+      "counterfactual_text_chars": 310,
+      "screenshot": "audits\\independent_browser\\library.png",
+      "screenshot_sha256": "7743fc4891aa1c759b0194ccf21f252dc25b448b5346c615bda9a74b260684c5"
+    }
+  ],
+  "combinations": 32,
+  "downloads": [
+    {
+      "case": "south",
+      "file": "audits\\independent_browser\\south_view.json",
+      "sha256": "838835a96286cf3fc072dd2df3ef2564d7af492fc455f299aa4918e145618a6d"
+    },
+    {
+      "case": "north_near",
+      "file": "audits\\independent_browser\\north_near_view.json",
+      "sha256": "20cee488b5b85a088208a08cd21a2494dec757e32ff458d000f3029d5d555f1d"
+    },
+    {
+      "case": "north_far",
+      "file": "audits\\independent_browser\\north_far_view.json",
+      "sha256": "b65fc9e4c9d5dbdf88bfbd83800d200044f46670457ff9ff27efdd1a2ee0c476"
+    },
+    {
+      "case": "library",
+      "file": "audits\\independent_browser\\library_view.json",
+      "sha256": "4c78fc6721c90eba30cc6dd563653ea6b21a2c163e3715375851fb9dae638dc2"
+    }
+  ],
+  "offline_file": {
+    "url": "file:///E:/%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82%E5%92%8C%E4%BD%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1/_task_runtime/PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS/visuals/index.html",
+    "SVG_children": 199,
+    "status": "四业务路线的R1保存结果与本轮诊断分别绑定；零路线变化与局部机制收益分开呈现。"
+  },
+  "JS_errors": [],
+  "blocked_external_requests": [],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:53451/"
+    },
+    {
+      "method": "GET",
+      "url": "file:///E:/%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82%E5%92%8C%E4%BD%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1/_task_runtime/PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS/visuals/index.html"
+    }
+  ],
+  "new_solver_calls": 0,
+  "new_SSSP_calls": 0,
+  "user_observation": "PENDING_USER_OBSERVATION",
+  "scope": "32 saved-route mode/method combinations, same-data map, view buttons/corridor/layer switches, real interface selection, four actual JSON downloads, offline file load. This viewer is deliberately read-only diagnosis, not new route solver UI and not user visual acceptance."
+}

@@ -1,0 +1,1523 @@
+{
+  "reviewer": "/root/r2_independent",
+  "script_sha256": "1941e295a477f1370a0b0bdba952bdc5710e8f13b2325756a84fb9665cf00f61",
+  "scope": "Geometric lower bound for routes visiting an admitted new Omega; does not constrain exact interfaces on old faces",
+  "proof": "Cost >= geometric length >= dist(start,Omega)+dist(Omega,end); all frozen multipliers >=1. Separate distance minima weaken the bound, never strengthen it.",
+  "APP_solver_calls": 0,
+  "rows": [
+    {
+      "request_id": "APP-01",
+      "source_id": "relation/8055906",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1380.1322188732477,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/1289666063",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2704.198049783708,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/1572010715",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3907.1081374996875,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/160023915",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1526.3938203190687,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/160023918",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1845.9770770898035,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/160023919",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2039.1099327368443,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/160895400",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1860.2021629615142,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/160895826",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1221.1446806454692,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/160896233",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1173.1273772545337,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/161090905",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 551.5170112807023,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/178721645",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 431.03859741321685,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/405396505",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2748.3599953575995,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/407411288",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1045.437464682071,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/428199191",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3039.505777009015,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/428199195",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3126.399836123944,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/428199196",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3233.7794287506104,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/428199199",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3141.1844269964367,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/435452346",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1723.427509639817,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/435452349",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1392.1007142047429,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/525376140",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1098.5661706538206,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/553893870",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3172.2267972019704,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/553893883",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2971.815272043489,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/554033955",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2986.7683892290215,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/682216778",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2959.3237179592243,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/682223773",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3046.9735874579137,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/682223781",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2847.882817337065,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-01",
+      "source_id": "way/900252576",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2872.5123262826087,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "relation/8055906",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1380.1322188732477,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/1289666063",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2704.198049783708,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/1572010715",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3907.1081374996875,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/160023915",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1526.3938203190687,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/160023918",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1845.9770770898035,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/160023919",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2039.1099327368443,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/160895400",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1860.2021629615142,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/160895826",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1221.1446806454692,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/160896233",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1173.1273772545337,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/161090905",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 551.5170112807023,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/178721645",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 431.03859741321685,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/405396505",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2748.3599953575995,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/407411288",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1045.437464682071,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/428199191",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3039.505777009015,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/428199195",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3126.399836123944,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/428199196",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3233.7794287506104,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/428199199",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3141.1844269964367,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/435452346",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1723.427509639817,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/435452349",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1392.1007142047429,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/525376140",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1098.5661706538206,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/553893870",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3172.2267972019704,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/553893883",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2971.815272043489,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/554033955",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2986.7683892290215,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/682216778",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2959.3237179592243,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/682223773",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3046.9735874579137,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/682223781",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2847.882817337065,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-02",
+      "source_id": "way/900252576",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2872.5123262826087,
+      "baseline_cost_m": 148.86312206979613,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "relation/8055906",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1302.7541518695334,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/1289666063",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2620.3459225613456,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/1572010715",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3886.152723455526,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/160023915",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1454.230001074622,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/160023918",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1801.9199483646994,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/160023919",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2007.8633101040748,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/160895400",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1823.815919560111,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/160895826",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1136.31553718314,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/160896233",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1087.6210867294158,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/161090905",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 466.0159691029318,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/178721645",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 359.36975515584083,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/405396505",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2795.3594145460047,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/407411288",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1031.7709403374683,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/428199191",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3097.511959554088,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/428199195",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3188.004661337094,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/428199196",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3296.7532008581907,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/428199199",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3205.1435858503783,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/435452346",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1787.88122101521,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/435452349",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1452.4005633032443,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/525376140",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1094.8385230228942,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/553893870",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3237.006182194893,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/553893883",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3029.660020633577,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/554033955",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3046.1906281409383,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/682216778",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3002.696938019718,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/682223773",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3086.8171488370917,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/682223781",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2893.7175297778504,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-03",
+      "source_id": "way/900252576",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2857.897620608897,
+      "baseline_cost_m": 299.53144993549483,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "relation/8055906",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1302.7541518695334,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/1289666063",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2620.3459225613456,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/1572010715",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3886.152723455526,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/160023915",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1454.230001074622,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/160023918",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1801.9199483646994,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/160023919",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2007.8633101040748,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/160895400",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1823.815919560111,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/160895826",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1136.31553718314,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/160896233",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1087.6210867294158,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/161090905",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 466.0159691029318,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/178721645",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 359.36975515584083,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/405396505",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2795.3594145460047,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/407411288",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1031.7709403374683,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/428199191",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3097.511959554088,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/428199195",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3188.004661337094,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/428199196",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3296.7532008581907,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/428199199",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3205.1435858503783,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/435452346",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1787.88122101521,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/435452349",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1452.4005633032443,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/525376140",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1094.8385230228942,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/553893870",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3237.006182194893,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/553893883",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3029.660020633577,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/554033955",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3046.1906281409383,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/682216778",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3002.696938019718,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/682223773",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3086.8171488370917,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/682223781",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2893.7175297778504,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-04",
+      "source_id": "way/900252576",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2857.897620608897,
+      "baseline_cost_m": 310.4657655078996,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "relation/8055906",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1352.1548365430601,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/1289666063",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2742.31964759813,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/1572010715",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3819.0641643032404,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/160023915",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1488.9334285693897,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/160023918",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1777.4619649610781,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/160023919",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1961.2657755611724,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/160895400",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1786.2890965980064,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/160895826",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1246.9325429986573,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/160896233",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1182.0331604582811,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/161090905",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 549.5791813901178,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": false
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/178721645",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 475.8895452927686,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": false
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/405396505",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2824.5486685351125,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/407411288",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1166.8911690073223,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/428199191",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2949.4212562446505,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/428199195",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3038.6964731297785,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/428199196",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3147.0965300303405,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/428199199",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3055.3357835981215,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/435452346",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1772.8851289599588,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/435452349",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1450.2105130544755,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/525376140",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1219.438967825073,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/553893870",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3087.0763504842107,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/553893883",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2881.682287436313,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/554033955",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2897.615567441697,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/682216778",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3039.5126675442907,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/682223773",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3130.8745005531773,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/682223781",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2925.352707935286,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-05",
+      "source_id": "way/900252576",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2783.3303679465903,
+      "baseline_cost_m": 666.6635999370019,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "relation/8055906",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1352.1548365430601,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/1289666063",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2742.31964759813,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/1572010715",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3819.0641643032404,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/160023915",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1488.9334285693897,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/160023918",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1777.4619649610781,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/160023919",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1961.2657755611724,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/160895400",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1786.2890965980064,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/160895826",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1246.9325429986573,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/160896233",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1182.0331604582811,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/161090905",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 549.5791813901178,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": false
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/178721645",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 475.8895452927686,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": false
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/405396505",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2824.5486685351125,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/407411288",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1166.8911690073223,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/428199191",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2949.4212562446505,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/428199195",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3038.6964731297785,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/428199196",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3147.0965300303405,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/428199199",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3055.3357835981215,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/435452346",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1772.8851289599588,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/435452349",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1450.2105130544755,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/525376140",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 1219.438967825073,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/553893870",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3087.0763504842107,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/553893883",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2881.682287436313,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/554033955",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2897.615567441697,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/682216778",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3039.5126675442907,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/682223773",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 3130.8745005531773,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/682223781",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2925.352707935286,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-06",
+      "source_id": "way/900252576",
+      "scene_id": "sh-huangpu-01",
+      "euclidean_lower_bound_m": 2783.3303679465903,
+      "baseline_cost_m": 677.5979155094067,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/1264845154",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2074.2278007374757,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/331207147",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 1488.9418650597204,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/436681710",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2812.67305817802,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/440429843",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2986.8261325554713,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/440439921",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2952.351543114143,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/440439922",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 3033.011489815487,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/440478976",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2884.9631683218086,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/440478977",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2890.789086648307,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/447882284",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2935.9823238989957,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/447882287",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2948.1401449460236,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-07",
+      "source_id": "way/674428069",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 1261.3090685768802,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/1264845154",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2074.2278007374757,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/331207147",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 1488.9418650597204,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/436681710",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2812.67305817802,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/440429843",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2986.8261325554713,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/440439921",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2952.351543114143,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/440439922",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 3033.011489815487,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/440478976",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2884.9631683218086,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/440478977",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2890.789086648307,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/447882284",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2935.9823238989957,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/447882287",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 2948.1401449460236,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    },
+    {
+      "request_id": "APP-08",
+      "source_id": "way/674428069",
+      "scene_id": "sh-library",
+      "euclidean_lower_bound_m": 1261.3090685768802,
+      "baseline_cost_m": 180.58111866323975,
+      "strict_cost_exclusion": true
+    }
+  ],
+  "summary": {
+    "APP-01": {
+      "face_count": 27,
+      "euclidean_cost_excluded": 27,
+      "min_bound_m": 431.03859741321685
+    },
+    "APP-02": {
+      "face_count": 27,
+      "euclidean_cost_excluded": 27,
+      "min_bound_m": 431.03859741321685
+    },
+    "APP-03": {
+      "face_count": 27,
+      "euclidean_cost_excluded": 27,
+      "min_bound_m": 359.36975515584083
+    },
+    "APP-04": {
+      "face_count": 27,
+      "euclidean_cost_excluded": 27,
+      "min_bound_m": 359.36975515584083
+    },
+    "APP-05": {
+      "face_count": 27,
+      "euclidean_cost_excluded": 25,
+      "min_bound_m": 475.8895452927686
+    },
+    "APP-06": {
+      "face_count": 27,
+      "euclidean_cost_excluded": 25,
+      "min_bound_m": 475.8895452927686
+    },
+    "APP-07": {
+      "face_count": 11,
+      "euclidean_cost_excluded": 11,
+      "min_bound_m": 1261.3090685768802
+    },
+    "APP-08": {
+      "face_count": 11,
+      "euclidean_cost_excluded": 11,
+      "min_bound_m": 1261.3090685768802
+    }
+  }
+}

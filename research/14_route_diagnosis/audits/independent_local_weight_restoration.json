@@ -1,0 +1,41 @@
+{
+  "reviewer": "/root/r2_independent",
+  "script_sha256": "b26ee05e20b23d2768b76a1c5d11e235af0793c2669b3252b8bee649a1ec642d",
+  "new_solver_calls": 0,
+  "new_SSSP_calls": 0,
+  "status": "PASS_FOR_ALL_FROZEN_LOCAL_CELL_AND_ARC_WEIGHTS",
+  "rows": [
+    {
+      "case": "south",
+      "local_topology_sha256": "3cde36312fba839388487b9e93994d4a8fe21c476a4f4e83bc619c54b4239de6",
+      "cell_nodes_reconstructed": 1280,
+      "all_generated_cells": 3208,
+      "local_arcs_recomputed": 4870,
+      "max_node_xy_error_m": 0.0,
+      "max_length_or_hypothesis_error_m": 0.0,
+      "errors": []
+    },
+    {
+      "case": "north_near",
+      "local_topology_sha256": "3d5109ec5f4a322593e2814703157f2771bdaabe74b6f6266e01b43d227b9b20",
+      "cell_nodes_reconstructed": 1340,
+      "all_generated_cells": 3203,
+      "local_arcs_recomputed": 5062,
+      "max_node_xy_error_m": 0.0,
+      "max_length_or_hypothesis_error_m": 0.0,
+      "errors": []
+    },
+    {
+      "case": "library",
+      "local_topology_sha256": "830d1cf4d93ef32ce062395f778bdc1cce28c322ce02c81e0207f4a4e10c5d99",
+      "cell_nodes_reconstructed": 1371,
+      "all_generated_cells": 3092,
+      "local_arcs_recomputed": 5208,
+      "max_node_xy_error_m": 0.0,
+      "max_length_or_hypothesis_error_m": 0.0,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "scope": "All three unique local namespaces; independently rebuild unit-grid fragments split by raw recorded road lines and source masks, compare cell IDs/representative coordinates, whole local arc restricted/domain checks, interval evidence lengths and hypothesis costs. Does not resurvey real-world constraints or optimize endpoint attachment."
+}

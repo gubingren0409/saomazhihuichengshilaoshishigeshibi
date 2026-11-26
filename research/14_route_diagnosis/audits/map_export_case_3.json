@@ -1,0 +1,177 @@
+{
+  "case": "library",
+  "mode": "B3",
+  "method": "F1",
+  "viewport_metric": [
+    351525.53549601906,
+    -3453823.8153291745,
+    38.71481468371755,
+    24.93988062022254
+  ],
+  "selected_object": {
+    "case": "library",
+    "ui_record_key": "library/F1/2023",
+    "id": "conditional-seam/223ad1420512fb6de825132e",
+    "kind": "CONDITIONAL_GAP_LINK",
+    "layer": "inferred",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          351548.62884134136,
+          3453808.875448554
+        ],
+        [
+          351541.15696538053,
+          3453813.815329174
+        ]
+      ]
+    },
+    "probe_m": 10,
+    "seam_max_m": 2,
+    "source_area_ids": [
+      "way/1160136226"
+    ],
+    "source_ids": [
+      "way/1160136221"
+    ],
+    "p_distance_m": 8.957195482613345,
+    "omega_distance_m": 8.957195482736946,
+    "reasons": [
+      "ABOVE_FROZEN_SEAM_MAXIMUM"
+    ],
+    "status": "REJECTED",
+    "width_m": null,
+    "width_semantics": "LOGICAL_LINE_ONLY_UNKNOWN_SOURCE_WIDTH_NO_AREA_PROMOTION",
+    "assumption_multiplier_F0": 1,
+    "assumption_multiplier_F1": 2,
+    "parent": {
+      "u": "node/10789601349",
+      "v": "node/10789601350",
+      "position_m": 6.301734024698123,
+      "option_sha256": "4f0796f996f09394e1ca9c03e0e8b1f5885baecbda9c0a720141846e3f06915e",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            351534.8564091292,
+            3453813.6934987917
+          ],
+          [
+            351541.15696538053,
+            3453813.815329174
+          ]
+        ]
+      }
+    },
+    "parent_projection_certificate": {
+      "raw_projection_xy": [
+        351541.15696538053,
+        3453813.815329174
+      ],
+      "stored_parent_xy": [
+        351541.15696538053,
+        3453813.815329174
+      ],
+      "coordinate_shift_m": 0,
+      "parent_position_m": 6.301734024698123,
+      "parent_length_m": 6.301734024698123,
+      "roundoff_limit_m": 1e-8,
+      "policy": "EXACT_SOURCE_ENDPOINT_OR_UNCHANGED_PARENT_ARCLENGTH_SUBSTRING_NO_NATIVE_MOVEMENT"
+    },
+    "mode": "B3",
+    "directed_from_start": false,
+    "directed_to_goal": false,
+    "entry_scope": "NO_AUDITED_FACE_OPTION",
+    "used_explicit_tag": false,
+    "route_passes_graph_node": false,
+    "route_uses_owner_incident_arc": false,
+    "original_reason": [
+      "ABOVE_FROZEN_SEAM_MAXIMUM"
+    ],
+    "per_mode": {
+      "B0": {
+        "declared_as_interface": false,
+        "entered_graph": false,
+        "entry_scope": "NO_AUDITED_FACE_OPTION",
+        "directed_from_start": false,
+        "directed_to_goal": false,
+        "component_labels": []
+      },
+      "B1": {
+        "declared_as_interface": false,
+        "entered_graph": false,
+        "entry_scope": "NO_AUDITED_FACE_OPTION",
+        "directed_from_start": false,
+        "directed_to_goal": false,
+        "component_labels": []
+      },
+      "B2": {
+        "declared_as_interface": false,
+        "entered_graph": false,
+        "entry_scope": "NO_AUDITED_FACE_OPTION",
+        "directed_from_start": false,
+        "directed_to_goal": false,
+        "component_labels": []
+      },
+      "B3": {
+        "declared_as_interface": true,
+        "entered_graph": false,
+        "entry_scope": "NO_AUDITED_FACE_OPTION",
+        "directed_from_start": false,
+        "directed_to_goal": false,
+        "component_labels": []
+      }
+    },
+    "evidence_scope": "Query-bound B3 directed distances; PORTAL incidence not automatically newly introduced edge; parent equivalence separately recorded",
+    "source_objects": [
+      {
+        "type": "way",
+        "id": 1160136221,
+        "version": 1,
+        "timestamp": null,
+        "tags": {
+          "highway": "footway",
+          "surface": "paved"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1160136226,
+        "version": 1,
+        "timestamp": null,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "surface": "paving_stones"
+        }
+      }
+    ],
+    "method": "F1",
+    "distance_m": 145.1185083632253,
+    "in_start_component": false,
+    "in_goal_component": false,
+    "component_labels": [],
+    "used": false,
+    "forced_cost_m": null,
+    "slack_m": null,
+    "reason": "E_REJECTED_CONSTRAINT_OR_POLICY",
+    "accepted": false,
+    "entered_graph": false,
+    "original_entered_graph": false,
+    "current_display_mode": "B3",
+    "current_mode_membership": {
+      "declared_as_interface": true,
+      "entered_graph": false,
+      "entry_scope": "NO_AUDITED_FACE_OPTION",
+      "directed_from_start": false,
+      "directed_to_goal": false,
+      "component_labels": []
+    },
+    "evidence_record_used_in_current_mode": false,
+    "historical_response_mentions_same_interface_id": false
+  },
+  "source_archive_sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+  "historical_run_id": "RUN-20261112T021346-5d56eb2eaf",
+  "not_new_solver_request": true
+}

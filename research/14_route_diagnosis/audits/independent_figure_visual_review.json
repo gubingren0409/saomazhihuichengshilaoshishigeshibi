@@ -1,0 +1,37 @@
+{
+  "reviewer": "/root/r2_independent",
+  "review_identity": "Separate model context, actual tool view_image visual inspection; not author software image decode and not user visual rating",
+  "at": "2026-11-12T13:13:20.555800+08:00",
+  "status": "PASS_FOR_FOUR_ACTUALLY_VIEWED_MAPS",
+  "rows": [
+    {
+      "case": "south",
+      "path": "visuals/figures/south.png",
+      "sha256": "45731b91fd429d1509bb72b5201861c8cb21de5541be269848e1815eaae0f03b",
+      "observation": "Actual image viewed: original start/registered south door, native black approach and blue face-derived route visible; buildings/background obstacles retained; no visible business detour gain. Rose alternative overlaps original at this scale and must be interpreted numerically, not as distinct usable corridor."
+    },
+    {
+      "case": "north_near",
+      "path": "visuals/figures/north_near.png",
+      "sha256": "b35be000636260d05ad5b79e01e46bc33c91c9a59b5c005d27271b1b5e86de84",
+      "observation": "Actual image viewed: north exit label explicitly only outside; original network around west side and mapped surface route retained; short orange hypothesis at door visible; no claim of inbound entry."
+    },
+    {
+      "case": "north_far",
+      "path": "visuals/figures/north_far.png",
+      "sha256": "50e2bcc6f57b1b22521a3647f5c57ac59c4e269a9f11bea063e409756abfd52a",
+      "observation": "Actual image viewed: original distant start, full crossing/detour and same north exit shown in one view; route remains on original selected geometry; metric axes and source attribution readable."
+    },
+    {
+      "case": "library",
+      "path": "visuals/figures/library.png",
+      "sha256": "75bb84915534d70ac836215925432e042139abe8c8fe08bc81f37be65a08e0f2",
+      "observation": "Actual image viewed: exact registered door and raw network start, surrounding building footprint and park retained; black native line shown without invented alternative; absence of visible new face is consistent with large source-face distances."
+    }
+  ],
+  "limits": [
+    "User acceptance remains PENDING_USER_OBSERVATION",
+    "Pixel-scale view cannot establish physical passage or distinguish micrometre/millimetre alternative slack",
+    "Interactive view tested separately"
+  ]
+}

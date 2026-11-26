@@ -1,0 +1,125 @@
+{
+  "reviewer": "/root/r2_independent",
+  "at": "2026-11-12T13:25:13.337175+08:00",
+  "status": "PASS_FOR_PRESEAL_CONTENT",
+  "HTML_SHA256": "83d8fd44a43d9af27e394d45bcd852a8e0dc2027bb860e3d4d99b1bc62b67600",
+  "new_solver_calls": 0,
+  "new_SSSP_calls": 0,
+  "files": [
+    {
+      "file": "audits/independent_alternative_geometry.json",
+      "sha256": "b9aba8309636661f2bc6c35083660d2449f34c99fc8e1efef99783326973171f",
+      "status": "PASS_FOR_SELECTED_ALTERNATIVE_WHOLE_GEOMETRY",
+      "script_sha_valid": true
+    },
+    {
+      "file": "audits/independent_base_source_weight_observation.json",
+      "sha256": "b14ed88a7e03df6c91e258e0f2b3cf1c127df3dd682d225e46da3f00a7730d7f",
+      "status": null,
+      "script_sha_valid": null
+    },
+    {
+      "file": "audits/independent_baseline32.json",
+      "sha256": "ced397246aefbf003c6d73c7b2bd927838e36232d51225199ea3478c1d914496",
+      "status": "PASS",
+      "script_sha_valid": true
+    },
+    {
+      "file": "audits/independent_browser.json",
+      "sha256": "3794cd997e76c422406ca46163046ac8556174b02bfdfec4f3f567e97ec0c41f",
+      "status": "PASS_FOR_ACTUAL_INTERACTIVE_AND_OFFLINE_RENDER",
+      "script_sha_valid": null
+    },
+    {
+      "file": "audits/independent_browser_layout.json",
+      "sha256": "e00bc90bb621f586ae0fe97544ec4bf92c33189e4dd4d7b5c1c5f6fd8c2905ff",
+      "status": "PASS",
+      "script_sha_valid": null
+    },
+    {
+      "file": "audits/independent_corridor_export_comparison.json",
+      "sha256": "5057ae1066e61b61f1da7ff5af92dd690d95e19812e8926f25938d94a2901d9a",
+      "status": "PASS",
+      "script_sha_valid": null
+    },
+    {
+      "file": "audits/independent_corridor_geometry.json",
+      "sha256": "2250f4180eefec1ba94a3f609171b09716465db16ea96566e7a2037c59e01968",
+      "status": "PASS_FOR_DIRECT_CORRIDOR_GEOMETRY",
+      "script_sha_valid": true
+    },
+    {
+      "file": "audits/independent_face_graph_opportunity.json",
+      "sha256": "46e0e9c5b557faf8e627410a4bf7928e8fffec821989f69146679a2d77a2938f",
+      "status": "PASS_FOR_FACE_OWNERSHIP_AND_DIRECTED_OPPORTUNITY",
+      "script_sha_valid": true
+    },
+    {
+      "file": "audits/independent_face_lower_bounds.json",
+      "sha256": "0adb528c6484a91150da6597992eddfb916fc1b62a68386771da095e5ae4f5da",
+      "status": null,
+      "script_sha_valid": true
+    },
+    {
+      "file": "audits/independent_figure_visual_review.json",
+      "sha256": "42536099595540614efe74b3e5a10d565a9f608a3d4e08459353b333eaa909ce",
+      "status": "PASS_FOR_FOUR_ACTUALLY_VIEWED_MAPS",
+      "script_sha_valid": null
+    },
+    {
+      "file": "audits/independent_graph_distance_certificates.json",
+      "sha256": "c35737db4933deb91708b50759005b5abcd045dcfe7ad1f5a4c54b4389ff4760",
+      "status": "PASS_FOR_RECONSTRUCTED_GRAPH_DISTANCE_CERTIFICATES",
+      "script_sha_valid": null
+    },
+    {
+      "file": "audits/independent_local_weight_restoration.json",
+      "sha256": "3ca275c8a4e8d695f82e3f14b4e6475c59f6dc64484b1e3b9b39dd76c97cf455",
+      "status": "PASS_FOR_ALL_FROZEN_LOCAL_CELL_AND_ARC_WEIGHTS",
+      "script_sha_valid": true
+    },
+    {
+      "file": "audits/independent_opportunity_certificates.json",
+      "sha256": "155643d9399d32135842ef0b00e505943d45943b37023400fb6cc53bb8712396",
+      "status": "PASS_FOR_OPTION_OPPORTUNITIES_ALTERNATIVES_AND_DELETION_CERTIFICATES",
+      "script_sha_valid": true
+    },
+    {
+      "file": "audits/independent_other_scene_geometry.json",
+      "sha256": "376defd3e4481aa944ba9a7e0e10098e8632106c5aabc25e541154852e0861b8",
+      "status": null,
+      "script_sha_valid": null
+    },
+    {
+      "file": "audits/independent_overlay_binding.json",
+      "sha256": "1de2a88ae0a49a9d971e68aae6110ba96c297672c9a7fcbef155824f7c23238b",
+      "status": "PASS_FOR_ALL_FROZEN_OVERLAY_AND_BINDING_OPTIONS",
+      "script_sha_valid": true
+    },
+    {
+      "file": "audits/independent_review_issue_log.json",
+      "sha256": "8878ffb4d5b48e2d666c2c8e88673b9cb3f80c92c2ba885b80af22ddd2e1c41b",
+      "status": null,
+      "script_sha_valid": null
+    },
+    {
+      "file": "audits/independent_source_weight_restoration.json",
+      "sha256": "4ebef3f7e70688a79ed046bfc5cdb4bcf453d01634992e4466d9524b3b5599d4",
+      "status": "PASS_FOR_SOURCE_WEIGHT_AND_SEGMENT_PROVENANCE_SCOPE",
+      "script_sha_valid": true
+    },
+    {
+      "file": "audits/independent_topology_lineage.json",
+      "sha256": "59ddfa8fa1af665a7f51cffaeccacf8abf11e539d8d7cde2e46aff29b43967e2",
+      "status": "PASS_FOR_ALL_MODE_COMPONENTS_AND_LINEAGE",
+      "script_sha_valid": true
+    },
+    {
+      "file": "audits/independent_ui_pool.json",
+      "sha256": "6eb3b6cd405433b0729e16c9daf1bf1bbbb28db4cee3c6a014393ccaf67d1764",
+      "status": "PASS_FOR_LOSSLESS_UI_POOL_AND_OFFLINE_TRANSPORT",
+      "script_sha_valid": true
+    }
+  ],
+  "postseal_status": "PENDING_OUTSIDE_ARCHIVE"
+}

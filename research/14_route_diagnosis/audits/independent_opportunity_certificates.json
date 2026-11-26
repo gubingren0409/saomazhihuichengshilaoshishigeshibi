@@ -1,0 +1,426 @@
+{
+  "reviewer": "/root/r2_independent",
+  "script_sha256": "16827cfbbf38619003ea8189b77eb57c1c4c02c004d99785e2799b208ce1ac5e",
+  "interface_csv_sha256": "3e5e6fb5453518d53c7dbaa6c879dda7fae761b382ed9756d6a22d1683385498",
+  "new_solver_calls": 0,
+  "new_SSSP_calls": 0,
+  "status": "PASS_FOR_OPTION_OPPORTUNITIES_ALTERNATIVES_AND_DELETION_CERTIFICATES",
+  "rows": [
+    {
+      "case": "south",
+      "method": "F0",
+      "interface_rows_checked": 13153,
+      "interface_reason_counts": {
+        "B_OTHER_DIRECTED_COMPONENT": 1948,
+        "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 10259,
+        "TIED_EQUIVALENT": 15,
+        "G_ACCEPTED_NO_AUDITED_OWNER_INCIDENCE": 4,
+        "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+      },
+      "selected_owner_incident_used": 55,
+      "selected_explicit_tag_used": 0,
+      "max_forced_slack_residual_m": 0.0,
+      "alternative": {
+        "length_m": 148.86313264974456,
+        "hypothesis_m": 0.0,
+        "cost_m": 148.86313264974456,
+        "slack_m": 1.057994845155008e-05,
+        "segments": 9,
+        "via_interface": "interface/0a97390aec652745c63632ba",
+        "forced_entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS"
+      },
+      "counterfactuals": [
+        {
+          "filter": "DELETE_NEW_FACES",
+          "removed_options": 14502,
+          "parallel_parent_arcs_retained": 232,
+          "retained_primal_cost_m": 148.8631220697961,
+          "certified_optimum_m": 148.8631220697961
+        },
+        {
+          "filter": "DELETE_EXACT_INTERFACES",
+          "removed_options": 10072,
+          "parallel_parent_arcs_retained": 7810,
+          "retained_primal_cost_m": 148.8631220697961,
+          "certified_optimum_m": 148.8631220697961
+        },
+        {
+          "filter": "DELETE_CONDITIONAL_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 148.8631220697961,
+          "certified_optimum_m": 148.8631220697961
+        },
+        {
+          "filter": "ONLY_EXACT_INCREMENT_NO_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 148.8631220697961,
+          "certified_optimum_m": 148.8631220697961
+        }
+      ],
+      "errors": []
+    },
+    {
+      "case": "south",
+      "method": "F1",
+      "interface_rows_checked": 13153,
+      "interface_reason_counts": {
+        "B_OTHER_DIRECTED_COMPONENT": 1948,
+        "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 10259,
+        "TIED_EQUIVALENT": 15,
+        "G_ACCEPTED_NO_AUDITED_OWNER_INCIDENCE": 4,
+        "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+      },
+      "selected_owner_incident_used": 55,
+      "selected_explicit_tag_used": 0,
+      "max_forced_slack_residual_m": 0.0,
+      "alternative": {
+        "length_m": 148.86313264974456,
+        "hypothesis_m": 0.0,
+        "cost_m": 148.86313264974456,
+        "slack_m": 1.057994845155008e-05,
+        "segments": 9,
+        "via_interface": "interface/0a97390aec652745c63632ba",
+        "forced_entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS"
+      },
+      "counterfactuals": [
+        {
+          "filter": "DELETE_NEW_FACES",
+          "removed_options": 14502,
+          "parallel_parent_arcs_retained": 232,
+          "retained_primal_cost_m": 148.8631220697961,
+          "certified_optimum_m": 148.8631220697961
+        },
+        {
+          "filter": "DELETE_EXACT_INTERFACES",
+          "removed_options": 10072,
+          "parallel_parent_arcs_retained": 7810,
+          "retained_primal_cost_m": 148.8631220697961,
+          "certified_optimum_m": 148.8631220697961
+        },
+        {
+          "filter": "DELETE_CONDITIONAL_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 148.8631220697961,
+          "certified_optimum_m": 148.8631220697961
+        },
+        {
+          "filter": "ONLY_EXACT_INCREMENT_NO_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 148.8631220697961,
+          "certified_optimum_m": 148.8631220697961
+        }
+      ],
+      "errors": []
+    },
+    {
+      "case": "north_near",
+      "method": "F0",
+      "interface_rows_checked": 15433,
+      "interface_reason_counts": {
+        "B_OTHER_DIRECTED_COMPONENT": 1948,
+        "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 12506,
+        "TIED_EQUIVALENT": 52,
+        "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+      },
+      "selected_owner_incident_used": 1004,
+      "selected_explicit_tag_used": 4,
+      "max_forced_slack_residual_m": 0.0,
+      "alternative": {
+        "length_m": 299.5319604677352,
+        "hypothesis_m": 12.534189979232385,
+        "cost_m": 299.5319604677352,
+        "slack_m": 0.0005105322404119761,
+        "segments": 59,
+        "via_interface": "interface/0981cb12e3369156f89aa0e2",
+        "forced_entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS"
+      },
+      "counterfactuals": [
+        {
+          "filter": "DELETE_NEW_FACES",
+          "removed_options": 14502,
+          "parallel_parent_arcs_retained": 232,
+          "retained_primal_cost_m": 299.5314499354948,
+          "certified_optimum_m": 299.5314499354948
+        },
+        {
+          "filter": "DELETE_EXACT_INTERFACES",
+          "removed_options": 12902,
+          "parallel_parent_arcs_retained": 10418,
+          "retained_primal_cost_m": 299.5314499354948,
+          "certified_optimum_m": 299.5314499354948
+        },
+        {
+          "filter": "DELETE_CONDITIONAL_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 299.5314499354948,
+          "certified_optimum_m": 299.5314499354948
+        },
+        {
+          "filter": "ONLY_EXACT_INCREMENT_NO_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 299.5314499354948,
+          "certified_optimum_m": 299.5314499354948
+        }
+      ],
+      "errors": []
+    },
+    {
+      "case": "north_near",
+      "method": "F1",
+      "interface_rows_checked": 15433,
+      "interface_reason_counts": {
+        "B_OTHER_DIRECTED_COMPONENT": 1948,
+        "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 12509,
+        "TIED_EQUIVALENT": 49,
+        "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+      },
+      "selected_owner_incident_used": 912,
+      "selected_explicit_tag_used": 4,
+      "max_forced_slack_residual_m": 0.0,
+      "alternative": {
+        "length_m": 300.78563047557634,
+        "hypothesis_m": 9.6815800976874,
+        "cost_m": 310.46721057326374,
+        "slack_m": 0.0014450653641802091,
+        "segments": 53,
+        "via_interface": "interface/0e54ba1649dff1af32959021",
+        "forced_entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS"
+      },
+      "counterfactuals": [
+        {
+          "filter": "DELETE_NEW_FACES",
+          "removed_options": 14502,
+          "parallel_parent_arcs_retained": 232,
+          "retained_primal_cost_m": 310.46576550789956,
+          "certified_optimum_m": 310.46576550789956
+        },
+        {
+          "filter": "DELETE_EXACT_INTERFACES",
+          "removed_options": 12902,
+          "parallel_parent_arcs_retained": 10418,
+          "retained_primal_cost_m": 310.46576550789956,
+          "certified_optimum_m": 310.46576550789956
+        },
+        {
+          "filter": "DELETE_CONDITIONAL_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 310.46576550789956,
+          "certified_optimum_m": 310.46576550789956
+        },
+        {
+          "filter": "ONLY_EXACT_INCREMENT_NO_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 310.46576550789956,
+          "certified_optimum_m": 310.46576550789956
+        }
+      ],
+      "errors": []
+    },
+    {
+      "case": "north_far",
+      "method": "F0",
+      "interface_rows_checked": 15433,
+      "interface_reason_counts": {
+        "B_OTHER_DIRECTED_COMPONENT": 1948,
+        "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 12506,
+        "TIED_EQUIVALENT": 52,
+        "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+      },
+      "selected_owner_incident_used": 1004,
+      "selected_explicit_tag_used": 4,
+      "max_forced_slack_residual_m": 0.0,
+      "alternative": {
+        "length_m": 666.6641104692421,
+        "hypothesis_m": 12.534189979232385,
+        "cost_m": 666.6641104692421,
+        "slack_m": 0.0005105322404688195,
+        "segments": 76,
+        "via_interface": "interface/0981cb12e3369156f89aa0e2",
+        "forced_entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS"
+      },
+      "counterfactuals": [
+        {
+          "filter": "DELETE_NEW_FACES",
+          "removed_options": 14502,
+          "parallel_parent_arcs_retained": 232,
+          "retained_primal_cost_m": 666.6635999370017,
+          "certified_optimum_m": 666.6635999370017
+        },
+        {
+          "filter": "DELETE_EXACT_INTERFACES",
+          "removed_options": 12902,
+          "parallel_parent_arcs_retained": 10418,
+          "retained_primal_cost_m": 666.6635999370017,
+          "certified_optimum_m": 666.6635999370017
+        },
+        {
+          "filter": "DELETE_CONDITIONAL_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 666.6635999370017,
+          "certified_optimum_m": 666.6635999370017
+        },
+        {
+          "filter": "ONLY_EXACT_INCREMENT_NO_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 666.6635999370017,
+          "certified_optimum_m": 666.6635999370017
+        }
+      ],
+      "errors": []
+    },
+    {
+      "case": "north_far",
+      "method": "F1",
+      "interface_rows_checked": 15433,
+      "interface_reason_counts": {
+        "B_OTHER_DIRECTED_COMPONENT": 1948,
+        "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 12509,
+        "TIED_EQUIVALENT": 49,
+        "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+      },
+      "selected_owner_incident_used": 912,
+      "selected_explicit_tag_used": 4,
+      "max_forced_slack_residual_m": 0.0,
+      "alternative": {
+        "length_m": 667.9177804770834,
+        "hypothesis_m": 9.6815800976874,
+        "cost_m": 677.5993605747708,
+        "slack_m": 0.0014450653642370526,
+        "segments": 70,
+        "via_interface": "interface/0e54ba1649dff1af32959021",
+        "forced_entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS"
+      },
+      "counterfactuals": [
+        {
+          "filter": "DELETE_NEW_FACES",
+          "removed_options": 14502,
+          "parallel_parent_arcs_retained": 232,
+          "retained_primal_cost_m": 677.5979155094066,
+          "certified_optimum_m": 677.5979155094066
+        },
+        {
+          "filter": "DELETE_EXACT_INTERFACES",
+          "removed_options": 12902,
+          "parallel_parent_arcs_retained": 10418,
+          "retained_primal_cost_m": 677.5979155094066,
+          "certified_optimum_m": 677.5979155094066
+        },
+        {
+          "filter": "DELETE_CONDITIONAL_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 677.5979155094066,
+          "certified_optimum_m": 677.5979155094066
+        },
+        {
+          "filter": "ONLY_EXACT_INCREMENT_NO_SEAMS",
+          "removed_options": 20,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 677.5979155094066,
+          "certified_optimum_m": 677.5979155094066
+        }
+      ],
+      "errors": []
+    },
+    {
+      "case": "library",
+      "method": "F0",
+      "interface_rows_checked": 2029,
+      "interface_reason_counts": {
+        "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 1820,
+        "E_REJECTED_CONSTRAINT_OR_POLICY": 209
+      },
+      "selected_owner_incident_used": 0,
+      "selected_explicit_tag_used": 0,
+      "max_forced_slack_residual_m": 0.0,
+      "alternative": null,
+      "counterfactuals": [
+        {
+          "filter": "DELETE_NEW_FACES",
+          "removed_options": 2882,
+          "parallel_parent_arcs_retained": 112,
+          "retained_primal_cost_m": 180.58111866323975,
+          "certified_optimum_m": 180.58111866323975
+        },
+        {
+          "filter": "DELETE_EXACT_INTERFACES",
+          "removed_options": 1566,
+          "parallel_parent_arcs_retained": 600,
+          "retained_primal_cost_m": 180.58111866323975,
+          "certified_optimum_m": 180.58111866323975
+        },
+        {
+          "filter": "DELETE_CONDITIONAL_SEAMS",
+          "removed_options": 12,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 180.58111866323975,
+          "certified_optimum_m": 180.58111866323975
+        },
+        {
+          "filter": "ONLY_EXACT_INCREMENT_NO_SEAMS",
+          "removed_options": 12,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 180.58111866323975,
+          "certified_optimum_m": 180.58111866323975
+        }
+      ],
+      "errors": []
+    },
+    {
+      "case": "library",
+      "method": "F1",
+      "interface_rows_checked": 2029,
+      "interface_reason_counts": {
+        "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 1820,
+        "E_REJECTED_CONSTRAINT_OR_POLICY": 209
+      },
+      "selected_owner_incident_used": 0,
+      "selected_explicit_tag_used": 0,
+      "max_forced_slack_residual_m": 0.0,
+      "alternative": null,
+      "counterfactuals": [
+        {
+          "filter": "DELETE_NEW_FACES",
+          "removed_options": 2882,
+          "parallel_parent_arcs_retained": 112,
+          "retained_primal_cost_m": 180.58111866323975,
+          "certified_optimum_m": 180.58111866323975
+        },
+        {
+          "filter": "DELETE_EXACT_INTERFACES",
+          "removed_options": 1566,
+          "parallel_parent_arcs_retained": 600,
+          "retained_primal_cost_m": 180.58111866323975,
+          "certified_optimum_m": 180.58111866323975
+        },
+        {
+          "filter": "DELETE_CONDITIONAL_SEAMS",
+          "removed_options": 12,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 180.58111866323975,
+          "certified_optimum_m": 180.58111866323975
+        },
+        {
+          "filter": "ONLY_EXACT_INCREMENT_NO_SEAMS",
+          "removed_options": 12,
+          "parallel_parent_arcs_retained": 0,
+          "retained_primal_cost_m": 180.58111866323975,
+          "certified_optimum_m": 180.58111866323975
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "scope": "Independent arithmetic and graph-option provenance bound to frozen raw interface declarations and actual historical selected owner-labelled segments; forced costs are shortest walks, selected exported alternatives additionally simple. Optimality limited to frozen finite graph and fixed bindings. Exact-increment-no-seams is same topology as deletion of seams, not a separate solver experiment. Alternative raw obstacle geometry checked separately."
+}

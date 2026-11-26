@@ -1,0 +1,169 @@
+{
+  "reviewer": "/root/r2_independent",
+  "scope": "Independent directed BFS and per-edge minimum over parallel options; all-arc Bellman inequalities plus primal parent paths to roots prove given distance certificates optimal in this finite reconstructed graph. No new shortest-path solver invoked.",
+  "new_SSSP_calls": 0,
+  "new_APP_solver_calls": 0,
+  "formal_invocations_observed": 8,
+  "SSSP_traversals_observed": 16,
+  "rows": [
+    {
+      "case": "south",
+      "method": "F0",
+      "invocation_id": "d4b4ef1dad9f43dbb5c572d1ed14a320",
+      "graph_sha256": "c81c3ce9ec6ef27ba04f6ff59aada9143b82ca0eb7b249f424ce30610796eb13",
+      "distance_npz_sha256": "e2153032922bdc76d43f82d475c2cb10d4c953001f1e80022a1effa5f4cea146",
+      "nodes": 42326,
+      "arcs": 302044,
+      "directed_start_reachable_nodes": 37556,
+      "nodes_can_reach_goal": 37556,
+      "best_cost_m": 148.8631220697961,
+      "max_forward_dual_residual_m": 4.547473508864641e-13,
+      "max_reverse_dual_residual_m": 4.547473508864641e-13,
+      "primal_residuals_m": [
+        4.547473508864641e-13,
+        4.547473508864641e-13
+      ],
+      "errors": []
+    },
+    {
+      "case": "south",
+      "method": "F1",
+      "invocation_id": "f1b42f3323e3415e8fee89abdb5643ec",
+      "graph_sha256": "c81c3ce9ec6ef27ba04f6ff59aada9143b82ca0eb7b249f424ce30610796eb13",
+      "distance_npz_sha256": "3aba54bbb2afc88a24e4e332d46dfeb18d07acfaf4f23db901d3d971665febb6",
+      "nodes": 42326,
+      "arcs": 302044,
+      "directed_start_reachable_nodes": 37556,
+      "nodes_can_reach_goal": 37556,
+      "best_cost_m": 148.8631220697961,
+      "max_forward_dual_residual_m": 4.547473508864641e-13,
+      "max_reverse_dual_residual_m": 4.547473508864641e-13,
+      "primal_residuals_m": [
+        4.547473508864641e-13,
+        4.547473508864641e-13
+      ],
+      "errors": []
+    },
+    {
+      "case": "north_near",
+      "method": "F0",
+      "invocation_id": "6547dbc35e2f4c8b8755f15d9080caa1",
+      "graph_sha256": "235046f84320fb3dedbeeb98006c5b55c191f442ac82b273d26446d565e0bb85",
+      "distance_npz_sha256": "dc39cf7bef15d75489a8981f36119a137b1e9fe5245461588e0ae91f000cf9a0",
+      "nodes": 42262,
+      "arcs": 253042,
+      "directed_start_reachable_nodes": 37492,
+      "nodes_can_reach_goal": 37491,
+      "best_cost_m": 299.5314499354948,
+      "max_forward_dual_residual_m": 4.547473508864641e-13,
+      "max_reverse_dual_residual_m": 4.547473508864641e-13,
+      "primal_residuals_m": [
+        4.547473508864641e-13,
+        4.547473508864641e-13
+      ],
+      "errors": []
+    },
+    {
+      "case": "north_near",
+      "method": "F1",
+      "invocation_id": "9261b42f81694c06b9775952055d27a1",
+      "graph_sha256": "235046f84320fb3dedbeeb98006c5b55c191f442ac82b273d26446d565e0bb85",
+      "distance_npz_sha256": "177ddc8753b1200af503e836f50033a9b2ae49c70da8a23a975a0e3d4b3eed17",
+      "nodes": 42262,
+      "arcs": 253042,
+      "directed_start_reachable_nodes": 37492,
+      "nodes_can_reach_goal": 37491,
+      "best_cost_m": 310.46576550789956,
+      "max_forward_dual_residual_m": 4.547473508864641e-13,
+      "max_reverse_dual_residual_m": 4.547473508864641e-13,
+      "primal_residuals_m": [
+        4.547473508864641e-13,
+        4.547473508864641e-13
+      ],
+      "errors": []
+    },
+    {
+      "case": "north_far",
+      "method": "F0",
+      "invocation_id": "f1801168b7ed4813a1d4a4b3b756f497",
+      "graph_sha256": "5ae7418c49718979633f33a879361620ac89df2902e18685c7fe000540d86950",
+      "distance_npz_sha256": "57818e81607c5ed92d715178d90cbe3d29cb834ef05467be25dfa38aef27d1a2",
+      "nodes": 42262,
+      "arcs": 253042,
+      "directed_start_reachable_nodes": 37492,
+      "nodes_can_reach_goal": 37491,
+      "best_cost_m": 666.6635999370017,
+      "max_forward_dual_residual_m": 4.547473508864641e-13,
+      "max_reverse_dual_residual_m": 4.547473508864641e-13,
+      "primal_residuals_m": [
+        4.547473508864641e-13,
+        4.547473508864641e-13
+      ],
+      "errors": []
+    },
+    {
+      "case": "north_far",
+      "method": "F1",
+      "invocation_id": "9e9903cd407d423a9df653f874771103",
+      "graph_sha256": "5ae7418c49718979633f33a879361620ac89df2902e18685c7fe000540d86950",
+      "distance_npz_sha256": "572e3ebe840329f2c7d0d2afcc4e1fa2fe346217a0c24bb7f001f4b6f9f30720",
+      "nodes": 42262,
+      "arcs": 253042,
+      "directed_start_reachable_nodes": 37492,
+      "nodes_can_reach_goal": 37491,
+      "best_cost_m": 677.5979155094066,
+      "max_forward_dual_residual_m": 4.547473508864641e-13,
+      "max_reverse_dual_residual_m": 4.547473508864641e-13,
+      "primal_residuals_m": [
+        4.547473508864641e-13,
+        4.547473508864641e-13
+      ],
+      "errors": []
+    },
+    {
+      "case": "library",
+      "method": "F0",
+      "invocation_id": "3a18e9f6b94a4775acad981dd6898df2",
+      "graph_sha256": "a9f51668d7411bcdcb9255bf7f6952a30b6eacd3ed7f6a9594b8623766b25431",
+      "distance_npz_sha256": "cb6808d360e6c25af84754d89cd357662586060706be5356f2079b33c021bcd0",
+      "nodes": 6455,
+      "arcs": 24602,
+      "directed_start_reachable_nodes": 4782,
+      "nodes_can_reach_goal": 4782,
+      "best_cost_m": 180.58111866323975,
+      "max_forward_dual_residual_m": 2.2737367544323206e-13,
+      "max_reverse_dual_residual_m": 2.2737367544323206e-13,
+      "primal_residuals_m": [
+        2.2737367544323206e-13,
+        2.2737367544323206e-13
+      ],
+      "errors": []
+    },
+    {
+      "case": "library",
+      "method": "F1",
+      "invocation_id": "6b3bc14a07834cc7a6b5b6102daa54dd",
+      "graph_sha256": "a9f51668d7411bcdcb9255bf7f6952a30b6eacd3ed7f6a9594b8623766b25431",
+      "distance_npz_sha256": "6b3de3602f359131176231c9bb1a1bba790baab97d4d3d3cff9b76bff1ee3782",
+      "nodes": 6455,
+      "arcs": 24602,
+      "directed_start_reachable_nodes": 4782,
+      "nodes_can_reach_goal": 4782,
+      "best_cost_m": 180.58111866323975,
+      "max_forward_dual_residual_m": 2.2737367544323206e-13,
+      "max_reverse_dual_residual_m": 2.2737367544323206e-13,
+      "primal_residuals_m": [
+        2.2737367544323206e-13,
+        2.2737367544323206e-13
+      ],
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "status": "PASS_FOR_RECONSTRUCTED_GRAPH_DISTANCE_CERTIFICATES",
+  "limits": [
+    "Does not independently assert all native source admission or physical access",
+    "Query bindings fixed; not continuous-domain or all-potential-attachment optimality",
+    "Alternative forced-option materialization audited separately"
+  ]
+}

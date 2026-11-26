@@ -1,0 +1,158 @@
+{
+  "case": "south",
+  "mode": "B3",
+  "method": "F1",
+  "viewport_metric": [
+    354316.38974461664,
+    -3456042.6585559454,
+    31.04651162790698,
+    20
+  ],
+  "selected_object": {
+    "case": "south",
+    "ui_record_key": "south/F1/578",
+    "id": "interface/7fcfc89abb68fc1da1f853cf",
+    "kind": "SOURCE_SUPPORTED_INTERFACE",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        354331.91300043056,
+        3456032.6585559454
+      ]
+    },
+    "relation": "LINE_END_ON_BOUNDARY",
+    "parent_u": "node/1890935454",
+    "parent_v": "node/1890935355",
+    "channel": "SOURCE",
+    "source_ids": [
+      "way/178737605"
+    ],
+    "source_area_ids": [
+      "relation/2385771"
+    ],
+    "p_distance_m": 0,
+    "omega_distance_m": 0,
+    "covered_length_m": 0,
+    "status": "ACCEPTED",
+    "graph_node_ids": [
+      "node/1890935454"
+    ],
+    "mode": "B3",
+    "directed_from_start": true,
+    "directed_to_goal": true,
+    "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+    "used_explicit_tag": false,
+    "route_passes_graph_node": true,
+    "route_uses_owner_incident_arc": true,
+    "original_reason": "EXACT_SOURCE_PARENT_INTERFACE",
+    "per_mode": {
+      "B0": {
+        "declared_as_interface": false,
+        "entered_graph": true,
+        "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+        "directed_from_start": true,
+        "directed_to_goal": true,
+        "component_labels": [
+          0
+        ]
+      },
+      "B1": {
+        "declared_as_interface": false,
+        "entered_graph": true,
+        "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+        "directed_from_start": true,
+        "directed_to_goal": true,
+        "component_labels": [
+          0
+        ]
+      },
+      "B2": {
+        "declared_as_interface": true,
+        "entered_graph": true,
+        "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+        "directed_from_start": true,
+        "directed_to_goal": true,
+        "component_labels": [
+          0
+        ]
+      },
+      "B3": {
+        "declared_as_interface": true,
+        "entered_graph": true,
+        "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+        "directed_from_start": true,
+        "directed_to_goal": true,
+        "component_labels": [
+          0
+        ]
+      }
+    },
+    "evidence_scope": "Query-bound B3 directed distances; PORTAL incidence not automatically newly introduced edge; parent equivalence separately recorded",
+    "forced_argmin_arc": {
+      "u": "node/1890935454",
+      "v": "fullface/relation/2385771/component/0/v/60",
+      "option": [
+        80.36326736149094,
+        0,
+        [
+          "relation/2385771"
+        ],
+        [],
+        "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+      ]
+    },
+    "source_objects": [
+      {
+        "type": "relation",
+        "id": 2385771,
+        "version": 1,
+        "timestamp": null,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "type": "multipolygon"
+        }
+      },
+      {
+        "type": "way",
+        "id": 178737605,
+        "version": 2,
+        "timestamp": null,
+        "tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        }
+      }
+    ],
+    "method": "F1",
+    "distance_m": 0,
+    "in_start_component": true,
+    "in_goal_component": true,
+    "component_labels": [
+      0
+    ],
+    "used": false,
+    "forced_cost_m": 148.86312206979613,
+    "slack_m": 2.842170943040401e-14,
+    "reason": "TIED_EQUIVALENT",
+    "accepted": true,
+    "entered_graph": true,
+    "original_entered_graph": true,
+    "current_display_mode": "B3",
+    "current_mode_membership": {
+      "declared_as_interface": true,
+      "entered_graph": true,
+      "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+      "directed_from_start": true,
+      "directed_to_goal": true,
+      "component_labels": [
+        0
+      ]
+    },
+    "evidence_record_used_in_current_mode": false,
+    "historical_response_mentions_same_interface_id": false
+  },
+  "source_archive_sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+  "historical_run_id": "RUN-20261112T015651-bf37c97cdb",
+  "not_new_solver_request": true
+}

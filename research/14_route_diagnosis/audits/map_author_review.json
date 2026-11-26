@@ -1,0 +1,92 @@
+{
+  "role": "R2_MAP_AUTHOR",
+  "time": "2026-11-12T13:16:55.994339+08:00",
+  "status": "AUTHOR_PASS_PENDING_INDEPENDENT_MAP_REVIEW",
+  "scope": [
+    "4 actual input-map case cards",
+    "32 saved R1 route render combinations",
+    "4 corridor options, layer toggles, per-record evidence selection and export",
+    "4 actual PNG and SVG scientific maps",
+    "offline file rendering",
+    "lossless 92096 interface-method evidence rows"
+  ],
+  "solver_calls": 0,
+  "new_API_requests": 0,
+  "historical_files_modified": false,
+  "interface_id_not_unique_record_id": true,
+  "user_visual_review": "PENDING_USER_OBSERVATION",
+  "screen_shot_request_binding": "SCREENSHOT_REQUEST_UNBOUND",
+  "scientific_boundary": [
+    "Map display and graph diagnosis do not verify current physical passage",
+    "Near-equivalent computed alternatives are not a practical routing improvement",
+    "Interface method records are not unique physical connectors",
+    "Unknown node binding is not asserted unused or physically disconnected"
+  ],
+  "corrected_findings": [
+    {
+      "origin": "AUTHOR_ACTUAL_RENDER",
+      "finding": "Default dense northern interface fan obscured source background",
+      "fix": "Default interface layer off, individual table selection shows complete geometry",
+      "historical_data_or_solver_changed": false
+    },
+    {
+      "origin": "INDEPENDENT_MAP_REVIEW",
+      "finding": "Counterfactual certificates absent from display payload despite real source records",
+      "fix": "Bound original certificate SHA and per-case/method 4 certificate summaries, full witnesses preserved",
+      "historical_data_or_solver_changed": false
+    },
+    {
+      "origin": "INDEPENDENT_NUMERICAL_REVIEW",
+      "finding": "Same interface ID can have different graph-node bindings",
+      "fix": "Lossless row identity retained; UI uses case/method/array-index and does not equate ID appearance to per-record use",
+      "historical_data_or_solver_changed": false
+    },
+    {
+      "origin": "INDEPENDENT_ACTUAL_BROWSER_LAYOUT",
+      "finding": "Details grid min-content table widened the global document and caused horizontal scroll on evidence selection",
+      "fix": "Only details minmax(0,1fr) columns and panel min-width:0; table overflow retained",
+      "historical_data_or_solver_changed": false
+    }
+  ],
+  "display_revision_hashes": [
+    "a9193d505522389e4fe8e1bdbd1ae1fb665d84dee3158099c0c212904ce20208",
+    "2b547a733822ffd678f51bf57ca991c9e626f3148f50778a1ce12060faade8a2",
+    "1d6632cd1c6ff7e4c20ebfad91746e4888981b2376c2179a2b7cd4a490e8ad53",
+    "83d8fd44a43d9af27e394d45bcd852a8e0dc2027bb860e3d4d99b1bc62b67600"
+  ],
+  "evidence": [
+    "audits/map_final_ui_check.json",
+    "audits/map_offline_file_check.json",
+    "audits/map_payload_integrity.json",
+    "visuals/figures/figure_manifest.json",
+    "audits/map_layout_repair.json"
+  ],
+  "current_html_sha256": "83d8fd44a43d9af27e394d45bcd852a8e0dc2027bb860e3d4d99b1bc62b67600",
+  "post_review_layout_fix_time": "2026-11-12T13:23:40.903163+08:00",
+  "latest_layout_checks": [
+    {
+      "case": 0,
+      "scrollX": 0,
+      "documentWidth": 1520,
+      "viewportWidth": 1520
+    },
+    {
+      "case": 1,
+      "scrollX": 0,
+      "documentWidth": 1520,
+      "viewportWidth": 1520
+    },
+    {
+      "case": 2,
+      "scrollX": 0,
+      "documentWidth": 1520,
+      "viewportWidth": 1520
+    },
+    {
+      "case": 3,
+      "scrollX": 0,
+      "documentWidth": 1520,
+      "viewportWidth": 1520
+    }
+  ]
+}

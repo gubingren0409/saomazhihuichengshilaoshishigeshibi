@@ -1,0 +1,57 @@
+{
+  "at": "2026-11-12T13:15:16.708482+08:00",
+  "generator_sha256": "207e7d585d8f7f1c744b85da43e1b16f97342857aa15a5c723a5e957b1451864",
+  "inputs": [
+    {
+      "path": "results/FINALIZED.json",
+      "sha256": "15cc502c2cfa0eeccb65907f6c700d45b2cf80061fba86a70c7c25be7504e0fb"
+    },
+    {
+      "path": "results/summary.json",
+      "sha256": "a3f0428433faf7027468211bc833a0a88f6705343aa82293b5c3eeaf75f104ef"
+    },
+    {
+      "path": "results/graph_lineage.json",
+      "sha256": "f8c255ace39f4f043f88f2a62bf1bceb4ff7a5262cfc904b00e12fc8e76991d8"
+    },
+    {
+      "path": "results/unconnected_face_evidence.json",
+      "sha256": "5733acefa68b4deabbdebeb507ddeadb7bc1fdd10f3d7592327d4c01c4ea4bab"
+    },
+    {
+      "path": "NEW_FACE_ROUTE_RELEVANCE.csv",
+      "sha256": "c93b20818ffa651a7ad20c47d4a6f38dd733e8087dd73d7689b8fb5a8c9f0fbd"
+    },
+    {
+      "path": "INTERFACE_USAGE_AUDIT.csv",
+      "sha256": "3e5e6fb5453518d53c7dbaa6c879dda7fae761b382ed9756d6a22d1683385498"
+    },
+    {
+      "path": "ALTERNATIVE_ROUTES.csv",
+      "sha256": "08a02b9bbcbd0ebe0c6c30ac8cc6e756c4f126b2c90cee309539423572fd16ce"
+    },
+    {
+      "path": "audits/independent_other_scene_geometry.json",
+      "sha256": "376defd3e4481aa944ba9a7e0e10098e8632106c5aabc25e541154852e0861b8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "README.md",
+      "sha256": "d75083292af3b2e1eb273dc1e588f9d601c030460dd43ac7b413974f610db991"
+    },
+    {
+      "path": "ROUTE_DIAGNOSIS.md",
+      "sha256": "3068b2de39fd8ac235096ec35ddcbe6a73a693a933ccde12e4a1622536a67e3c"
+    },
+    {
+      "path": "BUSINESS_ROUTE_OPPORTUNITY.md",
+      "sha256": "95d1ca1169a18acd7aa42378e6b2226611adeee64dd06f157745a712abc82e6c"
+    },
+    {
+      "path": "COMPONENT_LINEAGE.md",
+      "sha256": "f21ced4a9c374aae9db9cccfb2e5f72da477198b91b6edd5181cefbd30b76d1c"
+    }
+  ],
+  "new_solver_calls": 0
+}

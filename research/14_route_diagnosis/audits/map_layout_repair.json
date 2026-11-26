@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-12T13:21:42.033786+08:00",
+  "trigger": "audits/independent_browser_layout.json",
+  "old_HTML_sha256": "1d6632cd1c6ff7e4c20ebfad91746e4888981b2376c2179a2b7cd4a490e8ad53",
+  "new_HTML_sha256": "83d8fd44a43d9af27e394d45bcd852a8e0dc2027bb860e3d4d99b1bc62b67600",
+  "changes": [
+    "details 1fr 1fr -> repeat(2,minmax(0,1fr))",
+    "panel min-width:0; preserve table overflow:auto"
+  ],
+  "data_payload_recomputed": false,
+  "existing_gzip_sha256": "dff7628f5332e95ac99b4f985ab5fbca35af6b37d49759943a2dc283bb965092",
+  "algorithm_or_CSV_or_PNG_changed": false,
+  "solver_calls": 0
+}

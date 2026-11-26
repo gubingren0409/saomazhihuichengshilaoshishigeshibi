@@ -1,0 +1,103 @@
+{
+  "status": "DIAGNOSIS_FINALIZED_UI_PENDING",
+  "at": "2026-11-12T13:07:31.590063+08:00",
+  "formal_calls": 8,
+  "SSSP_traversals": 16,
+  "new_SSSP_in_materialization": 0,
+  "source": [
+    {
+      "path": "src/diagnose.py",
+      "sha256": "090aadc0c87b0f14761709e8b2a0aee072ba3827f318566a7b9a0083f2122e5e"
+    },
+    {
+      "path": "src/postprocess.py",
+      "sha256": "3ff7ab96fddf682684fe6ff851a39b596a0e4af9e83b3461bbe1dc4ba61a83d0"
+    },
+    {
+      "path": "src/refine_materialization.py",
+      "sha256": "c0c27e4b1844b86b1b6e106e8123747604d0fca545235babc8bb5fd93f781842"
+    },
+    {
+      "path": "src/certificates.py",
+      "sha256": "5fa6286609a99a8c72056fe4967a5fe2f6b97da90a6049f50e8ca729609d972f"
+    },
+    {
+      "path": "src/finalize_analysis.py",
+      "sha256": "5af667a13975ce0fdf02d00c4b983161b27506961839aab6dee26c32baeacebe"
+    },
+    {
+      "path": "tests/test_diagnosis.py",
+      "sha256": "604e4282cdc718d59ef3c8bf8b8e250ce0c7a185d1678e2f951ea467255eef80"
+    }
+  ],
+  "files": [
+    {
+      "path": "results/summary.json",
+      "sha256": "a3f0428433faf7027468211bc833a0a88f6705343aa82293b5c3eeaf75f104ef",
+      "bytes": 13490
+    },
+    {
+      "path": "NEW_FACE_ROUTE_RELEVANCE.csv",
+      "sha256": "c93b20818ffa651a7ad20c47d4a6f38dd733e8087dd73d7689b8fb5a8c9f0fbd",
+      "bytes": 169745
+    },
+    {
+      "path": "INTERFACE_USAGE_AUDIT.csv",
+      "sha256": "3e5e6fb5453518d53c7dbaa6c879dda7fae761b382ed9756d6a22d1683385498",
+      "bytes": 206080907
+    },
+    {
+      "path": "ALTERNATIVE_ROUTES.csv",
+      "sha256": "08a02b9bbcbd0ebe0c6c30ac8cc6e756c4f126b2c90cee309539423572fd16ce",
+      "bytes": 2557
+    },
+    {
+      "path": "COUNTERFACTUAL_ANALYSIS.csv",
+      "sha256": "5b59341909eaf74cac8e576ce50dbdd7344fe1f2d04b0c42733dbe9b0ece60bf",
+      "bytes": 207087
+    },
+    {
+      "path": "results/counterfactual_certificates.json",
+      "sha256": "652d031da0179c4ebbec0fc4e1dba654a47a67027bde32747a3c3158710f3606",
+      "bytes": 187283
+    },
+    {
+      "path": "results/graph_lineage.json",
+      "sha256": "f8c255ace39f4f043f88f2a62bf1bceb4ff7a5262cfc904b00e12fc8e76991d8",
+      "bytes": 661170
+    },
+    {
+      "path": "results/query_component_lineage.json",
+      "sha256": "d4b466f232afaff2412fb6506e477f89526d7d8c00825078379fde4b834dc8c2",
+      "bytes": 11817
+    },
+    {
+      "path": "results/map_diagnosis.json",
+      "sha256": "ffb37bbb567f163a74db05e7ebc6568a8bbf0dad6b35f4fedad7055be272baa9",
+      "bytes": 235803421
+    },
+    {
+      "path": "runs/provenance_bindings.json",
+      "sha256": "5ac93f8e449765c663ad78059bc0fdcfd0692508eee595d17ca6af214aeb385d",
+      "bytes": 8038
+    },
+    {
+      "path": "results/author_distance_certificate_check.json",
+      "sha256": "fd39baedd87f2366702cf91dffc7ca9b653b0268d1d4b26a5666a2425fe5b170",
+      "bytes": 3296
+    },
+    {
+      "path": "results/materialization_repair_audit.json",
+      "sha256": "c4af8fcfd64339cdaa69b8905e1b65d70af8e6518af637629e92a07c49fa643a",
+      "bytes": 3360
+    },
+    {
+      "path": "results/unconnected_face_evidence.json",
+      "sha256": "5733acefa68b4deabbdebeb507ddeadb7bc1fdd10f3d7592327d4c01c4ea4bab",
+      "bytes": 1600
+    }
+  ],
+  "UI_compaction_owner": "r2_maps; machine evidence finalized, do not replace these fields without versioned fix",
+  "source_scope": "Owned frozen diagnostic core only. UI/independent code is bound separately by its actual role; previous all-source at-time snapshot preserved in audit/finalized_scope_first_snapshot.json.",
+  "manifest_scope_corrected_at": "2026-11-12T13:09:07.397204+08:00"
+}

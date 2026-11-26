@@ -1,0 +1,51 @@
+{
+  "at": "2026-11-12T13:16:20.618372+08:00",
+  "checks": [
+    {
+      "kind": "git_tracked_and_index",
+      "root": "E:\\智慧城市和位置服务",
+      "current": {
+        "tracked_status_sha256": "8c338c05263f904caf9dfe8b458c7d0c9f1e942b0359c8d5a7cfcccb015e6fa2",
+        "HEAD_sha256": "665aab1d1876251f934141e502fa023465fcf63e5cef45e4d5bbd1acd813f27e",
+        "index_sha256": "4216b12478e717dcb367733fbbb430911edf77b785c1d3fc9ebd9cd8a80e2bd4"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "git_tracked_and_index",
+      "root": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services",
+      "current": {
+        "tracked_status_sha256": "34713d189cfddd5830c05d2a784c9b14dc398b3608c5c884681286d1f0b637ab",
+        "HEAD_sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+        "index_sha256": "67f47e86c92bc814144043bdb235f62149b9e0d95aad58cbec356fa68e7f2f0f"
+      },
+      "unchanged": true
+    },
+    {
+      "kind": "old_service_homepage",
+      "port": 53421,
+      "sha256": "9394c67b5e8673fdd3e704acc017b28b7297939cf322e5bbc73d29e1186c9496",
+      "unchanged": true
+    },
+    {
+      "kind": "old_service_homepage",
+      "port": 53431,
+      "sha256": "c2718211723f78b0e093e88997f97169dbc714012c31026dad1ebd77c055ef28",
+      "unchanged": true
+    },
+    {
+      "kind": "old_service_homepage",
+      "port": 53441,
+      "sha256": "05abd7cd30ff75358e13a2f56e05924d5c973e57b3049f1a89ab84fd7485abca",
+      "unchanged": true
+    },
+    {
+      "kind": "frozen_R1_archive",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\PED_AREA_CONNECTIVITY_R1_OPEN_REVIEW.zip",
+      "sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+      "unchanged": true
+    }
+  ],
+  "status": "PASS",
+  "scope": "Protected indices/tracked status, frozen archive content, old service page bytes. No whole-history filesystem scan or field verification."
+}

@@ -1,0 +1,103 @@
+{
+  "reviewer": "/root/r2_independent",
+  "script_sha256": "ebac1007b9b51e3a27db3822bfe52af91c95264b90311f760c04684f4beafc93",
+  "status": "PASS_FOR_ALL_FROZEN_OVERLAY_AND_BINDING_OPTIONS",
+  "new_solver_calls": 0,
+  "new_SSSP_calls": 0,
+  "rows": [
+    {
+      "case": "south",
+      "source_response_sha256": "e3bb0ec35680aec65011beb26a791f1dc3bc0bc0e38b282a65d129c5859bce3e",
+      "overlays": [
+        {
+          "path": "data/connectivity_graphs/fa78c234030763cf851dfe4818c1590e240794d11c959db69b9fad4b272ac9b2-PREP-cafa370a2591466897623be59e236992.jsonl.gz",
+          "sha256": "7adbf67fbae3b794dd5bba7e28041748c383a3409c001dded40fc4943d676125"
+        },
+        {
+          "path": "data/connectivity_graphs/ad70d1f1f92e37c4f6938c47d40b53d0501bd3074078a10acd81e0bd12f2f9f5-PREP-f9ef61d5b1f145a9b81ef8b0625df771.jsonl.gz",
+          "sha256": "e2352aa2791d458607ab45a3963400d36e92076b8cd756257a4c5b774390759b"
+        },
+        {
+          "path": "data/connectivity_graphs/d200b9409522ff870731efd267bb21128b3cdd94373398b01adb1b4e459bdb38-PREP-602cb505a8db4753ab13ea02fffa13b7.jsonl.gz",
+          "sha256": "219f7fd1f262bfad7b3899573b63a50e018c20477a3597a3fa9bebd1bce1c3de"
+        }
+      ],
+      "overlay_node_rows_checked": 9717,
+      "overlay_arc_rows_checked": 95262,
+      "overlay_options_checked": 95998,
+      "bindings_checked": 1,
+      "errors": []
+    },
+    {
+      "case": "north_near",
+      "source_response_sha256": "ba59af704e4f2baae6dfd0057dbe754dc92a8e808303e9b80b74c098089a4c34",
+      "overlays": [
+        {
+          "path": "data/connectivity_graphs/24e508c47bfdf4c353ebd7e564e7e2bdfdfc1c8a56411045fb5f9bba90ac04fb-PREP-f7a8bbb0610b44e195702bcb135af391.jsonl.gz",
+          "sha256": "f19cb664ea7ed876378088ff33fb04684dff23695a56673277d404ade1411425"
+        },
+        {
+          "path": "data/connectivity_graphs/90dc44eb56ff137ced24d13d26cb7863f0fc619dcfa358e615f86950a8d64992-PREP-77fc5dab05604df899c58cc75a8180ec.jsonl.gz",
+          "sha256": "77c80486f2908a682faf157ee84a155d22d30ffab3f28fe4f9e7fb8b8a7ed96f"
+        },
+        {
+          "path": "data/connectivity_graphs/d30ba724eb9fa4d8cc00778f4da460dac01910b38f274015357280f06729b9e9-PREP-844b1911613b4d119e5e09be668f9ca1.jsonl.gz",
+          "sha256": "75c2313cf287b8aee16a3dde01175db42ab5fc2183ddda6c10f7222b435aa934"
+        }
+      ],
+      "overlay_node_rows_checked": 9580,
+      "overlay_arc_rows_checked": 48578,
+      "overlay_options_checked": 49066,
+      "bindings_checked": 1,
+      "errors": []
+    },
+    {
+      "case": "north_far",
+      "source_response_sha256": "d8372506b520bc0e9b986c05d69c8236ee3cbbb09f8b6a2803668487195cd0a4",
+      "overlays": [
+        {
+          "path": "data/connectivity_graphs/24e508c47bfdf4c353ebd7e564e7e2bdfdfc1c8a56411045fb5f9bba90ac04fb-PREP-f7a8bbb0610b44e195702bcb135af391.jsonl.gz",
+          "sha256": "f19cb664ea7ed876378088ff33fb04684dff23695a56673277d404ade1411425"
+        },
+        {
+          "path": "data/connectivity_graphs/90dc44eb56ff137ced24d13d26cb7863f0fc619dcfa358e615f86950a8d64992-PREP-77fc5dab05604df899c58cc75a8180ec.jsonl.gz",
+          "sha256": "77c80486f2908a682faf157ee84a155d22d30ffab3f28fe4f9e7fb8b8a7ed96f"
+        },
+        {
+          "path": "data/connectivity_graphs/d30ba724eb9fa4d8cc00778f4da460dac01910b38f274015357280f06729b9e9-PREP-844b1911613b4d119e5e09be668f9ca1.jsonl.gz",
+          "sha256": "75c2313cf287b8aee16a3dde01175db42ab5fc2183ddda6c10f7222b435aa934"
+        }
+      ],
+      "overlay_node_rows_checked": 9580,
+      "overlay_arc_rows_checked": 48578,
+      "overlay_options_checked": 49066,
+      "bindings_checked": 1,
+      "errors": []
+    },
+    {
+      "case": "library",
+      "source_response_sha256": "09b49e3aff31e4c680894e8cded45db1110d7ad40909d56d9fec0d0ba0cf5c2e",
+      "overlays": [
+        {
+          "path": "data/connectivity_graphs/6393deed56b5c533a833a9295e34e5fb2ae2db08a91dfdc89695d6d55d099007-PREP-05c73f4470b34d67a55b4b5ccfd43270.jsonl.gz",
+          "sha256": "6414836a35f7a760fdc35a94ae516d4f8669c3edc3018708678a4050b6f896d4"
+        },
+        {
+          "path": "data/connectivity_graphs/75774d3cae7bd32d6c3c96279695f23badc71bb0c2cac1fc655c892a5e9964b1-PREP-1378745597da4434b036f2e09602d267.jsonl.gz",
+          "sha256": "ab3e7446f30e9ae88eac4321c7e11aa2628ca9f9c0e3c9ccf1f0cfa238ff454f"
+        },
+        {
+          "path": "data/connectivity_graphs/0221667d0e864dfa5cf4238fb0c5e9f44754851c043134da5019f3828f874c2c-PREP-12afd64d2af44372b7ddc1718e3b749d.jsonl.gz",
+          "sha256": "02778f694cc113b27ac0784d5b8ca043c9d6abfc76b531ed2d4c5574dac9790b"
+        }
+      ],
+      "overlay_node_rows_checked": 554,
+      "overlay_arc_rows_checked": 2958,
+      "overlay_options_checked": 3092,
+      "bindings_checked": 1,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "scope": "Every original B3 overlay node/arc and parallel option independently linked to export, with original segment length/continuity and exact bound door coords. Source/base and local options independently checked in separate all-arc provenance/weight reports. No continuous endpoint re-optimization."
+}

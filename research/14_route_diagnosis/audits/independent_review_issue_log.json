@@ -1,0 +1,45 @@
+{
+  "reviewer": "/root/r2_independent",
+  "at": "2026-11-12T13:21:14.430356+08:00",
+  "issues": [
+    {
+      "item": "Frozen zero-weight grade alias",
+      "initial_observation": "Unexplained zero source arcs across layer aliases",
+      "adjudication": "R1 raw shared way endpoints at equal level deliberately connected by local_route.py; independently rebuilt original endpoint grade sets explain all186/44 arcs; no R1 fix",
+      "evidence": "independent_source_weight_initial_transition_alarm.json; independent_source_weight_restoration.json"
+    },
+    {
+      "item": "Independent cell polygon numeric error",
+      "initial_observation": "GEOS AssertionFailedException while overlaying near-zero fragment",
+      "adjudication": "Independent reviewer implementation omitted frozen area>1e-8 polygon filter; corrected own script only; all3991 active cell IDs/xy and15140 local arcs then matched"
+    },
+    {
+      "item": "Repeated interface ID raw lookup",
+      "initial_observation": "Frozen raw fields mismatch under dict[id]",
+      "adjudication": "Actual duplicate source-interface/f9af7737f95dd939e35dde9a has same geometry/owner but two graph_node_ids bindings. Composite raw-record matching restores full equality; 92096 are records, not unique physical interfaces"
+    },
+    {
+      "item": "Counterfactual UI missing mapping",
+      "initial_observation": "Four compact cases omitted counterfactuals while page read it, rendering{}",
+      "adjudication": "Map author attached fixed32 certificate summaries, no new solves; actual independent32 combination interaction later showed nonempty data"
+    },
+    {
+      "item": "Global horizontal page scroll",
+      "initial_observation": "1520viewport, document width2157–2166 and scrollX637–646 after evidence-row clicks",
+      "adjudication": "Map author applied only minmax/min-width grid CSS. Independent final four-case regression confirms document width=viewport1520, document scrollX0, sidebar scrollLeft0;32 combinations/exports/file rendering also PASS on final HTML83d8fd44...; no data/route change.",
+      "evidence": "independent_browser_layout_before_fix.json",
+      "after_fix_evidence": "independent_browser_layout.json; independent_browser.json"
+    },
+    {
+      "item": "Independent browser first sandbox launch",
+      "initial_observation": "No progress/output observed; own session77208 stopped",
+      "adjudication": "Host-approved read-only Edge execution produced actual32 combination/4download/file-renderPASS; no map/solver requests"
+    },
+    {
+      "item": "Inline layout command quoting",
+      "initial_observation": "Python syntax error before launch",
+      "adjudication": "Moved code into independent_browser_layout.py and executed successfully; no product/source data changes"
+    }
+  ],
+  "closed_at": "2026-11-12T13:25:13.183676+08:00"
+}

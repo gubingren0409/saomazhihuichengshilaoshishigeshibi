@@ -1,0 +1,164 @@
+{
+  "case": "north_near",
+  "mode": "B3",
+  "method": "F1",
+  "viewport_metric": [
+    354294.59894667694,
+    -3456112.6744872355,
+    31.04651162790698,
+    20
+  ],
+  "selected_object": {
+    "case": "north_near",
+    "ui_record_key": "north_near/F1/224",
+    "id": "interface/b331350877ff42db7e00fbc6",
+    "kind": "SOURCE_SUPPORTED_INTERFACE",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        354310.12220249086,
+        3456102.6744872355
+      ]
+    },
+    "relation": "LINE_END_ON_BOUNDARY",
+    "parent_u": "node/1890745479",
+    "parent_v": "node/1890842757",
+    "channel": "SOURCE",
+    "source_ids": [
+      "way/161090908"
+    ],
+    "source_area_ids": [
+      "relation/2153738"
+    ],
+    "p_distance_m": 0,
+    "omega_distance_m": 0,
+    "covered_length_m": 0,
+    "status": "ACCEPTED",
+    "graph_node_ids": [
+      "node/1890745479"
+    ],
+    "mode": "B3",
+    "directed_from_start": true,
+    "directed_to_goal": true,
+    "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+    "used_explicit_tag": false,
+    "route_passes_graph_node": true,
+    "route_uses_owner_incident_arc": true,
+    "original_reason": "EXACT_SOURCE_PARENT_INTERFACE",
+    "per_mode": {
+      "B0": {
+        "declared_as_interface": false,
+        "entered_graph": true,
+        "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+        "directed_from_start": true,
+        "directed_to_goal": true,
+        "component_labels": [
+          0
+        ]
+      },
+      "B1": {
+        "declared_as_interface": false,
+        "entered_graph": true,
+        "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+        "directed_from_start": true,
+        "directed_to_goal": true,
+        "component_labels": [
+          0
+        ]
+      },
+      "B2": {
+        "declared_as_interface": true,
+        "entered_graph": true,
+        "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+        "directed_from_start": true,
+        "directed_to_goal": true,
+        "component_labels": [
+          0
+        ]
+      },
+      "B3": {
+        "declared_as_interface": true,
+        "entered_graph": true,
+        "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+        "directed_from_start": true,
+        "directed_to_goal": true,
+        "component_labels": [
+          0
+        ]
+      }
+    },
+    "evidence_scope": "Query-bound B3 directed distances; PORTAL incidence not automatically newly introduced edge; parent equivalence separately recorded",
+    "forced_argmin_arc": {
+      "u": "node/1890745479",
+      "v": "fullface/relation/2153738/component/0/v/539",
+      "option": [
+        79.98477118560025,
+        0,
+        [
+          "relation/2153738"
+        ],
+        [],
+        "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+      ]
+    },
+    "source_objects": [
+      {
+        "type": "relation",
+        "id": 2153738,
+        "version": 9,
+        "timestamp": null,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        }
+      },
+      {
+        "type": "way",
+        "id": 161090908,
+        "version": 5,
+        "timestamp": null,
+        "tags": {
+          "highway": "service"
+        }
+      }
+    ],
+    "method": "F1",
+    "distance_m": 0,
+    "in_start_component": true,
+    "in_goal_component": true,
+    "component_labels": [
+      0
+    ],
+    "used": false,
+    "forced_cost_m": 310.4657655078996,
+    "slack_m": 5.684341886080802e-14,
+    "reason": "TIED_EQUIVALENT",
+    "accepted": true,
+    "entered_graph": true,
+    "original_entered_graph": true,
+    "current_display_mode": "B3",
+    "current_mode_membership": {
+      "declared_as_interface": true,
+      "entered_graph": true,
+      "entry_scope": "PORTAL_NODE_TO_DECLARED_OWNER_INCIDENT_OPTIONS",
+      "directed_from_start": true,
+      "directed_to_goal": true,
+      "component_labels": [
+        0
+      ]
+    },
+    "evidence_record_used_in_current_mode": false,
+    "historical_response_mentions_same_interface_id": false
+  },
+  "source_archive_sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+  "historical_run_id": "RUN-20261112T021137-983fd8a137",
+  "not_new_solver_request": true
+}

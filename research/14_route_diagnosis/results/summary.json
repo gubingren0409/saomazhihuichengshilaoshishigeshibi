@@ -1,0 +1,369 @@
+{
+  "status": "READY",
+  "cases": [
+    {
+      "case": "south",
+      "methods": {
+        "F0": {
+          "minimum_cost_m": 148.8631220697961,
+          "reference_cost_m": 148.86312206979613,
+          "reference_error_m": -2.842170943040401e-14,
+          "interface_reasons": {
+            "B_OTHER_DIRECTED_COMPONENT": 1948,
+            "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 10259,
+            "TIED_EQUIVALENT": 15,
+            "G_ACCEPTED_NO_AUDITED_OWNER_INCIDENCE": 4,
+            "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+          },
+          "interfaces_total": 13153,
+          "explicit_tag_used": 0,
+          "portal_incident_used": 55,
+          "alternative_count": 1,
+          "alternative_cost_m": 148.86313264974459,
+          "alternative_slack_m": 1.057994847997179e-05,
+          "alternative_validation": "PASS",
+          "candidate_counts": {
+            "unique_bridge_options": 3,
+            "current_primal_geometry": 2,
+            "duplicate_bridge_option": 13,
+            "distinct_noncurrent_simple_candidates": 1
+          },
+          "faces": {
+            "scene_added": 27,
+            "global_unique_new_in_scene": 25,
+            "within_5m": 0,
+            "within_10m": 0,
+            "within_20m": 0,
+            "scene_reasons": {
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 11,
+              "OTHER_DIRECTED_COMPONENT": 16
+            },
+            "global_new_reasons": {
+              "OTHER_DIRECTED_COMPONENT": 16,
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 9
+            }
+          }
+        },
+        "F1": {
+          "minimum_cost_m": 148.8631220697961,
+          "reference_cost_m": 148.86312206979613,
+          "reference_error_m": -2.842170943040401e-14,
+          "interface_reasons": {
+            "B_OTHER_DIRECTED_COMPONENT": 1948,
+            "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 10259,
+            "TIED_EQUIVALENT": 15,
+            "G_ACCEPTED_NO_AUDITED_OWNER_INCIDENCE": 4,
+            "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+          },
+          "interfaces_total": 13153,
+          "explicit_tag_used": 0,
+          "portal_incident_used": 55,
+          "alternative_count": 1,
+          "alternative_cost_m": 148.86313264974459,
+          "alternative_slack_m": 1.057994847997179e-05,
+          "alternative_validation": "PASS",
+          "candidate_counts": {
+            "unique_bridge_options": 3,
+            "current_primal_geometry": 2,
+            "duplicate_bridge_option": 13,
+            "distinct_noncurrent_simple_candidates": 1
+          },
+          "faces": {
+            "scene_added": 27,
+            "global_unique_new_in_scene": 25,
+            "within_5m": 0,
+            "within_10m": 0,
+            "within_20m": 0,
+            "scene_reasons": {
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 11,
+              "OTHER_DIRECTED_COMPONENT": 16
+            },
+            "global_new_reasons": {
+              "OTHER_DIRECTED_COMPONENT": 16,
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 9
+            }
+          }
+        }
+      },
+      "general_routing_bug_proven": false,
+      "diagnostic_materialization_bug_repaired": true
+    },
+    {
+      "case": "north_near",
+      "methods": {
+        "F0": {
+          "minimum_cost_m": 299.5314499354948,
+          "reference_cost_m": 299.53144993549483,
+          "reference_error_m": -5.684341886080802e-14,
+          "interface_reasons": {
+            "B_OTHER_DIRECTED_COMPONENT": 1948,
+            "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 12506,
+            "TIED_EQUIVALENT": 52,
+            "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+          },
+          "interfaces_total": 15433,
+          "explicit_tag_used": 4,
+          "portal_incident_used": 1004,
+          "alternative_count": 1,
+          "alternative_cost_m": 299.53196046773525,
+          "alternative_slack_m": 0.0005105322404688195,
+          "alternative_validation": "PASS",
+          "candidate_counts": {
+            "unique_bridge_options": 35,
+            "current_primal_geometry": 34,
+            "duplicate_bridge_option": 18,
+            "distinct_noncurrent_simple_candidates": 1
+          },
+          "faces": {
+            "scene_added": 27,
+            "global_unique_new_in_scene": 25,
+            "within_5m": 0,
+            "within_10m": 0,
+            "within_20m": 0,
+            "scene_reasons": {
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 11,
+              "OTHER_DIRECTED_COMPONENT": 16
+            },
+            "global_new_reasons": {
+              "OTHER_DIRECTED_COMPONENT": 16,
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 9
+            }
+          }
+        },
+        "F1": {
+          "minimum_cost_m": 310.46576550789956,
+          "reference_cost_m": 310.4657655078996,
+          "reference_error_m": -5.684341886080802e-14,
+          "interface_reasons": {
+            "B_OTHER_DIRECTED_COMPONENT": 1948,
+            "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 12509,
+            "TIED_EQUIVALENT": 49,
+            "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+          },
+          "interfaces_total": 15433,
+          "explicit_tag_used": 4,
+          "portal_incident_used": 912,
+          "alternative_count": 1,
+          "alternative_cost_m": 310.4672105732638,
+          "alternative_slack_m": 0.0014450653642370526,
+          "alternative_validation": "PASS",
+          "candidate_counts": {
+            "unique_bridge_options": 32,
+            "current_primal_geometry": 31,
+            "duplicate_bridge_option": 18,
+            "distinct_noncurrent_simple_candidates": 1
+          },
+          "faces": {
+            "scene_added": 27,
+            "global_unique_new_in_scene": 25,
+            "within_5m": 0,
+            "within_10m": 0,
+            "within_20m": 0,
+            "scene_reasons": {
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 11,
+              "OTHER_DIRECTED_COMPONENT": 16
+            },
+            "global_new_reasons": {
+              "OTHER_DIRECTED_COMPONENT": 16,
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 9
+            }
+          }
+        }
+      },
+      "general_routing_bug_proven": false,
+      "diagnostic_materialization_bug_repaired": true
+    },
+    {
+      "case": "north_far",
+      "methods": {
+        "F0": {
+          "minimum_cost_m": 666.6635999370017,
+          "reference_cost_m": 666.6635999370019,
+          "reference_error_m": -2.2737367544323206e-13,
+          "interface_reasons": {
+            "B_OTHER_DIRECTED_COMPONENT": 1948,
+            "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 12506,
+            "TIED_EQUIVALENT": 52,
+            "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+          },
+          "interfaces_total": 15433,
+          "explicit_tag_used": 4,
+          "portal_incident_used": 1004,
+          "alternative_count": 1,
+          "alternative_cost_m": 666.6641104692422,
+          "alternative_slack_m": 0.0005105322405825063,
+          "alternative_validation": "PASS",
+          "candidate_counts": {
+            "unique_bridge_options": 35,
+            "current_primal_geometry": 34,
+            "duplicate_bridge_option": 18,
+            "distinct_noncurrent_simple_candidates": 1
+          },
+          "faces": {
+            "scene_added": 27,
+            "global_unique_new_in_scene": 25,
+            "within_5m": 0,
+            "within_10m": 0,
+            "within_20m": 0,
+            "scene_reasons": {
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 11,
+              "OTHER_DIRECTED_COMPONENT": 16
+            },
+            "global_new_reasons": {
+              "OTHER_DIRECTED_COMPONENT": 16,
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 9
+            }
+          }
+        },
+        "F1": {
+          "minimum_cost_m": 677.5979155094066,
+          "reference_cost_m": 677.5979155094067,
+          "reference_error_m": -1.1368683772161603e-13,
+          "interface_reasons": {
+            "B_OTHER_DIRECTED_COMPONENT": 1948,
+            "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 12509,
+            "TIED_EQUIVALENT": 49,
+            "E_REJECTED_CONSTRAINT_OR_POLICY": 927
+          },
+          "interfaces_total": 15433,
+          "explicit_tag_used": 4,
+          "portal_incident_used": 912,
+          "alternative_count": 1,
+          "alternative_cost_m": 677.5993605747708,
+          "alternative_slack_m": 0.0014450653642370526,
+          "alternative_validation": "PASS",
+          "candidate_counts": {
+            "unique_bridge_options": 32,
+            "current_primal_geometry": 31,
+            "duplicate_bridge_option": 18,
+            "distinct_noncurrent_simple_candidates": 1
+          },
+          "faces": {
+            "scene_added": 27,
+            "global_unique_new_in_scene": 25,
+            "within_5m": 0,
+            "within_10m": 0,
+            "within_20m": 0,
+            "scene_reasons": {
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 11,
+              "OTHER_DIRECTED_COMPONENT": 16
+            },
+            "global_new_reasons": {
+              "OTHER_DIRECTED_COMPONENT": 16,
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 9
+            }
+          }
+        }
+      },
+      "general_routing_bug_proven": false,
+      "diagnostic_materialization_bug_repaired": true
+    },
+    {
+      "case": "library",
+      "methods": {
+        "F0": {
+          "minimum_cost_m": 180.58111866323975,
+          "reference_cost_m": 180.58111866323975,
+          "reference_error_m": 0.0,
+          "interface_reasons": {
+            "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 1820,
+            "E_REJECTED_CONSTRAINT_OR_POLICY": 209
+          },
+          "interfaces_total": 2029,
+          "explicit_tag_used": 0,
+          "portal_incident_used": 0,
+          "alternative_count": 0,
+          "alternative_cost_m": null,
+          "alternative_slack_m": null,
+          "alternative_validation": "NA",
+          "candidate_counts": {
+            "unique_bridge_options": 1420,
+            "non_simple_forced_walk": 1420,
+            "duplicate_bridge_option": 400
+          },
+          "faces": {
+            "scene_added": 11,
+            "global_unique_new_in_scene": 11,
+            "within_5m": 0,
+            "within_10m": 0,
+            "within_20m": 0,
+            "scene_reasons": {
+              "NOT_PRESENT_IN_QUERY_NAMESPACE": 1,
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 10
+            },
+            "global_new_reasons": {
+              "NOT_PRESENT_IN_QUERY_NAMESPACE": 1,
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 10
+            }
+          }
+        },
+        "F1": {
+          "minimum_cost_m": 180.58111866323975,
+          "reference_cost_m": 180.58111866323975,
+          "reference_error_m": 0.0,
+          "interface_reasons": {
+            "D_EXISTING_ROUTE_STRICTLY_CHEAPER": 1820,
+            "E_REJECTED_CONSTRAINT_OR_POLICY": 209
+          },
+          "interfaces_total": 2029,
+          "explicit_tag_used": 0,
+          "portal_incident_used": 0,
+          "alternative_count": 0,
+          "alternative_cost_m": null,
+          "alternative_slack_m": null,
+          "alternative_validation": "NA",
+          "candidate_counts": {
+            "unique_bridge_options": 1420,
+            "non_simple_forced_walk": 1420,
+            "duplicate_bridge_option": 400
+          },
+          "faces": {
+            "scene_added": 11,
+            "global_unique_new_in_scene": 11,
+            "within_5m": 0,
+            "within_10m": 0,
+            "within_20m": 0,
+            "scene_reasons": {
+              "NOT_PRESENT_IN_QUERY_NAMESPACE": 1,
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 10
+            },
+            "global_new_reasons": {
+              "NOT_PRESENT_IN_QUERY_NAMESPACE": 1,
+              "EXISTING_ROUTE_STRICTLY_CHEAPER": 10
+            }
+          }
+        }
+      },
+      "general_routing_bug_proven": false,
+      "diagnostic_materialization_bug_repaired": true
+    }
+  ],
+  "formal_solver_count": 8,
+  "SSSP_traversals": 16,
+  "postprocess_solver_count": 0,
+  "counterfactual_status_counts": {
+    "CERTIFIED_SAME_OPTIMUM": 32
+  },
+  "postprocess_elapsed_s": 254.53646909998497,
+  "routing_algorithm_modified": false,
+  "diagnostic_export_repaired": true,
+  "limits": [
+    "Finite frozen graph optimality only; no field passage claim",
+    "PORTAL owned-incidence can be equivalent to an old geometric route, not necessarily newly created connection",
+    "At most128 cheapest declared forced-interface candidates inspected for simple alternative; no claim of global second shortest"
+  ],
+  "refinement": "Prelocked single zero-SSSP bridge deduplication and forced option correction complete",
+  "source_weight_independent_proof": "audits/independent_source_weight_restoration.json",
+  "global_new_business_scene_overlap": {
+    "global_new_total": 82,
+    "unique_new_in_business_scene_pools": 36,
+    "outside_business_scene_pools": 46,
+    "unique_reasons": {
+      "OTHER_DIRECTED_COMPONENT": 16,
+      "EXISTING_ROUTE_STRICTLY_CHEAPER": 19,
+      "NOT_PRESENT_IN_QUERY_NAMESPACE": 1
+    },
+    "dedup_scope": "R1 unique source IDs; scene records not independent evidence"
+  },
+  "unconnected_face_evidence": "results/unconnected_face_evidence.json"
+}

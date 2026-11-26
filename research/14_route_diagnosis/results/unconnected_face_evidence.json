@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-11-12T13:04:53.261179+08:00",
+  "R1_archive_sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+  "source_PREP_member": "runs/preprocessing/0221667d0e864dfa5cf4238fb0c5e9f44754851c043134da5019f3828f874c2c-PREP-12afd64d2af44372b7ddc1718e3b749d.json",
+  "source_PREP_SHA256": "2e56ad387a4fe28d06c6ac766744db0a901402f90fe5e0dfa38bf2a1108b36c3",
+  "cache_key": "0221667d0e864dfa5cf4238fb0c5e9f44754851c043134da5019f3828f874c2c",
+  "prepared_graph_sha256": "ffc403e13ba9f7083861fe6b8d17315aa21075e4dd3d72d434d3d1be23c1db5b",
+  "bound_response_sha256": "7a6b68c1e113a11d3eebbb7797ecf1550797ee69cd4541c84777e38941b95e33",
+  "face": {
+    "source_id": "way/1264845154",
+    "status": "ADMITTED",
+    "components": [
+      {
+        "component": 0,
+        "area_m2": 811.2412420398377,
+        "hole_count": 0,
+        "portal_count": 0,
+        "roadmap_nodes": 0,
+        "roadmap_arcs": 0,
+        "local_interface_statistics": {},
+        "visibility_checks": 0,
+        "domain_rejections": 0,
+        "constraint_rejections": 0,
+        "numeric_tolerance_admissions": 0,
+        "reflex_vertices": 0,
+        "required_points": 0,
+        "pair_candidates": 0,
+        "local_tangent_rejections": 0
+      }
+    ],
+    "geometry_hash": "f9b6a6947dd2f3defe9a685c880341b98dc210387dbd241e232ad684896570a9"
+  },
+  "interpretation": "ADMITTED source and nonempty Omega, but zero portal/reflex/VG nodes/arcs in actual fixed business namespace. No current graph entry is not proof of absent physical route or source object."
+}

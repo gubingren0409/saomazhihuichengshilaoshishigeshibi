@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "case": "south",
+      "method": "F0",
+      "forward_bellman_violations": 0,
+      "reverse_bellman_violations": 0,
+      "ds_source": 0.0,
+      "dt_target": 0.0,
+      "best_cost_m": 148.8631220697961,
+      "source_target_dual_difference": -2.842170943040401e-14,
+      "tolerance_m": 1e-07,
+      "scope": "Graph cost consistency only, no geometry admission relaxation"
+    },
+    {
+      "case": "south",
+      "method": "F1",
+      "forward_bellman_violations": 0,
+      "reverse_bellman_violations": 0,
+      "ds_source": 0.0,
+      "dt_target": 0.0,
+      "best_cost_m": 148.8631220697961,
+      "source_target_dual_difference": -2.842170943040401e-14,
+      "tolerance_m": 1e-07,
+      "scope": "Graph cost consistency only, no geometry admission relaxation"
+    },
+    {
+      "case": "north_near",
+      "method": "F0",
+      "forward_bellman_violations": 0,
+      "reverse_bellman_violations": 0,
+      "ds_source": 0.0,
+      "dt_target": 0.0,
+      "best_cost_m": 299.5314499354948,
+      "source_target_dual_difference": -5.684341886080802e-14,
+      "tolerance_m": 1e-07,
+      "scope": "Graph cost consistency only, no geometry admission relaxation"
+    },
+    {
+      "case": "north_near",
+      "method": "F1",
+      "forward_bellman_violations": 0,
+      "reverse_bellman_violations": 0,
+      "ds_source": 0.0,
+      "dt_target": 0.0,
+      "best_cost_m": 310.46576550789956,
+      "source_target_dual_difference": -5.684341886080802e-14,
+      "tolerance_m": 1e-07,
+      "scope": "Graph cost consistency only, no geometry admission relaxation"
+    },
+    {
+      "case": "north_far",
+      "method": "F0",
+      "forward_bellman_violations": 0,
+      "reverse_bellman_violations": 0,
+      "ds_source": 0.0,
+      "dt_target": 0.0,
+      "best_cost_m": 666.6635999370017,
+      "source_target_dual_difference": -3.410605131648481e-13,
+      "tolerance_m": 1e-07,
+      "scope": "Graph cost consistency only, no geometry admission relaxation"
+    },
+    {
+      "case": "north_far",
+      "method": "F1",
+      "forward_bellman_violations": 0,
+      "reverse_bellman_violations": 0,
+      "ds_source": 0.0,
+      "dt_target": 0.0,
+      "best_cost_m": 677.5979155094066,
+      "source_target_dual_difference": -2.2737367544323206e-13,
+      "tolerance_m": 1e-07,
+      "scope": "Graph cost consistency only, no geometry admission relaxation"
+    },
+    {
+      "case": "library",
+      "method": "F0",
+      "forward_bellman_violations": 0,
+      "reverse_bellman_violations": 0,
+      "ds_source": 0.0,
+      "dt_target": 0.0,
+      "best_cost_m": 180.58111866323975,
+      "source_target_dual_difference": 0.0,
+      "tolerance_m": 1e-07,
+      "scope": "Graph cost consistency only, no geometry admission relaxation"
+    },
+    {
+      "case": "library",
+      "method": "F1",
+      "forward_bellman_violations": 0,
+      "reverse_bellman_violations": 0,
+      "ds_source": 0.0,
+      "dt_target": 0.0,
+      "best_cost_m": 180.58111866323975,
+      "source_target_dual_difference": 0.0,
+      "tolerance_m": 1e-07,
+      "scope": "Graph cost consistency only, no geometry admission relaxation"
+    }
+  ],
+  "new_SSSP": 0
+}

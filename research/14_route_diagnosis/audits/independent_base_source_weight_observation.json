@@ -1,0 +1,21 @@
+{
+  "reviewer": "/root/r2_independent",
+  "scope": "Mapped source edge records independently scanned; native code declares adjacent raw nodes straight segments, source native/derived costs all length, no inferred multiplier in source base. This does not validate local surface reconstruction or all graph segment provenance.",
+  "rows": [
+    {
+      "scene": "sh-huangpu-01",
+      "rows": 98102,
+      "non_two_point_lines": 0,
+      "length_mismatch_count": 0,
+      "max_error_m": 1.1102230246251565e-16
+    },
+    {
+      "scene": "sh-library",
+      "rows": 5435,
+      "non_two_point_lines": 0,
+      "length_mismatch_count": 0,
+      "max_error_m": 1.1102230246251565e-16
+    }
+  ],
+  "APP_solver_calls": 0
+}

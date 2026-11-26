@@ -1,0 +1,16 @@
+{
+  "locked_at": "2026-11-12T12:54:54.745647+08:00",
+  "scope": "One bounded correction of diagnostic candidate enumeration/materialization, no changed graph, no additional SSSP",
+  "reason": "First128 records can repeat same physical bridge/current path and hide finite alternative opportunities; bridge parallel option was not enforced",
+  "rules": [
+    "Retain original 8 run responses, preds and distances unchanged",
+    "For each interface choose finite min forced arc from existing ds/dt",
+    "Deduplicate (u,v,option lengths/hypothesis/owners/kind) independent of duplicate interface labels",
+    "Exclude current primal path geometry before consuming 128 distinct-candidate budget",
+    "Choose first simple non-identical path in cost/id order; force exactly the recorded bridge option",
+    "Store examined/skipped counts and retain prior negative findings",
+    "No broad K-shortest enumeration and no physical constraint change"
+  ],
+  "max_distinct_noncurrent_candidates": 128,
+  "new_solver_count": 0
+}
