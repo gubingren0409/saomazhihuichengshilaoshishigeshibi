@@ -1,0 +1,54 @@
+{
+  "row": {
+    "experiment_id": "Q7-DYNAMIC-CLOSURE-SIMULATION-R1",
+    "run_id": "Q7-A1-NATIVE-WALKWAY-0-S1-2",
+    "timestamp": "2026-11-15T04:29:26.603259+08:00",
+    "scene_id": "sh-huangpu-01",
+    "building_id": "way/161090899",
+    "entrance_id": "node/6897141353",
+    "method": "F1",
+    "input_version": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+    "status": "NO_PATH",
+    "result": {
+      "status": "NO_PATH",
+      "solver": {
+        "invoked": false
+      },
+      "failure": {
+        "code": "UNBOUND_ENDPOINT",
+        "source_present": true,
+        "target_present": false
+      },
+      "solver_ms": 0.010599993402138352,
+      "validation_ms": 0.0
+    },
+    "failure_reason": {
+      "code": "UNBOUND_ENDPOINT",
+      "source_present": true,
+      "target_present": false
+    },
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": 0.0658999924780801,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "outputs/Q7-A1-NATIVE-WALKWAY-0-S1-2.json",
+    "state": "S1",
+    "repeat": 2,
+    "control_variant": "STATE_INJECTION_ADAPTER",
+    "state_version": "59196690033935e8e01ce1a9c22dee21e88de6fb452035fcd16487f1d3e3830b",
+    "graph_nodes": 38419,
+    "graph_arcs": 290932,
+    "state_overlay_build_ms": 0.0,
+    "preprocessing_cache": true,
+    "state_overlay_cache": true,
+    "route_answer_cache": false,
+    "process_cold_start": false,
+    "solver_invoked": false,
+    "forbidden_object_used": false,
+    "restored_to_S0": null
+  },
+  "route": null,
+  "validation": null
+}

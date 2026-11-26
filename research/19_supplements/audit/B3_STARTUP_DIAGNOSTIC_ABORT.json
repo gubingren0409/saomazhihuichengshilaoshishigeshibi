@@ -1,0 +1,31 @@
+{
+  "owned_pid": 33088,
+  "verified_script": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_SUPPLEMENTARY_Q2_Q6_Q7_Q8_20261115\\scripts\\run_minimal.py",
+  "record": {
+    "experiment_id": "Q2-LOCAL-ENTRY-AUDIT-R1",
+    "run_id": "Q2-MINIMAL-B3-DIAGNOSTIC-ABORT",
+    "scene_id": "sh-huangpu-01",
+    "building_id": "way/161090899",
+    "entrance_id": "node/6897141353",
+    "method": "F0",
+    "input_version": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+    "status": "INCONCLUSIVE",
+    "result": {
+      "phase": "NON_PRIMARY_B3_STARTUP_DIAGNOSTIC",
+      "elapsed_wall_s": 512.4879970550537,
+      "rss": 941608960,
+      "cpu_s": 508.5625,
+      "completed_route": false,
+      "source_graph_preprocessing_observed_seconds": 108.72687319999386
+    },
+    "failure_reason": "OPERATOR_ABORT_OF_EXPENSIVE_NONPRIMARY_CONNECTIVITY_PREPARATION; DEFAULT_FULL_FACE_PRIMARY_LOCKED_BEFORE_PRIMARY_RESULTS",
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": 512487.9970550537,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "../audit/B3_STARTUP_DIAGNOSTIC_ABORT.json",
+    "timestamp": "2026-11-15T03:07:17.600292+08:00"
+  }
+}

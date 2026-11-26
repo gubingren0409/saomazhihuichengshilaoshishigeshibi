@@ -1,0 +1,5 @@
+﻿unit,n,status_counts,scope
+Q2 raw records,23,"{""INCONCLUSIVE"": 1, ""PASS"": 15, ""NO_PATH"": 3, ""FAIL"": 3, ""RUNTIME_ERROR"": 1}",Contains audit events and superseded checker records; not independent samples
+Q7 primary state requests,36,"{""PASS"": 18, ""NO_PATH"": 18}",2 fixed sites x 6 states x 3 repeats
+Q7 all retained raw records,58,"{""PASS"": 25, ""NO_PATH"": 30, ""FAIL"": 3}",Includes 19 secondary original museum pressure rows and one repeated baseline
+Q8 primary observations,453,"{""PASS"": 410, ""NO_PATH"": 43}","Includes excluded warmups; repetitions, not independent sites"

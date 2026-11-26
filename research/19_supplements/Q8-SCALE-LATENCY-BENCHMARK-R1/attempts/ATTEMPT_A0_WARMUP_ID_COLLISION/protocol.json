@@ -1,0 +1,48 @@
+{
+  "experiment_id": "Q8-SCALE-LATENCY-BENCHMARK-R1",
+  "locked_at": "2026-11-15T03:15:55.808137+08:00",
+  "selection_rule": "Lexicographically first native registered-door ID across 3 eligible frozen records; library. No library latency observed before lock. Not representative of all six scenes.",
+  "selected_scene": "sh-library",
+  "parent_preflight_B3_abort": "Nonprimary museum construction diagnostic retained separately; not a timed completion",
+  "scales": {
+    "SMALL": "Frozen library scene and one registered door",
+    "MEDIUM": "Existing adjacent clips available; merged scene/constraint/graph adapter not part of frozen input contract, not implemented here",
+    "LARGE": "No domain-compatible city-scale current input; unrelated NYC historical network not substituted"
+  },
+  "configs": [
+    {
+      "mode": "EDGE_BAND",
+      "method": "F0"
+    },
+    {
+      "mode": "EDGE_BAND",
+      "method": "F1"
+    },
+    {
+      "mode": "FULL_FACE",
+      "method": "F0"
+    },
+    {
+      "mode": "FULL_FACE",
+      "method": "F1"
+    }
+  ],
+  "warmup": 3,
+  "hot_formal": 30,
+  "cold_formal": 10,
+  "cold_definition": "Fresh Python process, no in-memory preprocessing; uncontrolled OS disk cache; manager wall time includes process/import/prepare/bind/solve/validation/write/exit",
+  "cold_count_rationale": "Use allowed minimum 10 because cold preprocessing already measured above 100s in separate museum diagnostic; all ten retained, no after-result deletions",
+  "request_timeout_s": 600,
+  "timeout_handling": "RUNTIME_ERROR; right-censored at timeout, never counted as quick failure or omitted from denominator",
+  "measurement_scope": "Experiment CLI core adapter, NOT HTTP/UI/production SLA; Path read and STRtree constructor timers delegate unchanged; nested phases, overhead not subtracted",
+  "one_second_rule": "Only report per-config satisfaction if p95 AND max <=1000ms; any missing or timed-out mandatory scope precludes overall one-second claim",
+  "missing_requested_functions": [
+    "TOP3_ROUTE_ENUMERATION",
+    "MULTI_ENTRANCE_JOINT_SELECTION",
+    "10_OR_100_VALID_REGISTERED_TARGETS",
+    "MERGED_SCENE_INPUT_CONTRACT",
+    "DOMAIN_COMPATIBLE_CITY_NETWORK"
+  ],
+  "no_new_map_downloads": true,
+  "route_answer_cache": false
+}

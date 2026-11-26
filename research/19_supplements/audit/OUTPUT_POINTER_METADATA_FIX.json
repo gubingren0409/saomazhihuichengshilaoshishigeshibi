@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-11-15T04:28:46.496551+08:00",
+  "status": "PASS",
+  "changes": [
+    {
+      "run_id": "Q2-SUPPLEMENTARY-AUDIT-CRS-A0-INVALIDATED",
+      "before": "../../audit/Q2_SUPPLEMENTARY_CRS_CORRECTION.json",
+      "after": "audit/Q2_SUPPLEMENTARY_CRS_CORRECTION.json",
+      "base": "ROOT"
+    }
+  ],
+  "scientific_values_changed": false,
+  "old_raw_bytes_retained": "Q2-LOCAL-ENTRY-AUDIT-R1/attempts/A0_SUPPLEMENTARY_AUDIT_CRS_MISMATCH/raw_before_pointer_metadata_fix.jsonl",
+  "raw_sha256_before": "e89d8bf5838a352359e79ac1f87574313e3693a399afeec4d34639c297a9c22a",
+  "raw_sha256_after": "0ab0bfe1b2d2c30a31b8a1f2aba6a10f8a0b49469d43ccc8a8c9005331f6a1a7"
+}

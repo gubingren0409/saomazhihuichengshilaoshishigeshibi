@@ -1,0 +1,38 @@
+[
+  {
+    "request_id": "APP-01",
+    "scene_id": "sh-huangpu-01",
+    "door_id": "node/6897141353",
+    "start_id": "node/10073042336",
+    "purpose": "ENTER_BUILDING",
+    "method": "F1",
+    "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+    "connectivity_mode": "FROZEN_FULL_FACE",
+    "area_routing": "FULL_FACE",
+    "source_historical_request_id": "APP-01"
+  },
+  {
+    "request_id": "APP-03",
+    "scene_id": "sh-huangpu-01",
+    "door_id": "node/6897145227",
+    "start_id": "node/10073042336",
+    "purpose": "APPROACH_OUTSIDE",
+    "method": "F1",
+    "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+    "connectivity_mode": "FROZEN_FULL_FACE",
+    "area_routing": "FULL_FACE",
+    "source_historical_request_id": "APP-03"
+  },
+  {
+    "request_id": "APP-07",
+    "scene_id": "sh-library",
+    "door_id": "node/11300000483",
+    "start_id": "node/105253317",
+    "purpose": "ENTER_BUILDING",
+    "method": "F1",
+    "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+    "connectivity_mode": "FROZEN_FULL_FACE",
+    "area_routing": "FULL_FACE",
+    "source_historical_request_id": "APP-07"
+  }
+]

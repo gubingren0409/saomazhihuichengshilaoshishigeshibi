@@ -1,0 +1,252 @@
+{
+  "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\PED_AREA_CONNECTIVITY_R1_OPEN_REVIEW.zip",
+  "archive_sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+  "members": [
+    {
+      "member": "config/app_policy.json",
+      "bytes": 1145,
+      "sha256": "607cd0058d424dec827b71716673562b2ada6c1ef4460c69582570f47f4f6ec8"
+    },
+    {
+      "member": "config/area_policy.json",
+      "bytes": 1297,
+      "sha256": "a43a91c8677740d35fbb53ec9f93bf908fa1c7bac04e8c56d0f2538d20141c00"
+    },
+    {
+      "member": "config/connectivity_policy.json",
+      "bytes": 1024,
+      "sha256": "5dc3d9053b3cc7fe49b746bdac792075f1982b3b2db4b5b5caa821ee447aa57f"
+    },
+    {
+      "member": "config/frozen_region.json",
+      "bytes": 1561,
+      "sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026"
+    },
+    {
+      "member": "config/historical_methods.json",
+      "bytes": 1361,
+      "sha256": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f"
+    },
+    {
+      "member": "data/connectivity/global_source_identity.json",
+      "bytes": 10788,
+      "sha256": "0a186912510a637bdeb4b978c3a8493162d3a9659aac50603f399e700d539866"
+    },
+    {
+      "member": "data/connectivity/source_selection_lock.json",
+      "bytes": 5439,
+      "sha256": "855ebd865f893eeb7edaa90860b819b39a64ef28407329a3a235286e93793c57"
+    },
+    {
+      "member": "data/example_request.json",
+      "bytes": 360,
+      "sha256": "a3a854e09ab7ccb674857286dfc0a830ebcd6e3eaded0fea6b5682f75da554fd"
+    },
+    {
+      "member": "data/face_selection_lock.json",
+      "bytes": 3588,
+      "sha256": "a3651f35953b879c2618db9cabf8c1c3397b6491fb07e93e90a29dbc91189258"
+    },
+    {
+      "member": "data/formal_requests_lock.json",
+      "bytes": 43699,
+      "sha256": "a76770863dd66f9c1b9364cf49801794abf1ef3d889c8d07a605a7b88f3e0700"
+    },
+    {
+      "member": "data/scene_manifest.json",
+      "bytes": 5185,
+      "sha256": "57ea7e1d901867a31023e328b676f83a4be3d0e1d88ab87626d0aabbcaa4df87"
+    },
+    {
+      "member": "data/scenes/sh-exhibition/frozen_scene.json",
+      "bytes": 7033,
+      "sha256": "787690ba419f2d361b7932a522a0d5451def51e8c8828981bc3a70cac704b2dc"
+    },
+    {
+      "member": "data/scenes/sh-exhibition/mapped_edges.jsonl.gz",
+      "bytes": 44,
+      "sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d"
+    },
+    {
+      "member": "data/scenes/sh-exhibition/source.osm.json",
+      "bytes": 5229388,
+      "sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61"
+    },
+    {
+      "member": "data/scenes/sh-huangpu-01/frozen_scene.json",
+      "bytes": 5484,
+      "sha256": "de090efb1f080482c4f9487c2bba1b756b89c308e9c1dda4126d05dd084efd18"
+    },
+    {
+      "member": "data/scenes/sh-huangpu-01/mapped_edges.jsonl.gz",
+      "bytes": 4840318,
+      "sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f"
+    },
+    {
+      "member": "data/scenes/sh-huangpu-01/source.osm.json",
+      "bytes": 6356390,
+      "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+    },
+    {
+      "member": "data/scenes/sh-library/frozen_scene.json",
+      "bytes": 8561,
+      "sha256": "7b645453a5ffcab5e705301247c6c97463fba06e9fe4d19facdd7ecbd312a1dc"
+    },
+    {
+      "member": "data/scenes/sh-library/mapped_edges.jsonl.gz",
+      "bytes": 217676,
+      "sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7"
+    },
+    {
+      "member": "data/scenes/sh-library/source.osm.json",
+      "bytes": 5725501,
+      "sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8"
+    },
+    {
+      "member": "data/scenes/sh-newworld/frozen_scene.json",
+      "bytes": 4913,
+      "sha256": "ccdb803aaaddfabedb04cb61c99dbea51ca47fb3bc18e7fb14739f1fd885a89b"
+    },
+    {
+      "member": "data/scenes/sh-newworld/mapped_edges.jsonl.gz",
+      "bytes": 2194126,
+      "sha256": "9031f3ccd3802fe3ef8bf74385fccdbc0947be2cd53311973ad54546a19c7ab8"
+    },
+    {
+      "member": "data/scenes/sh-newworld/source.osm.json",
+      "bytes": 5472235,
+      "sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9"
+    },
+    {
+      "member": "data/scenes/sh-tower/frozen_scene.json",
+      "bytes": 7440,
+      "sha256": "b5d6aea865c35f45566315791fa1255440e1304c55d7aae853231206353b27d9"
+    },
+    {
+      "member": "data/scenes/sh-tower/mapped_edges.jsonl.gz",
+      "bytes": 159857,
+      "sha256": "d664bcc5d13518c1890c66980a585d81503712e82f95afb64177d4d2de94468c"
+    },
+    {
+      "member": "data/scenes/sh-tower/source.osm.json",
+      "bytes": 5190923,
+      "sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999"
+    },
+    {
+      "member": "data/scenes/sh-wukang/frozen_scene.json",
+      "bytes": 5537,
+      "sha256": "416063c7297ac5e7932cc6afeaaca93e9cb6a642278c656d13d0839f8b7a6044"
+    },
+    {
+      "member": "data/scenes/sh-wukang/mapped_edges.jsonl.gz",
+      "bytes": 44,
+      "sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d"
+    },
+    {
+      "member": "data/scenes/sh-wukang/source.osm.json",
+      "bytes": 4696108,
+      "sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45"
+    },
+    {
+      "member": "src/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "member": "src/common_constraints.py",
+      "bytes": 14309,
+      "sha256": "aa31d3ace09dd6ebcf513978abd70986fb58142c109880e891710fad1e06dba8"
+    },
+    {
+      "member": "src/connectivity.py",
+      "bytes": 46489,
+      "sha256": "12a30f7571fee7bb6db0fedaac232a45d1ee94df9ffcb5d6d5091b5e00b58e50"
+    },
+    {
+      "member": "src/connectivity_inventory.py",
+      "bytes": 27708,
+      "sha256": "83478aadeb48dff6aac51d312c59351cd3b2fe0e20ef3d26744044af3dacb624"
+    },
+    {
+      "member": "src/connectivity_view.py",
+      "bytes": 7552,
+      "sha256": "b2043f206c54f44d54482e8e537048eebe5ac630e27ed67a4c131805414572e7"
+    },
+    {
+      "member": "src/context_policy.py",
+      "bytes": 9421,
+      "sha256": "73360280dd9fd14b3d75c3852fabab03254b8c14d3af430e1305f27daa2e3f25"
+    },
+    {
+      "member": "src/face_geometry.py",
+      "bytes": 15326,
+      "sha256": "827cdaae8d85bfc16c6d9134e1e1aacd864f15db385bc623abd79a99d6cdb175"
+    },
+    {
+      "member": "src/face_visibility.py",
+      "bytes": 26153,
+      "sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c"
+    },
+    {
+      "member": "src/free_routing.py",
+      "bytes": 9943,
+      "sha256": "0ab1db2a0bfa56ae672ad8d4329ce09334d295dbb7533cc8649b9a2b4eeb0561"
+    },
+    {
+      "member": "src/free_surface.py",
+      "bytes": 6806,
+      "sha256": "de0759ca1ec1d2554c9ebd87f72ba3a4906a21016caa1c029d68a16911216ba8"
+    },
+    {
+      "member": "src/frozen_scene/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "member": "src/frozen_scene/local_route.py",
+      "bytes": 12438,
+      "sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f"
+    },
+    {
+      "member": "src/frozen_scene/native_adapter.py",
+      "bytes": 11178,
+      "sha256": "1c54e2de55fd365df056f982c148ef1e9ad798599273b29da3ddbd5394f5baa9"
+    },
+    {
+      "member": "src/frozen_scene/route_measure.py",
+      "bytes": 11055,
+      "sha256": "895bc7171ce98c2e68cb5c6cba954101bfcdfeb06a31e69d4fc7c41610bd5af9"
+    },
+    {
+      "member": "src/frozen_scene/semantics.py",
+      "bytes": 11160,
+      "sha256": "b31a7bcdfb6cc202577b25315847686cf0d15190a6b60ba0de224d6af4e2458f"
+    },
+    {
+      "member": "src/mechanism.py",
+      "bytes": 11004,
+      "sha256": "ab3a156584efc7bc56e5015f8b58c10472d6178468be4cf6cd3f799806911092"
+    },
+    {
+      "member": "src/planner.py",
+      "bytes": 37025,
+      "sha256": "c328b038c5549309bd77bab04573f68a077c978e50f2bcc36da0f39f849c80e1"
+    },
+    {
+      "member": "src/region.py",
+      "bytes": 12407,
+      "sha256": "74d579de368df4f60623ee26e1c804134ea0e142b89ff56b554678f8fdb268e8"
+    },
+    {
+      "member": "src/region_routing.py",
+      "bytes": 12780,
+      "sha256": "8a0863972877eebb67407443ec41fef5504c91c3510d25b621f5820b14d5100f"
+    },
+    {
+      "member": "src/scene_data.py",
+      "bytes": 22853,
+      "sha256": "0fe12256f280e20bd47a53e7421a3563056d1bc1b16d28dbac1665b45ff05dd2"
+    }
+  ],
+  "old_code_modified": false
+}

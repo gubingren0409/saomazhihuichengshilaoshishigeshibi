@@ -1,0 +1,108 @@
+[
+  {
+    "experiment_id": "Q2-LOCAL-ENTRY-AUDIT-R1",
+    "run_id": "Q2-IDENTITY-RECHECK-node-6897141353",
+    "timestamp": "2026-11-15T04:18:34.419230+08:00",
+    "scene_id": "sh-huangpu-01",
+    "building_id": "way/161090899",
+    "entrance_id": "node/6897141353",
+    "method": "SOURCE_IDENTITY_RECOMPUTE",
+    "input_version": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "status": "FAIL",
+    "result": {
+      "native_building_outer_ring_member": true,
+      "raw_tags": {
+        "entrance": "main"
+      },
+      "wgs84": [
+        121.4712158,
+        31.2299607
+      ],
+      "matches_saved_identity_row": true,
+      "boundary_distance_m": 3474129.4819862735,
+      "physical_door_verified": false,
+      "current_public_opening": "UNKNOWN",
+      "purpose": "ENTER_BUILDING",
+      "same_original_door_no_coordinate_movement": true
+    },
+    "failure_reason": "",
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": 399.65289999963716,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "outputs/identity_recheck.json"
+  },
+  {
+    "experiment_id": "Q2-LOCAL-ENTRY-AUDIT-R1",
+    "run_id": "Q2-IDENTITY-RECHECK-node-6897145227",
+    "timestamp": "2026-11-15T04:18:34.810189+08:00",
+    "scene_id": "sh-huangpu-01",
+    "building_id": "way/161090899",
+    "entrance_id": "node/6897145227",
+    "method": "SOURCE_IDENTITY_RECOMPUTE",
+    "input_version": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "status": "FAIL",
+    "result": {
+      "native_building_outer_ring_member": true,
+      "raw_tags": {
+        "entrance": "exit"
+      },
+      "wgs84": [
+        121.4706605,
+        31.2305674
+      ],
+      "matches_saved_identity_row": true,
+      "boundary_distance_m": 3474129.4814393534,
+      "physical_door_verified": false,
+      "current_public_opening": "UNKNOWN",
+      "purpose": "APPROACH_OUTSIDE",
+      "same_original_door_no_coordinate_movement": true
+    },
+    "failure_reason": "",
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": 386.08929999463726,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "outputs/identity_recheck.json"
+  },
+  {
+    "experiment_id": "Q2-LOCAL-ENTRY-AUDIT-R1",
+    "run_id": "Q2-IDENTITY-RECHECK-node-11300000483",
+    "timestamp": "2026-11-15T04:18:35.202341+08:00",
+    "scene_id": "sh-library",
+    "building_id": "way/293434188",
+    "entrance_id": "node/11300000483",
+    "method": "SOURCE_IDENTITY_RECOMPUTE",
+    "input_version": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+    "status": "FAIL",
+    "result": {
+      "native_building_outer_ring_member": true,
+      "raw_tags": {
+        "door": "yes/manual/main_entrance",
+        "entrance": "yes"
+      },
+      "wgs84": [
+        121.4402357,
+        31.2096329
+      ],
+      "matches_saved_identity_row": true,
+      "boundary_distance_m": 3471569.867718451,
+      "physical_door_verified": false,
+      "current_public_opening": "UNKNOWN",
+      "purpose": "ENTER_BUILDING",
+      "same_original_door_no_coordinate_movement": true
+    },
+    "failure_reason": "",
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": 387.5832000048831,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "outputs/identity_recheck.json"
+  }
+]

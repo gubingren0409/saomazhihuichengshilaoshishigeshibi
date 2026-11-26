@@ -1,0 +1,9 @@
+﻿experiment_id,status,item,result,reason
+Q6-FIELD-TRUTH-COMPARISON-R1,BLOCKED_BY_MISSING_INPUT,独立现场真值,NOT_RUN,无独立调查人员提供的带时间戳照片/轨迹/逐段标签；6行仅待采集槽位；第3建筑及6个合格目标也未齐备
+Q7-DYNAMIC-CLOSURE-SIMULATION-R1,INCONCLUSIVE,两个场景均具独立接近方向和合法备用路线的前置资格,NOT_CONFIRMED,A1博物馆S2/S3各3次有条件绕行，图书馆该断边仍NO_PATH；未确认两个场景均有独立实际备用通道，未用Top3相邻格网走法冒充物理独立通道
+Q8-SCALE-LATENCY-BENCHMARK-R1,BLOCKED_BY_MISSING_INPUT,10 / 100 个合格登记候选,NOT_RUN,6个冻结裁片只提供2栋目标建筑、3个登记门（其中1个exit）；不得复制或生成入口补足数量
+Q8-SCALE-LATENCY-BENCHMARK-R1,BLOCKED_BY_MISSING_INPUT,城市级当前合同大路网,LARGE_NETWORK_NOT_AVAILABLE_IN_CURRENT_CONTRACT,缺可直接接受当前同域门身份、障碍、层级、步行面和覆盖合同的城市级输入；历史NYC数据没有被冒充当前APP的大规模实测
+Q8-SCALE-LATENCY-BENCHMARK-R1,NOT_APPLICABLE,原APP原生Top-3及EDGE_BAND HTTP接口,NOT_IMPLEMENTED_IN_FROZEN_PUBLIC_INTERFACE,本轮测的是明确新增的实验适配器，未修改旧APP并宣称已有该产品能力
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,历史受控遮蔽图的全量重建及有向SCC独立重算,NOT_RUN,读取和核对保存的准入/owner/分量证据，重新计算路线几何；未完整重跑各旧算法及遮蔽合同
+Q6-FIELD-TRUTH-COMPARISON-R1,NOT_APPLICABLE,实时状态感知、现场门禁、人流及GPS,NOT_TESTED,动态状态由实验注入，不是传感器或现场观测
+Q8-SCALE-LATENCY-BENCHMARK-R1,NOT_APPLICABLE,原APP多入口联合接口,NOT_IMPLEMENTED_IN_FROZEN_PUBLIC_INTERFACE,新增适配器已测博物馆2个门的门外逐门求路后按代价选留；不是原APP能力，不是可扩展全局联合最短路算法，未测K10/100

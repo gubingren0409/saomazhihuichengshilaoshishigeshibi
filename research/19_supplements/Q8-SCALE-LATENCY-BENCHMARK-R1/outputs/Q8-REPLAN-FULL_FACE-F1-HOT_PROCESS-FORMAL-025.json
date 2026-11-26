@@ -1,0 +1,179 @@
+{
+  "row": {
+    "experiment_id": "Q8-SCALE-LATENCY-BENCHMARK-R1",
+    "run_id": "Q8-REPLAN-FULL_FACE-F1-HOT_PROCESS-FORMAL-025",
+    "timestamp": "2026-11-15T04:12:44.743938+08:00",
+    "scene_id": "sh-library",
+    "building_id": "way/293434188",
+    "entrance_id": "node/11300000483",
+    "method": "F1",
+    "input_version": "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb",
+    "status": "NO_PATH",
+    "result": {
+      "status": "NO_PATH",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.09650179999880493
+      },
+      "failure": {
+        "code": "DISCONNECTED_GRAPH",
+        "reachable_nodes": 3141,
+        "last_frontier": [
+          {
+            "id": "node/11300000486",
+            "xy": [
+              351366.55386698036,
+              3453917.22531369
+            ],
+            "distance_to_door_m": 58.163295095082155
+          },
+          {
+            "id": "node/4855757198",
+            "xy": [
+              351356.8296165335,
+              3453910.1560202227
+            ],
+            "distance_to_door_m": 62.92704006827472
+          },
+          {
+            "id": "node/105253333",
+            "xy": [
+              351409.4755140859,
+              3453948.450357066
+            ],
+            "distance_to_door_m": 65.52552639642612
+          },
+          {
+            "id": "node/105253353",
+            "xy": [
+              351321.6678907118,
+              3453884.575769165
+            ],
+            "distance_to_door_m": 91.9669823730661
+          },
+          {
+            "id": "node/4855757192",
+            "xy": [
+              351326.0666781027,
+              3453950.4591463422
+            ],
+            "distance_to_door_m": 110.49502333763172
+          }
+        ]
+      },
+      "solver_ms": 96.6657000099076,
+      "validation_ms": 0.0
+    },
+    "failure_reason": {
+      "code": "DISCONNECTED_GRAPH",
+      "reachable_nodes": 3141,
+      "last_frontier": [
+        {
+          "id": "node/11300000486",
+          "xy": [
+            351366.55386698036,
+            3453917.22531369
+          ],
+          "distance_to_door_m": 58.163295095082155
+        },
+        {
+          "id": "node/4855757198",
+          "xy": [
+            351356.8296165335,
+            3453910.1560202227
+          ],
+          "distance_to_door_m": 62.92704006827472
+        },
+        {
+          "id": "node/105253333",
+          "xy": [
+            351409.4755140859,
+            3453948.450357066
+          ],
+          "distance_to_door_m": 65.52552639642612
+        },
+        {
+          "id": "node/105253353",
+          "xy": [
+            351321.6678907118,
+            3453884.575769165
+          ],
+          "distance_to_door_m": 91.9669823730661
+        },
+        {
+          "id": "node/4855757192",
+          "xy": [
+            351326.0666781027,
+            3453950.4591463422
+          ],
+          "distance_to_door_m": 110.49502333763172
+        }
+      ]
+    },
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": 727.5797000038438,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "outputs/Q8-REPLAN-FULL_FACE-F1-HOT_PROCESS-FORMAL-025.json",
+    "mode": "FULL_FACE",
+    "temperature": "HOT_PROCESS",
+    "repeat": 25,
+    "warmup": false,
+    "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+    "candidate_count": 1,
+    "query_type": "REPLAN_AFTER_FIXED_NATIVE_EDGE_REMOVAL",
+    "closed_edge_id": "way/1219527813/segment/1/node/11300000486>node/11300000485",
+    "removed_options": 1,
+    "graph_nodes": 6101,
+    "graph_arcs": 22393,
+    "read_ms": 29.732299954048358,
+    "graph_preprocessing_ms": 47.4506000027759,
+    "index_ms": 0.0,
+    "index_timing_reason": "Delegating STRtree constructor timer; nested within preparation; instrumentation overhead not subtracted",
+    "binding_and_graph_compose_ms": 582.1443000022555,
+    "solver_ms": 96.6657000099076,
+    "validation_ms": 0.0,
+    "candidate_ranking_ms": null,
+    "topk_ms": null,
+    "unsupported_phase_reason": "Current frozen interface has no multi-entrance joint ranking or Top-k path enumeration",
+    "end_to_end_worker_ms": 727.5797000038438,
+    "sampled_peak_rss_bytes": 266010624,
+    "preprocessing_cache_hit": true,
+    "route_answer_cache": false,
+    "solver_invoked": true,
+    "unweighted_graph_sha256": "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb",
+    "measure_scope": "NEW_EXPERIMENT_CLI_CORE_ADAPTER; frozen prepare/bind/solver/whole-route-constraints; NOT HTTP latency",
+    "OS_disk_cache": "UNCONTROLLED",
+    "phase_times_are_nested": true
+  },
+  "route": null,
+  "validation": null,
+  "bindings": [
+    {
+      "id": "node/11300000483",
+      "attach": "cell/351413/3453882/1515",
+      "segments": [
+        {
+          "xy": [
+            [
+              351413.6223179579,
+              3453883.056178218
+            ],
+            [
+              351413.1360765392,
+              3453882.8040158697
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351413/3453882/1515",
+          "length_m": 0.5477376811031992,
+          "cost_m": 0.5477376811031992,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION"
+        }
+      ]
+    }
+  ]
+}

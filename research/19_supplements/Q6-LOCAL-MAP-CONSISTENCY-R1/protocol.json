@@ -1,0 +1,21 @@
+{
+  "experiment_id": "Q6-LOCAL-MAP-CONSISTENCY-R1",
+  "source_protocol": "../audit/USER_EXPERIMENT_PROTOCOL.md",
+  "status_enum": [
+    "PASS",
+    "FAIL",
+    "NO_PATH",
+    "INVALID_INPUT",
+    "NOT_APPLICABLE",
+    "BLOCKED_BY_MISSING_INPUT",
+    "INCONCLUSIVE",
+    "RUNTIME_ERROR"
+  ],
+  "historical_data_read_only": true,
+  "historical_code_read_only": true,
+  "field_truth_not_inferred_from_map": true,
+  "runtime_directory": "../frozen_runtime",
+  "input_namespace": "FROZEN_OBSERVED_DEVELOPMENT_NOT_BLIND",
+  "route_answer_cache": false,
+  "started_at": "2026-11-15T02:58:08.912131+08:00"
+}

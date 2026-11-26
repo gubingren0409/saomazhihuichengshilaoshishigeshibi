@@ -1,0 +1,80 @@
+[
+  {
+    "experiment_id": "Q2-LOCAL-ENTRY-AUDIT-R1",
+    "run_id": "Q2-SOURCE-CONTEXT-node-6897141353",
+    "timestamp": "2026-11-15T03:48:00.446547+08:00",
+    "scene_id": "sh-huangpu-01",
+    "building_id": "way/161090899",
+    "entrance_id": "node/6897141353",
+    "method": "SOURCE_CONTEXT_ONLY",
+    "input_version": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+    "status": "PASS",
+    "result": {
+      "full_source_obstacle_contacts_within_30m": [],
+      "unlocated_source_hazards": [],
+      "earlier_nearby_restrictions_column_scope": "way-line screening only; this area/node-aware source parser context supplements it",
+      "unknown_unmapped_obstacles": true,
+      "level_is_field_verified": false
+    },
+    "failure_reason": "",
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": null,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "entry_constraint_context.csv"
+  },
+  {
+    "experiment_id": "Q2-LOCAL-ENTRY-AUDIT-R1",
+    "run_id": "Q2-SOURCE-CONTEXT-node-6897145227",
+    "timestamp": "2026-11-15T03:48:00.500529+08:00",
+    "scene_id": "sh-huangpu-01",
+    "building_id": "way/161090899",
+    "entrance_id": "node/6897145227",
+    "method": "SOURCE_CONTEXT_ONLY",
+    "input_version": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+    "status": "PASS",
+    "result": {
+      "full_source_obstacle_contacts_within_30m": [],
+      "unlocated_source_hazards": [],
+      "earlier_nearby_restrictions_column_scope": "way-line screening only; this area/node-aware source parser context supplements it",
+      "unknown_unmapped_obstacles": true,
+      "level_is_field_verified": false
+    },
+    "failure_reason": "",
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": null,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "entry_constraint_context.csv"
+  },
+  {
+    "experiment_id": "Q2-LOCAL-ENTRY-AUDIT-R1",
+    "run_id": "Q2-SOURCE-CONTEXT-node-11300000483",
+    "timestamp": "2026-11-15T03:48:05.175618+08:00",
+    "scene_id": "sh-library",
+    "building_id": "way/293434188",
+    "entrance_id": "node/11300000483",
+    "method": "SOURCE_CONTEXT_ONLY",
+    "input_version": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+    "status": "PASS",
+    "result": {
+      "full_source_obstacle_contacts_within_30m": [],
+      "unlocated_source_hazards": [],
+      "earlier_nearby_restrictions_column_scope": "way-line screening only; this area/node-aware source parser context supplements it",
+      "unknown_unmapped_obstacles": true,
+      "level_is_field_verified": false
+    },
+    "failure_reason": "",
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": null,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "entry_constraint_context.csv"
+  }
+]

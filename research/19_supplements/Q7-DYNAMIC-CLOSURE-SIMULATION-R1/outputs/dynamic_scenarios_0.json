@@ -1,0 +1,86 @@
+{
+  "scene_id": "sh-huangpu-01",
+  "request": {
+    "request_id": "APP-01",
+    "scene_id": "sh-huangpu-01",
+    "door_id": "node/6897141353",
+    "start_id": "node/10073042336",
+    "purpose": "ENTER_BUILDING",
+    "method": "F1",
+    "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+    "connectivity_mode": "FROZEN_FULL_FACE",
+    "area_routing": "FULL_FACE",
+    "source_historical_request_id": "APP-01"
+  },
+  "baseline_geometry_signature": "58b2e443e9d02c7b83115a7e72139bdcd1523094c2da6bdbc8d9bd5316a0478f",
+  "selected_native_edge_id": "way/1338361263/segment/0/node/1890842762>node/848254822",
+  "selected_source_id": "way/1338361263",
+  "obstacle": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          354326.93791489257,
+          3456016.4025865365
+        ],
+        [
+          354326.93791489257,
+          3456018.4025865365
+        ],
+        [
+          354324.93791489257,
+          3456018.4025865365
+        ],
+        [
+          354324.93791489257,
+          3456016.4025865365
+        ],
+        [
+          354326.93791489257,
+          3456016.4025865365
+        ]
+      ]
+    ]
+  },
+  "state_selection_rule": "Before any closure route: middle native baseline segment; 2m-or-smaller square centered at segment midpoint; no outcomes used",
+  "states": [
+    [
+      "S0",
+      false,
+      false,
+      false
+    ],
+    [
+      "S1",
+      true,
+      false,
+      false
+    ],
+    [
+      "S2",
+      false,
+      true,
+      false
+    ],
+    [
+      "S3",
+      false,
+      false,
+      true
+    ],
+    [
+      "S4",
+      true,
+      true,
+      false
+    ],
+    [
+      "S5",
+      false,
+      false,
+      false
+    ]
+  ],
+  "prepared_graph_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986",
+  "adapter_scope": "NEW_EXPERIMENT_STATE_INJECTION_WRAPPER; frozen solver unchanged; not existing APP automatic dynamic perception"
+}

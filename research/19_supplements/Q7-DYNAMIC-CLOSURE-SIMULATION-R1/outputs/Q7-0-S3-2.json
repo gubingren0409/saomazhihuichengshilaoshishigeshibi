@@ -1,0 +1,137 @@
+{
+  "row": {
+    "experiment_id": "Q7-DYNAMIC-CLOSURE-SIMULATION-R1",
+    "run_id": "Q7-0-S3-2",
+    "timestamp": "2026-11-15T03:11:56.328787+08:00",
+    "scene_id": "sh-huangpu-01",
+    "building_id": "way/161090899",
+    "entrance_id": "node/6897141353",
+    "method": "F1",
+    "input_version": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+    "status": "NO_PATH",
+    "result": {
+      "status": "NO_PATH",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.00918900000397116
+      },
+      "failure": {
+        "code": "DISCONNECTED_GRAPH",
+        "reachable_nodes": 19,
+        "last_frontier": [
+          {
+            "id": "node/1890842762",
+            "xy": [
+              354323.664674054,
+              3456017.67242437
+            ],
+            "distance_to_door_m": 106.20407918517523
+          },
+          {
+            "id": "node/1890750304",
+            "xy": [
+              354309.97812572983,
+              3456015.2010598313
+            ],
+            "distance_to_door_m": 117.66531974400259
+          },
+          {
+            "id": "node/10073042336",
+            "xy": [
+              354290.77721060865,
+              3456012.174117223
+            ],
+            "distance_to_door_m": 134.2519612608578
+          },
+          {
+            "id": "node/471697853",
+            "xy": [
+              354276.0668113654,
+              3456011.4465255756
+            ],
+            "distance_to_door_m": 146.51713233537671
+          },
+          {
+            "id": "node/1891590974",
+            "xy": [
+              354253.16251177085,
+              3456011.364611613
+            ],
+            "distance_to_door_m": 165.8784325890492
+          }
+        ]
+      },
+      "solver_ms": 9.230000010575168,
+      "validation_ms": 0.0
+    },
+    "failure_reason": {
+      "code": "DISCONNECTED_GRAPH",
+      "reachable_nodes": 19,
+      "last_frontier": [
+        {
+          "id": "node/1890842762",
+          "xy": [
+            354323.664674054,
+            3456017.67242437
+          ],
+          "distance_to_door_m": 106.20407918517523
+        },
+        {
+          "id": "node/1890750304",
+          "xy": [
+            354309.97812572983,
+            3456015.2010598313
+          ],
+          "distance_to_door_m": 117.66531974400259
+        },
+        {
+          "id": "node/10073042336",
+          "xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "distance_to_door_m": 134.2519612608578
+        },
+        {
+          "id": "node/471697853",
+          "xy": [
+            354276.0668113654,
+            3456011.4465255756
+          ],
+          "distance_to_door_m": 146.51713233537671
+        },
+        {
+          "id": "node/1891590974",
+          "xy": [
+            354253.16251177085,
+            3456011.364611613
+          ],
+          "distance_to_door_m": 165.8784325890492
+        }
+      ]
+    },
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": 9.323999998741783,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "outputs/Q7-0-S3-2.json",
+    "state": "S3",
+    "repeat": 2,
+    "control_variant": "STATE_INJECTION_ADAPTER",
+    "state_version": "e239db12834e9cb577d23b3c43e22d09237abd8db45abff58c22ea91ed0bd703",
+    "graph_nodes": 38420,
+    "graph_arcs": 290940,
+    "state_overlay_build_ms": 0.0,
+    "preprocessing_cache": true,
+    "state_overlay_cache": true,
+    "route_answer_cache": false,
+    "process_cold_start": false,
+    "solver_invoked": true,
+    "forbidden_object_used": false,
+    "restored_to_S0": null
+  },
+  "route": null,
+  "validation": null
+}

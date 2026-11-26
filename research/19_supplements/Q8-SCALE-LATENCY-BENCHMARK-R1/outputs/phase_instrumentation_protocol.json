@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-15T04:13:59.916630+08:00",
+  "reason": "Top3 A1 measured total/solver/validation but did not split Path reads and STRtree construction. Re-measure same inputs/cost/core with delegating phase timers; selection not based on latency",
+  "core_changed": false,
+  "frozen_inputs_changed": false,
+  "script_revisions": [
+    {
+      "script": "benchmark_topk_worker.py",
+      "before_sha256": "1257e640275d2f231c83f7ef338c0af09fe456510de529c8eccd1c5981c29244",
+      "after_sha256": "5b462a29a6b7b6bad34502822670f81639efa996d470266a32d6e9e09c23c1f0"
+    },
+    {
+      "script": "benchmark_joint_worker.py",
+      "before_sha256": "51aa1e78226ff4310b4a66c2eef9b92b6e5c06305a593a6ab0de65e1b60b9c80",
+      "after_sha256": "a4427e24cb0a8df7948559390603904e2c373f1254a83758d28cb16bb246e3d6"
+    }
+  ],
+  "old_43_rows_to_be_retained_as_secondary_not_discarded": true,
+  "new_primary_top3_id_prefix": "Q8-TOP3-A2-PHASED-ADAPTER",
+  "K2_was_not_started_before_this_instrumentation": true
+}

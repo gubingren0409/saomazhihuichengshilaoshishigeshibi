@@ -1,0 +1,341 @@
+{
+  "row": {
+    "experiment_id": "Q8-SCALE-LATENCY-BENCHMARK-R1",
+    "run_id": "Q8-A1-EDGE_BAND-F1-HOT_PROCESS-FORMAL-023",
+    "timestamp": "2026-11-15T03:23:34.838214+08:00",
+    "scene_id": "sh-library",
+    "building_id": "way/293434188",
+    "entrance_id": "node/11300000483",
+    "method": "F1",
+    "input_version": "b17b2b31af10759947ed0a84157cc8f8571b7875722562c584d0d93e5d380ce1",
+    "status": "PASS",
+    "result": {
+      "status": "PASS",
+      "validation": {
+        "passed": true,
+        "max_gap_m": 0.0,
+        "end_residual_m": 0.0,
+        "segment_checks": [
+          {
+            "segment_index": 0,
+            "source_id": "way/451728953",
+            "edge_id": "way/451728953/segment/7/node/105253317>node/105253333",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 1,
+            "source_id": "way/451728953",
+            "edge_id": "way/451728953/segment/8/node/105253333>node/11300000486",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 2,
+            "source_id": "way/1219527813",
+            "edge_id": "way/1219527813/segment/1/node/11300000486>node/11300000485",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 3,
+            "source_id": "way/1219527813",
+            "edge_id": "way/1219527813/segment/0/node/11300000485>node/11300000484",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 4,
+            "source_id": "way/1219527812",
+            "edge_id": "way/1219527812/segment/0/node/11300000484>node/11300000483",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          }
+        ]
+      },
+      "layer_lengths_m": {
+        "native": 180.58111866323975,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0,
+        "assumed": 0
+      },
+      "route_length_m": 180.58111866323975,
+      "assumption_length_m": 0,
+      "cost_m": 180.58111866323975,
+      "source_edge_count": 5,
+      "derived_edge_count": 0,
+      "assumption_edge_count": 0,
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.0024601000041002408
+      },
+      "failure": null,
+      "solver_ms": 2.465700003085658,
+      "validation_ms": 0.6648999988101423,
+      "geometry_signature": "9f525fd111406b13888cd92b201f0f37e260030da1a1af5e445109d8ea12ad2c"
+    },
+    "failure_reason": "",
+    "route_length_m": 180.58111866323975,
+    "assumption_length_m": 0,
+    "runtime_ms": 100.5412999948021,
+    "source_edge_count": 5,
+    "derived_edge_count": 0,
+    "assumption_edge_count": 0,
+    "output_file": "outputs/Q8-A1-EDGE_BAND-F1-HOT_PROCESS-FORMAL-023.json",
+    "mode": "EDGE_BAND",
+    "temperature": "HOT_PROCESS",
+    "repeat": 23,
+    "warmup": false,
+    "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+    "candidate_count": 1,
+    "query_type": "SINGLE_SHORTEST_PATH",
+    "graph_nodes": 6098,
+    "graph_arcs": 22366,
+    "read_ms": 22.618300034082495,
+    "graph_preprocessing_ms": 38.53440000966657,
+    "index_ms": 0.0,
+    "index_timing_reason": "Delegating STRtree constructor timer; nested within preparation; instrumentation overhead not subtracted",
+    "binding_and_graph_compose_ms": 57.97550000716001,
+    "solver_ms": 2.465700003085658,
+    "validation_ms": 0.6648999988101423,
+    "candidate_ranking_ms": null,
+    "topk_ms": null,
+    "unsupported_phase_reason": "Current frozen interface has no multi-entrance joint ranking or Top-k path enumeration",
+    "end_to_end_worker_ms": 100.5412999948021,
+    "sampled_peak_rss_bytes": 234287104,
+    "preprocessing_cache_hit": true,
+    "route_answer_cache": false,
+    "solver_invoked": true,
+    "unweighted_graph_sha256": "b17b2b31af10759947ed0a84157cc8f8571b7875722562c584d0d93e5d380ce1",
+    "measure_scope": "NEW_EXPERIMENT_CLI_CORE_ADAPTER; frozen prepare/bind/solver/whole-route-constraints; NOT HTTP latency",
+    "OS_disk_cache": "UNCONTROLLED",
+    "phase_times_are_nested": true
+  },
+  "route": {
+    "segments": [
+      {
+        "xy": [
+          [
+            351461.44629125996,
+            3453985.5238055084
+          ],
+          [
+            351409.4755140859,
+            3453948.450357066
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/451728953",
+        "length_m": 63.83887733572097,
+        "cost_m": 63.83887733572097,
+        "tags": {
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "secondary",
+          "lanes": "4",
+          "name": "淮海中路",
+          "name:en": "Middle Huaihai Road",
+          "name:zh": "淮海中路",
+          "name:zh-Hans": "淮海中路",
+          "name:zh-Hant": "淮海中路",
+          "name:zh-Latn-pinyin": "Huáihǎi Zhōnglù",
+          "source": "interpolation",
+          "surface": "asphalt"
+        },
+        "edge_id": "way/451728953/segment/7/node/105253317>node/105253333",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/105253317",
+        "v": "node/105253333",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            351409.4755140859,
+            3453948.450357066
+          ],
+          [
+            351366.55386698036,
+            3453917.22531369
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/451728953",
+        "length_m": 53.07797211729334,
+        "cost_m": 53.07797211729334,
+        "tags": {
+          "bicycle": "no",
+          "foot": "yes",
+          "highway": "secondary",
+          "lanes": "4",
+          "name": "淮海中路",
+          "name:en": "Middle Huaihai Road",
+          "name:zh": "淮海中路",
+          "name:zh-Hans": "淮海中路",
+          "name:zh-Hant": "淮海中路",
+          "name:zh-Latn-pinyin": "Huáihǎi Zhōnglù",
+          "source": "interpolation",
+          "surface": "asphalt"
+        },
+        "edge_id": "way/451728953/segment/8/node/105253333>node/11300000486",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/105253333",
+        "v": "node/11300000486",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            351366.55386698036,
+            3453917.22531369
+          ],
+          [
+            351383.2923608563,
+            3453896.6666080416
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/1219527813",
+        "length_m": 26.511083628796836,
+        "cost_m": 26.511083628796836,
+        "tags": {
+          "highway": "footway"
+        },
+        "edge_id": "way/1219527813/segment/1/node/11300000486>node/11300000485",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/11300000486",
+        "v": "node/11300000485",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            351383.2923608563,
+            3453896.6666080416
+          ],
+          [
+            351405.04519129347,
+            3453895.8274647035
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/1219527813",
+        "length_m": 21.769009935443353,
+        "cost_m": 21.769009935443353,
+        "tags": {
+          "highway": "footway"
+        },
+        "edge_id": "way/1219527813/segment/0/node/11300000485>node/11300000484",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/11300000485",
+        "v": "node/11300000484",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            351405.04519129347,
+            3453895.8274647035
+          ],
+          [
+            351413.6223179579,
+            3453883.056178218
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/1219527812",
+        "length_m": 15.384175645985245,
+        "cost_m": 15.384175645985245,
+        "tags": {
+          "highway": "steps"
+        },
+        "edge_id": "way/1219527812/segment/0/node/11300000484>node/11300000483",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/11300000484",
+        "v": "node/11300000483",
+        "evidence_level": "SOURCE_GEOMETRY"
+      }
+    ],
+    "path_nodes": 6,
+    "zero_length": false
+  },
+  "validation": {
+    "passed": true,
+    "max_gap_m": 0.0,
+    "end_residual_m": 0.0,
+    "segment_checks": [
+      {
+        "segment_index": 0,
+        "source_id": "way/451728953",
+        "edge_id": "way/451728953/segment/7/node/105253317>node/105253333",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 1,
+        "source_id": "way/451728953",
+        "edge_id": "way/451728953/segment/8/node/105253333>node/11300000486",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 2,
+        "source_id": "way/1219527813",
+        "edge_id": "way/1219527813/segment/1/node/11300000486>node/11300000485",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 3,
+        "source_id": "way/1219527813",
+        "edge_id": "way/1219527813/segment/0/node/11300000485>node/11300000484",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 4,
+        "source_id": "way/1219527812",
+        "edge_id": "way/1219527812/segment/0/node/11300000484>node/11300000483",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "id": "node/11300000483",
+      "attach": "cell/351413/3453882/1515",
+      "segments": [
+        {
+          "xy": [
+            [
+              351413.6223179579,
+              3453883.056178218
+            ],
+            [
+              351413.1360765392,
+              3453882.8040158697
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351413/3453882/1515",
+          "length_m": 0.5477376811031992,
+          "cost_m": 0.5477376811031992,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-11-15T02:58:08.912131+08:00",
+  "source_prompt_sha256": "8b74e4f9c80fede323215ee9519996433307930fc43d90a7806f3fd9d2920446",
+  "trusted_frozen_code_archive_sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+  "code_version": "Frozen CONNECTIVITY-R1 source files; byte identities in manifest; no new commit",
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "interpreter": "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "logical_cpu": 32,
+  "memory": {
+    "total": 16340406272,
+    "available": 5482909696,
+    "percent": 66.4,
+    "used": 10857496576,
+    "free": 5482909696
+  },
+  "libraries": {
+    "shapely": "2.1.2",
+    "pyproj": "3.8.0",
+    "numpy": "2.3.3",
+    "networkx": "3.6.1",
+    "scipy": "1.16.2",
+    "matplotlib": "3.10.6",
+    "psutil": "7.2.2"
+  },
+  "external_network_requests": 0,
+  "API_calls": 0,
+  "route_answer_cache": false,
+  "preprocessing_cache": "Declared per execution phase; fresh namespace only",
+  "finalization_metadata_at": "2026-11-15T05:34:47.744946+08:00",
+  "node_runtime": "NOT_USED",
+  "database_runtime": "NOT_USED",
+  "GPU": "NOT_USED",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "machine": "AMD64",
+  "python_hash_seed": "UNSET_UNCONTROLLED",
+  "field_data_used": false,
+  "old_algorithm_source_modified": false,
+  "new_experiment_adapters": [
+    "Dynamic state injection",
+    "Input-only exact crop merge/coverage union",
+    "Yen Top-3 enumeration",
+    "K2 sequential per-door cost selection",
+    "Delegating phase timing hooks"
+  ],
+  "existing_public_APP_changed": false
+}

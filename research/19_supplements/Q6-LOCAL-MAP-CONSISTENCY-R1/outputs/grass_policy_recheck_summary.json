@@ -1,0 +1,109 @@
+{
+  "experiment_id": "Q6-LOCAL-MAP-CONSISTENCY-R1",
+  "run_id": "Q6-GRASS-CURRENT-FROZEN-POLICY-377",
+  "timestamp": "2026-11-15T03:46:43.855828+08:00",
+  "scene_id": "MULTI_FROZEN_SOURCES",
+  "building_id": "",
+  "entrance_id": "",
+  "method": "S0_S1_REEVALUATION",
+  "input_version": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+  "status": "PASS",
+  "result": {
+    "source_segments": 377,
+    "S0_reject_S1_keep": 377,
+    "unit_tests": [
+      {
+        "name": "native_footway_in_grass",
+        "expected": "KEEP_NATIVE",
+        "actual": {
+          "status": "KEEP_NATIVE",
+          "reasons": [
+            "MAPPED_PATH_OVER_LANDCOVER"
+          ],
+          "contacts": [
+            {
+              "source_id": "synthetic/grass",
+              "kind": "BACKGROUND_GRASS",
+              "overlap_m": 8.0,
+              "decision_reason": "MAPPED_PATH_OVER_LANDCOVER"
+            }
+          ]
+        },
+        "status": "PASS",
+        "data_role": "SYNTHETIC_UNIT_NOT_FIELD_OR_NEW_BUILDING"
+      },
+      {
+        "name": "unmarked_line_in_grass",
+        "expected": "REJECT_CONFLICT",
+        "actual": {
+          "status": "REJECT_CONFLICT",
+          "reasons": [
+            "NO_MAPPED_WALKWAY_OVER_GRASS"
+          ],
+          "contacts": [
+            {
+              "source_id": "synthetic/grass",
+              "kind": "BACKGROUND_GRASS",
+              "overlap_m": 8.0,
+              "decision_reason": "NO_MAPPED_WALKWAY_OVER_GRASS"
+            }
+          ]
+        },
+        "status": "PASS",
+        "data_role": "SYNTHETIC_UNIT_NOT_FIELD_OR_NEW_BUILDING"
+      },
+      {
+        "name": "private_footway_in_grass",
+        "expected": "REJECT_CONFLICT",
+        "actual": {
+          "status": "REJECT_CONFLICT",
+          "reasons": [
+            "GENERAL_ACCESS_RESTRICTED",
+            "NO_MAPPED_WALKWAY_OVER_GRASS"
+          ],
+          "contacts": [
+            {
+              "source_id": "synthetic/grass",
+              "kind": "BACKGROUND_GRASS",
+              "overlap_m": 8.0,
+              "decision_reason": "NO_MAPPED_WALKWAY_OVER_GRASS"
+            }
+          ]
+        },
+        "status": "PASS",
+        "data_role": "SYNTHETIC_UNIT_NOT_FIELD_OR_NEW_BUILDING"
+      },
+      {
+        "name": "footway_over_water_without_bridge",
+        "expected": "REJECT_CONFLICT",
+        "actual": {
+          "status": "REJECT_CONFLICT",
+          "reasons": [
+            "MAPPED_WATER_CONFLICT"
+          ],
+          "contacts": [
+            {
+              "source_id": "synthetic/water",
+              "kind": "WATER",
+              "overlap_m": 8.0,
+              "decision_reason": "MAPPED_WATER_CONFLICT"
+            }
+          ]
+        },
+        "status": "PASS",
+        "data_role": "SYNTHETIC_UNIT_NOT_FIELD_OR_NEW_BUILDING"
+      }
+    ],
+    "source_code": "frozen_runtime\\src\\frozen_scene\\semantics.py",
+    "source_code_sha256": "b31a7bcdfb6cc202577b25315847686cf0d15190a6b60ba0de224d6af4e2458f",
+    "historical_full_graph_rebuilt": false
+  },
+  "failure_reason": "",
+  "route_length_m": null,
+  "assumption_length_m": null,
+  "runtime_ms": 11004.491499988944,
+  "source_edge_count": null,
+  "derived_edge_count": null,
+  "assumption_edge_count": null,
+  "output_file": "grass_policy_recheck.csv"
+}

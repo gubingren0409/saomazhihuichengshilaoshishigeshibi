@@ -1,0 +1,83 @@
+[
+  {
+    "name": "native_footway_in_grass",
+    "expected": "KEEP_NATIVE",
+    "actual": {
+      "status": "KEEP_NATIVE",
+      "reasons": [
+        "MAPPED_PATH_OVER_LANDCOVER"
+      ],
+      "contacts": [
+        {
+          "source_id": "synthetic/grass",
+          "kind": "BACKGROUND_GRASS",
+          "overlap_m": 8.0,
+          "decision_reason": "MAPPED_PATH_OVER_LANDCOVER"
+        }
+      ]
+    },
+    "status": "PASS",
+    "data_role": "SYNTHETIC_UNIT_NOT_FIELD_OR_NEW_BUILDING"
+  },
+  {
+    "name": "unmarked_line_in_grass",
+    "expected": "REJECT_CONFLICT",
+    "actual": {
+      "status": "REJECT_CONFLICT",
+      "reasons": [
+        "NO_MAPPED_WALKWAY_OVER_GRASS"
+      ],
+      "contacts": [
+        {
+          "source_id": "synthetic/grass",
+          "kind": "BACKGROUND_GRASS",
+          "overlap_m": 8.0,
+          "decision_reason": "NO_MAPPED_WALKWAY_OVER_GRASS"
+        }
+      ]
+    },
+    "status": "PASS",
+    "data_role": "SYNTHETIC_UNIT_NOT_FIELD_OR_NEW_BUILDING"
+  },
+  {
+    "name": "private_footway_in_grass",
+    "expected": "REJECT_CONFLICT",
+    "actual": {
+      "status": "REJECT_CONFLICT",
+      "reasons": [
+        "GENERAL_ACCESS_RESTRICTED",
+        "NO_MAPPED_WALKWAY_OVER_GRASS"
+      ],
+      "contacts": [
+        {
+          "source_id": "synthetic/grass",
+          "kind": "BACKGROUND_GRASS",
+          "overlap_m": 8.0,
+          "decision_reason": "NO_MAPPED_WALKWAY_OVER_GRASS"
+        }
+      ]
+    },
+    "status": "PASS",
+    "data_role": "SYNTHETIC_UNIT_NOT_FIELD_OR_NEW_BUILDING"
+  },
+  {
+    "name": "footway_over_water_without_bridge",
+    "expected": "REJECT_CONFLICT",
+    "actual": {
+      "status": "REJECT_CONFLICT",
+      "reasons": [
+        "MAPPED_WATER_CONFLICT"
+      ],
+      "contacts": [
+        {
+          "source_id": "synthetic/water",
+          "kind": "WATER",
+          "overlap_m": 8.0,
+          "decision_reason": "MAPPED_WATER_CONFLICT"
+        }
+      ]
+    },
+    "status": "PASS",
+    "data_role": "SYNTHETIC_UNIT_NOT_FIELD_OR_NEW_BUILDING"
+  }
+]

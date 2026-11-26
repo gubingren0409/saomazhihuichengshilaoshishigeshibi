@@ -1,0 +1,280 @@
+{
+  "timestamp": "2026-11-15T05:35:09.793255+08:00",
+  "identity": "AUTHOR_VALIDATION_SEPARATE_PROCESS_NOT_INDEPENDENT_PERSON",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "49 byte-frozen source/code/input members unchanged",
+      "status": "PASS",
+      "details": {
+        "count": 49,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Original primary ZIP SHA unchanged",
+      "status": "PASS",
+      "details": {
+        "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\PED_AREA_CONNECTIVITY_R1_OPEN_REVIEW.zip",
+        "expected": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed"
+      }
+    },
+    {
+      "check": "Six read historical archive chains still match their initial binding",
+      "status": "PASS",
+      "details": [
+        {
+          "stage": "WALKABILITY-R2",
+          "matched": true,
+          "sha256": "277f1cfac82ec04335262444dcfc3ef1080c2c93d8e481dd8dac42db65ecbf72"
+        },
+        {
+          "stage": "WALKABILITY-R3",
+          "matched": true,
+          "sha256": "d623af231c6eabeace1d3c8e284787a51b7d83782c6c8f7990d16b27f5c0cd0e"
+        },
+        {
+          "stage": "FREE-SPACE-R1-FINAL",
+          "matched": true,
+          "sha256": "1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a"
+        },
+        {
+          "stage": "PEDESTRIAN-AREA-SHORTEST-R1-FINAL-FIXED",
+          "matched": true,
+          "sha256": "c5472838de6320d983d80e4defd448e08c017777f23bc7aa083d38e7ce10b08a"
+        },
+        {
+          "stage": "PED-AREA-CONNECTIVITY-R1",
+          "matched": true,
+          "sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed"
+        },
+        {
+          "stage": "PED-AREA-CONNECTIVITY-R2",
+          "matched": true,
+          "sha256": "3988e9fba95da70dc03b8191a177740a3ccd13602019afe3765e566648b55711"
+        }
+      ]
+    },
+    {
+      "check": "Raw schema/status Q2-LOCAL-ENTRY-AUDIT-R1",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "Unique current raw IDs Q2-LOCAL-ENTRY-AUDIT-R1",
+      "status": "PASS",
+      "details": {
+        "n": 23
+      }
+    },
+    {
+      "check": "Raw schema/status Q6-FIELD-TRUTH-COMPARISON-R1",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "Unique current raw IDs Q6-FIELD-TRUTH-COMPARISON-R1",
+      "status": "PASS",
+      "details": {
+        "n": 6
+      }
+    },
+    {
+      "check": "Raw schema/status Q6-LOCAL-MAP-CONSISTENCY-R1",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "Unique current raw IDs Q6-LOCAL-MAP-CONSISTENCY-R1",
+      "status": "PASS",
+      "details": {
+        "n": 10
+      }
+    },
+    {
+      "check": "Raw schema/status Q7-DYNAMIC-CLOSURE-SIMULATION-R1",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "Unique current raw IDs Q7-DYNAMIC-CLOSURE-SIMULATION-R1",
+      "status": "PASS",
+      "details": {
+        "n": 58
+      }
+    },
+    {
+      "check": "Raw schema/status Q8-SCALE-LATENCY-BENCHMARK-R1",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "Unique current raw IDs Q8-SCALE-LATENCY-BENCHMARK-R1",
+      "status": "PASS",
+      "details": {
+        "n": 453
+      }
+    },
+    {
+      "check": "Q2 fixed 3 native identities and 9 targets",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Q2 PASS routes whole checks and independent geometric sums",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "Corrected A1 scalar identity audit in projected metres",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "All six invalidated scalar-audit rows retained and replaced with linked A1 IDs",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "377 segments / 754 declared arcs / no whole-grass grant",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Current frozen grass policy exact 377 re-evaluations and 4 counterexamples",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "82 source faces / 36 saved business pool",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "353 saved geometry groups within frozen 1e-6 length epsilon",
+      "status": "PASS",
+      "details": {
+        "groups": 353,
+        "segments": 13924
+      }
+    },
+    {
+      "check": "Q6 uncertainty preserved, not silently passed",
+      "status": "PASS",
+      "details": {
+        "status_counts": {
+          "INCONCLUSIVE": 37,
+          "PASS": 316
+        },
+        "unassociated_scene_rows": 29
+      }
+    },
+    {
+      "check": "104 saved original response SHA bindings",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "No fabricated field labels or field metric denominators",
+      "status": "PASS",
+      "details": {
+        "planned_unfilled_slots": 6
+      }
+    },
+    {
+      "check": "Q7 selected closures are actual tagged walkways, not road axes",
+      "status": "PASS",
+      "details": [
+        {
+          "scene_id": "sh-huangpu-01",
+          "source_id": "way/178737605",
+          "highway": "footway"
+        },
+        {
+          "scene_id": "sh-library",
+          "source_id": "way/1219527813",
+          "highway": "footway"
+        }
+      ]
+    },
+    {
+      "check": "Q7 complete 2 x 6 x 3 state attempt table",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Q7 separate geometry/arithmetic check of closures and restoration by same author",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "Original APP unsupported closure failures retained",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Every measured configuration has predeclared repetitions and 3 excluded warmups",
+      "status": "PASS",
+      "details": {
+        "configurations": 11,
+        "errors": [],
+        "raw": 453,
+        "formal": 420
+      }
+    },
+    {
+      "check": "Every cold observation bound to exactly one process wall-clock record",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "F0/F1 same unweighted graph across hot/cold processes",
+      "status": "PASS",
+      "details": {
+        "('SMALL_FROZEN_LIBRARY_ONLY', 'EDGE_BAND')": [
+          "b17b2b31af10759947ed0a84157cc8f8571b7875722562c584d0d93e5d380ce1"
+        ],
+        "('SMALL_FROZEN_LIBRARY_ONLY', 'FULL_FACE')": [
+          "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+        ],
+        "('MEDIUM_TWO_OVERLAPPING_FROZEN_CROPS', 'EDGE_BAND')": [
+          "cda51d3104a4e94ab5e591eb832ad90018458e5e2c08c290f1ef07122d395430"
+        ],
+        "('MEDIUM_TWO_OVERLAPPING_FROZEN_CROPS', 'FULL_FACE')": [
+          "dbd06b62feb1e7f72931c06b7a66b5ee98c504f50f2ff17b955a348c45de84d6"
+        ]
+      }
+    },
+    {
+      "check": "No route answer cache enabled in formal benchmark",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Top-3 is explicitly new and first route matches single-route geometry length",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "K2 outside-only retains original exit identity and exactly two real solver calls",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "check": "Offline HTML relative image/document links resolve",
+      "status": "PASS",
+      "details": []
+    },
+    {
+      "check": "Actual Chrome check matches final HTML bytes",
+      "status": "PASS",
+      "details": {
+        "tested_choices": 21,
+        "javascript_errors": []
+      }
+    }
+  ],
+  "field_truth_verified": false,
+  "entire_historical_graphs_rebuilt": false,
+  "whole_archive_replay": "Performed later on final ZIP; see external delivery receipt"
+}

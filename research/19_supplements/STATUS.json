@@ -1,0 +1,60 @@
+{
+  "status": "INCONCLUSIVE",
+  "started_at": "2026-11-15T02:58:08.912131+08:00",
+  "experiments": [
+    "Q2-LOCAL-ENTRY-AUDIT-R1",
+    "Q6-LOCAL-MAP-CONSISTENCY-R1",
+    "Q6-FIELD-TRUTH-COMPARISON-R1",
+    "Q7-DYNAMIC-CLOSURE-SIMULATION-R1",
+    "Q8-SCALE-LATENCY-BENCHMARK-R1"
+  ],
+  "runtime_source_files": 49,
+  "runtime_source_bytes": 40502632,
+  "old_results_modified": false,
+  "new_external_requests": 0,
+  "updated_at": "2026-11-15T04:32:52.158987+08:00",
+  "completed": [
+    "Q2 primary 9 target runs",
+    "Q6 source and saved geometry audit",
+    "Q6 field missing-input record",
+    "Q7 36 adapter runs + 2 original-interface negative controls"
+  ],
+  "running": "Only K2 cold group remains (6/10 complete at latest verified checkpoint); other research and geometry preflight complete",
+  "review_page": "index.html",
+  "browser_interactions_checked": 21,
+  "q7_primary_adapter_outcomes": {
+    "PASS": 18,
+    "NO_PATH": 18
+  },
+  "q7_secondary_old_museum_rows": 19,
+  "q2_audit_crs_fixed": true,
+  "next_actions": [
+    "Wait declared K2 repetitions; do not restart",
+    "Final assemble + performance plots + map copyright render",
+    "prepare_final_documents; actual Chrome check; full validate_delivery",
+    "Seal ZIP once; clean extract + new actual library solver request; stop"
+  ],
+  "final_package_not_sealed_yet": true,
+  "phase": "RESEARCH_FINISHED_AWAITING_PACKAGE_VERIFICATION",
+  "research_finished_at": "2026-11-15T05:34:47.744946+08:00",
+  "elapsed_minutes_so_far": 156.68208596666668,
+  "available_input_experiments_finished": true,
+  "scientific_status_by_experiment": {
+    "Q2-LOCAL-ENTRY-AUDIT-R1": "PASS",
+    "Q6-FIELD-TRUTH-COMPARISON-R1": "BLOCKED_BY_MISSING_INPUT",
+    "Q6-LOCAL-MAP-CONSISTENCY-R1": "INCONCLUSIVE",
+    "Q7-DYNAMIC-CLOSURE-SIMULATION-R1": "FAIL",
+    "Q8-SCALE-LATENCY-BENCHMARK-R1": "FAIL"
+  },
+  "field_truth_used": false,
+  "large_network_tested": false,
+  "new_network_requests": 0,
+  "new_API_calls": 0,
+  "old_source_or_algorithm_modified": false,
+  "new_experimental_adapters_added": true,
+  "public_APP_modified": false,
+  "Git_writes": false,
+  "auto_start_next_goal": false,
+  "requires_GPT_review": true,
+  "independent_reviewer_this_round": false
+}

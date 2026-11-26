@@ -1,0 +1,35 @@
+{
+  "selection_before_new_target_route_tests": true,
+  "targets": [
+    [
+      "REGISTERED_DOOR",
+      null
+    ],
+    [
+      "BUILDING_CENTROID",
+      {
+        "id": "control/centroid/way/161090899",
+        "xy": [
+          354372.4324775354,
+          3456124.4186801356
+        ],
+        "tags": {},
+        "role": "CONTROL_INTERIOR_POINT"
+      }
+    ],
+    [
+      "NATIVE_OUTSIDE_APPROACH_POINT",
+      {
+        "id": "node/1890732610",
+        "xy": [
+          354407.8992153833,
+          3456148.8949068952
+        ],
+        "tags": {},
+        "role": "EXISTING_NATIVE_NODE_NOT_NEW_ENTRANCE"
+      }
+    ]
+  ],
+  "outer_rule": "Nearest ground eligible native graph node not inside building, stable ID tie; may coincide with door; not a physical door reference",
+  "nearest_native_distance_m": 55.014552726710875
+}

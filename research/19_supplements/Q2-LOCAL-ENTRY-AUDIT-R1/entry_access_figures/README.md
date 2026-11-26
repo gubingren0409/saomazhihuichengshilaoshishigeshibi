@@ -1,0 +1,1 @@
+实际PNG/SVG位于 ../figures/entry_targets_0..2。此处仅索引，不重复复制图件。

@@ -1,0 +1,17 @@
+{
+  "status": "FAIL",
+  "adapter_rows": 36,
+  "native_interface_negative_controls": 2,
+  "secondary_old_museum_rows": 19,
+  "baseline_rechecks": 1,
+  "primary_run_id_manifest": "outputs/primary_result_ids.json",
+  "primary_adapter_outcomes": {
+    "PASS": 18,
+    "NO_PATH": 18
+  },
+  "forbidden_route_violations_in_adapter": 0,
+  "restoration_rows": 6,
+  "intervention_correction": "Museum source-tagged footway instead of original residential road-axis arc. Different intervention, no algorithm improvement claim. All original rows retained.",
+  "library_scenario_identity_unchanged": true,
+  "limitation": "Original APP ignores dynamic closure; independent physical backup-direction eligibility is still not established for both scenes."
+}

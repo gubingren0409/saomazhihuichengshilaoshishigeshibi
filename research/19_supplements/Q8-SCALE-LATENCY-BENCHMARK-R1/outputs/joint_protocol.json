@@ -1,0 +1,15 @@
+{
+  "locked_at": "2026-11-15T04:30:20.239965+08:00",
+  "scope": "Explicit new experimental K=2 sequential candidate route-cost selection, not original APP feature",
+  "candidates": "The two frozen museum door IDs, shared original start, BOTH APPROACH_OUTSIDE. Original north exit coordinate/role preserved",
+  "candidate_selection": "All available registered target-building doors eligible for outside approach; stable native ID ordering; no new entrance generation",
+  "cache": "2 separately versioned prepared objects retained; no route answers cached",
+  "warmup": 3,
+  "hot_formal": 10,
+  "cold_formal": 10,
+  "repeat_rationale": "Allowed minimum 10 due museum preprocessing already >100s in earlier diagnostic; no result-based row deletion",
+  "worker_timeout_s": 600,
+  "algorithm": "Original per-door solve followed by cost/native-ID sort; ranking only 2 values, not a scalable joint graph method",
+  "comparison_limit": "Different site/purpose from library K=1; no causal candidate-count speedup curve permitted",
+  "no_inbound_claim_for_exit": true
+}

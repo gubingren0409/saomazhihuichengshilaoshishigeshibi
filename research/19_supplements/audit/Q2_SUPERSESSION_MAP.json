@@ -1,0 +1,50 @@
+[
+  {
+    "original_run_id": "Q2-SOURCE-CONTEXT-node-6897141353",
+    "original_status_kept": "PASS",
+    "validity": "INVALIDATED_NEW_AUDIT_CRS_ERROR_NOT_MAP_FACT",
+    "replacement_run_id": "Q2-SOURCE-CONTEXT-A1-node-6897141353",
+    "correction_record": "audit/Q2_SUPPLEMENTARY_CRS_CORRECTION.json",
+    "original_output": "entry_constraint_context.csv"
+  },
+  {
+    "original_run_id": "Q2-SOURCE-CONTEXT-node-6897145227",
+    "original_status_kept": "PASS",
+    "validity": "INVALIDATED_NEW_AUDIT_CRS_ERROR_NOT_MAP_FACT",
+    "replacement_run_id": "Q2-SOURCE-CONTEXT-A1-node-6897145227",
+    "correction_record": "audit/Q2_SUPPLEMENTARY_CRS_CORRECTION.json",
+    "original_output": "entry_constraint_context.csv"
+  },
+  {
+    "original_run_id": "Q2-SOURCE-CONTEXT-node-11300000483",
+    "original_status_kept": "PASS",
+    "validity": "INVALIDATED_NEW_AUDIT_CRS_ERROR_NOT_MAP_FACT",
+    "replacement_run_id": "Q2-SOURCE-CONTEXT-A1-node-11300000483",
+    "correction_record": "audit/Q2_SUPPLEMENTARY_CRS_CORRECTION.json",
+    "original_output": "entry_constraint_context.csv"
+  },
+  {
+    "original_run_id": "Q2-IDENTITY-RECHECK-node-6897141353",
+    "original_status_kept": "FAIL",
+    "validity": "INVALIDATED_NEW_AUDIT_CRS_ERROR_NOT_MAP_FACT",
+    "replacement_run_id": "Q2-IDENTITY-RECHECK-A1-node-6897141353",
+    "correction_record": "audit/Q2_SUPPLEMENTARY_CRS_CORRECTION.json",
+    "original_output": "outputs/identity_recheck.json"
+  },
+  {
+    "original_run_id": "Q2-IDENTITY-RECHECK-node-6897145227",
+    "original_status_kept": "FAIL",
+    "validity": "INVALIDATED_NEW_AUDIT_CRS_ERROR_NOT_MAP_FACT",
+    "replacement_run_id": "Q2-IDENTITY-RECHECK-A1-node-6897145227",
+    "correction_record": "audit/Q2_SUPPLEMENTARY_CRS_CORRECTION.json",
+    "original_output": "outputs/identity_recheck.json"
+  },
+  {
+    "original_run_id": "Q2-IDENTITY-RECHECK-node-11300000483",
+    "original_status_kept": "FAIL",
+    "validity": "INVALIDATED_NEW_AUDIT_CRS_ERROR_NOT_MAP_FACT",
+    "replacement_run_id": "Q2-IDENTITY-RECHECK-A1-node-11300000483",
+    "correction_record": "audit/Q2_SUPPLEMENTARY_CRS_CORRECTION.json",
+    "original_output": "outputs/identity_recheck.json"
+  }
+]

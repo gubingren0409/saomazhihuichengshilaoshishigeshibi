@@ -1,0 +1,2954 @@
+{
+  "row": {
+    "experiment_id": "Q8-SCALE-LATENCY-BENCHMARK-R1",
+    "run_id": "Q8-JOINT-K2-COLD_PROCESS-FORMAL-006",
+    "timestamp": "2026-11-15T05:17:19.555971+08:00",
+    "scene_id": "sh-huangpu-01",
+    "building_id": "way/161090899",
+    "entrance_id": "node/6897141353",
+    "method": "F1",
+    "input_version": "9e6af98a015554a340f8a30c17e42f934012475df94527de1abf3ee9a2ca4821",
+    "status": "PASS",
+    "result": {
+      "adapter_added_this_round": true,
+      "original_public_APP_joint_selector": false,
+      "candidate_results": [
+        {
+          "door_id": "node/6897141353",
+          "role": "REGISTERED_DOOR",
+          "purpose": "APPROACH_OUTSIDE",
+          "status": "PASS",
+          "cost_m": 148.86312206979613,
+          "length_m": 148.86312206979613,
+          "graph_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986",
+          "prepared_input_version_key": "527d8545df59d1ddea4c7b8704cce1f783d2b2515a1d1f8fe91e702369b92b2a",
+          "source_and_code_bindings_rechecked": true,
+          "nodes": 38420,
+          "arcs": 290942,
+          "preprocessing_cache_hit": false,
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.523127199994633
+          },
+          "validation": {
+            "passed": true,
+            "max_gap_m": 0.0,
+            "end_residual_m": 0.0,
+            "segment_checks": [
+              {
+                "segment_index": 0,
+                "source_id": "way/1338361263",
+                "edge_id": "way/1338361263/segment/2/node/10073042336>node/1890750304",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 1,
+                "source_id": "way/1338361263",
+                "edge_id": "way/1338361263/segment/1/node/1890750304>node/1890842762",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 2,
+                "source_id": "way/1338361263",
+                "edge_id": "way/1338361263/segment/0/node/1890842762>node/848254822",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 3,
+                "source_id": "way/1338361262",
+                "edge_id": "way/1338361262/segment/2/node/848254822>node/1890935355",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 4,
+                "source_id": "way/178737605",
+                "edge_id": "way/178737605/segment/0/node/1890935355>node/1890935454",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 5,
+                "source_id": "relation/2385771",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 6,
+                "source_id": "relation/2385771",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 7,
+                "source_id": "relation/2385771",
+                "edge_id": "relation/2385771:edge/018739",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              }
+            ]
+          }
+        },
+        {
+          "door_id": "node/6897145227",
+          "role": "REGISTERED_EXIT",
+          "purpose": "APPROACH_OUTSIDE",
+          "status": "PASS",
+          "cost_m": 310.4657655078996,
+          "length_m": 300.7841854102122,
+          "graph_sha256": "cbf4cc23378f0e89545565deead8f43a37d07bb147f44fd781c087700eaaf5d4",
+          "prepared_input_version_key": "e34ff2070428a4d73cf770ad13891f33db7f50cde1d750dd44976f03a463ea48",
+          "source_and_code_bindings_rechecked": true,
+          "nodes": 38356,
+          "arcs": 241718,
+          "preprocessing_cache_hit": false,
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.42003350000595674
+          },
+          "validation": {
+            "passed": true,
+            "max_gap_m": 0.0,
+            "end_residual_m": 0.0,
+            "segment_checks": [
+              {
+                "segment_index": 0,
+                "source_id": "way/1338361263",
+                "edge_id": "way/1338361263/segment/2/node/10073042336>node/1890750304",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 1,
+                "source_id": "way/1338361263",
+                "edge_id": "way/1338361263/segment/1/node/1890750304>node/1890842762",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 2,
+                "source_id": "way/1338361263",
+                "edge_id": "way/1338361263/segment/0/node/1890842762>node/848254822",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 3,
+                "source_id": "way/1338361262",
+                "edge_id": "way/1338361262/segment/2/node/848254822>node/1890935355",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 4,
+                "source_id": "way/1338361262",
+                "edge_id": "way/1338361262/segment/1/node/1890935355>node/476677929",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 5,
+                "source_id": "way/1338361262",
+                "edge_id": "way/1338361262/segment/0/node/476677929>node/12379457645",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 6,
+                "source_id": "way/1338361261",
+                "edge_id": "way/1338361261/segment/0/node/12379457645>node/12379457646",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 7,
+                "source_id": "way/161090908",
+                "edge_id": "way/161090908/segment/4/node/12379457646>node/1890842753",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 8,
+                "source_id": "way/161090908",
+                "edge_id": "way/161090908/segment/3/node/1890842753>node/1890842758",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 9,
+                "source_id": "way/161090908",
+                "edge_id": "way/161090908/segment/2/node/1890842758>node/1890842750",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 10,
+                "source_id": "way/161090908",
+                "edge_id": "way/161090908/segment/1/node/1890842750>node/1890842757",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 11,
+                "source_id": "way/161090908",
+                "edge_id": "way/161090908/segment/0/node/1890842757>node/1890745479",
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 12,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 13,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 14,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 15,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 16,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 17,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 18,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 19,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 20,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 21,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 22,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 23,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 24,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 25,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 26,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 27,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 28,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 29,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 30,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 31,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 32,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 33,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 34,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 35,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 36,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 37,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 38,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 39,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 40,
+                "source_id": "relation/2153738",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 41,
+                "source_id": "cell/354343/3456171/1555|cell/354343/3456171/1556",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 42,
+                "source_id": "cell/354343/3456170/1554|cell/354343/3456171/1556",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 43,
+                "source_id": "cell/354343/3456169/1553|cell/354343/3456170/1554",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 44,
+                "source_id": "cell/354343/3456168/1552|cell/354343/3456169/1553",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 45,
+                "source_id": "cell/354343/3456167/1551|cell/354343/3456168/1552",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 46,
+                "source_id": "cell/354343/3456166/1550|cell/354343/3456167/1551",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 47,
+                "source_id": "cell/354343/3456165/1549|cell/354343/3456166/1550",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 48,
+                "source_id": "cell/354343/3456164/1548|cell/354343/3456165/1549",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 49,
+                "source_id": "cell/354343/3456163/1547|cell/354343/3456164/1548",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 50,
+                "source_id": "cell/354343/3456163/1547|cell/354344/3456163/1611",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              },
+              {
+                "segment_index": 51,
+                "source_id": "cell/354344/3456163/1611",
+                "edge_id": null,
+                "constraint_conflicts": [],
+                "continuity_gap_m": 0.0
+              }
+            ]
+          }
+        }
+      ],
+      "ranking_indices": [
+        0,
+        1
+      ],
+      "shared_start_id": "node/10073042336",
+      "purpose": "APPROACH_OUTSIDE",
+      "exit_not_used_as_inbound": true,
+      "cache_scope": "Two separately keyed original door preprocessing objects held by experiment adapter; no route cache",
+      "not_global_multi_target_shortest_path_algorithm": true
+    },
+    "failure_reason": "",
+    "route_length_m": 148.86312206979613,
+    "assumption_length_m": 0,
+    "runtime_ms": 316253.8115000061,
+    "source_edge_count": 5,
+    "derived_edge_count": 3,
+    "assumption_edge_count": 0,
+    "output_file": "outputs/Q8-JOINT-K2-COLD_PROCESS-FORMAL-006.json",
+    "query_type": "MULTI_ENTRANCE_K2_SEQUENTIAL_COST_SELECTION_ADAPTER",
+    "scale": "SMALL_FROZEN_MUSEUM_TWO_DOORS",
+    "mode": "FULL_FACE",
+    "temperature": "COLD_PROCESS",
+    "repeat": 6,
+    "warmup": false,
+    "candidate_count": 2,
+    "graph_nodes": 38420,
+    "graph_arcs": 290942,
+    "read_ms": 457.6905998401344,
+    "index_ms": 10.32679999480024,
+    "phase_timing_scope": "Path read methods and STRtree constructors only; nested; gzip/internal I/O not separately isolated",
+    "graph_preprocessing_ms": 308348.4884999925,
+    "binding_and_graph_compose_ms": 6843.1119000015315,
+    "solver_ms": 943.1798000005074,
+    "validation_ms": 60.50030000915285,
+    "candidate_ranking_ms": 0.010099989594891667,
+    "topk_ms": null,
+    "end_to_end_worker_ms": 316253.8115000061,
+    "sampled_peak_rss_bytes": 1734733824,
+    "route_answer_cache": false,
+    "solver_invoked": true,
+    "solver_call_count": 2,
+    "preprocessing_cache_hit": false,
+    "unweighted_graph_sha256": "9e6af98a015554a340f8a30c17e42f934012475df94527de1abf3ee9a2ca4821"
+  },
+  "candidate_results": [
+    {
+      "door_id": "node/6897141353",
+      "role": "REGISTERED_DOOR",
+      "purpose": "APPROACH_OUTSIDE",
+      "status": "PASS",
+      "cost_m": 148.86312206979613,
+      "length_m": 148.86312206979613,
+      "graph_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986",
+      "prepared_input_version_key": "527d8545df59d1ddea4c7b8704cce1f783d2b2515a1d1f8fe91e702369b92b2a",
+      "source_and_code_bindings_rechecked": true,
+      "nodes": 38420,
+      "arcs": 290942,
+      "preprocessing_cache_hit": false,
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.523127199994633
+      },
+      "validation": {
+        "passed": true,
+        "max_gap_m": 0.0,
+        "end_residual_m": 0.0,
+        "segment_checks": [
+          {
+            "segment_index": 0,
+            "source_id": "way/1338361263",
+            "edge_id": "way/1338361263/segment/2/node/10073042336>node/1890750304",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 1,
+            "source_id": "way/1338361263",
+            "edge_id": "way/1338361263/segment/1/node/1890750304>node/1890842762",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 2,
+            "source_id": "way/1338361263",
+            "edge_id": "way/1338361263/segment/0/node/1890842762>node/848254822",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 3,
+            "source_id": "way/1338361262",
+            "edge_id": "way/1338361262/segment/2/node/848254822>node/1890935355",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 4,
+            "source_id": "way/178737605",
+            "edge_id": "way/178737605/segment/0/node/1890935355>node/1890935454",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 5,
+            "source_id": "relation/2385771",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 6,
+            "source_id": "relation/2385771",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 7,
+            "source_id": "relation/2385771",
+            "edge_id": "relation/2385771:edge/018739",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "door_id": "node/6897145227",
+      "role": "REGISTERED_EXIT",
+      "purpose": "APPROACH_OUTSIDE",
+      "status": "PASS",
+      "cost_m": 310.4657655078996,
+      "length_m": 300.7841854102122,
+      "graph_sha256": "cbf4cc23378f0e89545565deead8f43a37d07bb147f44fd781c087700eaaf5d4",
+      "prepared_input_version_key": "e34ff2070428a4d73cf770ad13891f33db7f50cde1d750dd44976f03a463ea48",
+      "source_and_code_bindings_rechecked": true,
+      "nodes": 38356,
+      "arcs": 241718,
+      "preprocessing_cache_hit": false,
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.42003350000595674
+      },
+      "validation": {
+        "passed": true,
+        "max_gap_m": 0.0,
+        "end_residual_m": 0.0,
+        "segment_checks": [
+          {
+            "segment_index": 0,
+            "source_id": "way/1338361263",
+            "edge_id": "way/1338361263/segment/2/node/10073042336>node/1890750304",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 1,
+            "source_id": "way/1338361263",
+            "edge_id": "way/1338361263/segment/1/node/1890750304>node/1890842762",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 2,
+            "source_id": "way/1338361263",
+            "edge_id": "way/1338361263/segment/0/node/1890842762>node/848254822",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 3,
+            "source_id": "way/1338361262",
+            "edge_id": "way/1338361262/segment/2/node/848254822>node/1890935355",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 4,
+            "source_id": "way/1338361262",
+            "edge_id": "way/1338361262/segment/1/node/1890935355>node/476677929",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 5,
+            "source_id": "way/1338361262",
+            "edge_id": "way/1338361262/segment/0/node/476677929>node/12379457645",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 6,
+            "source_id": "way/1338361261",
+            "edge_id": "way/1338361261/segment/0/node/12379457645>node/12379457646",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 7,
+            "source_id": "way/161090908",
+            "edge_id": "way/161090908/segment/4/node/12379457646>node/1890842753",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 8,
+            "source_id": "way/161090908",
+            "edge_id": "way/161090908/segment/3/node/1890842753>node/1890842758",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 9,
+            "source_id": "way/161090908",
+            "edge_id": "way/161090908/segment/2/node/1890842758>node/1890842750",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 10,
+            "source_id": "way/161090908",
+            "edge_id": "way/161090908/segment/1/node/1890842750>node/1890842757",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 11,
+            "source_id": "way/161090908",
+            "edge_id": "way/161090908/segment/0/node/1890842757>node/1890745479",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 12,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 13,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 14,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 15,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 16,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 17,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 18,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 19,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 20,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 21,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 22,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 23,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 24,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 25,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 26,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 27,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 28,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 29,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 30,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 31,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 32,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 33,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 34,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 35,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 36,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 37,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 38,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 39,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 40,
+            "source_id": "relation/2153738",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 41,
+            "source_id": "cell/354343/3456171/1555|cell/354343/3456171/1556",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 42,
+            "source_id": "cell/354343/3456170/1554|cell/354343/3456171/1556",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 43,
+            "source_id": "cell/354343/3456169/1553|cell/354343/3456170/1554",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 44,
+            "source_id": "cell/354343/3456168/1552|cell/354343/3456169/1553",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 45,
+            "source_id": "cell/354343/3456167/1551|cell/354343/3456168/1552",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 46,
+            "source_id": "cell/354343/3456166/1550|cell/354343/3456167/1551",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 47,
+            "source_id": "cell/354343/3456165/1549|cell/354343/3456166/1550",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 48,
+            "source_id": "cell/354343/3456164/1548|cell/354343/3456165/1549",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 49,
+            "source_id": "cell/354343/3456163/1547|cell/354343/3456164/1548",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 50,
+            "source_id": "cell/354343/3456163/1547|cell/354344/3456163/1611",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 51,
+            "source_id": "cell/354344/3456163/1611",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "segments": [
+        {
+          "xy": [
+            [
+              354290.77721060865,
+              3456012.174117223
+            ],
+            [
+              354309.97812572983,
+              3456015.2010598313
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361263",
+          "length_m": 19.4380431897213,
+          "cost_m": 19.4380431897213,
+          "tags": {
+            "highway": "residential",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "name:zh": "武胜路",
+            "name:zh-Hans": "武胜路",
+            "name:zh-Hant": "武勝路",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/1338361263/segment/2/node/10073042336>node/1890750304",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/10073042336",
+          "v": "node/1890750304",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354309.97812572983,
+              3456015.2010598313
+            ],
+            [
+              354323.664674054,
+              3456017.67242437
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361263",
+          "length_m": 13.907884372296323,
+          "cost_m": 13.907884372296323,
+          "tags": {
+            "highway": "residential",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "name:zh": "武胜路",
+            "name:zh-Hans": "武胜路",
+            "name:zh-Hant": "武勝路",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/1338361263/segment/1/node/1890750304>node/1890842762",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/1890750304",
+          "v": "node/1890842762",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354323.664674054,
+              3456017.67242437
+            ],
+            [
+              354328.21115573106,
+              3456017.1327487035
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361263",
+          "length_m": 4.578399880379212,
+          "cost_m": 4.578399880379212,
+          "tags": {
+            "highway": "residential",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "name:zh": "武胜路",
+            "name:zh-Hans": "武胜路",
+            "name:zh-Hant": "武勝路",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/1338361263/segment/0/node/1890842762>node/848254822",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/1890842762",
+          "v": "node/848254822",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354328.21115573106,
+              3456017.1327487035
+            ],
+            [
+              354325.95743419,
+              3456031.1999268327
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361262",
+          "length_m": 14.246570159301976,
+          "cost_m": 14.246570159301976,
+          "tags": {
+            "highway": "service"
+          },
+          "edge_id": "way/1338361262/segment/2/node/848254822>node/1890935355",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/848254822",
+          "v": "node/1890935355",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354325.95743419,
+              3456031.1999268327
+            ],
+            [
+              354331.91300043056,
+              3456032.6585559454
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/178737605",
+          "length_m": 6.1315877335691775,
+          "cost_m": 6.1315877335691775,
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "edge_id": "way/178737605/segment/0/node/1890935355>node/1890935454",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/1890935355",
+          "v": "node/1890935454",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354331.91300043056,
+              3456032.6585559454
+            ],
+            [
+              354392.2020743764,
+              3456085.795005806
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2385771",
+          "source_area_id": "relation/2385771",
+          "length_m": 80.36326736149094,
+          "cost_m": 80.36326736149094,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "node/1890935454",
+          "v": "fullface/relation/2385771/component/0/v/60",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354392.2020743764,
+              3456085.795005806
+            ],
+            [
+              354396.0411514775,
+              3456094.570982071
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2385771",
+          "source_area_id": "relation/2385771",
+          "length_m": 9.578949441221516,
+          "cost_m": 9.578949441221516,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2385771/component/0/v/60",
+          "v": "faceportal/aaef4b27332afabc958b88f9",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354396.0411514775,
+              3456094.570982071
+            ],
+            [
+              354396.35132172017,
+              3456095.105993877
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2385771",
+          "length_m": 0.6184199318156919,
+          "cost_m": 0.6184199318156919,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "type": "multipolygon"
+          },
+          "edge_id": "relation/2385771:edge/018739",
+          "geometry_kind": "FROZEN_R4_REV1_MAPPED_FACE_EDGE",
+          "model_assumptions": [
+            "TAGGED_PEDESTRIAN_FACE_CONDITIONAL",
+            "OUTDOOR_SURFACE_IF_UNTAGGED"
+          ],
+          "topology_split": "EXACT_LINE_FACE_INTERSECTION; ORIGINAL_DIRECTION_PRESERVED",
+          "u": "faceportal/aaef4b27332afabc958b88f9",
+          "v": "node/6897141353",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        }
+      ],
+      "path_nodes": 9,
+      "zero_length": false
+    },
+    {
+      "segments": [
+        {
+          "xy": [
+            [
+              354290.77721060865,
+              3456012.174117223
+            ],
+            [
+              354309.97812572983,
+              3456015.2010598313
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361263",
+          "length_m": 19.4380431897213,
+          "cost_m": 19.4380431897213,
+          "tags": {
+            "highway": "residential",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "name:zh": "武胜路",
+            "name:zh-Hans": "武胜路",
+            "name:zh-Hant": "武勝路",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/1338361263/segment/2/node/10073042336>node/1890750304",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/10073042336",
+          "v": "node/1890750304",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354309.97812572983,
+              3456015.2010598313
+            ],
+            [
+              354323.664674054,
+              3456017.67242437
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361263",
+          "length_m": 13.907884372296323,
+          "cost_m": 13.907884372296323,
+          "tags": {
+            "highway": "residential",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "name:zh": "武胜路",
+            "name:zh-Hans": "武胜路",
+            "name:zh-Hant": "武勝路",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/1338361263/segment/1/node/1890750304>node/1890842762",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/1890750304",
+          "v": "node/1890842762",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354323.664674054,
+              3456017.67242437
+            ],
+            [
+              354328.21115573106,
+              3456017.1327487035
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361263",
+          "length_m": 4.578399880379212,
+          "cost_m": 4.578399880379212,
+          "tags": {
+            "highway": "residential",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "name:zh": "武胜路",
+            "name:zh-Hans": "武胜路",
+            "name:zh-Hant": "武勝路",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/1338361263/segment/0/node/1890842762>node/848254822",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/1890842762",
+          "v": "node/848254822",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354328.21115573106,
+              3456017.1327487035
+            ],
+            [
+              354325.95743419,
+              3456031.1999268327
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361262",
+          "length_m": 14.246570159301976,
+          "cost_m": 14.246570159301976,
+          "tags": {
+            "highway": "service"
+          },
+          "edge_id": "way/1338361262/segment/2/node/848254822>node/1890935355",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/848254822",
+          "v": "node/1890935355",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354325.95743419,
+              3456031.1999268327
+            ],
+            [
+              354325.09009823285,
+              3456035.990375502
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361262",
+          "length_m": 4.868333402320013,
+          "cost_m": 4.868333402320013,
+          "tags": {
+            "highway": "service"
+          },
+          "edge_id": "way/1338361262/segment/1/node/1890935355>node/476677929",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/1890935355",
+          "v": "node/476677929",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354325.09009823285,
+              3456035.990375502
+            ],
+            [
+              354324.61655390076,
+              3456038.94603893
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361262",
+          "length_m": 2.9933577359055508,
+          "cost_m": 2.9933577359055508,
+          "tags": {
+            "highway": "service"
+          },
+          "edge_id": "way/1338361262/segment/0/node/476677929>node/12379457645",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/476677929",
+          "v": "node/12379457645",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354324.61655390076,
+              3456038.94603893
+            ],
+            [
+              354324.0288494557,
+              3456042.601755729
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1338361261",
+          "length_m": 3.7026560503629837,
+          "cost_m": 3.7026560503629837,
+          "tags": {
+            "highway": "service"
+          },
+          "edge_id": "way/1338361261/segment/0/node/12379457645>node/12379457646",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/12379457645",
+          "v": "node/12379457646",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354324.0288494557,
+              3456042.601755729
+            ],
+            [
+              354320.89028349146,
+              3456062.2578824046
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/161090908",
+          "length_m": 19.905122762785066,
+          "cost_m": 19.905122762785066,
+          "tags": {
+            "highway": "service"
+          },
+          "edge_id": "way/161090908/segment/4/node/12379457646>node/1890842753",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/12379457646",
+          "v": "node/1890842753",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354320.89028349146,
+              3456062.2578824046
+            ],
+            [
+              354319.9448994171,
+              3456067.603756095
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/161090908",
+          "length_m": 5.428822760020852,
+          "cost_m": 5.428822760020852,
+          "tags": {
+            "highway": "service"
+          },
+          "edge_id": "way/161090908/segment/3/node/1890842753>node/1890842758",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/1890842753",
+          "v": "node/1890842758",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354319.9448994171,
+              3456067.603756095
+            ],
+            [
+              354318.04138667166,
+              3456078.062856132
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/161090908",
+          "length_m": 10.630904682262656,
+          "cost_m": 10.630904682262656,
+          "tags": {
+            "highway": "service"
+          },
+          "edge_id": "way/161090908/segment/2/node/1890842758>node/1890842750",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/1890842758",
+          "v": "node/1890842750",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354318.04138667166,
+              3456078.062856132
+            ],
+            [
+              354316.1015165673,
+              3456085.20748539
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/161090908",
+          "length_m": 7.403298133416602,
+          "cost_m": 7.403298133416602,
+          "tags": {
+            "highway": "service"
+          },
+          "edge_id": "way/161090908/segment/1/node/1890842750>node/1890842757",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/1890842750",
+          "v": "node/1890842757",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354316.1015165673,
+              3456085.20748539
+            ],
+            [
+              354310.12220249086,
+              3456102.6744872355
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/161090908",
+          "length_m": 18.462078710115875,
+          "cost_m": 18.462078710115875,
+          "tags": {
+            "highway": "service"
+          },
+          "edge_id": "way/161090908/segment/0/node/1890842757>node/1890745479",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/1890842757",
+          "v": "node/1890745479",
+          "evidence_level": "SOURCE_GEOMETRY"
+        },
+        {
+          "xy": [
+            [
+              354310.12220249086,
+              3456102.6744872355
+            ],
+            [
+              354270.273028969,
+              3456172.0258173686
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 79.98477118560025,
+          "cost_m": 79.98477118560025,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "node/1890745479",
+          "v": "fullface/relation/2153738/component/0/v/539",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.273028969,
+              3456172.0258173686
+            ],
+            [
+              354270.2618849436,
+              3456172.0476087667
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024475586450254057,
+          "cost_m": 0.024475586450254057,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/539",
+          "v": "fullface/relation/2153738/component/0/v/537",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.2618849436,
+              3456172.0476087667
+            ],
+            [
+              354270.2529251966,
+              3456172.070385449
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024475586343349818,
+          "cost_m": 0.024475586343349818,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/537",
+          "v": "fullface/relation/2153738/component/0/v/535",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.2529251966,
+              3456172.070385449
+            ],
+            [
+              354270.24623560597,
+              3456172.093929105
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.02447558691219304,
+          "cost_m": 0.02447558691219304,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/535",
+          "v": "fullface/relation/2153738/component/0/v/533",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.24623560597,
+              3456172.093929105
+            ],
+            [
+              354270.2418802907,
+              3456172.11801407
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024475586235478713,
+          "cost_m": 0.024475586235478713,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/533",
+          "v": "fullface/relation/2153738/component/0/v/531",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.2418802907,
+              3456172.11801407
+            ],
+            [
+              354270.2399009957,
+              3456172.1424094946
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.02447558662530485,
+          "cost_m": 0.02447558662530485,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/531",
+          "v": "fullface/relation/2153738/component/0/v/529",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.2399009957,
+              3456172.1424094946
+            ],
+            [
+              354270.24031669245,
+              3456172.1668815506
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024475586337149382,
+          "cost_m": 0.024475586337149382,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/529",
+          "v": "fullface/relation/2153738/component/0/v/530",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.24031669245,
+              3456172.1668815506
+            ],
+            [
+              354270.2431233964,
+              3456172.191195677
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.02447558646774524,
+          "cost_m": 0.02447558646774524,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/530",
+          "v": "fullface/relation/2153738/component/0/v/532",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.2431233964,
+              3456172.191195677
+            ],
+            [
+              354270.2482942058,
+              3456172.2151188264
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024475586689414946,
+          "cost_m": 0.024475586689414946,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/532",
+          "v": "fullface/relation/2153738/component/0/v/534",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.2482942058,
+              3456172.2151188264
+            ],
+            [
+              354270.255779559,
+              3456172.238421698
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.02447558668906993,
+          "cost_m": 0.02447558668906993,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/534",
+          "v": "fullface/relation/2153738/component/0/v/536",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.255779559,
+              3456172.238421698
+            ],
+            [
+              354270.26550771,
+              3456172.260880937
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.02447558635131338,
+          "cost_m": 0.02447558635131338,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/536",
+          "v": "fullface/relation/2153738/component/0/v/538",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.26550771,
+              3456172.260880937
+            ],
+            [
+              354270.2773854156,
+              3456172.2822812744
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024475586599198327,
+          "cost_m": 0.024475586599198327,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/538",
+          "v": "fullface/relation/2153738/component/0/v/540",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.2773854156,
+              3456172.2822812744
+            ],
+            [
+              354270.2912988296,
+              3456172.3024175907
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024475586261857,
+          "cost_m": 0.024475586261857,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/540",
+          "v": "fullface/relation/2153738/component/0/v/542",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.2912988296,
+              3456172.3024175907
+            ],
+            [
+              354270.3071145938,
+              3456172.3210968827
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024475586707037505,
+          "cost_m": 0.024475586707037505,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/542",
+          "v": "fullface/relation/2153738/component/0/v/543",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.3071145938,
+              3456172.3210968827
+            ],
+            [
+              354270.32468111604,
+              3456172.338140111
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024475586468239163,
+          "cost_m": 0.024475586468239163,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/543",
+          "v": "fullface/relation/2153738/component/0/v/544",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.32468111604,
+              3456172.338140111
+            ],
+            [
+              354270.3438300236,
+              3456172.3533839188
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.0244755865597603,
+          "cost_m": 0.0244755865597603,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/544",
+          "v": "fullface/relation/2153738/component/0/v/545",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354270.3438300236,
+              3456172.3533839188
+            ],
+            [
+              354300.5400659953,
+              3456194.064619071
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 37.19126777468083,
+          "cost_m": 37.19126777468083,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/545",
+          "v": "fullface/relation/2153738/component/0/v/712",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.5400659953,
+              3456194.064619071
+            ],
+            [
+              354300.5609179171,
+              3456194.078093416
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024826611168291265,
+          "cost_m": 0.024826611168291265,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/712",
+          "v": "fullface/relation/2153738/component/0/v/713",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.5609179171,
+              3456194.078093416
+            ],
+            [
+              354300.5830034593,
+              3456194.0894331452
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.02482661138092081,
+          "cost_m": 0.02482661138092081,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/713",
+          "v": "fullface/relation/2153738/component/0/v/714",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.5830034593,
+              3456194.0894331452
+            ],
+            [
+              354300.6061048194,
+              3456194.0985264275
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024826611120924276,
+          "cost_m": 0.024826611120924276,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/714",
+          "v": "fullface/relation/2153738/component/0/v/715",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.6061048194,
+              3456194.0985264275
+            ],
+            [
+              354300.629994177,
+              3456194.105283588
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024826611288715623,
+          "cost_m": 0.024826611288715623,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/715",
+          "v": "fullface/relation/2153738/component/0/v/716",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.629994177,
+              3456194.105283588
+            ],
+            [
+              354300.65443594084,
+              3456194.1096379887
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024826611180721003,
+          "cost_m": 0.024826611180721003,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/716",
+          "v": "fullface/relation/2153738/component/0/v/717",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.65443594084,
+              3456194.1096379887
+            ],
+            [
+              354300.6791890718,
+              3456194.111546688
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024826611226698252,
+          "cost_m": 0.024826611226698252,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/717",
+          "v": "fullface/relation/2153738/component/0/v/718",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.6791890718,
+              3456194.111546688
+            ],
+            [
+              354300.7040094603,
+              3456194.110990862
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.02482661125054658,
+          "cost_m": 0.02482661125054658,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/718",
+          "v": "fullface/relation/2153738/component/0/v/719",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.7040094603,
+              3456194.110990862
+            ],
+            [
+              354300.7286523332,
+              3456194.107975993
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024826611144904937,
+          "cost_m": 0.024826611144904937,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/719",
+          "v": "fullface/relation/2153738/component/0/v/720",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.7286523332,
+              3456194.107975993
+            ],
+            [
+              354300.75287466834,
+              3456194.1025318117
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024826611285972525,
+          "cost_m": 0.024826611285972525,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/720",
+          "v": "fullface/relation/2153738/component/0/v/721",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.75287466834,
+              3456194.1025318117
+            ],
+            [
+              354300.77643759054,
+              3456194.0947120083
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.024826611294000506,
+          "cost_m": 0.024826611294000506,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/721",
+          "v": "fullface/relation/2153738/component/0/v/722",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.77643759054,
+              3456194.0947120083
+            ],
+            [
+              354300.79910872766,
+              3456194.0845937
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 0.02482661122303964,
+          "cost_m": 0.02482661122303964,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/722",
+          "v": "fullface/relation/2153738/component/0/v/723",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354300.79910872766,
+              3456194.0845937
+            ],
+            [
+              354343.0587690157,
+              3456171.916996756
+            ]
+          ],
+          "layer": "derived",
+          "source_id": "relation/2153738",
+          "source_area_id": "relation/2153738",
+          "length_m": 47.72086799209324,
+          "cost_m": 47.72086799209324,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+          "area_routing": "FULL_FACE",
+          "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+          "component": 0,
+          "clearance_m": 0.25,
+          "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+          "numeric_tolerance_m": 1e-06,
+          "u": "fullface/relation/2153738/component/0/v/723",
+          "v": "faceportal/284acaf94e12f467f60b76b8",
+          "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+        },
+        {
+          "xy": [
+            [
+              354343.0587690157,
+              3456171.916996756
+            ],
+            [
+              354343.5,
+              3456171.437462
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354343/3456171/1555|cell/354343/3456171/1556",
+          "length_m": 0.6516428190639083,
+          "cost_m": 1.3032856381278166,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "topology_split": "EXACT_LINE_FACE_INTERSECTION; ORIGINAL_DIRECTION_PRESERVED",
+          "u": "faceportal/284acaf94e12f467f60b76b8",
+          "v": "cell/354343/3456171/1556",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        },
+        {
+          "xy": [
+            [
+              354343.5,
+              3456171.437462
+            ],
+            [
+              354343.5,
+              3456170.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354343/3456170/1554|cell/354343/3456171/1556",
+          "length_m": 0.9374620001763105,
+          "cost_m": 1.874924000352621,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/354343/3456171/1556",
+          "v": "cell/354343/3456170/1554",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        },
+        {
+          "xy": [
+            [
+              354343.5,
+              3456170.5
+            ],
+            [
+              354343.5,
+              3456169.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354343/3456169/1553|cell/354343/3456170/1554",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/354343/3456170/1554",
+          "v": "cell/354343/3456169/1553",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        },
+        {
+          "xy": [
+            [
+              354343.5,
+              3456169.5
+            ],
+            [
+              354343.5,
+              3456168.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354343/3456168/1552|cell/354343/3456169/1553",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/354343/3456169/1553",
+          "v": "cell/354343/3456168/1552",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        },
+        {
+          "xy": [
+            [
+              354343.5,
+              3456168.5
+            ],
+            [
+              354343.5,
+              3456167.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354343/3456167/1551|cell/354343/3456168/1552",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/354343/3456168/1552",
+          "v": "cell/354343/3456167/1551",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        },
+        {
+          "xy": [
+            [
+              354343.5,
+              3456167.5
+            ],
+            [
+              354343.5,
+              3456166.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354343/3456166/1550|cell/354343/3456167/1551",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/354343/3456167/1551",
+          "v": "cell/354343/3456166/1550",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        },
+        {
+          "xy": [
+            [
+              354343.5,
+              3456166.5
+            ],
+            [
+              354343.5,
+              3456165.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354343/3456165/1549|cell/354343/3456166/1550",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/354343/3456166/1550",
+          "v": "cell/354343/3456165/1549",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        },
+        {
+          "xy": [
+            [
+              354343.5,
+              3456165.5
+            ],
+            [
+              354343.5,
+              3456164.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354343/3456164/1548|cell/354343/3456165/1549",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/354343/3456165/1549",
+          "v": "cell/354343/3456164/1548",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        },
+        {
+          "xy": [
+            [
+              354343.5,
+              3456164.5
+            ],
+            [
+              354343.5,
+              3456163.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354343/3456163/1547|cell/354343/3456164/1548",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/354343/3456164/1548",
+          "v": "cell/354343/3456163/1547",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        },
+        {
+          "xy": [
+            [
+              354343.5,
+              3456163.5
+            ],
+            [
+              354344.34720336145,
+              3456163.3093975885
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354343/3456163/1547|cell/354344/3456163/1611",
+          "length_m": 0.8683794187636134,
+          "cost_m": 1.7367588375272267,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/354343/3456163/1547",
+          "v": "cell/354344/3456163/1611",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        },
+        {
+          "xy": [
+            [
+              354344.34720336145,
+              3456163.3093975885
+            ],
+            [
+              354344.3888134466,
+              3456163.0891986894
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/354344/3456163/1611",
+          "length_m": 0.2240958596835673,
+          "cost_m": 0.4481917193671346,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/354344/3456163/1611",
+          "v": "node/6897145227",
+          "evidence_level": "GEOMETRY_HYPOTHESIS"
+        }
+      ],
+      "path_nodes": 53,
+      "zero_length": false
+    }
+  ]
+}

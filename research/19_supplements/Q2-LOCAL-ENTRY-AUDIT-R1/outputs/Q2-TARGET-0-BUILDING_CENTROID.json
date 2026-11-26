@@ -1,0 +1,52 @@
+{
+  "row": {
+    "experiment_id": "Q2-LOCAL-ENTRY-AUDIT-R1",
+    "run_id": "Q2-TARGET-0-BUILDING_CENTROID",
+    "timestamp": "2026-11-15T03:11:17.361385+08:00",
+    "scene_id": "sh-huangpu-01",
+    "building_id": "way/161090899",
+    "entrance_id": "node/6897141353",
+    "method": "F1",
+    "input_version": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+    "status": "NO_PATH",
+    "result": {
+      "status": "NO_PATH",
+      "solver": {
+        "invoked": false
+      },
+      "failure": {
+        "code": "UNBOUND_ENDPOINT",
+        "source_present": true,
+        "target_present": false
+      },
+      "solver_ms": 0.00859999272506684,
+      "validation_ms": 0.0
+    },
+    "failure_reason": {
+      "code": "UNBOUND_ENDPOINT",
+      "source_present": true,
+      "target_present": false
+    },
+    "route_length_m": null,
+    "assumption_length_m": null,
+    "runtime_ms": 5709.441099999822,
+    "source_edge_count": null,
+    "derived_edge_count": null,
+    "assumption_edge_count": null,
+    "output_file": "outputs/Q2-TARGET-0-BUILDING_CENTROID.json",
+    "target_definition": "BUILDING_CENTROID",
+    "target_id": "control/centroid/way/161090899",
+    "target_xy": [
+      354372.4324775354,
+      3456124.4186801356
+    ],
+    "endpoint_to_registered_door_m": 37.83311621876756,
+    "target_is_registered_door": false,
+    "source_context_hash": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986",
+    "source_start_id": "node/10073042336",
+    "preprocessing_cache": true
+  },
+  "route": null,
+  "bindings": [],
+  "validation": null
+}

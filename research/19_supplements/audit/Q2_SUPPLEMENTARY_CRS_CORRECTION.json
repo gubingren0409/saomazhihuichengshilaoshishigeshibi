@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-11-15T04:20:15.272571+08:00",
+  "status": "RUNTIME_ERROR",
+  "reason": "New supplemental audit used Source.coord (WGS84 degrees) with Source.area/obstacles (EPSG32651 metres). Corrected to Source.projected, without changing old core or source.",
+  "affected_old_new_run_ids": [
+    "Q2-SOURCE-CONTEXT-node-6897141353",
+    "Q2-SOURCE-CONTEXT-node-6897145227",
+    "Q2-SOURCE-CONTEXT-node-11300000483",
+    "Q2-IDENTITY-RECHECK-node-6897141353",
+    "Q2-IDENTITY-RECHECK-node-6897145227",
+    "Q2-IDENTITY-RECHECK-node-11300000483"
+  ],
+  "old_outputs_kept_unmodified": true,
+  "corrected_outputs": "Q2/entry_constraint_context_A1.csv and outputs/identity_recheck_A1.json",
+  "main_9_target_route_runs_affected": false,
+  "main_entry_identity_audit_affected": false,
+  "historical_inputs_or_core_changed": false,
+  "other_coord_callsite": "audit_sources.py compares Source.coord only to coordinates_wgs84; correct units, not changed",
+  "changes": [
+    {
+      "script": "complete_entry_context.py",
+      "before_sha256": "4295497af777dd805c380e2bc33351c119bb7a0adf759b4caabf98df0e332b05",
+      "after_sha256": "0fbb5e68ab4063532b5795a15e5d12f0fb0a8624801b886e282d8e5345dec728",
+      "original_source_copy": "audit/EXECUTED_COMPLETE_ENTRY_CONTEXT_A0.py"
+    },
+    {
+      "script": "recheck_entry_identity.py",
+      "before_sha256": "a79319f28f7691e9c674aec76b1cd69d5b9ad1ad0dcb2f665159522e12766488",
+      "after_sha256": "201277c2564a4ecd2576470533fdf1f84b601ee3ff39e5530b304e6c30829ed3",
+      "original_source_copy": "audit/EXECUTED_RECHECK_ENTRY_IDENTITY_A0.py"
+    }
+  ]
+}

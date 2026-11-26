@@ -1,0 +1,36 @@
+{
+  "status": "INCONCLUSIVE",
+  "fresh_audit_started_at": "2026-11-15T03:27:12.700106+08:00",
+  "frozen_stages_covered": [
+    "WALKABILITY-R2",
+    "WALKABILITY-R3",
+    "FREE-SPACE-R1-FINAL",
+    "PEDESTRIAN-AREA-SHORTEST-R1-FINAL-FIXED",
+    "PED-AREA-CONNECTIVITY-R1",
+    "PED-AREA-CONNECTIVITY-R2"
+  ],
+  "source_trace_records": 306927,
+  "source_identity_tag_mismatches": 0,
+  "restored_unique_native_segments": 377,
+  "restored_directed_arc_declarations": 754,
+  "restored_identity_failures": 0,
+  "added_unique_faces": 82,
+  "new_faces_in_business_pool": 36,
+  "new_face_identity_inconclusive_or_failures": 0,
+  "saved_route_groups_recomputed": 353,
+  "saved_segments_recomputed": 13924,
+  "route_audit_status_counts": {
+    "INCONCLUSIVE": 29,
+    "PASS": 316,
+    "FAIL": 8
+  },
+  "geometry_recompute_tolerance_m": 1e-06,
+  "new_graph_or_path_searches": 0,
+  "field_truth_compared": false,
+  "limitations": [
+    "Saved admission traces and directed-component labels verified against raw identities; historical controlled-masking graphs not rebuilt",
+    "Raw-source 2D building/private/water/barrier contacts are not the exact historical allowance/clearance policy; contact findings must be reviewed before calling historical algorithm wrong",
+    "Some controlled-task route files do not carry raw scene association; those constraint checks remain INCONCLUSIVE rather than inventing the scene",
+    "This re-audits saved geometry; it is not a new route experiment or a field truth comparison"
+  ]
+}

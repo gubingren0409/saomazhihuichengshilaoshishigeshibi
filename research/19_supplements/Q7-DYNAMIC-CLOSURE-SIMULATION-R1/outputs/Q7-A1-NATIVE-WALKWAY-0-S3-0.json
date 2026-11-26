@@ -1,0 +1,763 @@
+{
+  "row": {
+    "experiment_id": "Q7-DYNAMIC-CLOSURE-SIMULATION-R1",
+    "run_id": "Q7-A1-NATIVE-WALKWAY-0-S3-0",
+    "timestamp": "2026-11-15T04:29:42.825544+08:00",
+    "scene_id": "sh-huangpu-01",
+    "building_id": "way/161090899",
+    "entrance_id": "node/6897141353",
+    "method": "F1",
+    "input_version": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+    "status": "PASS",
+    "result": {
+      "status": "PASS",
+      "validation": {
+        "passed": true,
+        "max_gap_m": 0.0,
+        "end_residual_m": 0.0,
+        "segment_checks": [
+          {
+            "segment_index": 0,
+            "source_id": "way/1338361263",
+            "edge_id": "way/1338361263/segment/2/node/10073042336>node/1890750304",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 1,
+            "source_id": "way/1338361263",
+            "edge_id": "way/1338361263/segment/1/node/1890750304>node/1890842762",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 2,
+            "source_id": "way/1338361263",
+            "edge_id": "way/1338361263/segment/0/node/1890842762>node/848254822",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 3,
+            "source_id": "way/178723097",
+            "edge_id": "way/178723097/segment/5/node/848254822>node/1890811944",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 4,
+            "source_id": "way/178723097",
+            "edge_id": "way/178723097/segment/4/node/1890811944>node/848254821",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 5,
+            "source_id": "way/178723097",
+            "edge_id": "way/178723097/segment/3/node/848254821>node/1890842755",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 6,
+            "source_id": "way/761403177",
+            "edge_id": "way/761403177/segment/0/node/1890842755>node/1890745480",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 7,
+            "source_id": "relation/2385771",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 8,
+            "source_id": "relation/2385771",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 9,
+            "source_id": "relation/2385771",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 10,
+            "source_id": "relation/2385771",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 11,
+            "source_id": "relation/2385771",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 12,
+            "source_id": "relation/2385771",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 13,
+            "source_id": "relation/2385771",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 14,
+            "source_id": "relation/2385771",
+            "edge_id": "relation/2385771:edge/018739",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          }
+        ]
+      },
+      "layer_lengths_m": {
+        "native": 58.578299223400876,
+        "derived": 93.38317558891555,
+        "inferred": 0,
+        "unknown": 0,
+        "assumed": 0
+      },
+      "route_length_m": 151.96147481231642,
+      "assumption_length_m": 0,
+      "cost_m": 151.96147481231642,
+      "source_edge_count": 7,
+      "derived_edge_count": 8,
+      "assumption_edge_count": 0,
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.4170410999940941
+      },
+      "failure": null,
+      "solver_ms": 417.05190000357106,
+      "validation_ms": 8.473800000501797,
+      "geometry_signature": "2679126ac3123e134050f381e35d067c4749049c266bf4fdcddb4693bed2a769"
+    },
+    "failure_reason": "",
+    "route_length_m": 151.96147481231642,
+    "assumption_length_m": 0,
+    "runtime_ms": 8815.598200002569,
+    "source_edge_count": 7,
+    "derived_edge_count": 8,
+    "assumption_edge_count": 0,
+    "output_file": "outputs/Q7-A1-NATIVE-WALKWAY-0-S3-0.json",
+    "state": "S3",
+    "repeat": 0,
+    "control_variant": "STATE_INJECTION_ADAPTER",
+    "state_version": "f2e28b6d28d05786502ecf4c6ec6462fbfb8c77bacf78986260b32e59a811a7f",
+    "graph_nodes": 38420,
+    "graph_arcs": 290940,
+    "state_overlay_build_ms": 8389.539900003001,
+    "preprocessing_cache": true,
+    "state_overlay_cache": false,
+    "route_answer_cache": false,
+    "process_cold_start": false,
+    "solver_invoked": true,
+    "forbidden_object_used": false,
+    "restored_to_S0": null
+  },
+  "route": {
+    "segments": [
+      {
+        "xy": [
+          [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          [
+            354309.97812572983,
+            3456015.2010598313
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/1338361263",
+        "length_m": 19.4380431897213,
+        "cost_m": 19.4380431897213,
+        "tags": {
+          "highway": "residential",
+          "name": "武胜路",
+          "name:en": "Wusheng Road",
+          "name:zh": "武胜路",
+          "name:zh-Hans": "武胜路",
+          "name:zh-Hant": "武勝路",
+          "surface": "asphalt"
+        },
+        "edge_id": "way/1338361263/segment/2/node/10073042336>node/1890750304",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/10073042336",
+        "v": "node/1890750304",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            354309.97812572983,
+            3456015.2010598313
+          ],
+          [
+            354323.664674054,
+            3456017.67242437
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/1338361263",
+        "length_m": 13.907884372296323,
+        "cost_m": 13.907884372296323,
+        "tags": {
+          "highway": "residential",
+          "name": "武胜路",
+          "name:en": "Wusheng Road",
+          "name:zh": "武胜路",
+          "name:zh-Hans": "武胜路",
+          "name:zh-Hant": "武勝路",
+          "surface": "asphalt"
+        },
+        "edge_id": "way/1338361263/segment/1/node/1890750304>node/1890842762",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/1890750304",
+        "v": "node/1890842762",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            354323.664674054,
+            3456017.67242437
+          ],
+          [
+            354328.21115573106,
+            3456017.1327487035
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/1338361263",
+        "length_m": 4.578399880379212,
+        "cost_m": 4.578399880379212,
+        "tags": {
+          "highway": "residential",
+          "name": "武胜路",
+          "name:en": "Wusheng Road",
+          "name:zh": "武胜路",
+          "name:zh-Hans": "武胜路",
+          "name:zh-Hant": "武勝路",
+          "surface": "asphalt"
+        },
+        "edge_id": "way/1338361263/segment/0/node/1890842762>node/848254822",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/1890842762",
+        "v": "node/848254822",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            354328.21115573106,
+            3456017.1327487035
+          ],
+          [
+            354333.16507625394,
+            3456016.432218643
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/178723097",
+        "length_m": 5.003206063392063,
+        "cost_m": 5.003206063392063,
+        "tags": {
+          "highway": "residential",
+          "name": "武胜路",
+          "name:en": "Wusheng Road",
+          "name:zh": "武胜路",
+          "name:zh-Hans": "武胜路",
+          "name:zh-Hant": "武勝路",
+          "surface": "asphalt"
+        },
+        "edge_id": "way/178723097/segment/5/node/848254822>node/1890811944",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/848254822",
+        "v": "node/1890811944",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            354333.16507625394,
+            3456016.432218643
+          ],
+          [
+            354338.31842623313,
+            3456014.997196912
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/178723097",
+        "length_m": 5.349420844984257,
+        "cost_m": 5.349420844984257,
+        "tags": {
+          "highway": "residential",
+          "name": "武胜路",
+          "name:en": "Wusheng Road",
+          "name:zh": "武胜路",
+          "name:zh-Hans": "武胜路",
+          "name:zh-Hant": "武勝路",
+          "surface": "asphalt"
+        },
+        "edge_id": "way/178723097/segment/4/node/1890811944>node/848254821",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/1890811944",
+        "v": "node/848254821",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            354338.31842623313,
+            3456014.997196912
+          ],
+          [
+            354340.45580639696,
+            3456013.1715374514
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/178723097",
+        "length_m": 2.8109476035706766,
+        "cost_m": 2.8109476035706766,
+        "tags": {
+          "highway": "residential",
+          "name": "武胜路",
+          "name:en": "Wusheng Road",
+          "name:zh": "武胜路",
+          "name:zh-Hans": "武胜路",
+          "name:zh-Hant": "武勝路",
+          "surface": "asphalt"
+        },
+        "edge_id": "way/178723097/segment/3/node/848254821>node/1890842755",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/848254821",
+        "v": "node/1890842755",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            354340.45580639696,
+            3456013.1715374514
+          ],
+          [
+            354345.5337531547,
+            3456018.6779435365
+          ]
+        ],
+        "layer": "native",
+        "source_id": "way/761403177",
+        "length_m": 7.490397269057046,
+        "cost_m": 7.490397269057046,
+        "tags": {
+          "footway": "crossing",
+          "highway": "footway"
+        },
+        "edge_id": "way/761403177/segment/0/node/1890842755>node/1890745480",
+        "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+        "level_key": "0",
+        "layer_key": "0",
+        "u": "node/1890842755",
+        "v": "node/1890745480",
+        "evidence_level": "SOURCE_GEOMETRY"
+      },
+      {
+        "xy": [
+          [
+            354345.5337531547,
+            3456018.6779435365
+          ],
+          [
+            354368.17690907896,
+            3456064.3614266925
+          ]
+        ],
+        "layer": "derived",
+        "source_id": "relation/2385771",
+        "source_area_id": "relation/2385771",
+        "length_m": 50.98718607128112,
+        "cost_m": 50.98718607128112,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "type": "multipolygon"
+        },
+        "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+        "area_routing": "FULL_FACE",
+        "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+        "component": 0,
+        "clearance_m": 0.25,
+        "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+        "numeric_tolerance_m": 1e-06,
+        "u": "node/1890745480",
+        "v": "fullface/relation/2385771/component/0/v/18",
+        "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+      },
+      {
+        "xy": [
+          [
+            354368.17690907896,
+            3456064.3614266925
+          ],
+          [
+            354368.18913669896,
+            3456064.383188553
+          ]
+        ],
+        "layer": "derived",
+        "source_id": "relation/2385771",
+        "source_area_id": "relation/2385771",
+        "length_m": 0.024961836308224086,
+        "cost_m": 0.024961836308224086,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "type": "multipolygon"
+        },
+        "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+        "area_routing": "FULL_FACE",
+        "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+        "component": 0,
+        "clearance_m": 0.25,
+        "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+        "numeric_tolerance_m": 1e-06,
+        "u": "fullface/relation/2385771/component/0/v/18",
+        "v": "fullface/relation/2385771/component/0/v/20",
+        "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+      },
+      {
+        "xy": [
+          [
+            354368.18913669896,
+            3456064.383188553
+          ],
+          [
+            354368.2034735219,
+            3456064.403622564
+          ]
+        ],
+        "layer": "derived",
+        "source_id": "relation/2385771",
+        "source_area_id": "relation/2385771",
+        "length_m": 0.02496183665015979,
+        "cost_m": 0.02496183665015979,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "type": "multipolygon"
+        },
+        "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+        "area_routing": "FULL_FACE",
+        "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+        "component": 0,
+        "clearance_m": 0.25,
+        "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+        "numeric_tolerance_m": 1e-06,
+        "u": "fullface/relation/2385771/component/0/v/20",
+        "v": "fullface/relation/2385771/component/0/v/22",
+        "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+      },
+      {
+        "xy": [
+          [
+            354368.2034735219,
+            3456064.403622564
+          ],
+          [
+            354368.2197766171,
+            3456064.4225250073
+          ]
+        ],
+        "layer": "derived",
+        "source_id": "relation/2385771",
+        "source_area_id": "relation/2385771",
+        "length_m": 0.024961836392786343,
+        "cost_m": 0.024961836392786343,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "type": "multipolygon"
+        },
+        "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+        "area_routing": "FULL_FACE",
+        "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+        "component": 0,
+        "clearance_m": 0.25,
+        "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+        "numeric_tolerance_m": 1e-06,
+        "u": "fullface/relation/2385771/component/0/v/22",
+        "v": "fullface/relation/2385771/component/0/v/23",
+        "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+      },
+      {
+        "xy": [
+          [
+            354368.2197766171,
+            3456064.4225250073
+          ],
+          [
+            354368.23788345075,
+            3456064.439707436
+          ]
+        ],
+        "layer": "derived",
+        "source_id": "relation/2385771",
+        "source_area_id": "relation/2385771",
+        "length_m": 0.024961836618616385,
+        "cost_m": 0.024961836618616385,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "type": "multipolygon"
+        },
+        "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+        "area_routing": "FULL_FACE",
+        "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+        "component": 0,
+        "clearance_m": 0.25,
+        "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+        "numeric_tolerance_m": 1e-06,
+        "u": "fullface/relation/2385771/component/0/v/23",
+        "v": "fullface/relation/2385771/component/0/v/24",
+        "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+      },
+      {
+        "xy": [
+          [
+            354368.23788345075,
+            3456064.439707436
+          ],
+          [
+            354392.2020743764,
+            3456085.795005806
+          ]
+        ],
+        "layer": "derived",
+        "source_id": "relation/2385771",
+        "source_area_id": "relation/2385771",
+        "length_m": 32.09877279862744,
+        "cost_m": 32.09877279862744,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "type": "multipolygon"
+        },
+        "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+        "area_routing": "FULL_FACE",
+        "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+        "component": 0,
+        "clearance_m": 0.25,
+        "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+        "numeric_tolerance_m": 1e-06,
+        "u": "fullface/relation/2385771/component/0/v/24",
+        "v": "fullface/relation/2385771/component/0/v/60",
+        "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+      },
+      {
+        "xy": [
+          [
+            354392.2020743764,
+            3456085.795005806
+          ],
+          [
+            354396.0411514775,
+            3456094.570982071
+          ]
+        ],
+        "layer": "derived",
+        "source_id": "relation/2385771",
+        "source_area_id": "relation/2385771",
+        "length_m": 9.578949441221516,
+        "cost_m": 9.578949441221516,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "type": "multipolygon"
+        },
+        "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE",
+        "area_routing": "FULL_FACE",
+        "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+        "component": 0,
+        "clearance_m": 0.25,
+        "source_status": "COMPUTED_VISIBILITY_NOT_NATIVE_WAY",
+        "numeric_tolerance_m": 1e-06,
+        "u": "fullface/relation/2385771/component/0/v/60",
+        "v": "faceportal/aaef4b27332afabc958b88f9",
+        "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+      },
+      {
+        "xy": [
+          [
+            354396.0411514775,
+            3456094.570982071
+          ],
+          [
+            354396.35132172017,
+            3456095.105993877
+          ]
+        ],
+        "layer": "derived",
+        "source_id": "relation/2385771",
+        "length_m": 0.6184199318156919,
+        "cost_m": 0.6184199318156919,
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "type": "multipolygon"
+        },
+        "edge_id": "relation/2385771:edge/018739",
+        "geometry_kind": "FROZEN_R4_REV1_MAPPED_FACE_EDGE",
+        "model_assumptions": [
+          "TAGGED_PEDESTRIAN_FACE_CONDITIONAL",
+          "OUTDOOR_SURFACE_IF_UNTAGGED"
+        ],
+        "topology_split": "EXACT_LINE_FACE_INTERSECTION; ORIGINAL_DIRECTION_PRESERVED",
+        "u": "faceportal/aaef4b27332afabc958b88f9",
+        "v": "node/6897141353",
+        "evidence_level": "DERIVED_WITHIN_MAPPED_WALKABLE_AREA"
+      }
+    ],
+    "path_nodes": 16,
+    "zero_length": false
+  },
+  "validation": {
+    "passed": true,
+    "max_gap_m": 0.0,
+    "end_residual_m": 0.0,
+    "segment_checks": [
+      {
+        "segment_index": 0,
+        "source_id": "way/1338361263",
+        "edge_id": "way/1338361263/segment/2/node/10073042336>node/1890750304",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 1,
+        "source_id": "way/1338361263",
+        "edge_id": "way/1338361263/segment/1/node/1890750304>node/1890842762",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 2,
+        "source_id": "way/1338361263",
+        "edge_id": "way/1338361263/segment/0/node/1890842762>node/848254822",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 3,
+        "source_id": "way/178723097",
+        "edge_id": "way/178723097/segment/5/node/848254822>node/1890811944",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 4,
+        "source_id": "way/178723097",
+        "edge_id": "way/178723097/segment/4/node/1890811944>node/848254821",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 5,
+        "source_id": "way/178723097",
+        "edge_id": "way/178723097/segment/3/node/848254821>node/1890842755",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 6,
+        "source_id": "way/761403177",
+        "edge_id": "way/761403177/segment/0/node/1890842755>node/1890745480",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 7,
+        "source_id": "relation/2385771",
+        "edge_id": null,
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 8,
+        "source_id": "relation/2385771",
+        "edge_id": null,
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 9,
+        "source_id": "relation/2385771",
+        "edge_id": null,
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 10,
+        "source_id": "relation/2385771",
+        "edge_id": null,
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 11,
+        "source_id": "relation/2385771",
+        "edge_id": null,
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 12,
+        "source_id": "relation/2385771",
+        "edge_id": null,
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 13,
+        "source_id": "relation/2385771",
+        "edge_id": null,
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      },
+      {
+        "segment_index": 14,
+        "source_id": "relation/2385771",
+        "edge_id": "relation/2385771:edge/018739",
+        "constraint_conflicts": [],
+        "continuity_gap_m": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,1919 @@
+{
+  "row": {
+    "experiment_id": "Q8-SCALE-LATENCY-BENCHMARK-R1",
+    "run_id": "Q8-TOP3-A2-PHASED-ADAPTER-HOT_PROCESS-FORMAL-014",
+    "timestamp": "2026-11-15T04:19:44.208037+08:00",
+    "scene_id": "sh-library",
+    "building_id": "way/293434188",
+    "entrance_id": "node/11300000483",
+    "method": "F1",
+    "input_version": "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb",
+    "status": "PASS",
+    "result": {
+      "adapter_added_this_round": true,
+      "frozen_APP_top3_support": false,
+      "algorithm": "networkx shortest_simple_paths (Yen on frozen weighted DiGraph)",
+      "distinctness": "Distinct node sequences, NOT distinct real approach corridors",
+      "single_path_internal_invocations": "NOT_INSTRUMENTED; do not count generator as 3 Dijkstra calls",
+      "all_routes_constraint_checked": true,
+      "top3_lengths_m": [
+        180.58111866323975,
+        187.07489371214706,
+        187.07489371214706
+      ]
+    },
+    "failure_reason": "",
+    "route_length_m": 180.58111866323975,
+    "assumption_length_m": 0,
+    "runtime_ms": 651.3426000019535,
+    "source_edge_count": 5,
+    "derived_edge_count": 0,
+    "assumption_edge_count": 0,
+    "output_file": "outputs/Q8-TOP3-A2-PHASED-ADAPTER-HOT_PROCESS-FORMAL-014.json",
+    "read_ms": 27.863199953571893,
+    "index_ms": 0.0,
+    "phase_timing_scope": "Path read methods and STRtree constructors only; nested; gzip/internal I/O not separately isolated",
+    "query_type": "TOP3_EXPERIMENTAL_ADAPTER",
+    "mode": "FULL_FACE",
+    "temperature": "HOT_PROCESS",
+    "repeat": 14,
+    "warmup": false,
+    "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+    "candidate_count": 1,
+    "graph_nodes": 6101,
+    "graph_arcs": 22394,
+    "topk_count": 3,
+    "topk_ms": 503.54620000871364,
+    "solver_ms": null,
+    "validation_ms": 8.391600000322796,
+    "graph_preprocessing_ms": 46.36229999596253,
+    "end_to_end_worker_ms": 651.3426000019535,
+    "sampled_peak_rss_bytes": 260075520,
+    "preprocessing_cache_hit": true,
+    "route_answer_cache": false,
+    "solver_invoked": true,
+    "unweighted_graph_sha256": "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+  },
+  "routes": [
+    {
+      "segments": [
+        {
+          "xy": [
+            [
+              351461.44629125996,
+              3453985.5238055084
+            ],
+            [
+              351409.4755140859,
+              3453948.450357066
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/451728953",
+          "length_m": 63.83887733572097,
+          "cost_m": 63.83887733572097,
+          "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "secondary",
+            "lanes": "4",
+            "name": "淮海中路",
+            "name:en": "Middle Huaihai Road",
+            "name:zh": "淮海中路",
+            "name:zh-Hans": "淮海中路",
+            "name:zh-Hant": "淮海中路",
+            "name:zh-Latn-pinyin": "Huáihǎi Zhōnglù",
+            "source": "interpolation",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/451728953/segment/7/node/105253317>node/105253333",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/105253317",
+          "v": "node/105253333"
+        },
+        {
+          "xy": [
+            [
+              351409.4755140859,
+              3453948.450357066
+            ],
+            [
+              351366.55386698036,
+              3453917.22531369
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/451728953",
+          "length_m": 53.07797211729334,
+          "cost_m": 53.07797211729334,
+          "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "secondary",
+            "lanes": "4",
+            "name": "淮海中路",
+            "name:en": "Middle Huaihai Road",
+            "name:zh": "淮海中路",
+            "name:zh-Hans": "淮海中路",
+            "name:zh-Hant": "淮海中路",
+            "name:zh-Latn-pinyin": "Huáihǎi Zhōnglù",
+            "source": "interpolation",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/451728953/segment/8/node/105253333>node/11300000486",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/105253333",
+          "v": "node/11300000486"
+        },
+        {
+          "xy": [
+            [
+              351366.55386698036,
+              3453917.22531369
+            ],
+            [
+              351383.2923608563,
+              3453896.6666080416
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1219527813",
+          "length_m": 26.511083628796836,
+          "cost_m": 26.511083628796836,
+          "tags": {
+            "highway": "footway"
+          },
+          "edge_id": "way/1219527813/segment/1/node/11300000486>node/11300000485",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/11300000486",
+          "v": "node/11300000485"
+        },
+        {
+          "xy": [
+            [
+              351383.2923608563,
+              3453896.6666080416
+            ],
+            [
+              351405.04519129347,
+              3453895.8274647035
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1219527813",
+          "length_m": 21.769009935443353,
+          "cost_m": 21.769009935443353,
+          "tags": {
+            "highway": "footway"
+          },
+          "edge_id": "way/1219527813/segment/0/node/11300000485>node/11300000484",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/11300000485",
+          "v": "node/11300000484"
+        },
+        {
+          "xy": [
+            [
+              351405.04519129347,
+              3453895.8274647035
+            ],
+            [
+              351413.6223179579,
+              3453883.056178218
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1219527812",
+          "length_m": 15.384175645985245,
+          "cost_m": 15.384175645985245,
+          "tags": {
+            "highway": "steps"
+          },
+          "edge_id": "way/1219527812/segment/0/node/11300000484>node/11300000483",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/11300000484",
+          "v": "node/11300000483"
+        }
+      ],
+      "node_sequence": [
+        "node/105253317",
+        "node/105253333",
+        "node/11300000486",
+        "node/11300000485",
+        "node/11300000484",
+        "node/11300000483"
+      ],
+      "length_m": 180.58111866323975,
+      "cost_m": 180.58111866323975,
+      "assumption_m": 0,
+      "validation": {
+        "passed": true,
+        "max_gap_m": 0.0,
+        "end_residual_m": 0.0,
+        "segment_checks": [
+          {
+            "segment_index": 0,
+            "source_id": "way/451728953",
+            "edge_id": "way/451728953/segment/7/node/105253317>node/105253333",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 1,
+            "source_id": "way/451728953",
+            "edge_id": "way/451728953/segment/8/node/105253333>node/11300000486",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 2,
+            "source_id": "way/1219527813",
+            "edge_id": "way/1219527813/segment/1/node/11300000486>node/11300000485",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 3,
+            "source_id": "way/1219527813",
+            "edge_id": "way/1219527813/segment/0/node/11300000485>node/11300000484",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 4,
+            "source_id": "way/1219527812",
+            "edge_id": "way/1219527812/segment/0/node/11300000484>node/11300000483",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "segments": [
+        {
+          "xy": [
+            [
+              351461.44629125996,
+              3453985.5238055084
+            ],
+            [
+              351409.4755140859,
+              3453948.450357066
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/451728953",
+          "length_m": 63.83887733572097,
+          "cost_m": 63.83887733572097,
+          "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "secondary",
+            "lanes": "4",
+            "name": "淮海中路",
+            "name:en": "Middle Huaihai Road",
+            "name:zh": "淮海中路",
+            "name:zh-Hans": "淮海中路",
+            "name:zh-Hant": "淮海中路",
+            "name:zh-Latn-pinyin": "Huáihǎi Zhōnglù",
+            "source": "interpolation",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/451728953/segment/7/node/105253317>node/105253333",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/105253317",
+          "v": "node/105253333"
+        },
+        {
+          "xy": [
+            [
+              351409.4755140859,
+              3453948.450357066
+            ],
+            [
+              351366.55386698036,
+              3453917.22531369
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/451728953",
+          "length_m": 53.07797211729334,
+          "cost_m": 53.07797211729334,
+          "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "secondary",
+            "lanes": "4",
+            "name": "淮海中路",
+            "name:en": "Middle Huaihai Road",
+            "name:zh": "淮海中路",
+            "name:zh-Hans": "淮海中路",
+            "name:zh-Hant": "淮海中路",
+            "name:zh-Latn-pinyin": "Huáihǎi Zhōnglù",
+            "source": "interpolation",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/451728953/segment/8/node/105253333>node/11300000486",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/105253333",
+          "v": "node/11300000486"
+        },
+        {
+          "xy": [
+            [
+              351366.55386698036,
+              3453917.22531369
+            ],
+            [
+              351383.2923608563,
+              3453896.6666080416
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1219527813",
+          "length_m": 26.511083628796836,
+          "cost_m": 26.511083628796836,
+          "tags": {
+            "highway": "footway"
+          },
+          "edge_id": "way/1219527813/segment/1/node/11300000486>node/11300000485",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/11300000486",
+          "v": "node/11300000485"
+        },
+        {
+          "xy": [
+            [
+              351383.2923608563,
+              3453896.6666080416
+            ],
+            [
+              351405.04519129347,
+              3453895.8274647035
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1219527813",
+          "length_m": 21.769009935443353,
+          "cost_m": 21.769009935443353,
+          "tags": {
+            "highway": "footway"
+          },
+          "edge_id": "way/1219527813/segment/0/node/11300000485>node/11300000484",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/11300000485",
+          "v": "node/11300000484"
+        },
+        {
+          "xy": [
+            [
+              351405.04519129347,
+              3453895.8274647035
+            ],
+            [
+              351405.5,
+              3453895.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453895/1034",
+          "length_m": 0.5604320579322872,
+          "cost_m": 1.1208641158645745,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "node/11300000484",
+          "v": "cell/351405/3453895/1034"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453895.5
+            ],
+            [
+              351405.5,
+              3453894.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453894/1033|cell/351405/3453895/1034",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453895/1034",
+          "v": "cell/351405/3453894/1033"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453894.5
+            ],
+            [
+              351405.5,
+              3453893.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453893/1032|cell/351405/3453894/1033",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453894/1033",
+          "v": "cell/351405/3453893/1032"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453893.5
+            ],
+            [
+              351405.5,
+              3453892.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453892/1031|cell/351405/3453893/1032",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453893/1032",
+          "v": "cell/351405/3453892/1031"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453892.5
+            ],
+            [
+              351405.5,
+              3453891.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453891/1030|cell/351405/3453892/1031",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453892/1031",
+          "v": "cell/351405/3453891/1030"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453891.5
+            ],
+            [
+              351405.5,
+              3453890.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453890/1029|cell/351405/3453891/1030",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453891/1030",
+          "v": "cell/351405/3453890/1029"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453890.5
+            ],
+            [
+              351405.5,
+              3453889.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453889/1028|cell/351405/3453890/1029",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453890/1029",
+          "v": "cell/351405/3453889/1028"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453889.5
+            ],
+            [
+              351405.5,
+              3453888.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453888/1027|cell/351405/3453889/1028",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453889/1028",
+          "v": "cell/351405/3453888/1027"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453888.5
+            ],
+            [
+              351405.5,
+              3453887.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453887/1026|cell/351405/3453888/1027",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453888/1027",
+          "v": "cell/351405/3453887/1026"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453887.5
+            ],
+            [
+              351405.5,
+              3453886.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453886/1025|cell/351405/3453887/1026",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453887/1026",
+          "v": "cell/351405/3453886/1025"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453886.5
+            ],
+            [
+              351405.5,
+              3453885.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453885/1024|cell/351405/3453886/1025",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453886/1025",
+          "v": "cell/351405/3453885/1024"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453885.5
+            ],
+            [
+              351405.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453884/1023|cell/351405/3453885/1024",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453885/1024",
+          "v": "cell/351405/3453884/1023"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453884.5
+            ],
+            [
+              351406.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453884/1023|cell/351406/3453884/1085",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453884/1023",
+          "v": "cell/351406/3453884/1085"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453884.5
+            ],
+            [
+              351407.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453884/1085|cell/351407/3453884/1147",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453884/1085",
+          "v": "cell/351407/3453884/1147"
+        },
+        {
+          "xy": [
+            [
+              351407.5,
+              3453884.5
+            ],
+            [
+              351408.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351407/3453884/1147|cell/351408/3453884/1208",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351407/3453884/1147",
+          "v": "cell/351408/3453884/1208"
+        },
+        {
+          "xy": [
+            [
+              351408.5,
+              3453884.5
+            ],
+            [
+              351409.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351408/3453884/1208|cell/351409/3453884/1270",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351408/3453884/1208",
+          "v": "cell/351409/3453884/1270"
+        },
+        {
+          "xy": [
+            [
+              351409.5,
+              3453884.5
+            ],
+            [
+              351410.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351409/3453884/1270|cell/351410/3453884/1332",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351409/3453884/1270",
+          "v": "cell/351410/3453884/1332"
+        },
+        {
+          "xy": [
+            [
+              351410.5,
+              3453884.5
+            ],
+            [
+              351411.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351410/3453884/1332|cell/351411/3453884/1393",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351410/3453884/1332",
+          "v": "cell/351411/3453884/1393"
+        },
+        {
+          "xy": [
+            [
+              351411.5,
+              3453884.5
+            ],
+            [
+              351412.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351411/3453884/1393|cell/351412/3453884/1456",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351411/3453884/1393",
+          "v": "cell/351412/3453884/1456"
+        },
+        {
+          "xy": [
+            [
+              351412.5,
+              3453884.5
+            ],
+            [
+              351413.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351412/3453884/1456|cell/351413/3453884/1519",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351412/3453884/1456",
+          "v": "cell/351413/3453884/1519"
+        },
+        {
+          "xy": [
+            [
+              351413.5,
+              3453884.5
+            ],
+            [
+              351413.5,
+              3453883.6644479604
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351413/3453883/1517|cell/351413/3453884/1519",
+          "length_m": 0.8355520395562053,
+          "cost_m": 1.6711040791124105,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351413/3453884/1519",
+          "v": "cell/351413/3453883/1517"
+        },
+        {
+          "xy": [
+            [
+              351413.5,
+              3453883.6644479604
+            ],
+            [
+              351413.1360765392,
+              3453882.8040158697
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351413/3453882/1515|cell/351413/3453883/1517",
+          "length_m": 0.934228916300857,
+          "cost_m": 1.868457832601714,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351413/3453883/1517",
+          "v": "cell/351413/3453882/1515"
+        },
+        {
+          "xy": [
+            [
+              351413.1360765392,
+              3453882.8040158697
+            ],
+            [
+              351413.6223179579,
+              3453883.056178218
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351413/3453882/1515",
+          "length_m": 0.5477376811031992,
+          "cost_m": 1.0954753622063984,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351413/3453882/1515",
+          "v": "node/11300000483"
+        }
+      ],
+      "node_sequence": [
+        "node/105253317",
+        "node/105253333",
+        "node/11300000486",
+        "node/11300000485",
+        "node/11300000484",
+        "cell/351405/3453895/1034",
+        "cell/351405/3453894/1033",
+        "cell/351405/3453893/1032",
+        "cell/351405/3453892/1031",
+        "cell/351405/3453891/1030",
+        "cell/351405/3453890/1029",
+        "cell/351405/3453889/1028",
+        "cell/351405/3453888/1027",
+        "cell/351405/3453887/1026",
+        "cell/351405/3453886/1025",
+        "cell/351405/3453885/1024",
+        "cell/351405/3453884/1023",
+        "cell/351406/3453884/1085",
+        "cell/351407/3453884/1147",
+        "cell/351408/3453884/1208",
+        "cell/351409/3453884/1270",
+        "cell/351410/3453884/1332",
+        "cell/351411/3453884/1393",
+        "cell/351412/3453884/1456",
+        "cell/351413/3453884/1519",
+        "cell/351413/3453883/1517",
+        "cell/351413/3453882/1515",
+        "node/11300000483"
+      ],
+      "length_m": 187.07489371214706,
+      "cost_m": 208.9528444070396,
+      "assumption_m": 21.877950694892547,
+      "validation": {
+        "passed": true,
+        "max_gap_m": 0.0,
+        "end_residual_m": 0.0,
+        "segment_checks": [
+          {
+            "segment_index": 0,
+            "source_id": "way/451728953",
+            "edge_id": "way/451728953/segment/7/node/105253317>node/105253333",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 1,
+            "source_id": "way/451728953",
+            "edge_id": "way/451728953/segment/8/node/105253333>node/11300000486",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 2,
+            "source_id": "way/1219527813",
+            "edge_id": "way/1219527813/segment/1/node/11300000486>node/11300000485",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 3,
+            "source_id": "way/1219527813",
+            "edge_id": "way/1219527813/segment/0/node/11300000485>node/11300000484",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 4,
+            "source_id": "cell/351405/3453895/1034",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 5,
+            "source_id": "cell/351405/3453894/1033|cell/351405/3453895/1034",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 6,
+            "source_id": "cell/351405/3453893/1032|cell/351405/3453894/1033",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 7,
+            "source_id": "cell/351405/3453892/1031|cell/351405/3453893/1032",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 8,
+            "source_id": "cell/351405/3453891/1030|cell/351405/3453892/1031",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 9,
+            "source_id": "cell/351405/3453890/1029|cell/351405/3453891/1030",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 10,
+            "source_id": "cell/351405/3453889/1028|cell/351405/3453890/1029",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 11,
+            "source_id": "cell/351405/3453888/1027|cell/351405/3453889/1028",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 12,
+            "source_id": "cell/351405/3453887/1026|cell/351405/3453888/1027",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 13,
+            "source_id": "cell/351405/3453886/1025|cell/351405/3453887/1026",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 14,
+            "source_id": "cell/351405/3453885/1024|cell/351405/3453886/1025",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 15,
+            "source_id": "cell/351405/3453884/1023|cell/351405/3453885/1024",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 16,
+            "source_id": "cell/351405/3453884/1023|cell/351406/3453884/1085",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 17,
+            "source_id": "cell/351406/3453884/1085|cell/351407/3453884/1147",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 18,
+            "source_id": "cell/351407/3453884/1147|cell/351408/3453884/1208",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 19,
+            "source_id": "cell/351408/3453884/1208|cell/351409/3453884/1270",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 20,
+            "source_id": "cell/351409/3453884/1270|cell/351410/3453884/1332",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 21,
+            "source_id": "cell/351410/3453884/1332|cell/351411/3453884/1393",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 22,
+            "source_id": "cell/351411/3453884/1393|cell/351412/3453884/1456",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 23,
+            "source_id": "cell/351412/3453884/1456|cell/351413/3453884/1519",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 24,
+            "source_id": "cell/351413/3453883/1517|cell/351413/3453884/1519",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 25,
+            "source_id": "cell/351413/3453882/1515|cell/351413/3453883/1517",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 26,
+            "source_id": "cell/351413/3453882/1515",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "segments": [
+        {
+          "xy": [
+            [
+              351461.44629125996,
+              3453985.5238055084
+            ],
+            [
+              351409.4755140859,
+              3453948.450357066
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/451728953",
+          "length_m": 63.83887733572097,
+          "cost_m": 63.83887733572097,
+          "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "secondary",
+            "lanes": "4",
+            "name": "淮海中路",
+            "name:en": "Middle Huaihai Road",
+            "name:zh": "淮海中路",
+            "name:zh-Hans": "淮海中路",
+            "name:zh-Hant": "淮海中路",
+            "name:zh-Latn-pinyin": "Huáihǎi Zhōnglù",
+            "source": "interpolation",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/451728953/segment/7/node/105253317>node/105253333",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/105253317",
+          "v": "node/105253333"
+        },
+        {
+          "xy": [
+            [
+              351409.4755140859,
+              3453948.450357066
+            ],
+            [
+              351366.55386698036,
+              3453917.22531369
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/451728953",
+          "length_m": 53.07797211729334,
+          "cost_m": 53.07797211729334,
+          "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "secondary",
+            "lanes": "4",
+            "name": "淮海中路",
+            "name:en": "Middle Huaihai Road",
+            "name:zh": "淮海中路",
+            "name:zh-Hans": "淮海中路",
+            "name:zh-Hant": "淮海中路",
+            "name:zh-Latn-pinyin": "Huáihǎi Zhōnglù",
+            "source": "interpolation",
+            "surface": "asphalt"
+          },
+          "edge_id": "way/451728953/segment/8/node/105253333>node/11300000486",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/105253333",
+          "v": "node/11300000486"
+        },
+        {
+          "xy": [
+            [
+              351366.55386698036,
+              3453917.22531369
+            ],
+            [
+              351383.2923608563,
+              3453896.6666080416
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1219527813",
+          "length_m": 26.511083628796836,
+          "cost_m": 26.511083628796836,
+          "tags": {
+            "highway": "footway"
+          },
+          "edge_id": "way/1219527813/segment/1/node/11300000486>node/11300000485",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/11300000486",
+          "v": "node/11300000485"
+        },
+        {
+          "xy": [
+            [
+              351383.2923608563,
+              3453896.6666080416
+            ],
+            [
+              351405.04519129347,
+              3453895.8274647035
+            ]
+          ],
+          "layer": "native",
+          "source_id": "way/1219527813",
+          "length_m": 21.769009935443353,
+          "cost_m": 21.769009935443353,
+          "tags": {
+            "highway": "footway"
+          },
+          "edge_id": "way/1219527813/segment/0/node/11300000485>node/11300000484",
+          "geometry_kind": "ORIGINAL_OSM_NATIVE_SEGMENT",
+          "level_key": "0",
+          "layer_key": "0",
+          "u": "node/11300000485",
+          "v": "node/11300000484"
+        },
+        {
+          "xy": [
+            [
+              351405.04519129347,
+              3453895.8274647035
+            ],
+            [
+              351405.5,
+              3453895.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453895/1034",
+          "length_m": 0.5604320579322872,
+          "cost_m": 1.1208641158645745,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "node/11300000484",
+          "v": "cell/351405/3453895/1034"
+        },
+        {
+          "xy": [
+            [
+              351405.5,
+              3453895.5
+            ],
+            [
+              351406.5,
+              3453895.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351405/3453895/1034|cell/351406/3453895/1096",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351405/3453895/1034",
+          "v": "cell/351406/3453895/1096"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453895.5
+            ],
+            [
+              351406.5,
+              3453894.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453894/1095|cell/351406/3453895/1096",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453895/1096",
+          "v": "cell/351406/3453894/1095"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453894.5
+            ],
+            [
+              351406.5,
+              3453893.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453893/1094|cell/351406/3453894/1095",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453894/1095",
+          "v": "cell/351406/3453893/1094"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453893.5
+            ],
+            [
+              351406.5,
+              3453892.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453892/1093|cell/351406/3453893/1094",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453893/1094",
+          "v": "cell/351406/3453892/1093"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453892.5
+            ],
+            [
+              351406.5,
+              3453891.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453891/1092|cell/351406/3453892/1093",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453892/1093",
+          "v": "cell/351406/3453891/1092"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453891.5
+            ],
+            [
+              351406.5,
+              3453890.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453890/1091|cell/351406/3453891/1092",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453891/1092",
+          "v": "cell/351406/3453890/1091"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453890.5
+            ],
+            [
+              351406.5,
+              3453889.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453889/1090|cell/351406/3453890/1091",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453890/1091",
+          "v": "cell/351406/3453889/1090"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453889.5
+            ],
+            [
+              351406.5,
+              3453888.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453888/1089|cell/351406/3453889/1090",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453889/1090",
+          "v": "cell/351406/3453888/1089"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453888.5
+            ],
+            [
+              351406.5,
+              3453887.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453887/1088|cell/351406/3453888/1089",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453888/1089",
+          "v": "cell/351406/3453887/1088"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453887.5
+            ],
+            [
+              351406.5,
+              3453886.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453886/1087|cell/351406/3453887/1088",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453887/1088",
+          "v": "cell/351406/3453886/1087"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453886.5
+            ],
+            [
+              351406.5,
+              3453885.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453885/1086|cell/351406/3453886/1087",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453886/1087",
+          "v": "cell/351406/3453885/1086"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453885.5
+            ],
+            [
+              351406.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453884/1085|cell/351406/3453885/1086",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453885/1086",
+          "v": "cell/351406/3453884/1085"
+        },
+        {
+          "xy": [
+            [
+              351406.5,
+              3453884.5
+            ],
+            [
+              351407.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351406/3453884/1085|cell/351407/3453884/1147",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351406/3453884/1085",
+          "v": "cell/351407/3453884/1147"
+        },
+        {
+          "xy": [
+            [
+              351407.5,
+              3453884.5
+            ],
+            [
+              351408.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351407/3453884/1147|cell/351408/3453884/1208",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351407/3453884/1147",
+          "v": "cell/351408/3453884/1208"
+        },
+        {
+          "xy": [
+            [
+              351408.5,
+              3453884.5
+            ],
+            [
+              351409.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351408/3453884/1208|cell/351409/3453884/1270",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351408/3453884/1208",
+          "v": "cell/351409/3453884/1270"
+        },
+        {
+          "xy": [
+            [
+              351409.5,
+              3453884.5
+            ],
+            [
+              351410.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351409/3453884/1270|cell/351410/3453884/1332",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351409/3453884/1270",
+          "v": "cell/351410/3453884/1332"
+        },
+        {
+          "xy": [
+            [
+              351410.5,
+              3453884.5
+            ],
+            [
+              351411.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351410/3453884/1332|cell/351411/3453884/1393",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351410/3453884/1332",
+          "v": "cell/351411/3453884/1393"
+        },
+        {
+          "xy": [
+            [
+              351411.5,
+              3453884.5
+            ],
+            [
+              351412.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351411/3453884/1393|cell/351412/3453884/1456",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351411/3453884/1393",
+          "v": "cell/351412/3453884/1456"
+        },
+        {
+          "xy": [
+            [
+              351412.5,
+              3453884.5
+            ],
+            [
+              351413.5,
+              3453884.5
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351412/3453884/1456|cell/351413/3453884/1519",
+          "length_m": 1.0,
+          "cost_m": 2.0,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351412/3453884/1456",
+          "v": "cell/351413/3453884/1519"
+        },
+        {
+          "xy": [
+            [
+              351413.5,
+              3453884.5
+            ],
+            [
+              351413.5,
+              3453883.6644479604
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351413/3453883/1517|cell/351413/3453884/1519",
+          "length_m": 0.8355520395562053,
+          "cost_m": 1.6711040791124105,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351413/3453884/1519",
+          "v": "cell/351413/3453883/1517"
+        },
+        {
+          "xy": [
+            [
+              351413.5,
+              3453883.6644479604
+            ],
+            [
+              351413.1360765392,
+              3453882.8040158697
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351413/3453882/1515|cell/351413/3453883/1517",
+          "length_m": 0.934228916300857,
+          "cost_m": 1.868457832601714,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351413/3453883/1517",
+          "v": "cell/351413/3453882/1515"
+        },
+        {
+          "xy": [
+            [
+              351413.1360765392,
+              3453882.8040158697
+            ],
+            [
+              351413.6223179579,
+              3453883.056178218
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351413/3453882/1515",
+          "length_m": 0.5477376811031992,
+          "cost_m": 1.0954753622063984,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION",
+          "u": "cell/351413/3453882/1515",
+          "v": "node/11300000483"
+        }
+      ],
+      "node_sequence": [
+        "node/105253317",
+        "node/105253333",
+        "node/11300000486",
+        "node/11300000485",
+        "node/11300000484",
+        "cell/351405/3453895/1034",
+        "cell/351406/3453895/1096",
+        "cell/351406/3453894/1095",
+        "cell/351406/3453893/1094",
+        "cell/351406/3453892/1093",
+        "cell/351406/3453891/1092",
+        "cell/351406/3453890/1091",
+        "cell/351406/3453889/1090",
+        "cell/351406/3453888/1089",
+        "cell/351406/3453887/1088",
+        "cell/351406/3453886/1087",
+        "cell/351406/3453885/1086",
+        "cell/351406/3453884/1085",
+        "cell/351407/3453884/1147",
+        "cell/351408/3453884/1208",
+        "cell/351409/3453884/1270",
+        "cell/351410/3453884/1332",
+        "cell/351411/3453884/1393",
+        "cell/351412/3453884/1456",
+        "cell/351413/3453884/1519",
+        "cell/351413/3453883/1517",
+        "cell/351413/3453882/1515",
+        "node/11300000483"
+      ],
+      "length_m": 187.07489371214706,
+      "cost_m": 208.9528444070396,
+      "assumption_m": 21.877950694892547,
+      "validation": {
+        "passed": true,
+        "max_gap_m": 0.0,
+        "end_residual_m": 0.0,
+        "segment_checks": [
+          {
+            "segment_index": 0,
+            "source_id": "way/451728953",
+            "edge_id": "way/451728953/segment/7/node/105253317>node/105253333",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 1,
+            "source_id": "way/451728953",
+            "edge_id": "way/451728953/segment/8/node/105253333>node/11300000486",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 2,
+            "source_id": "way/1219527813",
+            "edge_id": "way/1219527813/segment/1/node/11300000486>node/11300000485",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 3,
+            "source_id": "way/1219527813",
+            "edge_id": "way/1219527813/segment/0/node/11300000485>node/11300000484",
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 4,
+            "source_id": "cell/351405/3453895/1034",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 5,
+            "source_id": "cell/351405/3453895/1034|cell/351406/3453895/1096",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 6,
+            "source_id": "cell/351406/3453894/1095|cell/351406/3453895/1096",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 7,
+            "source_id": "cell/351406/3453893/1094|cell/351406/3453894/1095",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 8,
+            "source_id": "cell/351406/3453892/1093|cell/351406/3453893/1094",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 9,
+            "source_id": "cell/351406/3453891/1092|cell/351406/3453892/1093",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 10,
+            "source_id": "cell/351406/3453890/1091|cell/351406/3453891/1092",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 11,
+            "source_id": "cell/351406/3453889/1090|cell/351406/3453890/1091",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 12,
+            "source_id": "cell/351406/3453888/1089|cell/351406/3453889/1090",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 13,
+            "source_id": "cell/351406/3453887/1088|cell/351406/3453888/1089",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 14,
+            "source_id": "cell/351406/3453886/1087|cell/351406/3453887/1088",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 15,
+            "source_id": "cell/351406/3453885/1086|cell/351406/3453886/1087",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 16,
+            "source_id": "cell/351406/3453884/1085|cell/351406/3453885/1086",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 17,
+            "source_id": "cell/351406/3453884/1085|cell/351407/3453884/1147",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 18,
+            "source_id": "cell/351407/3453884/1147|cell/351408/3453884/1208",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 19,
+            "source_id": "cell/351408/3453884/1208|cell/351409/3453884/1270",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 20,
+            "source_id": "cell/351409/3453884/1270|cell/351410/3453884/1332",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 21,
+            "source_id": "cell/351410/3453884/1332|cell/351411/3453884/1393",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 22,
+            "source_id": "cell/351411/3453884/1393|cell/351412/3453884/1456",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 23,
+            "source_id": "cell/351412/3453884/1456|cell/351413/3453884/1519",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 24,
+            "source_id": "cell/351413/3453883/1517|cell/351413/3453884/1519",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 25,
+            "source_id": "cell/351413/3453882/1515|cell/351413/3453883/1517",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          },
+          {
+            "segment_index": 26,
+            "source_id": "cell/351413/3453882/1515",
+            "edge_id": null,
+            "constraint_conflicts": [],
+            "continuity_gap_m": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "bindings": [
+    {
+      "id": "node/11300000483",
+      "attach": "cell/351413/3453882/1515",
+      "segments": [
+        {
+          "xy": [
+            [
+              351413.6223179579,
+              3453883.056178218
+            ],
+            [
+              351413.1360765392,
+              3453882.8040158697
+            ]
+          ],
+          "layer": "inferred",
+          "source_id": "cell/351413/3453882/1515",
+          "length_m": 0.5477376811031992,
+          "cost_m": 0.5477376811031992,
+          "geometry_kind": "FROZEN_INFERRED_REGION",
+          "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION"
+        }
+      ]
+    }
+  ]
+}

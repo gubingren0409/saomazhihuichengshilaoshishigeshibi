@@ -1,0 +1,22 @@
+﻿experiment_id,status,key,value
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,status,INCONCLUSIVE
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,fresh_audit_started_at,2026-11-15T03:27:12.700106+08:00
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,frozen_stages_covered,"[""WALKABILITY-R2"", ""WALKABILITY-R3"", ""FREE-SPACE-R1-FINAL"", ""PEDESTRIAN-AREA-SHORTEST-R1-FINAL-FIXED"", ""PED-AREA-CONNECTIVITY-R1"", ""PED-AREA-CONNECTIVITY-R2""]"
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,source_trace_records,306927
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,source_identity_tag_mismatches,0
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,restored_unique_native_segments,377
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,restored_directed_arc_declarations,754
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,restored_identity_failures,0
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,added_unique_faces,82
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,new_faces_in_business_pool,36
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,new_face_identity_inconclusive_or_failures,0
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,saved_route_groups_recomputed,353
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,saved_segments_recomputed,13924
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,route_audit_status_counts,"{""INCONCLUSIVE"": 37, ""PASS"": 316}"
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,geometry_recompute_tolerance_m,1e-06
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,new_graph_or_path_searches,0
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,field_truth_compared,False
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,limitations,"[""Saved admission traces and directed-component labels verified against raw identities; historical controlled-masking graphs not rebuilt"", ""Raw-source 2D building/private/water/barrier contacts are not the exact historical allowance/clearance policy; contact findings must be reviewed before calling historical algorithm wrong"", ""Some controlled-task route files do not carry raw scene association; those constraint checks remain INCONCLUSIVE rather than inventing the scene"", ""This re-audits saved geometry; it is not a new route experiment or a field truth comparison""]"
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,latest_schema_revision,Q6-AUDITOR-A3-AGGREGATE-SCHEMA-RECHECK
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,original_8_FAIL_flags,"Superseded new-auditor schema false positives, not old algorithm violations; old table retained in attempts/A2_AGGREGATE_SCHEMA_FALSE_FLAGS"
+Q6-LOCAL-MAP-CONSISTENCY-R1,INCONCLUSIVE,aggregate_native_derived_breakdown,NOT_EXPORTED_NOT_GUESSED

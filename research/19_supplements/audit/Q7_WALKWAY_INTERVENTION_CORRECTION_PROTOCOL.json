@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-11-15T04:24:40.656721+08:00",
+  "reason": "Original museum S2 selected median native edge, but native includes road axes; selected way/1338361263 was residential. Protocol requires a native walkway. Library chosen way/1219527813 already footway.",
+  "correction": "Keep same museum registered south door, start, F1, graph and constraints; choose middle eligible source-tagged footway/path/pedestrian/steps >1m from the frozen baseline, before corrected state outcomes",
+  "selected_corrected_source_known_from_baseline": "way/178737605, footway",
+  "historical_or_frozen_core_modified": false,
+  "original_museum_stress_test_retained": true,
+  "results_not_method_improvement": "Closing a different eligible edge is a corrected intervention; changes cannot be called algorithm optimization",
+  "new_source_sha256": "1509d86a2f533edc063e78b4d3eb940925cec9db5b8820dfe595654e2b2da23c",
+  "run_prefix": "Q7-A1-NATIVE-WALKWAY",
+  "must_run_after_active_Q8_worker_finishes": true
+}
