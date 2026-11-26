@@ -1,0 +1,80 @@
+{
+  "status": "NORTH_GEOJSON_SERIALIZATION_ONLY",
+  "task": "NORTH-DOOR development surface and shared area variants",
+  "cell": "cell/354368/3456180/3051",
+  "authoritative_surface_unchanged": true,
+  "routes_unchanged": true,
+  "original_zip_sha256": "cd5c48f9f38a4e9e26f3e1a64165cf2e47ae4e8994eaa1164da7242e7aba05d3",
+  "updates": [
+    {
+      "path": "data/north_regions.geojson",
+      "before": "1f7681f5e75294bb9e126c9f5fad6e466047f43f7853e42d9d7a068cb9b02aa0",
+      "after": "d6bec34f2019e2e35acc4a122e527fe1492473759e2ca7f69033897d456323f4"
+    },
+    {
+      "path": "data/north_regions_I-REGION-ABL.geojson",
+      "before": "a4fd4352857620cc64d1e65943f7cf31ce008a14f20d69f41a4a598b224ae474",
+      "after": "472050b88fae6727ea750805eccd58fd38f2032172a6cab7d80a66ac1317ffba"
+    },
+    {
+      "path": "data/north_regions_I-REGION-NET-ABL.geojson",
+      "before": "1f7681f5e75294bb9e126c9f5fad6e466047f43f7853e42d9d7a068cb9b02aa0",
+      "after": "d6bec34f2019e2e35acc4a122e527fe1492473759e2ca7f69033897d456323f4"
+    },
+    {
+      "path": "data/north_surface_freeze.json",
+      "before": "de087060dd00e51603ca28a2a3a5ecc7cab225560207e2f65fc27e40aaf8103c",
+      "after": "848b34969bcc60401a4b5811d89ba22626b820ad4cbaacee2dcdf84a741c7fde"
+    },
+    {
+      "path": "audits/region_independent.json",
+      "before": "3363f6f9fb9f630e0d3f96156fa10eb67f9ba67d3b3e111a5a0ba6b6df121c8f",
+      "after": "3363f6f9fb9f630e0d3f96156fa10eb67f9ba67d3b3e111a5a0ba6b6df121c8f"
+    },
+    {
+      "path": "audits/display_independent.json",
+      "before": "7a57a972b902b52952d03a928ba087dde0a126a3bb3996e730f6590e2e79b6a9",
+      "after": "0ae2f3e2264903c238778110fa5092666575003f3d129f29212113cbb758d504"
+    },
+    {
+      "path": "visuals/index.html",
+      "before": "73043988acd5fa660e471445b5177aa90240d3d69ca6835c3947991e27846047",
+      "after": "ea3a005c35040456c41102daf672661873e862e83c1972fe62580ffa2fe5e854"
+    },
+    {
+      "path": "visuals/figures/01-grass-native-walkways.png",
+      "before": "b142ee67f2c20aa52327b28bae1f876d523ba1c1f4dad4168266c541f6ba50f6",
+      "after": "b142ee67f2c20aa52327b28bae1f876d523ba1c1f4dad4168266c541f6ba50f6"
+    },
+    {
+      "path": "visuals/figures/02-north-walkability-states.png",
+      "before": "c2326ac3aee2e744c90f858b72db3075cb8b0c5401effe5c7c03f8ba91b8cc74",
+      "after": "580fbb31151cb13cf608b77f3ae28df10845f572e374c81f1bdbd521e25d9e8a"
+    },
+    {
+      "path": "visuals/figures/03-shared-region-multiple-queries.png",
+      "before": "27fb383e049e498d3e1e38b66941a960809d7d0a61f2d3297316aaa7a3071972",
+      "after": "30a98bf114c00767351220e6400bd3088bc95f40f1e2503bb94af4476ca013ef"
+    },
+    {
+      "path": "visuals/figures/04-controlled-masking.png",
+      "before": "226a484ecaa28bd2f75573b3adcf3bafafbfef85352115ea8b84453ca96e2c4d",
+      "after": "226a484ecaa28bd2f75573b3adcf3bafafbfef85352115ea8b84453ca96e2c4d"
+    },
+    {
+      "path": "visuals/figures/05-obstacles-and-unknown.png",
+      "before": "69c57d41a455497aea47b1191d309d935c5702f85075d693a7b79114620e5f21",
+      "after": "69c57d41a455497aea47b1191d309d935c5702f85075d693a7b79114620e5f21"
+    },
+    {
+      "path": "visuals/figures/06-route-layer-contribution.png",
+      "before": "f6a2ea1c0728f08cfa301a79943ba1d77994653dda7206514f1a99fe6b285a98",
+      "after": "f6a2ea1c0728f08cfa301a79943ba1d77994653dda7206514f1a99fe6b285a98"
+    },
+    {
+      "path": "audits/browser_check.json",
+      "before": "b3ad2b2ab4a82f29e8e70e4ea1ebcaa8c36a5bfb03ecd7c440d6644507aadb2c",
+      "after": "b3ad2b2ab4a82f29e8e70e4ea1ebcaa8c36a5bfb03ecd7c440d6644507aadb2c"
+    }
+  ]
+}

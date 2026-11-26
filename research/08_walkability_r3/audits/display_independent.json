@@ -1,0 +1,20 @@
+{
+  "status": "INDEPENDENT_STATIC_DISPLAY_SOURCE_CHECK_PASS",
+  "actor": "/root/r3_s_audit",
+  "html_sha256": "ea3a005c35040456c41102daf672661873e862e83c1972fe62580ffa2fe5e854",
+  "area_fragments": {
+    "I-REGION": 3203,
+    "I-REGION-ABL": 3203,
+    "I-REGION-NET-ABL": 3203
+  },
+  "nonempty_routes_drawn": 1410,
+  "zero_length_routes_not_drawn": 8,
+  "benchmark": {
+    "review_cases": 25,
+    "reference_shapes": 25,
+    "predicted_area_shapes": 57,
+    "observed_reference_shapes": 0
+  },
+  "maximum_geometry_rounding_error_m": 0.0006926406095104006,
+  "scope": "Independent static HTML payload cross-check; browser UI separately tested by visual role"
+}

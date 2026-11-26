@@ -1,0 +1,1830 @@
+{
+  "W2b809bbe6b8": {
+    "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+    "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+    "split": "development",
+    "source_ids": [
+      "relation/2153738"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 18.88267262993325,
+        "RESTRICTED": 1865.8809049262404,
+        "UNKNOWN": 941.5344637071069
+      },
+      "unknown_fraction": 0.3331334664503093,
+      "inferred_m2": 18.88267262993325,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 18.882672629933253,
+      "inferred_park_outside_positive_reference_m2": 0.0,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 960.4171363344,
+      "overlap_m2": 18.88267262984038,
+      "area_recall": 0.019660907657176343,
+      "reference_boundary_p90_m": 27.05295142840249,
+      "inferred_boundary_p90_m": 2.109725197591434,
+      "outside_reference_m2": 0.0,
+      "negative_false_inferred": null,
+      "proxy_widths": []
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 27.705170688295805,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "1af701d96f3731621a5d569201518de23ce0fb456020f65235277b4d4b947ca1"
+      },
+      {
+        "query_id": "Q2",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 24.749031019798988,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "1af701d96f3731621a5d569201518de23ce0fb456020f65235277b4d4b947ca1"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 0
+  },
+  "W0caca58bc41": {
+    "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+    "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+    "split": "development",
+    "source_ids": [
+      "way/178721645"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 26.99999999665306,
+        "RESTRICTED": 1561.685226311992,
+        "UNKNOWN": 1237.6128149534075
+      },
+      "unknown_fraction": 0.4378918277143483,
+      "inferred_m2": 26.99999999665306,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 26.99999999665306,
+      "inferred_park_outside_positive_reference_m2": 26.99999999665306,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 252.54555946829086,
+      "overlap_m2": 0.0,
+      "area_recall": 0.0,
+      "reference_boundary_p90_m": 28.000920432031265,
+      "inferred_boundary_p90_m": 24.206308570933697,
+      "outside_reference_m2": 26.99999999665306,
+      "negative_false_inferred": null,
+      "proxy_widths": []
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 26.901277156821177,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "cb8553ba00085918c947b54ec110433c70878522fcdfe2fffa6e99f5bb0cfc52"
+      },
+      {
+        "query_id": "Q2",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 20.526401888987134,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "cb8553ba00085918c947b54ec110433c70878522fcdfe2fffa6e99f5bb0cfc52"
+      },
+      {
+        "query_id": "Q3",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 28.550011848961898,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "cb8553ba00085918c947b54ec110433c70878522fcdfe2fffa6e99f5bb0cfc52"
+      }
+    ],
+    "query_count": 3,
+    "route_successes": 0
+  },
+  "W7a6b5a10076": {
+    "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+    "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+    "split": "development",
+    "source_ids": [
+      "relation/2385771"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 395.0090548602145,
+        "UNKNOWN": 2431.2889863986456
+      },
+      "unknown_fraction": 0.8602380042387885,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": 0.0,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 1296.604320316284,
+      "overlap_m2": 0.0,
+      "area_recall": 0.0,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": 0.0,
+      "negative_false_inferred": null,
+      "proxy_widths": []
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 19.518771172840687,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "67ea69cc3ea1dbf69df75d1103cb59503c79fb51eea7a04d9d280c9ff104832e"
+      },
+      {
+        "query_id": "Q2",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 21.277298314459376,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "67ea69cc3ea1dbf69df75d1103cb59503c79fb51eea7a04d9d280c9ff104832e"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 0
+  },
+  "W6bccdf122cb": {
+    "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+    "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+    "split": "selection",
+    "source_ids": [
+      "way/965081081"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 2826.2980412603906
+      },
+      "unknown_fraction": 0.9999999999996668,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": 0.0,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 206.59537720673833,
+      "overlap_m2": 0.0,
+      "area_recall": 0.0,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": 0.0,
+      "negative_false_inferred": null,
+      "proxy_widths": []
+    },
+    "routes": [],
+    "query_count": 0,
+    "route_successes": 0
+  },
+  "W6daddd19fdb": {
+    "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+    "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+    "split": "confirmation",
+    "source_ids": [
+      "way/160023915"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 1334.5636308565183,
+        "UNKNOWN": 1491.734410407851
+      },
+      "unknown_fraction": 0.527805061118789,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": 0.0,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 364.9072910778183,
+      "overlap_m2": 0.0,
+      "area_recall": 0.0,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": 0.0,
+      "negative_false_inferred": null,
+      "proxy_widths": []
+    },
+    "routes": [],
+    "query_count": 0,
+    "route_successes": 0
+  },
+  "Wf405b19d925": {
+    "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+    "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+    "split": "confirmation",
+    "source_ids": [
+      "relation/8055906"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 223.03830173053043,
+        "UNKNOWN": 2603.259739498502
+      },
+      "unknown_fraction": 0.9210846490686128,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": 0.0,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 469.36616173625987,
+      "overlap_m2": 0.0,
+      "area_recall": 0.0,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": 0.0,
+      "negative_false_inferred": null,
+      "proxy_widths": []
+    },
+    "routes": [],
+    "query_count": 0,
+    "route_successes": 0
+  },
+  "Wc4183046a70": {
+    "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+    "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+    "split": "development",
+    "source_ids": [
+      "way/1160136226"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 2826.2980412533584
+      },
+      "unknown_fraction": 0.9999999999971786,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": 0.0,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 446.0985785644766,
+      "overlap_m2": 0.0,
+      "area_recall": 0.0,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": 0.0,
+      "negative_false_inferred": null,
+      "proxy_widths": []
+    },
+    "routes": [],
+    "query_count": 0,
+    "route_successes": 0
+  },
+  "W71107d26ecd": {
+    "case_type": "LINE_MASK_NO_AREA_SUPPORT",
+    "kind": "LINE_MASK_NO_AREA_SUPPORT",
+    "split": "development",
+    "source_ids": [
+      "way/1219527812"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 1591.6310603556292,
+        "UNKNOWN": 1234.666980919221
+      },
+      "unknown_fraction": 0.4368495335220232,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 15.384175645985245,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 15.384175646641857,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 30.768351293283708,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 61.53670258656743,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "UNAVAILABLE_ENDPOINT",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 15.384175645985245,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "d5064f199970718ff81687fe915ee64c5a646fd968c307871f22687759a45e70"
+      }
+    ],
+    "query_count": 1,
+    "route_successes": 0
+  },
+  "W9ec65a55fde": {
+    "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "split": "development",
+    "source_ids": [
+      "way/1160136222"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 697.6102049115482,
+        "INFERRED_WALKABLE": 592.8920424753358,
+        "RESTRICTED": 117.61184836451434,
+        "UNKNOWN": 1418.18394551546
+      },
+      "unknown_fraction": 0.5017814557457453,
+      "inferred_m2": 592.8920424753358,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 1.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 10.680882713012556,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 10.680882712415313,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 21.361765423786945,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 42.723530854024666,
+          "overlap_m2": 0.01057627067100314,
+          "area_recall": 0.00024755141861143316
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 80.35657862460344,
+        "cost_m": 83.3873006309541,
+        "layer_lengths_m": {
+          "native": 34.977017316010745,
+          "inferred": 6.0614440127013065,
+          "derived": 39.3181172958914
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "58482200ff151617418f8847750ee0faac09c107f836b592427bc20eece6f208"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 87.05237464188282,
+        "cost_m": 92.3705965041266,
+        "layer_lengths_m": {
+          "derived": 71.54319459516236,
+          "inferred": 10.636443724487531,
+          "native": 4.872736322232905
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "58482200ff151617418f8847750ee0faac09c107f836b592427bc20eece6f208"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 2
+  },
+  "W363939afb45": {
+    "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "split": "development",
+    "source_ids": [
+      "way/178725157"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 152.84154893082552,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 2673.4564923357284,
+        "UNKNOWN": 0.0
+      },
+      "unknown_fraction": 0.0,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 19.906751746524233,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 19.90675084327592,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 39.813499876486624,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 79.62699252358071,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 19.904464521690258,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "37b3bc99c3534e8c968010ec6084ae4ea328721a64679da2e6708ec5f42d61bc"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 32.66846252332543,
+        "cost_m": 32.66846252332543,
+        "layer_lengths_m": {
+          "native": 32.66846252332543
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "37b3bc99c3534e8c968010ec6084ae4ea328721a64679da2e6708ec5f42d61bc"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 1
+  },
+  "Wacc0185d756": {
+    "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "split": "development",
+    "source_ids": [
+      "way/178801546"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 574.2274852492301,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 2252.0705560055176,
+        "UNKNOWN": 0.0
+      },
+      "unknown_fraction": 0.0,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 27.31619604094731,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 27.316196041084005,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 54.632392084815066,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 109.2647841669831,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 44.477388729946135,
+        "cost_m": 44.477388729946135,
+        "layer_lengths_m": {
+          "native": 44.477388729946135
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "e78c6731df724af406c700e08c8066afaabf12911f74d22facebdbee6f7d3a2f"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 64.57783979177606,
+        "cost_m": 64.57783979177606,
+        "layer_lengths_m": {
+          "native": 64.57783979177606
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "e78c6731df724af406c700e08c8066afaabf12911f74d22facebdbee6f7d3a2f"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 2
+  },
+  "We43ad3502c7": {
+    "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "split": "development",
+    "source_ids": [
+      "way/178801533"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 182.32870721369056,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 2643.9693340331637
+      },
+      "unknown_fraction": 0.9354885066732742,
+      "inferred_m2": 182.32870721369056,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 182.32870721369056,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.47649097631530385,
+      "inferred_centerline_coverage": 0.47649097631530385,
+      "reference_length_m": 9.950350508642506,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 9.950350506800724,
+          "overlap_m2": 4.8129797772320675,
+          "area_recall": 0.48369952133269684
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 19.90070101815848,
+          "overlap_m2": 9.640409413233984,
+          "area_recall": 0.4844256191999242
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 39.80140203524354,
+          "overlap_m2": 16.988891210623414,
+          "area_recall": 0.42684152672762654
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 14.546755211076649,
+        "cost_m": 14.546755211076649,
+        "layer_lengths_m": {
+          "native": 14.54675521107665
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "53eec45f2fd82ba81bc9da82bb6331fcad22a77c288b5d905646ea01570ddac7"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 22.626122762080193,
+        "cost_m": 22.626122762080193,
+        "layer_lengths_m": {
+          "native": 22.626122762080193
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "53eec45f2fd82ba81bc9da82bb6331fcad22a77c288b5d905646ea01570ddac7"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 2
+  },
+  "Wae8bd8566f9": {
+    "case_type": "LINE_MASK_NO_AREA_SUPPORT",
+    "kind": "LINE_MASK_NO_AREA_SUPPORT",
+    "split": "development",
+    "source_ids": [
+      "way/513764741"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 79.45049288336003,
+        "UNKNOWN": 2746.8475483775646
+      },
+      "unknown_fraction": 0.9718888483366354,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 25.49879897399689,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 25.498798965145024,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 50.997597953899586,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 101.99519590779917,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 92.78503524256153,
+        "cost_m": 92.78503524256153,
+        "layer_lengths_m": {
+          "native": 92.78503524256153
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "a7b0ad84d8f824acaf8ef57abd76e44faa1c862148a04746be11f42f62af814d"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 10.528099216105009,
+        "cost_m": 10.528099216105009,
+        "layer_lengths_m": {
+          "native": 10.528099216105009
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "a7b0ad84d8f824acaf8ef57abd76e44faa1c862148a04746be11f42f62af814d"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 2
+  },
+  "W87f642a7b21": {
+    "case_type": "MAPPED_OBSTACLE_NEGATIVE",
+    "kind": "MAPPED_OBSTACLE_NEGATIVE",
+    "split": "development",
+    "source_ids": [
+      "way/178731811"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 6.009876712309215,
+        "RESTRICTED": 1280.403270732321,
+        "UNKNOWN": 1539.8848938177612
+      },
+      "unknown_fraction": 0.5448416519902957,
+      "inferred_m2": 6.009876712309215,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 6.0098767123092145,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 91.82336276942449,
+      "overlap_m2": 0.0,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": false,
+      "proxy_widths": []
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 43.54006837782682,
+        "cost_m": 43.54006837782682,
+        "layer_lengths_m": {
+          "native": 43.54006837782683
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": 0.0,
+        "surface_sha256": "81ce52fbf675cdcabe9c0a9dd91ac60d5892f95a047e684e4b15f613f086a043"
+      },
+      {
+        "query_id": "Q2",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 38.41897718393497,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": 0.0,
+        "surface_sha256": "81ce52fbf675cdcabe9c0a9dd91ac60d5892f95a047e684e4b15f613f086a043"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 1
+  },
+  "W0440b97497a": {
+    "case_type": "MAPPED_OBSTACLE_NEGATIVE",
+    "kind": "MAPPED_OBSTACLE_NEGATIVE",
+    "split": "development",
+    "source_ids": [
+      "way/133465377"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 57.80643988557146,
+        "RESTRICTED": 2181.9799007137813,
+        "UNKNOWN": 586.5117006578996
+      },
+      "unknown_fraction": 0.2075194095227652,
+      "inferred_m2": 57.80643988557146,
+      "hard_expansion_m2": 3.1822576003216188e-09,
+      "grass_expansion_m2": 2.6173934222252504e-11,
+      "inferred_in_park_context_m2": 57.806439885571464,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 680.2835838329084,
+      "overlap_m2": 3.1822576003216188e-09,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": false,
+      "proxy_widths": []
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 62.48455728576897,
+        "cost_m": 62.48455728576897,
+        "layer_lengths_m": {
+          "native": 62.48455728576897
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": 0.0,
+        "surface_sha256": "3c4bf6e836f51b9555ef9682637f5a149bc9da8b50e4f8bd829ed6426bb00a83"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 5.941480077023283,
+        "cost_m": 5.941480077023283,
+        "layer_lengths_m": {
+          "native": 5.941480077023284
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": 0.0,
+        "surface_sha256": "3c4bf6e836f51b9555ef9682637f5a149bc9da8b50e4f8bd829ed6426bb00a83"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 2
+  },
+  "W85f439ac693": {
+    "case_type": "LINE_MASK_NO_AREA_SUPPORT",
+    "kind": "LINE_MASK_NO_AREA_SUPPORT",
+    "split": "confirmation",
+    "source_ids": [
+      "way/477497932"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 2128.5092703697305,
+        "UNKNOWN": 697.7887708840665
+      },
+      "unknown_fraction": 0.24689143207722505,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 22.86305943106571,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 22.863059436167653,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 45.72611887233532,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 91.45223772339945,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 51.55157981382569,
+        "cost_m": 51.55157981382569,
+        "layer_lengths_m": {
+          "native": 51.55157981382569
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "f897b5726e0a175f9956d0ad574b5796f0bf99978eddf447cbb3c95fa03c5ced"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 15.303646404596373,
+        "cost_m": 15.303646404596373,
+        "layer_lengths_m": {
+          "native": 15.303646404596373
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "f897b5726e0a175f9956d0ad574b5796f0bf99978eddf447cbb3c95fa03c5ced"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 2
+  },
+  "W384c2d89f5c": {
+    "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "split": "confirmation",
+    "source_ids": [
+      "way/1287048334"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 2826.2980412486363
+      },
+      "unknown_fraction": 0.9999999999955079,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 19.870781389639397,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 19.870781391395695,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 39.74156278165771,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 79.48312556331544,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 19.870781389639394,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "4634674dfc0b6ee1c67a133cb43a5f4faa02432c8a01bc406266d6f08308b923"
+      },
+      {
+        "query_id": "Q2",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 30.26906774078549,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "4634674dfc0b6ee1c67a133cb43a5f4faa02432c8a01bc406266d6f08308b923"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 0
+  },
+  "Wdb2b99d1247": {
+    "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "split": "confirmation",
+    "source_ids": [
+      "way/564273557"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 81.22594676319568,
+        "RESTRICTED": 34.08562687396798,
+        "UNKNOWN": 2710.986467625496
+      },
+      "unknown_fraction": 0.9592004905525199,
+      "inferred_m2": 81.22594676319568,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 72.7555170616317,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.20200476520405555,
+      "inferred_centerline_coverage": 0.20200476520405555,
+      "reference_length_m": 7.157591707370113,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 7.157591706590527,
+          "overlap_m2": 1.5799175014053435,
+          "area_recall": 0.2207331133390294
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 14.315183412688809,
+          "overlap_m2": 3.277102396059785,
+          "area_recall": 0.22892493247100143
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 28.630366825124543,
+          "overlap_m2": 6.607716619973208,
+          "area_recall": 0.2307939908815494
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 58.68450617509335,
+        "cost_m": 58.68450617509335,
+        "layer_lengths_m": {
+          "native": 58.68450617509335
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "6018843429e7f438c448e9a9167f7adc50dbfa168917b3cfd95d39ee81177b12"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 19.71936682274868,
+        "cost_m": 19.71936682274868,
+        "layer_lengths_m": {
+          "native": 19.71936682274868
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "6018843429e7f438c448e9a9167f7adc50dbfa168917b3cfd95d39ee81177b12"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 2
+  },
+  "W745941f0f92": {
+    "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "split": "confirmation",
+    "source_ids": [
+      "way/513764738"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 332.58998264152217,
+        "RESTRICTED": 1769.2067160339848,
+        "UNKNOWN": 724.5013425967446
+      },
+      "unknown_fraction": 0.25634286689503244,
+      "inferred_m2": 332.58998264152217,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 332.5899826415224,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.5726510012177516,
+      "inferred_centerline_coverage": 0.5726510012177516,
+      "reference_length_m": 12.731920258784825,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 12.73192025854151,
+          "overlap_m2": 7.290946883560675,
+          "area_recall": 0.572651001224216
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 25.463840517083014,
+          "overlap_m2": 14.581893768261654,
+          "area_recall": 0.5726510012689975
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 50.927681035589075,
+          "overlap_m2": 29.12469301624929,
+          "area_recall": 0.5718833534928969
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 12.731920258784825,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "f415da232ff08614ae34b1b108e182b7d0f9388f366cc1b9c349dcfbfd1eb37a"
+      },
+      {
+        "query_id": "Q2",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 18.92215781454098,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "f415da232ff08614ae34b1b108e182b7d0f9388f366cc1b9c349dcfbfd1eb37a"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 0
+  },
+  "Wa426c5c4d49": {
+    "case_type": "MAPPED_OBSTACLE_NEGATIVE",
+    "kind": "MAPPED_OBSTACLE_NEGATIVE",
+    "split": "confirmation",
+    "source_ids": [
+      "way/165953417"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 332.4899415645929,
+        "RESTRICTED": 737.3037192999828,
+        "UNKNOWN": 1756.5043803938233
+      },
+      "unknown_fraction": 0.6214858994877706,
+      "inferred_m2": 332.4899415645929,
+      "hard_expansion_m2": 5.213283813161346e-10,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 332.48994156459287,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 713.9707090280858,
+      "overlap_m2": 5.223115080228062e-10,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": false,
+      "proxy_widths": []
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 22.370988306249114,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": 0.0,
+        "surface_sha256": "32892cf13212aa29aebbd17de16e074316e742b8ba08adf4e2176c795c87a547"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 15.2517308262244,
+        "cost_m": 15.2517308262244,
+        "layer_lengths_m": {
+          "native": 15.2517308262244
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": 0.0,
+        "surface_sha256": "32892cf13212aa29aebbd17de16e074316e742b8ba08adf4e2176c795c87a547"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 1
+  },
+  "W4d1eccec240": {
+    "case_type": "MAPPED_OBSTACLE_NEGATIVE",
+    "kind": "MAPPED_OBSTACLE_NEGATIVE",
+    "split": "confirmation",
+    "source_ids": [
+      "way/756799582"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 1830.9232910295896,
+        "UNKNOWN": 995.3747502355968
+      },
+      "unknown_fraction": 0.35218322190513807,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": null,
+      "inferred_centerline_coverage": null,
+      "reference_length_m": null,
+      "reference_area_m2": 1013.1647702850378,
+      "overlap_m2": 0.0,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": false,
+      "proxy_widths": []
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 21.057107815196037,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": 0.0,
+        "surface_sha256": "8af8c63996860f83e0c9914caae9ad64b57df1977bc8097de72a2bf535ec67f9"
+      },
+      {
+        "query_id": "Q2",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 36.364933790931296,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": 0.0,
+        "surface_sha256": "8af8c63996860f83e0c9914caae9ad64b57df1977bc8097de72a2bf535ec67f9"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 0
+  },
+  "W97b65e9a893": {
+    "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "split": "selection",
+    "source_ids": [
+      "way/188703984"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 38.99999999758438,
+        "RESTRICTED": 967.9196126972698,
+        "UNKNOWN": 1819.3784285656957
+      },
+      "unknown_fraction": 0.643731978016634,
+      "inferred_m2": 38.99999999758438,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 37.99178508676216,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 6.847385722726887,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 6.84738572299944,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 13.694771445233982,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 27.389542891232864,
+          "overlap_m2": 0.14703348234614802,
+          "area_recall": 0.005368234253855038
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 6.847385722726887,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "22c11ef5b05244211f10a9767dfdde2dd49f6435e9c5045470938a71a2c8b827"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 21.110995685619145,
+        "cost_m": 21.110995685619145,
+        "layer_lengths_m": {
+          "native": 21.110995685619145
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "22c11ef5b05244211f10a9767dfdde2dd49f6435e9c5045470938a71a2c8b827"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 1
+  },
+  "Wce5a4f14276": {
+    "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+    "split": "selection",
+    "source_ids": [
+      "way/961638134"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 171.0669835262721,
+        "UNKNOWN": 2655.231057728757
+      },
+      "unknown_fraction": 0.9394731266713008,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 23.546603612153223,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 23.546603612378934,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 47.09320722471032,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 94.18641444946819,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 23.546603612153223,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "8d400dc3b1624793630b610133b6320791d5802e5c548e3feccd9b640e8a0f33"
+      }
+    ],
+    "query_count": 1,
+    "route_successes": 0
+  },
+  "W902d9fe8127": {
+    "case_type": "LINE_MASK_NO_AREA_SUPPORT",
+    "kind": "LINE_MASK_NO_AREA_SUPPORT",
+    "split": "selection",
+    "source_ids": [
+      "way/810390870"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 730.7501913891108,
+        "UNKNOWN": 2095.5478498820967
+      },
+      "unknown_fraction": 0.7414461671377328,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 8.204578475638051,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 8.204578475917735,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 16.40915695183547,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 32.8183139045222,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 8.20457847563805,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "1b29af87a2cb57350ca5f89a1224b5b63e22b774fe22796fa1ee98436ccfae7c"
+      },
+      {
+        "query_id": "Q2",
+        "status": "ROUTED",
+        "reached": true,
+        "valid_reached": true,
+        "length_m": 17.361351489786415,
+        "cost_m": 17.361351489786415,
+        "layer_lengths_m": {
+          "native": 17.361351489786415
+        },
+        "residual_m": 0.0,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "1b29af87a2cb57350ca5f89a1224b5b63e22b774fe22796fa1ee98436ccfae7c"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 1
+  },
+  "Wa273f228558": {
+    "case_type": "LINE_MASK_NO_AREA_SUPPORT",
+    "kind": "LINE_MASK_NO_AREA_SUPPORT",
+    "split": "selection",
+    "source_ids": [
+      "way/188703985"
+    ],
+    "metrics": {
+      "state_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 402.4517509459313,
+        "UNKNOWN": 2423.846290303584
+      },
+      "unknown_fraction": 0.857604631541923,
+      "inferred_m2": 0.0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_park_outside_positive_reference_m2": null,
+      "hard_barrier_crossline_m": 0.0,
+      "native_assisted_centerline_coverage": 0.0,
+      "inferred_centerline_coverage": 0.0,
+      "reference_length_m": 5.807121983234495,
+      "reference_area_m2": null,
+      "overlap_m2": null,
+      "area_recall": null,
+      "reference_boundary_p90_m": null,
+      "inferred_boundary_p90_m": null,
+      "outside_reference_m2": null,
+      "negative_false_inferred": null,
+      "proxy_widths": [
+        {
+          "proxy_buffer_radius_m": 0.5,
+          "proxy_area_m2": 5.807121982654863,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 1.0,
+          "proxy_area_m2": 11.614243965916149,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        },
+        {
+          "proxy_buffer_radius_m": 2.0,
+          "proxy_area_m2": 23.228487934222642,
+          "overlap_m2": 0.0,
+          "area_recall": 0.0
+        }
+      ]
+    },
+    "routes": [
+      {
+        "query_id": "Q1",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 5.807121983234494,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "ec759372e22b04db0e3fd39fa5d891e57bdf4fd59121d3e0d881b641518aafba"
+      },
+      {
+        "query_id": "Q2",
+        "status": "NO_PATH",
+        "reached": false,
+        "valid_reached": false,
+        "length_m": null,
+        "cost_m": null,
+        "layer_lengths_m": {},
+        "residual_m": 35.11806260766392,
+        "conditional_conflicts": {},
+        "native_conflicts": {},
+        "obstacle_inferred_crossing_m": null,
+        "surface_sha256": "ec759372e22b04db0e3fd39fa5d891e57bdf4fd59121d3e0d881b641518aafba"
+      }
+    ],
+    "query_count": 2,
+    "route_successes": 0
+  }
+}

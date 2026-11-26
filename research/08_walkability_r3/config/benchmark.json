@@ -1,0 +1,35 @@
+{
+  "status": "FROZEN_BEFORE_PREDICTION",
+  "crs": "EPSG:32651",
+  "radius_m": 30,
+  "fixed_grid_spacing_m": 20,
+  "observation_crop_m": 40,
+  "line_shadow_m": 0.05,
+  "source_splits": {
+    "sh-huangpu-01": "development",
+    "sh-library": "development",
+    "sh-tower": "selection",
+    "sh-wukang": "selection",
+    "sh-newworld": "confirmation",
+    "sh-exhibition": "confirmation"
+  },
+  "true_area_min_reference_m2": 20,
+  "widths_buffer_radius_m": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "case_selection": "historical bounded frozen raw cases, one per native area source; no usable visible pairs means area-only",
+  "predicted_area": "INFERRED_WALKABLE only; native classification reported separately",
+  "positive_thresholds": {
+    "eligible_geometry_coverage": 0.5,
+    "line_coverage": 0.5
+  },
+  "separation": "No shared source reference ID or positive-area window across splits",
+  "query_file_read": "After frozen per-task surface only",
+  "native_policy": "Exclude source segments blocked or unresolved under frozen S1, keyed by scene/way/source index",
+  "native_policy_sha256": "be0d1393c5f3a6fad291b0be2030ea48315502f0cf56cb4bc17ecfb834470bfa",
+  "localization": "Selected eligible windows on fixed grid with knowledge of approximate control locality; not blind gap localization",
+  "field_truth": false,
+  "external_requests": 0
+}

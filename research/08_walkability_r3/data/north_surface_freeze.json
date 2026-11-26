@@ -1,0 +1,37 @@
+{
+  "status": "FROZEN_BEFORE_QUERY_CONSTRUCTION",
+  "stages": [
+    {
+      "role": "SURFACE_FROZEN",
+      "variant": "I-REGION",
+      "surface_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+      "path": "data/north_regions.geojson",
+      "sha256": "d6bec34f2019e2e35acc4a122e527fe1492473759e2ca7f69033897d456323f4",
+      "seconds": 4.4484080000001995
+    },
+    {
+      "role": "SURFACE_FROZEN",
+      "variant": "I-REGION-ABL",
+      "surface_sha256": "921860917d8a47f10aec43c01a1340a7104d98e99075e5ea7d0a33d10b87b457",
+      "path": "data/north_regions_I-REGION-ABL.geojson",
+      "sha256": "472050b88fae6727ea750805eccd58fd38f2032172a6cab7d80a66ac1317ffba",
+      "seconds": 4.43457330000092
+    },
+    {
+      "role": "SURFACE_FROZEN",
+      "variant": "I-REGION-NET-ABL",
+      "surface_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+      "path": "data/north_regions_I-REGION-NET-ABL.geojson",
+      "sha256": "d6bec34f2019e2e35acc4a122e527fe1492473759e2ca7f69033897d456323f4",
+      "seconds": 1.0794958000005863
+    }
+  ],
+  "anchor": {
+    "anchor_xy": [
+      354344.3888134466,
+      3456163.0891986894
+    ],
+    "anchor_role": "REGISTERED_DOOR_FIXED_30M"
+  },
+  "config_sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026"
+}

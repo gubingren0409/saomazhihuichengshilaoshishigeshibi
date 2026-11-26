@@ -1,0 +1,495 @@
+{
+  "status": "INDEPENDENT_NATURAL_GEOMETRY_TOPOLOGY_CHECK_PASS",
+  "actor": "/root/r3_s_audit",
+  "scope": "Raw frozen source, spatial partition, evidence, adopted graph edges, routes and GeoJSON; independent logic, frozen parser only",
+  "raw_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "surface_checks": {
+    "I-REGION": {
+      "cells": 3203,
+      "recomputed_m2": {
+        "NATIVE_WALKABLE": 941.7135281488187,
+        "INFERRED_WALKABLE": 180.95811778461962,
+        "RESTRICTED": 1687.1117867411174,
+        "UNKNOWN": 16.514608008445506
+      },
+      "overlap_m2": 0.0,
+      "inferred_reasons": {
+        "MAPPED_PEDESTRIAN_FACE_AND_WALKWAY_ADJACENCY": 176,
+        "PARK_AND_REGISTERED_FRONTAGE_AND_WALKWAY": 70
+      },
+      "inferred_on_park_m2": 180.95811778461965,
+      "park_in_window_m2": 2826.298041256533,
+      "inferred_known_hard_overlap_m2": 1.2576987403886339e-06
+    },
+    "I-REGION-ABL": {
+      "cells": 3203,
+      "recomputed_m2": {
+        "NATIVE_WALKABLE": 941.7135281488187,
+        "INFERRED_WALKABLE": 197.47272579306508,
+        "RESTRICTED": 1687.1117867411174,
+        "UNKNOWN": 0.0
+      },
+      "overlap_m2": 0.0,
+      "inferred_reasons": {
+        "GEOMETRY_AND_NETWORK_ONLY_ABLATION": 308
+      },
+      "inferred_on_park_m2": 197.47272579306508,
+      "park_in_window_m2": 2826.298041256533,
+      "inferred_known_hard_overlap_m2": 2.3678355809781336e-06
+    },
+    "I-REGION-NET-ABL": {
+      "cells": 3203,
+      "recomputed_m2": {
+        "NATIVE_WALKABLE": 941.7135281488187,
+        "INFERRED_WALKABLE": 180.95811778461962,
+        "RESTRICTED": 1687.1117867411174,
+        "UNKNOWN": 16.514608008445506
+      },
+      "overlap_m2": 0.0,
+      "inferred_reasons": {
+        "MAPPED_PEDESTRIAN_FACE_AND_WALKWAY_ADJACENCY": 176,
+        "PARK_AND_REGISTERED_FRONTAGE_AND_WALKWAY": 70
+      },
+      "inferred_on_park_m2": 180.95811778461965,
+      "park_in_window_m2": 2826.298041256533,
+      "inferred_known_hard_overlap_m2": 1.2576987403886339e-06
+    }
+  },
+  "raw_hazards_in_domain": [
+    "way/161090899",
+    "way/178732703",
+    "way/178732944"
+  ],
+  "separate_classification_and_queries": true,
+  "search_window_role": "SEARCH_DOMAIN_ONLY",
+  "audited_source_map_features": 5,
+  "outside_1m_historical_gap_band_m2_diagnostic_only": 165.05225819350053,
+  "native_interfaces": 2,
+  "existing_frozen_face_interfaces": 7,
+  "query_checks": {
+    "S1": {
+      "NORTH-DOOR": {
+        "status": "APPROACH_WITH_GAP",
+        "length_m": 1166.0987072809223,
+        "inferred_m": 0,
+        "route_edges": 78,
+        "geometry_kind_length_m": {
+          "NATIVE_LINEAR": 1166.0987072809223
+        },
+        "endpoint_residual_m": 7.952217589612692
+      },
+      "NORTH-PAIR-1": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-2": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-3": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-4": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-1": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-2": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-3": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      }
+    },
+    "I-LINE": {
+      "NORTH-DOOR": {
+        "status": "INFERRED_CONDITIONAL_EXTERIOR_REACH",
+        "length_m": 1174.0509248714538,
+        "inferred_m": 7.9522175893136655,
+        "route_edges": 79,
+        "geometry_kind_length_m": {
+          "NATIVE_LINEAR": 1166.0987072821401,
+          "R2_SINGLE_LINE_BASELINE": 7.9522175893136655
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-PAIR-1": {
+        "status": "LOCAL_REUSABLE_REGION_NOT_AVAILABLE",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-2": {
+        "status": "LOCAL_REUSABLE_REGION_NOT_AVAILABLE",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-3": {
+        "status": "LOCAL_REUSABLE_REGION_NOT_AVAILABLE",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-4": {
+        "status": "LOCAL_REUSABLE_REGION_NOT_AVAILABLE",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-1": {
+        "status": "LOCAL_REUSABLE_REGION_NOT_AVAILABLE",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-2": {
+        "status": "LOCAL_REUSABLE_REGION_NOT_AVAILABLE",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-3": {
+        "status": "LOCAL_REUSABLE_REGION_NOT_AVAILABLE",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      }
+    },
+    "I-REGION": {
+      "NORTH-DOOR": {
+        "status": "ROUTED",
+        "length_m": 1166.916403530744,
+        "inferred_m": 13.105825214458873,
+        "route_edges": 388,
+        "geometry_kind_length_m": {
+          "NATIVE_LINEAR": 960.5686968013391,
+          "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA": 192.70435185925177,
+          "NEW_GRID_WITHIN_MAPPED_FACE": 0.5375296556941781,
+          "FROZEN_INFERRED_REGION": 13.105825214458873
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-PAIR-1": {
+        "status": "ROUTED",
+        "length_m": 36.854589357418874,
+        "inferred_m": 0,
+        "route_edges": 46,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 36.854589357418874
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-PAIR-2": {
+        "status": "ROUTED",
+        "length_m": 28.83398880242101,
+        "inferred_m": 0,
+        "route_edges": 36,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 28.83398880242101
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-PAIR-3": {
+        "status": "ROUTED",
+        "length_m": 20.457818008718398,
+        "inferred_m": 0,
+        "route_edges": 26,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 20.457818008718398
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-PAIR-4": {
+        "status": "ROUTED",
+        "length_m": 10.759351840524081,
+        "inferred_m": 0,
+        "route_edges": 14,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 10.759351840524081
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-CONTROL-1": {
+        "status": "ROUTED",
+        "length_m": 3.357819349335769,
+        "inferred_m": 1.306212458838278,
+        "route_edges": 7,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 2.051606890497491,
+          "FROZEN_INFERRED_REGION": 1.306212458838278,
+          "EXACT_REGION_PORTAL": 0.0
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-CONTROL-2": {
+        "status": "ROUTED",
+        "length_m": 8.518328851356767,
+        "inferred_m": 8.023588519604843,
+        "route_edges": 12,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 0.4947403317519243,
+          "FROZEN_INFERRED_REGION": 8.023588519604843,
+          "EXACT_REGION_PORTAL": 0.0
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-CONTROL-3": {
+        "status": "ROUTED",
+        "length_m": 24.93715628050939,
+        "inferred_m": 11.315491872969629,
+        "route_edges": 33,
+        "geometry_kind_length_m": {
+          "EXACT_REGION_PORTAL": 0.0,
+          "FROZEN_INFERRED_REGION": 11.315491872969629,
+          "NEW_GRID_WITHIN_MAPPED_FACE": 13.621664407539763
+        },
+        "endpoint_residual_m": 0.0
+      }
+    },
+    "I-REGION-ABL": {
+      "NORTH-DOOR": {
+        "status": "ROUTED",
+        "length_m": 1166.916403530744,
+        "inferred_m": 13.105825214458873,
+        "route_edges": 388,
+        "geometry_kind_length_m": {
+          "NATIVE_LINEAR": 960.5686968013391,
+          "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA": 192.70435185925177,
+          "NEW_GRID_WITHIN_MAPPED_FACE": 0.5375296556941781,
+          "FROZEN_INFERRED_REGION": 13.105825214458873
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-PAIR-1": {
+        "status": "ROUTED",
+        "length_m": 36.854589357418874,
+        "inferred_m": 0,
+        "route_edges": 46,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 36.854589357418874
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-PAIR-2": {
+        "status": "ROUTED",
+        "length_m": 28.83398880242101,
+        "inferred_m": 0,
+        "route_edges": 36,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 28.83398880242101
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-PAIR-3": {
+        "status": "ROUTED",
+        "length_m": 20.457818008718398,
+        "inferred_m": 0,
+        "route_edges": 26,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 20.457818008718398
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-PAIR-4": {
+        "status": "ROUTED",
+        "length_m": 10.759351840524081,
+        "inferred_m": 0,
+        "route_edges": 14,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 10.759351840524081
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-CONTROL-1": {
+        "status": "ROUTED",
+        "length_m": 3.357819349335769,
+        "inferred_m": 1.306212458838278,
+        "route_edges": 7,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 2.051606890497491,
+          "FROZEN_INFERRED_REGION": 1.306212458838278,
+          "EXACT_REGION_PORTAL": 0.0
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-CONTROL-2": {
+        "status": "ROUTED",
+        "length_m": 8.518328851356767,
+        "inferred_m": 8.023588519604843,
+        "route_edges": 12,
+        "geometry_kind_length_m": {
+          "NEW_GRID_WITHIN_MAPPED_FACE": 0.4947403317519243,
+          "FROZEN_INFERRED_REGION": 8.023588519604843,
+          "EXACT_REGION_PORTAL": 0.0
+        },
+        "endpoint_residual_m": 0.0
+      },
+      "NORTH-CONTROL-3": {
+        "status": "ROUTED",
+        "length_m": 24.93715628050939,
+        "inferred_m": 11.315491872969629,
+        "route_edges": 33,
+        "geometry_kind_length_m": {
+          "EXACT_REGION_PORTAL": 0.0,
+          "FROZEN_INFERRED_REGION": 11.315491872969629,
+          "NEW_GRID_WITHIN_MAPPED_FACE": 13.621664407539763
+        },
+        "endpoint_residual_m": 0.0
+      }
+    },
+    "I-REGION-NET-ABL": {
+      "NORTH-DOOR": {
+        "status": "APPROACH_WITH_GAP",
+        "length_m": 1166.0987072809223,
+        "inferred_m": 0,
+        "route_edges": 78,
+        "geometry_kind_length_m": {
+          "NATIVE_LINEAR": 1166.0987072809223
+        },
+        "endpoint_residual_m": 7.952217589612692
+      },
+      "NORTH-PAIR-1": {
+        "status": "UNAVAILABLE_ENDPOINT",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-2": {
+        "status": "UNAVAILABLE_ENDPOINT",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-3": {
+        "status": "UNAVAILABLE_ENDPOINT",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-4": {
+        "status": "UNAVAILABLE_ENDPOINT",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-1": {
+        "status": "UNAVAILABLE_ENDPOINT",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-2": {
+        "status": "UNAVAILABLE_ENDPOINT",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-3": {
+        "status": "UNAVAILABLE_ENDPOINT",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      }
+    },
+    "B0": {
+      "NORTH-DOOR": {
+        "status": "APPROACH_WITH_GAP",
+        "length_m": 1237.814718494129,
+        "inferred_m": 0,
+        "route_edges": 59,
+        "geometry_kind_length_m": {
+          "NATIVE_LINEAR": 1237.814718494129
+        },
+        "endpoint_residual_m": 7.952217589612692
+      },
+      "NORTH-PAIR-1": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-2": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-3": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-PAIR-4": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-1": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-2": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      },
+      "NORTH-CONTROL-3": {
+        "status": "NO_REGION_GRAPH",
+        "length_m": null,
+        "inferred_m": 0,
+        "route_edges": 0
+      }
+    }
+  },
+  "reused_region_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+  "local_reused_queries": 7,
+  "original_port_pair_queries": 4,
+  "supplemental_exploratory_control_queries": 3,
+  "local_reused_queries_using_inferred": 3,
+  "route_segments_checked": 1418,
+  "preserved_original_exit": {
+    "id": "node/6897145227",
+    "xy": [
+      354344.3888134466,
+      3456163.0891986894
+    ],
+    "wgs84": [
+      121.4706605,
+      31.2305674
+    ],
+    "tags": {
+      "entrance": "exit"
+    },
+    "registered": true,
+    "building_id": "way/161090899"
+  },
+  "field_validation": "NOT_VERIFIED",
+  "unknown_not_observed": true,
+  "external_requests": 0
+}

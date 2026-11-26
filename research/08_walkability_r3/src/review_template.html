@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>R4 WALKABILITY R3 · 局部可步行空间恢复</title>
+<style>
+:root{--ink:#172d35;--soft:#49636b;--paper:#f4f6f3;--white:#fff;--rule:#c6d3d4;--ocean:#145568;--teal:#d5e8de}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 system-ui,"Microsoft YaHei","Noto Sans CJK SC",sans-serif}
+.wrap{width:min(97%,1570px);margin:auto}
+header{padding:24px 0 20px;background:#dcebf1;border-bottom:1px solid #abc4cc}
+h1,h2,h3,p{margin:0}h1{font-size:clamp(25px,4vw,43px);line-height:1.16;margin:4px 0 8px}h2{font-size:24px;line-height:1.2}h3{font-size:16px}
+.eyebrow{font-size:11px;letter-spacing:.15em;font-weight:700;color:var(--soft)}.sub{color:var(--soft);font-size:13px}
+nav{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}nav a{color:var(--ink);background:var(--white);border:1px solid var(--rule);border-radius:5px;padding:7px 11px;text-decoration:none;font-size:14px}nav a[aria-current="page"]{background:#d9e9df;border-color:#79a48f;font-weight:700}
+#figure{padding:12px;background:var(--white);border:1px solid var(--rule);border-radius:7px}
+#intro{margin:4px 0 7px}.controls,.legend,.layers,.quick{display:flex;flex-wrap:wrap;align-items:center;gap:4px 11px}.controls,.legend,.layers{margin:6px 0}
+button,select{font:inherit;font-size:13px;border:1px solid #aebec1;border-radius:4px;background:white;color:var(--ink);padding:3px 8px}
+button{cursor:pointer}button[aria-pressed="true"]{background:var(--teal);border-color:#78a48f;font-weight:700}
+.layers{font-size:12px;padding:3px 7px;background:#edf3f1}.legend{font-size:12px;color:var(--soft)}.swatch{display:inline-block;width:19px;height:8px;margin-right:4px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:9px}.map{border:1px solid var(--rule);min-width:0;border-radius:4px;overflow:hidden;background:#f6f5ee}
+.map h3,.map p{background:white;padding-left:8px;padding-right:8px}.map h3{padding-top:5px}.map p{padding-bottom:5px;font-size:12px;min-height:26px}
+.map svg{display:block;width:100%;aspect-ratio:1.48;background:#f7f6ef;touch-action:none}.map [tabindex]{cursor:pointer}.map [tabindex]:focus{outline:none;filter:drop-shadow(0 0 2px #263253)}
+#metrics{display:flex;flex-wrap:wrap;gap:5px 14px;margin:6px 0;font-size:13px}.metric{border-left:3px solid #a0bcc3;padding:2px 7px;background:#edf3f4}
+#inspect{margin:6px 0;min-height:44px;padding:6px 8px;background:#edf3f4;border-left:3px solid #87a5ad;font-size:13px;overflow-wrap:anywhere}
+#inspect dl{display:grid;grid-template-columns:max-content auto;gap:1px 7px;margin:3px 0 0}#inspect dt{font-weight:600}#inspect dd{margin:0;overflow-wrap:anywhere}
+details{margin:8px 0}summary{cursor:pointer}table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;vertical-align:top;padding:4px 5px;border-bottom:1px solid #dbe3e2}th{background:#e8eeec}.table{overflow:auto;max-height:310px}.small{font-size:11px;color:var(--soft);margin:5px 0 0}
+footer{padding:8px 0 20px}.quick a{color:var(--ocean)}
+body.capture .controls,body.capture .layers,body.capture #inspect,body.capture details{display:none}body.capture.capture-route details{display:block}body.capture.capture-route details summary{display:none}
+@media(max-width:780px){.pair{grid-template-columns:1fr}.map p{min-height:0}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><p class="eyebrow">OSM · R4-WALKABILITY-R3</p><h1>局部可步行空间恢复</h1><p class="sub">用同一片冻结区域连接多个外围接点。逐单元记录原生、推断、受限和未知，完整路线在区域冻结后计算。</p></div></header>
+<main class="wrap">
+<nav aria-label="六张地图">
+<a href="#grass" data-figure="grass">01 草地原生步道</a>
+<a href="#region" data-figure="region">02 北门区域分类</a>
+<a href="#pairs" data-figure="pairs">03 同区多端点</a>
+<a href="#mask" data-figure="mask">04 受控遮蔽</a>
+<a href="#limits" data-figure="limits">05 障碍与未知</a>
+<a href="#route" data-figure="route">06 完整路线分层</a>
+</nav>
+<section id="figure" aria-label="地图比较">
+<h2 id="title"></h2><p id="intro" class="sub"></p>
+<div id="controls" class="controls">
+<div id="choices" class="controls"></div>
+<button type="button" data-view="near" aria-pressed="true">近景</button><button type="button" data-view="full" aria-pressed="false">全景</button>
+<button type="button" id="plus" aria-label="同步放大">＋</button><button type="button" id="minus" aria-label="同步缩小">－</button><button type="button" id="reset">重置</button>
+</div>
+<div id="layers" class="layers"></div><div id="legend" class="legend"></div>
+<div class="pair">
+<article class="map"><h3 id="left-title"></h3><p id="left-note"></p><svg id="left-map" aria-label="左侧地图" role="group" xmlns="http://www.w3.org/2000/svg"></svg></article>
+<article class="map"><h3 id="right-title"></h3><p id="right-note"></p><svg id="right-map" aria-label="右侧地图" role="group" xmlns="http://www.w3.org/2000/svg"></svg></article>
+</div>
+<div id="metrics"></div>
+<aside id="inspect" aria-live="polite">点选区域、接点、路线或底图对象查看来源及判定。</aside>
+<div id="detail"></div>
+<p class="small" id="map-source">© OpenStreetMap contributors · 冻结地图 · WGS84 导出，EPSG:32651 制图</p>
+</section>
+<footer class="quick"><a href="../RESULTS.md">实测结果</a><a href="../REGION_RECONSTRUCTION.md">区域恢复</a><a href="../audits/INDEPENDENT_REVIEW.md">独立复核</a><span class="small">现场通行与连续楼层仍需验证。欢迎直接指出地图中的对象和位置。</span></footer>
+</main>
+<script type="application/json" id="payload">__PAYLOAD__</script><script>__SCRIPT__</script>
+</body>
+</html>

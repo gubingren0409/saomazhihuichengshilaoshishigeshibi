@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "task_id": "W0caca58bc41",
+  "scope": "Python open audit hook and minimal input data mirror; not OS isolation",
+  "originals": 3,
+  "alternate": 1,
+  "surface_sha256": "cb8553ba00085918c947b54ec110433c70878522fcdfe2fffa6e99f5bb0cfc52",
+  "surface_byte_identical": true,
+  "data_reads_and_writes": [
+    {
+      "path": "observed/W0caca58bc41.json",
+      "access": "read"
+    },
+    {
+      "path": "locked/data/benchmark_predictions/W0caca58bc41_I-REGION.geojson",
+      "access": "write"
+    },
+    {
+      "path": "locked/data/benchmark_predictions/W0caca58bc41_I-REGION.geojson",
+      "access": "read"
+    },
+    {
+      "path": "queries/W0caca58bc41.json",
+      "access": "read"
+    },
+    {
+      "path": "locked/runs/benchmark/W0caca58bc41.json",
+      "access": "write"
+    },
+    {
+      "path": "observed/W0caca58bc41.json",
+      "access": "read"
+    },
+    {
+      "path": "alternate/data/benchmark_predictions/W0caca58bc41_I-REGION.geojson",
+      "access": "write"
+    },
+    {
+      "path": "alternate/data/benchmark_predictions/W0caca58bc41_I-REGION.geojson",
+      "access": "read"
+    },
+    {
+      "path": "changed/queries/W0caca58bc41.json",
+      "access": "read"
+    },
+    {
+      "path": "alternate/runs/benchmark/W0caca58bc41.json",
+      "access": "write"
+    }
+  ],
+  "actual_reference_reads": 0,
+  "external_requests": 0
+}

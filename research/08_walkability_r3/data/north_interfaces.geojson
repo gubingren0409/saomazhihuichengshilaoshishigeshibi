@@ -1,0 +1,556 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47066050000001,
+          31.230567400000012
+        ]
+      },
+      "properties": {
+        "role": "registered_exit",
+        "id": "node/6897145227",
+        "source_id": "node/6897145227",
+        "tags": {
+          "entrance": "exit"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.46716129999999,
+          31.230940800000003
+        ]
+      },
+      "properties": {
+        "role": "start",
+        "id": "node/476682043",
+        "source_id": "node/476682043"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4705149467006,
+          31.23055133175121
+        ]
+      },
+      "properties": {
+        "role": "query_endpoint",
+        "id": "control/interior/A",
+        "source_id": "control/interior/A",
+        "interpretation": "CONTROL_POINT_NOT_ENTRANCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47071321822546,
+          31.230625861509054
+        ]
+      },
+      "properties": {
+        "role": "query_endpoint",
+        "id": "control/interior/B",
+        "source_id": "control/interior/B",
+        "interpretation": "CONTROL_POINT_NOT_ENTRANCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47048980000001,
+          31.2305484
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION",
+        "id": "node/1890862817",
+        "xy": [
+          354328.1002420535,
+          3456161.208182979
+        ],
+        "source_id": "way/178719573",
+        "source_ids": [
+          "way/178719573"
+        ],
+        "cell_id": "cell/354328/3456161/600",
+        "distance_to_inferred_m": 0.0,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47076090000002,
+          31.230720100000006
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION",
+        "id": "node/1890877346",
+        "xy": [
+          354354.18634582916,
+          3456179.883232214
+        ],
+        "source_id": "way/178719573",
+        "source_ids": [
+          "way/178719573"
+        ],
+        "cell_id": "cell/354354/3456179/2288",
+        "distance_to_inferred_m": 0.0,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47073297628737,
+          31.23070277846407
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION",
+        "id": "grid/relation/2153738/708703/6912356",
+        "xy": [
+          354351.5,
+          3456178.0
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354351/3456177/2089",
+        "distance_to_inferred_m": 0.032462313817236584,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47069660164986,
+          31.23067979228874
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION",
+        "id": "grid/relation/2153738/708696/6912351",
+        "xy": [
+          354348.0,
+          3456175.5
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354348/3456175/1886",
+        "distance_to_inferred_m": 0.03705721992344574,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47066022703022,
+          31.23065680610361
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION",
+        "id": "grid/relation/2153738/708689/6912346",
+        "xy": [
+          354344.5,
+          3456173.0
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354344/3456172/1621",
+        "distance_to_inferred_m": 0.0416521259071826,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47062385242839,
+          31.230633819908686
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION",
+        "id": "grid/relation/2153738/708682/6912341",
+        "xy": [
+          354341.0,
+          3456170.5
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354341/3456170/1427",
+        "distance_to_inferred_m": 0.04624703182385202,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47058747784438,
+          31.23061083370395
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION",
+        "id": "grid/relation/2153738/708675/6912336",
+        "xy": [
+          354337.5,
+          3456168.0
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354337/3456167/1170",
+        "distance_to_inferred_m": 0.05084193793560685,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47055110327823,
+          31.230587847489428
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION",
+        "id": "grid/relation/2153738/708668/6912331",
+        "xy": [
+          354334.0,
+          3456165.5
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354334/3456165/980",
+        "distance_to_inferred_m": 0.05543684408970913,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47051990433377,
+          31.230569433537156
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION",
+        "id": "grid/relation/2153738/708662/6912327",
+        "xy": [
+          354331.0,
+          3456163.5
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354331/3456163/786",
+        "distance_to_inferred_m": 0.17553420246557683,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47048980000001,
+          31.2305484
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION-ABL",
+        "id": "node/1890862817",
+        "xy": [
+          354328.1002420535,
+          3456161.208182979
+        ],
+        "source_id": "way/178719573",
+        "source_ids": [
+          "way/178719573"
+        ],
+        "cell_id": "cell/354328/3456161/600",
+        "distance_to_inferred_m": 0.0,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47076090000002,
+          31.230720100000006
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION-ABL",
+        "id": "node/1890877346",
+        "xy": [
+          354354.18634582916,
+          3456179.883232214
+        ],
+        "source_id": "way/178719573",
+        "source_ids": [
+          "way/178719573"
+        ],
+        "cell_id": "cell/354354/3456179/2288",
+        "distance_to_inferred_m": 0.0,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47073297628737,
+          31.23070277846407
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION-ABL",
+        "id": "grid/relation/2153738/708703/6912356",
+        "xy": [
+          354351.5,
+          3456178.0
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354351/3456177/2089",
+        "distance_to_inferred_m": 0.032462313817236584,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47069660164986,
+          31.23067979228874
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION-ABL",
+        "id": "grid/relation/2153738/708696/6912351",
+        "xy": [
+          354348.0,
+          3456175.5
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354348/3456175/1886",
+        "distance_to_inferred_m": 0.03705721992344574,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47066022703022,
+          31.23065680610361
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION-ABL",
+        "id": "grid/relation/2153738/708689/6912346",
+        "xy": [
+          354344.5,
+          3456173.0
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354344/3456172/1621",
+        "distance_to_inferred_m": 0.0416521259071826,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47062385242839,
+          31.230633819908686
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION-ABL",
+        "id": "grid/relation/2153738/708682/6912341",
+        "xy": [
+          354341.0,
+          3456170.5
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354341/3456170/1427",
+        "distance_to_inferred_m": 0.04624703182385202,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47058747784438,
+          31.23061083370395
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION-ABL",
+        "id": "grid/relation/2153738/708675/6912336",
+        "xy": [
+          354337.5,
+          3456168.0
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354337/3456167/1170",
+        "distance_to_inferred_m": 0.05084193793560685,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47055110327823,
+          31.230587847489428
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION-ABL",
+        "id": "grid/relation/2153738/708668/6912331",
+        "xy": [
+          354334.0,
+          3456165.5
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354334/3456165/980",
+        "distance_to_inferred_m": 0.05543684408970913,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47051990433377,
+          31.230569433537156
+        ]
+      },
+      "properties": {
+        "role": "network_interface",
+        "variant": "I-REGION-ABL",
+        "id": "grid/relation/2153738/708662/6912327",
+        "xy": [
+          354331.0,
+          3456163.5
+        ],
+        "source_id": "relation/2153738",
+        "source_ids": [
+          "relation/2153738"
+        ],
+        "cell_id": "cell/354331/3456163/786",
+        "distance_to_inferred_m": 0.17553420246557683,
+        "unknown_m": 0,
+        "evidence": "EXISTING_NETWORK_NODE_WITH_FULLY_MEASURED_REGION_STITCH"
+      }
+    }
+  ]
+}

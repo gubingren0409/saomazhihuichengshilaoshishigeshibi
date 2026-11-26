@@ -1,0 +1,304 @@
+{
+  "status": "S1_FROZEN_INDEPENDENT_CHECK_PASS",
+  "crs": "EPSG:32651",
+  "actor": "/root/r3_s_audit",
+  "original_policy_replay": "R2 src.run_semantics --output-root in R3 only",
+  "read_method": "frozen OSM parser + frozen pre-S native graph builder; independent grass/hard/permission classifier and directed topology reconstruction",
+  "graph_scope": "Non-grass S0/S1 decisions replayed from S table; every independently found eligible grass intersection recomputed",
+  "source_hashes": {
+    "inputs/north/runs/experiment.json": "024551aa0c2a2f348065c0be2f674ba81104532daa3ad3b7fd78d580a048f41d",
+    "inputs/rev1/frozen_r4/runs/source_scene_contracts.json": "47727aab1f2b36880c36052abdcdc200eb6121a80f2c6123c0f98872b0278191",
+    "runs/semantics.json": "89db823d49c1554728c5ed9c4164fad536da195c2668322199b068bef1719618",
+    "data/semantics_edges.csv": "be0d1393c5f3a6fad291b0be2030ea48315502f0cf56cb4bc17ecfb834470bfa",
+    "data/semantics_routes.geojson": "f77b22f5329cc16722fa2feef72626550d2fc0dbc7ae886934bdc28c21dc7480",
+    "src/semantics.py": "cc1ef6fbb5a7b6391361176e67ec561dbfd95002ead32d23dc95acf96c6fb11f",
+    "src/run_semantics.py": "d9747fe82f8fe81d9b6c71a451dc38ddc1cbfd5d99b618c4c78503f0340b726b",
+    "inputs/rev1/frozen_r4/src/frozen_r1/local_route.py": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f"
+  },
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "raw_clip": "data/source/sh-huangpu-01.osm.json",
+      "raw_clip_bytes": 6356390,
+      "raw_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "native_candidate_segments": 7113,
+      "independently_detected_grass_overlap_segments": 297,
+      "admissible_grass_walkway_segments": 291,
+      "retained_admissible_grass_walkway_segments": 291,
+      "grass_restricted_segments": 6,
+      "hard_reason_rows_from_replayed_audit": {
+        "MAPPED_BARRIER_CONFLICT": 19,
+        "MAPPED_BUILDING_CONFLICT": 60,
+        "NO_MAPPED_WALKWAY_OVER_GRASS": 6,
+        "MAPPED_WATER_CONFLICT": 5
+      },
+      "unmapped_obstacle_ids_no_coordinates": 0,
+      "graph": {
+        "S0": {
+          "nodes": 6482,
+          "directed_edges": 13652,
+          "weak_components": 154,
+          "largest_weak_component": 4964,
+          "reachable_nodes": 4964
+        },
+        "S1": {
+          "nodes": 6725,
+          "directed_edges": 14234,
+          "weak_components": 148,
+          "largest_weak_component": 5258,
+          "reachable_nodes": 5258
+        }
+      }
+    },
+    {
+      "scene_id": "sh-wukang",
+      "raw_clip": "data/source/sh-wukang.osm.json",
+      "raw_clip_bytes": 4696108,
+      "raw_clip_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "native_candidate_segments": 2639,
+      "independently_detected_grass_overlap_segments": 19,
+      "admissible_grass_walkway_segments": 19,
+      "retained_admissible_grass_walkway_segments": 19,
+      "grass_restricted_segments": 0,
+      "hard_reason_rows_from_replayed_audit": {
+        "MAPPED_BUILDING_CONFLICT": 35
+      },
+      "unmapped_obstacle_ids_no_coordinates": 0,
+      "graph": {
+        "S0": {
+          "nodes": 2575,
+          "directed_edges": 5208,
+          "weak_components": 136,
+          "largest_weak_component": 1050,
+          "reachable_nodes": 1050
+        },
+        "S1": {
+          "nodes": 2591,
+          "directed_edges": 5246,
+          "weak_components": 133,
+          "largest_weak_component": 1064,
+          "reachable_nodes": 1064
+        }
+      }
+    },
+    {
+      "scene_id": "sh-tower",
+      "raw_clip": "data/source/sh-tower.osm.json",
+      "raw_clip_bytes": 5190923,
+      "raw_clip_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "native_candidate_segments": 8747,
+      "independently_detected_grass_overlap_segments": 69,
+      "admissible_grass_walkway_segments": 62,
+      "retained_admissible_grass_walkway_segments": 62,
+      "grass_restricted_segments": 7,
+      "hard_reason_rows_from_replayed_audit": {
+        "MAPPED_BUILDING_CONFLICT": 183,
+        "MAPPED_BARRIER_CONFLICT": 16,
+        "MAPPED_WATER_CONFLICT": 18,
+        "NO_MAPPED_WALKWAY_OVER_GRASS": 7,
+        "EXPLICIT_LEVEL_CONFLICT": 1
+      },
+      "unmapped_obstacle_ids_no_coordinates": 0,
+      "graph": {
+        "S0": {
+          "nodes": 8106,
+          "directed_edges": 16832,
+          "weak_components": 233,
+          "largest_weak_component": 3673,
+          "reachable_nodes": 3673
+        },
+        "S1": {
+          "nodes": 8149,
+          "directed_edges": 16956,
+          "weak_components": 221,
+          "largest_weak_component": 3761,
+          "reachable_nodes": 3761
+        }
+      }
+    },
+    {
+      "scene_id": "sh-newworld",
+      "raw_clip": "data/source/sh-newworld.osm.json",
+      "raw_clip_bytes": 5472235,
+      "raw_clip_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "native_candidate_segments": 5854,
+      "independently_detected_grass_overlap_segments": 301,
+      "admissible_grass_walkway_segments": 295,
+      "retained_admissible_grass_walkway_segments": 295,
+      "grass_restricted_segments": 6,
+      "hard_reason_rows_from_replayed_audit": {
+        "MAPPED_BUILDING_CONFLICT": 28,
+        "MAPPED_BARRIER_CONFLICT": 22,
+        "NO_MAPPED_WALKWAY_OVER_GRASS": 6,
+        "MAPPED_WATER_CONFLICT": 5
+      },
+      "unmapped_obstacle_ids_no_coordinates": 0,
+      "graph": {
+        "S0": {
+          "nodes": 5334,
+          "directed_edges": 11136,
+          "weak_components": 128,
+          "largest_weak_component": 4358,
+          "reachable_nodes": 4358
+        },
+        "S1": {
+          "nodes": 5583,
+          "directed_edges": 11726,
+          "weak_components": 122,
+          "largest_weak_component": 4658,
+          "reachable_nodes": 4658
+        }
+      }
+    },
+    {
+      "scene_id": "sh-library",
+      "raw_clip": "data/source/sh-library.osm.json",
+      "raw_clip_bytes": 5725501,
+      "raw_clip_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "native_candidate_segments": 3251,
+      "independently_detected_grass_overlap_segments": 13,
+      "admissible_grass_walkway_segments": 13,
+      "retained_admissible_grass_walkway_segments": 13,
+      "grass_restricted_segments": 0,
+      "hard_reason_rows_from_replayed_audit": {
+        "MAPPED_BUILDING_CONFLICT": 28,
+        "MAPPED_BARRIER_CONFLICT": 2
+      },
+      "unmapped_obstacle_ids_no_coordinates": 0,
+      "graph": {
+        "S0": {
+          "nodes": 3163,
+          "directed_edges": 6460,
+          "weak_components": 161,
+          "largest_weak_component": 1605,
+          "reachable_nodes": 1605
+        },
+        "S1": {
+          "nodes": 3175,
+          "directed_edges": 6486,
+          "weak_components": 160,
+          "largest_weak_component": 1605,
+          "reachable_nodes": 1605
+        }
+      }
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "raw_clip": "data/source/sh-exhibition.osm.json",
+      "raw_clip_bytes": 5229388,
+      "raw_clip_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "native_candidate_segments": 3473,
+      "independently_detected_grass_overlap_segments": 9,
+      "admissible_grass_walkway_segments": 9,
+      "retained_admissible_grass_walkway_segments": 9,
+      "grass_restricted_segments": 0,
+      "hard_reason_rows_from_replayed_audit": {
+        "MAPPED_BARRIER_CONFLICT": 16,
+        "MAPPED_BUILDING_CONFLICT": 22,
+        "EXPLICIT_LEVEL_CONFLICT": 3,
+        "MAPPED_WATER_CONFLICT": 1
+      },
+      "unmapped_obstacle_ids_no_coordinates": 0,
+      "graph": {
+        "S0": {
+          "nodes": 3421,
+          "directed_edges": 6900,
+          "weak_components": 162,
+          "largest_weak_component": 824,
+          "reachable_nodes": 78
+        },
+        "S1": {
+          "nodes": 3421,
+          "directed_edges": 6918,
+          "weak_components": 162,
+          "largest_weak_component": 824,
+          "reachable_nodes": 78
+        }
+      }
+    }
+  ],
+  "four_raw_source_ways": {
+    "way/178722057": {
+      "segment_count": 13,
+      "grass_overlap_m": 78.69207252819115
+    },
+    "way/178723091": {
+      "segment_count": 17,
+      "grass_overlap_m": 38.228166332273204
+    },
+    "way/178725152": {
+      "segment_count": 14,
+      "grass_overlap_m": 85.2942910330866
+    },
+    "way/178725158": {
+      "segment_count": 15,
+      "grass_overlap_m": 80.55957158090419
+    }
+  },
+  "verified_raw_grass_contacts": 708,
+  "clip_restored_rows": 689,
+  "original_identity_dedup": 377,
+  "geometry_dedup": 377,
+  "restored_native_m": 4158.6023523160275,
+  "restored_grass_overlap_m": 3326.2783266807014,
+  "recovered_directed_arcs_dedup": 754,
+  "known_conflict_rejections_in_replayed_table": {
+    "MAPPED_BARRIER_CONFLICT": 75,
+    "MAPPED_BUILDING_CONFLICT": 356,
+    "NO_MAPPED_WALKWAY_OVER_GRASS": 19,
+    "MAPPED_WATER_CONFLICT": 29,
+    "EXPLICIT_LEVEL_CONFLICT": 4
+  },
+  "source_ground_caveat": "grass exception does not imply free walking through grass; accepted structures retain native elevations",
+  "B0_and_S1_same_endpoint_recomputed": {
+    "S0": {
+      "north_fixed_m": 1237.814718494129,
+      "south_m": 1067.3713904011072,
+      "exit_reached": false,
+      "start_native_id": "node/476682043",
+      "start_wgs84": [
+        121.4671613,
+        31.2309408
+      ],
+      "fixed_approach_wgs84": [
+        121.470610971602,
+        31.23062514364944
+      ],
+      "south_native_id": "node/6897141353",
+      "north_exit_native_id": "node/6897145227",
+      "north_exit_tags": {
+        "entrance": "exit"
+      },
+      "north_exit_wgs84": [
+        121.4706605,
+        31.2305674
+      ]
+    },
+    "S1": {
+      "north_fixed_m": 1166.0987072809223,
+      "south_m": 1067.3713904011072,
+      "exit_reached": false,
+      "start_native_id": "node/476682043",
+      "start_wgs84": [
+        121.4671613,
+        31.2309408
+      ],
+      "fixed_approach_wgs84": [
+        121.470610971602,
+        31.23062514364944
+      ],
+      "south_native_id": "node/6897141353",
+      "north_exit_native_id": "node/6897145227",
+      "north_exit_tags": {
+        "entrance": "exit"
+      },
+      "north_exit_wgs84": [
+        121.4706605,
+        31.2305674
+      ]
+    }
+  },
+  "fixed_north_reduction_m": 71.71601121320668,
+  "field_verified": 0,
+  "external_requests": 0
+}

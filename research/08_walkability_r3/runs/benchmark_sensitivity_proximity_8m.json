@@ -1,0 +1,1428 @@
+{
+  "status": "INDEPENDENT_SCORE_COMPLETE",
+  "benchmark_sha256": "6d879901a8ab9838382837ccbb0574f1c863f9df976ac54ce4583b99a4228b44",
+  "protocol_sha256": "9765dcf77a8b3d14564f405cd8d416aaa8c33df718718f265c593e6621441401",
+  "counts": [
+    {
+      "split": "confirmation",
+      "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+      "n": 2
+    },
+    {
+      "split": "confirmation",
+      "case_type": "LINE_MASK_NO_AREA_SUPPORT",
+      "n": 1
+    },
+    {
+      "split": "confirmation",
+      "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "n": 3
+    },
+    {
+      "split": "confirmation",
+      "case_type": "MAPPED_OBSTACLE_NEGATIVE",
+      "n": 2
+    },
+    {
+      "split": "development",
+      "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+      "n": 4
+    },
+    {
+      "split": "development",
+      "case_type": "LINE_MASK_NO_AREA_SUPPORT",
+      "n": 2
+    },
+    {
+      "split": "development",
+      "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "n": 4
+    },
+    {
+      "split": "development",
+      "case_type": "MAPPED_OBSTACLE_NEGATIVE",
+      "n": 2
+    },
+    {
+      "split": "selection",
+      "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+      "n": 1
+    },
+    {
+      "split": "selection",
+      "case_type": "LINE_MASK_NO_AREA_SUPPORT",
+      "n": 2
+    },
+    {
+      "split": "selection",
+      "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "n": 2
+    }
+  ],
+  "runs": [
+    {
+      "task_id": "W2b809bbe6b8",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "label": "POSITIVE",
+      "source_ids": [
+        "relation/2153738"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 0.0,
+          "INFERRED_WALKABLE": 18.88267262993325,
+          "RESTRICTED": 1865.8809049262404,
+          "UNKNOWN": 941.5344637071069
+        },
+        "unknown_fraction": 0.3331334664503093,
+        "inferred_m2": 18.88267262993325,
+        "hard_expansion_m2": 0.0,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 18.882672629933253,
+        "inferred_park_outside_positive_reference_m2": 0.0,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": null,
+        "inferred_centerline_coverage": null,
+        "reference_length_m": null,
+        "reference_area_m2": 960.4171363344,
+        "overlap_m2": 18.88267262984038,
+        "area_recall": 0.019660907657176343,
+        "reference_boundary_p90_m": 27.05295142840249,
+        "inferred_boundary_p90_m": 2.109725197591434,
+        "outside_reference_m2": 0.0,
+        "negative_false_inferred": null,
+        "proxy_widths": []
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "NO_PATH",
+          "reached": false,
+          "valid_reached": false,
+          "length_m": null,
+          "cost_m": null,
+          "layer_lengths_m": {},
+          "residual_m": 27.705170688295805,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "a930444534940fb0c7f8a94aaf1729fbf1dcae48484142c810d08b038901a6f0"
+        },
+        {
+          "query_id": "Q2",
+          "status": "NO_PATH",
+          "reached": false,
+          "valid_reached": false,
+          "length_m": null,
+          "cost_m": null,
+          "layer_lengths_m": {},
+          "residual_m": 24.749031019798988,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "a930444534940fb0c7f8a94aaf1729fbf1dcae48484142c810d08b038901a6f0"
+        }
+      ],
+      "interfaces": 1,
+      "region_graph": {
+        "active_cells": 24,
+        "interface_candidates": 2,
+        "interface_rejected": 1,
+        "internal_arcs": 74,
+        "components": 1,
+        "interface_count": 1,
+        "interface_candidates_not_selected": 1
+      },
+      "peak_working_set_bytes": 80609280,
+      "elapsed_s": 2.51521750000029
+    },
+    {
+      "task_id": "W0caca58bc41",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "label": "POSITIVE",
+      "source_ids": [
+        "way/178721645"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 0.0,
+          "INFERRED_WALKABLE": 21.99999999901047,
+          "RESTRICTED": 1561.685226311992,
+          "UNKNOWN": 1242.6128149510498
+        },
+        "unknown_fraction": 0.4396609263460733,
+        "inferred_m2": 21.99999999901047,
+        "hard_expansion_m2": 0.0,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 21.99999999901047,
+        "inferred_park_outside_positive_reference_m2": 21.99999999901047,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": null,
+        "inferred_centerline_coverage": null,
+        "reference_length_m": null,
+        "reference_area_m2": 252.54555946829086,
+        "overlap_m2": 0.0,
+        "area_recall": 0.0,
+        "reference_boundary_p90_m": 29.31855971289991,
+        "inferred_boundary_p90_m": 24.341707500142608,
+        "outside_reference_m2": 21.99999999901047,
+        "negative_false_inferred": null,
+        "proxy_widths": []
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "NO_PATH",
+          "reached": false,
+          "valid_reached": false,
+          "length_m": null,
+          "cost_m": null,
+          "layer_lengths_m": {},
+          "residual_m": 26.901277156821177,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "612d6829c10063c862bb41d23eaab3dd952e5aa3c159ec98315f2fedd164ec3f"
+        },
+        {
+          "query_id": "Q2",
+          "status": "NO_PATH",
+          "reached": false,
+          "valid_reached": false,
+          "length_m": null,
+          "cost_m": null,
+          "layer_lengths_m": {},
+          "residual_m": 20.526401888987134,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "612d6829c10063c862bb41d23eaab3dd952e5aa3c159ec98315f2fedd164ec3f"
+        },
+        {
+          "query_id": "Q3",
+          "status": "NO_PATH",
+          "reached": false,
+          "valid_reached": false,
+          "length_m": null,
+          "cost_m": null,
+          "layer_lengths_m": {},
+          "residual_m": 28.550011848961898,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "612d6829c10063c862bb41d23eaab3dd952e5aa3c159ec98315f2fedd164ec3f"
+        }
+      ],
+      "interfaces": 1,
+      "region_graph": {
+        "active_cells": 22,
+        "interface_candidates": 5,
+        "interface_rejected": 1,
+        "internal_arcs": 56,
+        "components": 2,
+        "interface_count": 1,
+        "interface_candidates_not_selected": 4
+      },
+      "peak_working_set_bytes": 79200256,
+      "elapsed_s": 2.097928299999694
+    },
+    {
+      "task_id": "W7a6b5a10076",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "label": "POSITIVE",
+      "source_ids": [
+        "relation/2385771"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 0.0,
+          "INFERRED_WALKABLE": 0.0,
+          "RESTRICTED": 395.0090548602145,
+          "UNKNOWN": 2431.2889863986456
+        },
+        "unknown_fraction": 0.8602380042387885,
+        "inferred_m2": 0.0,
+        "hard_expansion_m2": 0.0,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 0.0,
+        "inferred_park_outside_positive_reference_m2": 0.0,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": null,
+        "inferred_centerline_coverage": null,
+        "reference_length_m": null,
+        "reference_area_m2": 1296.604320316284,
+        "overlap_m2": 0.0,
+        "area_recall": 0.0,
+        "reference_boundary_p90_m": null,
+        "inferred_boundary_p90_m": null,
+        "outside_reference_m2": 0.0,
+        "negative_false_inferred": null,
+        "proxy_widths": []
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "NO_PATH",
+          "reached": false,
+          "valid_reached": false,
+          "length_m": null,
+          "cost_m": null,
+          "layer_lengths_m": {},
+          "residual_m": 19.518771172840687,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "1f869e32dcd2942afb81845dca053e56f8ddad6ad526bb4105163fb11d6f0444"
+        },
+        {
+          "query_id": "Q2",
+          "status": "NO_PATH",
+          "reached": false,
+          "valid_reached": false,
+          "length_m": null,
+          "cost_m": null,
+          "layer_lengths_m": {},
+          "residual_m": 21.277298314459376,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "1f869e32dcd2942afb81845dca053e56f8ddad6ad526bb4105163fb11d6f0444"
+        }
+      ],
+      "interfaces": 0,
+      "region_graph": {
+        "active_cells": 0,
+        "interface_candidates": 0,
+        "interface_rejected": 0,
+        "internal_arcs": 0,
+        "components": 0,
+        "interface_count": 0,
+        "interface_candidates_not_selected": 0
+      },
+      "peak_working_set_bytes": 80662528,
+      "elapsed_s": 2.258346500000698
+    },
+    {
+      "task_id": "Wc4183046a70",
+      "group": "sh-library",
+      "split": "development",
+      "kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "label": "POSITIVE",
+      "source_ids": [
+        "way/1160136226"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 0.0,
+          "INFERRED_WALKABLE": 0.0,
+          "RESTRICTED": 0.0,
+          "UNKNOWN": 2826.2980412533584
+        },
+        "unknown_fraction": 0.9999999999971786,
+        "inferred_m2": 0.0,
+        "hard_expansion_m2": 0.0,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 0.0,
+        "inferred_park_outside_positive_reference_m2": 0.0,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": null,
+        "inferred_centerline_coverage": null,
+        "reference_length_m": null,
+        "reference_area_m2": 446.0985785644766,
+        "overlap_m2": 0.0,
+        "area_recall": 0.0,
+        "reference_boundary_p90_m": null,
+        "inferred_boundary_p90_m": null,
+        "outside_reference_m2": 0.0,
+        "negative_false_inferred": null,
+        "proxy_widths": []
+      },
+      "routes": [],
+      "interfaces": 0,
+      "region_graph": {
+        "active_cells": 0,
+        "interface_candidates": 0,
+        "interface_rejected": 0,
+        "internal_arcs": 0,
+        "components": 0,
+        "interface_count": 0,
+        "interface_candidates_not_selected": 0
+      },
+      "peak_working_set_bytes": 79884288,
+      "elapsed_s": 1.6933238000001438
+    },
+    {
+      "task_id": "W71107d26ecd",
+      "group": "sh-library",
+      "split": "development",
+      "kind": "LINE_MASK_NO_AREA_SUPPORT",
+      "label": "POSITIVE",
+      "source_ids": [
+        "way/1219527812"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 0.0,
+          "INFERRED_WALKABLE": 0.0,
+          "RESTRICTED": 1591.6310603556292,
+          "UNKNOWN": 1234.666980919221
+        },
+        "unknown_fraction": 0.4368495335220232,
+        "inferred_m2": 0.0,
+        "hard_expansion_m2": 0.0,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 0.0,
+        "inferred_park_outside_positive_reference_m2": null,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": 0.0,
+        "inferred_centerline_coverage": 0.0,
+        "reference_length_m": 15.384175645985245,
+        "reference_area_m2": null,
+        "overlap_m2": null,
+        "area_recall": null,
+        "reference_boundary_p90_m": null,
+        "inferred_boundary_p90_m": null,
+        "outside_reference_m2": null,
+        "negative_false_inferred": null,
+        "proxy_widths": [
+          {
+            "proxy_buffer_radius_m": 0.5,
+            "proxy_area_m2": 15.384175646641857,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          },
+          {
+            "proxy_buffer_radius_m": 1.0,
+            "proxy_area_m2": 30.768351293283708,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          },
+          {
+            "proxy_buffer_radius_m": 2.0,
+            "proxy_area_m2": 61.53670258656743,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          }
+        ]
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "UNAVAILABLE_ENDPOINT",
+          "reached": false,
+          "valid_reached": false,
+          "length_m": null,
+          "cost_m": null,
+          "layer_lengths_m": {},
+          "residual_m": 15.384175645985245,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "f9eea42be276c898b634856b321cfae7dc4b661d71d56bea67259b2988dcc2c7"
+        }
+      ],
+      "interfaces": 0,
+      "region_graph": {
+        "active_cells": 0,
+        "interface_candidates": 0,
+        "interface_rejected": 0,
+        "internal_arcs": 0,
+        "components": 0,
+        "interface_count": 0,
+        "interface_candidates_not_selected": 0
+      },
+      "peak_working_set_bytes": 81043456,
+      "elapsed_s": 2.231555500000468
+    },
+    {
+      "task_id": "W9ec65a55fde",
+      "group": "sh-library",
+      "split": "development",
+      "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "label": "POSITIVE",
+      "source_ids": [
+        "way/1160136222"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 697.6102049115482,
+          "INFERRED_WALKABLE": 514.1347939884707,
+          "RESTRICTED": 117.61184836451434,
+          "UNKNOWN": 1496.9411940023253
+        },
+        "unknown_fraction": 0.5296473238661922,
+        "inferred_m2": 514.1347939884707,
+        "hard_expansion_m2": 1.4095503209727786e-10,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 0.0,
+        "inferred_park_outside_positive_reference_m2": null,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": 1.0,
+        "inferred_centerline_coverage": 0.0,
+        "reference_length_m": 10.680882713012556,
+        "reference_area_m2": null,
+        "overlap_m2": null,
+        "area_recall": null,
+        "reference_boundary_p90_m": null,
+        "inferred_boundary_p90_m": null,
+        "outside_reference_m2": null,
+        "negative_false_inferred": null,
+        "proxy_widths": [
+          {
+            "proxy_buffer_radius_m": 0.5,
+            "proxy_area_m2": 10.680882712415313,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          },
+          {
+            "proxy_buffer_radius_m": 1.0,
+            "proxy_area_m2": 21.361765423786945,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          },
+          {
+            "proxy_buffer_radius_m": 2.0,
+            "proxy_area_m2": 42.723530854024666,
+            "overlap_m2": 0.01057627067100314,
+            "area_recall": 0.00024755141861143316
+          }
+        ]
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 80.35657862460344,
+          "cost_m": 83.3873006309541,
+          "layer_lengths_m": {
+            "native": 34.977017316010745,
+            "inferred": 6.0614440127013065,
+            "derived": 39.3181172958914
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "dd03e28e3272cfe20e36499a0886fc91e646442fc7cd44c25a438101b0c0e42d"
+        },
+        {
+          "query_id": "Q2",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 96.00533649757489,
+          "cost_m": 99.03605850392555,
+          "layer_lengths_m": {
+            "native": 50.62577518898219,
+            "inferred": 6.0614440127013065,
+            "derived": 39.3181172958914
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "dd03e28e3272cfe20e36499a0886fc91e646442fc7cd44c25a438101b0c0e42d"
+        }
+      ],
+      "interfaces": 6,
+      "region_graph": {
+        "active_cells": 929,
+        "interface_candidates": 9,
+        "interface_rejected": 1,
+        "internal_arcs": 3402,
+        "components": 2,
+        "interface_count": 6,
+        "interface_candidates_not_selected": 3
+      },
+      "peak_working_set_bytes": 81088512,
+      "elapsed_s": 3.6213284999994357
+    },
+    {
+      "task_id": "W363939afb45",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "label": "POSITIVE",
+      "source_ids": [
+        "way/178725157"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 152.84154893082552,
+          "INFERRED_WALKABLE": 0.0,
+          "RESTRICTED": 2673.4564923357284,
+          "UNKNOWN": 0.0
+        },
+        "unknown_fraction": 0.0,
+        "inferred_m2": 0.0,
+        "hard_expansion_m2": 0.0,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 0.0,
+        "inferred_park_outside_positive_reference_m2": null,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": 0.0,
+        "inferred_centerline_coverage": 0.0,
+        "reference_length_m": 19.906751746524233,
+        "reference_area_m2": null,
+        "overlap_m2": null,
+        "area_recall": null,
+        "reference_boundary_p90_m": null,
+        "inferred_boundary_p90_m": null,
+        "outside_reference_m2": null,
+        "negative_false_inferred": null,
+        "proxy_widths": [
+          {
+            "proxy_buffer_radius_m": 0.5,
+            "proxy_area_m2": 19.90675084327592,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          },
+          {
+            "proxy_buffer_radius_m": 1.0,
+            "proxy_area_m2": 39.813499876486624,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          },
+          {
+            "proxy_buffer_radius_m": 2.0,
+            "proxy_area_m2": 79.62699252358071,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          }
+        ]
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "NO_PATH",
+          "reached": false,
+          "valid_reached": false,
+          "length_m": null,
+          "cost_m": null,
+          "layer_lengths_m": {},
+          "residual_m": 19.904464521690258,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "37b3bc99c3534e8c968010ec6084ae4ea328721a64679da2e6708ec5f42d61bc"
+        },
+        {
+          "query_id": "Q2",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 32.66846252332543,
+          "cost_m": 32.66846252332543,
+          "layer_lengths_m": {
+            "native": 32.66846252332543
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "37b3bc99c3534e8c968010ec6084ae4ea328721a64679da2e6708ec5f42d61bc"
+        }
+      ],
+      "interfaces": 0,
+      "region_graph": {
+        "active_cells": 0,
+        "interface_candidates": 0,
+        "interface_rejected": 0,
+        "internal_arcs": 0,
+        "components": 0,
+        "interface_count": 0,
+        "interface_candidates_not_selected": 0
+      },
+      "peak_working_set_bytes": 80248832,
+      "elapsed_s": 1.8809707999989769
+    },
+    {
+      "task_id": "Wacc0185d756",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "label": "POSITIVE",
+      "source_ids": [
+        "way/178801546"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 574.2274852492301,
+          "INFERRED_WALKABLE": 0.0,
+          "RESTRICTED": 2252.0705560055176,
+          "UNKNOWN": 0.0
+        },
+        "unknown_fraction": 0.0,
+        "inferred_m2": 0.0,
+        "hard_expansion_m2": 0.0,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 0.0,
+        "inferred_park_outside_positive_reference_m2": null,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": 0.0,
+        "inferred_centerline_coverage": 0.0,
+        "reference_length_m": 27.31619604094731,
+        "reference_area_m2": null,
+        "overlap_m2": null,
+        "area_recall": null,
+        "reference_boundary_p90_m": null,
+        "inferred_boundary_p90_m": null,
+        "outside_reference_m2": null,
+        "negative_false_inferred": null,
+        "proxy_widths": [
+          {
+            "proxy_buffer_radius_m": 0.5,
+            "proxy_area_m2": 27.316196041084005,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          },
+          {
+            "proxy_buffer_radius_m": 1.0,
+            "proxy_area_m2": 54.632392084815066,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          },
+          {
+            "proxy_buffer_radius_m": 2.0,
+            "proxy_area_m2": 109.2647841669831,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          }
+        ]
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 44.477388729946135,
+          "cost_m": 44.477388729946135,
+          "layer_lengths_m": {
+            "native": 44.477388729946135
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "e78c6731df724af406c700e08c8066afaabf12911f74d22facebdbee6f7d3a2f"
+        },
+        {
+          "query_id": "Q2",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 64.57783979177606,
+          "cost_m": 64.57783979177606,
+          "layer_lengths_m": {
+            "native": 64.57783979177606
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "e78c6731df724af406c700e08c8066afaabf12911f74d22facebdbee6f7d3a2f"
+        }
+      ],
+      "interfaces": 0,
+      "region_graph": {
+        "active_cells": 0,
+        "interface_candidates": 0,
+        "interface_rejected": 0,
+        "internal_arcs": 0,
+        "components": 0,
+        "interface_count": 0,
+        "interface_candidates_not_selected": 0
+      },
+      "peak_working_set_bytes": 81178624,
+      "elapsed_s": 2.136136200000692
+    },
+    {
+      "task_id": "We43ad3502c7",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "label": "POSITIVE",
+      "source_ids": [
+        "way/178801533"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 0.0,
+          "INFERRED_WALKABLE": 105.3287072161353,
+          "RESTRICTED": 0.0,
+          "UNKNOWN": 2720.969334030719
+        },
+        "unknown_fraction": 0.96273262561382,
+        "inferred_m2": 105.3287072161353,
+        "hard_expansion_m2": 0.0,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 105.3287072161353,
+        "inferred_park_outside_positive_reference_m2": null,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": 0.47649097631530385,
+        "inferred_centerline_coverage": 0.47649097631530385,
+        "reference_length_m": 9.950350508642506,
+        "reference_area_m2": null,
+        "overlap_m2": null,
+        "area_recall": null,
+        "reference_boundary_p90_m": null,
+        "inferred_boundary_p90_m": null,
+        "outside_reference_m2": null,
+        "negative_false_inferred": null,
+        "proxy_widths": [
+          {
+            "proxy_buffer_radius_m": 0.5,
+            "proxy_area_m2": 9.950350506800724,
+            "overlap_m2": 4.8129797772320675,
+            "area_recall": 0.48369952133269684
+          },
+          {
+            "proxy_buffer_radius_m": 1.0,
+            "proxy_area_m2": 19.90070101815848,
+            "overlap_m2": 9.640409413233984,
+            "area_recall": 0.4844256191999242
+          },
+          {
+            "proxy_buffer_radius_m": 2.0,
+            "proxy_area_m2": 39.80140203524354,
+            "overlap_m2": 16.988891210623414,
+            "area_recall": 0.42684152672762654
+          }
+        ]
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 14.546755211076649,
+          "cost_m": 14.546755211076649,
+          "layer_lengths_m": {
+            "native": 14.54675521107665
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "4e1940717b6074778b8e61b918d9fde61fc5459454a920a4826d33f8921484c1"
+        },
+        {
+          "query_id": "Q2",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 22.626122762080193,
+          "cost_m": 22.626122762080193,
+          "layer_lengths_m": {
+            "native": 22.626122762080193
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "4e1940717b6074778b8e61b918d9fde61fc5459454a920a4826d33f8921484c1"
+        }
+      ],
+      "interfaces": 4,
+      "region_graph": {
+        "active_cells": 106,
+        "interface_candidates": 8,
+        "interface_rejected": 3,
+        "internal_arcs": 320,
+        "components": 5,
+        "interface_count": 4,
+        "interface_candidates_not_selected": 4
+      },
+      "peak_working_set_bytes": 80257024,
+      "elapsed_s": 2.0908483999992313
+    },
+    {
+      "task_id": "Wae8bd8566f9",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "kind": "LINE_MASK_NO_AREA_SUPPORT",
+      "label": "POSITIVE",
+      "source_ids": [
+        "way/513764741"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 0.0,
+          "INFERRED_WALKABLE": 0.0,
+          "RESTRICTED": 79.45049288336003,
+          "UNKNOWN": 2746.8475483775646
+        },
+        "unknown_fraction": 0.9718888483366354,
+        "inferred_m2": 0.0,
+        "hard_expansion_m2": 0.0,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 0.0,
+        "inferred_park_outside_positive_reference_m2": null,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": 0.0,
+        "inferred_centerline_coverage": 0.0,
+        "reference_length_m": 25.49879897399689,
+        "reference_area_m2": null,
+        "overlap_m2": null,
+        "area_recall": null,
+        "reference_boundary_p90_m": null,
+        "inferred_boundary_p90_m": null,
+        "outside_reference_m2": null,
+        "negative_false_inferred": null,
+        "proxy_widths": [
+          {
+            "proxy_buffer_radius_m": 0.5,
+            "proxy_area_m2": 25.498798965145024,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          },
+          {
+            "proxy_buffer_radius_m": 1.0,
+            "proxy_area_m2": 50.997597953899586,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          },
+          {
+            "proxy_buffer_radius_m": 2.0,
+            "proxy_area_m2": 101.99519590779917,
+            "overlap_m2": 0.0,
+            "area_recall": 0.0
+          }
+        ]
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 92.78503524256153,
+          "cost_m": 92.78503524256153,
+          "layer_lengths_m": {
+            "native": 92.78503524256153
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "606f7aa04fe69c06e61f30ba16c827866065e1431f1e460f9f6772c4b5d044c8"
+        },
+        {
+          "query_id": "Q2",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 10.528099216105009,
+          "cost_m": 10.528099216105009,
+          "layer_lengths_m": {
+            "native": 10.528099216105009
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": null,
+          "surface_sha256": "606f7aa04fe69c06e61f30ba16c827866065e1431f1e460f9f6772c4b5d044c8"
+        }
+      ],
+      "interfaces": 0,
+      "region_graph": {
+        "active_cells": 0,
+        "interface_candidates": 0,
+        "interface_rejected": 0,
+        "internal_arcs": 0,
+        "components": 0,
+        "interface_count": 0,
+        "interface_candidates_not_selected": 0
+      },
+      "peak_working_set_bytes": 79978496,
+      "elapsed_s": 2.082429399999455
+    },
+    {
+      "task_id": "W87f642a7b21",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "kind": "MAPPED_OBSTACLE_NEGATIVE",
+      "label": "NEGATIVE",
+      "source_ids": [
+        "way/178731811"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 0.0,
+          "INFERRED_WALKABLE": 3.009876712745773,
+          "RESTRICTED": 1280.403270732321,
+          "UNKNOWN": 1542.8848938173246
+        },
+        "unknown_fraction": 0.5459031111696767,
+        "inferred_m2": 3.009876712745773,
+        "hard_expansion_m2": 0.0,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 3.009876712745773,
+        "inferred_park_outside_positive_reference_m2": null,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": null,
+        "inferred_centerline_coverage": null,
+        "reference_length_m": null,
+        "reference_area_m2": 91.82336276942449,
+        "overlap_m2": 0.0,
+        "area_recall": null,
+        "reference_boundary_p90_m": null,
+        "inferred_boundary_p90_m": null,
+        "outside_reference_m2": null,
+        "negative_false_inferred": false,
+        "proxy_widths": []
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 43.54006837782682,
+          "cost_m": 43.54006837782682,
+          "layer_lengths_m": {
+            "native": 43.54006837782683
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": 0.0,
+          "surface_sha256": "4751aeed6e66174d4f83f459a7bbb2253ada2337c4adfd5782057f7c9031d8df"
+        },
+        {
+          "query_id": "Q2",
+          "status": "NO_PATH",
+          "reached": false,
+          "valid_reached": false,
+          "length_m": null,
+          "cost_m": null,
+          "layer_lengths_m": {},
+          "residual_m": 38.41897718393497,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": 0.0,
+          "surface_sha256": "4751aeed6e66174d4f83f459a7bbb2253ada2337c4adfd5782057f7c9031d8df"
+        }
+      ],
+      "interfaces": 0,
+      "region_graph": {
+        "active_cells": 4,
+        "interface_candidates": 1,
+        "interface_rejected": 1,
+        "internal_arcs": 8,
+        "components": 1,
+        "interface_count": 0,
+        "interface_candidates_not_selected": 1
+      },
+      "peak_working_set_bytes": 80859136,
+      "elapsed_s": 2.3787892000000284
+    },
+    {
+      "task_id": "W0440b97497a",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "kind": "MAPPED_OBSTACLE_NEGATIVE",
+      "label": "NEGATIVE",
+      "source_ids": [
+        "way/133465377"
+      ],
+      "variant": "I-REGION",
+      "region": {
+        "state_m2": {
+          "NATIVE_WALKABLE": 0.0,
+          "INFERRED_WALKABLE": 16.320925425604347,
+          "RESTRICTED": 2181.9799007137813,
+          "UNKNOWN": 627.9972151178672
+        },
+        "unknown_fraction": 0.22219780290319344,
+        "inferred_m2": 16.320925425604347,
+        "hard_expansion_m2": 3.405425535611467e-10,
+        "grass_expansion_m2": 0.0,
+        "inferred_in_park_context_m2": 16.320925425604347,
+        "inferred_park_outside_positive_reference_m2": null,
+        "hard_barrier_crossline_m": 0.0,
+        "native_assisted_centerline_coverage": null,
+        "inferred_centerline_coverage": null,
+        "reference_length_m": null,
+        "reference_area_m2": 680.2835838329084,
+        "overlap_m2": 3.405425535611467e-10,
+        "area_recall": null,
+        "reference_boundary_p90_m": null,
+        "inferred_boundary_p90_m": null,
+        "outside_reference_m2": null,
+        "negative_false_inferred": false,
+        "proxy_widths": []
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 62.48455728576897,
+          "cost_m": 62.48455728576897,
+          "layer_lengths_m": {
+            "native": 62.48455728576897
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": 0.0,
+          "surface_sha256": "50ba8d1139ec0a4b3fc6a81e56ab033d65fa7e68ef09e378d2de94d33af66497"
+        },
+        {
+          "query_id": "Q2",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 5.941480077023283,
+          "cost_m": 5.941480077023283,
+          "layer_lengths_m": {
+            "native": 5.941480077023284
+          },
+          "residual_m": 0.0,
+          "conditional_conflicts": {},
+          "native_conflicts": {},
+          "obstacle_inferred_crossing_m": 0.0,
+          "surface_sha256": "50ba8d1139ec0a4b3fc6a81e56ab033d65fa7e68ef09e378d2de94d33af66497"
+        }
+      ],
+      "interfaces": 1,
+      "region_graph": {
+        "active_cells": 19,
+        "interface_candidates": 2,
+        "interface_rejected": 1,
+        "internal_arcs": 40,
+        "components": 3,
+        "interface_count": 1,
+        "interface_candidates_not_selected": 1
+      },
+      "peak_working_set_bytes": 81809408,
+      "elapsed_s": 2.516777800001364
+    }
+  ],
+  "aggregate": [
+    {
+      "split": "all",
+      "variant": "I-REGION",
+      "case_type": "ALL_TASKS",
+      "cases": 12,
+      "area_cases": 4,
+      "area_cases_half_covered": 0,
+      "area_reference_m2": 2955.665594683451,
+      "area_overlap_m2": 18.88267262984038,
+      "pooled_area_coverage": 0.006388636340933114,
+      "mean_area_boundary_p90_m": 28.1857555706512,
+      "n_area_boundary_values": 2,
+      "line_cases": 6,
+      "line_cases_half_covered": 0,
+      "mean_line_coverage": 0.07941516271921731,
+      "pooled_line_coverage": 0.04360287154019801,
+      "negative_cases": 2,
+      "negative_cases_false_walkable": 0,
+      "negative_overlap_m2": 3.405425535611467e-10,
+      "hard_expansion_m2": 4.814975856584245e-10,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 165.54218198342915,
+      "inferred_off_reference_m2": 21.99999999901047,
+      "mean_unknown_fraction": 0.5251876368703242,
+      "queries": 22,
+      "valid_routes": 12,
+      "routes_with_inference": 2,
+      "routes_with_unknown": 0,
+      "routes_with_known_conflicts": 0
+    },
+    {
+      "split": "all",
+      "variant": "I-REGION",
+      "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+      "cases": 4,
+      "area_cases": 4,
+      "area_cases_half_covered": 0,
+      "area_reference_m2": 2955.665594683451,
+      "area_overlap_m2": 18.88267262984038,
+      "pooled_area_coverage": 0.006388636340933114,
+      "mean_area_boundary_p90_m": 28.1857555706512,
+      "n_area_boundary_values": 2,
+      "line_cases": 0,
+      "line_cases_half_covered": 0,
+      "mean_line_coverage": null,
+      "pooled_line_coverage": null,
+      "negative_cases": 0,
+      "negative_cases_false_walkable": 0,
+      "negative_overlap_m2": 0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 40.88267262894372,
+      "inferred_off_reference_m2": 21.99999999901047,
+      "mean_unknown_fraction": 0.6582580992580874,
+      "queries": 7,
+      "valid_routes": 0,
+      "routes_with_inference": 0,
+      "routes_with_unknown": 0,
+      "routes_with_known_conflicts": 0
+    },
+    {
+      "split": "all",
+      "variant": "I-REGION",
+      "case_type": "LINE_MASK_NO_AREA_SUPPORT",
+      "cases": 2,
+      "area_cases": 0,
+      "area_cases_half_covered": 0,
+      "area_reference_m2": 0,
+      "area_overlap_m2": 0,
+      "pooled_area_coverage": null,
+      "mean_area_boundary_p90_m": null,
+      "n_area_boundary_values": 0,
+      "line_cases": 2,
+      "line_cases_half_covered": 0,
+      "mean_line_coverage": 0.0,
+      "pooled_line_coverage": 0.0,
+      "negative_cases": 0,
+      "negative_cases_false_walkable": 0,
+      "negative_overlap_m2": 0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_off_reference_m2": 0,
+      "mean_unknown_fraction": 0.7043691909293293,
+      "queries": 3,
+      "valid_routes": 2,
+      "routes_with_inference": 0,
+      "routes_with_unknown": 0,
+      "routes_with_known_conflicts": 0
+    },
+    {
+      "split": "all",
+      "variant": "I-REGION",
+      "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "cases": 4,
+      "area_cases": 0,
+      "area_cases_half_covered": 0,
+      "area_reference_m2": 0,
+      "area_overlap_m2": 0,
+      "pooled_area_coverage": null,
+      "mean_area_boundary_p90_m": null,
+      "n_area_boundary_values": 0,
+      "line_cases": 4,
+      "line_cases_half_covered": 0,
+      "mean_line_coverage": 0.11912274407882596,
+      "pooled_line_coverage": 0.06987413535954158,
+      "negative_cases": 0,
+      "negative_cases_false_walkable": 0,
+      "negative_overlap_m2": 0,
+      "hard_expansion_m2": 1.4095503209727786e-10,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 105.3287072161353,
+      "inferred_off_reference_m2": 0,
+      "mean_unknown_fraction": 0.373094987370003,
+      "queries": 8,
+      "valid_routes": 7,
+      "routes_with_inference": 2,
+      "routes_with_unknown": 0,
+      "routes_with_known_conflicts": 0
+    },
+    {
+      "split": "all",
+      "variant": "I-REGION",
+      "case_type": "MAPPED_OBSTACLE_NEGATIVE",
+      "cases": 2,
+      "area_cases": 0,
+      "area_cases_half_covered": 0,
+      "area_reference_m2": 0,
+      "area_overlap_m2": 0,
+      "pooled_area_coverage": null,
+      "mean_area_boundary_p90_m": null,
+      "n_area_boundary_values": 0,
+      "line_cases": 0,
+      "line_cases_half_covered": 0,
+      "mean_line_coverage": null,
+      "pooled_line_coverage": null,
+      "negative_cases": 2,
+      "negative_cases_false_walkable": 0,
+      "negative_overlap_m2": 3.405425535611467e-10,
+      "hard_expansion_m2": 3.405425535611467e-10,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 19.33080213835012,
+      "inferred_off_reference_m2": 0,
+      "mean_unknown_fraction": 0.3840504570364351,
+      "queries": 4,
+      "valid_routes": 3,
+      "routes_with_inference": 0,
+      "routes_with_unknown": 0,
+      "routes_with_known_conflicts": 0
+    },
+    {
+      "split": "development",
+      "variant": "I-REGION",
+      "case_type": "ALL_TASKS",
+      "cases": 12,
+      "area_cases": 4,
+      "area_cases_half_covered": 0,
+      "area_reference_m2": 2955.665594683451,
+      "area_overlap_m2": 18.88267262984038,
+      "pooled_area_coverage": 0.006388636340933114,
+      "mean_area_boundary_p90_m": 28.1857555706512,
+      "n_area_boundary_values": 2,
+      "line_cases": 6,
+      "line_cases_half_covered": 0,
+      "mean_line_coverage": 0.07941516271921731,
+      "pooled_line_coverage": 0.04360287154019801,
+      "negative_cases": 2,
+      "negative_cases_false_walkable": 0,
+      "negative_overlap_m2": 3.405425535611467e-10,
+      "hard_expansion_m2": 4.814975856584245e-10,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 165.54218198342915,
+      "inferred_off_reference_m2": 21.99999999901047,
+      "mean_unknown_fraction": 0.5251876368703242,
+      "queries": 22,
+      "valid_routes": 12,
+      "routes_with_inference": 2,
+      "routes_with_unknown": 0,
+      "routes_with_known_conflicts": 0
+    },
+    {
+      "split": "development",
+      "variant": "I-REGION",
+      "case_type": "AREA_AND_INTERNAL_LINES_MASKED",
+      "cases": 4,
+      "area_cases": 4,
+      "area_cases_half_covered": 0,
+      "area_reference_m2": 2955.665594683451,
+      "area_overlap_m2": 18.88267262984038,
+      "pooled_area_coverage": 0.006388636340933114,
+      "mean_area_boundary_p90_m": 28.1857555706512,
+      "n_area_boundary_values": 2,
+      "line_cases": 0,
+      "line_cases_half_covered": 0,
+      "mean_line_coverage": null,
+      "pooled_line_coverage": null,
+      "negative_cases": 0,
+      "negative_cases_false_walkable": 0,
+      "negative_overlap_m2": 0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 40.88267262894372,
+      "inferred_off_reference_m2": 21.99999999901047,
+      "mean_unknown_fraction": 0.6582580992580874,
+      "queries": 7,
+      "valid_routes": 0,
+      "routes_with_inference": 0,
+      "routes_with_unknown": 0,
+      "routes_with_known_conflicts": 0
+    },
+    {
+      "split": "development",
+      "variant": "I-REGION",
+      "case_type": "LINE_MASK_NO_AREA_SUPPORT",
+      "cases": 2,
+      "area_cases": 0,
+      "area_cases_half_covered": 0,
+      "area_reference_m2": 0,
+      "area_overlap_m2": 0,
+      "pooled_area_coverage": null,
+      "mean_area_boundary_p90_m": null,
+      "n_area_boundary_values": 0,
+      "line_cases": 2,
+      "line_cases_half_covered": 0,
+      "mean_line_coverage": 0.0,
+      "pooled_line_coverage": 0.0,
+      "negative_cases": 0,
+      "negative_cases_false_walkable": 0,
+      "negative_overlap_m2": 0,
+      "hard_expansion_m2": 0.0,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 0.0,
+      "inferred_off_reference_m2": 0,
+      "mean_unknown_fraction": 0.7043691909293293,
+      "queries": 3,
+      "valid_routes": 2,
+      "routes_with_inference": 0,
+      "routes_with_unknown": 0,
+      "routes_with_known_conflicts": 0
+    },
+    {
+      "split": "development",
+      "variant": "I-REGION",
+      "case_type": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "cases": 4,
+      "area_cases": 0,
+      "area_cases_half_covered": 0,
+      "area_reference_m2": 0,
+      "area_overlap_m2": 0,
+      "pooled_area_coverage": null,
+      "mean_area_boundary_p90_m": null,
+      "n_area_boundary_values": 0,
+      "line_cases": 4,
+      "line_cases_half_covered": 0,
+      "mean_line_coverage": 0.11912274407882596,
+      "pooled_line_coverage": 0.06987413535954158,
+      "negative_cases": 0,
+      "negative_cases_false_walkable": 0,
+      "negative_overlap_m2": 0,
+      "hard_expansion_m2": 1.4095503209727786e-10,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 105.3287072161353,
+      "inferred_off_reference_m2": 0,
+      "mean_unknown_fraction": 0.373094987370003,
+      "queries": 8,
+      "valid_routes": 7,
+      "routes_with_inference": 2,
+      "routes_with_unknown": 0,
+      "routes_with_known_conflicts": 0
+    },
+    {
+      "split": "development",
+      "variant": "I-REGION",
+      "case_type": "MAPPED_OBSTACLE_NEGATIVE",
+      "cases": 2,
+      "area_cases": 0,
+      "area_cases_half_covered": 0,
+      "area_reference_m2": 0,
+      "area_overlap_m2": 0,
+      "pooled_area_coverage": null,
+      "mean_area_boundary_p90_m": null,
+      "n_area_boundary_values": 0,
+      "line_cases": 0,
+      "line_cases_half_covered": 0,
+      "mean_line_coverage": null,
+      "pooled_line_coverage": null,
+      "negative_cases": 2,
+      "negative_cases_false_walkable": 0,
+      "negative_overlap_m2": 3.405425535611467e-10,
+      "hard_expansion_m2": 3.405425535611467e-10,
+      "grass_expansion_m2": 0.0,
+      "inferred_in_park_context_m2": 19.33080213835012,
+      "inferred_off_reference_m2": 0,
+      "mean_unknown_fraction": 0.3840504570364351,
+      "queries": 4,
+      "valid_routes": 3,
+      "routes_with_inference": 0,
+      "routes_with_unknown": 0,
+      "routes_with_known_conflicts": 0
+    }
+  ],
+  "external_requests": 0
+}

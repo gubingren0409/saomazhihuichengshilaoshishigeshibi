@@ -1,0 +1,167 @@
+{
+  "queries": [
+    {
+      "query_id": "NORTH-DOOR",
+      "source": {
+        "id": "node/476682043",
+        "xy": [
+          354011.65926291735,
+          3456209.098780752
+        ],
+        "role": "FROZEN_START"
+      },
+      "target": {
+        "id": "node/6897145227",
+        "xy": [
+          354344.3888134466,
+          3456163.0891986894
+        ],
+        "wgs84": [
+          121.4706605,
+          31.2305674
+        ],
+        "tags": {
+          "entrance": "exit"
+        },
+        "registered": true,
+        "building_id": "way/161090899",
+        "role": "REGISTERED_EXIT"
+      },
+      "scope": "FULL_NETWORK"
+    },
+    {
+      "query_id": "NORTH-PAIR-1",
+      "source": {
+        "id": "node/1890862817",
+        "xy": [
+          354328.1002420535,
+          3456161.208182979
+        ]
+      },
+      "target": {
+        "id": "node/1890877346",
+        "xy": [
+          354354.18634582916,
+          3456179.883232214
+        ]
+      },
+      "scope": "LOCAL_REGION_ONLY"
+    },
+    {
+      "query_id": "NORTH-PAIR-2",
+      "source": {
+        "id": "grid/relation/2153738/708703/6912356",
+        "xy": [
+          354351.5,
+          3456178.0
+        ]
+      },
+      "target": {
+        "id": "grid/relation/2153738/708662/6912327",
+        "xy": [
+          354331.0,
+          3456163.5
+        ]
+      },
+      "scope": "LOCAL_REGION_ONLY"
+    },
+    {
+      "query_id": "NORTH-PAIR-3",
+      "source": {
+        "id": "grid/relation/2153738/708696/6912351",
+        "xy": [
+          354348.0,
+          3456175.5
+        ]
+      },
+      "target": {
+        "id": "grid/relation/2153738/708668/6912331",
+        "xy": [
+          354334.0,
+          3456165.5
+        ]
+      },
+      "scope": "LOCAL_REGION_ONLY"
+    },
+    {
+      "query_id": "NORTH-PAIR-4",
+      "source": {
+        "id": "grid/relation/2153738/708689/6912346",
+        "xy": [
+          354344.5,
+          3456173.0
+        ]
+      },
+      "target": {
+        "id": "grid/relation/2153738/708675/6912336",
+        "xy": [
+          354337.5,
+          3456168.0
+        ]
+      },
+      "scope": "LOCAL_REGION_ONLY"
+    },
+    {
+      "query_id": "NORTH-CONTROL-1",
+      "source": {
+        "id": "grid/relation/2153738/708662/6912327",
+        "xy": [
+          354331.0,
+          3456163.5
+        ]
+      },
+      "target": {
+        "id": "control/interior/A",
+        "xy": [
+          354330.5,
+          3456161.5
+        ],
+        "role": "CONTROL_INTERIOR_POINT"
+      },
+      "scope": "LOCAL_REGION_ONLY",
+      "interpretation": "POST_FREEZE_TRAVERSABILITY_DIAGNOSTIC"
+    },
+    {
+      "query_id": "NORTH-CONTROL-2",
+      "source": {
+        "id": "grid/relation/2153738/708689/6912346",
+        "xy": [
+          354344.5,
+          3456173.0
+        ]
+      },
+      "target": {
+        "id": "control/interior/B",
+        "xy": [
+          354349.5,
+          3456169.5
+        ],
+        "role": "CONTROL_INTERIOR_POINT"
+      },
+      "scope": "LOCAL_REGION_ONLY",
+      "interpretation": "POST_FREEZE_TRAVERSABILITY_DIAGNOSTIC"
+    },
+    {
+      "query_id": "NORTH-CONTROL-3",
+      "source": {
+        "id": "control/interior/A",
+        "xy": [
+          354330.5,
+          3456161.5
+        ],
+        "role": "CONTROL_INTERIOR_POINT"
+      },
+      "target": {
+        "id": "control/interior/B",
+        "xy": [
+          354349.5,
+          3456169.5
+        ],
+        "role": "CONTROL_INTERIOR_POINT"
+      },
+      "scope": "LOCAL_REGION_ONLY",
+      "interpretation": "POST_FREEZE_TRAVERSABILITY_DIAGNOSTIC"
+    }
+  ],
+  "region_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9"
+}

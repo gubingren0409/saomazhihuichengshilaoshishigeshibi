@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "browser": "147.0.3912.72",
+  "views": [
+    "file:grass",
+    "file:region",
+    "file:pairs",
+    "file:mask",
+    "file:limits",
+    "file:route",
+    "loopback:grass",
+    "loopback:region",
+    "loopback:pairs",
+    "loopback:mask",
+    "loopback:limits",
+    "loopback:route"
+  ],
+  "interactions": [
+    "zoom_reset_synchronized",
+    "region_evidence",
+    "search_window_unfilled",
+    "north_raw_exit",
+    "toggle_layers",
+    "7_query_pairs_with_identical_regions",
+    "reference_right_only",
+    "restricted_negative_visible",
+    "six_route_variants"
+  ],
+  "figures": [
+    "01-grass-native-walkways.png",
+    "02-north-walkability-states.png",
+    "03-shared-region-multiple-queries.png",
+    "04-controlled-masking.png",
+    "05-obstacles-and-unknown.png",
+    "06-route-layer-contribution.png"
+  ],
+  "requests_denied": [],
+  "page_errors": []
+}
