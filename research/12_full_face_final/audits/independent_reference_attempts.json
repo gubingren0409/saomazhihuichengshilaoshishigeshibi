@@ -1,0 +1,16 @@
+{
+  "role": "/root/face_review",
+  "status": "DENSE_REFERENCE_ATTEMPTS_INTERRUPTED_NO_COMPLETED_REAL_RESULT",
+  "APP_solver_calls": 0,
+  "attempts": [
+    {
+      "method": "All vertices strict GEOS unprepared covers + full pair adjacency",
+      "outcome": "Interrupted own session68335 for resource/time control before first pair output"
+    },
+    {
+      "method": "All vertices strict prepared GEOS covers + full pair adjacency",
+      "outcome": "Interrupted own session98111 after more than2min without first pair; no completed real reference claimed"
+    }
+  ],
+  "next": "Same all-vertex graph queried lazily with admissible Euclidean A*; no reflex/tangent pruning; after author seven pair run"
+}

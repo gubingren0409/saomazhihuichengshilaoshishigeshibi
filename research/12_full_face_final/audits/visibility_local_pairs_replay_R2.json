@@ -1,0 +1,99 @@
+{
+  "role": "AUTHOR_FIXED_PAIR_R2_REPLAY_NOT_INDEPENDENT_REFERENCE",
+  "status": "PASS",
+  "distinct_pairs": 7,
+  "APP_solver_calls": 0,
+  "this_run_queries": 7,
+  "R0_and_R2_local_queries_total": 14,
+  "rows": [
+    {
+      "pair_id": "sh-huangpu-01/relation/2153738/1",
+      "length_m": 525.9087938369946,
+      "old_band_C_m": 803.0486933328809,
+      "reduction_m": 277.1398994958863,
+      "relative_reduction_percent": 34.510970729019775,
+      "outside_old_band_m": 195.58614023602036,
+      "conflicts": 0,
+      "same_length_as_R0": true,
+      "same_old_length_as_R0": true
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2153738/2",
+      "length_m": 416.79324960833605,
+      "old_band_C_m": 944.9944993675224,
+      "reduction_m": 528.2012497591863,
+      "relative_reduction_percent": 55.89463749394387,
+      "outside_old_band_m": 198.66086552596113,
+      "conflicts": 0,
+      "same_length_as_R0": true,
+      "same_old_length_as_R0": true
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2153738/3",
+      "length_m": 368.67936275685065,
+      "old_band_C_m": 494.5955307365954,
+      "reduction_m": 125.91616797974473,
+      "relative_reduction_percent": 25.458412006315392,
+      "outside_old_band_m": 179.32960160642912,
+      "conflicts": 0,
+      "same_length_as_R0": true,
+      "same_old_length_as_R0": true
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2385771/1",
+      "length_m": 163.72297505256262,
+      "old_band_C_m": 201.39034554058108,
+      "reduction_m": 37.66737048801846,
+      "relative_reduction_percent": 18.70366247543297,
+      "outside_old_band_m": 157.54587569084418,
+      "conflicts": 0,
+      "same_length_as_R0": true,
+      "same_old_length_as_R0": true
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2385771/2",
+      "length_m": 160.00536063467675,
+      "old_band_C_m": 184.38242700607293,
+      "reduction_m": 24.377066371396182,
+      "relative_reduction_percent": 13.220927160587426,
+      "outside_old_band_m": 144.73085880964805,
+      "conflicts": 0,
+      "same_length_as_R0": true,
+      "same_old_length_as_R0": true
+    },
+    {
+      "pair_id": "sh-library/way/1160136226/1",
+      "length_m": 33.57978538560483,
+      "old_band_C_m": 39.19711997484133,
+      "reduction_m": 5.617334589236499,
+      "relative_reduction_percent": 14.330988074741168,
+      "outside_old_band_m": 9.984201834929756,
+      "conflicts": 0,
+      "same_length_as_R0": true,
+      "same_old_length_as_R0": true
+    },
+    {
+      "pair_id": "sh-library/way/1160136226/2",
+      "length_m": 38.85940794323891,
+      "old_band_C_m": 41.39388364850984,
+      "reduction_m": 2.5344757052709355,
+      "relative_reduction_percent": 6.122826567306581,
+      "outside_old_band_m": 0.0,
+      "conflicts": 0,
+      "same_length_as_R0": true,
+      "same_old_length_as_R0": true
+    }
+  ],
+  "R0_summary_sha256": "8d6b95327dfb80d13e85159e14ec24f33c0500fe3a156197d44f9bc434f4cf9b",
+  "R2_replay_summary_sha256": "8554d634bd209b925dfacd66e692fec7edfb24b04bc0d877fad0078eaef05b43",
+  "final_source_code_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+  "pair_lock_sha256": "68bbcf8a67c377260870d27f288cd0b679b0e21094558f9bb9706073cdd7c083",
+  "elapsed_s": 102.12084329999925,
+  "run_directory_note": "face_pairs_R1 names the first replay run; source code is final R2 fc3c...",
+  "limitations": [
+    "Prelocked local mechanism pairs are not building-entry arrival queries",
+    "BAND-C rechecks original band rows in same Omega/common constraints; APP main comparison is separately fixed EDGE_BAND/FULL_FACE",
+    "No field/public-access/global continuous-optimum claim",
+    "Independent all-vertex reference is separately authored and reported"
+  ]
+}

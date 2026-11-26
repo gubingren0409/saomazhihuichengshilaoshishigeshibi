@@ -1,0 +1,91 @@
+{
+  "real_face_pairs": 7,
+  "records": [
+    {
+      "pair_id": "sh-huangpu-01/relation/2153738/1",
+      "old_status": "ROUTED",
+      "full_status": "ROUTED",
+      "old_length_m": 803.0486933328809,
+      "full_length_m": 525.9087938369946,
+      "delta_length_m": -277.1398994958863,
+      "outside_old_band_m": 195.58614023602036,
+      "direct_visibility": false,
+      "conflicts": 0
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2153738/2",
+      "old_status": "ROUTED",
+      "full_status": "ROUTED",
+      "old_length_m": 944.9944993675224,
+      "full_length_m": 416.79324960833605,
+      "delta_length_m": -528.2012497591863,
+      "outside_old_band_m": 198.66086552596113,
+      "direct_visibility": false,
+      "conflicts": 0
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2153738/3",
+      "old_status": "ROUTED",
+      "full_status": "ROUTED",
+      "old_length_m": 494.5955307365954,
+      "full_length_m": 368.67936275685065,
+      "delta_length_m": -125.91616797974473,
+      "outside_old_band_m": 179.32960160642912,
+      "direct_visibility": false,
+      "conflicts": 0
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2385771/1",
+      "old_status": "ROUTED",
+      "full_status": "ROUTED",
+      "old_length_m": 201.39034554058108,
+      "full_length_m": 163.72297505256262,
+      "delta_length_m": -37.66737048801846,
+      "outside_old_band_m": 157.54587569084418,
+      "direct_visibility": false,
+      "conflicts": 0
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2385771/2",
+      "old_status": "ROUTED",
+      "full_status": "ROUTED",
+      "old_length_m": 184.38242700607293,
+      "full_length_m": 160.00536063467675,
+      "delta_length_m": -24.377066371396182,
+      "outside_old_band_m": 144.73085880964805,
+      "direct_visibility": true,
+      "conflicts": 0
+    },
+    {
+      "pair_id": "sh-library/way/1160136226/1",
+      "old_status": "ROUTED",
+      "full_status": "ROUTED",
+      "old_length_m": 39.19711997484133,
+      "full_length_m": 33.57978538560483,
+      "delta_length_m": -5.617334589236499,
+      "outside_old_band_m": 9.984201834929756,
+      "direct_visibility": false,
+      "conflicts": 0
+    },
+    {
+      "pair_id": "sh-library/way/1160136226/2",
+      "old_status": "ROUTED",
+      "full_status": "ROUTED",
+      "old_length_m": 41.39388364850984,
+      "full_length_m": 38.85940794323891,
+      "delta_length_m": -2.5344757052709355,
+      "outside_old_band_m": 0.0,
+      "direct_visibility": true,
+      "conflicts": 0
+    }
+  ],
+  "elapsed_s": 101.04927800000587,
+  "actual_local_shortest_queries": 7,
+  "APP_solver_calls": 0,
+  "limitations": [
+    "Local pairs are not entrances",
+    "No requirement to manufacture real disconnected/obstructed examples",
+    "Old rows rechecked in sameOmega; excluded counts reported separately",
+    "No observed masked benchmark reads"
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_ANALYTIC_AND_COMPLETE_VERTEX_REFERENCE",
+  "author_API_called_only_as_device_under_test": true,
+  "independent_reference_calls_author": false,
+  "reference_method": "All polygon vertices; strict covers; per-component graph; own heap Dijkstra",
+  "cases": [
+    {
+      "case_id": "RECTANGLE_ANALYTIC_DIAGONAL",
+      "expected_length_m": 11.661903789690601,
+      "reference": {
+        "reached": true,
+        "length_m": 11.661903789690601,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            6
+          ]
+        ],
+        "visibility_checks": 6
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 11.661903789690601,
+        "points": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            10.0,
+            6.0
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 1,
+            "domain_rejections": 0,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 0,
+            "required_points": 0,
+            "pair_candidates": 1,
+            "local_tangent_rejections": 0
+          }
+        ],
+        "elapsed_s": 0.002359899997827597,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "RECTANGULAR_HOLE_ANALYTIC",
+      "expected_length_m": 11.21110255092798,
+      "reference": {
+        "reached": true,
+        "length_m": 11.21110255092798,
+        "points": [
+          [
+            1,
+            4
+          ],
+          [
+            4.0,
+            2.0
+          ],
+          [
+            8.0,
+            2.0
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        "visibility_checks": 45
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 11.21110255092798,
+        "points": [
+          [
+            1.0,
+            4.0
+          ],
+          [
+            4.0,
+            2.0
+          ],
+          [
+            8.0,
+            2.0
+          ],
+          [
+            11.0,
+            4.0
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 9,
+            "domain_rejections": 1,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 4,
+            "required_points": 0,
+            "pair_candidates": 15,
+            "local_tangent_rejections": 6
+          }
+        ],
+        "elapsed_s": 0.0019436000002315268,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "CONCAVE_L_REFLEX",
+      "expected_length_m": 6.324555320336759,
+      "reference": {
+        "reached": true,
+        "length_m": 6.324555320336759,
+        "points": [
+          [
+            5,
+            1
+          ],
+          [
+            2.0,
+            2.0
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "visibility_checks": 28
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 6.324555320336759,
+        "points": [
+          [
+            5.0,
+            1.0
+          ],
+          [
+            2.0,
+            2.0
+          ],
+          [
+            1.0,
+            5.0
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 3,
+            "domain_rejections": 1,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 1,
+            "required_points": 0,
+            "pair_candidates": 3,
+            "local_tangent_rejections": 0
+          }
+        ],
+        "elapsed_s": 0.0007882999925641343,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "DISCONNECTED_PARTS",
+      "expected_length_m": null,
+      "reference": {
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "visibility_checks": 0
+      },
+      "device_under_test": {
+        "status": "NO_PATH",
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "stats": [],
+        "elapsed_s": 0.00017020000086631626,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "POINT_TOUCH_NOT_POSITIVE_WIDTH",
+      "expected_length_m": null,
+      "reference": {
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "visibility_checks": 0
+      },
+      "device_under_test": {
+        "status": "NO_PATH",
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "stats": [],
+        "elapsed_s": 0.0001610000035725534,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "FENCE_OPEN_POSITIVE_GAP",
+      "expected_length_m": 18,
+      "reference": {
+        "reached": true,
+        "length_m": 18.0,
+        "points": [
+          [
+            1,
+            5
+          ],
+          [
+            19,
+            5
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 18.0,
+        "points": [
+          [
+            1.0,
+            5.0
+          ],
+          [
+            19.0,
+            5.0
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 11,
+            "domain_rejections": 0,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 4,
+            "required_points": 0,
+            "pair_candidates": 15,
+            "local_tangent_rejections": 4
+          }
+        ],
+        "elapsed_s": 0.0017880999948829412,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "FENCE_CLOSED",
+      "expected_length_m": null,
+      "reference": {
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "visibility_checks": 0
+      },
+      "device_under_test": {
+        "status": "NO_PATH",
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "stats": [],
+        "elapsed_s": 0.00016429999959655106,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "CLEARANCE_CLOSED_NARROW_GAP",
+      "expected_length_m": null,
+      "reference": {
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "visibility_checks": 0
+      },
+      "device_under_test": {
+        "status": "NO_PATH",
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "stats": [],
+        "elapsed_s": 0.0001627000019652769,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "ORIGINAL_BOUNDARY_COORDINATES",
+      "expected_length_m": 5,
+      "reference": {
+        "reached": true,
+        "length_m": 5.0,
+        "points": [
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "visibility_checks": 15
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 5.0,
+        "points": [
+          [
+            0.0,
+            2.0
+          ],
+          [
+            5.0,
+            2.0
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 1,
+            "domain_rejections": 0,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 0,
+            "required_points": 0,
+            "pair_candidates": 1,
+            "local_tangent_rejections": 0
+          }
+        ],
+        "elapsed_s": 0.0004721000004792586,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "ZERO_WIDTH_BARRIER_EXACT_SOURCE_GATE",
+      "expected_length_m": 18.973665961010276,
+      "reference": {
+        "reached": true,
+        "length_m": 18.973665961010276,
+        "points": [
+          [
+            1,
+            5
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            19,
+            5
+          ]
+        ],
+        "visibility_checks": 21
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 18.973665961010276,
+        "points": [
+          [
+            1.0,
+            5.0
+          ],
+          [
+            10.0,
+            2.0
+          ],
+          [
+            19.0,
+            5.0
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 3,
+            "domain_rejections": 0,
+            "constraint_rejections": 1,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 0,
+            "required_points": 1,
+            "pair_candidates": 3,
+            "local_tangent_rejections": 0
+          }
+        ],
+        "elapsed_s": 0.0008420999947702512,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRIVATE_FULL_STRIPE",
+      "expected_length_m": null,
+      "reference": {
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "visibility_checks": 0
+      },
+      "device_under_test": {
+        "status": "NO_PATH",
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "stats": [],
+        "elapsed_s": 0.00016480000340379775,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    }
+  ],
+  "elapsed_s": 0.029919500011601485,
+  "DUT_source_sha256": "c254cef623b958358d0a68402037a6a8e563f9dc11a68e9dbd592c704bc33f54",
+  "DUT_source_stable": true,
+  "app_solver_calls": 0,
+  "admission_sanity": {
+    "plain_park_is_not_full_face": true,
+    "private_face_not_eligible": true,
+    "level1_not_ground_face": true
+  },
+  "status": "PASS"
+}

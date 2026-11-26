@@ -1,0 +1,19 @@
+{
+  "main_positive_requests": 8,
+  "geometric_tasks": 4,
+  "main_actual_positive_solves": 16,
+  "negative_checks": 10,
+  "negative_pass": true,
+  "shorter_requests": 6,
+  "equal_requests": 2,
+  "unchanged_original_local_domains": true,
+  "final_vs_R1_changed_tasks": [],
+  "cost_monotonic": true,
+  "actual_APP_attempts_before_final_external_replay": 68,
+  "actual_solver_calls_before_final_external_replay": 48,
+  "budget_cap_attempts": 96,
+  "budget_note": "Includes isolated baseline and preserved R0/R1 plus final R2/extra/UI/CLI records; final clean archive call is added in external delivery receipt",
+  "no_field_validation": true,
+  "no_new_Geoapify_requests": true,
+  "new_external_map_requests": 0
+}

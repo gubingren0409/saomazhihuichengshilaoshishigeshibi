@@ -1,0 +1,153 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_EXACT_BINARY_POLYGON_EDGE_CHECK",
+  "input_file": "runs\\initial_app_pair\\FULL_FACE.json",
+  "input_sha256": "c565744f33773420e9a9855bf37c2fc2130286118cb416b23f84dda118c18315",
+  "source_stable": true,
+  "rows": [
+    {
+      "source_id": "relation/2385771",
+      "omega_equals_component_union": true,
+      "cases": [
+        {
+          "component": 0,
+          "a": [
+            354389.3116461842,
+            3456089.6722448217
+          ],
+          "b": [
+            354404.21243702027,
+            3456099.3348657154
+          ],
+          "component_covers": false,
+          "omega_covers": false,
+          "outside_component_m": 0.0,
+          "outside_omega_m": 0.0,
+          "component_relate": "1F2F01102",
+          "omega_relate": "1F2F01102",
+          "exact_component": {
+            "covered": false,
+            "event_count": 3,
+            "outside_first_t": "1"
+          },
+          "exact_omega": {
+            "covered": false,
+            "event_count": 3,
+            "outside_first_t": "1"
+          }
+        },
+        {
+          "component": 0,
+          "a": [
+            354389.3116461842,
+            3456089.6722448217
+          ],
+          "b": [
+            354413.30913091253,
+            3456097.4169193595
+          ],
+          "component_covers": false,
+          "omega_covers": false,
+          "outside_component_m": 3.4924596548080444e-10,
+          "outside_omega_m": 3.4924596548080444e-10,
+          "component_relate": "1F2001102",
+          "omega_relate": "1F2001102",
+          "exact_component": {
+            "covered": false,
+            "event_count": 3,
+            "outside_first_t": "1"
+          },
+          "exact_omega": {
+            "covered": false,
+            "event_count": 3,
+            "outside_first_t": "1"
+          }
+        },
+        {
+          "component": 0,
+          "a": [
+            354389.3116461842,
+            3456089.6722448217
+          ],
+          "b": [
+            354412.06852875336,
+            3456096.532615236
+          ],
+          "component_covers": false,
+          "omega_covers": false,
+          "outside_component_m": 4.0745362639427185e-10,
+          "outside_omega_m": 4.0745362639427185e-10,
+          "component_relate": "1F2001102",
+          "omega_relate": "1F2001102",
+          "exact_component": {
+            "covered": false,
+            "event_count": 3,
+            "outside_first_t": "1"
+          },
+          "exact_omega": {
+            "covered": false,
+            "event_count": 3,
+            "outside_first_t": "1"
+          }
+        },
+        {
+          "component": 0,
+          "a": [
+            354389.3116461842,
+            3456089.6722448217
+          ],
+          "b": [
+            354412.22418166517,
+            3456095.5
+          ],
+          "component_covers": false,
+          "omega_covers": false,
+          "outside_component_m": 0.0,
+          "outside_omega_m": 0.0,
+          "component_relate": "1F2F01102",
+          "omega_relate": "1F2F01102",
+          "exact_component": {
+            "covered": false,
+            "event_count": 3,
+            "outside_first_t": "1"
+          },
+          "exact_omega": {
+            "covered": false,
+            "event_count": 3,
+            "outside_first_t": "1"
+          }
+        },
+        {
+          "component": 0,
+          "a": [
+            354389.3116461842,
+            3456089.6722448217
+          ],
+          "b": [
+            354412.29553396616,
+            3456096.694425083
+          ],
+          "component_covers": false,
+          "omega_covers": false,
+          "outside_component_m": 1.7462298274040222e-10,
+          "outside_omega_m": 1.7462298274040222e-10,
+          "component_relate": "1F2001102",
+          "omega_relate": "1F2001102",
+          "exact_component": {
+            "covered": false,
+            "event_count": 3,
+            "outside_first_t": "1"
+          },
+          "exact_omega": {
+            "covered": false,
+            "event_count": 3,
+            "outside_first_t": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "elapsed_s": 0.3158069000055548,
+  "APP_solver_calls": 0,
+  "limits": "First five lexicographic/adjacent small-outside candidate edges per face only, not a whole-roadmap or continuous-world proof"
+}

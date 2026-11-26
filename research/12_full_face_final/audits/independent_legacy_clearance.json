@@ -1,0 +1,61 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "READ_ONLY_LEGACY_CLEARANCE_CODE_AND_SELECTED_ARCHIVE_MEMBER_CHECK",
+  "local_source_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\area_model.py",
+  "source_sha256": "efc7e2eca0c18b7e74ea7ca1df740ad83e99fcf3fc0bc60c22b950d5fc4aea75",
+  "old_archive_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\delivery\\OPEN_REVIEW.zip",
+  "old_archive_sha256": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0",
+  "selected_archived_source_identical_to_local": true,
+  "old_config": {
+    "contract": "R4-REV1-AREA-BAND-GRID-v1",
+    "analysis_crs": "EPSG:32651",
+    "input_crs": "EPSG:4326",
+    "grid_step_m": 0.5,
+    "neighbors": 8,
+    "widths_m": [
+      3,
+      1,
+      5
+    ],
+    "main_width_m": 3,
+    "clearance_m": 0.25,
+    "tolerance_m": 0.001,
+    "port_max_m": 1,
+    "baseline_snap_m": 35,
+    "origins": "EXACT_FROZEN_NATIVE_NODE",
+    "metric_weights": "EPSG:32651_EUCLIDEAN_METRES",
+    "native_profile": "FROZEN_R4_BASELINE_UNCHANGED",
+    "focus_additions": {
+      "sh-huangpu-01": [
+        "relation/2153738"
+      ]
+    },
+    "museum": {
+      "scene_id": "sh-huangpu-01",
+      "south_area": "relation/2385771",
+      "north_area": "relation/2153738",
+      "south_entrance": "node/6897141353",
+      "north_entrance": "node/6897145227",
+      "expected_south_contacts": [
+        "node/1890745480",
+        "node/1890935415",
+        "node/1890935454"
+      ]
+    },
+    "phase": "LOCKED_BEFORE_REAL_ROUTE_EVALUATION",
+    "geometry_config_count": 3
+  },
+  "scope": "Selected source/config bytes only; not recursive old archive validation or rerun",
+  "rules": {
+    "outer_boundary_inset_m": 0,
+    "edge_band_width_m": 3,
+    "grid_m": 0.5,
+    "areal_obstacle_clearance_m": 0.25,
+    "areal_buffer_quad_segs": 16,
+    "source_inner_holes": "Old band only included holes within .25m of band; FULL must preserve all source holes",
+    "barrier_rule": "Zero-width original line whole-segment intersection; every contact must be exact allowed gate within .001m; no .25m barrier buffer in legacy area_model",
+    "registered_door_exception": "Only original door at own source building boundary, otherwise nonbarrier distance>=.25",
+    "APP_common_guard_addition": "Current APP additionally keeps .15m physical line masks/.30m permitted gate opening; this does not waive original source barrier exact-gate check"
+  },
+  "new_code_audit_reminder": "FULL and EDGE share restrictions; disclose BAND-C if baseline source error correction required; polygonized .25m q16 arc error max .25*(1-cos(pi/64))."
+}

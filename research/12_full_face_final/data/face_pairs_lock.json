@@ -1,0 +1,273 @@
+{
+  "role": "LOCKED_BEFORE_ANY_FULL_FACE_MECHANISM_SEARCH",
+  "selection": "Primary north/south plus existing library face; stable extrema and ID order; never route-result filtered",
+  "crs": "EPSG:32651",
+  "real_face_pairs": 7,
+  "population": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_area_id": "relation/2153738",
+      "status": "ADMITTED",
+      "native_ports": 28,
+      "eligible_source_nodes": 28,
+      "geometry_hash": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+      "selection_role": "Existing source ports on whole-edge-legal frozen band segments; no result read"
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_area_id": "relation/2385771",
+      "status": "ADMITTED",
+      "native_ports": 3,
+      "eligible_source_nodes": 3,
+      "geometry_hash": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+      "selection_role": "Existing source ports on whole-edge-legal frozen band segments; no result read"
+    },
+    {
+      "scene_id": "sh-library",
+      "source_area_id": "way/1160136226",
+      "status": "ADMITTED",
+      "native_ports": 3,
+      "eligible_source_nodes": 3,
+      "geometry_hash": "2b3fdd2d235a8849440060698bffb68ab8aa29b518316fd225a6543a1b0c04bd",
+      "selection_role": "Existing source ports on whole-edge-legal frozen band segments; no result read"
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "sh-huangpu-01/relation/2153738/1",
+      "scene_id": "sh-huangpu-01",
+      "source_area_id": "relation/2153738",
+      "rule": "EAST_WEST_EXTREMA",
+      "source": {
+        "id": "node/1890732633",
+        "xy": [
+          354100.3063374167,
+          3456152.6787019544
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "relation/2153738:edge/079216",
+        "native_port_source_way_ids": [
+          "way/1303211752",
+          "way/178719573"
+        ]
+      },
+      "target": {
+        "id": "node/1890732685",
+        "xy": [
+          354490.8078641513,
+          3456400.007523154
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "relation/2153738:edge/079229",
+        "native_port_source_way_ids": [
+          "way/178719573",
+          "way/178721636"
+        ]
+      },
+      "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+      "old_mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "role": "LOCAL_FACE_MECHANISM_POINTS_NOT_NEW_ENTRANCES_OR_BUILDINGS"
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2153738/2",
+      "scene_id": "sh-huangpu-01",
+      "source_area_id": "relation/2153738",
+      "rule": "NORTH_SOUTH_EXTREMA",
+      "source": {
+        "id": "node/1890842752",
+        "xy": [
+          354308.7074087827,
+          3456102.328209247
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "relation/2153738:edge/079293",
+        "native_port_source_way_ids": [
+          "way/178719573"
+        ]
+      },
+      "target": {
+        "id": "node/1890732798",
+        "xy": [
+          354469.3990183363,
+          3456424.639306238
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "relation/2153738:edge/079267",
+        "native_port_source_way_ids": [
+          "way/178719573",
+          "way/178721636"
+        ]
+      },
+      "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+      "old_mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "role": "LOCAL_FACE_MECHANISM_POINTS_NOT_NEW_ENTRANCES_OR_BUILDINGS"
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2153738/3",
+      "scene_id": "sh-huangpu-01",
+      "source_area_id": "relation/2153738",
+      "rule": "FIRST_TWO_STABLE_SOURCE_IDS",
+      "source": {
+        "id": "node/1890732579",
+        "xy": [
+          354458.89226125926,
+          3456419.906419041
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "relation/2153738:edge/079202",
+        "native_port_source_way_ids": [
+          "way/178719573",
+          "way/178721636"
+        ]
+      },
+      "target": {
+        "id": "node/1890732591",
+        "xy": [
+          354209.30220633245,
+          3456237.0801820806
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "relation/2153738:edge/079208",
+        "native_port_source_way_ids": [
+          "way/178719573"
+        ]
+      },
+      "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+      "old_mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "role": "LOCAL_FACE_MECHANISM_POINTS_NOT_NEW_ENTRANCES_OR_BUILDINGS"
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2385771/1",
+      "scene_id": "sh-huangpu-01",
+      "source_area_id": "relation/2385771",
+      "rule": "EAST_WEST_EXTREMA",
+      "source": {
+        "id": "node/1890935454",
+        "xy": [
+          354331.91300043056,
+          3456032.6585559454
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "relation/2385771:edge/018731",
+        "native_port_source_way_ids": [
+          "way/178737605"
+        ]
+      },
+      "target": {
+        "id": "node/1890935415",
+        "xy": [
+          354473.402803198,
+          3456114.86121377
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "relation/2385771:edge/018724",
+        "native_port_source_way_ids": [
+          "way/178737608"
+        ]
+      },
+      "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+      "old_mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "role": "LOCAL_FACE_MECHANISM_POINTS_NOT_NEW_ENTRANCES_OR_BUILDINGS"
+    },
+    {
+      "pair_id": "sh-huangpu-01/relation/2385771/2",
+      "scene_id": "sh-huangpu-01",
+      "source_area_id": "relation/2385771",
+      "rule": "NORTH_SOUTH_EXTREMA",
+      "source": {
+        "id": "node/1890745480",
+        "xy": [
+          354345.5337531547,
+          3456018.6779435365
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "relation/2385771:edge/018719",
+        "native_port_source_way_ids": [
+          "way/761403177"
+        ]
+      },
+      "target": {
+        "id": "node/1890935415",
+        "xy": [
+          354473.402803198,
+          3456114.86121377
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "relation/2385771:edge/018724",
+        "native_port_source_way_ids": [
+          "way/178737608"
+        ]
+      },
+      "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+      "old_mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "role": "LOCAL_FACE_MECHANISM_POINTS_NOT_NEW_ENTRANCES_OR_BUILDINGS"
+    },
+    {
+      "pair_id": "sh-library/way/1160136226/1",
+      "scene_id": "sh-library",
+      "source_area_id": "way/1160136226",
+      "rule": "EAST_WEST_EXTREMA",
+      "source": {
+        "id": "node/10789601371",
+        "xy": [
+          351527.98266553413,
+          3453777.646826536
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "way/1160136226:edge/005420",
+        "native_port_source_way_ids": [
+          "way/1160136221"
+        ]
+      },
+      "target": {
+        "id": "node/10789601373",
+        "xy": [
+          351558.21988313226,
+          3453791.223439055
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "way/1160136226:edge/005430",
+        "native_port_source_way_ids": [
+          "way/1160136220"
+        ]
+      },
+      "omega_sha256": "2b3fdd2d235a8849440060698bffb68ab8aa29b518316fd225a6543a1b0c04bd",
+      "old_mapped_edges_sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7",
+      "role": "LOCAL_FACE_MECHANISM_POINTS_NOT_NEW_ENTRANCES_OR_BUILDINGS"
+    },
+    {
+      "pair_id": "sh-library/way/1160136226/2",
+      "scene_id": "sh-library",
+      "source_area_id": "way/1160136226",
+      "rule": "NORTH_SOUTH_EXTREMA",
+      "source": {
+        "id": "node/10789601371",
+        "xy": [
+          351527.98266553413,
+          3453777.646826536
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "way/1160136226:edge/005420",
+        "native_port_source_way_ids": [
+          "way/1160136221"
+        ]
+      },
+      "target": {
+        "id": "node/10789601372",
+        "xy": [
+          351549.41357396706,
+          3453810.0624053436
+        ],
+        "endpoint_kind": "EXISTING_NATIVE_PORT",
+        "source_edge_id": "way/1160136226:edge/005425",
+        "native_port_source_way_ids": [
+          "way/1160136221"
+        ]
+      },
+      "omega_sha256": "2b3fdd2d235a8849440060698bffb68ab8aa29b518316fd225a6543a1b0c04bd",
+      "old_mapped_edges_sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7",
+      "role": "LOCAL_FACE_MECHANISM_POINTS_NOT_NEW_ENTRANCES_OR_BUILDINGS"
+    }
+  ],
+  "reference_or_saved_route_reads": 0
+}

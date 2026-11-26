@@ -1,0 +1,38 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_RAW_CONSTRAINT_OMEGA_RECONSTRUCTION",
+  "author_functions_called": false,
+  "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+  "face_file": "data\\faces\\sh-library\\face_geometry.json",
+  "face_file_sha256": "913606ee3ab337012467b42cf910abb865ce7adcc1aecb951e09b942cb8e77ce",
+  "source_file_stable": true,
+  "rows": [
+    {
+      "source_id": "way/1160136226",
+      "source_polygon_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_face_m2": 0.0,
+      "raw_source_counts": {
+        "parts": 1,
+        "holes": 0,
+        "vertices": 10
+      },
+      "expected_omega_counts": {
+        "parts": 1,
+        "holes": 0,
+        "vertices": 10
+      },
+      "saved_omega_counts": {
+        "parts": 1,
+        "holes": 0,
+        "vertices": 10
+      },
+      "expected_area_m2": 723.9140831564908,
+      "saved_area_m2": 723.9140831564907,
+      "independent_raw_mask_audit": [],
+      "status": "PASS"
+    }
+  ],
+  "precision": "Symmetric-difference area tolerance1e-5m² for independently ordered floating overlays, not an obstacle buffer change",
+  "status": "PASS"
+}

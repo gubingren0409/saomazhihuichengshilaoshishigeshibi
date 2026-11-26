@@ -1,0 +1,48 @@
+{
+  "selection": "Stable native ID first among50-200m source starts absent from old/current request logs; locked before first solver call",
+  "selected": {
+    "id": "node/10908242228",
+    "label": "node/10908242228",
+    "xy": [
+      354456.28940273856,
+      3455922.4747395306
+    ],
+    "wgs84": [
+      121.47187,
+      31.2284111
+    ],
+    "tags": {
+      "bus": "yes",
+      "name": "普安路延安东路",
+      "name:zh": "普安路延安东路",
+      "public_transport": "stop_position"
+    },
+    "distance_to_door_m": 182.74059082053887,
+    "role": "EXACT_EXISTING_ELIGIBLE_NATIVE_NODE"
+  },
+  "prior_logs_read": 83,
+  "prior_start_IDs": [
+    "node/10073042336",
+    "node/11667615960",
+    "node/1730911857",
+    "node/1890732610",
+    "node/1890885411",
+    "node/1890935448",
+    "node/NOT_A_SOURCE_NODE"
+  ],
+  "unused_eligible_count": 257,
+  "request": {
+    "scene_id": "sh-huangpu-01",
+    "start_id": "node/10908242228",
+    "door_id": "node/6897141353",
+    "purpose": "APPROACH_OUTSIDE",
+    "method": "F1",
+    "area_routing": "FULL_FACE",
+    "request_id": "CLEAN-NEW-START-LOCKED"
+  },
+  "map_source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "map_view_sha256": "ae06bff60716cf1d07ab363413e5655f2e2e4187934013e6327ea9a4dde5dfb9",
+  "route_solver_calls": 0,
+  "new_external_requests": 0,
+  "map_capture_repair": "Direct local scene_view export after prior HTTP snapshot was interrupted by premature own-service stop; same function/data, no image substitute"
+}

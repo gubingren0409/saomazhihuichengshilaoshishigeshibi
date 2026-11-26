@@ -1,0 +1,387 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_ALL_VERTEX_REAL_POLYGON_REFERENCE",
+  "APP_solver_calls": 0,
+  "new_real_endpoint_pairs": 0,
+  "repeated_fixed_pairs": 2,
+  "selection_lock_sha256": "68bbcf8a67c377260870d27f288cd0b679b0e21094558f9bb9706073cdd7c083",
+  "rows": [
+    {
+      "query": {
+        "pair_id": "sh-huangpu-01/relation/2153738/1",
+        "scene_id": "sh-huangpu-01",
+        "source_area_id": "relation/2153738",
+        "rule": "EAST_WEST_EXTREMA",
+        "source": {
+          "id": "node/1890732633",
+          "xy": [
+            354100.3063374167,
+            3456152.6787019544
+          ],
+          "endpoint_kind": "EXISTING_NATIVE_PORT",
+          "source_edge_id": "relation/2153738:edge/079216",
+          "native_port_source_way_ids": [
+            "way/1303211752",
+            "way/178719573"
+          ]
+        },
+        "target": {
+          "id": "node/1890732685",
+          "xy": [
+            354490.8078641513,
+            3456400.007523154
+          ],
+          "endpoint_kind": "EXISTING_NATIVE_PORT",
+          "source_edge_id": "relation/2153738:edge/079229",
+          "native_port_source_way_ids": [
+            "way/178719573",
+            "way/178721636"
+          ]
+        },
+        "omega_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+        "old_mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+        "role": "LOCAL_FACE_MECHANISM_POINTS_NOT_NEW_ENTRANCES_OR_BUILDINGS"
+      },
+      "raw_source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "reference": {
+        "reached": true,
+        "length_m": 525.9087938369944,
+        "points": [
+          [
+            354100.3063374167,
+            3456152.6787019544
+          ],
+          [
+            354132.141129448,
+            3456135.45316156
+          ],
+          [
+            354132.1724140578,
+            3456135.4385574064
+          ],
+          [
+            354149.9598116379,
+            3456128.3314354485
+          ],
+          [
+            354149.9897044144,
+            3456128.3212208375
+          ],
+          [
+            354157.87685784843,
+            3456126.171913924
+          ],
+          [
+            354157.8974082453,
+            3456126.1672346173
+          ],
+          [
+            354157.9182797531,
+            3456126.164302913
+          ],
+          [
+            354160.563206946,
+            3456125.9059063517
+          ],
+          [
+            354160.59363092977,
+            3456125.9047966017
+          ],
+          [
+            354166.3784874683,
+            3456126.046357911
+          ],
+          [
+            354166.4056001274,
+            3456126.0485012084
+          ],
+          [
+            354175.92171326536,
+            3456127.3246515933
+          ],
+          [
+            354175.9356267251,
+            3456127.32691845
+          ],
+          [
+            354183.36741322227,
+            3456128.75391701
+          ],
+          [
+            354183.3969140305,
+            3456128.7614701195
+          ],
+          [
+            354192.0766459708,
+            3456131.5570409494
+          ],
+          [
+            354192.09479877166,
+            3456131.563672399
+          ],
+          [
+            354192.11238507327,
+            3456131.5716862814
+          ],
+          [
+            354202.7040501037,
+            3456136.9018412195
+          ],
+          [
+            354202.72046856064,
+            3456136.910890553
+          ],
+          [
+            354202.7361627343,
+            3456136.921144776
+          ],
+          [
+            354265.3313306155,
+            3456178.772858466
+          ],
+          [
+            354265.35159932816,
+            3456178.786545629
+          ],
+          [
+            354355.1975108272,
+            3456244.925758574
+          ],
+          [
+            354355.2167455012,
+            3456244.9411111367
+          ],
+          [
+            354407.9451435424,
+            3456288.3014231683
+          ],
+          [
+            354407.9591720653,
+            3456288.3144004853
+          ],
+          [
+            354415.9965689958,
+            3456296.340950707
+          ],
+          [
+            354416.0153577153,
+            3456296.361959405
+          ],
+          [
+            354423.3447920019,
+            3456305.5513449935
+          ],
+          [
+            354423.35913543263,
+            3456305.571260295
+          ],
+          [
+            354428.58663260745,
+            3456313.6366970018
+          ],
+          [
+            354428.60063204076,
+            3456313.6612305213
+          ],
+          [
+            354428.6117745757,
+            3456313.687186669
+          ],
+          [
+            354430.73109897005,
+            3456319.511732421
+          ],
+          [
+            354430.7373210956,
+            3456319.53129837
+          ],
+          [
+            354432.84461434867,
+            3456327.240778828
+          ],
+          [
+            354432.84577754757,
+            3456327.245192385
+          ],
+          [
+            354435.5461564047,
+            3456337.8844884546
+          ],
+          [
+            354435.5510730685,
+            3456337.9089015895
+          ],
+          [
+            354435.5535364857,
+            3456337.9336827584
+          ],
+          [
+            354436.668113566,
+            3456380.914971774
+          ],
+          [
+            354436.6711180915,
+            3456380.9392120033
+          ],
+          [
+            354436.6764737893,
+            3456380.963043335
+          ],
+          [
+            354436.68412953464,
+            3456380.986238279
+          ],
+          [
+            354436.6940122469,
+            3456381.00857542
+          ],
+          [
+            354436.70602758724,
+            3456381.0298415306
+          ],
+          [
+            354436.7200608588,
+            3456381.049833608
+          ],
+          [
+            354436.73597810214,
+            3456381.06836081
+          ],
+          [
+            354436.75362737355,
+            3456381.08524628
+          ],
+          [
+            354436.7728401957,
+            3456381.1003288305
+          ],
+          [
+            354457.7276142083,
+            3456395.955105122
+          ],
+          [
+            354457.74826515047,
+            3456395.968273878
+          ],
+          [
+            354457.7701055772,
+            3456395.979358701
+          ],
+          [
+            354457.7929258632,
+            3456395.988253199
+          ],
+          [
+            354457.81650697836,
+            3456395.994872002
+          ],
+          [
+            354457.8406225902,
+            3456395.999151582
+          ],
+          [
+            354490.8078641513,
+            3456400.007523154
+          ]
+        ],
+        "visibility_checks": 1006991,
+        "expanded_vertices": 925,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 166.21751179998682
+      },
+      "independent_polyline_length_m": 525.9087938369946,
+      "outside_independent_omega_m": 0.0,
+      "author_comparison": {
+        "file": "runs\\face_pairs_R1\\sh-huangpu-01_relation_2153738_1.json",
+        "sha256": "8a52f767cdad3961f7f3a18ff05b49f8ee4d17108f6b707bb3186faf8cfebbcc",
+        "reached": true,
+        "length_m": 525.9087938369946,
+        "agrees": true
+      }
+    },
+    {
+      "query": {
+        "pair_id": "sh-huangpu-01/relation/2385771/1",
+        "scene_id": "sh-huangpu-01",
+        "source_area_id": "relation/2385771",
+        "rule": "EAST_WEST_EXTREMA",
+        "source": {
+          "id": "node/1890935454",
+          "xy": [
+            354331.91300043056,
+            3456032.6585559454
+          ],
+          "endpoint_kind": "EXISTING_NATIVE_PORT",
+          "source_edge_id": "relation/2385771:edge/018731",
+          "native_port_source_way_ids": [
+            "way/178737605"
+          ]
+        },
+        "target": {
+          "id": "node/1890935415",
+          "xy": [
+            354473.402803198,
+            3456114.86121377
+          ],
+          "endpoint_kind": "EXISTING_NATIVE_PORT",
+          "source_edge_id": "relation/2385771:edge/018724",
+          "native_port_source_way_ids": [
+            "way/178737608"
+          ]
+        },
+        "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+        "old_mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+        "role": "LOCAL_FACE_MECHANISM_POINTS_NOT_NEW_ENTRANCES_OR_BUILDINGS"
+      },
+      "raw_source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "reference": {
+        "reached": true,
+        "length_m": 163.72297505256262,
+        "points": [
+          [
+            354331.91300043056,
+            3456032.6585559454
+          ],
+          [
+            354374.78512168734,
+            3456055.5504678437
+          ],
+          [
+            354400.32717808674,
+            3456069.32168429
+          ],
+          [
+            354400.34789285855,
+            3456069.3341827686
+          ],
+          [
+            354473.402803198,
+            3456114.86121377
+          ]
+        ],
+        "visibility_checks": 2601,
+        "expanded_vertices": 19,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 0.12712760000431444
+      },
+      "independent_polyline_length_m": 163.72297505256262,
+      "outside_independent_omega_m": 0.0,
+      "author_comparison": {
+        "file": "runs\\face_pairs_R1\\sh-huangpu-01_relation_2385771_1.json",
+        "sha256": "7d00a749dad0d5aef35259a29d21a2dd077d0c356734e3e2683e7d494c5b5ed8",
+        "reached": true,
+        "length_m": 163.72297505256262,
+        "agrees": true
+      }
+    }
+  ],
+  "author_functions_called": false,
+  "method": "All independent raw polygon Ω vertices; strict prepared covers; own lazy complete-graph Euclidean A*; no reflex/tangent pruning",
+  "elapsed_s": 167.56171080000058,
+  "limitations": [
+    "Polygonal domain optimum only; no native network or APP topology claim",
+    "Primary raw road touches Ω only at isolated point, raw barrier intersections have zero length; no internal omitted linear barrier crossing in these selected domains",
+    "No physical/field accessibility, finite-source-interface global optimum, or continuous circular-clearance certification"
+  ],
+  "status": "PASS"
+}

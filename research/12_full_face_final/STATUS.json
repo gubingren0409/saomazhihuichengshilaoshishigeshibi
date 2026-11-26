@@ -1,0 +1,74 @@
+{
+  "task": "OSM-GEOAPIFY-PEDESTRIAN-AREA-SHORTEST-R1",
+  "status": "PRE_SEAL_CHECKS_PASSED_AWAITING_FIXED_ZIP_REPLAY",
+  "started_at": "2026-11-11T21:43:20.1555498+08:00",
+  "active_compute_budget_s": 14400,
+  "app_solver_call_cap": 96,
+  "real_face_pair_cap": 12,
+  "extra_app_geometric_task_cap": 4,
+  "new_external_requests": 0,
+  "old_service_must_remain_untouched": true,
+  "phase": "FIRST_REAL_PAIR_DONE_PENDING_FIXED_MATRIX",
+  "updated_at": "2026-11-11T23:00:39.652723+08:00",
+  "completed": {
+    "input_baseline_verify": true,
+    "UI_overlay_bound": true,
+    "frozen_edge_calibration_m": 159.19560018180962,
+    "synthetic_geometry_tests": 19,
+    "independent_analytic_cases": 35,
+    "source_P_and_omega_independently_checked": true,
+    "first_pair_old_m": 159.19560018180962,
+    "first_pair_full_R0_m": 149.03381242176852,
+    "first_pair_old_band_outside_m": 44.694698126703805,
+    "real_pairs_prelocked": 7,
+    "real_pair_R0_execution": true,
+    "R1_matrix_calls": 26,
+    "R1_positives": 16,
+    "R1_refusals": 10,
+    "R1_unchanged_old_lengths": true,
+    "R2_matrix_calls": 26,
+    "R2_positive_routes": 16,
+    "R2_refusal_checks": 10,
+    "R2_same_measured_lengths_as_R1": true,
+    "final_visibility_tests": 31,
+    "root_cost_tests": 2,
+    "real_pairs_final_replay": 7,
+    "actual_UI_checks": 12,
+    "actual_UI_solver_calls": 4,
+    "view_controls_zero_solver_checks": 7,
+    "CLI_cold_actual_solver": true,
+    "figures_SVG_PNG_pairs": 6,
+    "offline_Edge_gallery_render": "PASS",
+    "independent_real_all_vertex_pairs": 2,
+    "independent_final_main_response_check": "PASS",
+    "independent_extra_UI_response_check": "PASS"
+  },
+  "diagnostics": [
+    {
+      "id": 1,
+      "type": "COMPLEXITY",
+      "solution": "Exact local tangent pruning, all vertices and portals retained"
+    },
+    {
+      "id": 2,
+      "type": "NUMERIC_INTERFACE",
+      "finding": "Derived GEOS boundary intersections1e-10m outside strict Ω; not component drift",
+      "action": "Only derived point parameter inward canonicalization, original coordinates/domain unchanged"
+    }
+  ],
+  "app_attempts_so_far": 68,
+  "new_service": "STOPPED_FOR_ARCHIVE_CHECK",
+  "old_service": "178908_UNTOUCHED",
+  "correctness_repairs": [
+    {
+      "id": "NON_NATIVE_POINT_TOUCH_ALIAS",
+      "finding": "Independent synthetic overlay exposes zero-length shared local alias across point-touch components",
+      "real_fixed_domain_impact": "No such components in museum/library, independently measured",
+      "action": "Minimal positive-parent/junction gate; preserve R1; finalversion regression pending"
+    }
+  ],
+  "actual_solver_calls_so_far": 48,
+  "user_review": "PENDING",
+  "field_validation": "NOT_PERFORMED",
+  "final_archive_replay": "See external final receipt after exact archive creation"
+}

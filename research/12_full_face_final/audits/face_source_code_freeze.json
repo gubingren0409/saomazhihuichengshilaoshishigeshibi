@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "source_only_audit": "audits/face_source_sh-huangpu-01.json",
+  "permissions_checked": [
+    [
+      {
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      null
+    ],
+    [
+      {
+        "area": "yes",
+        "highway": "pedestrian",
+        "access": "private"
+      },
+      "RESTRICTED_OR_CONDITIONAL_AREA"
+    ],
+    [
+      {
+        "area": "yes",
+        "highway": "pedestrian",
+        "access": "private",
+        "foot": "yes"
+      },
+      null
+    ],
+    [
+      {
+        "area": "yes",
+        "highway": "pedestrian",
+        "level": "1"
+      },
+      "NON_GROUND_OR_UNRESOLVED_LAYER"
+    ],
+    [
+      {
+        "leisure": "park"
+      },
+      "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA"
+    ]
+  ],
+  "src_sha256": "941648761f179e9c5cb93c38a79ec7970dc39a11f973499daef499accaeabc12",
+  "script_sha256": "d8a25a7fc58634e973d7a3a4dbb261b95cb662b8e36bb0351a0d1d4ee5382ade"
+}

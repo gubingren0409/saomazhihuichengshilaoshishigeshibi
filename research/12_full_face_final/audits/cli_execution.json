@@ -1,0 +1,24 @@
+{
+  "role": "ACTUAL_CLI_COLD_PROCESS",
+  "exit_code": 0,
+  "command": "python -X utf8 -B scripts/plan.py --request data/example_request.json --area-routing FULL_FACE --output runs/cli_R2_response.json",
+  "run_id": "RUN-20261111T224913-4b7a6c70fc",
+  "archived_response": "runs/app/RUN-20261111T224913-4b7a6c70fc.json",
+  "status": "ROUTED_NATIVE_OR_MAPPED",
+  "elapsed_s": 195.84662540000863,
+  "solver": {
+    "invoked": true,
+    "elapsed_s": 0.6177825999911875,
+    "algorithm": "networkx weighted bidirectional shortest path",
+    "invocation_id": "192c6f7b4fbb4fbf9ce34a97af8621f3",
+    "answer_source": "CURRENT_REQUEST_SOLVER"
+  },
+  "route_answer_cache": {
+    "enabled": false,
+    "hit": false
+  },
+  "length_m": 148.86312206979613,
+  "same_preprocessing_graph_as_HTTP": true,
+  "cold_prepare_cache_hit": false,
+  "SHA256": "8ad3a6ccc3a4e9930f544b1fe14826029595c190f8f168f6b690868f8f728c37"
+}

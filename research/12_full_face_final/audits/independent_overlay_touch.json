@@ -1,0 +1,131 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_ANALYTICAL_OVERLAY_POINT_TOUCH_COUNTEREXAMPLE",
+  "APP_solver_calls": 0,
+  "DUT_sha256": "1b20b8ad8e0a6a2c2db3cf825f18ca44a2cbac8e04c54a6a9c73b54e5b656357",
+  "DUT_stable": true,
+  "fixture": "Two positive-area polygons meet only at(2,2); source native graphs disconnected; one local inferred cell at touch has an outward edge",
+  "expected_derived_only_cross_component_route": false,
+  "DUT_reached": true,
+  "nodes": [
+    "native/A",
+    "cell/touch",
+    "native/B"
+  ],
+  "route_layers": [
+    "derived",
+    "derived"
+  ],
+  "assumed_length_m": 0,
+  "portals": [
+    {
+      "id": "cell/touch",
+      "xy": [
+        2,
+        2
+      ],
+      "source_area_id": "synthetic-face",
+      "component": 0,
+      "evidence": [
+        {
+          "kind": "EXACT_EXISTING_LOCAL_REGION_INTERFACE",
+          "adjacent_outside_face": true
+        }
+      ]
+    },
+    {
+      "id": "native/A",
+      "xy": [
+        1,
+        1
+      ],
+      "source_area_id": "synthetic-face",
+      "component": 0,
+      "evidence": [
+        {
+          "kind": "EXACT_GROUND_NATIVE_NODE_IN_FACE",
+          "source_ids": [
+            "way/synthetic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native/An",
+      "xy": [
+        0.5,
+        1
+      ],
+      "source_area_id": "synthetic-face",
+      "component": 0,
+      "evidence": [
+        {
+          "kind": "EXACT_GROUND_NATIVE_NODE_IN_FACE",
+          "source_ids": [
+            "way/synthetic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cell/touch",
+      "xy": [
+        2,
+        2
+      ],
+      "source_area_id": "synthetic-face",
+      "component": 1,
+      "evidence": [
+        {
+          "kind": "EXACT_EXISTING_LOCAL_REGION_INTERFACE",
+          "adjacent_outside_face": true
+        }
+      ]
+    },
+    {
+      "id": "native/B",
+      "xy": [
+        3,
+        3
+      ],
+      "source_area_id": "synthetic-face",
+      "component": 1,
+      "evidence": [
+        {
+          "kind": "EXACT_GROUND_NATIVE_NODE_IN_FACE",
+          "source_ids": [
+            "way/synthetic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native/Bn",
+      "xy": [
+        3.5,
+        3
+      ],
+      "source_area_id": "synthetic-face",
+      "component": 1,
+      "evidence": [
+        {
+          "kind": "EXACT_GROUND_NATIVE_NODE_IN_FACE",
+          "source_ids": [
+            "way/synthetic"
+          ]
+        }
+      ]
+    }
+  ],
+  "source_graph_unmodified_nodes": [
+    "native/A",
+    "native/An",
+    "native/B",
+    "native/Bn"
+  ],
+  "local_graph_unmodified_nodes": [
+    "cell/touch",
+    "cell/outside"
+  ],
+  "status": "CONFIRMED_IMPLEMENTATION_DEFECT"
+}

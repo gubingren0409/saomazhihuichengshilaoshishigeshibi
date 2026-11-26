@@ -1,0 +1,62 @@
+{
+  "role": "AUTHOR_SYNTHETIC_GEOMETRY_ONLY",
+  "source_code_sha256": "1b20b8ad8e0a6a2c2db3cf825f18ca44a2cbac8e04c54a6a9c73b54e5b656357",
+  "source_polygon": [
+    [
+      354380.123,
+      3456080.456
+    ],
+    [
+      354430.789,
+      3456090.123
+    ],
+    [
+      354420.456,
+      3456140.789
+    ],
+    [
+      354370.123,
+      3456120.456
+    ],
+    [
+      354380.123,
+      3456080.456
+    ]
+  ],
+  "original_parent_arc": [
+    [
+      354394.4421610861,
+      3456166.5431052404
+    ],
+    [
+      354384.54052966577,
+      3456110.410148386
+    ]
+  ],
+  "raw_intersection_covered": false,
+  "certified_contact_covered": true,
+  "certificate": {
+    "xy": [
+      354387.5547400813,
+      3456127.4978924175
+    ],
+    "position_m": 39.648016501069364,
+    "raw_intersection_xy": [
+      354387.55474008137,
+      3456127.497892418
+    ],
+    "parent_position_before_m": 39.648016500834515,
+    "parent_position_after_m": 39.648016501069364,
+    "coordinate_shift_m": 4.692851652099372e-10,
+    "parameter_shift_m": 2.348485850234283e-10,
+    "roundoff_limit_m": 1e-08,
+    "positive_parent_interval_witness_m": [
+      39.648016501069364,
+      48.3237939952981
+    ],
+    "policy": "DERIVED_GEOS_BOUNDARY_INTERSECTION_ON_SAME_PARENT_ARC; STRICT_COMPONENT_COVERS; NO_SOURCE_OR_DOMAIN_MOVEMENT"
+  },
+  "source_vertices_unchanged": true,
+  "APP_solver_calls": 0,
+  "status": "PASS"
+}

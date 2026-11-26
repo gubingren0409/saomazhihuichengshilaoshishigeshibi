@@ -1,0 +1,30 @@
+{
+  "rule": "Stable first unused nativeID50-200m; excludes all old/current inputs and first clean start, before solver",
+  "selected": {
+    "id": "node/11201355932",
+    "label": "node/11201355932",
+    "xy": [
+      354327.041734161,
+      3456160.4467561394
+    ],
+    "wgs84": [
+      121.4704788,
+      31.2305414
+    ],
+    "tags": {},
+    "distance_to_door_m": 95.25352560737902,
+    "role": "EXACT_EXISTING_ELIGIBLE_NATIVE_NODE"
+  },
+  "request": {
+    "scene_id": "sh-huangpu-01",
+    "start_id": "node/11201355932",
+    "door_id": "node/6897141353",
+    "purpose": "APPROACH_OUTSIDE",
+    "method": "F1",
+    "area_routing": "FULL_FACE",
+    "request_id": "CLEAN-FINAL-LEGEND-NEW-START"
+  },
+  "additional_geometric_tasks_total": 4,
+  "APP_attempts_so_far": 69,
+  "one_final_replay_planned": true
+}

@@ -1,0 +1,27 @@
+{
+  "role": "COMPLEXITY_DIAGNOSTIC_1_GEOMETRY_ONLY_NO_APP_QUERY",
+  "trigger": "Actual northOmega1872 vertices and1774 reflex; failed-pair memo plus dense visibility would consume unnecessaryRAM",
+  "source_area_id": "relation/2153738",
+  "geometry_hash": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+  "all_vertices": 1872,
+  "reflex_vertices": 1774,
+  "graph_nodes": 1774,
+  "graph_arcs": 3892,
+  "stats": {
+    "visibility_checks": 2838,
+    "domain_rejections": 892,
+    "constraint_rejections": 0,
+    "numeric_tolerance_admissions": 0,
+    "reflex_vertices": 1774,
+    "required_points": 0,
+    "pair_candidates": 1572651,
+    "local_tangent_rejections": 1569813
+  },
+  "elapsed_s": 5.098271300012129,
+  "rss_bytes": 59822080,
+  "route_queries": 0,
+  "geometry_simplification": false,
+  "portal_culling": false,
+  "extra_source_barrier_rules_applied": false,
+  "limitation": "Only complexity of base polygonal roadmap; not a validAPP route or complete source constraints check"
+}

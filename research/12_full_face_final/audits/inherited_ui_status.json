@@ -1,0 +1,33 @@
+{
+  "started_at": "2026-11-11T19:47:05.935385+08:00",
+  "scope": "Fix missing map and empty start selector during UI interaction; no routing/model/data changes",
+  "before": {
+    "app.js": "ae0439a7dadad6999fca1a9d34a7e766a03326decc574227e53b5c4c75c5ee96",
+    "index.html": "8339a1cff28958e0e96dbe12846fdfadd31c20b7f8eee281064a9338af201e20"
+  },
+  "sealed_review_zip_sha256": "4fc46d467a25aa19db46a8d721f523b1f3a5aed43ae7645d107a52a08682e6da",
+  "status": "FIXED_AND_BROWSER_VERIFIED",
+  "completed_at": "2026-11-11T19:57:33.524222+08:00",
+  "root_cause": "One sequence counter incorrectly cancelled pending map data on purpose/method changes; compute enabled before map readiness",
+  "changes": [
+    "Independent map and route sequence counters",
+    "Disable compute and start while loading",
+    "Visible loading/error state and retry",
+    "Ignore stale scene responses without cancelling valid map response",
+    "Accurate available/shown start counts"
+  ],
+  "final_assets": {
+    "app.js": "be170e46ccb76dd2f2d747d27a528ff1082d7eef404eac4b953f2236c0a85f96",
+    "index.html": "9394c67b5e8673fdd3e704acc017b28b7297939cf322e5bbc73d29e1186c9496"
+  },
+  "independent_interaction_cases": 4,
+  "final_actual_map_paths": 7713,
+  "final_actual_shown_starts": 263,
+  "solver_calls": 0,
+  "changed_baseline_members": [
+    "app/app.js",
+    "app/index.html"
+  ],
+  "sealed_base_unchanged": true,
+  "four_case_asset_note": "four_cases_tested_app.js reconstructed by reversing exactly one final display-count edit; its bytes match independent tested SHA. Final live test binds final hash/count."
+}

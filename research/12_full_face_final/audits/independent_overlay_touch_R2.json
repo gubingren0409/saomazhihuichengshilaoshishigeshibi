@@ -1,0 +1,94 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_ANALYTICAL_OVERLAY_POINT_TOUCH_COUNTEREXAMPLE",
+  "APP_solver_calls": 0,
+  "DUT_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+  "DUT_stable": true,
+  "fixture": "Two positive-area polygons meet only at(2,2); source native graphs disconnected; one local inferred cell at touch has an outward edge",
+  "expected_derived_only_cross_component_route": false,
+  "DUT_reached": false,
+  "nodes": [],
+  "route_layers": [],
+  "assumed_length_m": 0,
+  "portals": [
+    {
+      "id": "native/A",
+      "xy": [
+        1,
+        1
+      ],
+      "source_area_id": "synthetic-face",
+      "component": 0,
+      "evidence": [
+        {
+          "kind": "EXACT_GROUND_NATIVE_NODE_IN_FACE",
+          "source_ids": [
+            "way/synthetic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native/An",
+      "xy": [
+        0.5,
+        1
+      ],
+      "source_area_id": "synthetic-face",
+      "component": 0,
+      "evidence": [
+        {
+          "kind": "EXACT_GROUND_NATIVE_NODE_IN_FACE",
+          "source_ids": [
+            "way/synthetic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native/B",
+      "xy": [
+        3,
+        3
+      ],
+      "source_area_id": "synthetic-face",
+      "component": 1,
+      "evidence": [
+        {
+          "kind": "EXACT_GROUND_NATIVE_NODE_IN_FACE",
+          "source_ids": [
+            "way/synthetic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "native/Bn",
+      "xy": [
+        3.5,
+        3
+      ],
+      "source_area_id": "synthetic-face",
+      "component": 1,
+      "evidence": [
+        {
+          "kind": "EXACT_GROUND_NATIVE_NODE_IN_FACE",
+          "source_ids": [
+            "way/synthetic"
+          ]
+        }
+      ]
+    }
+  ],
+  "source_graph_unmodified_nodes": [
+    "native/A",
+    "native/An",
+    "native/B",
+    "native/Bn"
+  ],
+  "local_graph_unmodified_nodes": [
+    "cell/touch",
+    "cell/outside"
+  ],
+  "status": "PASS_NO_DERIVED_POINT_TOUCH_SHORTCUT"
+}

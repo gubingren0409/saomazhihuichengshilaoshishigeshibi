@@ -1,0 +1,342 @@
+{
+  "reviewer": "/root/e2e_review",
+  "role": "UI_INTERACTION_FIX_NOT_A_ROUTE_OR_DATA_EXPERIMENT",
+  "app_js_sha256": "ad21703467df591d48b550a62adc16147d9f3e16ae6ea55bac36ad39d59efcdf",
+  "index_html_sha256": "9394c67b5e8673fdd3e704acc017b28b7297939cf322e5bbc73d29e1186c9496",
+  "sealed_zip_sha256": "4fc46d467a25aa19db46a8d721f523b1f3a5aed43ae7645d107a52a08682e6da",
+  "requests": [
+    {
+      "case": "normal_live_refresh",
+      "url": "http://127.0.0.1:53421/",
+      "method": "GET"
+    },
+    {
+      "case": "normal_live_refresh",
+      "url": "http://127.0.0.1:53421/app.css",
+      "method": "GET"
+    },
+    {
+      "case": "normal_live_refresh",
+      "url": "http://127.0.0.1:53421/app.js",
+      "method": "GET"
+    },
+    {
+      "case": "normal_live_refresh",
+      "url": "http://127.0.0.1:53421/api/scenes",
+      "method": "GET"
+    },
+    {
+      "case": "normal_live_refresh",
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897141353",
+      "method": "GET"
+    },
+    {
+      "case": "change_purpose_method_and_click_disabled_compute_while_map_pending",
+      "url": "http://127.0.0.1:53421/",
+      "method": "GET"
+    },
+    {
+      "case": "change_purpose_method_and_click_disabled_compute_while_map_pending",
+      "url": "http://127.0.0.1:53421/app.css",
+      "method": "GET"
+    },
+    {
+      "case": "change_purpose_method_and_click_disabled_compute_while_map_pending",
+      "url": "http://127.0.0.1:53421/app.js",
+      "method": "GET"
+    },
+    {
+      "case": "change_purpose_method_and_click_disabled_compute_while_map_pending",
+      "url": "http://127.0.0.1:53421/api/scenes",
+      "method": "GET"
+    },
+    {
+      "case": "change_purpose_method_and_click_disabled_compute_while_map_pending",
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897141353",
+      "method": "GET"
+    },
+    {
+      "case": "new_library_response_first_old_museum_response_late",
+      "url": "http://127.0.0.1:53421/",
+      "method": "GET"
+    },
+    {
+      "case": "new_library_response_first_old_museum_response_late",
+      "url": "http://127.0.0.1:53421/app.css",
+      "method": "GET"
+    },
+    {
+      "case": "new_library_response_first_old_museum_response_late",
+      "url": "http://127.0.0.1:53421/app.js",
+      "method": "GET"
+    },
+    {
+      "case": "new_library_response_first_old_museum_response_late",
+      "url": "http://127.0.0.1:53421/api/scenes",
+      "method": "GET"
+    },
+    {
+      "case": "new_library_response_first_old_museum_response_late",
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897141353",
+      "method": "GET"
+    },
+    {
+      "case": "new_library_response_first_old_museum_response_late",
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-library&door_id=node%2F11300000483",
+      "method": "GET"
+    },
+    {
+      "case": "map_503_then_real_retry",
+      "url": "http://127.0.0.1:53421/",
+      "method": "GET"
+    },
+    {
+      "case": "map_503_then_real_retry",
+      "url": "http://127.0.0.1:53421/app.css",
+      "method": "GET"
+    },
+    {
+      "case": "map_503_then_real_retry",
+      "url": "http://127.0.0.1:53421/app.js",
+      "method": "GET"
+    },
+    {
+      "case": "map_503_then_real_retry",
+      "url": "http://127.0.0.1:53421/api/scenes",
+      "method": "GET"
+    },
+    {
+      "case": "map_503_then_real_retry",
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897141353",
+      "method": "GET"
+    },
+    {
+      "case": "map_503_then_real_retry",
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897141353",
+      "method": "GET"
+    }
+  ],
+  "page_errors": [],
+  "cases": [
+    {
+      "name": "normal_live_refresh",
+      "mode": "normal",
+      "loaded": {
+        "scene": "sh-huangpu-01",
+        "door": "node/6897141353",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "paths": 7713,
+        "valid_start_count": 263,
+        "selected_start": "node/1890732610",
+        "compute_disabled": false,
+        "start_disabled": false,
+        "busy": "false",
+        "retry_visible": false,
+        "notice_hidden": true,
+        "notice": "地图尚未载入。",
+        "status": "地图和起点已就绪。请选择起点，再计算路线。",
+        "record": {
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "door_ids": [
+            "node/6897141353",
+            "node/6897145227"
+          ],
+          "shown_starts": 6311
+        },
+        "paths_geometry_sha256": "4bb799f6174dbdec2bde7c3f94af73fe5e428dd709b2d869154edbad541caf94"
+      },
+      "actual_success_payloads": {
+        "museum": {
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "feature_count": 7712,
+          "native_start_count": 6311
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "change_purpose_method_and_click_disabled_compute_while_map_pending",
+      "mode": "delay",
+      "pending": {
+        "scene": "sh-huangpu-01",
+        "door": "node/6897141353",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "paths": 0,
+        "valid_start_count": 0,
+        "selected_start": "",
+        "compute_disabled": true,
+        "start_disabled": true,
+        "busy": "true",
+        "retry_visible": false,
+        "notice_hidden": false,
+        "notice": "正在载入地图和可选起点，请稍候…",
+        "status": "正在载入地图和可选起点，请稍候…",
+        "record": "",
+        "paths_geometry_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "changed_during_loading": {
+        "scene": "sh-huangpu-01",
+        "door": "node/6897141353",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "paths": 0,
+        "valid_start_count": 0,
+        "selected_start": "",
+        "compute_disabled": true,
+        "start_disabled": true,
+        "busy": "true",
+        "retry_visible": false,
+        "notice_hidden": false,
+        "notice": "正在载入地图和可选起点，请稍候…",
+        "status": "正在载入地图和可选起点，请稍候…",
+        "record": "",
+        "paths_geometry_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "loaded_after_input_changes": {
+        "scene": "sh-huangpu-01",
+        "door": "node/6897141353",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "paths": 7713,
+        "valid_start_count": 263,
+        "selected_start": "node/1890732610",
+        "compute_disabled": false,
+        "start_disabled": false,
+        "busy": "false",
+        "retry_visible": false,
+        "notice_hidden": true,
+        "notice": "地图尚未载入。",
+        "status": "地图和起点已就绪。请选择起点，再计算路线。",
+        "record": {
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "door_ids": [
+            "node/6897141353",
+            "node/6897145227"
+          ],
+          "shown_starts": 6311
+        },
+        "paths_geometry_sha256": "4bb799f6174dbdec2bde7c3f94af73fe5e428dd709b2d869154edbad541caf94"
+      },
+      "actual_success_payloads": {
+        "museum": {
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "feature_count": 7712,
+          "native_start_count": 6311
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "new_library_response_first_old_museum_response_late",
+      "mode": "reverse",
+      "library_loaded_first": {
+        "scene": "sh-library",
+        "door": "node/11300000483",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "paths": 7297,
+        "valid_start_count": 60,
+        "selected_start": "node/11300000486",
+        "compute_disabled": false,
+        "start_disabled": false,
+        "busy": "false",
+        "retry_visible": false,
+        "notice_hidden": true,
+        "notice": "地图尚未载入。",
+        "status": "地图和起点已就绪。请选择起点，再计算路线。",
+        "record": {
+          "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+          "door_ids": [
+            "node/11300000483"
+          ],
+          "shown_starts": 3067
+        },
+        "paths_geometry_sha256": "dbe1d71fa8e2300e8245e5ff89a41e6ee8694f634aea3e7f48633fad255e5806"
+      },
+      "unchanged_after_late_museum_response": true,
+      "response_delivery_order": [
+        "sh-library",
+        "sh-huangpu-01"
+      ],
+      "actual_success_payloads": {
+        "museum": {
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "feature_count": 7712,
+          "native_start_count": 6311
+        },
+        "library": {
+          "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+          "feature_count": 7296,
+          "native_start_count": 3067
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "map_503_then_real_retry",
+      "mode": "fault",
+      "injected_http_fault": {
+        "original_backend_status": 200,
+        "delivered_status": 503,
+        "purpose": "CONTROLLED_TRANSIENT_UI_FAILURE_ONLY_NOT_SOURCE_FAILURE"
+      },
+      "failed_state": {
+        "scene": "sh-huangpu-01",
+        "door": "node/6897141353",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "paths": 0,
+        "valid_start_count": 0,
+        "selected_start": "",
+        "compute_disabled": true,
+        "start_disabled": true,
+        "busy": "false",
+        "retry_visible": true,
+        "notice_hidden": false,
+        "notice": "地图载入失败：INDEPENDENT_CONTROLLED_HTTP_503",
+        "status": "地图载入失败：INDEPENDENT_CONTROLLED_HTTP_503。请点击“重新加载地图”。",
+        "record": "",
+        "paths_geometry_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "recovered_after_retry": {
+        "scene": "sh-huangpu-01",
+        "door": "node/6897141353",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "paths": 7713,
+        "valid_start_count": 263,
+        "selected_start": "node/1890732610",
+        "compute_disabled": false,
+        "start_disabled": false,
+        "busy": "false",
+        "retry_visible": false,
+        "notice_hidden": true,
+        "notice": "地图尚未载入。",
+        "status": "地图和起点已就绪。请选择起点，再计算路线。",
+        "record": {
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "door_ids": [
+            "node/6897141353",
+            "node/6897145227"
+          ],
+          "shown_starts": 6311
+        },
+        "paths_geometry_sha256": "4bb799f6174dbdec2bde7c3f94af73fe5e428dd709b2d869154edbad541caf94"
+      },
+      "actual_success_payloads": {
+        "museum": {
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "feature_count": 7712,
+          "native_start_count": 6311
+        }
+      },
+      "result": "PASS"
+    }
+  ],
+  "no_solver_post": true,
+  "assets_unchanged_during_test": true,
+  "old_sealed_zip_unchanged": true,
+  "status": "PASS"
+}

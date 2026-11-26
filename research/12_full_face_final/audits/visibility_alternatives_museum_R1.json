@@ -1,0 +1,128 @@
+{
+  "role": "AUTHOR_EXTERNAL_ALTERNATIVE_AUDIT_NOT_INDEPENDENT_REVIEW",
+  "source_overlay": "data\\derived_graphs\\f0bcf6fd717a3f2338288f73a4982eb0fee03236e715d67b844c03ba4e5c2baa-PREP-674205724937414f9bc31cbb65cd1923.jsonl.gz",
+  "source_overlay_sha256": "7889e7cf0cca0c70c892600b46e5008a7bde7ac8c470acf184d21cdd795a1259",
+  "preprocessing_receipt": "runs\\preprocessing\\f0bcf6fd717a3f2338288f73a4982eb0fee03236e715d67b844c03ba4e5c2baa-PREP-674205724937414f9bc31cbb65cd1923.json",
+  "preprocessing_receipt_sha256": "55c5fb8c960499e445d078f1c29fba24ec2610ed0f9ce14d0db4ed7827461522",
+  "counts": {
+    "arcs": 78102,
+    "arcs_with_multiple_options": 484,
+    "options": 78586,
+    "arcs_with_different_layer_or_geometry": 484,
+    "F0_canonical_only_would_lose_F1": 4,
+    "F0_geometric_winner_differs_from_F1": 0
+  },
+  "option_layer_signatures": {
+    "[[\"native\", \"ORIGINAL_OSM_NATIVE_SEGMENT\"]]": 96,
+    "[[\"derived\", \"DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE\"]]": 77640,
+    "[]": 24,
+    "[[\"derived\", \"FROZEN_R4_REV1_MAPPED_FACE_EDGE\"]]": 8,
+    "[[\"derived\", \"NEW_GRID_WITHIN_MAPPED_FACE\"]]": 642,
+    "[[\"inferred\", \"FROZEN_INFERRED_REGION\"]]": 38,
+    "[[\"derived\", \"NEW_GRID_WITHIN_MAPPED_FACE\"], [\"inferred\", \"FROZEN_INFERRED_REGION\"]]": 138
+  },
+  "examples": [
+    {
+      "u": "cell/354405/3456098/2180",
+      "v": "faceportal/ebd1dc8190f820c07b0fc37b",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.020445085557123925,
+      "canonical_F1_m": 0.020445085557123925,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.02044508555712392,
+      "canonical_only_F1_excess_m": 3.469446951953614e-18
+    },
+    {
+      "u": "faceportal/ebd1dc8190f820c07b0fc37b",
+      "v": "cell/354405/3456098/2180",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.020445085557123925,
+      "canonical_F1_m": 0.020445085557123925,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.02044508555712392,
+      "canonical_only_F1_excess_m": 3.469446951953614e-18
+    },
+    {
+      "u": "faceportal/3c6913ff2c156cde0837b503",
+      "v": "cell/354412/3456097/2595",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "canonical_F0_m": 0.831118105174388,
+      "canonical_F1_m": 0.831118105174388,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.8311181051743879,
+      "canonical_only_F1_excess_m": 1.1102230246251565e-16
+    },
+    {
+      "u": "cell/354412/3456097/2595",
+      "v": "faceportal/3c6913ff2c156cde0837b503",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "canonical_F0_m": 0.831118105174388,
+      "canonical_F1_m": 0.831118105174388,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.8311181051743879,
+      "canonical_only_F1_excess_m": 1.1102230246251565e-16
+    }
+  ],
+  "penalized_layers": [
+    "assumed",
+    "inferred",
+    "unknown"
+  ],
+  "APP_solver_calls": 0,
+  "src_modified": false,
+  "obsolete_in_process_counters": "assumed-only F1 competition counters NOT_USABLE_AS_NO_COMPETITION_EVIDENCE",
+  "scope": "Saved full-face overlay alternatives only; source/local graph alternatives merged later by planner may add options",
+  "status": "PASS"
+}

@@ -1,0 +1,46 @@
+{
+  "reviewer": "/root/face_review",
+  "scope": "Actual museum R1 APP faces plus source-audited library face; no claim about nonexecuted other scene overlays",
+  "faces": [
+    {
+      "source_id": "relation/2153738",
+      "component_count": 1,
+      "file": "runs\\main_matrix_R1\\APP-01-FULL_FACE.json"
+    },
+    {
+      "source_id": "relation/2385771",
+      "component_count": 1,
+      "file": "runs\\main_matrix_R1\\APP-01-FULL_FACE.json"
+    },
+    {
+      "source_id": "way/1160136226",
+      "component_count": 1,
+      "file": "data\\faces\\sh-library\\face_geometry.json"
+    }
+  ],
+  "pairs": [
+    {
+      "a": "relation/2153738",
+      "b": "relation/2385771",
+      "distance_m": 10.664947075251536,
+      "intersection_type": "Polygon",
+      "intersection_empty": true
+    },
+    {
+      "a": "relation/2153738",
+      "b": "way/1160136226",
+      "distance_m": 3442.408269725419,
+      "intersection_type": "Polygon",
+      "intersection_empty": true
+    },
+    {
+      "a": "relation/2385771",
+      "b": "way/1160136226",
+      "distance_m": 3537.2414198570905,
+      "intersection_type": "Polygon",
+      "intersection_empty": true
+    }
+  ],
+  "all_single_component": true,
+  "any_point_touch": false
+}

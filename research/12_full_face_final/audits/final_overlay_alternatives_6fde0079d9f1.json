@@ -1,0 +1,483 @@
+{
+  "role": "AUTHOR_EXTERNAL_ALTERNATIVE_AUDIT_NOT_INDEPENDENT_REVIEW",
+  "source_overlay": "data\\derived_graphs\\6fde0079d9f1b20eeed1945e291e801e48f9d44533f2bf490f3ca80362e49e53-PREP-681230576a20492cb7b1ed9134d9770d.jsonl.gz",
+  "source_overlay_sha256": "ec2735938b99dd120ac728a4525931dd26c14cdd0eb08987968e6c0d34d6df9b",
+  "preprocessing_receipt": "runs\\preprocessing\\6fde0079d9f1b20eeed1945e291e801e48f9d44533f2bf490f3ca80362e49e53-PREP-681230576a20492cb7b1ed9134d9770d.json",
+  "preprocessing_receipt_sha256": "0bc6dc8cb4382684f684a97fc198209f843ba0d79bdcf046ad7cccb3dd8f7d29",
+  "counts": {
+    "arcs": 26620,
+    "arcs_with_multiple_options": 236,
+    "options": 26856,
+    "arcs_with_different_layer_or_geometry": 236,
+    "F0_canonical_only_would_lose_F1": 18,
+    "F0_geometric_winner_differs_from_F1": 0,
+    "canonical_F1_excess_above_report_resolution": 0,
+    "F0_vs_F1_cost_difference_above_report_resolution": 0
+  },
+  "option_layer_signatures": {
+    "[[\"native\", \"ORIGINAL_OSM_NATIVE_SEGMENT\"]]": 96,
+    "[[\"derived\", \"DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE\"]]": 26412,
+    "[]": 20,
+    "[[\"derived\", \"NEW_GRID_WITHIN_MAPPED_FACE\"]]": 190,
+    "[[\"derived\", \"NEW_GRID_WITHIN_MAPPED_FACE\"], [\"inferred\", \"FROZEN_INFERRED_REGION\"]]": 78,
+    "[[\"inferred\", \"FROZEN_INFERRED_REGION\"]]": 52,
+    "[[\"derived\", \"FROZEN_R4_REV1_MAPPED_FACE_EDGE\"]]": 8
+  },
+  "examples": [
+    {
+      "u": "cell/354343/3456172/1557",
+      "v": "faceportal/a969dd8e4f3cf3a28876c903",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.2936778699513525,
+      "canonical_F1_m": 0.2936778700677678,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.2936778699513525,
+      "canonical_only_F1_excess_m": 1.1641532182693481e-10
+    },
+    {
+      "u": "faceportal/a969dd8e4f3cf3a28876c903",
+      "v": "cell/354343/3456172/1557",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.2936778699513525,
+      "canonical_F1_m": 0.2936778700677678,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.2936778699513525,
+      "canonical_only_F1_excess_m": 1.1641532182693481e-10
+    },
+    {
+      "u": "cell/354345/3456173/1687",
+      "v": "faceportal/1b0c9117d79b3041f60bc039",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.21750924334628507,
+      "canonical_F1_m": 0.21750924340449274,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.21750924334628507,
+      "canonical_only_F1_excess_m": 5.820766091346741e-11
+    },
+    {
+      "u": "faceportal/1b0c9117d79b3041f60bc039",
+      "v": "cell/354345/3456173/1687",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.21750924334628507,
+      "canonical_F1_m": 0.21750924340449274,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.21750924334628507,
+      "canonical_only_F1_excess_m": 5.820766091346741e-11
+    },
+    {
+      "u": "cell/354346/3456174/1752",
+      "v": "faceportal/5eaf943f8eeefe54dcd9a01b",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.34159359463956207,
+      "canonical_F1_m": 0.3415935947559774,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.34159359463956207,
+      "canonical_only_F1_excess_m": 1.1641532182693481e-10
+    },
+    {
+      "u": "faceportal/5eaf943f8eeefe54dcd9a01b",
+      "v": "cell/354346/3456174/1752",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.34159359463956207,
+      "canonical_F1_m": 0.3415935947559774,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.34159359463956207,
+      "canonical_only_F1_excess_m": 1.1641532182693481e-10
+    },
+    {
+      "u": "cell/354348/3456175/1886",
+      "v": "faceportal/5c4173f1643d87224e3b522b",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.16099032975034788,
+      "canonical_F1_m": 0.16099032992497087,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.16099032975034788,
+      "canonical_only_F1_excess_m": 1.7462298274040222e-10
+    },
+    {
+      "u": "faceportal/5c4173f1643d87224e3b522b",
+      "v": "cell/354348/3456175/1886",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.16099032975034788,
+      "canonical_F1_m": 0.16099032992497087,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.16099032975034788,
+      "canonical_only_F1_excess_m": 1.7462298274040222e-10
+    },
+    {
+      "u": "cell/354349/3456176/1955",
+      "v": "faceportal/d3af870c00dad999325b388c",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.17083795031066984,
+      "canonical_F1_m": 0.17083795048529282,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.17083795031066984,
+      "canonical_only_F1_excess_m": 1.7462298274040222e-10
+    },
+    {
+      "u": "faceportal/d3af870c00dad999325b388c",
+      "v": "cell/354349/3456176/1955",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.17083795031066984,
+      "canonical_F1_m": 0.17083795048529282,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.17083795031066984,
+      "canonical_only_F1_excess_m": 1.7462298274040222e-10
+    },
+    {
+      "u": "cell/354350/3456177/2024",
+      "v": "faceportal/6d6670fc0b88499b7eb3d1b4",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.28973108320496976,
+      "canonical_F1_m": 0.28973108337959275,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.28973108320496976,
+      "canonical_only_F1_excess_m": 1.7462298274040222e-10
+    },
+    {
+      "u": "faceportal/6d6670fc0b88499b7eb3d1b4",
+      "v": "cell/354350/3456177/2024",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.28973108320496976,
+      "canonical_F1_m": 0.28973108337959275,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.28973108320496976,
+      "canonical_only_F1_excess_m": 1.7462298274040222e-10
+    },
+    {
+      "u": "cell/354352/3456178/2156",
+      "v": "faceportal/8c87326aade3ab23381925aa",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.23815236828522757,
+      "canonical_F1_m": 0.2381523685180582,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.23815236828522757,
+      "canonical_only_F1_excess_m": 2.3283064365386963e-10
+    },
+    {
+      "u": "faceportal/8c87326aade3ab23381925aa",
+      "v": "cell/354352/3456178/2156",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.23815236828522757,
+      "canonical_F1_m": 0.2381523685180582,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.23815236828522757,
+      "canonical_only_F1_excess_m": 2.3283064365386963e-10
+    },
+    {
+      "u": "cell/354353/3456179/2224",
+      "v": "faceportal/39545df54135f1571069d86d",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.18605752574512735,
+      "canonical_F1_m": 0.186057525977958,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.18605752574512735,
+      "canonical_only_F1_excess_m": 2.3283064365386963e-10
+    },
+    {
+      "u": "faceportal/39545df54135f1571069d86d",
+      "v": "cell/354353/3456179/2224",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ],
+        [
+          "inferred",
+          "FROZEN_INFERRED_REGION"
+        ]
+      ],
+      "canonical_F0_m": 0.18605752574512735,
+      "canonical_F1_m": 0.186057525977958,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.18605752574512735,
+      "canonical_only_F1_excess_m": 2.3283064365386963e-10
+    },
+    {
+      "u": "cell/354355/3456181/2354",
+      "v": "faceportal/61c5d3bdcbda75b1e80d3253",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ]
+      ],
+      "canonical_F0_m": 0.7537568748480894,
+      "canonical_F1_m": 0.7537568748480894,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.7537568748480893,
+      "canonical_only_F1_excess_m": 1.1102230246251565e-16
+    },
+    {
+      "u": "faceportal/61c5d3bdcbda75b1e80d3253",
+      "v": "cell/354355/3456181/2354",
+      "options": 2,
+      "canonical_signature": [
+        [
+          "derived",
+          "NEW_GRID_WITHIN_MAPPED_FACE"
+        ]
+      ],
+      "canonical_F0_m": 0.7537568748480894,
+      "canonical_F1_m": 0.7537568748480894,
+      "F1_winner_signature": [
+        [
+          "derived",
+          "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+        ]
+      ],
+      "F1_cost_m": 0.7537568748480893,
+      "canonical_only_F1_excess_m": 1.1102230246251565e-16
+    }
+  ],
+  "penalized_layers": [
+    "assumed",
+    "inferred",
+    "unknown"
+  ],
+  "APP_solver_calls": 0,
+  "src_modified": false,
+  "report_resolution_m": 1e-08,
+  "maximum_canonical_only_F1_excess_m": 2.3283064365386963e-10,
+  "raw_positive_difference_caveat": "Raw >0 counts include floating summation differences; do not describe sub-resolution differences as material F1 improvements",
+  "obsolete_in_process_counters": "assumed-only F1 competition counters NOT_USABLE_AS_NO_COMPETITION_EVIDENCE",
+  "scope": "Saved full-face overlay alternatives only; source/local graph alternatives merged later by planner may add options",
+  "status": "PASS"
+}

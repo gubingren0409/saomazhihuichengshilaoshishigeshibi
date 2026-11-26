@@ -1,0 +1,68 @@
+{
+  "role": "SOURCE_ONLY_GEOMETRY_AUDIT_NO_NATIVE_OR_ROUTE_GRAPH_BUILD",
+  "scene_id": "sh-huangpu-01",
+  "elapsed_s": 18.965150799995172,
+  "source_unlocated": [],
+  "new_external_requests": 0,
+  "solver_calls": 0,
+  "whole_source_constraints": true,
+  "native_permission_boundary_exceptions": "Not needed for new derived face geometry; runtime uses actual full source native graph and full_common",
+  "faces": [
+    {
+      "id": "relation/2153738",
+      "status": "ADMITTED",
+      "source": {
+        "area_m2": 19271.107344253844,
+        "component_count": 1,
+        "hole_count": 12,
+        "vertex_count": 248
+      },
+      "omega": {
+        "area_m2": 18387.797226018887,
+        "component_count": 1,
+        "hole_count": 13,
+        "vertex_count": 1872
+      },
+      "components": [
+        {
+          "area_m2": 18387.797226018814,
+          "component_count": 1,
+          "hole_count": 13,
+          "vertex_count": 1872
+        }
+      ],
+      "barriers": 3,
+      "roads_intersecting_omega": 1,
+      "source_holes": 12,
+      "geometry_hash": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81"
+    },
+    {
+      "id": "relation/2385771",
+      "status": "ADMITTED",
+      "source": {
+        "area_m2": 5880.020892024015,
+        "component_count": 1,
+        "hole_count": 2,
+        "vertex_count": 50
+      },
+      "omega": {
+        "area_m2": 5826.120745012713,
+        "component_count": 1,
+        "hole_count": 2,
+        "vertex_count": 195
+      },
+      "components": [
+        {
+          "area_m2": 5826.120745012711,
+          "component_count": 1,
+          "hole_count": 2,
+          "vertex_count": 195
+        }
+      ],
+      "barriers": 0,
+      "roads_intersecting_omega": 0,
+      "source_holes": 2,
+      "geometry_hash": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1"
+    }
+  ]
+}

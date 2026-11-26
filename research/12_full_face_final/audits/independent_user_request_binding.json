@@ -1,0 +1,633 @@
+{
+  "reviewer": "/root/face_review",
+  "status": "REQUEST_NOT_IDENTIFIED",
+  "image": {
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\input_contract\\evidence\\user_route.png",
+    "sha256": "a4df3bf5fc50654d62eea04c9b5993116ddda419630c00abbd11ab5a8b651f65",
+    "size": [
+      693,
+      687
+    ],
+    "metadata": {
+      "srgb": 0,
+      "gamma": 0.45455,
+      "dpi": [
+        143.99259999999998,
+        143.99259999999998
+      ]
+    },
+    "embedded_run_id": null,
+    "visible_UI_request_fields": false
+  },
+  "read_only_log_scan_count": 42,
+  "log_inventory": [
+    {
+      "file": "RUN-20261111T184840-d1199cb8a1.json",
+      "sha256": "95b8e2e87c7f89b25dab65278eeee381676d98a5cd2bb0b9dac4c7b353f90ea9",
+      "input": {
+        "request_id": "APP-MINIMAL-01",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 331.64743542427374
+    },
+    {
+      "file": "RUN-20261111T185609-3be903398e.json",
+      "sha256": "3298f41de0949f8639b5d2308b4f8e96f6bfbd4f8a233ac1b758943883d464c7",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "method": "F0",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-8fe0f7f2-18e0-4e69-8fbb-80dc0092cfe4"
+      },
+      "length_m": 331.64743542427374
+    },
+    {
+      "file": "RUN-20261111T185842-450fe4fa63.json",
+      "sha256": "b5b79ffdd228be93d68821546e7e1efacf455e2202b1dfad00747cabc42fc992",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "method": "F1",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-a22995a6-f093-428f-ab08-cf19cf6758e8"
+      },
+      "length_m": 331.9223356481811
+    },
+    {
+      "file": "RUN-20261111T190024-a4535e83e2.json",
+      "sha256": "debe64939cf61544646bfbae3eafa19cc9f71dd532da812494ee51dcf82626de",
+      "input": {
+        "request_id": "APP-01",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 159.19560018180962
+    },
+    {
+      "file": "RUN-20261111T190125-f7cb6bd7aa.json",
+      "sha256": "c5f8e7b4f952e25fe55c8665a9eac7712d4e0f0a0dc49fcf5811d95a3c17b119",
+      "input": {
+        "request_id": "APP-02",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 159.19560018180962
+    },
+    {
+      "file": "RUN-20261111T190130-b406c2dfca.json",
+      "sha256": "bd486e4a4ffb697401696a718c866703d82c064099b310883c315a77deb2f94e",
+      "input": {
+        "request_id": "APP-05",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 698.7795854257809
+    },
+    {
+      "file": "RUN-20261111T190131-deca8514a5.json",
+      "sha256": "1ebc8429872ad29058d41af1c5282b1e1021cc1f8db94afb270a3ac1f8beb19d",
+      "input": {
+        "request_id": "APP-06",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 699.0544856496881
+    },
+    {
+      "file": "RUN-20261111T190132-2aa9905d07.json",
+      "sha256": "76c142150d4ea22937234b2beab630ff12b52e27b787f80a18dd6d928b83c46e",
+      "input": {
+        "request_id": "APP-07",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 180.58111866323975
+    },
+    {
+      "file": "RUN-20261111T190206-034db81c70.json",
+      "sha256": "6c746e7dd4dafc4a1e2ad40165d746f9a6015877ada1daa92aefa13d1ffe516f",
+      "input": {
+        "request_id": "APP-08",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 180.58111866323975
+    },
+    {
+      "file": "RUN-20261111T190206-37c979fd84.json",
+      "sha256": "a685f5cdb371a5459644ef0886abf8ed82bac9a7408a717e304ecad3f4c30844",
+      "input": {
+        "request_id": "APP-09",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T190206-6c567bbc61.json",
+      "sha256": "63d202e0a0185509063fb176ccb51f5db40abb7f33066b7b7a07267677aaf6f6",
+      "input": {
+        "request_id": "APP-10",
+        "scene_id": "sh-wukang",
+        "door_id": "",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T190206-ced9e16fa4.json",
+      "sha256": "c7abe1befe9c46c0721efda43e33d5b3f928e0f5dd514db98707f20ce89d3f91",
+      "input": {
+        "request_id": "APP-11",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/NOT_A_SOURCE_NODE",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T190207-c481d5331c.json",
+      "sha256": "d69ab0f3f75526f37bbd62df99d45d580ac86eee50b91e75e7dfc8067f57d137",
+      "input": {
+        "request_id": "APP-12",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "start_xy": [
+          "INVALID",
+          "COORDINATE"
+        ]
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T190535-a1b9f038fa.json",
+      "sha256": "a994f8cc4bcf16c3f9f3e64108540b5bd171472681c37af564be8a380a8a2f4d",
+      "input": {
+        "request_id": "CLI-REGRESSION-APP07",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 180.58111866323975
+    },
+    {
+      "file": "RUN-20261111T190654-24bac58b30.json",
+      "sha256": "3bad2c8cf00486b61248fdc4cb89feba5a83eb3c04992118f5368deb566cf7a1",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "method": "F0",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-629644d3-ed0c-4b18-adaa-08021b981f81"
+      },
+      "length_m": 331.64743542427374
+    },
+    {
+      "file": "RUN-20261111T190838-2d76e0addc.json",
+      "sha256": "3c23c09cca83c76efb535f484a92d050218c497864bfe1c93241e8038b997e94",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "method": "F1",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-cbb0389a-68e3-4ae9-9b66-62e168edfa7d"
+      },
+      "length_m": 331.9223356481811
+    },
+    {
+      "file": "RUN-20261111T191053-509bdd083c.json",
+      "sha256": "c3e390fec7332b1d7db0534d4279f642fe58cf15ab8769bfc71254939d4f989e",
+      "input": {
+        "request_id": "INDEPENDENT-REPEAT-F0-BEFORE",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 331.64743542427374
+    },
+    {
+      "file": "RUN-20261111T191054-14f9d4e66a.json",
+      "sha256": "0c11ab6b49487ac830906fa93b286b78dbd9781be6043909938e017c5aea7f77",
+      "input": {
+        "request_id": "INDEPENDENT-REPEAT-F0-CONCURRENT",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 331.64743542427374
+    },
+    {
+      "file": "RUN-20261111T191054-9252f5de9e.json",
+      "sha256": "319aed211a9caa197abc63fdc5314e9be1afec46336d6b60775a43e7d7c12266",
+      "input": {
+        "request_id": "INDEPENDENT-REPEAT-F1-CONCURRENT",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 331.9223356481811
+    },
+    {
+      "file": "RUN-20261111T191058-5ef8d64f9b.json",
+      "sha256": "6859b6bdb86c94afed5b591fe8247331ec40d6aa76078ae48b2ba1417f49296a",
+      "input": {
+        "request_id": "INDEPENDENT-REPEAT-F0-AFTER",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 331.64743542427374
+    },
+    {
+      "file": "RUN-20261111T191130-b536277079.json",
+      "sha256": "0c3f958eb02c35e497d2238b5f78b89edb0408a582b6ca1862933d8a28853969",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "method": "F0",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-6843cfea-9d17-4e24-91b0-1805b5aadb95"
+      },
+      "length_m": 331.64743542427374
+    },
+    {
+      "file": "RUN-20261111T191655-acf6af2ae8.json",
+      "sha256": "1fca4a2c59057a0b6dadd9b6c210b27ac62369fd136717212541d4456712a4c4",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "method": "F0",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-8bd64baf-5e3b-4445-8f78-54fc0bc814c9"
+      },
+      "length_m": 331.64743542427374
+    },
+    {
+      "file": "RUN-20261111T192811-9a1a6ef7f6.json",
+      "sha256": "4eaf03958fa66d2548a2a6cbd132191aa55d1b555fc7ee403424671acc674975",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "method": "F0",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-c553f315-9938-49a8-8a5b-3fcda9415e62"
+      },
+      "length_m": 331.64743542427374
+    },
+    {
+      "file": "RUN-20261111T192854-9df6b7bf52.json",
+      "sha256": "43580f4fdc78ef6dd5e3b695ca2d1e736eb4406c97aa6cd534af64409f067d4e",
+      "input": {
+        "request_id": "LOGFIX-CLI-1",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "regression_role": "REPAIR_REGRESSION_EXISTING_APP07_NOT_NEW_SAMPLE"
+      },
+      "length_m": 180.58111866323975
+    },
+    {
+      "file": "RUN-20261111T192920-ff526928ee.json",
+      "sha256": "612a131299d3e6bda89936d7c7cb5f08c2ce38754f6a906679399c0b12f30f00",
+      "input": {
+        "request_id": "LOGFIX-CLI-2",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "regression_role": "REPAIR_REGRESSION_EXISTING_APP07_NOT_NEW_SAMPLE"
+      },
+      "length_m": 180.58111866323975
+    },
+    {
+      "file": "RUN-20261111T192943-3b5fee5c0d.json",
+      "sha256": "7e2fb148f91d8d825fd07726efab4117ce10bcee83dd88da7337815871e8aad1",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "method": "F1",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-26019d8b-1bd3-4636-9b6a-0b8224a22200"
+      },
+      "length_m": 331.9223356481811
+    },
+    {
+      "file": "RUN-20261111T193020-a84d0d3aae.json",
+      "sha256": "7bd783d213c8a6ef87eafdce7b7c04a71a83bcd8bc47305527fc01bf51cfb9b4",
+      "input": {
+        "request_id": "APP-01",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 159.19560018180962
+    },
+    {
+      "file": "RUN-20261111T193102-c86340cd5a.json",
+      "sha256": "3790cb62b106644052355e6602ae36a4ba34f3926a430fefa37c28aadeecb2f8",
+      "input": {
+        "request_id": "APP-02",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 159.19560018180962
+    },
+    {
+      "file": "RUN-20261111T193105-4abc6f1db8.json",
+      "sha256": "27bf6376568b9c173f580109bb65fa3b580d83801a2ab06ad29e61d3fa798d11",
+      "input": {
+        "request_id": "APP-05",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 698.7795854257809
+    },
+    {
+      "file": "RUN-20261111T193105-d4945901b7.json",
+      "sha256": "36a4883d41f5d05302a3c7f3e33110677becaff62ec853f354c6b379f2f0f9ce",
+      "input": {
+        "request_id": "APP-06",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 699.0544856496881
+    },
+    {
+      "file": "RUN-20261111T193106-e5c9dd98cd.json",
+      "sha256": "9f7c0fb02b4d467598bb51d4e5c2e5ed0dab9f737ea3551570ad57a4a3376194",
+      "input": {
+        "request_id": "APP-07",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 180.58111866323975
+    },
+    {
+      "file": "RUN-20261111T193129-11a6565c07.json",
+      "sha256": "7b0f54981ab1c29cf8e383ec2dbb99f597638f4096b26924cc250146f249de42",
+      "input": {
+        "request_id": "APP-10",
+        "scene_id": "sh-wukang",
+        "door_id": "",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T193129-21b187ed4a.json",
+      "sha256": "06435e10541bb42cd50cf4bc16ccc3844ad97ef6b5b75833d79652ac34f2cbc0",
+      "input": {
+        "request_id": "APP-09",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T193129-7be45ab4f3.json",
+      "sha256": "202aba2cd73b9df7eb480c6fdc8636f933ec61a3291ceb625276e8ddc1f72b3f",
+      "input": {
+        "request_id": "APP-11",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/NOT_A_SOURCE_NODE",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T193129-ce295ba101.json",
+      "sha256": "357773b856b59c437c93e3fe7124d110fd1f3b8109d837d79087fe362e3414ba",
+      "input": {
+        "request_id": "APP-08",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": 180.58111866323975
+    },
+    {
+      "file": "RUN-20261111T193130-bcc5ddb9f1.json",
+      "sha256": "6401c71de28ca37a29bf40ff3631e58d3d365fa3860b6b1728006729e5ee334b",
+      "input": {
+        "request_id": "APP-12",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "start_xy": [
+          "INVALID",
+          "COORDINATE"
+        ]
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T193254-ec1a83a657.json",
+      "sha256": "7024101bf64345328d4523f1449c101970e90563bbca530d1d72c30bcee2858f",
+      "input": {
+        "request_id": "APP-13",
+        "scene_id": "OUTSIDE_FROZEN_SCENE_COVERAGE",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T194037-29ad37708f.json",
+      "sha256": "70339913387bd71142c32a5232cc6fb77bf61a7e73a2fe841b0631740e3a01aa",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "",
+        "method": "F1",
+        "purpose": "ENTER_BUILDING",
+        "request_id": "UI-10a7b4a3-0437-4596-b0cd-3e38695bbebe"
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T194310-2a70b8bc79.json",
+      "sha256": "b9213990624f88ade709e0803f38b690f192028ae9323a27837292317d6cc68e",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "",
+        "method": "F1",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-29f390d0-1a39-4fef-8b74-724c7ab55a3b"
+      },
+      "length_m": null
+    },
+    {
+      "file": "RUN-20261111T195609-8a5f6b2173.json",
+      "sha256": "53cffe5f17ed0f42a00d9151c86145df017e67b11fd0d1290c85efa427ed4053",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1730911857",
+        "method": "F1",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-75200f04-58fb-4c23-89ff-056de7d4916a"
+      },
+      "length_m": 275.4673915944005
+    },
+    {
+      "file": "RUN-20261111T195626-aec50d20ab.json",
+      "sha256": "3502231853f40fdceda53ca98b1bcef55545c8e699c8f49a7f37db412416e505",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1890935448",
+        "method": "F1",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-621809d6-aa62-4440-812e-6e47d2880946"
+      },
+      "length_m": 234.9547480223749
+    },
+    {
+      "file": "RUN-20261111T195632-6ee41dfb85.json",
+      "sha256": "996ed61b7163c0430d671510ce869e8420d1ad3b47b94ac519a2044fb2feba17",
+      "input": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1890885411",
+        "method": "F1",
+        "purpose": "APPROACH_OUTSIDE",
+        "request_id": "UI-c6763fd7-0858-424d-b2a1-e6996cda77ef"
+      },
+      "length_m": 883.4846880327395
+    }
+  ],
+  "similarity_demo": {
+    "file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\runs\\app\\RUN-20261111T195632-6ee41dfb85.json",
+    "sha256": "996ed61b7163c0430d671510ce869e8420d1ad3b47b94ac519a2044fb2feba17",
+    "input": {
+      "scene_id": "sh-huangpu-01",
+      "door_id": "node/6897141353",
+      "start_id": "node/1890885411",
+      "method": "F1",
+      "purpose": "APPROACH_OUTSIDE",
+      "request_id": "UI-c6763fd7-0858-424d-b2a1-e6996cda77ef"
+    },
+    "route_length_m": 883.4846880327395,
+    "assumed_length_m": 0,
+    "identity": "EXISTING_LOG_KNOWN_INPUT_NOT_PROVEN_SCREENSHOT_REQUEST"
+  },
+  "reason": [
+    "The image is a cropped map without start ID, run ID, method, purpose, scale or timestamp",
+    "Only one of the inspected42 logs uses the candidate start/door pair; uniqueness within saved logs is not screenshot provenance",
+    "All route length is native or derived, so F0/F1 assign identical weights; both permitted purposes for this main entrance can share the same geometry",
+    "No observed raster geometry can uniquely prove the F1/purpose/run identity from these pixels alone"
+  ],
+  "source_of_candidate": "Parent supplied existing log ID; it is read from original file, never inferred as user start",
+  "decision": "Retain original screenshot as motivation; use the source-bound883.484688m log only as an explicitly similar demonstration, not the identified user request"
+}

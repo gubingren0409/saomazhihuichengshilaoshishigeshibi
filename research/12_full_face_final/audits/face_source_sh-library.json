@@ -1,0 +1,40 @@
+{
+  "role": "SOURCE_ONLY_GEOMETRY_AUDIT_NO_NATIVE_OR_ROUTE_GRAPH_BUILD",
+  "scene_id": "sh-library",
+  "elapsed_s": 19.924577300000237,
+  "source_unlocated": [],
+  "new_external_requests": 0,
+  "solver_calls": 0,
+  "whole_source_constraints": true,
+  "native_permission_boundary_exceptions": "Not needed for new derived face geometry; runtime uses actual full source native graph and full_common",
+  "faces": [
+    {
+      "id": "way/1160136226",
+      "status": "ADMITTED",
+      "source": {
+        "area_m2": 723.9140831564908,
+        "component_count": 1,
+        "hole_count": 0,
+        "vertex_count": 10
+      },
+      "omega": {
+        "area_m2": 723.9140831564907,
+        "component_count": 1,
+        "hole_count": 0,
+        "vertex_count": 10
+      },
+      "components": [
+        {
+          "area_m2": 723.914083156491,
+          "component_count": 1,
+          "hole_count": 0,
+          "vertex_count": 10
+        }
+      ],
+      "barriers": 0,
+      "roads_intersecting_omega": 0,
+      "source_holes": 0,
+      "geometry_hash": "2b3fdd2d235a8849440060698bffb68ab8aa29b518316fd225a6543a1b0c04bd"
+    }
+  ]
+}

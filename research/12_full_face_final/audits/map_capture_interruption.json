@@ -1,0 +1,11 @@
+{
+  "stage": "AUXILIARY_MAP_VIEW_CAPTURE",
+  "failure": "OWN_SERVER_STOPPED_BEFORE_SECOND_GET_COMPLETED",
+  "exception": "ConnectionResetError [WinError10054]",
+  "first_snapshot": "data/map_views/sh-library.json preserved",
+  "missing_snapshot": "sh-huangpu-01",
+  "repair": "Read same scene_view directly from local frozen data after CLI exits, then lock unused start; no solver rerun or source change",
+  "service_pid": 231388,
+  "old_service_pid": 178908,
+  "old_service_touched": false
+}

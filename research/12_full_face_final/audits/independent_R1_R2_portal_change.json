@@ -1,0 +1,130 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "READ_ONLY_R1_R2_PORTAL_SET_COMPARISON",
+  "comparison_case": "APP-01",
+  "old_portals": 425,
+  "new_portals": 421,
+  "old_graph": {
+    "nodes": 38420,
+    "arcs": 292906,
+    "unweighted_sha256": "0a4150f4fa20f54985823a04a3ee58e92e6306513dc9389df7a2b6f5a425f147"
+  },
+  "new_graph": {
+    "nodes": 38420,
+    "arcs": 290942,
+    "unweighted_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986"
+  },
+  "old_length_m": 148.86312206979613,
+  "new_length_m": 148.86312206979613,
+  "removed_portals": [
+    {
+      "id": "grid/relation/2385771/708763/6912149",
+      "xy": [
+        354381.5,
+        3456074.5
+      ],
+      "source_area_id": "relation/2385771",
+      "component": 0,
+      "evidence": [
+        {
+          "kind": "EXACT_EXISTING_LOCAL_REGION_INTERFACE",
+          "adjacent_outside_face": false
+        }
+      ]
+    },
+    {
+      "id": "grid/relation/2385771/708769/6912153",
+      "xy": [
+        354384.5,
+        3456076.5
+      ],
+      "source_area_id": "relation/2385771",
+      "component": 0,
+      "evidence": [
+        {
+          "kind": "EXACT_EXISTING_LOCAL_REGION_INTERFACE",
+          "adjacent_outside_face": false
+        }
+      ]
+    },
+    {
+      "id": "grid/relation/2385771/708779/6912161",
+      "xy": [
+        354389.5,
+        3456080.5
+      ],
+      "source_area_id": "relation/2385771",
+      "component": 0,
+      "evidence": [
+        {
+          "kind": "EXACT_EXISTING_LOCAL_REGION_INTERFACE",
+          "adjacent_outside_face": false
+        }
+      ]
+    },
+    {
+      "id": "grid/relation/2385771/708785/6912165",
+      "xy": [
+        354392.5,
+        3456082.5
+      ],
+      "source_area_id": "relation/2385771",
+      "component": 0,
+      "evidence": [
+        {
+          "kind": "EXACT_EXISTING_LOCAL_REGION_INTERFACE",
+          "adjacent_outside_face": false
+        }
+      ]
+    }
+  ],
+  "reported_interface_rejections": [
+    {
+      "source_id": "relation/2153738",
+      "components": [
+        {
+          "component": 0,
+          "area_m2": 18387.797226018814,
+          "hole_count": 13,
+          "portal_count": 46,
+          "roadmap_nodes": 1820,
+          "roadmap_arcs": 4756,
+          "local_interface_statistics": {},
+          "visibility_checks": 6088,
+          "domain_rejections": 3710,
+          "constraint_rejections": 0,
+          "numeric_tolerance_admissions": 0,
+          "reflex_vertices": 1774,
+          "required_points": 0,
+          "pair_candidates": 1655290,
+          "local_tangent_rejections": 1649202
+        }
+      ]
+    },
+    {
+      "source_id": "relation/2385771",
+      "components": [
+        {
+          "component": 0,
+          "area_m2": 5826.120745012711,
+          "hole_count": 2,
+          "portal_count": 375,
+          "roadmap_nodes": 542,
+          "roadmap_arcs": 70940,
+          "local_interface_statistics": {
+            "rejected_no_positive_covered_parent_interval": 4
+          },
+          "visibility_checks": 74696,
+          "domain_rejections": 39226,
+          "constraint_rejections": 0,
+          "numeric_tolerance_admissions": 0,
+          "reflex_vertices": 167,
+          "required_points": 0,
+          "pair_candidates": 146611,
+          "local_tangent_rejections": 71915
+        }
+      ]
+    }
+  ],
+  "limits": "Set and route-output comparison; rejected parent-interval relation is implementation evidence, not independently reconstructed local graph here"
+}

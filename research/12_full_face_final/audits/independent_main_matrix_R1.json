@@ -1,0 +1,1246 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_RESPONSE_GEOMETRY_AND_COST_RECALCULATION",
+  "author_validation_flags_used_as_reference": false,
+  "author_functions_called": false,
+  "APP_solver_calls": 0,
+  "rows": [
+    {
+      "file": "runs\\main_matrix_R1\\APP-01-EDGE_BAND.json",
+      "sha256": "843997dde7f63a9334b86c6694c921bec9928dd75951e3ef1263b860bd54bef7",
+      "run_id": "RUN-20261111T222357-564e0a50ca",
+      "request_id": "main_matrix_R1-APP-01-EDGE_BAND",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measurements": {
+        "length_m": 159.19560018181014,
+        "cost_m": 159.19560018181014,
+        "layers": {
+          "native": 58.30248533526798,
+          "derived": 100.8931148465418
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        "last": [
+          354396.35132172017,
+          3456095.105993877
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/10073042336",
+          "raw_source_xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897141353",
+          "raw_source_xy": [
+            354396.35132172017,
+            3456095.105993877
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-01-FULL_FACE.json",
+      "sha256": "515f79d08919bc47c8e4d10057ef6f878880308b04d4653a02a384c06d8e6b9f",
+      "run_id": "RUN-20261111T222602-f3c2cc5131",
+      "request_id": "main_matrix_R1-APP-01-FULL_FACE",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measurements": {
+        "length_m": 148.8631220697961,
+        "cost_m": 148.8631220697961,
+        "layers": {
+          "native": 58.30248533526798,
+          "derived": 90.56063673452815
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        "last": [
+          354396.35132172017,
+          3456095.105993877
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/10073042336",
+          "raw_source_xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897141353",
+          "raw_source_xy": [
+            354396.35132172017,
+            3456095.105993877
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 2,
+      "full_face_length_outside_old_band_m": 44.406520881926255,
+      "certificate_validation": {
+        "count": 432,
+        "maximum_measured_shift_m": 5.206251464550825e-10,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-02-EDGE_BAND.json",
+      "sha256": "f98e0b0047082de1d619431fc023d9090b681dd80bf25aa7bc2b1f60de606eb4",
+      "run_id": "RUN-20261111T222721-6d7def542b",
+      "request_id": "main_matrix_R1-APP-02-EDGE_BAND",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measurements": {
+        "length_m": 159.19560018181014,
+        "cost_m": 159.19560018181014,
+        "layers": {
+          "native": 58.30248533526798,
+          "derived": 100.89311484654182
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        "last": [
+          354396.35132172017,
+          3456095.105993877
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/10073042336",
+          "raw_source_xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897141353",
+          "raw_source_xy": [
+            354396.35132172017,
+            3456095.105993877
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-02-FULL_FACE.json",
+      "sha256": "6761e1c74a1ded95d1d51d150d7946b19f6a3fd429318c7182b0dac4122b0f48",
+      "run_id": "RUN-20261111T222725-9986e30c78",
+      "request_id": "main_matrix_R1-APP-02-FULL_FACE",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measurements": {
+        "length_m": 148.8631220697961,
+        "cost_m": 148.8631220697961,
+        "layers": {
+          "native": 58.30248533526798,
+          "derived": 90.56063673452815
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        "last": [
+          354396.35132172017,
+          3456095.105993877
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/10073042336",
+          "raw_source_xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897141353",
+          "raw_source_xy": [
+            354396.35132172017,
+            3456095.105993877
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 2,
+      "full_face_length_outside_old_band_m": 44.406520881926255,
+      "certificate_validation": {
+        "count": 432,
+        "maximum_measured_shift_m": 5.206251464550825e-10,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-03-EDGE_BAND.json",
+      "sha256": "370376b792833ae9ab32b4c8161cf6ec897912a7d50014c22ed21982142f88e1",
+      "run_id": "RUN-20261111T222729-bb24abb831",
+      "request_id": "main_matrix_R1-APP-03-EDGE_BAND",
+      "status": "ROUTED_CONDITIONAL",
+      "errors": [],
+      "measurements": {
+        "length_m": 331.6474354242748,
+        "cost_m": 331.6474354242748,
+        "layers": {
+          "native": 125.56547183888839,
+          "derived": 190.80662574170267,
+          "inferred": 15.27533784368331
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        "last": [
+          354344.3888134466,
+          3456163.0891986894
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/10073042336",
+          "raw_source_xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897145227",
+          "raw_source_xy": [
+            354344.3888134466,
+            3456163.0891986894
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-03-FULL_FACE.json",
+      "sha256": "5e4542e6f6e616196def073f5ce94c2ebe7011ae63f7b35cc0e81f1a30967aec",
+      "run_id": "RUN-20261111T222842-542cf3b316",
+      "request_id": "main_matrix_R1-APP-03-FULL_FACE",
+      "status": "ROUTED_CONDITIONAL",
+      "errors": [],
+      "measurements": {
+        "length_m": 299.5314499354948,
+        "cost_m": 299.5314499354948,
+        "layers": {
+          "native": 125.56547183888839,
+          "derived": 161.43178811737403,
+          "inferred": 12.534189979232385
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        "last": [
+          354344.3888134466,
+          3456163.0891986894
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/10073042336",
+          "raw_source_xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897145227",
+          "raw_source_xy": [
+            354344.3888134466,
+            3456163.0891986894
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 32,
+      "full_face_length_outside_old_band_m": 66.86256820618323,
+      "certificate_validation": {
+        "count": 182,
+        "maximum_measured_shift_m": 5.491299747988001e-10,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-04-EDGE_BAND.json",
+      "sha256": "61fbf307c18f16831facf2a5b1419f3ea11b3a6d63c6caf5e5e5895a9cf2f448",
+      "run_id": "RUN-20261111T222938-e48ac5352d",
+      "request_id": "main_matrix_R1-APP-04-EDGE_BAND",
+      "status": "ROUTED_CONDITIONAL",
+      "errors": [],
+      "measurements": {
+        "length_m": 331.9223356481821,
+        "cost_m": 345.04222358627163,
+        "layers": {
+          "native": 125.56547183888839,
+          "derived": 193.23697587120387,
+          "inferred": 13.119887938089517
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        "last": [
+          354344.3888134466,
+          3456163.0891986894
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/10073042336",
+          "raw_source_xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897145227",
+          "raw_source_xy": [
+            354344.3888134466,
+            3456163.0891986894
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-04-FULL_FACE.json",
+      "sha256": "16185550fdcb7c45595c60c30447ff669a0e9b2e51ce4191a3166ca3798c0220",
+      "run_id": "RUN-20261111T222940-235a5ead6a",
+      "request_id": "main_matrix_R1-APP-04-FULL_FACE",
+      "status": "ROUTED_CONDITIONAL",
+      "errors": [],
+      "measurements": {
+        "length_m": 300.78418541021216,
+        "cost_m": 310.46576550789956,
+        "layers": {
+          "native": 125.56547183888839,
+          "derived": 165.53713347363643,
+          "inferred": 9.6815800976874
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        "last": [
+          354344.3888134466,
+          3456163.0891986894
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/10073042336",
+          "raw_source_xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897145227",
+          "raw_source_xy": [
+            354344.3888134466,
+            3456163.0891986894
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 29,
+      "full_face_length_outside_old_band_m": 76.85106075758287,
+      "certificate_validation": {
+        "count": 182,
+        "maximum_measured_shift_m": 5.491299747988001e-10,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-05-EDGE_BAND.json",
+      "sha256": "5ed34e51f7579db95422712391bdef36de321a12c6b644ad57eac2e64e452dc9",
+      "run_id": "RUN-20261111T222942-7e93b65d2a",
+      "request_id": "main_matrix_R1-APP-05-EDGE_BAND",
+      "status": "ROUTED_CONDITIONAL",
+      "errors": [],
+      "measurements": {
+        "length_m": 698.7795854257816,
+        "cost_m": 698.7795854257816,
+        "layers": {
+          "native": 492.6976218403954,
+          "derived": 190.80662574170267,
+          "inferred": 15.27533784368331
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354438.7276597179,
+          3455986.9881966957
+        ],
+        "last": [
+          354344.3888134466,
+          3456163.0891986894
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/11667615960",
+          "raw_source_xy": [
+            354438.7276597179,
+            3455986.9881966957
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897145227",
+          "raw_source_xy": [
+            354344.3888134466,
+            3456163.0891986894
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-05-FULL_FACE.json",
+      "sha256": "8c903543d08f50aac15d375cbef90c24ca136081cc5d20351254f45a9ea50b4b",
+      "run_id": "RUN-20261111T222947-d4dbf0b22d",
+      "request_id": "main_matrix_R1-APP-05-FULL_FACE",
+      "status": "ROUTED_CONDITIONAL",
+      "errors": [],
+      "measurements": {
+        "length_m": 666.6635999370017,
+        "cost_m": 666.6635999370017,
+        "layers": {
+          "native": 492.6976218403954,
+          "derived": 161.43178811737403,
+          "inferred": 12.534189979232385
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354438.7276597179,
+          3455986.9881966957
+        ],
+        "last": [
+          354344.3888134466,
+          3456163.0891986894
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/11667615960",
+          "raw_source_xy": [
+            354438.7276597179,
+            3455986.9881966957
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897145227",
+          "raw_source_xy": [
+            354344.3888134466,
+            3456163.0891986894
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 32,
+      "full_face_length_outside_old_band_m": 66.86256820618323,
+      "certificate_validation": {
+        "count": 182,
+        "maximum_measured_shift_m": 5.491299747988001e-10,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-06-EDGE_BAND.json",
+      "sha256": "125d03168b3afa306abd05a26ff374fa4db22098b533b660623cb965d2536cc1",
+      "run_id": "RUN-20261111T222950-e2210b9c8f",
+      "request_id": "main_matrix_R1-APP-06-EDGE_BAND",
+      "status": "ROUTED_CONDITIONAL",
+      "errors": [],
+      "measurements": {
+        "length_m": 699.0544856496891,
+        "cost_m": 712.1743735877786,
+        "layers": {
+          "native": 492.6976218403954,
+          "derived": 193.23697587120384,
+          "inferred": 13.119887938089517
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354438.7276597179,
+          3455986.9881966957
+        ],
+        "last": [
+          354344.3888134466,
+          3456163.0891986894
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/11667615960",
+          "raw_source_xy": [
+            354438.7276597179,
+            3455986.9881966957
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897145227",
+          "raw_source_xy": [
+            354344.3888134466,
+            3456163.0891986894
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-06-FULL_FACE.json",
+      "sha256": "f937319b68ac3f114c3493f13168e4938025c4a15f74d6007084e5d0da2a30ca",
+      "run_id": "RUN-20261111T222951-7d38a278e0",
+      "request_id": "main_matrix_R1-APP-06-FULL_FACE",
+      "status": "ROUTED_CONDITIONAL",
+      "errors": [],
+      "measurements": {
+        "length_m": 667.9163354117192,
+        "cost_m": 677.5979155094066,
+        "layers": {
+          "native": 492.6976218403954,
+          "derived": 165.53713347363643,
+          "inferred": 9.6815800976874
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354438.7276597179,
+          3455986.9881966957
+        ],
+        "last": [
+          354344.3888134466,
+          3456163.0891986894
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/11667615960",
+          "raw_source_xy": [
+            354438.7276597179,
+            3455986.9881966957
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897145227",
+          "raw_source_xy": [
+            354344.3888134466,
+            3456163.0891986894
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 29,
+      "full_face_length_outside_old_band_m": 76.85106075758287,
+      "certificate_validation": {
+        "count": 182,
+        "maximum_measured_shift_m": 5.491299747988001e-10,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-07-EDGE_BAND.json",
+      "sha256": "ee0d093b99b034f058a67ef228a031c86574d02eaf1eae4de12fe18daa13fbc0",
+      "run_id": "RUN-20261111T222957-c871787fa1",
+      "request_id": "main_matrix_R1-APP-07-EDGE_BAND",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measurements": {
+        "length_m": 180.58111866323975,
+        "cost_m": 180.58111866323975,
+        "layers": {
+          "native": 180.58111866323975
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          351461.44629125996,
+          3453985.5238055084
+        ],
+        "last": [
+          351413.6223179579,
+          3453883.056178218
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/105253317",
+          "raw_source_xy": [
+            351461.44629125996,
+            3453985.5238055084
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/11300000483",
+          "raw_source_xy": [
+            351413.6223179579,
+            3453883.056178218
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-07-FULL_FACE.json",
+      "sha256": "9f6918ee246c9490ce04b9eac2c2d85fbbd8cfaed17eacee8c9928b9f7b480da",
+      "run_id": "RUN-20261111T223023-e7cffad4f5",
+      "request_id": "main_matrix_R1-APP-07-FULL_FACE",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measurements": {
+        "length_m": 180.58111866323975,
+        "cost_m": 180.58111866323975,
+        "layers": {
+          "native": 180.58111866323975
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          351461.44629125996,
+          3453985.5238055084
+        ],
+        "last": [
+          351413.6223179579,
+          3453883.056178218
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/105253317",
+          "raw_source_xy": [
+            351461.44629125996,
+            3453985.5238055084
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/11300000483",
+          "raw_source_xy": [
+            351413.6223179579,
+            3453883.056178218
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-08-EDGE_BAND.json",
+      "sha256": "b92e4e89c523dd92970dd06079bd8cf457e932eedea011692ab7ef30ee73a951",
+      "run_id": "RUN-20261111T223028-feb45d2e70",
+      "request_id": "main_matrix_R1-APP-08-EDGE_BAND",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measurements": {
+        "length_m": 180.58111866323975,
+        "cost_m": 180.58111866323975,
+        "layers": {
+          "native": 180.58111866323975
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          351461.44629125996,
+          3453985.5238055084
+        ],
+        "last": [
+          351413.6223179579,
+          3453883.056178218
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/105253317",
+          "raw_source_xy": [
+            351461.44629125996,
+            3453985.5238055084
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/11300000483",
+          "raw_source_xy": [
+            351413.6223179579,
+            3453883.056178218
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-08-FULL_FACE.json",
+      "sha256": "35bec0067a45120e19eb09d068388237af533dbb0fed59a7591c3b09e149c968",
+      "run_id": "RUN-20261111T223028-706b78e43e",
+      "request_id": "main_matrix_R1-APP-08-FULL_FACE",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measurements": {
+        "length_m": 180.58111866323975,
+        "cost_m": 180.58111866323975,
+        "layers": {
+          "native": 180.58111866323975
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          351461.44629125996,
+          3453985.5238055084
+        ],
+        "last": [
+          351413.6223179579,
+          3453883.056178218
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/105253317",
+          "raw_source_xy": [
+            351461.44629125996,
+            3453985.5238055084
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/11300000483",
+          "raw_source_xy": [
+            351413.6223179579,
+            3453883.056178218
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-09-EDGE_BAND.json",
+      "sha256": "53614b7f74c35eab83771944d22ff7ef680c0118c0fa2355c323f68f884783cc",
+      "run_id": "RUN-20261111T223028-4404593f7c",
+      "request_id": "main_matrix_R1-APP-09-EDGE_BAND",
+      "status": "REJECTED_ENTRANCE_ROLE",
+      "errors": [],
+      "expected_refusal": {
+        "case_id": "APP-09",
+        "status": "REJECTED_ENTRANCE_ROLE",
+        "failure_code": "EXIT_NOT_AN_INBOUND_ENTRANCE",
+        "bound_reference_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3"
+      },
+      "check_scope": "REFUSAL_OR_NO_ROUTE_FILE_ONLY"
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-09-FULL_FACE.json",
+      "sha256": "3882b859185ae6a596b38bbad3ab7d40e70758c8fcc95a4fe8958a22a95c898b",
+      "run_id": "RUN-20261111T223028-7b67b32c74",
+      "request_id": "main_matrix_R1-APP-09-FULL_FACE",
+      "status": "REJECTED_ENTRANCE_ROLE",
+      "errors": [],
+      "expected_refusal": {
+        "case_id": "APP-09",
+        "status": "REJECTED_ENTRANCE_ROLE",
+        "failure_code": "EXIT_NOT_AN_INBOUND_ENTRANCE",
+        "bound_reference_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3"
+      },
+      "check_scope": "REFUSAL_OR_NO_ROUTE_FILE_ONLY"
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-10-EDGE_BAND.json",
+      "sha256": "3d0d235777a452f98f8fbe2b7775160f8114bfc30ade9ed1e306624770a60a50",
+      "run_id": "RUN-20261111T223028-58390fcfbf",
+      "request_id": "main_matrix_R1-APP-10-EDGE_BAND",
+      "status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "errors": [],
+      "expected_refusal": {
+        "case_id": "APP-10",
+        "status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+        "failure_code": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+        "bound_reference_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3"
+      },
+      "check_scope": "REFUSAL_OR_NO_ROUTE_FILE_ONLY"
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-10-FULL_FACE.json",
+      "sha256": "8bf51a3c063886e0c9f636da85b7c0fdd8d42b139d9b995228451d3ec862af6f",
+      "run_id": "RUN-20261111T223028-8b095e4138",
+      "request_id": "main_matrix_R1-APP-10-FULL_FACE",
+      "status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "errors": [],
+      "expected_refusal": {
+        "case_id": "APP-10",
+        "status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+        "failure_code": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+        "bound_reference_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3"
+      },
+      "check_scope": "REFUSAL_OR_NO_ROUTE_FILE_ONLY"
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-11-EDGE_BAND.json",
+      "sha256": "3a568a2cd4d7142aaab7be2e9a26b0f3140d9126208e7369890e01d5cc0a71fc",
+      "run_id": "RUN-20261111T223028-b00525e134",
+      "request_id": "main_matrix_R1-APP-11-EDGE_BAND",
+      "status": "INVALID_START",
+      "errors": [],
+      "expected_refusal": {
+        "case_id": "APP-11",
+        "status": "INVALID_START",
+        "failure_code": "START_NOT_AN_EXISTING_ELIGIBLE_NETWORK_NODE",
+        "bound_reference_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3"
+      },
+      "check_scope": "REFUSAL_OR_NO_ROUTE_FILE_ONLY"
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-11-FULL_FACE.json",
+      "sha256": "abfb763bef27a8fca08a76960d3acb9220b166b06071b9212c53dfaf39ec6149",
+      "run_id": "RUN-20261111T223032-12033d8771",
+      "request_id": "main_matrix_R1-APP-11-FULL_FACE",
+      "status": "INVALID_START",
+      "errors": [],
+      "expected_refusal": {
+        "case_id": "APP-11",
+        "status": "INVALID_START",
+        "failure_code": "START_NOT_AN_EXISTING_ELIGIBLE_NETWORK_NODE",
+        "bound_reference_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3"
+      },
+      "check_scope": "REFUSAL_OR_NO_ROUTE_FILE_ONLY"
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-12-EDGE_BAND.json",
+      "sha256": "73aa65d2732c1e3a90d27caeafa139ed65831e04d34063acd213843a9d663450",
+      "run_id": "RUN-20261111T223034-dddeaf8c5b",
+      "request_id": "main_matrix_R1-APP-12-EDGE_BAND",
+      "status": "INVALID_REQUEST",
+      "errors": [],
+      "expected_refusal": {
+        "case_id": "APP-12",
+        "status": "INVALID_REQUEST",
+        "failure_code": "INVALID_START_COORDINATES",
+        "bound_reference_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3"
+      },
+      "check_scope": "REFUSAL_OR_NO_ROUTE_FILE_ONLY"
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-12-FULL_FACE.json",
+      "sha256": "ca7108015d49654869bb86217d92d98485f433c0339bd0fa7a34374217fa0141",
+      "run_id": "RUN-20261111T223035-67401e2279",
+      "request_id": "main_matrix_R1-APP-12-FULL_FACE",
+      "status": "INVALID_REQUEST",
+      "errors": [],
+      "expected_refusal": {
+        "case_id": "APP-12",
+        "status": "INVALID_REQUEST",
+        "failure_code": "INVALID_START_COORDINATES",
+        "bound_reference_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3"
+      },
+      "check_scope": "REFUSAL_OR_NO_ROUTE_FILE_ONLY"
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-13-EDGE_BAND.json",
+      "sha256": "d8514c863c4e35c1d79c3d3b829fc272431e1743d756aa61da92d126f112cf36",
+      "run_id": "RUN-20261111T223039-9d172b50f2",
+      "request_id": "main_matrix_R1-APP-13-EDGE_BAND",
+      "status": "INVALID_REQUEST",
+      "errors": [],
+      "expected_refusal": {
+        "case_id": "APP-13",
+        "status": "INVALID_REQUEST",
+        "failure_code": "UNKNOWN_SCENE",
+        "bound_reference_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3"
+      },
+      "check_scope": "FIXED_UNKNOWN_SCENE_REFUSAL"
+    },
+    {
+      "file": "runs\\main_matrix_R1\\APP-13-FULL_FACE.json",
+      "sha256": "a5c7c0c4c64b89e87048d090799553004387a2aa4f86ed0238e09d1eeb5cf37d",
+      "run_id": "RUN-20261111T223039-140eee1adc",
+      "request_id": "main_matrix_R1-APP-13-FULL_FACE",
+      "status": "INVALID_REQUEST",
+      "errors": [],
+      "expected_refusal": {
+        "case_id": "APP-13",
+        "status": "INVALID_REQUEST",
+        "failure_code": "UNKNOWN_SCENE",
+        "bound_reference_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3"
+      },
+      "check_scope": "FIXED_UNKNOWN_SCENE_REFUSAL"
+    }
+  ],
+  "skipped_non_response_files": [
+    "runs\\main_matrix_R1\\progress.json",
+    "runs\\main_matrix_R1\\protocol.json",
+    "runs\\main_matrix_R1\\summary.json"
+  ],
+  "paired_checks": [
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897141353",
+        "node/10073042336",
+        "ENTER_BUILDING"
+      ],
+      "area_routing": "EDGE_BAND",
+      "kind": "F0_F1_SAME_GRAPH",
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897141353",
+        "node/10073042336",
+        "ENTER_BUILDING"
+      ],
+      "area_routing": "FULL_FACE",
+      "kind": "F0_F1_SAME_GRAPH",
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897141353",
+        "node/10073042336",
+        "ENTER_BUILDING"
+      ],
+      "method": "F0",
+      "kind": "FULL_GRAPH_SUPERSET_COST_MONOTONICITY",
+      "metric": "length_m",
+      "old": 159.19560018180962,
+      "full_face": 148.86312206979613,
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897141353",
+        "node/10073042336",
+        "ENTER_BUILDING"
+      ],
+      "method": "F1",
+      "kind": "FULL_GRAPH_SUPERSET_COST_MONOTONICITY",
+      "metric": "cost_weighted_m",
+      "old": 159.19560018180962,
+      "full_face": 148.86312206979613,
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897145227",
+        "node/10073042336",
+        "APPROACH_OUTSIDE"
+      ],
+      "area_routing": "EDGE_BAND",
+      "kind": "F0_F1_SAME_GRAPH",
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897145227",
+        "node/10073042336",
+        "APPROACH_OUTSIDE"
+      ],
+      "area_routing": "FULL_FACE",
+      "kind": "F0_F1_SAME_GRAPH",
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897145227",
+        "node/10073042336",
+        "APPROACH_OUTSIDE"
+      ],
+      "method": "F0",
+      "kind": "FULL_GRAPH_SUPERSET_COST_MONOTONICITY",
+      "metric": "length_m",
+      "old": 331.64743542427374,
+      "full_face": 299.53144993549483,
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897145227",
+        "node/10073042336",
+        "APPROACH_OUTSIDE"
+      ],
+      "method": "F1",
+      "kind": "FULL_GRAPH_SUPERSET_COST_MONOTONICITY",
+      "metric": "cost_weighted_m",
+      "old": 345.0422235862706,
+      "full_face": 310.4657655078996,
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897145227",
+        "node/11667615960",
+        "APPROACH_OUTSIDE"
+      ],
+      "area_routing": "EDGE_BAND",
+      "kind": "F0_F1_SAME_GRAPH",
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897145227",
+        "node/11667615960",
+        "APPROACH_OUTSIDE"
+      ],
+      "area_routing": "FULL_FACE",
+      "kind": "F0_F1_SAME_GRAPH",
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897145227",
+        "node/11667615960",
+        "APPROACH_OUTSIDE"
+      ],
+      "method": "F0",
+      "kind": "FULL_GRAPH_SUPERSET_COST_MONOTONICITY",
+      "metric": "length_m",
+      "old": 698.7795854257809,
+      "full_face": 666.6635999370019,
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897145227",
+        "node/11667615960",
+        "APPROACH_OUTSIDE"
+      ],
+      "method": "F1",
+      "kind": "FULL_GRAPH_SUPERSET_COST_MONOTONICITY",
+      "metric": "cost_weighted_m",
+      "old": 712.1743735877776,
+      "full_face": 677.5979155094067,
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-library",
+        "node/11300000483",
+        "node/105253317",
+        "ENTER_BUILDING"
+      ],
+      "area_routing": "EDGE_BAND",
+      "kind": "F0_F1_SAME_GRAPH",
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-library",
+        "node/11300000483",
+        "node/105253317",
+        "ENTER_BUILDING"
+      ],
+      "area_routing": "FULL_FACE",
+      "kind": "F0_F1_SAME_GRAPH",
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-library",
+        "node/11300000483",
+        "node/105253317",
+        "ENTER_BUILDING"
+      ],
+      "method": "F0",
+      "kind": "FULL_GRAPH_SUPERSET_COST_MONOTONICITY",
+      "metric": "length_m",
+      "old": 180.58111866323975,
+      "full_face": 180.58111866323975,
+      "passed": true
+    },
+    {
+      "identity": [
+        "sh-library",
+        "node/11300000483",
+        "node/105253317",
+        "ENTER_BUILDING"
+      ],
+      "method": "F1",
+      "kind": "FULL_GRAPH_SUPERSET_COST_MONOTONICITY",
+      "metric": "cost_weighted_m",
+      "old": 180.58111866323975,
+      "full_face": 180.58111866323975,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "sh-huangpu-01": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "sh-library": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+    "sh-wukang": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45"
+  },
+  "limitations": [
+    "Native way agreement checks geometry provenance, not observed public access",
+    "Fullface Ω independently rebuilt from acquired raw constraints; no field survey",
+    "This is output remeasurement, not an independent whole-network topology shortest-path solve",
+    "Refusal/no-route files are source/status inspected here, not independently proved impossible"
+  ],
+  "status": "PASS"
+}

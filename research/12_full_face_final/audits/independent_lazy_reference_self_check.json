@@ -1,0 +1,206 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_REFERENCE_IMPLEMENTATION_ANALYTIC_SELF_CHECK",
+  "source_sha256": "092c766d7ba6691805333ed4f115580ce76a8f4a1c57245750b7a957916e3dff",
+  "cases": [
+    {
+      "case_id": "RECTANGLE_ANALYTIC_DIAGONAL",
+      "expected": 11.661903789690601,
+      "result": {
+        "reached": true,
+        "length_m": 11.661903789690601,
+        "points": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            6
+          ]
+        ],
+        "visibility_checks": 3,
+        "expanded_vertices": 1,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 0.0004305000038584694
+      },
+      "passed": true
+    },
+    {
+      "case_id": "RECTANGULAR_HOLE_ANALYTIC",
+      "expected": 11.21110255092798,
+      "result": {
+        "reached": true,
+        "length_m": 11.21110255092798,
+        "points": [
+          [
+            1,
+            4
+          ],
+          [
+            4.0,
+            2.0
+          ],
+          [
+            8.0,
+            2.0
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        "visibility_checks": 18,
+        "expanded_vertices": 5,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 0.0009902000019792467
+      },
+      "passed": true
+    },
+    {
+      "case_id": "CONCAVE_L_REFLEX",
+      "expected": 6.324555320336759,
+      "result": {
+        "reached": true,
+        "length_m": 6.324555320336759,
+        "points": [
+          [
+            5,
+            1
+          ],
+          [
+            2.0,
+            2.0
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "visibility_checks": 10,
+        "expanded_vertices": 2,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 0.0006322999979602173
+      },
+      "passed": true
+    },
+    {
+      "case_id": "DISCONNECTED_PARTS",
+      "expected": null,
+      "result": {
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "visibility_checks": 0,
+        "expanded_vertices": 0,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 0.0001816000003600493
+      },
+      "passed": true
+    },
+    {
+      "case_id": "POINT_TOUCH_NOT_POSITIVE_WIDTH",
+      "expected": null,
+      "result": {
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "visibility_checks": 0,
+        "expanded_vertices": 0,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 9.770000178832561e-05
+      },
+      "passed": true
+    },
+    {
+      "case_id": "FENCE_OPEN_POSITIVE_GAP",
+      "expected": 18,
+      "result": {
+        "reached": true,
+        "length_m": 18.0,
+        "points": [
+          [
+            1,
+            5
+          ],
+          [
+            19,
+            5
+          ]
+        ],
+        "visibility_checks": 13,
+        "expanded_vertices": 1,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 0.0005400999943958595
+      },
+      "passed": true
+    },
+    {
+      "case_id": "FENCE_CLOSED",
+      "expected": null,
+      "result": {
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "visibility_checks": 0,
+        "expanded_vertices": 0,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 0.00010639999527484179
+      },
+      "passed": true
+    },
+    {
+      "case_id": "CLEARANCE_CLOSED_NARROW_GAP",
+      "expected": null,
+      "result": {
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "visibility_checks": 0,
+        "expanded_vertices": 0,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 0.00010639999527484179
+      },
+      "passed": true
+    },
+    {
+      "case_id": "ORIGINAL_BOUNDARY_COORDINATES",
+      "expected": 5,
+      "result": {
+        "reached": true,
+        "length_m": 5.0,
+        "points": [
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "visibility_checks": 5,
+        "expanded_vertices": 1,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 0.00024989999656099826
+      },
+      "passed": true
+    },
+    {
+      "case_id": "PRIVATE_FULL_STRIPE",
+      "expected": null,
+      "result": {
+        "reached": false,
+        "length_m": null,
+        "points": [],
+        "visibility_checks": 0,
+        "expanded_vertices": 0,
+        "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+        "elapsed_s": 0.00011269999959040433
+      },
+      "passed": true
+    }
+  ],
+  "APP_solver_calls": 0,
+  "status": "PASS"
+}

@@ -1,0 +1,374 @@
+{
+  "input": "runs/initial_app_pair/FULL_FACE.json",
+  "input_sha256": "c565744f33773420e9a9855bf37c2fc2130286118cb416b23f84dda118c18315",
+  "face_geometry_sha256": "941648761f179e9c5cb93c38a79ec7970dc39a11f973499daef499accaeabc12",
+  "note": "READONLY replay of visibility predicate candidate pairs; no APP route request, no source changes",
+  "faces": [
+    {
+      "source_id": "relation/2153738",
+      "component_area": 18387.797226018814,
+      "omega_area": 18387.797226018887,
+      "equals": true,
+      "equals_exact": false,
+      "symmetric_difference_area": 0.0,
+      "hausdorff": 0.0,
+      "same_vertex_sets": true,
+      "port_count": 47,
+      "outside_portal_count": 5,
+      "outside_portal_max_distance_m": 1.5863863436568492e-10,
+      "candidate_counts": {
+        "eps_admissions": 34,
+        "has_outside_portal": 34,
+        "strict_component_covers": 2351
+      },
+      "max_outside_length_m": 6.496308756741171e-08,
+      "min_outside_length_m": 0.0,
+      "examples": [
+        {
+          "a": "faceportal/0e8b8a5ceffb3ac50e79a314",
+          "b": "faceportal/291aa51243800640d5feb74b",
+          "xy": [
+            [
+              354415.3439670781,
+              3456330.439894715
+            ],
+            [
+              354401.658895305,
+              3456349.5298935864
+            ]
+          ],
+          "outside_length_m": 0.0,
+          "a_covered": false,
+          "b_covered": true,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING EMPTY"
+        },
+        {
+          "a": "faceportal/0e8b8a5ceffb3ac50e79a314",
+          "b": "node/1890877295",
+          "xy": [
+            [
+              354415.3439670781,
+              3456330.439894715
+            ],
+            [
+              354402.57887432,
+              3456348.243931223
+            ]
+          ],
+          "outside_length_m": 0.0,
+          "a_covered": false,
+          "b_covered": true,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING EMPTY"
+        },
+        {
+          "a": "faceportal/0e8b8a5ceffb3ac50e79a314",
+          "b": "node/1890877297",
+          "xy": [
+            [
+              354415.3439670781,
+              3456330.439894715
+            ],
+            [
+              354414.5025152883,
+              3456331.437544217
+            ]
+          ],
+          "outside_length_m": 0.0,
+          "a_covered": false,
+          "b_covered": true,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING EMPTY"
+        },
+        {
+          "a": "faceportal/0e8b8a5ceffb3ac50e79a314",
+          "b": "node/1890935347",
+          "xy": [
+            [
+              354415.3439670781,
+              3456330.439894715
+            ],
+            [
+              354407.7838150459,
+              3456340.910005288
+            ]
+          ],
+          "outside_length_m": 0.0,
+          "a_covered": false,
+          "b_covered": true,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING EMPTY"
+        },
+        {
+          "a": "faceportal/0e8b8a5ceffb3ac50e79a314",
+          "b": "node/1890935367",
+          "xy": [
+            [
+              354415.3439670781,
+              3456330.439894715
+            ],
+            [
+              354409.7555460353,
+              3456338.13317746
+            ]
+          ],
+          "outside_length_m": 0.0,
+          "a_covered": false,
+          "b_covered": true,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING EMPTY"
+        },
+        {
+          "a": "faceportal/0e8b8a5ceffb3ac50e79a314",
+          "b": "node/1890935412",
+          "xy": [
+            [
+              354415.3439670781,
+              3456330.439894715
+            ],
+            [
+              354412.2599255474,
+              3456334.606159381
+            ]
+          ],
+          "outside_length_m": 0.0,
+          "a_covered": false,
+          "b_covered": true,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING EMPTY"
+        },
+        {
+          "a": "faceportal/0e8b8a5ceffb3ac50e79a314",
+          "b": "readonly/v/1156",
+          "xy": [
+            [
+              354415.3439670781,
+              3456330.439894715
+            ],
+            [
+              354401.7164304374,
+              3456349.8791412287
+            ]
+          ],
+          "outside_length_m": 0.0,
+          "a_covered": false,
+          "b_covered": true,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING EMPTY"
+        },
+        {
+          "a": "faceportal/0e8b8a5ceffb3ac50e79a314",
+          "b": "readonly/v/1176",
+          "xy": [
+            [
+              354415.3439670781,
+              3456330.439894715
+            ],
+            [
+              354402.44465574593,
+              3456367.813539466
+            ]
+          ],
+          "outside_length_m": 0.0,
+          "a_covered": false,
+          "b_covered": true,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING EMPTY"
+        }
+      ],
+      "seconds": 7.346756500002812
+    },
+    {
+      "source_id": "relation/2385771",
+      "component_area": 5826.120745012711,
+      "omega_area": 5826.120745012713,
+      "equals": true,
+      "equals_exact": false,
+      "symmetric_difference_area": 0.0,
+      "hausdorff": 0.0,
+      "same_vertex_sets": true,
+      "port_count": 379,
+      "outside_portal_count": 99,
+      "outside_portal_max_distance_m": 2.028848462339517e-10,
+      "candidate_counts": {
+        "strict_component_covers": 20630,
+        "eps_admissions": 14491,
+        "has_outside_portal": 14491
+      },
+      "max_outside_length_m": 5.86743015595947e-07,
+      "min_outside_length_m": 0.0,
+      "examples": [
+        {
+          "a": "cell/354375/3456073/286",
+          "b": "faceportal/08c703467798f82566cd5895",
+          "xy": [
+            [
+              354375.9087066418,
+              3456073.2460478386
+            ],
+            [
+              354424.1418930313,
+              3456105.1385375583
+            ]
+          ],
+          "outside_length_m": 2.8157109912596232e-09,
+          "a_covered": true,
+          "b_covered": false,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING (354424.14189302886 3456105.138537557, 354424.1418930313 3456105.1385375583)"
+        },
+        {
+          "a": "cell/354375/3456073/286",
+          "b": "faceportal/0b201a4b2071de99acd9b760",
+          "xy": [
+            [
+              354375.9087066418,
+              3456073.2460478386
+            ],
+            [
+              354406.78742898727,
+              3456096.2954530716
+            ]
+          ],
+          "outside_length_m": 3.166839133187999e-09,
+          "a_covered": true,
+          "b_covered": false,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING (354406.7874289847 3456096.2954530697, 354406.78742898727 3456096.2954530716)"
+        },
+        {
+          "a": "cell/354375/3456073/286",
+          "b": "faceportal/0b98ed7dfb4d6655d99d67b4",
+          "xy": [
+            [
+              354375.9087066418,
+              3456073.2460478386
+            ],
+            [
+              354417.1613321331,
+              3456103.7728670062
+            ]
+          ],
+          "outside_length_m": 3.772736625536066e-09,
+          "a_covered": true,
+          "b_covered": false,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING (354417.16133213014 3456103.772867004, 354417.1613321331 3456103.7728670062)"
+        },
+        {
+          "a": "cell/354375/3456073/286",
+          "b": "faceportal/0ee8a331f2922f26974d6da2",
+          "xy": [
+            [
+              354375.9087066418,
+              3456073.2460478386
+            ],
+            [
+              354378.4391588744,
+              3456075.51461729
+            ]
+          ],
+          "outside_length_m": 1.2375118458567478e-09,
+          "a_covered": true,
+          "b_covered": false,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING (354378.4391588736 3456075.514617289, 354378.4391588744 3456075.51461729)"
+        },
+        {
+          "a": "cell/354375/3456073/286",
+          "b": "faceportal/10659e39921a0ad0c610f73c",
+          "xy": [
+            [
+              354375.9087066418,
+              3456073.2460478386
+            ],
+            [
+              354420.194413496,
+              3456102.324764904
+            ]
+          ],
+          "outside_length_m": 0.0,
+          "a_covered": true,
+          "b_covered": false,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING EMPTY"
+        },
+        {
+          "a": "cell/354375/3456073/286",
+          "b": "faceportal/11ee15f9538eb836312e8b2c",
+          "xy": [
+            [
+              354375.9087066418,
+              3456073.2460478386
+            ],
+            [
+              354381.28496057587,
+              3456073.547957983
+            ]
+          ],
+          "outside_length_m": 1.7462298274040222e-10,
+          "a_covered": true,
+          "b_covered": false,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING (354381.2849605757 3456073.547957983, 354381.28496057587 3456073.547957983)"
+        },
+        {
+          "a": "cell/354375/3456073/286",
+          "b": "faceportal/1c0b325f7d6b5c1d3eb0091b",
+          "xy": [
+            [
+              354375.9087066418,
+              3456073.2460478386
+            ],
+            [
+              354413.30913091253,
+              3456097.4169193595
+            ]
+          ],
+          "outside_length_m": 0.0,
+          "a_covered": true,
+          "b_covered": false,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING EMPTY"
+        },
+        {
+          "a": "cell/354375/3456073/286",
+          "b": "faceportal/208f3255bfbdbed32bbaacb1",
+          "xy": [
+            [
+              354375.9087066418,
+              3456073.2460478386
+            ],
+            [
+              354388.1123719389,
+              3456082.7401494444
+            ]
+          ],
+          "outside_length_m": 1.4908435375971833e-09,
+          "a_covered": true,
+          "b_covered": false,
+          "omega_covers": false,
+          "component_covers": false,
+          "outside_wkt": "LINESTRING (354388.1123719377 3456082.7401494435, 354388.1123719389 3456082.7401494444)"
+        }
+      ],
+      "seconds": 13.923043099988718
+    }
+  ]
+}

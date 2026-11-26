@@ -1,0 +1,1654 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_PRUNING_COUNTEREXAMPLE_CHECK",
+  "seed": 20261111,
+  "cases": [
+    {
+      "case_id": "PRUNING_00",
+      "winding_reversed": false,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 14.01438400141075,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            10.0,
+            5.245405296657592
+          ],
+          [
+            12.0,
+            5.245405296657592
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.01438400141075,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            10.0,
+            5.245405296657592
+          ],
+          [
+            12.0,
+            5.245405296657592
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 21,
+            "domain_rejections": 2,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 8,
+            "required_points": 0,
+            "pair_candidates": 45,
+            "local_tangent_rejections": 24
+          }
+        ],
+        "elapsed_s": 0.0033981000015046448,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_01",
+      "winding_reversed": true,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 14.026674213733047,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            3.0,
+            5.801189144336011
+          ],
+          [
+            4.0,
+            5.801189144336011
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "visibility_checks": 153
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.026674213733047,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            3.0,
+            5.801189144336011
+          ],
+          [
+            4.0,
+            5.801189144336011
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 13,
+            "domain_rejections": 3,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 6,
+            "required_points": 0,
+            "pair_candidates": 28,
+            "local_tangent_rejections": 15
+          }
+        ],
+        "elapsed_s": 0.001955700005055405,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_02",
+      "winding_reversed": false,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            2.0,
+            9.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            3.0
+          ],
+          [
+            12.0,
+            4.0
+          ],
+          [
+            14.0,
+            9.0
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            2.0,
+            9.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            3.0
+          ],
+          [
+            12.0,
+            4.0
+          ],
+          [
+            14.0,
+            9.0
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 8,
+            "domain_rejections": 3,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 4,
+            "required_points": 0,
+            "pair_candidates": 15,
+            "local_tangent_rejections": 7
+          }
+        ],
+        "elapsed_s": 0.0011418999929446727,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_03",
+      "winding_reversed": true,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 14.003325664734653,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            10.0,
+            5.377646702905043
+          ],
+          [
+            12.0,
+            5.377646702905043
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.003325664734653,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            10.0,
+            5.377646702905043
+          ],
+          [
+            12.0,
+            5.377646702905043
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 21,
+            "domain_rejections": 1,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 8,
+            "required_points": 0,
+            "pair_candidates": 45,
+            "local_tangent_rejections": 24
+          }
+        ],
+        "elapsed_s": 0.0024504000029992312,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_04",
+      "winding_reversed": false,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 14.054973834386777,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            7.0,
+            5.117012297214156
+          ],
+          [
+            8.0,
+            5.117012297214156
+          ],
+          [
+            11.0,
+            5.612557979465885
+          ],
+          [
+            12.0,
+            5.612557979465885
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "visibility_checks": 153
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.054973834386777,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            7.0,
+            5.117012297214156
+          ],
+          [
+            8.0,
+            5.117012297214156
+          ],
+          [
+            11.0,
+            5.612557979465885
+          ],
+          [
+            12.0,
+            5.612557979465885
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 13,
+            "domain_rejections": 5,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 6,
+            "required_points": 0,
+            "pair_candidates": 28,
+            "local_tangent_rejections": 15
+          }
+        ],
+        "elapsed_s": 0.0019508999976096675,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_05",
+      "winding_reversed": true,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            2.0,
+            9.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            3.0
+          ],
+          [
+            12.0,
+            4.0
+          ],
+          [
+            14.0,
+            9.0
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            2.0,
+            9.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            3.0
+          ],
+          [
+            12.0,
+            4.0
+          ],
+          [
+            14.0,
+            9.0
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 8,
+            "domain_rejections": 3,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 4,
+            "required_points": 0,
+            "pair_candidates": 15,
+            "local_tangent_rejections": 7
+          }
+        ],
+        "elapsed_s": 0.001415700011420995,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_06",
+      "winding_reversed": false,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 14.035578012991934,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            10.0,
+            5.099183447165039
+          ],
+          [
+            12.0,
+            5.099183447165039
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.035578012991934,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            10.0,
+            5.099183447165039
+          ],
+          [
+            12.0,
+            5.099183447165039
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 21,
+            "domain_rejections": 2,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 8,
+            "required_points": 0,
+            "pair_candidates": 45,
+            "local_tangent_rejections": 24
+          }
+        ],
+        "elapsed_s": 0.003221000006305985,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_07",
+      "winding_reversed": true,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 14.0,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "visibility_checks": 153
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.0,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 13,
+            "domain_rejections": 1,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 6,
+            "required_points": 0,
+            "pair_candidates": 28,
+            "local_tangent_rejections": 15
+          }
+        ],
+        "elapsed_s": 0.00198090000776574,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_08",
+      "winding_reversed": false,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            2.0,
+            9.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            3.0
+          ],
+          [
+            12.0,
+            4.0
+          ],
+          [
+            14.0,
+            9.0
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            2.0,
+            9.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            3.0
+          ],
+          [
+            12.0,
+            4.0
+          ],
+          [
+            14.0,
+            9.0
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 8,
+            "domain_rejections": 3,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 4,
+            "required_points": 0,
+            "pair_candidates": 15,
+            "local_tangent_rejections": 7
+          }
+        ],
+        "elapsed_s": 0.0010627000010572374,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_09",
+      "winding_reversed": true,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 14.006800629200058,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            10.0,
+            5.325005546955545
+          ],
+          [
+            12.0,
+            5.325005546955545
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.006800629200058,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            10.0,
+            5.325005546955545
+          ],
+          [
+            12.0,
+            5.325005546955545
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 21,
+            "domain_rejections": 2,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 8,
+            "required_points": 0,
+            "pair_candidates": 45,
+            "local_tangent_rejections": 24
+          }
+        ],
+        "elapsed_s": 0.002677799988305196,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_10",
+      "winding_reversed": false,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 14.0,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "visibility_checks": 153
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.0,
+        "points": [
+          [
+            1.0,
+            5.5
+          ],
+          [
+            15.0,
+            5.5
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 13,
+            "domain_rejections": 1,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 6,
+            "required_points": 0,
+            "pair_candidates": 28,
+            "local_tangent_rejections": 15
+          }
+        ],
+        "elapsed_s": 0.0016776000120444223,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_11",
+      "winding_reversed": true,
+      "large_metric_translation": false,
+      "reference": {
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            2.0,
+            9.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            3.0
+          ],
+          [
+            12.0,
+            4.0
+          ],
+          [
+            14.0,
+            9.0
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            2.0,
+            9.0
+          ],
+          [
+            4.0,
+            3.0
+          ],
+          [
+            6.0,
+            3.0
+          ],
+          [
+            12.0,
+            4.0
+          ],
+          [
+            14.0,
+            9.0
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 8,
+            "domain_rejections": 3,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 4,
+            "required_points": 0,
+            "pair_candidates": 15,
+            "local_tangent_rejections": 7
+          }
+        ],
+        "elapsed_s": 0.0010855999862542376,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_12",
+      "winding_reversed": false,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 14.048289464547477,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352227.314,
+            3459039.61975226
+          ],
+          [
+            352229.314,
+            3459039.61975226
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.048289464547477,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352227.314,
+            3459039.61975226
+          ],
+          [
+            352229.314,
+            3459039.61975226
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 21,
+            "domain_rejections": 2,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 8,
+            "required_points": 0,
+            "pair_candidates": 45,
+            "local_tangent_rejections": 24
+          }
+        ],
+        "elapsed_s": 0.0027320999943185598,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_13",
+      "winding_reversed": true,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 14.017805398067955,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352224.314,
+            3459039.753426863
+          ],
+          [
+            352225.314,
+            3459039.753426863
+          ],
+          [
+            352228.314,
+            3459039.9416937046
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "visibility_checks": 153
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.017805398067955,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352224.314,
+            3459039.753426863
+          ],
+          [
+            352225.314,
+            3459039.753426863
+          ],
+          [
+            352228.314,
+            3459039.9416937046
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 13,
+            "domain_rejections": 5,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 6,
+            "required_points": 0,
+            "pair_candidates": 28,
+            "local_tangent_rejections": 15
+          }
+        ],
+        "elapsed_s": 0.0015383999998448417,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_14",
+      "winding_reversed": false,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            352219.314,
+            3459043.587
+          ],
+          [
+            352221.314,
+            3459037.587
+          ],
+          [
+            352223.314,
+            3459037.587
+          ],
+          [
+            352229.314,
+            3459038.587
+          ],
+          [
+            352231.314,
+            3459043.587
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            352219.314,
+            3459043.587
+          ],
+          [
+            352221.314,
+            3459037.587
+          ],
+          [
+            352223.314,
+            3459037.587
+          ],
+          [
+            352229.314,
+            3459038.587
+          ],
+          [
+            352231.314,
+            3459043.587
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 8,
+            "domain_rejections": 3,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 4,
+            "required_points": 0,
+            "pair_candidates": 15,
+            "local_tangent_rejections": 7
+          }
+        ],
+        "elapsed_s": 0.0010990999871864915,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_15",
+      "winding_reversed": true,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 14.0,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.0,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 21,
+            "domain_rejections": 0,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 8,
+            "required_points": 0,
+            "pair_candidates": 45,
+            "local_tangent_rejections": 24
+          }
+        ],
+        "elapsed_s": 0.0025636000063968822,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_16",
+      "winding_reversed": false,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 14.008497757307378,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352220.314,
+            3459040.256722209
+          ],
+          [
+            352221.314,
+            3459040.256722209
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "visibility_checks": 153
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.008497757307378,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352220.314,
+            3459040.256722209
+          ],
+          [
+            352221.314,
+            3459040.256722209
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 13,
+            "domain_rejections": 3,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 6,
+            "required_points": 0,
+            "pair_candidates": 28,
+            "local_tangent_rejections": 15
+          }
+        ],
+        "elapsed_s": 0.0015601000050082803,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_17",
+      "winding_reversed": true,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            352219.314,
+            3459043.587
+          ],
+          [
+            352221.314,
+            3459037.587
+          ],
+          [
+            352223.314,
+            3459037.587
+          ],
+          [
+            352229.314,
+            3459038.587
+          ],
+          [
+            352231.314,
+            3459043.587
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            352219.314,
+            3459043.587
+          ],
+          [
+            352221.314,
+            3459037.587
+          ],
+          [
+            352223.314,
+            3459037.587
+          ],
+          [
+            352229.314,
+            3459038.587
+          ],
+          [
+            352231.314,
+            3459043.587
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 8,
+            "domain_rejections": 3,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 4,
+            "required_points": 0,
+            "pair_candidates": 15,
+            "local_tangent_rejections": 7
+          }
+        ],
+        "elapsed_s": 0.0010673999931896105,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_18",
+      "winding_reversed": false,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 14.0,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.0,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 21,
+            "domain_rejections": 0,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 8,
+            "required_points": 0,
+            "pair_candidates": 45,
+            "local_tangent_rejections": 24
+          }
+        ],
+        "elapsed_s": 0.0026160000124946237,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_19",
+      "winding_reversed": true,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 14.025131583838458,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352224.314,
+            3459039.9671367924
+          ],
+          [
+            352225.314,
+            3459039.9671367924
+          ],
+          [
+            352228.314,
+            3459040.288567543
+          ],
+          [
+            352229.314,
+            3459040.288567543
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "visibility_checks": 153
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.025131583838458,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352224.314,
+            3459039.9671367924
+          ],
+          [
+            352225.314,
+            3459039.9671367924
+          ],
+          [
+            352228.314,
+            3459040.288567543
+          ],
+          [
+            352229.314,
+            3459040.288567543
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 13,
+            "domain_rejections": 5,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 6,
+            "required_points": 0,
+            "pair_candidates": 28,
+            "local_tangent_rejections": 15
+          }
+        ],
+        "elapsed_s": 0.0015451999934157357,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_20",
+      "winding_reversed": false,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            352219.314,
+            3459043.587
+          ],
+          [
+            352221.314,
+            3459037.587
+          ],
+          [
+            352223.314,
+            3459037.587
+          ],
+          [
+            352229.314,
+            3459038.587
+          ],
+          [
+            352231.314,
+            3459043.587
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            352219.314,
+            3459043.587
+          ],
+          [
+            352221.314,
+            3459037.587
+          ],
+          [
+            352223.314,
+            3459037.587
+          ],
+          [
+            352229.314,
+            3459038.587
+          ],
+          [
+            352231.314,
+            3459043.587
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 8,
+            "domain_rejections": 3,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 4,
+            "required_points": 0,
+            "pair_candidates": 15,
+            "local_tangent_rejections": 7
+          }
+        ],
+        "elapsed_s": 0.001161000007414259,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_21",
+      "winding_reversed": true,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 14.00069843568988,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352227.314,
+            3459040.0309359827
+          ],
+          [
+            352229.314,
+            3459040.0309359827
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.00069843568988,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352227.314,
+            3459040.0309359827
+          ],
+          [
+            352229.314,
+            3459040.0309359827
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 21,
+            "domain_rejections": 1,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 8,
+            "required_points": 0,
+            "pair_candidates": 45,
+            "local_tangent_rejections": 24
+          }
+        ],
+        "elapsed_s": 0.0027311000012559816,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_22",
+      "winding_reversed": false,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 14.000890281528127,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352221.314,
+            3459040.080697898
+          ],
+          [
+            352224.314,
+            3459040.0323283575
+          ],
+          [
+            352225.314,
+            3459040.0323283575
+          ],
+          [
+            352228.314,
+            3459040.086759163
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "visibility_checks": 153
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 14.000890281528127,
+        "points": [
+          [
+            352218.314,
+            3459040.087
+          ],
+          [
+            352221.314,
+            3459040.080697898
+          ],
+          [
+            352224.314,
+            3459040.0323283575
+          ],
+          [
+            352225.314,
+            3459040.0323283575
+          ],
+          [
+            352228.314,
+            3459040.086759163
+          ],
+          [
+            352232.314,
+            3459040.087
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 13,
+            "domain_rejections": 6,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 6,
+            "required_points": 0,
+            "pair_candidates": 28,
+            "local_tangent_rejections": 15
+          }
+        ],
+        "elapsed_s": 0.0014957999956095591,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    },
+    {
+      "case_id": "PRUNING_23",
+      "winding_reversed": true,
+      "large_metric_translation": true,
+      "reference": {
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            352219.314,
+            3459043.587
+          ],
+          [
+            352221.314,
+            3459037.587
+          ],
+          [
+            352223.314,
+            3459037.587
+          ],
+          [
+            352229.314,
+            3459038.587
+          ],
+          [
+            352231.314,
+            3459043.587
+          ]
+        ],
+        "visibility_checks": 91
+      },
+      "device_under_test": {
+        "status": "ROUTED",
+        "reached": true,
+        "length_m": 19.792482657769483,
+        "points": [
+          [
+            352219.314,
+            3459043.587
+          ],
+          [
+            352221.314,
+            3459037.587
+          ],
+          [
+            352223.314,
+            3459037.587
+          ],
+          [
+            352229.314,
+            3459038.587
+          ],
+          [
+            352231.314,
+            3459043.587
+          ]
+        ],
+        "stats": [
+          {
+            "visibility_checks": 8,
+            "domain_rejections": 3,
+            "constraint_rejections": 0,
+            "numeric_tolerance_admissions": 0,
+            "reflex_vertices": 4,
+            "required_points": 0,
+            "pair_candidates": 15,
+            "local_tangent_rejections": 7
+          }
+        ],
+        "elapsed_s": 0.0011223000037716702,
+        "optimality": "POLYGON_COMPONENT_UNIFORM_LENGTH_WITH_COMPLETE_REFLEX_VISIBILITY; FLOATING_GEOMETRY; EXTRA_EDGE_RULES_AND_REQUIRED_GATES_LIMIT_CONTINUOUS_CLAIM"
+      },
+      "errors": []
+    }
+  ],
+  "reference_method": "All polygon vertices; strict covers; own heap Dijkstra; no author tangent function",
+  "DUT_source_sha256": "1b20b8ad8e0a6a2c2db3cf825f18ca44a2cbac8e04c54a6a9c73b54e5b656357",
+  "DUT_source_stable": true,
+  "elapsed_s": 0.18580430001020432,
+  "app_solver_calls": 0,
+  "limitations": "24 finite synthetic shapes, not general proof or real-world shortest-path certification",
+  "status": "PASS"
+}

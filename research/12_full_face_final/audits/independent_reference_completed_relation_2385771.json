@@ -1,0 +1,69 @@
+{
+  "query": {
+    "pair_id": "sh-huangpu-01/relation/2385771/1",
+    "scene_id": "sh-huangpu-01",
+    "source_area_id": "relation/2385771",
+    "rule": "EAST_WEST_EXTREMA",
+    "source": {
+      "id": "node/1890935454",
+      "xy": [
+        354331.91300043056,
+        3456032.6585559454
+      ],
+      "endpoint_kind": "EXISTING_NATIVE_PORT",
+      "source_edge_id": "relation/2385771:edge/018731",
+      "native_port_source_way_ids": [
+        "way/178737605"
+      ]
+    },
+    "target": {
+      "id": "node/1890935415",
+      "xy": [
+        354473.402803198,
+        3456114.86121377
+      ],
+      "endpoint_kind": "EXISTING_NATIVE_PORT",
+      "source_edge_id": "relation/2385771:edge/018724",
+      "native_port_source_way_ids": [
+        "way/178737608"
+      ]
+    },
+    "omega_sha256": "9cafd806eb1b611ea03d196c9018ebfba53ca11da7d2f6a2b8db7f9636de16c1",
+    "old_mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+    "role": "LOCAL_FACE_MECHANISM_POINTS_NOT_NEW_ENTRANCES_OR_BUILDINGS"
+  },
+  "reference": {
+    "reached": true,
+    "length_m": 163.72297505256262,
+    "points": [
+      [
+        354331.91300043056,
+        3456032.6585559454
+      ],
+      [
+        354374.78512168734,
+        3456055.5504678437
+      ],
+      [
+        354400.32717808674,
+        3456069.32168429
+      ],
+      [
+        354400.34789285855,
+        3456069.3341827686
+      ],
+      [
+        354473.402803198,
+        3456114.86121377
+      ]
+    ],
+    "visibility_checks": 2601,
+    "expanded_vertices": 19,
+    "method": "LAZY_COMPLETE_ALL_VERTEX_VISIBILITY_EUCLIDEAN_A_STAR_NO_GEOMETRIC_PRUNING",
+    "elapsed_s": 0.12712760000431444
+  },
+  "raw_source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "lock_sha256": "68bbcf8a67c377260870d27f288cd0b679b0e21094558f9bb9706073cdd7c083",
+  "reviewer_script_sha256": "245db7745121c79fef0370552d416ef4e17bb81c880c3a1a6f3303d55a45420f",
+  "status": "COMPLETED_REFERENCE_BEFORE_AUTHOR_COMPARISON"
+}

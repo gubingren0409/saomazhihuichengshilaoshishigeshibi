@@ -1,0 +1,191 @@
+{
+  "role": "AUTHOR_LIMITED_REAL_CONTACT_READONLY_CHECK",
+  "coverage": "All five north SOURCE-channel bad portals identified in retained R0; no south LOCAL_REGION parent reconstruction and no APP solver calls",
+  "face_visibility_sha256": "1b20b8ad8e0a6a2c2db3cf825f18ca44a2cbac8e04c54a6a9c73b54e5b656357",
+  "domain_sha256": "632b50684404468d01bde0b64f78175e2ba51443f8b63b18b278f1c4ca1b4b81",
+  "raw_source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "results": [
+    {
+      "portal_id": "faceportal/0e8b8a5ceffb3ac50e79a314",
+      "source_evidence": {
+        "kind": "EXACT_LINE_FACE_BOUNDARY_INTERSECTION",
+        "channel": "SOURCE",
+        "u": "node/1890732811",
+        "v": "node/1890877297",
+        "source_ids": [
+          "way/178719573"
+        ]
+      },
+      "raw_outside_distance_m": 3.483817913235547e-11,
+      "certificate": {
+        "xy": [
+          354415.34396707796,
+          3456330.4398947153
+        ],
+        "position_m": 0.2504361028883195,
+        "raw_intersection_xy": [
+          354415.3439670781,
+          3456330.439894715
+        ],
+        "parent_position_before_m": 0.25043610263635885,
+        "parent_position_after_m": 0.2504361028883195,
+        "coordinate_shift_m": 4.799926683327254e-10,
+        "parameter_shift_m": 2.519606745465808e-10,
+        "roundoff_limit_m": 1e-08,
+        "positive_parent_interval_witness_m": [
+          0.2504361028883195,
+          0.9029975256796037
+        ],
+        "policy": "DERIVED_GEOS_BOUNDARY_INTERSECTION_ON_SAME_PARENT_ARC; STRICT_COMPONENT_COVERS; NO_SOURCE_OR_DOMAIN_MOVEMENT"
+      },
+      "strictly_covered_after": true,
+      "source_endpoints_unchanged": true
+    },
+    {
+      "portal_id": "faceportal/5e5159ff5e16ff678a591e8c",
+      "source_evidence": {
+        "kind": "EXACT_LINE_FACE_BOUNDARY_INTERSECTION",
+        "channel": "SOURCE",
+        "u": "node/1890732685",
+        "v": "node/1890885494",
+        "source_ids": [
+          "way/178719573"
+        ]
+      },
+      "raw_outside_distance_m": 9.675044797297123e-11,
+      "certificate": {
+        "xy": [
+          354489.19519176683,
+          3456399.132616185
+        ],
+        "position_m": 1.8347137170276282,
+        "raw_intersection_xy": [
+          354489.1951917667,
+          3456399.132616185
+        ],
+        "parent_position_before_m": 1.8347137171984227,
+        "parent_position_after_m": 1.8347137170276282,
+        "coordinate_shift_m": 1.1641532182693481e-10,
+        "parameter_shift_m": -1.7079448966228483e-10,
+        "roundoff_limit_m": 1e-08,
+        "positive_parent_interval_witness_m": [
+          0.9173568585992113,
+          1.8347137170276282
+        ],
+        "policy": "DERIVED_GEOS_BOUNDARY_INTERSECTION_ON_SAME_PARENT_ARC; STRICT_COMPONENT_COVERS; NO_SOURCE_OR_DOMAIN_MOVEMENT"
+      },
+      "strictly_covered_after": true,
+      "source_endpoints_unchanged": true
+    },
+    {
+      "portal_id": "faceportal/76e83a35b7ea1a07b750f7e3",
+      "source_evidence": {
+        "kind": "EXACT_LINE_FACE_BOUNDARY_INTERSECTION",
+        "channel": "SOURCE",
+        "u": "node/1890732657",
+        "v": "node/1890745465",
+        "source_ids": [
+          "way/178719573"
+        ]
+      },
+      "raw_outside_distance_m": 7.028439129163511e-11,
+      "certificate": {
+        "xy": [
+          354212.1625495807,
+          3456233.4215818318
+        ],
+        "position_m": 0.2500276400832279,
+        "raw_intersection_xy": [
+          354212.1625495808,
+          3456233.4215818318
+        ],
+        "parent_position_before_m": 0.25002763987541177,
+        "parent_position_after_m": 0.2500276400832279,
+        "coordinate_shift_m": 1.1641532182693481e-10,
+        "parameter_shift_m": 2.07816153174889e-10,
+        "roundoff_limit_m": 1e-08,
+        "positive_parent_interval_witness_m": [
+          0.2500276400832279,
+          1.4404972502394915
+        ],
+        "policy": "DERIVED_GEOS_BOUNDARY_INTERSECTION_ON_SAME_PARENT_ARC; STRICT_COMPONENT_COVERS; NO_SOURCE_OR_DOMAIN_MOVEMENT"
+      },
+      "strictly_covered_after": true,
+      "source_endpoints_unchanged": true
+    },
+    {
+      "portal_id": "faceportal/a3bfb2a9035069bcf26da427",
+      "source_evidence": {
+        "kind": "EXACT_LINE_FACE_BOUNDARY_INTERSECTION",
+        "channel": "SOURCE",
+        "u": "node/1890877346",
+        "v": "node/1890862817",
+        "source_ids": [
+          "way/178719573"
+        ]
+      },
+      "raw_outside_distance_m": 1.5863863436568492e-10,
+      "certificate": {
+        "xy": [
+          354337.3169761947,
+          3456167.8064456154
+        ],
+        "position_m": 20.746672176838775,
+        "raw_intersection_xy": [
+          354337.31697619497,
+          3456167.8064456154
+        ],
+        "parent_position_before_m": 20.746672176630202,
+        "parent_position_after_m": 20.746672176838775,
+        "coordinate_shift_m": 2.9103830456733704e-10,
+        "parameter_shift_m": 2.085727146550198e-10,
+        "roundoff_limit_m": 1e-08,
+        "positive_parent_interval_witness_m": [
+          20.746672176838775,
+          26.4142390720013
+        ],
+        "policy": "DERIVED_GEOS_BOUNDARY_INTERSECTION_ON_SAME_PARENT_ARC; STRICT_COMPONENT_COVERS; NO_SOURCE_OR_DOMAIN_MOVEMENT"
+      },
+      "strictly_covered_after": true,
+      "source_endpoints_unchanged": true
+    },
+    {
+      "portal_id": "faceportal/be92551f56c2890d1fe7f514",
+      "source_evidence": {
+        "kind": "EXACT_LINE_FACE_BOUNDARY_INTERSECTION",
+        "channel": "SOURCE",
+        "u": "node/1890732633",
+        "v": "node/1890862898",
+        "source_ids": [
+          "way/178719573"
+        ]
+      },
+      "raw_outside_distance_m": 3.452376278381511e-11,
+      "certificate": {
+        "xy": [
+          354102.0081558098,
+          3456150.713713331
+        ],
+        "position_m": 2.5994934378935652,
+        "raw_intersection_xy": [
+          354102.00815581,
+          3456150.7137133307
+        ],
+        "parent_position_before_m": 2.599493438202954,
+        "parent_position_after_m": 2.5994934378935652,
+        "coordinate_shift_m": 5.206251464550825e-10,
+        "parameter_shift_m": -3.093889588967613e-10,
+        "roundoff_limit_m": 1e-08,
+        "positive_parent_interval_witness_m": [
+          1.299746719101477,
+          2.5994934378935652
+        ],
+        "policy": "DERIVED_GEOS_BOUNDARY_INTERSECTION_ON_SAME_PARENT_ARC; STRICT_COMPONENT_COVERS; NO_SOURCE_OR_DOMAIN_MOVEMENT"
+      },
+      "strictly_covered_after": true,
+      "source_endpoints_unchanged": true
+    }
+  ],
+  "new_solver_calls": 0,
+  "mutated_files": false
+}

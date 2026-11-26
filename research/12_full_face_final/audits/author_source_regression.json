@@ -1,0 +1,3276 @@
+{
+  "role": "AUTHOR_SOURCE_AND_PROTECTION_REVIEW_NOT_INDEPENDENT",
+  "created_at": "2026-11-11T22:28:48.905590+08:00",
+  "scope": {
+    "new_APP_solver_calls": 0,
+    "new_mask_or_heldout_runs": 0,
+    "source_snapshots_examined": 6,
+    "route_outputs": "Read completed files only; matrix may still be running. Final paired-results table is authoritative.",
+    "limitations": [
+      "No field access, current public permission, obstacle completeness or survey-grade floor truth verified.",
+      "No claim to rerun all 25 controlled mask tasks; no new task, graph build or APP solve in this audit.",
+      "Source-tag checks of inactive scenes do not amount to geometric route tests."
+    ]
+  },
+  "input_protection": [
+    {
+      "path": "data/scene_manifest.json",
+      "expected_sha256": "57ea7e1d901867a31023e328b676f83a4be3d0e1d88ab87626d0aabbcaa4df87",
+      "actual_sha256": "57ea7e1d901867a31023e328b676f83a4be3d0e1d88ab87626d0aabbcaa4df87",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-exhibition/frozen_scene.json",
+      "expected_sha256": "787690ba419f2d361b7932a522a0d5451def51e8c8828981bc3a70cac704b2dc",
+      "actual_sha256": "787690ba419f2d361b7932a522a0d5451def51e8c8828981bc3a70cac704b2dc",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-exhibition/mapped_edges.jsonl.gz",
+      "expected_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "actual_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-exhibition/source.osm.json",
+      "expected_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "actual_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-huangpu-01/frozen_scene.json",
+      "expected_sha256": "de090efb1f080482c4f9487c2bba1b756b89c308e9c1dda4126d05dd084efd18",
+      "actual_sha256": "de090efb1f080482c4f9487c2bba1b756b89c308e9c1dda4126d05dd084efd18",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-huangpu-01/mapped_edges.jsonl.gz",
+      "expected_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "actual_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-huangpu-01/source.osm.json",
+      "expected_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "actual_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-library/frozen_scene.json",
+      "expected_sha256": "7b645453a5ffcab5e705301247c6c97463fba06e9fe4d19facdd7ecbd312a1dc",
+      "actual_sha256": "7b645453a5ffcab5e705301247c6c97463fba06e9fe4d19facdd7ecbd312a1dc",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-library/mapped_edges.jsonl.gz",
+      "expected_sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7",
+      "actual_sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-library/source.osm.json",
+      "expected_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "actual_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-newworld/frozen_scene.json",
+      "expected_sha256": "ccdb803aaaddfabedb04cb61c99dbea51ca47fb3bc18e7fb14739f1fd885a89b",
+      "actual_sha256": "ccdb803aaaddfabedb04cb61c99dbea51ca47fb3bc18e7fb14739f1fd885a89b",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-newworld/mapped_edges.jsonl.gz",
+      "expected_sha256": "9031f3ccd3802fe3ef8bf74385fccdbc0947be2cd53311973ad54546a19c7ab8",
+      "actual_sha256": "9031f3ccd3802fe3ef8bf74385fccdbc0947be2cd53311973ad54546a19c7ab8",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-newworld/source.osm.json",
+      "expected_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "actual_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-tower/frozen_scene.json",
+      "expected_sha256": "b5d6aea865c35f45566315791fa1255440e1304c55d7aae853231206353b27d9",
+      "actual_sha256": "b5d6aea865c35f45566315791fa1255440e1304c55d7aae853231206353b27d9",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-tower/mapped_edges.jsonl.gz",
+      "expected_sha256": "d664bcc5d13518c1890c66980a585d81503712e82f95afb64177d4d2de94468c",
+      "actual_sha256": "d664bcc5d13518c1890c66980a585d81503712e82f95afb64177d4d2de94468c",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-tower/source.osm.json",
+      "expected_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "actual_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-wukang/frozen_scene.json",
+      "expected_sha256": "416063c7297ac5e7932cc6afeaaca93e9cb6a642278c656d13d0839f8b7a6044",
+      "actual_sha256": "416063c7297ac5e7932cc6afeaaca93e9cb6a642278c656d13d0839f8b7a6044",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-wukang/mapped_edges.jsonl.gz",
+      "expected_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "actual_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "unchanged": true
+    },
+    {
+      "path": "data/scenes/sh-wukang/source.osm.json",
+      "expected_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "actual_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "unchanged": true
+    }
+  ],
+  "baseline_code_comparison": [
+    {
+      "path": "src/common_constraints.py",
+      "baseline_sha256": "aa31d3ace09dd6ebcf513978abd70986fb58142c109880e891710fad1e06dba8",
+      "current_sha256": "aa31d3ace09dd6ebcf513978abd70986fb58142c109880e891710fad1e06dba8",
+      "byte_identical": true
+    },
+    {
+      "path": "src/free_surface.py",
+      "baseline_sha256": "de0759ca1ec1d2554c9ebd87f72ba3a4906a21016caa1c029d68a16911216ba8",
+      "current_sha256": "de0759ca1ec1d2554c9ebd87f72ba3a4906a21016caa1c029d68a16911216ba8",
+      "byte_identical": true
+    },
+    {
+      "path": "src/free_routing.py",
+      "baseline_sha256": "0ab1db2a0bfa56ae672ad8d4329ce09334d295dbb7533cc8649b9a2b4eeb0561",
+      "current_sha256": "0ab1db2a0bfa56ae672ad8d4329ce09334d295dbb7533cc8649b9a2b4eeb0561",
+      "byte_identical": true
+    },
+    {
+      "path": "src/region.py",
+      "baseline_sha256": "74d579de368df4f60623ee26e1c804134ea0e142b89ff56b554678f8fdb268e8",
+      "current_sha256": "74d579de368df4f60623ee26e1c804134ea0e142b89ff56b554678f8fdb268e8",
+      "byte_identical": true
+    },
+    {
+      "path": "src/region_routing.py",
+      "baseline_sha256": "8a0863972877eebb67407443ec41fef5504c91c3510d25b621f5820b14d5100f",
+      "current_sha256": "8a0863972877eebb67407443ec41fef5504c91c3510d25b621f5820b14d5100f",
+      "byte_identical": true
+    },
+    {
+      "path": "src/frozen_scene/native_adapter.py",
+      "baseline_sha256": "1c54e2de55fd365df056f982c148ef1e9ad798599273b29da3ddbd5394f5baa9",
+      "current_sha256": "1c54e2de55fd365df056f982c148ef1e9ad798599273b29da3ddbd5394f5baa9",
+      "byte_identical": true
+    },
+    {
+      "path": "src/frozen_scene/semantics.py",
+      "baseline_sha256": "b31a7bcdfb6cc202577b25315847686cf0d15190a6b60ba0de224d6af4e2458f",
+      "current_sha256": "b31a7bcdfb6cc202577b25315847686cf0d15190a6b60ba0de224d6af4e2458f",
+      "byte_identical": true
+    },
+    {
+      "path": "src/frozen_scene/local_route.py",
+      "baseline_sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+      "current_sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+      "byte_identical": true
+    },
+    {
+      "path": "config/frozen_region.json",
+      "baseline_sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026",
+      "current_sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026",
+      "byte_identical": true
+    },
+    {
+      "path": "config/historical_methods.json",
+      "baseline_sha256": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f",
+      "current_sha256": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f",
+      "byte_identical": true
+    },
+    {
+      "path": "config/app_policy.json",
+      "baseline_sha256": "607cd0058d424dec827b71716673562b2ada6c1ef4460c69582570f47f4f6ec8",
+      "current_sha256": "607cd0058d424dec827b71716673562b2ada6c1ef4460c69582570f47f4f6ec8",
+      "byte_identical": true
+    }
+  ],
+  "freeze_files": [
+    {
+      "path": "src\\common_constraints.py",
+      "expected_sha256": "aa31d3ace09dd6ebcf513978abd70986fb58142c109880e891710fad1e06dba8",
+      "actual_sha256": "aa31d3ace09dd6ebcf513978abd70986fb58142c109880e891710fad1e06dba8",
+      "unchanged": true
+    },
+    {
+      "path": "src\\context_policy.py",
+      "expected_sha256": "73360280dd9fd14b3d75c3852fabab03254b8c14d3af430e1305f27daa2e3f25",
+      "actual_sha256": "73360280dd9fd14b3d75c3852fabab03254b8c14d3af430e1305f27daa2e3f25",
+      "unchanged": true
+    },
+    {
+      "path": "src\\face_geometry.py",
+      "expected_sha256": "941648761f179e9c5cb93c38a79ec7970dc39a11f973499daef499accaeabc12",
+      "actual_sha256": "941648761f179e9c5cb93c38a79ec7970dc39a11f973499daef499accaeabc12",
+      "unchanged": true
+    },
+    {
+      "path": "src\\face_visibility.py",
+      "expected_sha256": "1b20b8ad8e0a6a2c2db3cf825f18ca44a2cbac8e04c54a6a9c73b54e5b656357",
+      "actual_sha256": "1b20b8ad8e0a6a2c2db3cf825f18ca44a2cbac8e04c54a6a9c73b54e5b656357",
+      "unchanged": true
+    },
+    {
+      "path": "src\\free_routing.py",
+      "expected_sha256": "0ab1db2a0bfa56ae672ad8d4329ce09334d295dbb7533cc8649b9a2b4eeb0561",
+      "actual_sha256": "0ab1db2a0bfa56ae672ad8d4329ce09334d295dbb7533cc8649b9a2b4eeb0561",
+      "unchanged": true
+    },
+    {
+      "path": "src\\free_surface.py",
+      "expected_sha256": "de0759ca1ec1d2554c9ebd87f72ba3a4906a21016caa1c029d68a16911216ba8",
+      "actual_sha256": "de0759ca1ec1d2554c9ebd87f72ba3a4906a21016caa1c029d68a16911216ba8",
+      "unchanged": true
+    },
+    {
+      "path": "src\\planner.py",
+      "expected_sha256": "f9cab9d77a7c19c62e1243be1a00650e96cac34e9e4b80cae3104fdb86f51afe",
+      "actual_sha256": "f9cab9d77a7c19c62e1243be1a00650e96cac34e9e4b80cae3104fdb86f51afe",
+      "unchanged": true
+    },
+    {
+      "path": "src\\region.py",
+      "expected_sha256": "74d579de368df4f60623ee26e1c804134ea0e142b89ff56b554678f8fdb268e8",
+      "actual_sha256": "74d579de368df4f60623ee26e1c804134ea0e142b89ff56b554678f8fdb268e8",
+      "unchanged": true
+    },
+    {
+      "path": "src\\region_routing.py",
+      "expected_sha256": "8a0863972877eebb67407443ec41fef5504c91c3510d25b621f5820b14d5100f",
+      "actual_sha256": "8a0863972877eebb67407443ec41fef5504c91c3510d25b621f5820b14d5100f",
+      "unchanged": true
+    },
+    {
+      "path": "src\\scene_data.py",
+      "expected_sha256": "0fe12256f280e20bd47a53e7421a3563056d1bc1b16d28dbac1665b45ff05dd2",
+      "actual_sha256": "0fe12256f280e20bd47a53e7421a3563056d1bc1b16d28dbac1665b45ff05dd2",
+      "unchanged": true
+    },
+    {
+      "path": "src\\__init__.py",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "src\\frozen_scene\\local_route.py",
+      "expected_sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+      "actual_sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+      "unchanged": true
+    },
+    {
+      "path": "src\\frozen_scene\\native_adapter.py",
+      "expected_sha256": "1c54e2de55fd365df056f982c148ef1e9ad798599273b29da3ddbd5394f5baa9",
+      "actual_sha256": "1c54e2de55fd365df056f982c148ef1e9ad798599273b29da3ddbd5394f5baa9",
+      "unchanged": true
+    },
+    {
+      "path": "src\\frozen_scene\\route_measure.py",
+      "expected_sha256": "895bc7171ce98c2e68cb5c6cba954101bfcdfeb06a31e69d4fc7c41610bd5af9",
+      "actual_sha256": "895bc7171ce98c2e68cb5c6cba954101bfcdfeb06a31e69d4fc7c41610bd5af9",
+      "unchanged": true
+    },
+    {
+      "path": "src\\frozen_scene\\semantics.py",
+      "expected_sha256": "b31a7bcdfb6cc202577b25315847686cf0d15190a6b60ba0de224d6af4e2458f",
+      "actual_sha256": "b31a7bcdfb6cc202577b25315847686cf0d15190a6b60ba0de224d6af4e2458f",
+      "unchanged": true
+    },
+    {
+      "path": "src\\frozen_scene\\__init__.py",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "config\\app_policy.json",
+      "expected_sha256": "607cd0058d424dec827b71716673562b2ada6c1ef4460c69582570f47f4f6ec8",
+      "actual_sha256": "607cd0058d424dec827b71716673562b2ada6c1ef4460c69582570f47f4f6ec8",
+      "unchanged": true
+    },
+    {
+      "path": "config\\area_policy.json",
+      "expected_sha256": "a43a91c8677740d35fbb53ec9f93bf908fa1c7bac04e8c56d0f2538d20141c00",
+      "actual_sha256": "a43a91c8677740d35fbb53ec9f93bf908fa1c7bac04e8c56d0f2538d20141c00",
+      "unchanged": true
+    },
+    {
+      "path": "config\\frozen_region.json",
+      "expected_sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026",
+      "actual_sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026",
+      "unchanged": true
+    },
+    {
+      "path": "config\\historical_methods.json",
+      "expected_sha256": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f",
+      "actual_sha256": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f",
+      "unchanged": true
+    },
+    {
+      "path": "app\\app.css",
+      "expected_sha256": "0b9f66be8d6d42d7db9aa9d9bbdabd1b8e2bd01c949dfeb4c81940a14661e8ea",
+      "actual_sha256": "0b9f66be8d6d42d7db9aa9d9bbdabd1b8e2bd01c949dfeb4c81940a14661e8ea",
+      "unchanged": true
+    },
+    {
+      "path": "app\\app.js",
+      "expected_sha256": "b62964960c5af0f0e26601f1d8eddc7ea0fd5d2b29356124718431d50f8654cf",
+      "actual_sha256": "b62964960c5af0f0e26601f1d8eddc7ea0fd5d2b29356124718431d50f8654cf",
+      "unchanged": true
+    },
+    {
+      "path": "app\\diagnostics.html",
+      "expected_sha256": "01740e5db33dcfe7e29fc07a23bd77b5e1dd9a19625548aeeb4ac0c3cbe66b92",
+      "actual_sha256": "01740e5db33dcfe7e29fc07a23bd77b5e1dd9a19625548aeeb4ac0c3cbe66b92",
+      "unchanged": true
+    },
+    {
+      "path": "app\\diagnostics.js",
+      "expected_sha256": "e3e52a628d9a7873da2ce8b12f5001e47b7a4e78a3cd69249402a3fef92c2590",
+      "actual_sha256": "e3e52a628d9a7873da2ce8b12f5001e47b7a4e78a3cd69249402a3fef92c2590",
+      "unchanged": true
+    },
+    {
+      "path": "app\\index.html",
+      "expected_sha256": "99744dd9ea90c81760489039e3bd91105cad3847c7688e76242ab3a9852e311f",
+      "actual_sha256": "99744dd9ea90c81760489039e3bd91105cad3847c7688e76242ab3a9852e311f",
+      "unchanged": true
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "label": "上海博物馆人民广场馆",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "registered_entrance_count": 2,
+      "fixed_positive_request_ids": [
+        "APP-01",
+        "APP-02",
+        "APP-03",
+        "APP-04",
+        "APP-05",
+        "APP-06"
+      ],
+      "locked_area_ids": [
+        "relation/2153738",
+        "relation/2385771"
+      ],
+      "existing_mapped_edge_rows": 98102,
+      "selected_source_tags": [
+        {
+          "source_id": "relation/2153738",
+          "exists": true,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "type": "multipolygon"
+          },
+          "tag_policy_result": "TAG_POLICY_ELIGIBLE_ONLY_GEOMETRY_SEPARATE",
+          "tag_check_geometry_note": "Unit square is used only to isolate real source-tag policy; not a source geometry or route."
+        },
+        {
+          "source_id": "relation/2385771",
+          "exists": true,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "type": "multipolygon"
+          },
+          "tag_policy_result": "TAG_POLICY_ELIGIBLE_ONLY_GEOMETRY_SEPARATE",
+          "tag_check_geometry_note": "Unit square is used only to isolate real source-tag policy; not a source geometry or route."
+        }
+      ],
+      "applicability": "Registered doors and baseline fixed queries support actual paired APP checks.",
+      "completed_R1_output_snapshot": [
+        {
+          "path": "runs\\main_matrix_R1\\APP-01-EDGE_BAND.json",
+          "sha256": "843997dde7f63a9334b86c6694c921bec9928dd75951e3ef1263b860bd54bef7",
+          "request_id": "main_matrix_R1-APP-01-EDGE_BAND",
+          "area_routing": "EDGE_BAND",
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "solver_invoked": true
+        },
+        {
+          "path": "runs\\main_matrix_R1\\APP-01-FULL_FACE.json",
+          "sha256": "515f79d08919bc47c8e4d10057ef6f878880308b04d4653a02a384c06d8e6b9f",
+          "request_id": "main_matrix_R1-APP-01-FULL_FACE",
+          "area_routing": "FULL_FACE",
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "solver_invoked": true
+        },
+        {
+          "path": "runs\\main_matrix_R1\\APP-02-EDGE_BAND.json",
+          "sha256": "f98e0b0047082de1d619431fc023d9090b681dd80bf25aa7bc2b1f60de606eb4",
+          "request_id": "main_matrix_R1-APP-02-EDGE_BAND",
+          "area_routing": "EDGE_BAND",
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "solver_invoked": true
+        },
+        {
+          "path": "runs\\main_matrix_R1\\APP-02-FULL_FACE.json",
+          "sha256": "6761e1c74a1ded95d1d51d150d7946b19f6a3fd429318c7182b0dac4122b0f48",
+          "request_id": "main_matrix_R1-APP-02-FULL_FACE",
+          "area_routing": "FULL_FACE",
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "solver_invoked": true
+        },
+        {
+          "path": "runs\\main_matrix_R1\\APP-03-EDGE_BAND.json",
+          "sha256": "370376b792833ae9ab32b4c8161cf6ec897912a7d50014c22ed21982142f88e1",
+          "request_id": "main_matrix_R1-APP-03-EDGE_BAND",
+          "area_routing": "EDGE_BAND",
+          "status": "ROUTED_CONDITIONAL",
+          "solver_invoked": true
+        }
+      ]
+    },
+    {
+      "scene_id": "sh-wukang",
+      "label": "武康大楼",
+      "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "registered_entrance_count": 0,
+      "fixed_positive_request_ids": [],
+      "locked_area_ids": [],
+      "existing_mapped_edge_rows": 0,
+      "selected_source_tags": [],
+      "applicability": "No registered target door in frozen source contract; view-only, no generated proxy door. No existing mapped-edge face population.",
+      "completed_R1_output_snapshot": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "label": "上海中心大厦",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "registered_entrance_count": 0,
+      "fixed_positive_request_ids": [],
+      "locked_area_ids": [
+        "way/965081081"
+      ],
+      "existing_mapped_edge_rows": 3957,
+      "selected_source_tags": [
+        {
+          "source_id": "way/965081081",
+          "exists": true,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian"
+          },
+          "tag_policy_result": "TAG_POLICY_ELIGIBLE_ONLY_GEOMETRY_SEPARATE",
+          "tag_check_geometry_note": "Unit square is used only to isolate real source-tag policy; not a source geometry or route."
+        }
+      ],
+      "applicability": "No registered target door in frozen source contract; view-only, no generated proxy door. Legacy mapped faces exist but this does not supply a registered target door.",
+      "completed_R1_output_snapshot": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "label": "新世界城",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "registered_entrance_count": 0,
+      "fixed_positive_request_ids": [],
+      "locked_area_ids": [
+        "relation/8055906",
+        "way/160023915"
+      ],
+      "existing_mapped_edge_rows": 47732,
+      "selected_source_tags": [
+        {
+          "source_id": "relation/8055906",
+          "exists": true,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "type": "multipolygon"
+          },
+          "tag_policy_result": "TAG_POLICY_ELIGIBLE_ONLY_GEOMETRY_SEPARATE",
+          "tag_check_geometry_note": "Unit square is used only to isolate real source-tag policy; not a source geometry or route."
+        },
+        {
+          "source_id": "way/160023915",
+          "exists": true,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "surface": "asphalt",
+            "tourism": "attraction",
+            "wheelchair": "yes"
+          },
+          "tag_policy_result": "TAG_POLICY_ELIGIBLE_ONLY_GEOMETRY_SEPARATE",
+          "tag_check_geometry_note": "Unit square is used only to isolate real source-tag policy; not a source geometry or route."
+        }
+      ],
+      "applicability": "No registered target door in frozen source contract; view-only, no generated proxy door. Legacy mapped faces exist but this does not supply a registered target door.",
+      "completed_R1_output_snapshot": []
+    },
+    {
+      "scene_id": "sh-library",
+      "label": "上海图书馆淮海路馆",
+      "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "registered_entrance_count": 1,
+      "fixed_positive_request_ids": [
+        "APP-07",
+        "APP-08"
+      ],
+      "locked_area_ids": [
+        "way/1160136226"
+      ],
+      "existing_mapped_edge_rows": 5435,
+      "selected_source_tags": [
+        {
+          "source_id": "way/1160136226",
+          "exists": true,
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "surface": "paving_stones"
+          },
+          "tag_policy_result": "TAG_POLICY_ELIGIBLE_ONLY_GEOMETRY_SEPARATE",
+          "tag_check_geometry_note": "Unit square is used only to isolate real source-tag policy; not a source geometry or route."
+        }
+      ],
+      "applicability": "Registered doors and baseline fixed queries support actual paired APP checks.",
+      "completed_R1_output_snapshot": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "label": "上海展览中心",
+      "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "registered_entrance_count": 0,
+      "fixed_positive_request_ids": [],
+      "locked_area_ids": [],
+      "existing_mapped_edge_rows": 0,
+      "selected_source_tags": [],
+      "applicability": "No registered target door in frozen source contract; view-only, no generated proxy door. No existing mapped-edge face population.",
+      "completed_R1_output_snapshot": []
+    }
+  ],
+  "actual_source_tag_examples": {
+    "private_closed_area": [
+      {
+        "scene_id": "sh-huangpu-01",
+        "source_id": "way/178730989",
+        "tags": {
+          "access": "private",
+          "amenity": "parking"
+        },
+        "new_face_admission": "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA",
+        "inspection": "Real tags and closure, not a new route query.",
+        "common_permission_denied": true
+      },
+      {
+        "scene_id": "sh-huangpu-01",
+        "source_id": "way/178731809",
+        "tags": {
+          "access": "private",
+          "amenity": "parking"
+        },
+        "new_face_admission": "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA",
+        "inspection": "Real tags and closure, not a new route query.",
+        "common_permission_denied": true
+      },
+      {
+        "scene_id": "sh-huangpu-01",
+        "source_id": "way/182517178",
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "parking": "surface"
+        },
+        "new_face_admission": "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA",
+        "inspection": "Real tags and closure, not a new route query.",
+        "common_permission_denied": true
+      },
+      {
+        "scene_id": "sh-huangpu-01",
+        "source_id": "way/182517180",
+        "tags": {
+          "access": "private",
+          "amenity": "parking",
+          "parking": "surface"
+        },
+        "new_face_admission": "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA",
+        "inspection": "Real tags and closure, not a new route query.",
+        "common_permission_denied": true
+      }
+    ],
+    "explicit_non_ground_pedestrian_area": [
+      {
+        "scene_id": "sh-huangpu-01",
+        "source_id": "way/182520941",
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "layer": "1",
+          "lit": "yes"
+        },
+        "new_face_admission": "NON_GROUND_OR_UNRESOLVED_LAYER"
+      },
+      {
+        "scene_id": "sh-huangpu-01",
+        "source_id": "way/407411280",
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "layer": "-1",
+          "level": "-1"
+        },
+        "new_face_admission": "NON_GROUND_OR_UNRESOLVED_LAYER"
+      },
+      {
+        "scene_id": "sh-tower",
+        "source_id": "way/166125929",
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "layer": "-1"
+        },
+        "new_face_admission": "NON_GROUND_OR_UNRESOLVED_LAYER"
+      },
+      {
+        "scene_id": "sh-tower",
+        "source_id": "way/965049037",
+        "tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "layer": "-1"
+        },
+        "new_face_admission": "NON_GROUND_OR_UNRESOLVED_LAYER"
+      }
+    ],
+    "barrier_gate_member": [
+      {
+        "scene_id": "sh-huangpu-01",
+        "barrier_id": "way/1212015010",
+        "node_id": "node/11228655078",
+        "tags": {
+          "barrier": "gate"
+        },
+        "legacy_raw_gate_allowed": false,
+        "inspection": "Source barrier member identity and frozen original explicit-public/ground permission rule; not a field access claim."
+      },
+      {
+        "scene_id": "sh-wukang",
+        "barrier_id": "way/674602921",
+        "node_id": "node/6317679145",
+        "tags": {
+          "barrier": "gate"
+        },
+        "legacy_raw_gate_allowed": false,
+        "inspection": "Source barrier member identity and frozen original explicit-public/ground permission rule; not a field access claim."
+      },
+      {
+        "scene_id": "sh-wukang",
+        "barrier_id": "way/674602921",
+        "node_id": "node/6317679163",
+        "tags": {
+          "addr:housenumber": "10",
+          "barrier": "gate"
+        },
+        "legacy_raw_gate_allowed": false,
+        "inspection": "Source barrier member identity and frozen original explicit-public/ground permission rule; not a field access claim."
+      },
+      {
+        "scene_id": "sh-wukang",
+        "barrier_id": "way/674725186",
+        "node_id": "node/6318910399",
+        "tags": {
+          "barrier": "gate"
+        },
+        "legacy_raw_gate_allowed": false,
+        "inspection": "Source barrier member identity and frozen original explicit-public/ground permission rule; not a field access claim."
+      }
+    ]
+  },
+  "native_grass_checks": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/39764174",
+      "segment_index": 0,
+      "source_node_ids": [
+        "node/476678903",
+        "node/1730911842"
+      ],
+      "source_way_tags": {
+        "bicycle": "no",
+        "highway": "footway"
+      },
+      "xy": [
+        [
+          354208.6811972476,
+          3456095.9971579085
+        ],
+        [
+          354209.3668775115,
+          3456091.8522520536
+        ]
+      ],
+      "grass_ids": [
+        "way/178732700"
+      ],
+      "decision": {
+        "status": "KEEP_NATIVE",
+        "reasons": [
+          "MAPPED_PATH_OVER_LANDCOVER"
+        ],
+        "contacts": [
+          {
+            "source_id": "way/178732700",
+            "kind": "BACKGROUND_GRASS",
+            "overlap_m": 4.20123814734357,
+            "decision_reason": "MAPPED_PATH_OVER_LANDCOVER"
+          }
+        ]
+      },
+      "scope": "Actual-source narrow semantic check against intersecting grass only. Whole-source hazard screening and kept graph count come from real preprocessing manifest, not inferred here."
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/39764400",
+      "segment_index": 2,
+      "source_node_ids": [
+        "node/476681047",
+        "node/1890936620"
+      ],
+      "source_way_tags": {
+        "highway": "footway"
+      },
+      "xy": [
+        [
+          354302.05755885807,
+          3456614.179466254
+        ],
+        [
+          354332.8423534583,
+          3456630.3280610573
+        ]
+      ],
+      "grass_ids": [
+        "way/160965686"
+      ],
+      "decision": {
+        "status": "KEEP_NATIVE",
+        "reasons": [
+          "MAPPED_PATH_OVER_LANDCOVER"
+        ],
+        "contacts": [
+          {
+            "source_id": "way/160965686",
+            "kind": "BACKGROUND_GRASS",
+            "overlap_m": 27.33765798742214,
+            "decision_reason": "MAPPED_PATH_OVER_LANDCOVER"
+          }
+        ]
+      },
+      "scope": "Actual-source narrow semantic check against intersecting grass only. Whole-source hazard screening and kept graph count come from real preprocessing manifest, not inferred here."
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/133465381",
+      "segment_index": 0,
+      "source_node_ids": [
+        "node/1469016586",
+        "node/1469016625"
+      ],
+      "source_way_tags": {
+        "highway": "footway"
+      },
+      "xy": [
+        [
+          354319.61601169396,
+          3455862.1686042813
+        ],
+        [
+          354312.8124330301,
+          3455851.0761415903
+        ]
+      ],
+      "grass_ids": [
+        "way/407411282"
+      ],
+      "decision": {
+        "status": "KEEP_NATIVE",
+        "reasons": [
+          "MAPPED_PATH_OVER_LANDCOVER"
+        ],
+        "contacts": [
+          {
+            "source_id": "way/407411282",
+            "kind": "BACKGROUND_GRASS",
+            "overlap_m": 13.012740341169803,
+            "decision_reason": "MAPPED_PATH_OVER_LANDCOVER"
+          }
+        ]
+      },
+      "scope": "Actual-source narrow semantic check against intersecting grass only. Whole-source hazard screening and kept graph count come from real preprocessing manifest, not inferred here."
+    }
+  ],
+  "baseline_archive": {
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\input_contract\\baseline\\OPEN_REVIEW_R1_FIXED.zip",
+    "expected_sha256": "4fc46d467a25aa19db46a8d721f523b1f3a5aed43ae7645d107a52a08682e6da",
+    "actual_sha256": "4fc46d467a25aa19db46a8d721f523b1f3a5aed43ae7645d107a52a08682e6da",
+    "unchanged": true
+  },
+  "legacy_source_protection": {
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\area_model.py",
+    "sha256": "efc7e2eca0c18b7e74ea7ca1df740ad83e99fcf3fc0bc60c22b950d5fc4aea75",
+    "actual_sha256": "efc7e2eca0c18b7e74ea7ca1df740ad83e99fcf3fc0bc60c22b950d5fc4aea75",
+    "unchanged": true
+  },
+  "actual_preprocessing_grass_records": [
+    {
+      "path": "runs\\preprocessing\\36646b856631715c81738b96e2bed5e88037a3a83f1dc332b0f92ead59169a05-PREP-1df5bba5dcea452ea950365cab956009.json",
+      "sha256": "dcd931513022ac25af247d55e23159aae34320d9c521c708ab0a9029055a7568",
+      "code_sha256": "0df05a83421cfb59034562e5641f144831ed6dc790eec1e87c0c5b5e97091bf0",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "native_grass_unique_segments": 291,
+      "native_kept_segments": 7024,
+      "native_grass_segment_keys": [
+        [
+          39764174,
+          0
+        ],
+        [
+          39764174,
+          1
+        ],
+        [
+          39764174,
+          2
+        ],
+        [
+          39764174,
+          3
+        ],
+        [
+          39764174,
+          4
+        ],
+        [
+          39764174,
+          5
+        ],
+        [
+          39764174,
+          6
+        ],
+        [
+          39764174,
+          7
+        ],
+        [
+          39764174,
+          8
+        ],
+        [
+          39764400,
+          2
+        ],
+        [
+          39764400,
+          3
+        ],
+        [
+          133465381,
+          0
+        ],
+        [
+          133465381,
+          1
+        ],
+        [
+          133465381,
+          2
+        ],
+        [
+          133465381,
+          3
+        ],
+        [
+          133465404,
+          0
+        ],
+        [
+          133465404,
+          2
+        ],
+        [
+          133465404,
+          3
+        ],
+        [
+          133465404,
+          4
+        ],
+        [
+          133465404,
+          5
+        ],
+        [
+          133465404,
+          6
+        ],
+        [
+          133465404,
+          7
+        ],
+        [
+          133465404,
+          8
+        ],
+        [
+          133465404,
+          9
+        ],
+        [
+          133465404,
+          10
+        ],
+        [
+          133465404,
+          17
+        ],
+        [
+          133465404,
+          18
+        ],
+        [
+          133465404,
+          19
+        ],
+        [
+          133465409,
+          0
+        ],
+        [
+          144731400,
+          0
+        ],
+        [
+          144731400,
+          1
+        ],
+        [
+          144731400,
+          2
+        ],
+        [
+          144731400,
+          3
+        ],
+        [
+          144731400,
+          4
+        ],
+        [
+          144731400,
+          5
+        ],
+        [
+          144731400,
+          6
+        ],
+        [
+          144731404,
+          0
+        ],
+        [
+          144731404,
+          1
+        ],
+        [
+          144731404,
+          2
+        ],
+        [
+          144731404,
+          3
+        ],
+        [
+          144731404,
+          4
+        ],
+        [
+          144731404,
+          5
+        ],
+        [
+          144731404,
+          6
+        ],
+        [
+          144731404,
+          7
+        ],
+        [
+          144731408,
+          0
+        ],
+        [
+          144731408,
+          1
+        ],
+        [
+          144731408,
+          2
+        ],
+        [
+          144731408,
+          3
+        ],
+        [
+          144731408,
+          4
+        ],
+        [
+          144731408,
+          5
+        ],
+        [
+          144731408,
+          6
+        ],
+        [
+          144731411,
+          0
+        ],
+        [
+          144731411,
+          1
+        ],
+        [
+          144731411,
+          2
+        ],
+        [
+          144731411,
+          3
+        ],
+        [
+          144731412,
+          0
+        ],
+        [
+          144731412,
+          1
+        ],
+        [
+          144731412,
+          2
+        ],
+        [
+          144731412,
+          3
+        ],
+        [
+          144731412,
+          4
+        ],
+        [
+          161091601,
+          0
+        ],
+        [
+          161091601,
+          1
+        ],
+        [
+          161091601,
+          2
+        ],
+        [
+          178719573,
+          134
+        ],
+        [
+          178719573,
+          135
+        ],
+        [
+          178719573,
+          139
+        ],
+        [
+          178719573,
+          140
+        ],
+        [
+          178721892,
+          0
+        ],
+        [
+          178721893,
+          0
+        ],
+        [
+          178722057,
+          0
+        ],
+        [
+          178722057,
+          1
+        ],
+        [
+          178722057,
+          2
+        ],
+        [
+          178722057,
+          3
+        ],
+        [
+          178722057,
+          4
+        ],
+        [
+          178722057,
+          5
+        ],
+        [
+          178722057,
+          6
+        ],
+        [
+          178722057,
+          7
+        ],
+        [
+          178722057,
+          8
+        ],
+        [
+          178722057,
+          9
+        ],
+        [
+          178722057,
+          10
+        ],
+        [
+          178722057,
+          11
+        ],
+        [
+          178722057,
+          12
+        ],
+        [
+          178723091,
+          0
+        ],
+        [
+          178723091,
+          1
+        ],
+        [
+          178723091,
+          2
+        ],
+        [
+          178723091,
+          3
+        ],
+        [
+          178723091,
+          4
+        ],
+        [
+          178723091,
+          5
+        ],
+        [
+          178723091,
+          6
+        ],
+        [
+          178723091,
+          7
+        ],
+        [
+          178723091,
+          8
+        ],
+        [
+          178723091,
+          9
+        ],
+        [
+          178723091,
+          10
+        ],
+        [
+          178723091,
+          11
+        ],
+        [
+          178723091,
+          12
+        ],
+        [
+          178723091,
+          13
+        ],
+        [
+          178723091,
+          14
+        ],
+        [
+          178723091,
+          15
+        ],
+        [
+          178723091,
+          16
+        ],
+        [
+          178723096,
+          0
+        ],
+        [
+          178723098,
+          0
+        ],
+        [
+          178723098,
+          1
+        ],
+        [
+          178723098,
+          2
+        ],
+        [
+          178723100,
+          0
+        ],
+        [
+          178723100,
+          1
+        ],
+        [
+          178723100,
+          2
+        ],
+        [
+          178723100,
+          3
+        ],
+        [
+          178723100,
+          4
+        ],
+        [
+          178723100,
+          5
+        ],
+        [
+          178723100,
+          6
+        ],
+        [
+          178723100,
+          7
+        ],
+        [
+          178723100,
+          8
+        ],
+        [
+          178723100,
+          9
+        ],
+        [
+          178723100,
+          10
+        ],
+        [
+          178723100,
+          11
+        ],
+        [
+          178723100,
+          12
+        ],
+        [
+          178723100,
+          13
+        ],
+        [
+          178723100,
+          14
+        ],
+        [
+          178723100,
+          15
+        ],
+        [
+          178723100,
+          16
+        ],
+        [
+          178723100,
+          17
+        ],
+        [
+          178723100,
+          18
+        ],
+        [
+          178725147,
+          0
+        ],
+        [
+          178725147,
+          1
+        ],
+        [
+          178725147,
+          2
+        ],
+        [
+          178725147,
+          3
+        ],
+        [
+          178725147,
+          4
+        ],
+        [
+          178725147,
+          5
+        ],
+        [
+          178725147,
+          6
+        ],
+        [
+          178725147,
+          7
+        ],
+        [
+          178725147,
+          8
+        ],
+        [
+          178725147,
+          9
+        ],
+        [
+          178725147,
+          10
+        ],
+        [
+          178725147,
+          11
+        ],
+        [
+          178725147,
+          12
+        ],
+        [
+          178725152,
+          0
+        ],
+        [
+          178725152,
+          1
+        ],
+        [
+          178725152,
+          2
+        ],
+        [
+          178725152,
+          3
+        ],
+        [
+          178725152,
+          4
+        ],
+        [
+          178725152,
+          5
+        ],
+        [
+          178725152,
+          6
+        ],
+        [
+          178725152,
+          7
+        ],
+        [
+          178725152,
+          8
+        ],
+        [
+          178725152,
+          9
+        ],
+        [
+          178725152,
+          10
+        ],
+        [
+          178725152,
+          11
+        ],
+        [
+          178725152,
+          12
+        ],
+        [
+          178725152,
+          13
+        ],
+        [
+          178725156,
+          0
+        ],
+        [
+          178725156,
+          1
+        ],
+        [
+          178725156,
+          2
+        ],
+        [
+          178725156,
+          3
+        ],
+        [
+          178725156,
+          4
+        ],
+        [
+          178725156,
+          5
+        ],
+        [
+          178725156,
+          6
+        ],
+        [
+          178725156,
+          7
+        ],
+        [
+          178725156,
+          8
+        ],
+        [
+          178725156,
+          9
+        ],
+        [
+          178725157,
+          0
+        ],
+        [
+          178725157,
+          1
+        ],
+        [
+          178725158,
+          0
+        ],
+        [
+          178725158,
+          1
+        ],
+        [
+          178725158,
+          2
+        ],
+        [
+          178725158,
+          3
+        ],
+        [
+          178725158,
+          4
+        ],
+        [
+          178725158,
+          5
+        ],
+        [
+          178725158,
+          6
+        ],
+        [
+          178725158,
+          7
+        ],
+        [
+          178725158,
+          8
+        ],
+        [
+          178725158,
+          9
+        ],
+        [
+          178725158,
+          10
+        ],
+        [
+          178725158,
+          11
+        ],
+        [
+          178725158,
+          12
+        ],
+        [
+          178725158,
+          13
+        ],
+        [
+          178725158,
+          14
+        ],
+        [
+          178731158,
+          0
+        ],
+        [
+          178731158,
+          1
+        ],
+        [
+          178731158,
+          2
+        ],
+        [
+          178731159,
+          0
+        ],
+        [
+          178731159,
+          1
+        ],
+        [
+          178731159,
+          2
+        ],
+        [
+          178731160,
+          0
+        ],
+        [
+          178731160,
+          1
+        ],
+        [
+          178731160,
+          2
+        ],
+        [
+          178731160,
+          3
+        ],
+        [
+          178731160,
+          4
+        ],
+        [
+          178731160,
+          5
+        ],
+        [
+          178731160,
+          6
+        ],
+        [
+          178731160,
+          7
+        ],
+        [
+          178731160,
+          8
+        ],
+        [
+          178731160,
+          9
+        ],
+        [
+          178731160,
+          10
+        ],
+        [
+          178731160,
+          11
+        ],
+        [
+          178731160,
+          12
+        ],
+        [
+          178731160,
+          13
+        ],
+        [
+          178731160,
+          14
+        ],
+        [
+          178731160,
+          15
+        ],
+        [
+          178731160,
+          16
+        ],
+        [
+          178731161,
+          0
+        ],
+        [
+          178731161,
+          1
+        ],
+        [
+          178731161,
+          2
+        ],
+        [
+          178731161,
+          3
+        ],
+        [
+          178731161,
+          4
+        ],
+        [
+          178731161,
+          5
+        ],
+        [
+          178731161,
+          6
+        ],
+        [
+          178731161,
+          7
+        ],
+        [
+          178732947,
+          0
+        ],
+        [
+          178732947,
+          1
+        ],
+        [
+          178732947,
+          2
+        ],
+        [
+          178732947,
+          3
+        ],
+        [
+          178732947,
+          4
+        ],
+        [
+          178732947,
+          5
+        ],
+        [
+          178732947,
+          6
+        ],
+        [
+          178732948,
+          0
+        ],
+        [
+          178732948,
+          1
+        ],
+        [
+          178733291,
+          0
+        ],
+        [
+          178733291,
+          1
+        ],
+        [
+          178733291,
+          2
+        ],
+        [
+          178733291,
+          3
+        ],
+        [
+          178733291,
+          4
+        ],
+        [
+          178733291,
+          5
+        ],
+        [
+          178733291,
+          6
+        ],
+        [
+          178733291,
+          7
+        ],
+        [
+          178733291,
+          8
+        ],
+        [
+          178733291,
+          9
+        ],
+        [
+          178733291,
+          10
+        ],
+        [
+          178733291,
+          11
+        ],
+        [
+          178737603,
+          0
+        ],
+        [
+          178737609,
+          0
+        ],
+        [
+          178737609,
+          1
+        ],
+        [
+          178737609,
+          2
+        ],
+        [
+          178737609,
+          3
+        ],
+        [
+          178737609,
+          4
+        ],
+        [
+          178737609,
+          5
+        ],
+        [
+          178737609,
+          6
+        ],
+        [
+          178737610,
+          0
+        ],
+        [
+          178737610,
+          1
+        ],
+        [
+          178737610,
+          2
+        ],
+        [
+          178737610,
+          3
+        ],
+        [
+          178737610,
+          4
+        ],
+        [
+          178737610,
+          5
+        ],
+        [
+          178737610,
+          6
+        ],
+        [
+          178737610,
+          7
+        ],
+        [
+          178737610,
+          8
+        ],
+        [
+          178737610,
+          9
+        ],
+        [
+          178737610,
+          10
+        ],
+        [
+          178737610,
+          11
+        ],
+        [
+          178737610,
+          12
+        ],
+        [
+          178737610,
+          13
+        ],
+        [
+          178737610,
+          14
+        ],
+        [
+          178737610,
+          15
+        ],
+        [
+          178737610,
+          16
+        ],
+        [
+          178737610,
+          17
+        ],
+        [
+          178737614,
+          0
+        ],
+        [
+          178737614,
+          1
+        ],
+        [
+          178737614,
+          2
+        ],
+        [
+          178737614,
+          3
+        ],
+        [
+          178737614,
+          4
+        ],
+        [
+          178737614,
+          5
+        ],
+        [
+          178737614,
+          6
+        ],
+        [
+          178737614,
+          7
+        ],
+        [
+          178737619,
+          0
+        ],
+        [
+          178737619,
+          1
+        ],
+        [
+          178737619,
+          2
+        ],
+        [
+          178737619,
+          3
+        ],
+        [
+          178737621,
+          0
+        ],
+        [
+          178737621,
+          1
+        ],
+        [
+          178737621,
+          2
+        ],
+        [
+          178737621,
+          3
+        ],
+        [
+          178737621,
+          4
+        ],
+        [
+          178737621,
+          5
+        ],
+        [
+          178801534,
+          8
+        ],
+        [
+          178801534,
+          9
+        ],
+        [
+          178801534,
+          10
+        ],
+        [
+          178801534,
+          11
+        ],
+        [
+          178801534,
+          12
+        ],
+        [
+          178801537,
+          0
+        ],
+        [
+          178801546,
+          0
+        ],
+        [
+          182520944,
+          0
+        ],
+        [
+          351188759,
+          0
+        ],
+        [
+          437450611,
+          2
+        ],
+        [
+          437450611,
+          3
+        ],
+        [
+          513764726,
+          9
+        ],
+        [
+          513764726,
+          10
+        ],
+        [
+          513764753,
+          0
+        ],
+        [
+          513764753,
+          1
+        ],
+        [
+          1303211746,
+          0
+        ],
+        [
+          1359525989,
+          0
+        ],
+        [
+          1359525996,
+          0
+        ],
+        [
+          1359525997,
+          0
+        ]
+      ],
+      "record_role": "Real full-source preprocessing ledger; no graph rebuilt by this audit."
+    },
+    {
+      "path": "runs\\preprocessing\\7305bf0a417b54301ff34c7d3f30f275f36176fe996dbf5849f253f9a56c9363-PREP-397e0728f40c4f56b86f65dd7a845457.json",
+      "sha256": "ff58403b8a0be20329f1478565cea9369d8c42c00947a42bd82f5052fe163b31",
+      "code_sha256": "0df05a83421cfb59034562e5641f144831ed6dc790eec1e87c0c5b5e97091bf0",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "native_grass_unique_segments": 291,
+      "native_kept_segments": 7024,
+      "native_grass_segment_keys": [
+        [
+          39764174,
+          0
+        ],
+        [
+          39764174,
+          1
+        ],
+        [
+          39764174,
+          2
+        ],
+        [
+          39764174,
+          3
+        ],
+        [
+          39764174,
+          4
+        ],
+        [
+          39764174,
+          5
+        ],
+        [
+          39764174,
+          6
+        ],
+        [
+          39764174,
+          7
+        ],
+        [
+          39764174,
+          8
+        ],
+        [
+          39764400,
+          2
+        ],
+        [
+          39764400,
+          3
+        ],
+        [
+          133465381,
+          0
+        ],
+        [
+          133465381,
+          1
+        ],
+        [
+          133465381,
+          2
+        ],
+        [
+          133465381,
+          3
+        ],
+        [
+          133465404,
+          0
+        ],
+        [
+          133465404,
+          2
+        ],
+        [
+          133465404,
+          3
+        ],
+        [
+          133465404,
+          4
+        ],
+        [
+          133465404,
+          5
+        ],
+        [
+          133465404,
+          6
+        ],
+        [
+          133465404,
+          7
+        ],
+        [
+          133465404,
+          8
+        ],
+        [
+          133465404,
+          9
+        ],
+        [
+          133465404,
+          10
+        ],
+        [
+          133465404,
+          17
+        ],
+        [
+          133465404,
+          18
+        ],
+        [
+          133465404,
+          19
+        ],
+        [
+          133465409,
+          0
+        ],
+        [
+          144731400,
+          0
+        ],
+        [
+          144731400,
+          1
+        ],
+        [
+          144731400,
+          2
+        ],
+        [
+          144731400,
+          3
+        ],
+        [
+          144731400,
+          4
+        ],
+        [
+          144731400,
+          5
+        ],
+        [
+          144731400,
+          6
+        ],
+        [
+          144731404,
+          0
+        ],
+        [
+          144731404,
+          1
+        ],
+        [
+          144731404,
+          2
+        ],
+        [
+          144731404,
+          3
+        ],
+        [
+          144731404,
+          4
+        ],
+        [
+          144731404,
+          5
+        ],
+        [
+          144731404,
+          6
+        ],
+        [
+          144731404,
+          7
+        ],
+        [
+          144731408,
+          0
+        ],
+        [
+          144731408,
+          1
+        ],
+        [
+          144731408,
+          2
+        ],
+        [
+          144731408,
+          3
+        ],
+        [
+          144731408,
+          4
+        ],
+        [
+          144731408,
+          5
+        ],
+        [
+          144731408,
+          6
+        ],
+        [
+          144731411,
+          0
+        ],
+        [
+          144731411,
+          1
+        ],
+        [
+          144731411,
+          2
+        ],
+        [
+          144731411,
+          3
+        ],
+        [
+          144731412,
+          0
+        ],
+        [
+          144731412,
+          1
+        ],
+        [
+          144731412,
+          2
+        ],
+        [
+          144731412,
+          3
+        ],
+        [
+          144731412,
+          4
+        ],
+        [
+          161091601,
+          0
+        ],
+        [
+          161091601,
+          1
+        ],
+        [
+          161091601,
+          2
+        ],
+        [
+          178719573,
+          134
+        ],
+        [
+          178719573,
+          135
+        ],
+        [
+          178719573,
+          139
+        ],
+        [
+          178719573,
+          140
+        ],
+        [
+          178721892,
+          0
+        ],
+        [
+          178721893,
+          0
+        ],
+        [
+          178722057,
+          0
+        ],
+        [
+          178722057,
+          1
+        ],
+        [
+          178722057,
+          2
+        ],
+        [
+          178722057,
+          3
+        ],
+        [
+          178722057,
+          4
+        ],
+        [
+          178722057,
+          5
+        ],
+        [
+          178722057,
+          6
+        ],
+        [
+          178722057,
+          7
+        ],
+        [
+          178722057,
+          8
+        ],
+        [
+          178722057,
+          9
+        ],
+        [
+          178722057,
+          10
+        ],
+        [
+          178722057,
+          11
+        ],
+        [
+          178722057,
+          12
+        ],
+        [
+          178723091,
+          0
+        ],
+        [
+          178723091,
+          1
+        ],
+        [
+          178723091,
+          2
+        ],
+        [
+          178723091,
+          3
+        ],
+        [
+          178723091,
+          4
+        ],
+        [
+          178723091,
+          5
+        ],
+        [
+          178723091,
+          6
+        ],
+        [
+          178723091,
+          7
+        ],
+        [
+          178723091,
+          8
+        ],
+        [
+          178723091,
+          9
+        ],
+        [
+          178723091,
+          10
+        ],
+        [
+          178723091,
+          11
+        ],
+        [
+          178723091,
+          12
+        ],
+        [
+          178723091,
+          13
+        ],
+        [
+          178723091,
+          14
+        ],
+        [
+          178723091,
+          15
+        ],
+        [
+          178723091,
+          16
+        ],
+        [
+          178723096,
+          0
+        ],
+        [
+          178723098,
+          0
+        ],
+        [
+          178723098,
+          1
+        ],
+        [
+          178723098,
+          2
+        ],
+        [
+          178723100,
+          0
+        ],
+        [
+          178723100,
+          1
+        ],
+        [
+          178723100,
+          2
+        ],
+        [
+          178723100,
+          3
+        ],
+        [
+          178723100,
+          4
+        ],
+        [
+          178723100,
+          5
+        ],
+        [
+          178723100,
+          6
+        ],
+        [
+          178723100,
+          7
+        ],
+        [
+          178723100,
+          8
+        ],
+        [
+          178723100,
+          9
+        ],
+        [
+          178723100,
+          10
+        ],
+        [
+          178723100,
+          11
+        ],
+        [
+          178723100,
+          12
+        ],
+        [
+          178723100,
+          13
+        ],
+        [
+          178723100,
+          14
+        ],
+        [
+          178723100,
+          15
+        ],
+        [
+          178723100,
+          16
+        ],
+        [
+          178723100,
+          17
+        ],
+        [
+          178723100,
+          18
+        ],
+        [
+          178725147,
+          0
+        ],
+        [
+          178725147,
+          1
+        ],
+        [
+          178725147,
+          2
+        ],
+        [
+          178725147,
+          3
+        ],
+        [
+          178725147,
+          4
+        ],
+        [
+          178725147,
+          5
+        ],
+        [
+          178725147,
+          6
+        ],
+        [
+          178725147,
+          7
+        ],
+        [
+          178725147,
+          8
+        ],
+        [
+          178725147,
+          9
+        ],
+        [
+          178725147,
+          10
+        ],
+        [
+          178725147,
+          11
+        ],
+        [
+          178725147,
+          12
+        ],
+        [
+          178725152,
+          0
+        ],
+        [
+          178725152,
+          1
+        ],
+        [
+          178725152,
+          2
+        ],
+        [
+          178725152,
+          3
+        ],
+        [
+          178725152,
+          4
+        ],
+        [
+          178725152,
+          5
+        ],
+        [
+          178725152,
+          6
+        ],
+        [
+          178725152,
+          7
+        ],
+        [
+          178725152,
+          8
+        ],
+        [
+          178725152,
+          9
+        ],
+        [
+          178725152,
+          10
+        ],
+        [
+          178725152,
+          11
+        ],
+        [
+          178725152,
+          12
+        ],
+        [
+          178725152,
+          13
+        ],
+        [
+          178725156,
+          0
+        ],
+        [
+          178725156,
+          1
+        ],
+        [
+          178725156,
+          2
+        ],
+        [
+          178725156,
+          3
+        ],
+        [
+          178725156,
+          4
+        ],
+        [
+          178725156,
+          5
+        ],
+        [
+          178725156,
+          6
+        ],
+        [
+          178725156,
+          7
+        ],
+        [
+          178725156,
+          8
+        ],
+        [
+          178725156,
+          9
+        ],
+        [
+          178725157,
+          0
+        ],
+        [
+          178725157,
+          1
+        ],
+        [
+          178725158,
+          0
+        ],
+        [
+          178725158,
+          1
+        ],
+        [
+          178725158,
+          2
+        ],
+        [
+          178725158,
+          3
+        ],
+        [
+          178725158,
+          4
+        ],
+        [
+          178725158,
+          5
+        ],
+        [
+          178725158,
+          6
+        ],
+        [
+          178725158,
+          7
+        ],
+        [
+          178725158,
+          8
+        ],
+        [
+          178725158,
+          9
+        ],
+        [
+          178725158,
+          10
+        ],
+        [
+          178725158,
+          11
+        ],
+        [
+          178725158,
+          12
+        ],
+        [
+          178725158,
+          13
+        ],
+        [
+          178725158,
+          14
+        ],
+        [
+          178731158,
+          0
+        ],
+        [
+          178731158,
+          1
+        ],
+        [
+          178731158,
+          2
+        ],
+        [
+          178731159,
+          0
+        ],
+        [
+          178731159,
+          1
+        ],
+        [
+          178731159,
+          2
+        ],
+        [
+          178731160,
+          0
+        ],
+        [
+          178731160,
+          1
+        ],
+        [
+          178731160,
+          2
+        ],
+        [
+          178731160,
+          3
+        ],
+        [
+          178731160,
+          4
+        ],
+        [
+          178731160,
+          5
+        ],
+        [
+          178731160,
+          6
+        ],
+        [
+          178731160,
+          7
+        ],
+        [
+          178731160,
+          8
+        ],
+        [
+          178731160,
+          9
+        ],
+        [
+          178731160,
+          10
+        ],
+        [
+          178731160,
+          11
+        ],
+        [
+          178731160,
+          12
+        ],
+        [
+          178731160,
+          13
+        ],
+        [
+          178731160,
+          14
+        ],
+        [
+          178731160,
+          15
+        ],
+        [
+          178731160,
+          16
+        ],
+        [
+          178731161,
+          0
+        ],
+        [
+          178731161,
+          1
+        ],
+        [
+          178731161,
+          2
+        ],
+        [
+          178731161,
+          3
+        ],
+        [
+          178731161,
+          4
+        ],
+        [
+          178731161,
+          5
+        ],
+        [
+          178731161,
+          6
+        ],
+        [
+          178731161,
+          7
+        ],
+        [
+          178732947,
+          0
+        ],
+        [
+          178732947,
+          1
+        ],
+        [
+          178732947,
+          2
+        ],
+        [
+          178732947,
+          3
+        ],
+        [
+          178732947,
+          4
+        ],
+        [
+          178732947,
+          5
+        ],
+        [
+          178732947,
+          6
+        ],
+        [
+          178732948,
+          0
+        ],
+        [
+          178732948,
+          1
+        ],
+        [
+          178733291,
+          0
+        ],
+        [
+          178733291,
+          1
+        ],
+        [
+          178733291,
+          2
+        ],
+        [
+          178733291,
+          3
+        ],
+        [
+          178733291,
+          4
+        ],
+        [
+          178733291,
+          5
+        ],
+        [
+          178733291,
+          6
+        ],
+        [
+          178733291,
+          7
+        ],
+        [
+          178733291,
+          8
+        ],
+        [
+          178733291,
+          9
+        ],
+        [
+          178733291,
+          10
+        ],
+        [
+          178733291,
+          11
+        ],
+        [
+          178737603,
+          0
+        ],
+        [
+          178737609,
+          0
+        ],
+        [
+          178737609,
+          1
+        ],
+        [
+          178737609,
+          2
+        ],
+        [
+          178737609,
+          3
+        ],
+        [
+          178737609,
+          4
+        ],
+        [
+          178737609,
+          5
+        ],
+        [
+          178737609,
+          6
+        ],
+        [
+          178737610,
+          0
+        ],
+        [
+          178737610,
+          1
+        ],
+        [
+          178737610,
+          2
+        ],
+        [
+          178737610,
+          3
+        ],
+        [
+          178737610,
+          4
+        ],
+        [
+          178737610,
+          5
+        ],
+        [
+          178737610,
+          6
+        ],
+        [
+          178737610,
+          7
+        ],
+        [
+          178737610,
+          8
+        ],
+        [
+          178737610,
+          9
+        ],
+        [
+          178737610,
+          10
+        ],
+        [
+          178737610,
+          11
+        ],
+        [
+          178737610,
+          12
+        ],
+        [
+          178737610,
+          13
+        ],
+        [
+          178737610,
+          14
+        ],
+        [
+          178737610,
+          15
+        ],
+        [
+          178737610,
+          16
+        ],
+        [
+          178737610,
+          17
+        ],
+        [
+          178737614,
+          0
+        ],
+        [
+          178737614,
+          1
+        ],
+        [
+          178737614,
+          2
+        ],
+        [
+          178737614,
+          3
+        ],
+        [
+          178737614,
+          4
+        ],
+        [
+          178737614,
+          5
+        ],
+        [
+          178737614,
+          6
+        ],
+        [
+          178737614,
+          7
+        ],
+        [
+          178737619,
+          0
+        ],
+        [
+          178737619,
+          1
+        ],
+        [
+          178737619,
+          2
+        ],
+        [
+          178737619,
+          3
+        ],
+        [
+          178737621,
+          0
+        ],
+        [
+          178737621,
+          1
+        ],
+        [
+          178737621,
+          2
+        ],
+        [
+          178737621,
+          3
+        ],
+        [
+          178737621,
+          4
+        ],
+        [
+          178737621,
+          5
+        ],
+        [
+          178801534,
+          8
+        ],
+        [
+          178801534,
+          9
+        ],
+        [
+          178801534,
+          10
+        ],
+        [
+          178801534,
+          11
+        ],
+        [
+          178801534,
+          12
+        ],
+        [
+          178801537,
+          0
+        ],
+        [
+          178801546,
+          0
+        ],
+        [
+          182520944,
+          0
+        ],
+        [
+          351188759,
+          0
+        ],
+        [
+          437450611,
+          2
+        ],
+        [
+          437450611,
+          3
+        ],
+        [
+          513764726,
+          9
+        ],
+        [
+          513764726,
+          10
+        ],
+        [
+          513764753,
+          0
+        ],
+        [
+          513764753,
+          1
+        ],
+        [
+          1303211746,
+          0
+        ],
+        [
+          1359525989,
+          0
+        ],
+        [
+          1359525996,
+          0
+        ],
+        [
+          1359525997,
+          0
+        ]
+      ],
+      "record_role": "Real full-source preprocessing ledger; no graph rebuilt by this audit."
+    }
+  ],
+  "protected_git_files": [
+    {
+      "path": "E:\\智慧城市和位置服务\\.git\\HEAD",
+      "actual_sha256": "665aab1d1876251f934141e502fa023465fcf63e5cef45e4d5bbd1acd813f27e",
+      "expected_sha256": "665aab1d1876251f934141e502fa023465fcf63e5cef45e4d5bbd1acd813f27e",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\.git\\index",
+      "actual_sha256": "4216b12478e717dcb367733fbbb430911edf77b785c1d3fc9ebd9cd8a80e2bd4",
+      "expected_sha256": "4216b12478e717dcb367733fbbb430911edf77b785c1d3fc9ebd9cd8a80e2bd4",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services\\.git\\HEAD",
+      "actual_sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+      "expected_sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services\\.git\\index",
+      "actual_sha256": "67f47e86c92bc814144043bdb235f62149b9e0d95aad58cbec356fa68e7f2f0f",
+      "expected_sha256": "67f47e86c92bc814144043bdb235f62149b9e0d95aad58cbec356fa68e7f2f0f",
+      "unchanged": true
+    }
+  ],
+  "status": "PASS_WITH_LIMITED_ROUTE_REVIEW",
+  "limited_policy_unit_checks": [
+    {
+      "case": "private",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "access": "private"
+      },
+      "expected": "RESTRICTED_OR_CONDITIONAL_AREA",
+      "actual": "RESTRICTED_OR_CONDITIONAL_AREA",
+      "passed": true
+    },
+    {
+      "case": "foot_priority",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "access": "private",
+        "foot": "yes"
+      },
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "case": "conditional",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "foot:conditional": "yes @ (08:00-17:00)"
+      },
+      "expected": "RESTRICTED_OR_CONDITIONAL_AREA",
+      "actual": "RESTRICTED_OR_CONDITIONAL_AREA",
+      "passed": true
+    },
+    {
+      "case": "elevated",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "level": "1"
+      },
+      "expected": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "actual": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "passed": true
+    },
+    {
+      "case": "indoor",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "indoor": "yes"
+      },
+      "expected": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "actual": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "passed": true
+    }
+  ],
+  "freeze_unchanged_after_author_checks": true
+}

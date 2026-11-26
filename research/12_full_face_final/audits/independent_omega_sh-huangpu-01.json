@@ -1,0 +1,279 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_RAW_CONSTRAINT_OMEGA_RECONSTRUCTION",
+  "author_functions_called": false,
+  "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "face_file": "data\\faces\\sh-huangpu-01\\face_geometry.json",
+  "face_file_sha256": "fa834d7f66e016f94f5bbf7c4d8223f61397964eaa372686fb48d1e3ac017cf2",
+  "source_file_stable": true,
+  "rows": [
+    {
+      "source_id": "relation/2153738",
+      "source_polygon_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_face_m2": 1.0420008098553646e-09,
+      "raw_source_counts": {
+        "parts": 1,
+        "holes": 12,
+        "vertices": 248
+      },
+      "expected_omega_counts": {
+        "parts": 1,
+        "holes": 13,
+        "vertices": 1872
+      },
+      "saved_omega_counts": {
+        "parts": 1,
+        "holes": 13,
+        "vertices": 1872
+      },
+      "expected_area_m2": 18387.797226018814,
+      "saved_area_m2": 18387.797226018887,
+      "independent_raw_mask_audit": [
+        {
+          "source_id": "way/47152604",
+          "role": "COMMON_RESTRICTED_LINEAR",
+          "buffer_m": 0.15
+        },
+        {
+          "source_id": "way/49076698",
+          "role": "COMMON_RESTRICTED_LINEAR",
+          "buffer_m": 0.15
+        },
+        {
+          "source_id": "way/50417969",
+          "role": "COMMON_RESTRICTED_LINEAR",
+          "buffer_m": 0.15
+        },
+        {
+          "source_id": "way/161092450",
+          "role": "COMMON_PHYSICAL_BARRIER",
+          "buffer_m": 0.15,
+          "gate_opening_m": 0.3,
+          "member_gate_count": 0
+        },
+        {
+          "source_id": "way/161092454",
+          "role": "COMMON_PHYSICAL_BARRIER",
+          "buffer_m": 0.15,
+          "gate_opening_m": 0.3,
+          "member_gate_count": 0
+        },
+        {
+          "source_id": "way/161092460",
+          "role": "COMMON_PHYSICAL_BARRIER",
+          "buffer_m": 0.15,
+          "gate_opening_m": 0.3,
+          "member_gate_count": 0
+        },
+        {
+          "source_id": "way/161092464",
+          "role": "COMMON_PHYSICAL_BARRIER",
+          "buffer_m": 0.15,
+          "gate_opening_m": 0.3,
+          "member_gate_count": 0
+        },
+        {
+          "source_id": "way/165953515",
+          "role": "COMMON_PHYSICAL_BARRIER",
+          "buffer_m": 0.15,
+          "gate_opening_m": 0.3,
+          "member_gate_count": 0
+        },
+        {
+          "source_id": "way/178719568",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178719569",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178719571",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178719577",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178722056",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178722058",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178725446",
+          "role": "COMMON_RESTRICTED_LINEAR",
+          "buffer_m": 0.15
+        },
+        {
+          "source_id": "way/178730989",
+          "role": "COMMON_PERMISSION_AREA",
+          "buffer_m": 0
+        },
+        {
+          "source_id": "way/178731809",
+          "role": "COMMON_PERMISSION_AREA",
+          "buffer_m": 0
+        },
+        {
+          "source_id": "way/178732700",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178732701",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178732703",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178732942",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178732944",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178732945",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178733289",
+          "role": "COMMON_PHYSICAL_BARRIER",
+          "buffer_m": 0.15,
+          "gate_opening_m": 0.3,
+          "member_gate_count": 0
+        },
+        {
+          "source_id": "way/178733293",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178733295",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178737624",
+          "role": "COMMON_RESTRICTED_LINEAR",
+          "buffer_m": 0.15
+        },
+        {
+          "source_id": "way/178801548",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/182517178",
+          "role": "COMMON_PERMISSION_AREA",
+          "buffer_m": 0
+        },
+        {
+          "source_id": "way/182517180",
+          "role": "COMMON_PERMISSION_AREA",
+          "buffer_m": 0
+        },
+        {
+          "source_id": "way/182517183",
+          "role": "COMMON_PERMISSION_AREA",
+          "buffer_m": 0
+        },
+        {
+          "source_id": "way/478205126",
+          "role": "COMMON_RESTRICTED_LINEAR",
+          "buffer_m": 0.15
+        },
+        {
+          "source_id": "way/478205127",
+          "role": "COMMON_RESTRICTED_LINEAR",
+          "buffer_m": 0.15
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "source_id": "relation/2385771",
+      "source_polygon_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_face_m2": 2.995154807765993e-10,
+      "raw_source_counts": {
+        "parts": 1,
+        "holes": 2,
+        "vertices": 50
+      },
+      "expected_omega_counts": {
+        "parts": 1,
+        "holes": 2,
+        "vertices": 195
+      },
+      "saved_omega_counts": {
+        "parts": 1,
+        "holes": 2,
+        "vertices": 195
+      },
+      "expected_area_m2": 5826.120745012716,
+      "saved_area_m2": 5826.120745012713,
+      "independent_raw_mask_audit": [
+        {
+          "source_id": "way/161090899",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/165953515",
+          "role": "COMMON_PHYSICAL_BARRIER",
+          "buffer_m": 0.15,
+          "gate_opening_m": 0.3,
+          "member_gate_count": 0
+        },
+        {
+          "source_id": "way/178721634",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178721647",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178731809",
+          "role": "COMMON_PERMISSION_AREA",
+          "buffer_m": 0
+        },
+        {
+          "source_id": "way/178801547",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        },
+        {
+          "source_id": "way/178801548",
+          "role": "SOURCE_AREAL_CLEARANCE",
+          "buffer_m": 0.25
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "precision": "Symmetric-difference area tolerance1e-5m² for independently ordered floating overlays, not an obstacle buffer change",
+  "status": "PASS"
+}

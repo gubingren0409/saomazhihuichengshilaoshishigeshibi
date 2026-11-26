@@ -1,0 +1,16 @@
+{
+  "revision": "R2_POINT_TOUCH_CORRECTNESS_REPAIR",
+  "status": "PASS",
+  "tests": 31,
+  "elapsed_s": 4.099637799998163,
+  "code_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+  "prior_code_sha256": "1b20b8ad8e0a6a2c2db3cf825f18ca44a2cbac8e04c54a6a9c73b54e5b656357",
+  "tests_sha256": "dc94fa9fd1ee47097f1e0d2dd8c4b2e0cf44b3331b520f61dd4e28fb17f4ba98",
+  "source_geometry_sha256": "941648761f179e9c5cb93c38a79ec7970dc39a11f973499daef499accaeabc12",
+  "source_or_door_or_domain_movement": false,
+  "contact_roundoff_limit_m": 1e-08,
+  "strict_visibility_only": true,
+  "routing_alternatives_preserved": true,
+  "R1_actual_runs_preserved": true,
+  "fix": "Nonnative local point-only aliases rejected; native point-junction entry requires positive original native-parent interval; all APP hypothesis layers in audit statistics"
+}

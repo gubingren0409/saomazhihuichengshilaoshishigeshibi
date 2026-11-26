@@ -1,0 +1,357 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_RESPONSE_GEOMETRY_AND_COST_RECALCULATION",
+  "author_validation_flags_used_as_reference": false,
+  "author_functions_called": false,
+  "APP_solver_calls": 0,
+  "rows": [
+    {
+      "file": "runs\\app\\RUN-20261111T224725-e783d37c5e.json",
+      "sha256": "a68e8226949a88cece55082bcedd363dd2abcd39460776aeee909a7870e99531",
+      "run_id": "RUN-20261111T224725-e783d37c5e",
+      "request_id": "UI-a43d4788-f28c-436e-b878-dbc1979b312c",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "graph_identity": {
+        "nodes": 36261,
+        "arcs": 215070,
+        "unweighted_sha256": "bf96b16f75eda9a50f01ef2633d45e57ade5ede323b5db9037a5b8f60ff572d9"
+      },
+      "reported_interface_statistics": [],
+      "measurements": {
+        "length_m": 159.19560018181014,
+        "cost_m": 159.19560018181014,
+        "layers": {
+          "native": 58.30248533526798,
+          "derived": 100.8931148465418
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        "last": [
+          354396.35132172017,
+          3456095.105993877
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/10073042336",
+          "raw_source_xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897141353",
+          "raw_source_xy": [
+            354396.35132172017,
+            3456095.105993877
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 0,
+      "full_face_length_outside_old_band_m": 0.0,
+      "certificate_validation": {
+        "count": 0,
+        "maximum_measured_shift_m": 0.0,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\app\\RUN-20261111T224726-a08681562e.json",
+      "sha256": "c12b00a908b7fda7d15fa11b7473502d29ec956e00d0ed0f1646c64171d8cb47",
+      "run_id": "RUN-20261111T224726-a08681562e",
+      "request_id": "UI-cf584850-f906-4176-a8a0-d9f9a1199900",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "graph_identity": {
+        "nodes": 38420,
+        "arcs": 290942,
+        "unweighted_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986"
+      },
+      "reported_interface_statistics": [
+        {
+          "source_id": "relation/2153738",
+          "components": [
+            {
+              "component": 0,
+              "portal_count": 46,
+              "local_interface_statistics": {},
+              "constraint_rejections": 0,
+              "numeric_tolerance_admissions": 0
+            }
+          ]
+        },
+        {
+          "source_id": "relation/2385771",
+          "components": [
+            {
+              "component": 0,
+              "portal_count": 375,
+              "local_interface_statistics": {
+                "rejected_no_positive_covered_parent_interval": 4
+              },
+              "constraint_rejections": 0,
+              "numeric_tolerance_admissions": 0
+            }
+          ]
+        }
+      ],
+      "measurements": {
+        "length_m": 148.8631220697961,
+        "cost_m": 148.8631220697961,
+        "layers": {
+          "native": 58.30248533526798,
+          "derived": 90.56063673452815
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        "last": [
+          354396.35132172017,
+          3456095.105993877
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/10073042336",
+          "raw_source_xy": [
+            354290.77721060865,
+            3456012.174117223
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897141353",
+          "raw_source_xy": [
+            354396.35132172017,
+            3456095.105993877
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 2,
+      "full_face_length_outside_old_band_m": 44.406520881926255,
+      "certificate_validation": {
+        "count": 432,
+        "maximum_measured_shift_m": 5.206251464550825e-10,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\app\\RUN-20261111T224739-689376f061.json",
+      "sha256": "f8ccd3899471e783fed5e976230560eda6777e812bb321d18335d898592555f0",
+      "run_id": "RUN-20261111T224739-689376f061",
+      "request_id": "UI-5ba7a0a2-0619-4e6b-863f-796b20e0ceaf",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "graph_identity": {
+        "nodes": 38420,
+        "arcs": 290942,
+        "unweighted_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986"
+      },
+      "reported_interface_statistics": [
+        {
+          "source_id": "relation/2153738",
+          "components": [
+            {
+              "component": 0,
+              "portal_count": 46,
+              "local_interface_statistics": {},
+              "constraint_rejections": 0,
+              "numeric_tolerance_admissions": 0
+            }
+          ]
+        },
+        {
+          "source_id": "relation/2385771",
+          "components": [
+            {
+              "component": 0,
+              "portal_count": 375,
+              "local_interface_statistics": {
+                "rejected_no_positive_covered_parent_interval": 4
+              },
+              "constraint_rejections": 0,
+              "numeric_tolerance_admissions": 0
+            }
+          ]
+        }
+      ],
+      "measurements": {
+        "length_m": 474.6042594301232,
+        "cost_m": 474.6042594301232,
+        "layers": {
+          "derived": 395.0780974593644,
+          "native": 79.52616197075878
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354407.8992153833,
+          3456148.8949068952
+        ],
+        "last": [
+          354396.35132172017,
+          3456095.105993877
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/1890732610",
+          "raw_source_xy": [
+            354407.8992153833,
+            3456148.8949068952
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897141353",
+          "raw_source_xy": [
+            354396.35132172017,
+            3456095.105993877
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 49,
+      "full_face_length_outside_old_band_m": 166.76460960211318,
+      "certificate_validation": {
+        "count": 432,
+        "maximum_measured_shift_m": 5.206251464550825e-10,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    },
+    {
+      "file": "runs\\app\\RUN-20261111T224746-d2342572fd.json",
+      "sha256": "5aba9f743391622a396bc2ea503aa081ce2145825befdb9a7d422a214afe1324",
+      "run_id": "RUN-20261111T224746-d2342572fd",
+      "request_id": "UI-31bb8462-a3af-4e86-ae9c-c025b22d01f7",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "graph_identity": {
+        "nodes": 38420,
+        "arcs": 290942,
+        "unweighted_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986"
+      },
+      "reported_interface_statistics": [
+        {
+          "source_id": "relation/2153738",
+          "components": [
+            {
+              "component": 0,
+              "portal_count": 46,
+              "local_interface_statistics": {},
+              "constraint_rejections": 0,
+              "numeric_tolerance_admissions": 0
+            }
+          ]
+        },
+        {
+          "source_id": "relation/2385771",
+          "components": [
+            {
+              "component": 0,
+              "portal_count": 375,
+              "local_interface_statistics": {
+                "rejected_no_positive_covered_parent_interval": 4
+              },
+              "constraint_rejections": 0,
+              "numeric_tolerance_admissions": 0
+            }
+          ]
+        }
+      ],
+      "measurements": {
+        "length_m": 474.6042594301232,
+        "cost_m": 474.6042594301232,
+        "layers": {
+          "derived": 395.0780974593644,
+          "native": 79.52616197075878
+        },
+        "gaps": [],
+        "saved_value_errors": [],
+        "first": [
+          354407.8992153833,
+          3456148.8949068952
+        ],
+        "last": [
+          354396.35132172017,
+          3456095.105993877
+        ]
+      },
+      "source_endpoint_checks": {
+        "start": {
+          "id": "node/1890732610",
+          "raw_source_xy": [
+            354407.8992153833,
+            3456148.8949068952
+          ],
+          "route_endpoint_error_m": 0.0
+        },
+        "door": {
+          "id": "node/6897141353",
+          "raw_source_xy": [
+            354396.35132172017,
+            3456095.105993877
+          ],
+          "route_endpoint_error_m": 0.0
+        }
+      },
+      "native_source_geometry_errors": [],
+      "full_face_geometry_errors": [],
+      "full_face_segment_count": 49,
+      "full_face_length_outside_old_band_m": 166.76460960211318,
+      "certificate_validation": {
+        "count": 432,
+        "maximum_measured_shift_m": 5.206251464550825e-10,
+        "errors": [],
+        "limits": "Point containment and measured certificate values; does not reconstruct every complete source-graph parent arc here"
+      }
+    }
+  ],
+  "skipped_non_response_files": [],
+  "paired_checks": [
+    {
+      "identity": [
+        "sh-huangpu-01",
+        "node/6897141353",
+        "node/10073042336",
+        "APPROACH_OUTSIDE"
+      ],
+      "method": "F0",
+      "kind": "FULL_GRAPH_SUPERSET_COST_MONOTONICITY",
+      "metric": "length_m",
+      "old": 159.19560018180962,
+      "full_face": 148.86312206979613,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "sh-huangpu-01": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+  },
+  "limitations": [
+    "Native way agreement checks geometry provenance, not observed public access",
+    "Fullface Ω independently rebuilt from acquired raw constraints; no field survey",
+    "This is output remeasurement, not an independent whole-network topology shortest-path solve",
+    "Refusal/no-route files are source/status inspected here, not independently proved impossible"
+  ],
+  "status": "PASS"
+}

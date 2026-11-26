@@ -1,0 +1,71 @@
+{
+  "role": "PRE_EXPERIMENT_FIXED_AREA_POPULATION_NOT_ID_PERMISSION_ALLOWLIST",
+  "crs": "EPSG:32651",
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "area_ids": [
+        "relation/2153738",
+        "relation/2385771"
+      ],
+      "source_edge_rows": 98102,
+      "selection": "ALL_SOURCE_AREA_IDS_IN_FROZEN_SCENE_MAPPED_EDGES_BEFORE_FULL_FACE_RESULTS",
+      "admission": "Independent explicit pedestrian-area tags, source member completeness, ground/permission and full acquired coverage required"
+    },
+    {
+      "scene_id": "sh-wukang",
+      "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "mapped_edges_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "area_ids": [],
+      "source_edge_rows": 0,
+      "selection": "ALL_SOURCE_AREA_IDS_IN_FROZEN_SCENE_MAPPED_EDGES_BEFORE_FULL_FACE_RESULTS",
+      "admission": "Independent explicit pedestrian-area tags, source member completeness, ground/permission and full acquired coverage required"
+    },
+    {
+      "scene_id": "sh-tower",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "mapped_edges_sha256": "d664bcc5d13518c1890c66980a585d81503712e82f95afb64177d4d2de94468c",
+      "area_ids": [
+        "way/965081081"
+      ],
+      "source_edge_rows": 3957,
+      "selection": "ALL_SOURCE_AREA_IDS_IN_FROZEN_SCENE_MAPPED_EDGES_BEFORE_FULL_FACE_RESULTS",
+      "admission": "Independent explicit pedestrian-area tags, source member completeness, ground/permission and full acquired coverage required"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "mapped_edges_sha256": "9031f3ccd3802fe3ef8bf74385fccdbc0947be2cd53311973ad54546a19c7ab8",
+      "area_ids": [
+        "relation/8055906",
+        "way/160023915"
+      ],
+      "source_edge_rows": 47732,
+      "selection": "ALL_SOURCE_AREA_IDS_IN_FROZEN_SCENE_MAPPED_EDGES_BEFORE_FULL_FACE_RESULTS",
+      "admission": "Independent explicit pedestrian-area tags, source member completeness, ground/permission and full acquired coverage required"
+    },
+    {
+      "scene_id": "sh-library",
+      "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "mapped_edges_sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7",
+      "area_ids": [
+        "way/1160136226"
+      ],
+      "source_edge_rows": 5435,
+      "selection": "ALL_SOURCE_AREA_IDS_IN_FROZEN_SCENE_MAPPED_EDGES_BEFORE_FULL_FACE_RESULTS",
+      "admission": "Independent explicit pedestrian-area tags, source member completeness, ground/permission and full acquired coverage required"
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "mapped_edges_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "area_ids": [],
+      "source_edge_rows": 0,
+      "selection": "ALL_SOURCE_AREA_IDS_IN_FROZEN_SCENE_MAPPED_EDGES_BEFORE_FULL_FACE_RESULTS",
+      "admission": "Independent explicit pedestrian-area tags, source member completeness, ground/permission and full acquired coverage required"
+    }
+  ],
+  "new_map_or_area_collection": false
+}
