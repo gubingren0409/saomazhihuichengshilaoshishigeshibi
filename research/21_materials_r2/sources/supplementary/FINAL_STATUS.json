@@ -1,0 +1,26 @@
+{
+  "status": "INCONCLUSIVE",
+  "operational_phase": "DELIVERY_FINISHED_AWAITING_GPT_AND_USER_REVIEW",
+  "completed_at": "2026-11-15T05:37:55.189923+08:00",
+  "elapsed_minutes_from_recorded_initialization": 159.77129653333336,
+  "zip_sha256": "bebdd6cb52c3afc156fc62a3b373ea29a2f4f38d68b28976ef771c5df6728103",
+  "zip": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_SUPPLEMENTARY_Q2_Q6_Q7_Q8_20261115\\delivery\\PG1_SUPPLEMENTARY_Q2_Q6_Q7_Q8_20261115_REVIEW.zip",
+  "package_verification_status": "PASS",
+  "scientific_status_by_experiment": {
+    "Q2-LOCAL-ENTRY-AUDIT-R1": "PASS",
+    "Q6-FIELD-TRUTH-COMPARISON-R1": "BLOCKED_BY_MISSING_INPUT",
+    "Q6-LOCAL-MAP-CONSISTENCY-R1": "INCONCLUSIVE",
+    "Q7-DYNAMIC-CLOSURE-SIMULATION-R1": "FAIL",
+    "Q8-SCALE-LATENCY-BENCHMARK-R1": "FAIL"
+  },
+  "independent_person_or_agent_review_done": false,
+  "independent_field_data_available": false,
+  "new_map_or_external_API_requests": 0,
+  "old_source_or_models_or_staging_modified": false,
+  "new_experiment_adapters_added": true,
+  "active_task_workers": [],
+  "parent_PG1_completion_claimed": false,
+  "auto_next_goal": false,
+  "stopped": true,
+  "sealed_in_zip_status_preserved": "The in-ZIP status predates clean-extraction verification; this external receipt closes that phase without rewriting sealed bytes."
+}

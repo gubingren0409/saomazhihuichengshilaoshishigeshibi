@@ -1,0 +1,380 @@
+{
+  "status": "TARGET_SOURCE_IDENTITY_VERIFIED",
+  "target": {
+    "source_id": "way/161090899",
+    "type": "way",
+    "id": 161090899,
+    "source_version": 21,
+    "tags": {
+      "addr:housenumber": "201",
+      "addr:street": "人民大道",
+      "building": "yes",
+      "contact:bilibili": "586852858",
+      "contact:instagram": "theshanghaimuseum",
+      "contact:phone": "+86-21-63723500-132",
+      "contact:tiktok": "MS4wLjABAAAAvgW-hMLuZNKCgJaueieZXzqQrEeaAace1q-NmJlZ_oE",
+      "contact:twitter": "ShanghaiMuseum",
+      "contact:weibo": "6584156654",
+      "contact:youtube": "@theshanghaimuseum3655",
+      "fee": "no",
+      "name": "上海博物馆",
+      "name:en": "Shanghai Museum",
+      "name:fr": "Musée de Shanghaï",
+      "name:hi": "शंघाई संग्रहालय",
+      "name:pt": "Museu de Shanghai (People Square)",
+      "name:ru": "Шанхайский музей",
+      "name:zh": "上海博物馆",
+      "name:zh-Hans": "上海博物馆",
+      "name:zh-Hant": "上海博物館",
+      "opening_hours": "Mo-Su 09:00-17:00",
+      "toilets:wheelchair": "no",
+      "tourism": "museum",
+      "website": "https://www.shanghaimuseum.net/",
+      "website:en": "https://www.shanghaimuseum.net/mu/frontend/pg/en/index",
+      "wheelchair": "yes",
+      "wikidata": "Q1051293",
+      "wikipedia": "zh:上海博物馆"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            354341.3945323713,
+            3456055.521474262
+          ],
+          [
+            354322.2376471177,
+            3456081.818644662
+          ],
+          [
+            354342.01511803037,
+            3456096.223873487
+          ],
+          [
+            354311.2067927949,
+            3456139.0355014675
+          ],
+          [
+            354344.3888134466,
+            3456163.0891986894
+          ],
+          [
+            354377.1933715914,
+            3456186.7269163537
+          ],
+          [
+            354407.2348506771,
+            3456144.9460874195
+          ],
+          [
+            354427.42595915217,
+            3456159.656174784
+          ],
+          [
+            354447.95565824304,
+            3456132.7304314664
+          ],
+          [
+            354403.54057341244,
+            3456100.350385982
+          ],
+          [
+            354396.35132172017,
+            3456095.105993877
+          ],
+          [
+            354389.1622161763,
+            3456089.872691198
+          ],
+          [
+            354341.3945323713,
+            3456055.521474262
+          ]
+        ]
+      ]
+    },
+    "source_node_ids": [
+      1891590950,
+      1890745401,
+      6897141353,
+      1890745448,
+      1891590903,
+      476675046,
+      1730907217,
+      1730907215,
+      6897145227,
+      1730907212,
+      1730907214,
+      476675043,
+      1891590950
+    ],
+    "valid": true,
+    "geometry_basis": "ORIGINAL_SOURCE_POLYGON_WITH_HOLES",
+    "geometry_warning": null,
+    "bounds_xy": [
+      354311.2067927949,
+      3456055.521474262,
+      354447.95565824304,
+      3456186.7269163537
+    ],
+    "centroid_xy": [
+      354372.4324775354,
+      3456124.418680136
+    ],
+    "related_relations": []
+  },
+  "building_id": "way/161090899",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          354341.3945323713,
+          3456055.521474262
+        ],
+        [
+          354322.2376471177,
+          3456081.818644662
+        ],
+        [
+          354342.01511803037,
+          3456096.223873487
+        ],
+        [
+          354311.2067927949,
+          3456139.0355014675
+        ],
+        [
+          354344.3888134466,
+          3456163.0891986894
+        ],
+        [
+          354377.1933715914,
+          3456186.7269163537
+        ],
+        [
+          354407.2348506771,
+          3456144.9460874195
+        ],
+        [
+          354427.42595915217,
+          3456159.656174784
+        ],
+        [
+          354447.95565824304,
+          3456132.7304314664
+        ],
+        [
+          354403.54057341244,
+          3456100.350385982
+        ],
+        [
+          354396.35132172017,
+          3456095.105993877
+        ],
+        [
+          354389.1622161763,
+          3456089.872691198
+        ],
+        [
+          354341.3945323713,
+          3456055.521474262
+        ]
+      ]
+    ]
+  },
+  "doors": [
+    {
+      "source_id": "node/6897141353",
+      "type": "node",
+      "id": 6897141353,
+      "source_version": 2,
+      "tags": {
+        "entrance": "main"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          354396.35132172017,
+          3456095.105993877
+        ]
+      },
+      "xy": [
+        354396.35132172017,
+        3456095.105993877
+      ],
+      "wgs84": [
+        121.4712158,
+        31.2299607
+      ],
+      "role": "SOUTH_REGISTERED_MAIN",
+      "outer_ring_member": true,
+      "boundary_distance_m": 0.0,
+      "inbound_applicability": "REGISTERED_MAIN_REFERENCE_NOT_FIELD_VERIFIED"
+    },
+    {
+      "source_id": "node/6897145227",
+      "type": "node",
+      "id": 6897145227,
+      "source_version": 2,
+      "tags": {
+        "entrance": "exit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          354344.3888134466,
+          3456163.0891986894
+        ]
+      },
+      "xy": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "wgs84": [
+        121.4706605,
+        31.2305674
+      ],
+      "role": "NORTH_REGISTERED_EXIT_OUTSIDE_ONLY",
+      "outer_ring_member": true,
+      "boundary_distance_m": 0.0,
+      "inbound_applicability": "NOT_AN_INBOUND_ENTRANCE"
+    }
+  ],
+  "confounders": [
+    {
+      "source_id": "node/5530017322",
+      "type": "node",
+      "id": 5530017322,
+      "source_version": 7,
+      "tags": {
+        "addr:housenumber": "325",
+        "addr:street": "南京西路",
+        "museum": "history",
+        "name": "上海市历史博物馆",
+        "name:en": "Shanghai History Museum",
+        "name:zh": "上海市历史博物馆",
+        "name:zh-Hans": "上海市历史博物馆",
+        "name:zh-Hant": "上海市歷史博物館",
+        "toilets:wheelchair": "no",
+        "tourism": "museum",
+        "wheelchair": "yes",
+        "wikidata": "Q779273",
+        "wikimedia_commons": "Category:Shanghai History Museum",
+        "wikipedia": "zh:上海市历史博物馆"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          353962.7169922688,
+          3456395.627567782
+        ]
+      },
+      "reason": "DISTINCT_OBJECT_NOT_TARGET_MUSEUM",
+      "geometry_basis": "ORIGINAL_SOURCE_POINT"
+    },
+    {
+      "source_id": "way/39763758",
+      "type": "way",
+      "id": 39763758,
+      "source_version": 22,
+      "tags": {
+        "addr:city": "上海市",
+        "addr:housenumber": "300",
+        "addr:postcode": "200003",
+        "addr:street": "上海市人民大道",
+        "amenity": "theatre",
+        "architect": "Jean-Marie Charpentier",
+        "architect:wikidata": "Q296915",
+        "building": "yes",
+        "name": "上海大剧院",
+        "name:en": "Shanghai Grand Theatre",
+        "name:fr": "Opéra de Shanghai",
+        "name:zh": "上海大剧院",
+        "name:zh-Hans": "上海大剧院",
+        "name:zh-Hant": "上海大劇院",
+        "name:zh-Latn-pinyin": "Shànghǎidàjùyuàn",
+        "phone": "+86 21-5107 8885",
+        "tourism": "attraction",
+        "website": "http://www.dajuyuansh.com.cn/",
+        "wikidata": "Q1325611",
+        "wikimedia_commons": "Category:Shanghai Grand Theatre",
+        "wikipedia": "zh:上海大剧院"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              353959.69154035207,
+              3456281.297144159
+            ],
+            [
+              354035.70092459535,
+              3456337.206869893
+            ],
+            [
+              354094.1329387466,
+              3456259.1762385303
+            ],
+            [
+              354076.95852090325,
+              3456246.309707317
+            ],
+            [
+              354083.3669712428,
+              3456236.4643726354
+            ],
+            [
+              354046.1651892239,
+              3456207.677698589
+            ],
+            [
+              354040.5534621026,
+              3456215.8933184873
+            ],
+            [
+              354018.25803752884,
+              3456199.9270646805
+            ],
+            [
+              354011.65926291735,
+              3456209.098780752
+            ],
+            [
+              353980.0859955085,
+              3456252.9642519495
+            ],
+            [
+              353959.69154035207,
+              3456281.297144159
+            ]
+          ]
+        ]
+      },
+      "reason": "DISTINCT_OBJECT_NOT_TARGET_MUSEUM",
+      "geometry_basis": "ORIGINAL_SOURCE_POLYGON_WITH_HOLES"
+    }
+  ],
+  "source": {
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-huangpu-01\\source.osm.json",
+    "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "timestamp": "2026-11-08T21:21:00Z",
+    "source_crs": "EPSG:4326",
+    "working_crs": "EPSG:32651",
+    "bytes": 6356390
+  },
+  "identity_basis": [
+    "namedbuilding+buildingyes+tourismmuseum",
+    "Q1051293",
+    "PeopleSquarePortugueseName",
+    "人民大道201号",
+    "bothregisteredEPnativeouterringmembers"
+  ],
+  "physical_current_public_access": "UNKNOWN_NOT_FIELD_VERIFIED",
+  "conflicting_place_ids": [
+    "node/5530017322",
+    "way/39763758"
+  ]
+}

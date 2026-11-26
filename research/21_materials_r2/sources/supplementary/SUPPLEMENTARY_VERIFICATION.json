@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-11-15T05:37:05.147487+08:00",
+  "identity": "AUTHOR_SEPARATE_PROCESS_CLEAN_EXTRACT_CROSSCHECK_NOT_INDEPENDENT_REVIEWER",
+  "zip": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_SUPPLEMENTARY_Q2_Q6_Q7_Q8_20261115\\delivery\\PG1_SUPPLEMENTARY_Q2_Q6_Q7_Q8_20261115_REVIEW.zip",
+  "zip_sha256": "bebdd6cb52c3afc156fc62a3b373ea29a2f4f38d68b28976ef771c5df6728103",
+  "zip_bytes": 31435016,
+  "member_count": 1119,
+  "CRC": "PASS",
+  "path_safety": "PASS",
+  "member_sha256_checked": 1116,
+  "member_mismatches": [],
+  "clean_directory": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_SUPPLEMENTARY_Q2_Q6_Q7_Q8_20261115\\delivery\\VERIFY_EXTRACT_6525f6ceed2a421ebb7d4a57c5b30836",
+  "offline_browser": {
+    "version": "157.0.8103.78",
+    "javascript_errors": [],
+    "unexpected_external_resources": [],
+    "loaded_local_images": 16,
+    "screenshot": "CLEAN_EXTRACT_BROWSER.png"
+  },
+  "new_actual_solver_call": {
+    "command": [
+      "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "E:\\智慧城市和位置服务\\_task_runtime\\PG1_SUPPLEMENTARY_Q2_Q6_Q7_Q8_20261115\\delivery\\VERIFY_EXTRACT_6525f6ceed2a421ebb7d4a57c5b30836\\scripts\\replay_request.py",
+      "--case",
+      "library",
+      "--method",
+      "F1",
+      "--mode",
+      "FULL_FACE"
+    ],
+    "run_id": "REPLAY-b5622c24d66f4a94a6eeeed93243a383",
+    "solver_invoked": true,
+    "route_answer_cache": false,
+    "status": "PASS",
+    "route_length_m": 180.58111866323975,
+    "geometry_signature": "9f525fd111406b13888cd92b201f0f37e260030da1a1af5e445109d8ea12ad2c",
+    "whole_route_check": true,
+    "runtime_process_wall_ms": 39162.38499998872,
+    "result_file": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_SUPPLEMENTARY_Q2_Q6_Q7_Q8_20261115\\delivery\\VERIFY_EXTRACT_6525f6ceed2a421ebb7d4a57c5b30836\\replay_runs\\REPLAY-b5622c24d66f4a94a6eeeed93243a383\\result.json",
+    "result_sha256": "e6d39e31aba18773b2c6aa079ad99df6f05da0b4a97e0bc42e447b7393edf40b"
+  },
+  "not_all_benchmarks_repeated": true,
+  "field_truth_verified": false,
+  "entire_historical_archive_collection_self_contained": false,
+  "elapsed_ms": 50260.669699986465,
+  "status": "PASS"
+}
