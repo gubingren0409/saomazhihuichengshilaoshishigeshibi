@@ -1,0 +1,94 @@
+{
+  "status": "HYPOTHESIS_ONLY",
+  "entrance_id": "node/6897145227",
+  "entrance_role": "exit",
+  "inbound_eligibility": "NOT_ELIGIBLE_EXIT",
+  "entrance_coordinate": [
+    121.4706605,
+    31.2305674
+  ],
+  "approach_coordinate": [
+    121.470610971602,
+    31.23062514364944
+  ],
+  "crs": "EPSG:32651",
+  "approach_way_id": "way/178719573",
+  "source_segment_index": 110,
+  "approach_way_tags": {
+    "foot": "yes",
+    "highway": "footway",
+    "surface": "paving_stones"
+  },
+  "pedestrian_area_id": "relation/2153738",
+  "site_area_id": "way/404709025",
+  "site_tags": {
+    "addr:city": "上海",
+    "addr:housenumber": "120",
+    "addr:street": "人民大道",
+    "leisure": "park",
+    "name": "人民广场",
+    "name:en": "People's Square",
+    "name:fr": "people square",
+    "name:ko": "인민광장",
+    "name:ru": "Народная площадь",
+    "name:zh": "人民广场",
+    "name:zh-Hans": "人民广场",
+    "name:zh-Hant": "人民廣場",
+    "tourism": "attraction",
+    "wikidata": "Q10883549",
+    "wikipedia": "zh:人民广场"
+  },
+  "site_cover_m": 7.952217589612693,
+  "gap_m": 7.952217589612693,
+  "baseline_approach_m": 1237.8147184941297,
+  "walkable_covered_m": 5.206251464550825e-10,
+  "hypothetical_total_m": 1245.7669360837424,
+  "level_status": "UNKNOWN_NO_CONTINUOUS_GRADE_EVIDENCE",
+  "obstacle_status": "NO_MAPPED_CONFLICT_ON_CANDIDATE",
+  "intersecting_source_obstacles": [
+    {
+      "source": "way/161090899",
+      "kind": "BUILDING",
+      "intersection_m": 0.0,
+      "status": "ORIGINAL_EXIT_BOUNDARY_TOUCH_ONLY"
+    }
+  ],
+  "layer_or_access_intersections": [
+    {
+      "source": "way/178719573",
+      "tags": {
+        "foot": "yes"
+      },
+      "intersection_m": 0.0,
+      "position": "APPROACH_ENDPOINT"
+    }
+  ],
+  "grade_tags_on_continuous_segment": [],
+  "unlocated_obstacle_ids_in_clip": [],
+  "without": {
+    "status": "APPROACH_WITH_GAP",
+    "routed_end": [
+      121.470610971602,
+      31.23062514364944
+    ],
+    "distance_to_original_exit_m": 7.952217589612693
+  },
+  "with": {
+    "status": "HYPOTHETICAL_EXTERIOR_REACH",
+    "routed_end": [
+      121.4706605,
+      31.2305674
+    ],
+    "distance_to_original_exit_m": 0.0,
+    "requires_assumption": "CONTINUOUS_SAME_LEVEL_OUTDOOR_WALKING_SURFACE_AND_ACCESS"
+  },
+  "protected_source_sha256": {
+    "frozen_r4/data/source/sh-huangpu-01.osm.json": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "data/native_prefix_diagnostic.json": "005eeaf3c95048097b7b7c8a0f6f2c03a695173a9d036ceac4718638ad24fa89",
+    "data/native_prefix_diagnostic.geojson": "c7e1646f2948b276db21c867e3b0ecab84cde5bea32a27fdc719069f7f8390b0",
+    "frozen_r4/src/frozen_r1/local_route.py": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+    "delivery/OPEN_REVIEW.zip": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0"
+  },
+  "external_requests": 0,
+  "field_checks": 0
+}
