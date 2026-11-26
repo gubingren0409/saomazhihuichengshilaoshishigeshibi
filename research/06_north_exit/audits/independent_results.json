@@ -1,0 +1,200 @@
+{
+  "status": "PASS",
+  "role": "independent_raw_osm_no_author_imports",
+  "raw": {
+    "raw_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "prior_json_sha256": "21ca0abf58552aed84d7f4e51c531936e7bfcbd4435b4a85fec987e4b4ec44de",
+    "prior_geojson_sha256": "b64796b885db840397f7f0d7d83f4686b8cdfe03592db3e1761caadea32ac6c0",
+    "exit": {
+      "source": "node/6897145227",
+      "coordinate": [
+        121.4706605,
+        31.2305674
+      ],
+      "tags": {
+        "entrance": "exit"
+      }
+    },
+    "approach_coordinate": [
+      121.470610971602,
+      31.23062514364944
+    ],
+    "footway": "way/178719573/110",
+    "length_epsg32651_m": 7.952217589612693,
+    "length_wgs84_ellipsoid_m": 7.953317573664923,
+    "pedestrian_area_boundary_distance_m": 7.952217589215138,
+    "nearest_eligible_footway_segment_m": 7.952217589215138,
+    "nearest_footway_native_node": {
+      "id": 1890862817,
+      "distance_m": 16.396822196143685
+    },
+    "building_overlap_m": 0.0,
+    "pedestrian_polygon_overlap_m": 5.206251464550825e-10,
+    "native_footway_overlap_m": 0.0,
+    "park_overlap_m": 7.952217589612693,
+    "same_source_membership_between_exit_and_footway": false,
+    "native_prefix_length_m": 1237.814718494129,
+    "native_prefix_geodesic_m": 1237.9849724147296,
+    "native_prefix_segment_count": 59,
+    "native_prefix_explicit_grade_tags": [],
+    "native_prefix_shared_street_segments": [
+      {
+        "segment": 41,
+        "source": "way/1338361262/1",
+        "highway": "service"
+      },
+      {
+        "segment": 42,
+        "source": "way/1338361262/0",
+        "highway": "service"
+      },
+      {
+        "segment": 43,
+        "source": "way/1338361261/0",
+        "highway": "service"
+      },
+      {
+        "segment": 44,
+        "source": "way/161090908/4",
+        "highway": "service"
+      },
+      {
+        "segment": 45,
+        "source": "way/161090908/3",
+        "highway": "service"
+      },
+      {
+        "segment": 46,
+        "source": "way/161090908/2",
+        "highway": "service"
+      },
+      {
+        "segment": 47,
+        "source": "way/161090908/1",
+        "highway": "service"
+      },
+      {
+        "segment": 48,
+        "source": "way/161090908/0",
+        "highway": "service"
+      }
+    ],
+    "native_prefix_mapped_contacts": [
+      {
+        "source": "way/39763758",
+        "category": "BUILDING",
+        "length_m": 0.0,
+        "classification": "BOUNDARY_ONLY",
+        "grade_tags": {}
+      },
+      {
+        "source": "way/178730988",
+        "category": null,
+        "length_m": 0.0,
+        "classification": "GRADE_OBJECT_POINT_CONTACT",
+        "grade_tags": {
+          "highway": "steps"
+        }
+      },
+      {
+        "source": "way/178732703",
+        "category": "PLANTING",
+        "length_m": 187.59028825147124,
+        "classification": "BOUNDARY_ONLY",
+        "grade_tags": {}
+      }
+    ],
+    "candidate_intersections": {
+      "obstacles": [],
+      "grade_intersections": [],
+      "terminal_only": [
+        "way/161090899"
+      ]
+    },
+    "nearby_obstacle_count": 3,
+    "candidate_level": "UNKNOWN",
+    "inbound_eligibility": "NOT_ELIGIBLE_EXIT"
+  },
+  "experiment": {
+    "variants": {
+      "N0": {
+        "length_m": 1237.814718494129,
+        "residual_m": 7.952217589612692,
+        "connector_segments": 0
+      },
+      "N1": {
+        "length_m": 1245.7669360837417,
+        "residual_m": 0.0,
+        "connector_m": 7.952217589612693,
+        "connector_segments": 1,
+        "corridor_positive_walkability_m": 0.0,
+        "grade_unknown": true,
+        "connector_geometry": [
+          [
+            121.470610971602,
+            31.23062514364944
+          ],
+          [
+            121.4706605,
+            31.2305674
+          ]
+        ]
+      },
+      "N2": {
+        "length_m": 1245.7669360837417,
+        "residual_m": 0.0,
+        "connector_m": 7.952217589612693,
+        "connector_segments": 1,
+        "corridor_positive_walkability_m": 0.0,
+        "grade_unknown": true,
+        "connector_geometry": [
+          [
+            121.470610971602,
+            31.23062514364944
+          ],
+          [
+            121.4706605,
+            31.2305674
+          ]
+        ]
+      }
+    },
+    "sensitivity": [
+      {
+        "id": "N2_MAIN",
+        "area_m2": 31.80271975073234,
+        "straight_lower_bound_attained": true
+      },
+      {
+        "id": "N3_RADIUS_10",
+        "area_m2": 31.80271975073234,
+        "straight_lower_bound_attained": true
+      },
+      {
+        "id": "N3_WIDTH_1",
+        "area_m2": 15.902897526923642,
+        "straight_lower_bound_attained": true
+      },
+      {
+        "id": "N3_WIDTH_3",
+        "area_m2": 47.69946667626455,
+        "straight_lower_bound_attained": true
+      },
+      {
+        "id": "N3_CLEARANCE_050",
+        "area_m2": 31.80271975073234,
+        "straight_lower_bound_attained": true
+      }
+    ],
+    "segment_rows": 180,
+    "visual_consistency": {
+      "status": "PASS",
+      "visual_projected_vertices": 190,
+      "html_sha256": "796e79fd29d8a671a49de83f72143a36f551d791ed9f79385c3c7b895a46ad17"
+    },
+    "corridor_area_m2": 31.80271975073234,
+    "park_area_m2": 127113.36269909245,
+    "frozen_configuration_sha256": "a84bb50e33989c1dfe07c821a0e49b8faa8e4f0d3c1b57f0b1abe71141fa9165",
+    "status": "PASS_INDEPENDENT_NO_VERIFIED_WALKABILITY_UPGRADE"
+  }
+}

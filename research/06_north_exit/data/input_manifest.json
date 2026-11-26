@@ -1,0 +1,293 @@
+{
+  "status": "INPUTS_VERIFIED",
+  "attachment_sha256": "efb403f3f2c6e1fb9b1df85533145b7ae76a5cebb7b2d24fd7751caa39aa9748",
+  "r4_rev1_zip_sha256": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0",
+  "source_rows": [
+    {
+      "role": "USER_ATTACHMENT",
+      "source": "C:\\Users\\28489\\Downloads\\OSM_GEOAPIFY_R4_NORTH_ACCESS_R1_CODEX_INPUTS.zip",
+      "retained": null,
+      "bytes": 8404,
+      "sha256": "efb403f3f2c6e1fb9b1df85533145b7ae76a5cebb7b2d24fd7751caa39aa9748",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "TASK_CONTRACT",
+      "source": "C:\\Users\\28489\\Downloads\\OSM_GEOAPIFY_R4_NORTH_ACCESS_R1_CODEX_INPUTS.zip::00_README_FIRST.md",
+      "retained": "inputs/contract/00_README_FIRST.md",
+      "bytes": 854,
+      "sha256": "63257840c9fb6e6ec409117ea8c22a9d17cde56e1c7138c8e00c83c865e4e0b4",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "TASK_CONTRACT",
+      "source": "C:\\Users\\28489\\Downloads\\OSM_GEOAPIFY_R4_NORTH_ACCESS_R1_CODEX_INPUTS.zip::OSM_GEOAPIFY_R4_NORTH_ACCESS_R1_CODEX_PROMPT.md",
+      "retained": "inputs/contract/OSM_GEOAPIFY_R4_NORTH_ACCESS_R1_CODEX_PROMPT.md",
+      "bytes": 12407,
+      "sha256": "b1b3152693c6190cea1ef76ec1bed20f58c95a44e93136054fce3ee44d29a770",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "TASK_CONTRACT",
+      "source": "C:\\Users\\28489\\Downloads\\OSM_GEOAPIFY_R4_NORTH_ACCESS_R1_CODEX_INPUTS.zip::references/INPUT_MATERIALS_AND_PROTECTION.md",
+      "retained": "inputs/contract/references/INPUT_MATERIALS_AND_PROTECTION.md",
+      "bytes": 738,
+      "sha256": "dcda26be230001734a9b73e4453eb65bea930315751ddc0c400a70ce11ec2be0",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_SEALED_BASELINE",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\delivery\\OPEN_REVIEW.zip",
+      "retained": null,
+      "bytes": 19579824,
+      "sha256": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\RESULTS.md",
+      "retained": "inputs/source/RESULTS.md",
+      "bytes": 5020,
+      "sha256": "7836a324bddfb2e6ff8a150ca37dffce2001c5b4bcdd98731b031519ef8def94",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\data\\entrance_approach.json",
+      "retained": "inputs/source/data/entrance_approach.json",
+      "bytes": 84233,
+      "sha256": "5d82fe70661663e3e9ee2cd1cd129c101634f241e95859e4acc10a6a5332356b",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\data\\native_prefix_diagnostic.json",
+      "retained": "inputs/source/data/native_prefix_diagnostic.json",
+      "bytes": 5127,
+      "sha256": "005eeaf3c95048097b7b7c8a0f6f2c03a695173a9d036ceac4718638ad24fa89",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\data\\native_prefix_diagnostic.geojson",
+      "retained": "inputs/source/data/native_prefix_diagnostic.geojson",
+      "bytes": 19175,
+      "sha256": "c7e1646f2948b276db21c867e3b0ecab84cde5bea32a27fdc719069f7f8390b0",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\runs\\experiment.json",
+      "retained": "inputs/source/runs/experiment.json",
+      "bytes": 420808,
+      "sha256": "52a4e45adfb7505686f9c7a18984fb2b92d23cde18cb7c9fca250b188558823e",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\frozen_r4\\data\\source\\sh-huangpu-01.osm.json",
+      "retained": "inputs/source/frozen_r4/data/source/sh-huangpu-01.osm.json",
+      "bytes": 6356390,
+      "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\frozen_r4\\runs\\source_scene_contracts.json",
+      "retained": "inputs/source/frozen_r4/runs/source_scene_contracts.json",
+      "bytes": 44353,
+      "sha256": "47727aab1f2b36880c36052abdcdc200eb6121a80f2c6123c0f98872b0278191",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\frozen_r4\\runs\\experiment.json",
+      "retained": "inputs/source/frozen_r4/runs/experiment.json",
+      "bytes": 58712,
+      "sha256": "2fc674a90008b7d95641086ca088742e7b6042cb6b8361a74798fa6d70dd956b",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\frozen_r4\\src\\frozen_r1\\local_route.py",
+      "retained": "inputs/source/frozen_r4/src/frozen_r1/local_route.py",
+      "bytes": 12438,
+      "sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\native_adapter.py",
+      "retained": "inputs/source/src/native_adapter.py",
+      "bytes": 10956,
+      "sha256": "5bcefd9a7fddfbea67c778825fdc783d3a39d304ae8729673a620faad5349b83",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\route_measure.py",
+      "retained": "inputs/source/src/route_measure.py",
+      "bytes": 10826,
+      "sha256": "46bdd77a1908358178988fc67b1c83493b7dbdc4d90c8d2a8c7456861bced778",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\audit_native_prefix.py",
+      "retained": "inputs/source/src/audit_native_prefix.py",
+      "bytes": 8375,
+      "sha256": "298e42356c582cbfd23d3146d3c6a8fb049d1b106084e595f92e74e3d6eaaf75",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\run_rev1.py",
+      "retained": "inputs/source/src/run_rev1.py",
+      "bytes": 25893,
+      "sha256": "ad9927e6133c758496ac5c2fa2813f45a8f0590e9cc5abda319d79b19ca119de",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\area_model.py",
+      "retained": "inputs/source/src/area_model.py",
+      "bytes": 17063,
+      "sha256": "efc7e2eca0c18b7e74ea7ca1df740ad83e99fcf3fc0bc60c22b950d5fc4aea75",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "R4_REV1_PORTABLE_MEMBER",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\visuals\\scene_data.js",
+      "retained": "inputs/source/visuals/scene_data.js",
+      "bytes": 8102705,
+      "sha256": "cf902a21e81d723008cad20bc9367ed7e64d20cc238a02667259bd5b515b468c",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "PREVIOUS_NORTH_TRIAL",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\public\\trial.json",
+      "retained": "inputs/prior_trial/trial.json",
+      "bytes": 3032,
+      "sha256": "21ca0abf58552aed84d7f4e51c531936e7bfcbd4435b4a85fec987e4b4ec44de",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "PREVIOUS_NORTH_TRIAL",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\public\\trial.geojson",
+      "retained": "inputs/prior_trial/trial.geojson",
+      "bytes": 7959,
+      "sha256": "b64796b885db840397f7f0d7d83f4686b8cdfe03592db3e1761caadea32ac6c0",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "PREVIOUS_NORTH_TRIAL",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\public\\index.html",
+      "retained": "inputs/prior_trial/index.html",
+      "bytes": 512877,
+      "sha256": "00034643d0c52c1b3d9d9d20c1b7d5b3e28b7f27dce9095ae05c2fab4802c0b2",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "PREVIOUS_NORTH_TRIAL",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\src\\run_trial.py",
+      "retained": "inputs/prior_trial/run_trial.py",
+      "bytes": 12380,
+      "sha256": "09d3997b6d5408197c9c1bcf1fbea33094694ccfe76bdd1f780a688dc9c25b45",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "PREVIOUS_NORTH_TRIAL",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\src\\build_comparison.py",
+      "retained": "inputs/prior_trial/build_comparison.py",
+      "bytes": 14194,
+      "sha256": "32ae669cd9e5341a8390635eacf53ecd0241fe8b12b31cede8a21be48a7e7fe0",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "PREVIOUS_UI_RUNTIME_NOT_USED",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\runtime\\server.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "OBSERVED_AT_PREPARATION_NOT_FROZEN"
+    },
+    {
+      "role": "PREVIOUS_UI_RUNTIME_NOT_USED",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\runtime\\server.stderr.log",
+      "bytes": 481,
+      "sha256": "a244833673a32e51bacdbff005aac7a9af706d9f8fa90e629859064323b0223b",
+      "status": "OBSERVED_AT_PREPARATION_NOT_FROZEN"
+    },
+    {
+      "role": "GPT_HISTORICAL_REVIEW_ARCHIVE",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\R4_REV1_INPUT_c3s9957s\\OSM_GEOAPIFY_R4_REV1_CODEX_INPUTS\\references\\frozen\\R4_MAP_INFORMATION_REVIEW.zip",
+      "retained": null,
+      "bytes": 400051,
+      "sha256": "a50ca7a6296da0b9bd1862b0808d4460c0913e876bf3bb17b10762fa3e527d4a",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "GPT_REVIEW_EVIDENCE",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\R4_REV1_INPUT_c3s9957s\\OSM_GEOAPIFY_R4_REV1_CODEX_INPUTS\\references\\frozen\\R4_MAP_INFORMATION_REVIEW.zip::00_R4_QUESTIONS_REVIEW.md",
+      "retained": "inputs/prior_review/00_R4_QUESTIONS_REVIEW.md",
+      "bytes": 4436,
+      "sha256": "d736ff868e23d8368dd531439c8bc784dca5a2dce9e6d4185238d77d851bce6c",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "GPT_REVIEW_EVIDENCE",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\R4_REV1_INPUT_c3s9957s\\OSM_GEOAPIFY_R4_REV1_CODEX_INPUTS\\references\\frozen\\R4_MAP_INFORMATION_REVIEW.zip::question_checks.json",
+      "retained": "inputs/prior_review/question_checks.json",
+      "bytes": 8673,
+      "sha256": "87fa997b0b2372a4a41f34fa854c2003b85205166fe7c6bd55341a477edce943",
+      "status": "VERIFIED_EXACT"
+    },
+    {
+      "role": "GPT_REVIEW_EVIDENCE",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\R4_REV1_INPUT_c3s9957s\\OSM_GEOAPIFY_R4_REV1_CODEX_INPUTS\\references\\frozen\\R4_MAP_INFORMATION_REVIEW.zip::source_code_evidence.md",
+      "retained": "inputs/prior_review/source_code_evidence.md",
+      "bytes": 10448,
+      "sha256": "beafa059df50ea13b2f7dd31b1589d2531493b10345bc8aab11a3dc1aa35c91d",
+      "status": "VERIFIED_EXACT"
+    }
+  ],
+  "protected_originals": {
+    "C:\\Users\\28489\\Downloads\\OSM_GEOAPIFY_R4_NORTH_ACCESS_R1_CODEX_INPUTS.zip": "efb403f3f2c6e1fb9b1df85533145b7ae76a5cebb7b2d24fd7751caa39aa9748",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\delivery\\OPEN_REVIEW.zip": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\RESULTS.md": "7836a324bddfb2e6ff8a150ca37dffce2001c5b4bcdd98731b031519ef8def94",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\data\\entrance_approach.json": "5d82fe70661663e3e9ee2cd1cd129c101634f241e95859e4acc10a6a5332356b",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\data\\native_prefix_diagnostic.json": "005eeaf3c95048097b7b7c8a0f6f2c03a695173a9d036ceac4718638ad24fa89",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\data\\native_prefix_diagnostic.geojson": "c7e1646f2948b276db21c867e3b0ecab84cde5bea32a27fdc719069f7f8390b0",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\runs\\experiment.json": "52a4e45adfb7505686f9c7a18984fb2b92d23cde18cb7c9fca250b188558823e",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\frozen_r4\\data\\source\\sh-huangpu-01.osm.json": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\frozen_r4\\runs\\source_scene_contracts.json": "47727aab1f2b36880c36052abdcdc200eb6121a80f2c6123c0f98872b0278191",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\frozen_r4\\runs\\experiment.json": "2fc674a90008b7d95641086ca088742e7b6042cb6b8361a74798fa6d70dd956b",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\frozen_r4\\src\\frozen_r1\\local_route.py": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\native_adapter.py": "5bcefd9a7fddfbea67c778825fdc783d3a39d304ae8729673a620faad5349b83",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\route_measure.py": "46bdd77a1908358178988fc67b1c83493b7dbdc4d90c8d2a8c7456861bced778",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\audit_native_prefix.py": "298e42356c582cbfd23d3146d3c6a8fb049d1b106084e595f92e74e3d6eaaf75",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\run_rev1.py": "ad9927e6133c758496ac5c2fa2813f45a8f0590e9cc5abda319d79b19ca119de",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\area_model.py": "efc7e2eca0c18b7e74ea7ca1df740ad83e99fcf3fc0bc60c22b950d5fc4aea75",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\visuals\\scene_data.js": "cf902a21e81d723008cad20bc9367ed7e64d20cc238a02667259bd5b515b468c",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\public\\trial.json": "21ca0abf58552aed84d7f4e51c531936e7bfcbd4435b4a85fec987e4b4ec44de",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\public\\trial.geojson": "b64796b885db840397f7f0d7d83f4686b8cdfe03592db3e1761caadea32ac6c0",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\public\\index.html": "00034643d0c52c1b3d9d9d20c1b7d5b3e28b7f27dce9095ae05c2fab4802c0b2",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\src\\run_trial.py": "09d3997b6d5408197c9c1bcf1fbea33094694ccfe76bdd1f780a688dc9c25b45",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1_NORTH_GAP_TRIAL\\src\\build_comparison.py": "32ae669cd9e5341a8390635eacf53ecd0241fe8b12b31cede8a21be48a7e7fe0",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\R4_REV1_INPUT_c3s9957s\\OSM_GEOAPIFY_R4_REV1_CODEX_INPUTS\\references\\frozen\\R4_MAP_INFORMATION_REVIEW.zip": "a50ca7a6296da0b9bd1862b0808d4460c0913e876bf3bb17b10762fa3e527d4a"
+  },
+  "git": [
+    {
+      "repo": "E:\\智慧城市和位置服务",
+      "head": "2c878cc69aec54cf1f9e5e6803eeb1cb9b06bfdc",
+      "index_sha256": "4216b12478e717dcb367733fbbb430911edf77b785c1d3fc9ebd9cd8a80e2bd4",
+      "tracked_status_sha256": "623dbc38d2e4cc6a57459b5850ed57c3442634b858ec3b85479e8309075bced2"
+    },
+    {
+      "repo": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services",
+      "head": "677003de184b73a503f830a47186ee7688e13507",
+      "index_sha256": "67f47e86c92bc814144043bdb235f62149b9e0d95aad58cbec356fa68e7f2f0f",
+      "tracked_status_sha256": "d5d41c2760d3aa1f5543964e85015425aa1d322664227cbb52f41d8e9ab90325"
+    }
+  ],
+  "external_requests": 0
+}

@@ -1,0 +1,53 @@
+{
+  "status": "LOCKED_BEFORE_FORMAL_ROUTE_COMPARISON",
+  "study": "OSM-GEOAPIFY-R4-NORTH-ACCESS-R1",
+  "crs": "EPSG:32651",
+  "axis_order_wgs84": "longitude,latitude",
+  "tolerance_m": 0.000001,
+  "source_ids": {
+    "exit": "node/6897145227",
+    "origin": "node/476682043",
+    "park": "way/404709025",
+    "pedestrian_area": "relation/2153738",
+    "building": "way/161090899",
+    "footway": "way/178719573",
+    "footway_segment_index": 110
+  },
+  "main": {
+    "id": "N2_MAIN",
+    "radius_m": 12,
+    "half_width_m": 2,
+    "obstacle_clearance_m": 0.25
+  },
+  "sensitivity": [
+    {
+      "id": "N3_RADIUS_10",
+      "radius_m": 10,
+      "half_width_m": 2,
+      "obstacle_clearance_m": 0.25
+    },
+    {
+      "id": "N3_WIDTH_1",
+      "radius_m": 12,
+      "half_width_m": 1,
+      "obstacle_clearance_m": 0.25
+    },
+    {
+      "id": "N3_WIDTH_3",
+      "radius_m": 12,
+      "half_width_m": 3,
+      "obstacle_clearance_m": 0.25
+    },
+    {
+      "id": "N3_CLEARANCE_050",
+      "radius_m": 12,
+      "half_width_m": 2,
+      "obstacle_clearance_m": 0.5
+    }
+  ],
+  "building_terminal_rule": "Do not buffer the destination building facade; reject any line contact with the destination building except a single contact at the frozen exit endpoint. All other mapped obstacles get the configured setback.",
+  "eligibility_rule": "Positive walkability and connected same-level evidence required for an upgrade. An unknown grade can only enter a marked hypothesis query; a recorded explicit grade conflict or obstacle rejects that segment.",
+  "local_scope_rule": "Bounded door-centered disk intersected with a strip spanning the projection onto the native footway and the registered exit, clipped to the park polygon, subtract mapped obstacles.",
+  "path_algorithm": "Visibility graph on polygon ring vertices and exact query endpoints with whole-segment coverage and obstacle checks; shortest UTM length.",
+  "selection_rule": "Use N2_MAIN; N3 one-factor sensitivity only, no post-hoc selection."
+}
