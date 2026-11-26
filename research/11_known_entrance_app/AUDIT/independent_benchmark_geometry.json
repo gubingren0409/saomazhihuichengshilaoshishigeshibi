@@ -1,0 +1,3659 @@
+{
+  "reviewer": "/root/e2e_review",
+  "role": "POST_PREDICTION_EVALUATION_ONLY",
+  "author_scoring_or_constraint_functions_called": false,
+  "source_role": "Independent raw geometry parser; positive reference not read",
+  "parents": 25,
+  "method_query_rows": 123,
+  "summary": {
+    "M1-C": {
+      "NEGATIVE": {
+        "queries": 8,
+        "reached": 6
+      },
+      "POSITIVE": {
+        "queries": 33,
+        "reached": 20
+      }
+    },
+    "F0": {
+      "NEGATIVE": {
+        "queries": 8,
+        "reached": 6
+      },
+      "POSITIVE": {
+        "queries": 33,
+        "reached": 26
+      }
+    },
+    "F1": {
+      "NEGATIVE": {
+        "queries": 8,
+        "reached": 6
+      },
+      "POSITIVE": {
+        "queries": 33,
+        "reached": 26
+      }
+    }
+  },
+  "f0_f1_identity_errors": [],
+  "recorded_read_identity_errors": [],
+  "rows": [
+    {
+      "input_id": "W0440b97497a_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 62.48455728576897,
+        "layer_lengths": {
+          "native": 62.48455728576897
+        },
+        "cost_m": 62.48455728576897,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3759763513b64277e184aca607ecef5496e3f9fdfa210a77f5bd4ba70bf21634"
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 5.941480077023283,
+        "layer_lengths": {
+          "native": 5.941480077023283
+        },
+        "cost_m": 5.941480077023283,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3759763513b64277e184aca607ecef5496e3f9fdfa210a77f5bd4ba70bf21634"
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 62.48455728576897,
+        "layer_lengths": {
+          "native": 62.48455728576897
+        },
+        "cost_m": 62.48455728576897,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3759763513b64277e184aca607ecef5496e3f9fdfa210a77f5bd4ba70bf21634"
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 5.941480077023283,
+        "layer_lengths": {
+          "native": 5.941480077023283
+        },
+        "cost_m": 5.941480077023283,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3759763513b64277e184aca607ecef5496e3f9fdfa210a77f5bd4ba70bf21634"
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 62.48455728576897,
+        "layer_lengths": {
+          "native": 62.48455728576897
+        },
+        "cost_m": 62.48455728576897,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3759763513b64277e184aca607ecef5496e3f9fdfa210a77f5bd4ba70bf21634"
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 5.941480077023283,
+        "layer_lengths": {
+          "native": 5.941480077023283
+        },
+        "cost_m": 5.941480077023283,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3759763513b64277e184aca607ecef5496e3f9fdfa210a77f5bd4ba70bf21634"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "caaadfa1a522a9c3786ae983be7068d113e0a19624b4c4b9bb4fd4665963c759"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "caaadfa1a522a9c3786ae983be7068d113e0a19624b4c4b9bb4fd4665963c759"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q3",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "caaadfa1a522a9c3786ae983be7068d113e0a19624b4c4b9bb4fd4665963c759"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "caaadfa1a522a9c3786ae983be7068d113e0a19624b4c4b9bb4fd4665963c759"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "caaadfa1a522a9c3786ae983be7068d113e0a19624b4c4b9bb4fd4665963c759"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q3",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "caaadfa1a522a9c3786ae983be7068d113e0a19624b4c4b9bb4fd4665963c759"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "caaadfa1a522a9c3786ae983be7068d113e0a19624b4c4b9bb4fd4665963c759"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "caaadfa1a522a9c3786ae983be7068d113e0a19624b4c4b9bb4fd4665963c759"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q3",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "caaadfa1a522a9c3786ae983be7068d113e0a19624b4c4b9bb4fd4665963c759"
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "2b8c7fe324411cd820700e1eadd19265d57aa2b7d26f5e00d344926a2de983dc"
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "2b8c7fe324411cd820700e1eadd19265d57aa2b7d26f5e00d344926a2de983dc"
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 33.225433402314884,
+        "layer_lengths": {
+          "inferred": 33.225433402314884
+        },
+        "cost_m": 33.225433402314884,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 7.105427357601002e-15,
+        "saved_cost_error_m": 7.105427357601002e-15
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "2b8c7fe324411cd820700e1eadd19265d57aa2b7d26f5e00d344926a2de983dc"
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 32.04603515661283,
+        "layer_lengths": {
+          "inferred": 32.04603515661283
+        },
+        "cost_m": 32.04603515661283,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "2b8c7fe324411cd820700e1eadd19265d57aa2b7d26f5e00d344926a2de983dc"
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 33.225433402314884,
+        "layer_lengths": {
+          "inferred": 33.225433402314884
+        },
+        "cost_m": 66.45086680462977,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 7.105427357601002e-15,
+        "saved_cost_error_m": 1.4210854715202004e-14
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "2b8c7fe324411cd820700e1eadd19265d57aa2b7d26f5e00d344926a2de983dc"
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 32.04603515661283,
+        "layer_lengths": {
+          "inferred": 32.04603515661283
+        },
+        "cost_m": 64.09207031322566,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "2b8c7fe324411cd820700e1eadd19265d57aa2b7d26f5e00d344926a2de983dc"
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 75.46782768054138,
+        "layer_lengths": {
+          "native": 75.46782768054138
+        },
+        "cost_m": 75.46782768054138,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3ae1cd195e107451d6edd8ab542208f025c1120c5216df73f24a779e21693e90"
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 32.66846252332543,
+        "layer_lengths": {
+          "native": 32.66846252332543
+        },
+        "cost_m": 32.66846252332543,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3ae1cd195e107451d6edd8ab542208f025c1120c5216df73f24a779e21693e90"
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 75.46782768054138,
+        "layer_lengths": {
+          "native": 75.46782768054138
+        },
+        "cost_m": 75.46782768054138,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3ae1cd195e107451d6edd8ab542208f025c1120c5216df73f24a779e21693e90"
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 32.66846252332543,
+        "layer_lengths": {
+          "native": 32.66846252332543
+        },
+        "cost_m": 32.66846252332543,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3ae1cd195e107451d6edd8ab542208f025c1120c5216df73f24a779e21693e90"
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 75.46782768054138,
+        "layer_lengths": {
+          "native": 75.46782768054138
+        },
+        "cost_m": 75.46782768054138,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3ae1cd195e107451d6edd8ab542208f025c1120c5216df73f24a779e21693e90"
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 32.66846252332543,
+        "layer_lengths": {
+          "native": 32.66846252332543
+        },
+        "cost_m": 32.66846252332543,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "3ae1cd195e107451d6edd8ab542208f025c1120c5216df73f24a779e21693e90"
+    },
+    {
+      "input_id": "W384c2d89f5c_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 162.0680671573897,
+        "layer_lengths": {
+          "native": 162.0680671573897
+        },
+        "cost_m": 162.0680671573897,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "379bc002b61c9941fa61bbf3884801134d1c1881ffd5aa6d434e68722765e847"
+    },
+    {
+      "input_id": "W384c2d89f5c_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 178.88781731397987,
+        "layer_lengths": {
+          "native": 178.88781731397987
+        },
+        "cost_m": 178.88781731397987,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "379bc002b61c9941fa61bbf3884801134d1c1881ffd5aa6d434e68722765e847"
+    },
+    {
+      "input_id": "W384c2d89f5c_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 27.595769413806785,
+        "layer_lengths": {
+          "inferred": 27.595769413806785
+        },
+        "cost_m": 27.595769413806785,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 3.552713678800501e-15,
+        "saved_cost_error_m": 3.552713678800501e-15
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "379bc002b61c9941fa61bbf3884801134d1c1881ffd5aa6d434e68722765e847"
+    },
+    {
+      "input_id": "W384c2d89f5c_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 31.375712726731397,
+        "layer_lengths": {
+          "inferred": 31.375712726731397
+        },
+        "cost_m": 31.375712726731397,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "379bc002b61c9941fa61bbf3884801134d1c1881ffd5aa6d434e68722765e847"
+    },
+    {
+      "input_id": "W384c2d89f5c_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 27.595769413806785,
+        "layer_lengths": {
+          "inferred": 27.595769413806785
+        },
+        "cost_m": 55.19153882761357,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 3.552713678800501e-15,
+        "saved_cost_error_m": 7.105427357601002e-15
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "379bc002b61c9941fa61bbf3884801134d1c1881ffd5aa6d434e68722765e847"
+    },
+    {
+      "input_id": "W384c2d89f5c_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 31.375712726731397,
+        "layer_lengths": {
+          "inferred": 31.375712726731397
+        },
+        "cost_m": 62.751425453462794,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "379bc002b61c9941fa61bbf3884801134d1c1881ffd5aa6d434e68722765e847"
+    },
+    {
+      "input_id": "W4d1eccec240_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "7a94741c68cb5ef6012bc87274c5cba9887c8ee30f86e459dc1a11aec32a6213"
+    },
+    {
+      "input_id": "W4d1eccec240_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "7a94741c68cb5ef6012bc87274c5cba9887c8ee30f86e459dc1a11aec32a6213"
+    },
+    {
+      "input_id": "W4d1eccec240_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "F0",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "7a94741c68cb5ef6012bc87274c5cba9887c8ee30f86e459dc1a11aec32a6213"
+    },
+    {
+      "input_id": "W4d1eccec240_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "F0",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "7a94741c68cb5ef6012bc87274c5cba9887c8ee30f86e459dc1a11aec32a6213"
+    },
+    {
+      "input_id": "W4d1eccec240_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "F1",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "7a94741c68cb5ef6012bc87274c5cba9887c8ee30f86e459dc1a11aec32a6213"
+    },
+    {
+      "input_id": "W4d1eccec240_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "F1",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "7a94741c68cb5ef6012bc87274c5cba9887c8ee30f86e459dc1a11aec32a6213"
+    },
+    {
+      "input_id": "W71107d26ecd_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "UNAVAILABLE_ENDPOINT",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "1d29c69b4d548ad3db96fd4392e1e147c1e45cf453c18e121579b126f24663b0"
+    },
+    {
+      "input_id": "W71107d26ecd_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 21.87795069489255,
+        "layer_lengths": {
+          "inferred": 21.87795069489255
+        },
+        "cost_m": 21.87795069489255,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 3.552713678800501e-15,
+        "saved_cost_error_m": 3.552713678800501e-15
+      },
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "1d29c69b4d548ad3db96fd4392e1e147c1e45cf453c18e121579b126f24663b0"
+    },
+    {
+      "input_id": "W71107d26ecd_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 21.87795069489255,
+        "layer_lengths": {
+          "inferred": 21.87795069489255
+        },
+        "cost_m": 43.7559013897851,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 3.552713678800501e-15,
+        "saved_cost_error_m": 7.105427357601002e-15
+      },
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "1d29c69b4d548ad3db96fd4392e1e147c1e45cf453c18e121579b126f24663b0"
+    },
+    {
+      "input_id": "W745941f0f92_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 50.90299658264581,
+        "layer_lengths": {
+          "unknown": 1.1249543773571578,
+          "inferred": 31.219519607083335,
+          "native": 18.55852259820532
+        },
+        "cost_m": 50.90299658264581,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "061c11a490e4ed64fd4509927dfddd2f345864ad63b8910334ba274ae207af34"
+    },
+    {
+      "input_id": "W745941f0f92_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 65.67833964372655,
+        "layer_lengths": {
+          "native": 33.333865659286054,
+          "unknown": 1.1249543773571578,
+          "inferred": 31.219519607083335
+        },
+        "cost_m": 65.67833964372655,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "061c11a490e4ed64fd4509927dfddd2f345864ad63b8910334ba274ae207af34"
+    },
+    {
+      "input_id": "W745941f0f92_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 15.723156099076306,
+        "layer_lengths": {
+          "inferred": 15.723156099076306
+        },
+        "cost_m": 15.723156099076306,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 1.7763568394002505e-15,
+        "saved_cost_error_m": 1.7763568394002505e-15
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "061c11a490e4ed64fd4509927dfddd2f345864ad63b8910334ba274ae207af34"
+    },
+    {
+      "input_id": "W745941f0f92_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 26.916987055721076,
+        "layer_lengths": {
+          "inferred": 26.916987055721076
+        },
+        "cost_m": 26.916987055721076,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "061c11a490e4ed64fd4509927dfddd2f345864ad63b8910334ba274ae207af34"
+    },
+    {
+      "input_id": "W745941f0f92_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 15.723156099076306,
+        "layer_lengths": {
+          "inferred": 15.723156099076306
+        },
+        "cost_m": 31.44631219815261,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 1.7763568394002505e-15,
+        "saved_cost_error_m": 3.552713678800501e-15
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "061c11a490e4ed64fd4509927dfddd2f345864ad63b8910334ba274ae207af34"
+    },
+    {
+      "input_id": "W745941f0f92_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 30.498499160157035,
+        "layer_lengths": {
+          "native": 14.775343061080731,
+          "inferred": 15.723156099076306
+        },
+        "cost_m": 46.221655259233344,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 7.105427357601002e-15
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "061c11a490e4ed64fd4509927dfddd2f345864ad63b8910334ba274ae207af34"
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "98dd799e1886a4e3fd500ca782de31f8cc9f4af17481f96bfd51390ead1a654b"
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "98dd799e1886a4e3fd500ca782de31f8cc9f4af17481f96bfd51390ead1a654b"
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 28.62350696290169,
+        "layer_lengths": {
+          "inferred": 28.62350696290169
+        },
+        "cost_m": 28.62350696290169,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "98dd799e1886a4e3fd500ca782de31f8cc9f4af17481f96bfd51390ead1a654b"
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 27.13612735993206,
+        "layer_lengths": {
+          "inferred": 27.13612735993206
+        },
+        "cost_m": 27.13612735993206,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 7.105427357601002e-15,
+        "saved_cost_error_m": 7.105427357601002e-15
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "98dd799e1886a4e3fd500ca782de31f8cc9f4af17481f96bfd51390ead1a654b"
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 28.62350696290169,
+        "layer_lengths": {
+          "inferred": 28.62350696290169
+        },
+        "cost_m": 57.24701392580338,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "98dd799e1886a4e3fd500ca782de31f8cc9f4af17481f96bfd51390ead1a654b"
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 27.13612735993206,
+        "layer_lengths": {
+          "inferred": 27.13612735993206
+        },
+        "cost_m": 54.27225471986412,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 7.105427357601002e-15,
+        "saved_cost_error_m": 1.4210854715202004e-14
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "98dd799e1886a4e3fd500ca782de31f8cc9f4af17481f96bfd51390ead1a654b"
+    },
+    {
+      "input_id": "W85f439ac693_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 51.55157981382569,
+        "layer_lengths": {
+          "native": 51.55157981382569
+        },
+        "cost_m": 51.55157981382569,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "c3227b3fad97b010a7dadabe326be462d8074c3f654afe17fec3dbe633a03446"
+    },
+    {
+      "input_id": "W85f439ac693_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 15.303646404596373,
+        "layer_lengths": {
+          "native": 15.303646404596373
+        },
+        "cost_m": 15.303646404596373,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "c3227b3fad97b010a7dadabe326be462d8074c3f654afe17fec3dbe633a03446"
+    },
+    {
+      "input_id": "W85f439ac693_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 25.605886571665668,
+        "layer_lengths": {
+          "inferred": 25.605886571665668
+        },
+        "cost_m": 25.605886571665668,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "c3227b3fad97b010a7dadabe326be462d8074c3f654afe17fec3dbe633a03446"
+    },
+    {
+      "input_id": "W85f439ac693_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 15.303646404596373,
+        "layer_lengths": {
+          "native": 15.303646404596373
+        },
+        "cost_m": 15.303646404596373,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "c3227b3fad97b010a7dadabe326be462d8074c3f654afe17fec3dbe633a03446"
+    },
+    {
+      "input_id": "W85f439ac693_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 25.605886571665668,
+        "layer_lengths": {
+          "inferred": 25.605886571665668
+        },
+        "cost_m": 51.211773143331335,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "c3227b3fad97b010a7dadabe326be462d8074c3f654afe17fec3dbe633a03446"
+    },
+    {
+      "input_id": "W85f439ac693_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 15.303646404596373,
+        "layer_lengths": {
+          "native": 15.303646404596373
+        },
+        "cost_m": 15.303646404596373,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "c3227b3fad97b010a7dadabe326be462d8074c3f654afe17fec3dbe633a03446"
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 43.54006837782682,
+        "layer_lengths": {
+          "native": 43.54006837782682
+        },
+        "cost_m": 43.54006837782682,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "9f76b7646cb80685f03ab96b6ed6747c1a1116a1e83dcae7a6301bc1689abdf7"
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 43.905726624857294,
+        "layer_lengths": {
+          "native": 26.997039784566685,
+          "unknown": 0.8277782002131491,
+          "inferred": 16.080908640077464
+        },
+        "cost_m": 43.905726624857294,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "9f76b7646cb80685f03ab96b6ed6747c1a1116a1e83dcae7a6301bc1689abdf7"
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 43.54006837782682,
+        "layer_lengths": {
+          "native": 43.54006837782682
+        },
+        "cost_m": 43.54006837782682,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "9f76b7646cb80685f03ab96b6ed6747c1a1116a1e83dcae7a6301bc1689abdf7"
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 39.87889951554472,
+        "layer_lengths": {
+          "inferred": 36.223794942233454,
+          "native": 3.6551045733112626
+        },
+        "cost_m": 39.87889951554472,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "9f76b7646cb80685f03ab96b6ed6747c1a1116a1e83dcae7a6301bc1689abdf7"
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 43.54006837782682,
+        "layer_lengths": {
+          "native": 43.54006837782682
+        },
+        "cost_m": 43.54006837782682,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "9f76b7646cb80685f03ab96b6ed6747c1a1116a1e83dcae7a6301bc1689abdf7"
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 42.758446886437945,
+        "layer_lengths": {
+          "native": 26.997039784566685,
+          "inferred": 15.761407101871256
+        },
+        "cost_m": 58.519853988309194,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 7.105427357601002e-15,
+        "saved_cost_error_m": 7.105427357601002e-15
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "9f76b7646cb80685f03ab96b6ed6747c1a1116a1e83dcae7a6301bc1689abdf7"
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "9e99a1ce937f8b547443ed6b0ada82445e2a4a65a58a7f8d0f9e2dd5d883c470"
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 17.361351489786415,
+        "layer_lengths": {
+          "native": 17.361351489786415
+        },
+        "cost_m": 17.361351489786415,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+        "source_constraint_geometry_count": 2338,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "9e99a1ce937f8b547443ed6b0ada82445e2a4a65a58a7f8d0f9e2dd5d883c470"
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "9e99a1ce937f8b547443ed6b0ada82445e2a4a65a58a7f8d0f9e2dd5d883c470"
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 17.361351489786415,
+        "layer_lengths": {
+          "native": 17.361351489786415
+        },
+        "cost_m": 17.361351489786415,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+        "source_constraint_geometry_count": 2338,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "9e99a1ce937f8b547443ed6b0ada82445e2a4a65a58a7f8d0f9e2dd5d883c470"
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "9e99a1ce937f8b547443ed6b0ada82445e2a4a65a58a7f8d0f9e2dd5d883c470"
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 17.361351489786415,
+        "layer_lengths": {
+          "native": 17.361351489786415
+        },
+        "cost_m": 17.361351489786415,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+        "source_constraint_geometry_count": 2338,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "9e99a1ce937f8b547443ed6b0ada82445e2a4a65a58a7f8d0f9e2dd5d883c470"
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "2c2de1ff4939e783b37def05b85cb514a7500a09fdcc3f6b3c8a4bc35ada5b23"
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 21.110995685619145,
+        "layer_lengths": {
+          "native": 21.110995685619145
+        },
+        "cost_m": 21.110995685619145,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+        "source_constraint_geometry_count": 2338,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "2c2de1ff4939e783b37def05b85cb514a7500a09fdcc3f6b3c8a4bc35ada5b23"
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "2c2de1ff4939e783b37def05b85cb514a7500a09fdcc3f6b3c8a4bc35ada5b23"
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 21.110995685619145,
+        "layer_lengths": {
+          "native": 21.110995685619145
+        },
+        "cost_m": 21.110995685619145,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+        "source_constraint_geometry_count": 2338,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "2c2de1ff4939e783b37def05b85cb514a7500a09fdcc3f6b3c8a4bc35ada5b23"
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "2c2de1ff4939e783b37def05b85cb514a7500a09fdcc3f6b3c8a4bc35ada5b23"
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 21.110995685619145,
+        "layer_lengths": {
+          "native": 21.110995685619145
+        },
+        "cost_m": 21.110995685619145,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+        "source_constraint_geometry_count": 2338,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "2c2de1ff4939e783b37def05b85cb514a7500a09fdcc3f6b3c8a4bc35ada5b23"
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 13.691533088427382,
+        "layer_lengths": {
+          "derived": 13.691533088427382
+        },
+        "cost_m": 13.691533088427382,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 1.7763568394002505e-15,
+        "saved_cost_error_m": 1.7763568394002505e-15
+      },
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "0f74ac4013d12b2372de62458f59cf373e9c2a7fe9020f1db81633d776785fe0"
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 26.29650184291521,
+        "layer_lengths": {
+          "derived": 26.29650184291521
+        },
+        "cost_m": 26.29650184291521,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "0f74ac4013d12b2372de62458f59cf373e9c2a7fe9020f1db81633d776785fe0"
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 13.691533088427382,
+        "layer_lengths": {
+          "derived": 13.691533088427382
+        },
+        "cost_m": 13.691533088427382,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 1.7763568394002505e-15,
+        "saved_cost_error_m": 1.7763568394002505e-15
+      },
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "0f74ac4013d12b2372de62458f59cf373e9c2a7fe9020f1db81633d776785fe0"
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 26.29650184291521,
+        "layer_lengths": {
+          "derived": 26.29650184291521
+        },
+        "cost_m": 26.29650184291521,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "0f74ac4013d12b2372de62458f59cf373e9c2a7fe9020f1db81633d776785fe0"
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 13.691533088427382,
+        "layer_lengths": {
+          "derived": 13.691533088427382
+        },
+        "cost_m": 13.691533088427382,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 1.7763568394002505e-15,
+        "saved_cost_error_m": 1.7763568394002505e-15
+      },
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "0f74ac4013d12b2372de62458f59cf373e9c2a7fe9020f1db81633d776785fe0"
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 26.29650184291521,
+        "layer_lengths": {
+          "derived": 26.29650184291521
+        },
+        "cost_m": 26.29650184291521,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "0f74ac4013d12b2372de62458f59cf373e9c2a7fe9020f1db81633d776785fe0"
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "96a04bb46d7b923bb7301561188ee7b4ce071163e57be240e05108896c845693"
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "96a04bb46d7b923bb7301561188ee7b4ce071163e57be240e05108896c845693"
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "96a04bb46d7b923bb7301561188ee7b4ce071163e57be240e05108896c845693"
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "96a04bb46d7b923bb7301561188ee7b4ce071163e57be240e05108896c845693"
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "96a04bb46d7b923bb7301561188ee7b4ce071163e57be240e05108896c845693"
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "96a04bb46d7b923bb7301561188ee7b4ce071163e57be240e05108896c845693"
+    },
+    {
+      "input_id": "Wa426c5c4d49_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 127.9647436274458,
+        "layer_lengths": {
+          "native": 127.9647436274458
+        },
+        "cost_m": 127.9647436274458,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "492130d26f742dc214fdbeebf57da4a81e43d6b90dc5ad105ed1cce73ed81d84"
+    },
+    {
+      "input_id": "Wa426c5c4d49_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 15.2517308262244,
+        "layer_lengths": {
+          "native": 15.2517308262244
+        },
+        "cost_m": 15.2517308262244,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "492130d26f742dc214fdbeebf57da4a81e43d6b90dc5ad105ed1cce73ed81d84"
+    },
+    {
+      "input_id": "Wa426c5c4d49_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 127.9647436274458,
+        "layer_lengths": {
+          "native": 127.9647436274458
+        },
+        "cost_m": 127.9647436274458,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "492130d26f742dc214fdbeebf57da4a81e43d6b90dc5ad105ed1cce73ed81d84"
+    },
+    {
+      "input_id": "Wa426c5c4d49_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 15.2517308262244,
+        "layer_lengths": {
+          "native": 15.2517308262244
+        },
+        "cost_m": 15.2517308262244,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "492130d26f742dc214fdbeebf57da4a81e43d6b90dc5ad105ed1cce73ed81d84"
+    },
+    {
+      "input_id": "Wa426c5c4d49_N_080",
+      "query_id": "Q1",
+      "label": "NEGATIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 127.9647436274458,
+        "layer_lengths": {
+          "native": 127.9647436274458
+        },
+        "cost_m": 127.9647436274458,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "492130d26f742dc214fdbeebf57da4a81e43d6b90dc5ad105ed1cce73ed81d84"
+    },
+    {
+      "input_id": "Wa426c5c4d49_N_080",
+      "query_id": "Q2",
+      "label": "NEGATIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 15.2517308262244,
+        "layer_lengths": {
+          "native": 15.2517308262244
+        },
+        "cost_m": 15.2517308262244,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "492130d26f742dc214fdbeebf57da4a81e43d6b90dc5ad105ed1cce73ed81d84"
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 44.477388729946135,
+        "layer_lengths": {
+          "native": 44.477388729946135
+        },
+        "cost_m": 44.477388729946135,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "e6835145930d236d53a48357d6cefcfaff97c02b809b96125a28448c5a57933e"
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 59.209085500552874,
+        "layer_lengths": {
+          "derived": 22.69143368011507,
+          "native": 36.517651820437806
+        },
+        "cost_m": 59.209085500552874,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 7.105427357601002e-15,
+        "saved_cost_error_m": 7.105427357601002e-15
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "e6835145930d236d53a48357d6cefcfaff97c02b809b96125a28448c5a57933e"
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 44.477388729946135,
+        "layer_lengths": {
+          "native": 44.477388729946135
+        },
+        "cost_m": 44.477388729946135,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "e6835145930d236d53a48357d6cefcfaff97c02b809b96125a28448c5a57933e"
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 59.209085500552874,
+        "layer_lengths": {
+          "derived": 22.69143368011507,
+          "native": 36.517651820437806
+        },
+        "cost_m": 59.209085500552874,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 7.105427357601002e-15,
+        "saved_cost_error_m": 7.105427357601002e-15
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "e6835145930d236d53a48357d6cefcfaff97c02b809b96125a28448c5a57933e"
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 44.477388729946135,
+        "layer_lengths": {
+          "native": 44.477388729946135
+        },
+        "cost_m": 44.477388729946135,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "e6835145930d236d53a48357d6cefcfaff97c02b809b96125a28448c5a57933e"
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 59.209085500552874,
+        "layer_lengths": {
+          "derived": 22.69143368011507,
+          "native": 36.517651820437806
+        },
+        "cost_m": 59.209085500552874,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 7.105427357601002e-15,
+        "saved_cost_error_m": 7.105427357601002e-15
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "e6835145930d236d53a48357d6cefcfaff97c02b809b96125a28448c5a57933e"
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 92.78503524256153,
+        "layer_lengths": {
+          "native": 92.78503524256153
+        },
+        "cost_m": 92.78503524256153,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "781af6e526daf0019964b48845b249a73bf66b71d945651826e00802ed5088af"
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 10.528099216105009,
+        "layer_lengths": {
+          "native": 10.528099216105009
+        },
+        "cost_m": 10.528099216105009,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "781af6e526daf0019964b48845b249a73bf66b71d945651826e00802ed5088af"
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 28.793492415255027,
+        "layer_lengths": {
+          "inferred": 28.793492415255027
+        },
+        "cost_m": 28.793492415255027,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "781af6e526daf0019964b48845b249a73bf66b71d945651826e00802ed5088af"
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 10.528099216105009,
+        "layer_lengths": {
+          "native": 10.528099216105009
+        },
+        "cost_m": 10.528099216105009,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "781af6e526daf0019964b48845b249a73bf66b71d945651826e00802ed5088af"
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 28.793492415255027,
+        "layer_lengths": {
+          "inferred": 28.793492415255027
+        },
+        "cost_m": 57.586984830510055,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "781af6e526daf0019964b48845b249a73bf66b71d945651826e00802ed5088af"
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 10.528099216105009,
+        "layer_lengths": {
+          "native": 10.528099216105009
+        },
+        "cost_m": 10.528099216105009,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "781af6e526daf0019964b48845b249a73bf66b71d945651826e00802ed5088af"
+    },
+    {
+      "input_id": "Wce5a4f14276_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": false,
+      "status": "NO_PATH",
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "source_check": null,
+      "result_sha256": "1b95d2fdac09cc2493b3182c2db2380ea517300e7d440f98d1f12575b8f391c3"
+    },
+    {
+      "input_id": "Wce5a4f14276_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 24.746162980945904,
+        "layer_lengths": {
+          "inferred": 24.746162980945904
+        },
+        "cost_m": 24.746162980945904,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+        "source_constraint_geometry_count": 2338,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "1b95d2fdac09cc2493b3182c2db2380ea517300e7d440f98d1f12575b8f391c3"
+    },
+    {
+      "input_id": "Wce5a4f14276_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 24.746162980945904,
+        "layer_lengths": {
+          "inferred": 24.746162980945904
+        },
+        "cost_m": 49.49232596189181,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+        "source_constraint_geometry_count": 2338,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "1b95d2fdac09cc2493b3182c2db2380ea517300e7d440f98d1f12575b8f391c3"
+    },
+    {
+      "input_id": "Wdb2b99d1247_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 58.68450617509335,
+        "layer_lengths": {
+          "native": 58.68450617509335
+        },
+        "cost_m": 58.68450617509335,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "be949e48a927ece8ecdba303e0935fa22f441a81be2b0cf90b8471db190a43b6"
+    },
+    {
+      "input_id": "Wdb2b99d1247_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 19.71936682274868,
+        "layer_lengths": {
+          "native": 19.71936682274868
+        },
+        "cost_m": 19.71936682274868,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "be949e48a927ece8ecdba303e0935fa22f441a81be2b0cf90b8471db190a43b6"
+    },
+    {
+      "input_id": "Wdb2b99d1247_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 11.798595495471476,
+        "layer_lengths": {
+          "inferred": 11.798595495471476
+        },
+        "cost_m": 11.798595495471476,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 1.7763568394002505e-15,
+        "saved_cost_error_m": 1.7763568394002505e-15
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "be949e48a927ece8ecdba303e0935fa22f441a81be2b0cf90b8471db190a43b6"
+    },
+    {
+      "input_id": "Wdb2b99d1247_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 19.71936682274868,
+        "layer_lengths": {
+          "native": 19.71936682274868
+        },
+        "cost_m": 19.71936682274868,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "be949e48a927ece8ecdba303e0935fa22f441a81be2b0cf90b8471db190a43b6"
+    },
+    {
+      "input_id": "Wdb2b99d1247_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 11.798595495471476,
+        "layer_lengths": {
+          "inferred": 11.798595495471476
+        },
+        "cost_m": 23.597190990942952,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 1.7763568394002505e-15,
+        "saved_cost_error_m": 3.552713678800501e-15
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "be949e48a927ece8ecdba303e0935fa22f441a81be2b0cf90b8471db190a43b6"
+    },
+    {
+      "input_id": "Wdb2b99d1247_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 19.71936682274868,
+        "layer_lengths": {
+          "native": 19.71936682274868
+        },
+        "cost_m": 19.71936682274868,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+        "source_constraint_geometry_count": 3742,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "be949e48a927ece8ecdba303e0935fa22f441a81be2b0cf90b8471db190a43b6"
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 13.317933722467131,
+        "layer_lengths": {
+          "native": 1.6706485959522133,
+          "inferred": 11.64728512651492
+        },
+        "cost_m": 13.317933722467131,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 1.7763568394002505e-15,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "290dc89ca312033d025f6ef4fc9bfe4f82c87166a00bd96a92f39ef03717d6e9"
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "M1-C",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 22.626122762080193,
+        "layer_lengths": {
+          "native": 22.626122762080193
+        },
+        "cost_m": 22.626122762080193,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "290dc89ca312033d025f6ef4fc9bfe4f82c87166a00bd96a92f39ef03717d6e9"
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 13.453545922093802,
+        "layer_lengths": {
+          "inferred": 13.453545922093802
+        },
+        "cost_m": 13.453545922093802,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "290dc89ca312033d025f6ef4fc9bfe4f82c87166a00bd96a92f39ef03717d6e9"
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F0",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 22.626122762080193,
+        "layer_lengths": {
+          "native": 22.626122762080193
+        },
+        "cost_m": 22.626122762080193,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "290dc89ca312033d025f6ef4fc9bfe4f82c87166a00bd96a92f39ef03717d6e9"
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "query_id": "Q1",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 14.54675521107665,
+        "layer_lengths": {
+          "native": 14.54675521107665
+        },
+        "cost_m": 14.54675521107665,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 1.7763568394002505e-15,
+        "saved_cost_error_m": 1.7763568394002505e-15
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "290dc89ca312033d025f6ef4fc9bfe4f82c87166a00bd96a92f39ef03717d6e9"
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "query_id": "Q2",
+      "label": "POSITIVE",
+      "method": "F1",
+      "reached": true,
+      "status": "ROUTED",
+      "metrics": {
+        "length_m": 22.626122762080193,
+        "layer_lengths": {
+          "native": 22.626122762080193
+        },
+        "cost_m": 22.626122762080193,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "saved_length_error_m": 0.0,
+        "saved_cost_error_m": 0.0
+      },
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "result_sha256": "290dc89ca312033d025f6ef4fc9bfe4f82c87166a00bd96a92f39ef03717d6e9"
+    }
+  ],
+  "limits": [
+    "Recorded file-read audit inspected; not an OS-level syscall proof",
+    "Raw source geometric checks are not complete physical/layer/public-access verification",
+    "Same-source exposed benchmark, not new independent scenes"
+  ]
+}

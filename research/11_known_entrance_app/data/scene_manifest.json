@@ -1,0 +1,123 @@
+{
+  "crs": "EPSG:32651",
+  "channel": "APP_NATURAL_QUERY",
+  "scene_count": 6,
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "label": "上海博物馆人民广场馆",
+      "source_path": "data/scenes/sh-huangpu-01/source.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "building_native_id": "way/161090899",
+      "registered_entrance_count": 2,
+      "full_source_clip_bounds": [
+        121.453,
+        31.216,
+        121.488,
+        31.244
+      ],
+      "role": "APP_NATURAL_QUERY",
+      "source": "OpenStreetMap frozen clip, ODbL; © OpenStreetMap contributors; no new API",
+      "mapped_edges_path": "data/scenes/sh-huangpu-01/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "mapped_edge_count": 98102
+    },
+    {
+      "scene_id": "sh-wukang",
+      "label": "武康大楼",
+      "source_path": "data/scenes/sh-wukang/source.osm.json",
+      "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "building_native_id": "way/293434151",
+      "registered_entrance_count": 0,
+      "full_source_clip_bounds": [
+        121.4161549072511,
+        31.194017950952123,
+        121.4512465927489,
+        31.21852626140535
+      ],
+      "role": "APP_NATURAL_QUERY",
+      "source": "OpenStreetMap frozen clip, ODbL; © OpenStreetMap contributors; no new API",
+      "mapped_edges_path": "data/scenes/sh-wukang/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "mapped_edge_count": 0
+    },
+    {
+      "scene_id": "sh-tower",
+      "label": "上海中心大厦",
+      "source_path": "data/scenes/sh-tower/source.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "building_native_id": "way/165792123",
+      "registered_entrance_count": 0,
+      "full_source_clip_bounds": [
+        121.48372090725108,
+        31.22336795421446,
+        121.51881259274889,
+        31.247868657294042
+      ],
+      "role": "APP_NATURAL_QUERY",
+      "source": "OpenStreetMap frozen clip, ODbL; © OpenStreetMap contributors; no new API",
+      "mapped_edges_path": "data/scenes/sh-tower/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "d664bcc5d13518c1890c66980a585d81503712e82f95afb64177d4d2de94468c",
+      "mapped_edge_count": 3957
+    },
+    {
+      "scene_id": "sh-newworld",
+      "label": "新世界城",
+      "source_path": "data/scenes/sh-newworld/source.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "building_native_id": "way/51317339",
+      "registered_entrance_count": 0,
+      "full_source_clip_bounds": [
+        121.45153915725106,
+        31.224814541750792,
+        121.48663084274887,
+        31.24931486971595
+      ],
+      "role": "APP_NATURAL_QUERY",
+      "source": "OpenStreetMap frozen clip, ODbL; © OpenStreetMap contributors; no new API",
+      "mapped_edges_path": "data/scenes/sh-newworld/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "9031f3ccd3802fe3ef8bf74385fccdbc0947be2cd53311973ad54546a19c7ab8",
+      "mapped_edge_count": 47732
+    },
+    {
+      "scene_id": "sh-library",
+      "label": "上海图书馆淮海路馆",
+      "source_path": "data/scenes/sh-library/source.osm.json",
+      "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "building_native_id": "way/293434188",
+      "registered_entrance_count": 1,
+      "full_source_clip_bounds": [
+        121.42246960725109,
+        31.19722121588461,
+        121.45756129274889,
+        31.221728696380126
+      ],
+      "role": "APP_NATURAL_QUERY",
+      "source": "OpenStreetMap frozen clip, ODbL; © OpenStreetMap contributors; no new API",
+      "mapped_edges_path": "data/scenes/sh-library/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7",
+      "mapped_edge_count": 5435
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "label": "上海展览中心",
+      "source_path": "data/scenes/sh-exhibition/source.osm.json",
+      "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "building_native_id": "relation/7469147",
+      "registered_entrance_count": 0,
+      "full_source_clip_bounds": [
+        121.43077670725108,
+        31.21448305254272,
+        121.46586839274889,
+        31.238986059222622
+      ],
+      "role": "APP_NATURAL_QUERY",
+      "source": "OpenStreetMap frozen clip, ODbL; © OpenStreetMap contributors; no new API",
+      "mapped_edges_path": "data/scenes/sh-exhibition/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "mapped_edge_count": 0
+    }
+  ],
+  "no_entrance_generation": true,
+  "mapped_network": "Exact R4-REV1 R1_AREA_EDGE_MAIN 3m edge band, .5m grid, .25m clearance unchanged; not full-face open"
+}

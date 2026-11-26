@@ -1,0 +1,32 @@
+{
+  "defect": "Same stable preprocessing key overwrote a shipped previous cold-build timing receipt",
+  "first_candidate_sha256": "406c97059a7d9c6049e35b4d9defc9045eb53e95286263b76ef50adc06f3c2a5",
+  "first_candidate_outcome": "FAIL despite genuine new116.742m native route",
+  "affected_shipped_file": "runs/preprocessing/07747db655fee11ae9eb3b289d8cafd677491c814097f7f02f17430389268064.json",
+  "changed_old_fields": [
+    "source.time_s",
+    "prepare_s"
+  ],
+  "fix": "Cold receipts use stable key plus unique PREP UUID; each execution append-only",
+  "source_code_change": "src/planner.py metadata output naming only",
+  "not_changed": [
+    "sources",
+    "door coordinates/roles",
+    "prediction surface",
+    "constraints",
+    "graph/interfaces",
+    "F0/F1 weights",
+    "six geometric algorithm modules",
+    "historical scores"
+  ],
+  "regression_required": [
+    "Two independent cold CLI executions with same key and preserved pre-existing receipts",
+    "Repeat12 existing APP cases and real UI/export",
+    "New sealed fixed ZIP and unchanged-member clean replay"
+  ],
+  "status": "PASS",
+  "started_at": "2026-11-11T19:28:37.793806+08:00",
+  "two_cold_cli": "PASS; all previous receipts unchanged",
+  "full_app_retest": "12 existing cases same status/route/surface/graph; APP13 scope rejection added",
+  "final_package": "R1 still pending independent clean replay"
+}

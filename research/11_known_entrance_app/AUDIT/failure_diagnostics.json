@@ -1,0 +1,3497 @@
+[
+  {
+    "input_id": "W0caca58bc41_G_080",
+    "query_id": "Q1",
+    "query": {
+      "query_id": "Q1",
+      "source": {
+        "id": "node/3551786369",
+        "xy": [
+          354187.5274808725,
+          3456201.604545914
+        ],
+        "role": "NATIVE_NODE"
+      },
+      "target": {
+        "id": "node/1890811950",
+        "xy": [
+          354181.9135412902,
+          3456175.295566553
+        ],
+        "role": "NATIVE_NODE"
+      }
+    },
+    "target_identity": "FIXED_NATIVE_NETWORK_QUERY_NOT_REGISTERED_ENTRANCE",
+    "endpoints": [
+      {
+        "id": "node/3551786369",
+        "xy": [
+          354187.5274808725,
+          3456201.604545914
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": true,
+        "native": {
+          "present": true,
+          "component": 3,
+          "size": 33,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "local": {
+          "present": false
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": [
+          "cell/354187/3456201/757",
+          [
+            {
+              "xy": [
+                [
+                  354187.5274808725,
+                  3456201.604545914
+                ],
+                [
+                  354187.5,
+                  3456201.5
+                ]
+              ],
+              "layer": "inferred",
+              "source_id": "cell/354187/3456201/757",
+              "length_m": 0.10809739363230274,
+              "cost_m": 0.10809739363230274,
+              "geometry_kind": "FROZEN_INFERRED_REGION",
+              "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION"
+            }
+          ]
+        ],
+        "near_candidates": [
+          {
+            "cell_id": "cell/354187/3456201/757",
+            "xy": [
+              354187.5,
+              3456201.5
+            ],
+            "distance_m": 0.10809739363230274,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354187/3456202/758",
+            "xy": [
+              354187.5,
+              3456202.5
+            ],
+            "distance_m": 0.8958756712320106,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354188/3456201/814",
+            "xy": [
+              354188.5,
+              3456201.5
+            ],
+            "distance_m": 0.9781223346110389,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354186/3456201/699",
+            "xy": [
+              354186.5,
+              3456201.5
+            ],
+            "distance_m": 1.0327859369468801,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354187/3456200/756",
+            "xy": [
+              354187.5,
+              3456200.5
+            ],
+            "distance_m": 1.104887720410897,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354188/3456202/815",
+            "xy": [
+              354188.5,
+              3456202.5
+            ],
+            "distance_m": 1.3219801334589933,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354186/3456202/700",
+            "xy": [
+              354186.5,
+              3456202.5
+            ],
+            "distance_m": 1.3629214809924135,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354188/3456200/813",
+            "xy": [
+              354188.5,
+              3456200.5
+            ],
+            "distance_m": 1.471670863226435,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354186/3456200/698",
+            "xy": [
+              354186.5,
+              3456200.5
+            ],
+            "distance_m": 1.508555143095517,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/1890750297",
+            "v": "node/3551786369",
+            "source_id": "way/178721891",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                354189.66817012,
+                3456202.7722641034
+              ],
+              [
+                354187.5274808725,
+                3456201.604545914
+              ]
+            ]
+          },
+          {
+            "u": "node/3551786369",
+            "v": "node/1890750297",
+            "source_id": "way/178721891",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                354187.5274808725,
+                3456201.604545914
+              ],
+              [
+                354189.66817012,
+                3456202.7722641034
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 3,
+          "size": 1387,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "strong_before": {
+          "present": true,
+          "component": 3,
+          "size": 1387,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        }
+      },
+      {
+        "id": "node/1890811950",
+        "xy": [
+          354181.9135412902,
+          3456175.295566553
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": false,
+        "native": {
+          "present": true,
+          "component": 8,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "local": {
+          "present": false
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/354181/3456175/405",
+            "xy": [
+              354181.5,
+              3456175.5
+            ],
+            "distance_m": 0.46131272803762036,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354182/3456175/455",
+            "xy": [
+              354182.5,
+              3456175.5
+            ],
+            "distance_m": 0.6210691206527592,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354181/3456174/404",
+            "xy": [
+              354181.5,
+              3456174.5
+            ],
+            "distance_m": 0.8966284284016982,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354182/3456174/454",
+            "xy": [
+              354182.5,
+              3456174.5
+            ],
+            "distance_m": 0.9883622606094282,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354181/3456176/406",
+            "xy": [
+              354181.5,
+              3456176.5
+            ],
+            "distance_m": 1.2734505594960974,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354182/3456176/456",
+            "xy": [
+              354182.5,
+              3456176.5
+            ],
+            "distance_m": 1.339624479867326,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354180/3456175/357",
+            "xy": [
+              354180.5,
+              3456175.5
+            ],
+            "distance_m": 1.4282478823616829,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354183/3456175/508",
+            "xy": [
+              354183.5,
+              3456175.5
+            ],
+            "distance_m": 1.599576278958672,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/1890812028",
+            "v": "node/1890811950",
+            "source_id": "way/178723095",
+            "tags": {
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                354174.09846792545,
+                3456186.0805391576
+              ],
+              [
+                354181.9135412902,
+                3456175.295566553
+              ]
+            ]
+          },
+          {
+            "u": "node/1890811950",
+            "v": "node/1890812028",
+            "source_id": "way/178723095",
+            "tags": {
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                354181.9135412902,
+                3456175.295566553
+              ],
+              [
+                354174.09846792545,
+                3456186.0805391576
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 8,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "strong_before": {
+          "present": true,
+          "component": 8,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        }
+      }
+    ],
+    "old_actual_reroute": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "correct_binding_diagnostic_route": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "frontier": [
+      {
+        "distance_m": 0.46131272803762036,
+        "from_id": "cell/354181/3456175/405",
+        "to_id": "node/1890811950",
+        "xy": [
+          [
+            354181.5,
+            3456175.5
+          ],
+          [
+            354181.9135412902,
+            3456175.295566553
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.5806680679957209,
+        "from_id": "cell/354174/3456186/119",
+        "to_id": "node/1890812028",
+        "xy": [
+          [
+            354174.5,
+            3456186.5
+          ],
+          [
+            354174.09846792545,
+            3456186.0805391576
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.6210691206527592,
+        "from_id": "cell/354182/3456175/455",
+        "to_id": "node/1890811950",
+        "xy": [
+          [
+            354182.5,
+            3456175.5
+          ],
+          [
+            354181.9135412902,
+            3456175.295566553
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      }
+    ],
+    "native_rejected": [],
+    "source_hashes": {
+      "data\\observed\\W0caca58bc41_G_080.json": "4e88618757ca2f3ae8bbfb82b1edcb7e35012df436bc29e5a4538adc5271c9a8",
+      "data\\queries\\W0caca58bc41.json": "dad66fb8d94175f7560d8ba7e224a058398d9a378599402b89b03433cbce0547",
+      "data\\constraints\\W0caca58bc41_G_080.json": "c0408a59895171d9d977fae43a2bc00253906570de4369ae391d15f28bd2343c",
+      "data\\graphs\\W0caca58bc41_G_080\\F0.graph.json.gz": "1fd960c88ebad15e5cdbbf56ef03f838098e3d7eee0777e98fdcd56e463fd83a"
+    },
+    "diagnostic_role": "FROZEN_PREPROCESSING_DIAGNOSTIC_NOT_FRESH_CLASSIFICATION; NO_REFERENCE_READ"
+  },
+  {
+    "input_id": "W0caca58bc41_G_080",
+    "query_id": "Q2",
+    "query": {
+      "query_id": "Q2",
+      "source": {
+        "id": "node/3551786369",
+        "xy": [
+          354187.5274808725,
+          3456201.604545914
+        ],
+        "role": "NATIVE_NODE"
+      },
+      "target": {
+        "id": "node/1890812028",
+        "xy": [
+          354174.09846792545,
+          3456186.0805391576
+        ],
+        "role": "NATIVE_NODE"
+      }
+    },
+    "target_identity": "FIXED_NATIVE_NETWORK_QUERY_NOT_REGISTERED_ENTRANCE",
+    "endpoints": [
+      {
+        "id": "node/3551786369",
+        "xy": [
+          354187.5274808725,
+          3456201.604545914
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": true,
+        "native": {
+          "present": true,
+          "component": 3,
+          "size": 33,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "local": {
+          "present": false
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": [
+          "cell/354187/3456201/757",
+          [
+            {
+              "xy": [
+                [
+                  354187.5274808725,
+                  3456201.604545914
+                ],
+                [
+                  354187.5,
+                  3456201.5
+                ]
+              ],
+              "layer": "inferred",
+              "source_id": "cell/354187/3456201/757",
+              "length_m": 0.10809739363230274,
+              "cost_m": 0.10809739363230274,
+              "geometry_kind": "FROZEN_INFERRED_REGION",
+              "level": "UNKNOWN_LOCAL_OUTDOOR_ASSUMPTION"
+            }
+          ]
+        ],
+        "near_candidates": [
+          {
+            "cell_id": "cell/354187/3456201/757",
+            "xy": [
+              354187.5,
+              3456201.5
+            ],
+            "distance_m": 0.10809739363230274,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354187/3456202/758",
+            "xy": [
+              354187.5,
+              3456202.5
+            ],
+            "distance_m": 0.8958756712320106,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354188/3456201/814",
+            "xy": [
+              354188.5,
+              3456201.5
+            ],
+            "distance_m": 0.9781223346110389,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354186/3456201/699",
+            "xy": [
+              354186.5,
+              3456201.5
+            ],
+            "distance_m": 1.0327859369468801,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354187/3456200/756",
+            "xy": [
+              354187.5,
+              3456200.5
+            ],
+            "distance_m": 1.104887720410897,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354188/3456202/815",
+            "xy": [
+              354188.5,
+              3456202.5
+            ],
+            "distance_m": 1.3219801334589933,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354186/3456202/700",
+            "xy": [
+              354186.5,
+              3456202.5
+            ],
+            "distance_m": 1.3629214809924135,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354188/3456200/813",
+            "xy": [
+              354188.5,
+              3456200.5
+            ],
+            "distance_m": 1.471670863226435,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354186/3456200/698",
+            "xy": [
+              354186.5,
+              3456200.5
+            ],
+            "distance_m": 1.508555143095517,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/1890750297",
+            "v": "node/3551786369",
+            "source_id": "way/178721891",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                354189.66817012,
+                3456202.7722641034
+              ],
+              [
+                354187.5274808725,
+                3456201.604545914
+              ]
+            ]
+          },
+          {
+            "u": "node/3551786369",
+            "v": "node/1890750297",
+            "source_id": "way/178721891",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                354187.5274808725,
+                3456201.604545914
+              ],
+              [
+                354189.66817012,
+                3456202.7722641034
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 3,
+          "size": 1387,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "strong_before": {
+          "present": true,
+          "component": 3,
+          "size": 1387,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        }
+      },
+      {
+        "id": "node/1890812028",
+        "xy": [
+          354174.09846792545,
+          3456186.0805391576
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": false,
+        "native": {
+          "present": true,
+          "component": 8,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "local": {
+          "present": false
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/354174/3456186/119",
+            "xy": [
+              354174.5,
+              3456186.5
+            ],
+            "distance_m": 0.5806680679957209,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354174/3456185/118",
+            "xy": [
+              354174.5,
+              3456185.5
+            ],
+            "distance_m": 0.7058708950070878,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354173/3456186/87",
+            "xy": [
+              354173.5,
+              3456186.5
+            ],
+            "distance_m": 0.7308291565639413,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354173/3456185/86",
+            "xy": [
+              354173.5,
+              3456185.5
+            ],
+            "distance_m": 0.8337802895920398,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354175/3456186/154",
+            "xy": [
+              354175.5,
+              3456186.5
+            ],
+            "distance_m": 1.462955759514212,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354174/3456187/120",
+            "xy": [
+              354174.5,
+              3456187.5
+            ],
+            "distance_m": 1.475160021815145,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354175/3456185/153",
+            "xy": [
+              354175.5,
+              3456185.5
+            ],
+            "distance_m": 1.5170095153043794,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354173/3456187/88",
+            "xy": [
+              354173.5,
+              3456187.5
+            ],
+            "distance_m": 1.540465170283229,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/1890811950",
+            "v": "node/1890812028",
+            "source_id": "way/178723095",
+            "tags": {
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                354181.9135412902,
+                3456175.295566553
+              ],
+              [
+                354174.09846792545,
+                3456186.0805391576
+              ]
+            ]
+          },
+          {
+            "u": "node/1890812028",
+            "v": "node/1890811950",
+            "source_id": "way/178723095",
+            "tags": {
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                354174.09846792545,
+                3456186.0805391576
+              ],
+              [
+                354181.9135412902,
+                3456175.295566553
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 8,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "strong_before": {
+          "present": true,
+          "component": 8,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        }
+      }
+    ],
+    "old_actual_reroute": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "correct_binding_diagnostic_route": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "frontier": [
+      {
+        "distance_m": 0.46131272803762036,
+        "from_id": "cell/354181/3456175/405",
+        "to_id": "node/1890811950",
+        "xy": [
+          [
+            354181.5,
+            3456175.5
+          ],
+          [
+            354181.9135412902,
+            3456175.295566553
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.5806680679957209,
+        "from_id": "cell/354174/3456186/119",
+        "to_id": "node/1890812028",
+        "xy": [
+          [
+            354174.5,
+            3456186.5
+          ],
+          [
+            354174.09846792545,
+            3456186.0805391576
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.6210691206527592,
+        "from_id": "cell/354182/3456175/455",
+        "to_id": "node/1890811950",
+        "xy": [
+          [
+            354182.5,
+            3456175.5
+          ],
+          [
+            354181.9135412902,
+            3456175.295566553
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      }
+    ],
+    "native_rejected": [],
+    "source_hashes": {
+      "data\\observed\\W0caca58bc41_G_080.json": "4e88618757ca2f3ae8bbfb82b1edcb7e35012df436bc29e5a4538adc5271c9a8",
+      "data\\queries\\W0caca58bc41.json": "dad66fb8d94175f7560d8ba7e224a058398d9a378599402b89b03433cbce0547",
+      "data\\constraints\\W0caca58bc41_G_080.json": "c0408a59895171d9d977fae43a2bc00253906570de4369ae391d15f28bd2343c",
+      "data\\graphs\\W0caca58bc41_G_080\\F0.graph.json.gz": "1fd960c88ebad15e5cdbbf56ef03f838098e3d7eee0777e98fdcd56e463fd83a"
+    },
+    "diagnostic_role": "FROZEN_PREPROCESSING_DIAGNOSTIC_NOT_FRESH_CLASSIFICATION; NO_REFERENCE_READ"
+  },
+  {
+    "input_id": "W0caca58bc41_G_080",
+    "query_id": "Q3",
+    "query": {
+      "query_id": "Q3",
+      "source": {
+        "id": "node/1890811950",
+        "xy": [
+          354181.9135412902,
+          3456175.295566553
+        ],
+        "role": "NATIVE_NODE"
+      },
+      "target": {
+        "id": "node/1890750297",
+        "xy": [
+          354189.66817012,
+          3456202.7722641034
+        ],
+        "role": "NATIVE_NODE"
+      }
+    },
+    "target_identity": "FIXED_NATIVE_NETWORK_QUERY_NOT_REGISTERED_ENTRANCE",
+    "endpoints": [
+      {
+        "id": "node/1890811950",
+        "xy": [
+          354181.9135412902,
+          3456175.295566553
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": false,
+        "native": {
+          "present": true,
+          "component": 8,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "local": {
+          "present": false
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/354181/3456175/405",
+            "xy": [
+              354181.5,
+              3456175.5
+            ],
+            "distance_m": 0.46131272803762036,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354182/3456175/455",
+            "xy": [
+              354182.5,
+              3456175.5
+            ],
+            "distance_m": 0.6210691206527592,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354181/3456174/404",
+            "xy": [
+              354181.5,
+              3456174.5
+            ],
+            "distance_m": 0.8966284284016982,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354182/3456174/454",
+            "xy": [
+              354182.5,
+              3456174.5
+            ],
+            "distance_m": 0.9883622606094282,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354181/3456176/406",
+            "xy": [
+              354181.5,
+              3456176.5
+            ],
+            "distance_m": 1.2734505594960974,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354182/3456176/456",
+            "xy": [
+              354182.5,
+              3456176.5
+            ],
+            "distance_m": 1.339624479867326,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354180/3456175/357",
+            "xy": [
+              354180.5,
+              3456175.5
+            ],
+            "distance_m": 1.4282478823616829,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354183/3456175/508",
+            "xy": [
+              354183.5,
+              3456175.5
+            ],
+            "distance_m": 1.599576278958672,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/1890812028",
+            "v": "node/1890811950",
+            "source_id": "way/178723095",
+            "tags": {
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                354174.09846792545,
+                3456186.0805391576
+              ],
+              [
+                354181.9135412902,
+                3456175.295566553
+              ]
+            ]
+          },
+          {
+            "u": "node/1890811950",
+            "v": "node/1890812028",
+            "source_id": "way/178723095",
+            "tags": {
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                354181.9135412902,
+                3456175.295566553
+              ],
+              [
+                354174.09846792545,
+                3456186.0805391576
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 8,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "strong_before": {
+          "present": true,
+          "component": 8,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        }
+      },
+      {
+        "id": "node/1890750297",
+        "xy": [
+          354189.66817012,
+          3456202.7722641034
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": true,
+        "native": {
+          "present": true,
+          "component": 3,
+          "size": 33,
+          "degree": 4,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        "local": {
+          "present": true,
+          "component": 0,
+          "size": 1358,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/354189/3456202/876",
+            "xy": [
+              354189.5,
+              3456202.5
+            ],
+            "distance_m": 0.32001395478759487,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 10
+          },
+          {
+            "cell_id": "cell/354189/3456203/877",
+            "xy": [
+              354189.5,
+              3456203.5
+            ],
+            "distance_m": 0.7469141345887368,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354190/3456202/938",
+            "xy": [
+              354190.5,
+              3456202.5
+            ],
+            "distance_m": 0.8752535011576836,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354190/3456203/939",
+            "xy": [
+              354190.5,
+              3456203.5
+            ],
+            "distance_m": 1.105233226282321,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354188/3456202/815",
+            "xy": [
+              354188.5,
+              3456202.5
+            ],
+            "distance_m": 1.1994787081181602,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354189/3456201/875",
+            "xy": [
+              354189.5,
+              3456201.5
+            ],
+            "distance_m": 1.2833304866904518,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354188/3456203/816",
+            "xy": [
+              354188.5,
+              3456203.5
+            ],
+            "distance_m": 1.3763070022413078,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/354190/3456201/937",
+            "xy": [
+              354190.5,
+              3456201.5
+            ],
+            "distance_m": 1.5200647677316708,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/1890812040",
+            "v": "node/1890750297",
+            "source_id": "way/178721891",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                354203.898442962,
+                3456183.306078803
+              ],
+              [
+                354189.66817012,
+                3456202.7722641034
+              ]
+            ]
+          },
+          {
+            "u": "node/3551786369",
+            "v": "node/1890750297",
+            "source_id": "way/178721891",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                354187.5274808725,
+                3456201.604545914
+              ],
+              [
+                354189.66817012,
+                3456202.7722641034
+              ]
+            ]
+          },
+          {
+            "u": "node/1890750297",
+            "v": "node/1890812040",
+            "source_id": "way/178721891",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                354189.66817012,
+                3456202.7722641034
+              ],
+              [
+                354203.898442962,
+                3456183.306078803
+              ]
+            ]
+          },
+          {
+            "u": "node/1890750297",
+            "v": "node/3551786369",
+            "source_id": "way/178721891",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                354189.66817012,
+                3456202.7722641034
+              ],
+              [
+                354187.5274808725,
+                3456201.604545914
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 3,
+          "size": 1387,
+          "degree": 6,
+          "in_degree": 3,
+          "out_degree": 3
+        },
+        "strong_before": {
+          "present": true,
+          "component": 3,
+          "size": 1387,
+          "degree": 6,
+          "in_degree": 3,
+          "out_degree": 3
+        }
+      }
+    ],
+    "old_actual_reroute": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "correct_binding_diagnostic_route": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "frontier": [
+      {
+        "distance_m": 0.46131272803762036,
+        "from_id": "node/1890811950",
+        "to_id": "cell/354181/3456175/405",
+        "xy": [
+          [
+            354181.9135412902,
+            3456175.295566553
+          ],
+          [
+            354181.5,
+            3456175.5
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.5806680679957209,
+        "from_id": "node/1890812028",
+        "to_id": "cell/354174/3456186/119",
+        "xy": [
+          [
+            354174.09846792545,
+            3456186.0805391576
+          ],
+          [
+            354174.5,
+            3456186.5
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      }
+    ],
+    "native_rejected": [],
+    "source_hashes": {
+      "data\\observed\\W0caca58bc41_G_080.json": "4e88618757ca2f3ae8bbfb82b1edcb7e35012df436bc29e5a4538adc5271c9a8",
+      "data\\queries\\W0caca58bc41.json": "dad66fb8d94175f7560d8ba7e224a058398d9a378599402b89b03433cbce0547",
+      "data\\constraints\\W0caca58bc41_G_080.json": "c0408a59895171d9d977fae43a2bc00253906570de4369ae391d15f28bd2343c",
+      "data\\graphs\\W0caca58bc41_G_080\\F0.graph.json.gz": "1fd960c88ebad15e5cdbbf56ef03f838098e3d7eee0777e98fdcd56e463fd83a"
+    },
+    "diagnostic_role": "FROZEN_PREPROCESSING_DIAGNOSTIC_NOT_FRESH_CLASSIFICATION; NO_REFERENCE_READ"
+  },
+  {
+    "input_id": "W902d9fe8127_G_080",
+    "query_id": "Q1",
+    "query": {
+      "query_id": "Q1",
+      "source": {
+        "id": "node/7576890790",
+        "xy": [
+          357353.08924700855,
+          3456335.844553767
+        ],
+        "role": "NATIVE_NODE"
+      },
+      "target": {
+        "id": "node/7048495378",
+        "xy": [
+          357356.8102922356,
+          3456328.5323085315
+        ],
+        "role": "NATIVE_NODE"
+      }
+    },
+    "target_identity": "FIXED_NATIVE_NETWORK_QUERY_NOT_REGISTERED_ENTRANCE",
+    "endpoints": [
+      {
+        "id": "node/7576890790",
+        "xy": [
+          357353.08924700855,
+          3456335.844553767
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": false,
+        "native": {
+          "present": true,
+          "component": 1,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "local": {
+          "present": false
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/357353/3456335/1141",
+            "xy": [
+              357353.5,
+              3456335.5
+            ],
+            "distance_m": 0.5361299452369007,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357352/3456335/1080",
+            "xy": [
+              357352.5,
+              3456335.5
+            ],
+            "distance_m": 0.6825901664141314,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357353/3456336/1142",
+            "xy": [
+              357353.5,
+              3456336.5
+            ],
+            "distance_m": 0.773516505729141,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357352/3456336/1081",
+            "xy": [
+              357352.5,
+              3456336.5
+            ],
+            "distance_m": 0.8813749495764953,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357353/3456334/1140",
+            "xy": [
+              357353.5,
+              3456334.5
+            ],
+            "distance_m": 1.4058957471036122,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357354/3456335/1203",
+            "xy": [
+              357354.5,
+              3456335.5
+            ],
+            "distance_m": 1.4522194397108765,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357352/3456334/1079",
+            "xy": [
+              357352.5,
+              3456334.5
+            ],
+            "distance_m": 1.4680043831097962,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357354/3456336/1204",
+            "xy": [
+              357354.5,
+              3456336.5
+            ],
+            "distance_m": 1.5555814885533545,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/7576890789",
+            "v": "node/7576890790",
+            "source_id": "way/810390869",
+            "tags": {
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                357351.54884367384,
+                3456338.869937552
+              ],
+              [
+                357353.08924700855,
+                3456335.844553767
+              ]
+            ]
+          },
+          {
+            "u": "node/7576890790",
+            "v": "node/7576890789",
+            "source_id": "way/810390869",
+            "tags": {
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                357353.08924700855,
+                3456335.844553767
+              ],
+              [
+                357351.54884367384,
+                3456338.869937552
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 1,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "strong_before": {
+          "present": true,
+          "component": 1,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        }
+      },
+      {
+        "id": "node/7048495378",
+        "xy": [
+          357356.8102922356,
+          3456328.5323085315
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": true,
+        "native": {
+          "present": true,
+          "component": 0,
+          "size": 53,
+          "degree": 4,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        "local": {
+          "present": true,
+          "component": 0,
+          "size": 2239,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/357356/3456328/1319",
+            "xy": [
+              357356.5,
+              3456328.5
+            ],
+            "distance_m": 0.31196973036430664,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 10
+          },
+          {
+            "cell_id": "cell/357357/3456328/1381",
+            "xy": [
+              357357.5,
+              3456328.5
+            ],
+            "distance_m": 0.6904640769166384,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357356/3456329/1320",
+            "xy": [
+              357356.5,
+              3456329.5
+            ],
+            "distance_m": 1.0162224410751497,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357356/3456327/1318",
+            "xy": [
+              357356.5,
+              3456327.5
+            ],
+            "distance_m": 1.0779342167230892,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357357/3456329/1382",
+            "xy": [
+              357357.5,
+              3456329.5
+            ],
+            "distance_m": 1.18832806017257,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357357/3456327/1380",
+            "xy": [
+              357357.5,
+              3456327.5
+            ],
+            "distance_m": 1.2415142787866709,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357355/3456328/1257",
+            "xy": [
+              357355.5,
+              3456328.5
+            ],
+            "distance_m": 1.3106904988649344,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/7048495377",
+            "v": "node/7048495378",
+            "source_id": "way/754483188",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357342.87352258165,
+                3456318.044757061
+              ],
+              [
+                357356.8102922356,
+                3456328.5323085315
+              ]
+            ]
+          },
+          {
+            "u": "node/7048495379",
+            "v": "node/7048495378",
+            "source_id": "way/754483188",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357372.2556540355,
+                3456336.4605696537
+              ],
+              [
+                357356.8102922356,
+                3456328.5323085315
+              ]
+            ]
+          },
+          {
+            "u": "node/7048495378",
+            "v": "node/7048495377",
+            "source_id": "way/754483188",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357356.8102922356,
+                3456328.5323085315
+              ],
+              [
+                357342.87352258165,
+                3456318.044757061
+              ]
+            ]
+          },
+          {
+            "u": "node/7048495378",
+            "v": "node/7048495379",
+            "source_id": "way/754483188",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357356.8102922356,
+                3456328.5323085315
+              ],
+              [
+                357372.2556540355,
+                3456336.4605696537
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 0,
+          "size": 2287,
+          "degree": 6,
+          "in_degree": 3,
+          "out_degree": 3
+        },
+        "strong_before": {
+          "present": true,
+          "component": 0,
+          "size": 2287,
+          "degree": 6,
+          "in_degree": 3,
+          "out_degree": 3
+        }
+      }
+    ],
+    "old_actual_reroute": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "correct_binding_diagnostic_route": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "frontier": [
+      {
+        "distance_m": 0.44502980269541365,
+        "from_id": "node/7576890789",
+        "to_id": "cell/357351/3456339/1024",
+        "xy": [
+          [
+            357351.54884367384,
+            3456338.869937552
+          ],
+          [
+            357351.94433947094,
+            3456339.0739831347
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": [
+          {
+            "source_id": "way/673517953",
+            "kind": "BUILDING",
+            "intersection_length_m": 0.0,
+            "tags": {
+              "building": "apartments",
+              "building:levels": "25",
+              "height": "70",
+              "name": "29 - 30 phase Ⅱ"
+            }
+          }
+        ]
+      },
+      {
+        "distance_m": 0.5361299452369007,
+        "from_id": "node/7576890790",
+        "to_id": "cell/357353/3456335/1141",
+        "xy": [
+          [
+            357353.08924700855,
+            3456335.844553767
+          ],
+          [
+            357353.5,
+            3456335.5
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      }
+    ],
+    "native_rejected": [],
+    "source_hashes": {
+      "data\\observed\\W902d9fe8127_G_080.json": "4c8c03e49375aa4dde3514e93f2db27a7004bd1209595469eb4de9d5a95cbf74",
+      "data\\queries\\W902d9fe8127.json": "3b379aa6f703ee763f01eb805cfb45d3428e050a437be5f0d8c947b792be276c",
+      "data\\constraints\\W902d9fe8127_G_080.json": "427e64d372d3a24a9df0fcac8b7d2fdffbd407915914c38d09982e9bdf4a28f4",
+      "data\\graphs\\W902d9fe8127_G_080\\F0.graph.json.gz": "6183fcc50dfa9ed8b073c82502f67bf9061c0102d32f39804b6a36addd3b8289"
+    },
+    "diagnostic_role": "FROZEN_PREPROCESSING_DIAGNOSTIC_NOT_FRESH_CLASSIFICATION; NO_REFERENCE_READ"
+  },
+  {
+    "input_id": "W97b65e9a893_G_080",
+    "query_id": "Q1",
+    "query": {
+      "query_id": "Q1",
+      "source": {
+        "id": "node/1993253294",
+        "xy": [
+          357148.2030880271,
+          3457132.334481113
+        ],
+        "role": "NATIVE_NODE"
+      },
+      "target": {
+        "id": "node/1993253296",
+        "xy": [
+          357150.1308230612,
+          3457138.904909476
+        ],
+        "role": "NATIVE_NODE"
+      }
+    },
+    "target_identity": "FIXED_NATIVE_NETWORK_QUERY_NOT_REGISTERED_ENTRANCE",
+    "endpoints": [
+      {
+        "id": "node/1993253294",
+        "xy": [
+          357148.2030880271,
+          3457132.334481113
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": true,
+        "native": {
+          "present": true,
+          "component": 1,
+          "size": 21,
+          "degree": 4,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        "local": {
+          "present": true,
+          "component": 9,
+          "size": 1524,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/357148/3457132/2272",
+            "xy": [
+              357148.5,
+              3457132.5
+            ],
+            "distance_m": 0.33993120124248855,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 10
+          },
+          {
+            "cell_id": "cell/357147/3457132/2213",
+            "xy": [
+              357147.5,
+              3457132.5
+            ],
+            "distance_m": 0.7223082968718344,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357148/3457131/2271",
+            "xy": [
+              357148.5,
+              3457131.5
+            ],
+            "distance_m": 0.8857287665123216,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357147/3457131/2212",
+            "xy": [
+              357147.5,
+              3457131.5
+            ],
+            "distance_m": 1.0911881148450837,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357148/3457133/2273",
+            "xy": [
+              357148.5,
+              3457133.5
+            ],
+            "distance_m": 1.2027431127754937,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357149/3457132/2330",
+            "xy": [
+              357149.5,
+              3457132.5
+            ],
+            "distance_m": 1.3074315153867266,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357147/3457133/2214",
+            "xy": [
+              357147.5,
+              3457133.5
+            ],
+            "distance_m": 1.361163858424331,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357149/3457131/2329",
+            "xy": [
+              357149.5,
+              3457131.5
+            ],
+            "distance_m": 1.5421865625389524,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/5344385217",
+            "v": "node/1993253294",
+            "source_id": "way/144724513",
+            "tags": {
+              "highway": "footway",
+              "surface": "paving_stones"
+            },
+            "xy": [
+              [
+                357142.5422536133,
+                3457137.766256602
+              ],
+              [
+                357148.2030880271,
+                3457132.334481113
+              ]
+            ]
+          },
+          {
+            "u": "node/4470914092",
+            "v": "node/1993253294",
+            "source_id": "way/144724513",
+            "tags": {
+              "highway": "footway",
+              "surface": "paving_stones"
+            },
+            "xy": [
+              [
+                357162.5000123327,
+                3457120.2996900743
+              ],
+              [
+                357148.2030880271,
+                3457132.334481113
+              ]
+            ]
+          },
+          {
+            "u": "node/1993253294",
+            "v": "node/5344385217",
+            "source_id": "way/144724513",
+            "tags": {
+              "highway": "footway",
+              "surface": "paving_stones"
+            },
+            "xy": [
+              [
+                357148.2030880271,
+                3457132.334481113
+              ],
+              [
+                357142.5422536133,
+                3457137.766256602
+              ]
+            ]
+          },
+          {
+            "u": "node/1993253294",
+            "v": "node/4470914092",
+            "source_id": "way/144724513",
+            "tags": {
+              "highway": "footway",
+              "surface": "paving_stones"
+            },
+            "xy": [
+              [
+                357148.2030880271,
+                3457132.334481113
+              ],
+              [
+                357162.5000123327,
+                3457120.2996900743
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 1,
+          "size": 1541,
+          "degree": 6,
+          "in_degree": 3,
+          "out_degree": 3
+        },
+        "strong_before": {
+          "present": true,
+          "component": 1,
+          "size": 1541,
+          "degree": 6,
+          "in_degree": 3,
+          "out_degree": 3
+        }
+      },
+      {
+        "id": "node/1993253296",
+        "xy": [
+          357150.1308230612,
+          3457138.904909476
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": false,
+        "native": {
+          "present": true,
+          "component": 3,
+          "size": 6,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "local": {
+          "present": false
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/357150/3457138/2394",
+            "xy": [
+              357150.5,
+              3457138.5
+            ],
+            "distance_m": 0.5479446103589587,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357150/3457139/2395",
+            "xy": [
+              357150.5,
+              3457139.5
+            ],
+            "distance_m": 0.7003030370325928,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357149/3457138/2336",
+            "xy": [
+              357149.5,
+              3457138.5
+            ],
+            "distance_m": 0.7495928351180153,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357149/3457139/2337",
+            "xy": [
+              357149.5,
+              3457139.5
+            ],
+            "distance_m": 0.8672199640897954,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357151/3457138/2451",
+            "xy": [
+              357151.5,
+              3457138.5
+            ],
+            "distance_m": 1.4277945137808163,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357150/3457137/2393",
+            "xy": [
+              357150.5,
+              3457137.5
+            ],
+            "distance_m": 1.452605331246512,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357151/3457139/2452",
+            "xy": [
+              357151.5,
+              3457139.5
+            ],
+            "distance_m": 1.492909314472329,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357149/3457137/2335",
+            "xy": [
+              357149.5,
+              3457137.5
+            ],
+            "distance_m": 1.5400351849242349,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/1993253298",
+            "v": "node/1993253296",
+            "source_id": "way/188703989",
+            "tags": {
+              "foot": "yes",
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                357151.4241011817,
+                3457142.246627188
+              ],
+              [
+                357150.1308230612,
+                3457138.904909476
+              ]
+            ]
+          },
+          {
+            "u": "node/1993253296",
+            "v": "node/1993253298",
+            "source_id": "way/188703989",
+            "tags": {
+              "foot": "yes",
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                357150.1308230612,
+                3457138.904909476
+              ],
+              [
+                357151.4241011817,
+                3457142.246627188
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 3,
+          "size": 6,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "strong_before": {
+          "present": true,
+          "component": 3,
+          "size": 6,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        }
+      }
+    ],
+    "old_actual_reroute": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "correct_binding_diagnostic_route": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "frontier": [
+      {
+        "distance_m": 0.2355816083104256,
+        "from_id": "cell/357157/3457143/2779",
+        "to_id": "node/1993253299",
+        "xy": [
+          [
+            357157.5,
+            3457143.5
+          ],
+          [
+            357157.3636322331,
+            3457143.307899697
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.26449652658159106,
+        "from_id": "cell/357151/3457142/2455",
+        "to_id": "node/1993253298",
+        "xy": [
+          [
+            357151.5,
+            3457142.5
+          ],
+          [
+            357151.4241011817,
+            3457142.246627188
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.3096029179104647,
+        "from_id": "cell/357159/3457132/2865",
+        "to_id": "node/1993253295",
+        "xy": [
+          [
+            357159.5,
+            3457132.5
+          ],
+          [
+            357159.2092210578,
+            3457132.6063088593
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      }
+    ],
+    "native_rejected": [
+      {
+        "u": "node/1777869669",
+        "v": "node/5344385215",
+        "reasons": [
+          "MAPPED_HARD_INTERIOR_CONFLICT"
+        ],
+        "segments": [
+          {
+            "xy": [
+              [
+                357138.9546602379,
+                3457121.905513476
+              ],
+              [
+                357138.45125620853,
+                3457113.597297383
+              ]
+            ],
+            "layer": "native",
+            "source_id": "way/166332967",
+            "length_m": 8.323453025430585,
+            "cost_m": 8.323453025430585,
+            "edge_id": "way/166332967/2/0.000000000-8.323453025:-1",
+            "tags": {
+              "footway": "sidewalk",
+              "highway": "footway",
+              "surface": "paving_stones"
+            },
+            "geometry_kind": "NATIVE_LINEAR"
+          }
+        ]
+      },
+      {
+        "u": "node/5344385215",
+        "v": "node/1777869669",
+        "reasons": [
+          "MAPPED_HARD_INTERIOR_CONFLICT"
+        ],
+        "segments": [
+          {
+            "xy": [
+              [
+                357138.45125620853,
+                3457113.597297383
+              ],
+              [
+                357138.9546602379,
+                3457121.905513476
+              ]
+            ],
+            "layer": "native",
+            "source_id": "way/166332967",
+            "length_m": 8.323453025430585,
+            "cost_m": 8.323453025430585,
+            "edge_id": "way/166332967/2/0.000000000-8.323453025:1",
+            "tags": {
+              "footway": "sidewalk",
+              "highway": "footway",
+              "surface": "paving_stones"
+            },
+            "geometry_kind": "NATIVE_LINEAR"
+          }
+        ]
+      }
+    ],
+    "source_hashes": {
+      "data\\observed\\W97b65e9a893_G_080.json": "e911c005b1031bd5a0892e963791fa29ff81aaa509926974e41d154fc084832c",
+      "data\\queries\\W97b65e9a893.json": "a645d8e5c35f48b4f042b99cfe0bd28e588598296d1e04b3cb4da270a089e3f8",
+      "data\\constraints\\W97b65e9a893_G_080.json": "9e231f1b86d2d8bde8cd67982104de754927f889c2afb3812485539fb94d21ff",
+      "data\\graphs\\W97b65e9a893_G_080\\F0.graph.json.gz": "e4653ded95843e6b663f8d5664356bc6c7ebf8dbc56eda00051f0e989fc29115"
+    },
+    "diagnostic_role": "FROZEN_PREPROCESSING_DIAGNOSTIC_NOT_FRESH_CLASSIFICATION; NO_REFERENCE_READ"
+  },
+  {
+    "input_id": "Wa273f228558_G_080",
+    "query_id": "Q1",
+    "query": {
+      "query_id": "Q1",
+      "source": {
+        "id": "node/1993253290",
+        "xy": [
+          357026.1829360889,
+          3457080.986621209
+        ],
+        "role": "NATIVE_NODE"
+      },
+      "target": {
+        "id": "node/1779952827",
+        "xy": [
+          357023.6163244565,
+          3457075.7774782414
+        ],
+        "role": "NATIVE_NODE"
+      }
+    },
+    "target_identity": "FIXED_NATIVE_NETWORK_QUERY_NOT_REGISTERED_ENTRANCE",
+    "endpoints": [
+      {
+        "id": "node/1993253290",
+        "xy": [
+          357026.1829360889,
+          3457080.986621209
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": true,
+        "native": {
+          "present": true,
+          "component": 1,
+          "size": 17,
+          "degree": 4,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        "local": {
+          "present": true,
+          "component": 0,
+          "size": 1145,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/357026/3457080/779",
+            "xy": [
+              357026.5,
+              3457080.5
+            ],
+            "distance_m": 0.5808009338308762,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 10
+          },
+          {
+            "cell_id": "cell/357026/3457081/780",
+            "xy": [
+              357026.5,
+              3457081.5
+            ],
+            "distance_m": 0.6033964756522968,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357025/3457080/714",
+            "xy": [
+              357025.5,
+              3457080.5
+            ],
+            "distance_m": 0.8385713460999403,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357025/3457081/715",
+            "xy": [
+              357025.5,
+              3457081.5
+            ],
+            "distance_m": 0.8543766643528257,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357027/3457080/850",
+            "xy": [
+              357027.5,
+              3457080.5
+            ],
+            "distance_m": 1.404086018368451,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357027/3457081/851",
+            "xy": [
+              357027.5,
+              3457081.5
+            ],
+            "distance_m": 1.413582374348437,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357026/3457079/778",
+            "xy": [
+              357026.5,
+              3457079.5
+            ],
+            "distance_m": 1.5200566248163332,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357026/3457082/781",
+            "xy": [
+              357026.5,
+              3457082.5
+            ],
+            "distance_m": 1.5462357158339113,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/5344386260",
+            "v": "node/1993253290",
+            "source_id": "way/166777749",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                356993.44500644645,
+                3457095.9109455394
+              ],
+              [
+                357026.1829360889,
+                3457080.986621209
+              ]
+            ]
+          },
+          {
+            "u": "node/1993253289",
+            "v": "node/1993253290",
+            "source_id": "way/166777749",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357034.955991963,
+                3457076.754197178
+              ],
+              [
+                357026.1829360889,
+                3457080.986621209
+              ]
+            ]
+          },
+          {
+            "u": "node/1993253290",
+            "v": "node/5344386260",
+            "source_id": "way/166777749",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357026.1829360889,
+                3457080.986621209
+              ],
+              [
+                356993.44500644645,
+                3457095.9109455394
+              ]
+            ]
+          },
+          {
+            "u": "node/1993253290",
+            "v": "node/1993253289",
+            "source_id": "way/166777749",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357026.1829360889,
+                3457080.986621209
+              ],
+              [
+                357034.955991963,
+                3457076.754197178
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 1,
+          "size": 1159,
+          "degree": 6,
+          "in_degree": 3,
+          "out_degree": 3
+        },
+        "strong_before": {
+          "present": true,
+          "component": 1,
+          "size": 1159,
+          "degree": 6,
+          "in_degree": 3,
+          "out_degree": 3
+        }
+      },
+      {
+        "id": "node/1779952827",
+        "xy": [
+          357023.6163244565,
+          3457075.7774782414
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": false,
+        "native": {
+          "present": true,
+          "component": 7,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "local": {
+          "present": false
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/357023/3457075/581",
+            "xy": [
+              357023.5,
+              3457075.5
+            ],
+            "distance_m": 0.3008746476774244,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357023/3457076/582",
+            "xy": [
+              357023.5,
+              3457076.5
+            ],
+            "distance_m": 0.7318258473787729,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357024/3457075/643",
+            "xy": [
+              357024.5,
+              3457075.5
+            ],
+            "distance_m": 0.926216303335751,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357024/3457076/644",
+            "xy": [
+              357024.5,
+              3457076.5
+            ],
+            "distance_m": 1.1414552807016087,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357022/3457075/517",
+            "xy": [
+              357022.5,
+              3457075.5
+            ],
+            "distance_m": 1.1502932089972038,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357023/3457074/580",
+            "xy": [
+              357023.5,
+              3457074.5
+            ],
+            "distance_m": 1.2827634374031596,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357022/3457076/518",
+            "xy": [
+              357022.5,
+              3457076.5
+            ],
+            "distance_m": 1.329743578266776,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357024/3457074/642",
+            "xy": [
+              357024.5,
+              3457074.5
+            ],
+            "distance_m": 1.553329689180085,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/1779952828",
+            "v": "node/1779952827",
+            "source_id": "way/166547266",
+            "tags": {
+              "conveying": "yes",
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                357044.2882721249,
+                3457066.0062631737
+              ],
+              [
+                357023.6163244565,
+                3457075.7774782414
+              ]
+            ]
+          },
+          {
+            "u": "node/1779952827",
+            "v": "node/1779952828",
+            "source_id": "way/166547266",
+            "tags": {
+              "conveying": "yes",
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                357023.6163244565,
+                3457075.7774782414
+              ],
+              [
+                357044.2882721249,
+                3457066.0062631737
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 7,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "strong_before": {
+          "present": true,
+          "component": 7,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        }
+      }
+    ],
+    "old_actual_reroute": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "correct_binding_diagnostic_route": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "frontier": [
+      {
+        "distance_m": 0.3008746476774244,
+        "from_id": "cell/357023/3457075/581",
+        "to_id": "node/1779952827",
+        "xy": [
+          [
+            357023.5,
+            3457075.5
+          ],
+          [
+            357023.6163244565,
+            3457075.7774782414
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.5372194586869726,
+        "from_id": "cell/357044/3457066/2066",
+        "to_id": "node/1779952828",
+        "xy": [
+          [
+            357044.5,
+            3457066.5
+          ],
+          [
+            357044.2882721249,
+            3457066.0062631737
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.54875412899934,
+        "from_id": "cell/357044/3457065/2065",
+        "to_id": "node/1779952828",
+        "xy": [
+          [
+            357044.5,
+            3457065.5
+          ],
+          [
+            357044.2882721249,
+            3457066.0062631737
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      }
+    ],
+    "native_rejected": [],
+    "source_hashes": {
+      "data\\observed\\Wa273f228558_G_080.json": "189b7a8ee2ae7b0809151ed384f1b1c9bc947711127f0e0fc454d3df98a84365",
+      "data\\queries\\Wa273f228558.json": "8732a797b29c4569ea313b8a7e4adf844207a68675de74dff3104f9f8dc77c91",
+      "data\\constraints\\Wa273f228558_G_080.json": "b0507e62dbd1badf6dbb418b181c0c1b271cd0125d1cb3fcd150a8c0c0beb655",
+      "data\\graphs\\Wa273f228558_G_080\\F0.graph.json.gz": "1713df268bb564f9aa0de7517e73de13a6c8e99a8a5a4667f6c110d1d120f28c"
+    },
+    "diagnostic_role": "FROZEN_PREPROCESSING_DIAGNOSTIC_NOT_FRESH_CLASSIFICATION; NO_REFERENCE_READ"
+  },
+  {
+    "input_id": "Wa273f228558_G_080",
+    "query_id": "Q2",
+    "query": {
+      "query_id": "Q2",
+      "source": {
+        "id": "node/1782221414",
+        "xy": [
+          357057.4785439337,
+          3457066.470039636
+        ],
+        "role": "NATIVE_NODE"
+      },
+      "target": {
+        "id": "node/1779952827",
+        "xy": [
+          357023.6163244565,
+          3457075.7774782414
+        ],
+        "role": "NATIVE_NODE"
+      }
+    },
+    "target_identity": "FIXED_NATIVE_NETWORK_QUERY_NOT_REGISTERED_ENTRANCE",
+    "endpoints": [
+      {
+        "id": "node/1782221414",
+        "xy": [
+          357057.4785439337,
+          3457066.470039636
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": true,
+        "native": {
+          "present": true,
+          "component": 1,
+          "size": 17,
+          "degree": 4,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        "local": {
+          "present": true,
+          "component": 0,
+          "size": 1145,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/357057/3457066/2974",
+            "xy": [
+              357057.5,
+              3457066.5
+            ],
+            "distance_m": 0.036850864273186026,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 10
+          },
+          {
+            "cell_id": "cell/357057/3457065/2973",
+            "xy": [
+              357057.5,
+              3457065.5
+            ],
+            "distance_m": 0.9702768975869962,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357056/3457066/2909",
+            "xy": [
+              357056.5,
+              3457066.5
+            ],
+            "distance_m": 0.9790024788657575,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357058/3457066/3036",
+            "xy": [
+              357058.5,
+              3457066.5
+            ],
+            "distance_m": 1.0218953560761803,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357057/3457067/2975",
+            "xy": [
+              357057.5,
+              3457067.5
+            ],
+            "distance_m": 1.0301838255400417,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357056/3457065/2908",
+            "xy": [
+              357056.5,
+              3457065.5
+            ],
+            "distance_m": 1.3778697781062852,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357058/3457065/3035",
+            "xy": [
+              357058.5,
+              3457065.5
+            ],
+            "distance_m": 1.4086693687886553,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357056/3457067/2910",
+            "xy": [
+              357056.5,
+              3457067.5
+            ],
+            "distance_m": 1.4206922896362648,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357058/3457067/3037",
+            "xy": [
+              357058.5,
+              3457067.5
+            ],
+            "distance_m": 1.4505829335052505,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/1993253289",
+            "v": "node/1782221414",
+            "source_id": "way/166777749",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357034.955991963,
+                3457076.754197178
+              ],
+              [
+                357057.4785439337,
+                3457066.470039636
+              ]
+            ]
+          },
+          {
+            "u": "node/1782221373",
+            "v": "node/1782221414",
+            "source_id": "way/166777749",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357066.32197805576,
+                3457061.10583915
+              ],
+              [
+                357057.4785439337,
+                3457066.470039636
+              ]
+            ]
+          },
+          {
+            "u": "node/1782221414",
+            "v": "node/1993253289",
+            "source_id": "way/166777749",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357057.4785439337,
+                3457066.470039636
+              ],
+              [
+                357034.955991963,
+                3457076.754197178
+              ]
+            ]
+          },
+          {
+            "u": "node/1782221414",
+            "v": "node/1782221373",
+            "source_id": "way/166777749",
+            "tags": {
+              "highway": "footway"
+            },
+            "xy": [
+              [
+                357057.4785439337,
+                3457066.470039636
+              ],
+              [
+                357066.32197805576,
+                3457061.10583915
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 1,
+          "size": 1159,
+          "degree": 6,
+          "in_degree": 3,
+          "out_degree": 3
+        },
+        "strong_before": {
+          "present": true,
+          "component": 1,
+          "size": 1159,
+          "degree": 6,
+          "in_degree": 3,
+          "out_degree": 3
+        }
+      },
+      {
+        "id": "node/1779952827",
+        "xy": [
+          357023.6163244565,
+          3457075.7774782414
+        ],
+        "role": "NATIVE_NODE",
+        "visible_eligible": false,
+        "native": {
+          "present": true,
+          "component": 7,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "local": {
+          "present": false
+        },
+        "point_states": [
+          "INFERRED_WALKABLE"
+        ],
+        "distance_to_active_m": 0.0,
+        "candidate_stitch": null,
+        "near_candidates": [
+          {
+            "cell_id": "cell/357023/3457075/581",
+            "xy": [
+              357023.5,
+              3457075.5
+            ],
+            "distance_m": 0.3008746476774244,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357023/3457076/582",
+            "xy": [
+              357023.5,
+              3457076.5
+            ],
+            "distance_m": 0.7318258473787729,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357024/3457075/643",
+            "xy": [
+              357024.5,
+              3457075.5
+            ],
+            "distance_m": 0.926216303335751,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357024/3457076/644",
+            "xy": [
+              357024.5,
+              3457076.5
+            ],
+            "distance_m": 1.1414552807016087,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357022/3457075/517",
+            "xy": [
+              357022.5,
+              3457075.5
+            ],
+            "distance_m": 1.1502932089972038,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357023/3457074/580",
+            "xy": [
+              357023.5,
+              3457074.5
+            ],
+            "distance_m": 1.2827634374031596,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357022/3457076/518",
+            "xy": [
+              357022.5,
+              3457076.5
+            ],
+            "distance_m": 1.329743578266776,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          },
+          {
+            "cell_id": "cell/357024/3457074/642",
+            "xy": [
+              357024.5,
+              3457074.5
+            ],
+            "distance_m": 1.553329689180085,
+            "conflicts": [],
+            "restricted_overlap_m": 0.0,
+            "cell_degree": 8
+          }
+        ],
+        "near_restrictions": [],
+        "native_adjacent": [
+          {
+            "u": "node/1779952828",
+            "v": "node/1779952827",
+            "source_id": "way/166547266",
+            "tags": {
+              "conveying": "yes",
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                357044.2882721249,
+                3457066.0062631737
+              ],
+              [
+                357023.6163244565,
+                3457075.7774782414
+              ]
+            ]
+          },
+          {
+            "u": "node/1779952827",
+            "v": "node/1779952828",
+            "source_id": "way/166547266",
+            "tags": {
+              "conveying": "yes",
+              "highway": "steps"
+            },
+            "xy": [
+              [
+                357023.6163244565,
+                3457075.7774782414
+              ],
+              [
+                357044.2882721249,
+                3457066.0062631737
+              ]
+            ]
+          }
+        ],
+        "combined_before": {
+          "present": true,
+          "component": 7,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        "strong_before": {
+          "present": true,
+          "component": 7,
+          "size": 2,
+          "degree": 2,
+          "in_degree": 1,
+          "out_degree": 1
+        }
+      }
+    ],
+    "old_actual_reroute": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "correct_binding_diagnostic_route": {
+      "status": "NO_PATH",
+      "length_m": null,
+      "cost_m": null,
+      "layer_lengths": {
+        "native": 0,
+        "derived": 0,
+        "inferred": 0,
+        "unknown": 0
+      },
+      "edges": [],
+      "reached": false
+    },
+    "frontier": [
+      {
+        "distance_m": 0.3008746476774244,
+        "from_id": "cell/357023/3457075/581",
+        "to_id": "node/1779952827",
+        "xy": [
+          [
+            357023.5,
+            3457075.5
+          ],
+          [
+            357023.6163244565,
+            3457075.7774782414
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.5372194586869726,
+        "from_id": "cell/357044/3457066/2066",
+        "to_id": "node/1779952828",
+        "xy": [
+          [
+            357044.5,
+            3457066.5
+          ],
+          [
+            357044.2882721249,
+            3457066.0062631737
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      },
+      {
+        "distance_m": 0.54875412899934,
+        "from_id": "cell/357044/3457065/2065",
+        "to_id": "node/1779952828",
+        "xy": [
+          [
+            357044.5,
+            3457065.5
+          ],
+          [
+            357044.2882721249,
+            3457066.0062631737
+          ]
+        ],
+        "conflicts": [],
+        "constraint_hits": []
+      }
+    ],
+    "native_rejected": [],
+    "source_hashes": {
+      "data\\observed\\Wa273f228558_G_080.json": "189b7a8ee2ae7b0809151ed384f1b1c9bc947711127f0e0fc454d3df98a84365",
+      "data\\queries\\Wa273f228558.json": "8732a797b29c4569ea313b8a7e4adf844207a68675de74dff3104f9f8dc77c91",
+      "data\\constraints\\Wa273f228558_G_080.json": "b0507e62dbd1badf6dbb418b181c0c1b271cd0125d1cb3fcd150a8c0c0beb655",
+      "data\\graphs\\Wa273f228558_G_080\\F0.graph.json.gz": "1713df268bb564f9aa0de7517e73de13a6c8e99a8a5a4667f6c110d1d120f28c"
+    },
+    "diagnostic_role": "FROZEN_PREPROCESSING_DIAGNOSTIC_NOT_FRESH_CLASSIFICATION; NO_REFERENCE_READ"
+  }
+]

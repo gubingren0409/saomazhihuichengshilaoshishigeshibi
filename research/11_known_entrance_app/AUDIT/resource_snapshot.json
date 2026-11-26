@@ -1,0 +1,30 @@
+{
+  "clock": "2026-11-11T19:10:47.557800+08:00",
+  "own_service_pid": 171736,
+  "service_memory": {
+    "rss": 1100906496,
+    "vms": 1857683456,
+    "num_page_faults": 1224371,
+    "peak_wset": 1495658496,
+    "wset": 1100906496,
+    "peak_paged_pool": 303888,
+    "paged_pool": 303640,
+    "peak_nonpaged_pool": 5580464,
+    "nonpaged_pool": 161896,
+    "pagefile": 1857683456,
+    "peak_pagefile": 2279264256,
+    "private": 1857683456
+  },
+  "service_cpu": {
+    "user": 131.015625,
+    "system": 7.1875,
+    "children_user": 0.0,
+    "children_system": 0.0
+  },
+  "available_memory": 3239563264,
+  "disk_free": {
+    "C:/": 1973170176,
+    "E:/": 37098995712
+  },
+  "scope": "Current own service snapshot; peak working set is service process only, not global task peak"
+}

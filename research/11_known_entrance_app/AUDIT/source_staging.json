@@ -1,0 +1,42 @@
+{
+  "source_role": "APP-only complete frozen sources; no benchmark prediction reads",
+  "dependencies": [
+    {
+      "file": "src/frozen_scene/native_adapter.py",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\native_adapter.py",
+      "source_sha256": "5bcefd9a7fddfbea67c778825fdc783d3a39d304ae8729673a620faad5349b83",
+      "adaptation": "Text line ending normalization only; semantics.py also relocated two import paths; no method edits",
+      "staged_sha256": "1c54e2de55fd365df056f982c148ef1e9ad798599273b29da3ddbd5394f5baa9"
+    },
+    {
+      "file": "src/frozen_scene/route_measure.py",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\src\\route_measure.py",
+      "source_sha256": "46bdd77a1908358178988fc67b1c83493b7dbdc4d90c8d2a8c7456861bced778",
+      "adaptation": "Text line ending normalization only; semantics.py also relocated two import paths; no method edits",
+      "staged_sha256": "895bc7171ce98c2e68cb5c6cba954101bfcdfeb06a31e69d4fc7c41610bd5af9"
+    },
+    {
+      "file": "src/frozen_scene/local_route.py",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\frozen_r4\\src\\frozen_r1\\local_route.py",
+      "source_sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+      "adaptation": "Text line ending normalization only; semantics.py also relocated two import paths; no method edits",
+      "staged_sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f"
+    },
+    {
+      "file": "src/frozen_scene/semantics.py",
+      "source": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R3\\src\\semantics.py",
+      "source_sha256": "cc1ef6fbb5a7b6391361176e67ec561dbfd95002ead32d23dc95acf96c6fb11f",
+      "adaptation": "Text line ending normalization only; semantics.py also relocated two import paths; no method edits",
+      "staged_sha256": "b31a7bcdfb6cc202577b25315847686cf0d15190a6b60ba0de224d6af4e2458f"
+    }
+  ],
+  "edge_evidence_source_sha256": "b15a9edc0933749218c5cb233b157c66a31142c8e194ff52114db8cf63929688",
+  "mapped_edge_counts": {
+    "sh-huangpu-01": 98102,
+    "sh-tower": 3957,
+    "sh-newworld": 47732,
+    "sh-library": 5435
+  },
+  "new_external_requests": 0,
+  "portable_inputs": "All six exact source clips and compressed exact R4-REV1 edge rows are bundled under data/scenes; no old absolute path is read at runtime."
+}

@@ -1,0 +1,25 @@
+{
+  "role": "AUTHOR_PACKAGING_TOOL_SYNTHETIC_CHECK_NOT_FINAL_ZIP_OR_INDEPENDENT_REPLAY",
+  "tests": [
+    {
+      "test": "exact_member_hash_and_crc",
+      "result": "PASS"
+    },
+    {
+      "test": "traversal",
+      "result": "PASS_REJECTED",
+      "reason": "UNSAFE_ARCHIVE_PATH: ../escape.txt"
+    },
+    {
+      "test": "hash_mismatch",
+      "result": "PASS_REJECTED",
+      "reason": "MEMBER_HASH_FAILED: data/example.txt"
+    },
+    {
+      "test": "symlink",
+      "result": "PASS_REJECTED",
+      "reason": "UNSAFE_OR_DUPLICATE_ZIP_MEMBER: link"
+    }
+  ],
+  "final_review_zip_built": false
+}

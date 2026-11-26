@@ -1,0 +1,16 @@
+{
+  "status": "PASS_SELECTED_STAGE_REAL_WORKER_REPLAY",
+  "baseline_archive_sha256": "1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a",
+  "selected_stage_files": 186,
+  "selected_stage_bytes": 14633333,
+  "replayed_input": "W0caca58bc41_G_080",
+  "query_evaluations": 9,
+  "actual_graph_search_count": 9,
+  "three_method_routes_exactly_equal_formal_R2": true,
+  "source_imports_old_absolute_paths": false,
+  "result": "runs/benchmark/R3_staging_smoke/W0caca58bc41_G_080/result.json",
+  "limits": [
+    "This is a selected regression-stage replay, not final ZIP APP server replay",
+    "Historical NORTH optional inputs remain external unless explicitly staged with --include-natural"
+  ]
+}

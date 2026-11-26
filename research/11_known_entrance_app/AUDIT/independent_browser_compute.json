@@ -1,0 +1,79 @@
+{
+  "reviewer": "/root/e2e_review",
+  "browser": "Playwright real Microsoft Edge",
+  "url": "http://127.0.0.1:53421/",
+  "started_at_epoch": 1794395455.8977058,
+  "console_errors": [],
+  "local_requests": [
+    {
+      "url": "http://127.0.0.1:53421/",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/app.css",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/app.js",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/scenes",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897141353",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897141353",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897145227",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/plan",
+      "method": "POST",
+      "post_data": "{\"scene_id\":\"sh-huangpu-01\",\"door_id\":\"node/6897145227\",\"start_id\":\"node/10073042336\",\"method\":\"F0\",\"purpose\":\"APPROACH_OUTSIDE\",\"request_id\":\"UI-6843cfea-9d17-4e24-91b0-1805b5aadb95\"}"
+    }
+  ],
+  "blocked_nonlocal_requests": [],
+  "computation_requested": true,
+  "selected_inputs": {
+    "scene": "sh-huangpu-01",
+    "door": "node/6897145227",
+    "start": "node/10073042336",
+    "method": "F0",
+    "purpose": "APPROACH_OUTSIDE"
+  },
+  "visible_start_count": 332,
+  "map_path_count_before": 7713,
+  "http_status": 200,
+  "returned_run_id": "RUN-20261111T191130-b536277079",
+  "returned_request_id": "UI-6843cfea-9d17-4e24-91b0-1805b5aadb95",
+  "solver": {
+    "invoked": true,
+    "elapsed_s": 0.12160440000297967,
+    "algorithm": "networkx weighted bidirectional shortest path",
+    "invocation_id": "60cdfaed75554876acbdc486fdc21f1c",
+    "answer_source": "CURRENT_REQUEST_SOLVER"
+  },
+  "result_status": "ROUTED_CONDITIONAL",
+  "export_request_matches_response": true,
+  "stale_result_cleared_on_input_change": true,
+  "status_text": "输入已变化。点击计算，生成本次新路线。",
+  "map_path_count_after": 7713,
+  "close_viewbox": "354279.32708505157 -3456203.0891986894 130.12345679012344 80",
+  "full_viewbox": "354123.2367230581 -3456223.0891986894 440.6550862125644 270.91508146654814",
+  "screenshot": "AUDIT/independent_browser_compute.png",
+  "closed_at_epoch": 1794395493.0122497
+}

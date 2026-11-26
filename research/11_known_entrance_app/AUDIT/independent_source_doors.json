@@ -1,0 +1,83 @@
+{
+  "reviewer": "/root/e2e_review",
+  "method": "Direct raw source target way node membership, no author catalog or planner called",
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "building": "way/161090899",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "all_clip_tagged_count": 40,
+      "target_outline_tagged_nodes": [
+        {
+          "id": "node/6897141353",
+          "wgs84": [
+            121.4712158,
+            31.2299607
+          ],
+          "tags": {
+            "entrance": "main"
+          }
+        },
+        {
+          "id": "node/6897145227",
+          "wgs84": [
+            121.4706605,
+            31.2305674
+          ],
+          "tags": {
+            "entrance": "exit"
+          }
+        }
+      ]
+    },
+    {
+      "scene_id": "sh-wukang",
+      "building": "way/293434151",
+      "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "all_clip_tagged_count": 78,
+      "target_outline_tagged_nodes": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "building": "way/165792123",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "all_clip_tagged_count": 37,
+      "target_outline_tagged_nodes": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "building": "way/51317339",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "all_clip_tagged_count": 28,
+      "target_outline_tagged_nodes": []
+    },
+    {
+      "scene_id": "sh-library",
+      "building": "way/293434188",
+      "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "all_clip_tagged_count": 86,
+      "target_outline_tagged_nodes": [
+        {
+          "id": "node/11300000483",
+          "wgs84": [
+            121.4402357,
+            31.2096329
+          ],
+          "tags": {
+            "door": "yes/manual/main_entrance",
+            "entrance": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "building": "relation/7469147",
+      "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "all_clip_tagged_count": 36,
+      "target_outline_tagged_nodes": [],
+      "target_outer_relation_node_count": 20,
+      "target_outer_missing_members": []
+    }
+  ]
+}

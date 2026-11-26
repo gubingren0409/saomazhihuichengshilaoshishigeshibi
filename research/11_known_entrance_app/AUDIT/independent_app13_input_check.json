@@ -1,0 +1,25 @@
+{
+  "reviewer": "/root/e2e_review",
+  "scope": "Read actual response/input for catalog-outside error fixture; no map acquired, no new solver query",
+  "response_sha256": "7024101bf64345328d4523f1449c101970e90563bbca530d1d72c30bcee2858f",
+  "input": {
+    "request_id": "APP-13",
+    "scene_id": "OUTSIDE_FROZEN_SCENE_COVERAGE",
+    "door_id": "node/6897145227",
+    "start_id": "node/10073042336",
+    "purpose": "APPROACH_OUTSIDE",
+    "method": "F0",
+    "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+  },
+  "run_id": "RUN-20261111T193254-ec1a83a657",
+  "status": "INVALID_REQUEST",
+  "failure": {
+    "stage": "INPUT_OR_PREPARATION",
+    "code": "UNKNOWN_SCENE"
+  },
+  "solver": {
+    "invoked": false
+  },
+  "preprocessing_or_route_returned": false,
+  "same_six_source_scenes": true
+}

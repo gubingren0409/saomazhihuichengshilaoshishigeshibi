@@ -1,0 +1,33 @@
+{
+  "reviewer": "/root author/execution coordinator",
+  "tests": {
+    "source_and_endpoint_unit_tests": 6,
+    "result": "PASS",
+    "actual_command": "python -X utf8 -B -m unittest discover -s tests"
+  },
+  "checks": {
+    "source_crs": "WGS84 transformed to EPSG32651; metric geometry authoritative",
+    "original_doors": "3 doors / 2 target buildings; coordinates and source roles unchanged",
+    "F0_F1": "same surface/graph, finite costs only",
+    "query_answer_cache": "disabled",
+    "source_route_constraints": "full acquired source range; local new links checked in D30",
+    "historical_protection": "baseline zip, selected source dependencies, Git HEAD/index/tracked status unchanged",
+    "seven_failures": "all diagnosed, no policy relaxation",
+    "main_regression": "25 parents/41 queries/123 evaluations/122 graph searches",
+    "fresh_app": "13 registered=8 legal routes+5 refusals; original12 route/surface/graph unchanged after I/O fix",
+    "browser": "actual clicks/solver/export/evidence, building layer defect repaired and repeated",
+    "CLI_final": "frozen core matches APP07 HTTP; independent run_id",
+    "package": "First FAIL preserved; R1 final strict clean replay pending",
+    "independent_concurrency": "PASS warm cache; unique invocations and no shared graph mutation",
+    "independent_lambda_1": "41 independent Dijkstra searches agree with F0",
+    "independent_ui": "Actual planning/export/GET run/7 diagnostics/S/private/road, no JS errors; no field claim",
+    "preprocessing_receipt_fix": "Two real independent cold CLI, identical stable key/new PREP IDs/all previous SHA preserved"
+  },
+  "limits": [
+    "Not field validation",
+    "Zero-width motor centerlines lack carriageway extent",
+    "Native provenance does not establish current public permission",
+    "Finite source parser and independent checks are not proof of all hidden real obstacles"
+  ],
+  "updated_at": "2026-11-11T19:11:27.493317+08:00"
+}

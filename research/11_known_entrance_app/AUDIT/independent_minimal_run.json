@@ -1,0 +1,51 @@
+{
+  "reviewer": "/root/e2e_review",
+  "author_functions_called": false,
+  "request_id": "APP-MINIMAL-01",
+  "method": "F0",
+  "door_source_check": {
+    "source_node_exists": true,
+    "original_xy": [
+      354344.3888134466,
+      3456163.0891986894
+    ],
+    "tags": {
+      "entrance": "exit"
+    },
+    "registered_entrance": true
+  },
+  "metrics": {
+    "length_m": 331.6474354242748,
+    "layer_lengths": {
+      "native": 125.56547183888839,
+      "derived": 190.80662574170267,
+      "inferred": 15.27533784368331
+    },
+    "cost_m": 331.6474354242748,
+    "continuity_gaps": [],
+    "saved_segment_errors": [],
+    "start_residual_m": 0.0,
+    "end_residual_m": 0.0,
+    "length_m_saved_error": 1.0800249583553523e-12,
+    "cost_weighted_m_saved_error": 1.0800249583553523e-12
+  },
+  "exit_inbound_route_error": false,
+  "source_check": {
+    "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "source_area_count": 4721,
+    "area_conflicts": [],
+    "native_source_errors": [],
+    "new_lawn_conflicts": [],
+    "derived_source_errors": [],
+    "explicit_direction_errors": [],
+    "unparsed_multipolygons": [],
+    "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREAS_AND_NATIVE_LINE_OWNERSHIP; NOT_ALL_BARRIER_GATE_OR_LAYER_RULES"
+  },
+  "limitations": [
+    "No field/public-current-access verification",
+    "Does not assert unrecorded obstacles absent",
+    "Barrier opening, full layer and complete source exporter audit separately scoped"
+  ],
+  "run_sha256": "95b8e2e87c7f89b25dab65278eeee381676d98a5cd2bb0b9dac4c7b353f90ea9",
+  "run_path": "runs/app/RUN-20261111T184840-d1199cb8a1.json"
+}

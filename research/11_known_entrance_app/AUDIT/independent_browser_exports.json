@@ -1,0 +1,89 @@
+{
+  "reviewer": "/root/e2e_review",
+  "browser": "Playwright real Microsoft Edge",
+  "url": "http://127.0.0.1:53421/",
+  "started_at_epoch": 1794395781.1927383,
+  "console_errors": [],
+  "local_requests": [
+    {
+      "url": "http://127.0.0.1:53421/",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/app.css",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/app.js",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/scenes",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897141353",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897141353",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897145227",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/plan",
+      "method": "POST",
+      "post_data": "{\"scene_id\":\"sh-huangpu-01\",\"door_id\":\"node/6897145227\",\"start_id\":\"node/10073042336\",\"method\":\"F0\",\"purpose\":\"APPROACH_OUTSIDE\",\"request_id\":\"UI-8bd64baf-5e3b-4445-8f78-54fc0bc814c9\"}"
+    }
+  ],
+  "blocked_nonlocal_requests": [],
+  "computation_requested": true,
+  "selected_inputs": {
+    "scene": "sh-huangpu-01",
+    "door": "node/6897145227",
+    "start": "node/10073042336",
+    "method": "F0",
+    "purpose": "APPROACH_OUTSIDE"
+  },
+  "visible_start_count": 332,
+  "map_path_count_before": 7713,
+  "http_status": 200,
+  "returned_run_id": "RUN-20261111T191655-acf6af2ae8",
+  "returned_request_id": "UI-8bd64baf-5e3b-4445-8f78-54fc0bc814c9",
+  "solver": {
+    "invoked": true,
+    "elapsed_s": 0.12253949999285396,
+    "algorithm": "networkx weighted bidirectional shortest path",
+    "invocation_id": "f46dfb722b9744619f37baccff4e8b30",
+    "answer_source": "CURRENT_REQUEST_SOLVER"
+  },
+  "result_status": "ROUTED_CONDITIONAL",
+  "export_request_matches_response": true,
+  "geojson_export_matches_actual_route": true,
+  "geojson_crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:32651"
+    }
+  },
+  "get_run_status": 200,
+  "get_run_matches_actual_response": true,
+  "actual_pointer_door_evidence": "{\n  \"id\": \"node/6897145227\",\n  \"native_id\": \"node/6897145227\",\n  \"xy\": [\n    354344.3888134466,\n    3456163.0891986894\n  ],\n  \"wgs84\": [\n    121.4706605,\n    31.2305674\n  ],\n  \"tags\": {\n    \"entrance\": \"exit\"\n  },\n  \"entrance_type\": \"exit\",\n  \"registered\": true,\n  \"building_id\": \"way/161090899\",\n  \"association_evidence\": \"NATIVE_NODE_ON_TARGET_BUILDING_OUTER_RING_FROZEN_SOURCE_CONTRACT\",\n  \"role\": \"REGISTERED_EXIT\",\n  \"eligible_purposes\": [\n    \"APPROACH_OUTSIDE\"\n  ],\n  \"public_access\": \"UNKNOWN\",\n  \"current_opening\": \"UNKNOWN\",\n  \"physical_door_field_verified\": false\n}",
+  "stale_result_cleared_on_input_change": true,
+  "status_text": "输入已变化。点击计算，生成本次新路线。",
+  "map_path_count_after": 7713,
+  "close_viewbox": "354279.32708505157 -3456203.0891986894 130.12345679012344 80",
+  "full_viewbox": "354123.2367230581 -3456223.0891986894 440.6550862125644 270.91508146654814",
+  "screenshot": "AUDIT/independent_browser_exports.png",
+  "closed_at_epoch": 1794395820.0095305
+}

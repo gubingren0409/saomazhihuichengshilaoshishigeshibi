@@ -1,0 +1,39 @@
+{
+  "status": "EXPLICIT_OPTIONAL_EXTERNAL_BASELINE_DEPENDENCIES",
+  "baseline_sha256": "1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a",
+  "baseline_bytes": 131701394,
+  "baseline_name": "OSM_GEOAPIFY_R4_FREE_SPACE_R1/delivery/OPEN_REVIEW.zip",
+  "app_self_contained_without_baseline": true,
+  "main25_stage_included": "data/regression_baseline",
+  "north_history_requires_external_selected_inputs": [
+    {
+      "omitted_working_file": "runs/benchmark/NORTH_regression/observed.json",
+      "baseline_member": "data/e5/observed/NORTH_160.json",
+      "bytes": 59907063,
+      "sha256": "52630dc0929cbf4e0e4052d8bb4f08cedf3082630eaeec6eeac12b4949a897b7",
+      "role": "EXTERNAL_HISTORICAL_PREPROCESSING_DEPENDENCY_NOT_APP_RUNTIME"
+    },
+    {
+      "omitted_working_file": "runs/benchmark/NORTH_regression/route_graph.json",
+      "baseline_member": "data/e5/north_route_graph.json",
+      "bytes": 87287420,
+      "sha256": "de81b47d69f229c754eba82f25664d28cb1103f56c197221e0af11e58029f6c6",
+      "role": "EXTERNAL_HISTORICAL_PREPROCESSING_DEPENDENCY_NOT_APP_RUNTIME"
+    },
+    {
+      "omitted_working_file": "runs/benchmark/NORTH_regression/classifier_cache.json",
+      "baseline_member": "data/classifier_cache/NORTH_160.json",
+      "bytes": 3190572,
+      "sha256": "159fb5b76a78608b4e29e650144cb1698f20c82a377ff65b0bf0fd3a6de29abd",
+      "role": "EXTERNAL_HISTORICAL_PREPROCESSING_DEPENDENCY_NOT_APP_RUNTIME"
+    }
+  ],
+  "staging_command": "python -X utf8 -B scripts/stage_regression_inputs.py --baseline-zip ACTUAL_FINAL_BASELINE_ZIP --destination runtime/regression_baseline_natural --include-natural",
+  "north_replay_command": "python -X utf8 -B scripts/regress_natural.py --baseline runtime/regression_baseline_natural",
+  "redistribution": "OSM source and derived graph require OpenStreetMap attribution/ODbL; no keys or commercial-map responses added",
+  "copy_check": {
+    "files": 187,
+    "source_unchanged": true,
+    "destination_exact_copy": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "reviewer": "/root/e2e_review",
+  "author_functions_called": false,
+  "request_id": "CLEAN-REPLAY-4b30c82e3d94400b908faee6cfc2f19c",
+  "method": "F1",
+  "door_source_check": {
+    "source_node_exists": true,
+    "original_xy": [
+      351413.6223179579,
+      3453883.056178218
+    ],
+    "tags": {
+      "door": "yes/manual/main_entrance",
+      "entrance": "yes"
+    },
+    "registered_entrance": true
+  },
+  "metrics": {
+    "length_m": 116.74224132751877,
+    "layer_lengths": {
+      "native": 116.74224132751877
+    },
+    "cost_m": 116.74224132751877,
+    "continuity_gaps": [],
+    "saved_segment_errors": [],
+    "start_residual_m": 0.0,
+    "end_residual_m": 0.0,
+    "length_m_saved_error": 0.0,
+    "cost_weighted_m_saved_error": 0.0
+  },
+  "exit_inbound_route_error": false,
+  "source_check": {
+    "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+    "source_constraint_geometry_count": 6039,
+    "area_conflicts": [],
+    "native_source_errors": [],
+    "new_lawn_conflicts": [],
+    "derived_source_errors": [],
+    "explicit_direction_errors": [],
+    "unparsed_multipolygons": [],
+    "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+  },
+  "limitations": [
+    "No field/public-current-access verification",
+    "Does not assert unrecorded obstacles absent",
+    "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+  ]
+}

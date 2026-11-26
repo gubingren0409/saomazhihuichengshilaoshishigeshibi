@@ -1,0 +1,315 @@
+{
+  "reviewer": "/root/e2e_review",
+  "method": "Own adjacency/WCC from actual observed files, no author diagnostic function or classification called",
+  "scope": "Does not duplicate full region graph/constraint recomputation; verifies endpoint stair-only and raw native disconnectedness",
+  "cases": [
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q1",
+      "endpoints": [
+        {
+          "id": "node/3551786369",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            3,
+            33
+          ],
+          "all_incident_highway_classes": [
+            "footway"
+          ],
+          "incident_source_ids": [
+            "way/178721891"
+          ],
+          "stairs_only": false,
+          "eligible_ground_incident_exists_under_frozen_rule": true
+        },
+        {
+          "id": "node/1890811950",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            8,
+            2
+          ],
+          "all_incident_highway_classes": [
+            "steps"
+          ],
+          "incident_source_ids": [
+            "way/178723095"
+          ],
+          "stairs_only": true,
+          "eligible_ground_incident_exists_under_frozen_rule": false
+        }
+      ],
+      "at_least_one_stair_only": true,
+      "directed_raw_observed_path_exists": false,
+      "observed_sha256": "4e88618757ca2f3ae8bbfb82b1edcb7e35012df436bc29e5a4538adc5271c9a8",
+      "query_sha256": "dad66fb8d94175f7560d8ba7e224a058398d9a378599402b89b03433cbce0547"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q2",
+      "endpoints": [
+        {
+          "id": "node/3551786369",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            3,
+            33
+          ],
+          "all_incident_highway_classes": [
+            "footway"
+          ],
+          "incident_source_ids": [
+            "way/178721891"
+          ],
+          "stairs_only": false,
+          "eligible_ground_incident_exists_under_frozen_rule": true
+        },
+        {
+          "id": "node/1890812028",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            8,
+            2
+          ],
+          "all_incident_highway_classes": [
+            "steps"
+          ],
+          "incident_source_ids": [
+            "way/178723095"
+          ],
+          "stairs_only": true,
+          "eligible_ground_incident_exists_under_frozen_rule": false
+        }
+      ],
+      "at_least_one_stair_only": true,
+      "directed_raw_observed_path_exists": false,
+      "observed_sha256": "4e88618757ca2f3ae8bbfb82b1edcb7e35012df436bc29e5a4538adc5271c9a8",
+      "query_sha256": "dad66fb8d94175f7560d8ba7e224a058398d9a378599402b89b03433cbce0547"
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "query_id": "Q3",
+      "endpoints": [
+        {
+          "id": "node/1890811950",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            8,
+            2
+          ],
+          "all_incident_highway_classes": [
+            "steps"
+          ],
+          "incident_source_ids": [
+            "way/178723095"
+          ],
+          "stairs_only": true,
+          "eligible_ground_incident_exists_under_frozen_rule": false
+        },
+        {
+          "id": "node/1890750297",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            3,
+            33
+          ],
+          "all_incident_highway_classes": [
+            "footway"
+          ],
+          "incident_source_ids": [
+            "way/178721891"
+          ],
+          "stairs_only": false,
+          "eligible_ground_incident_exists_under_frozen_rule": true
+        }
+      ],
+      "at_least_one_stair_only": true,
+      "directed_raw_observed_path_exists": false,
+      "observed_sha256": "4e88618757ca2f3ae8bbfb82b1edcb7e35012df436bc29e5a4538adc5271c9a8",
+      "query_sha256": "dad66fb8d94175f7560d8ba7e224a058398d9a378599402b89b03433cbce0547"
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "query_id": "Q1",
+      "endpoints": [
+        {
+          "id": "node/7576890790",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            1,
+            2
+          ],
+          "all_incident_highway_classes": [
+            "steps"
+          ],
+          "incident_source_ids": [
+            "way/810390869"
+          ],
+          "stairs_only": true,
+          "eligible_ground_incident_exists_under_frozen_rule": false
+        },
+        {
+          "id": "node/7048495378",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            0,
+            53
+          ],
+          "all_incident_highway_classes": [
+            "footway"
+          ],
+          "incident_source_ids": [
+            "way/754483188"
+          ],
+          "stairs_only": false,
+          "eligible_ground_incident_exists_under_frozen_rule": true
+        }
+      ],
+      "at_least_one_stair_only": true,
+      "directed_raw_observed_path_exists": false,
+      "observed_sha256": "4c8c03e49375aa4dde3514e93f2db27a7004bd1209595469eb4de9d5a95cbf74",
+      "query_sha256": "3b379aa6f703ee763f01eb805cfb45d3428e050a437be5f0d8c947b792be276c"
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "query_id": "Q1",
+      "endpoints": [
+        {
+          "id": "node/1993253294",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            1,
+            46
+          ],
+          "all_incident_highway_classes": [
+            "footway"
+          ],
+          "incident_source_ids": [
+            "way/144724513"
+          ],
+          "stairs_only": false,
+          "eligible_ground_incident_exists_under_frozen_rule": true
+        },
+        {
+          "id": "node/1993253296",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            2,
+            6
+          ],
+          "all_incident_highway_classes": [
+            "steps"
+          ],
+          "incident_source_ids": [
+            "way/188703989"
+          ],
+          "stairs_only": true,
+          "eligible_ground_incident_exists_under_frozen_rule": false
+        }
+      ],
+      "at_least_one_stair_only": true,
+      "directed_raw_observed_path_exists": false,
+      "observed_sha256": "e911c005b1031bd5a0892e963791fa29ff81aaa509926974e41d154fc084832c",
+      "query_sha256": "a645d8e5c35f48b4f042b99cfe0bd28e588598296d1e04b3cb4da270a089e3f8"
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "query_id": "Q1",
+      "endpoints": [
+        {
+          "id": "node/1993253290",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            1,
+            17
+          ],
+          "all_incident_highway_classes": [
+            "footway"
+          ],
+          "incident_source_ids": [
+            "way/166777749"
+          ],
+          "stairs_only": false,
+          "eligible_ground_incident_exists_under_frozen_rule": true
+        },
+        {
+          "id": "node/1779952827",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            7,
+            2
+          ],
+          "all_incident_highway_classes": [
+            "steps"
+          ],
+          "incident_source_ids": [
+            "way/166547266"
+          ],
+          "stairs_only": true,
+          "eligible_ground_incident_exists_under_frozen_rule": false
+        }
+      ],
+      "at_least_one_stair_only": true,
+      "directed_raw_observed_path_exists": false,
+      "observed_sha256": "189b7a8ee2ae7b0809151ed384f1b1c9bc947711127f0e0fc454d3df98a84365",
+      "query_sha256": "8732a797b29c4569ea313b8a7e4adf844207a68675de74dff3104f9f8dc77c91"
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "query_id": "Q2",
+      "endpoints": [
+        {
+          "id": "node/1782221414",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            1,
+            17
+          ],
+          "all_incident_highway_classes": [
+            "footway"
+          ],
+          "incident_source_ids": [
+            "way/166777749"
+          ],
+          "stairs_only": false,
+          "eligible_ground_incident_exists_under_frozen_rule": true
+        },
+        {
+          "id": "node/1779952827",
+          "exact_observed_coordinate_match": true,
+          "source_kind": "NATIVE_NODE",
+          "raw_observed_wcc": [
+            7,
+            2
+          ],
+          "all_incident_highway_classes": [
+            "steps"
+          ],
+          "incident_source_ids": [
+            "way/166547266"
+          ],
+          "stairs_only": true,
+          "eligible_ground_incident_exists_under_frozen_rule": false
+        }
+      ],
+      "at_least_one_stair_only": true,
+      "directed_raw_observed_path_exists": false,
+      "observed_sha256": "189b7a8ee2ae7b0809151ed384f1b1c9bc947711127f0e0fc454d3df98a84365",
+      "query_sha256": "8732a797b29c4569ea313b8a7e4adf844207a68675de74dff3104f9f8dc77c91"
+    }
+  ]
+}

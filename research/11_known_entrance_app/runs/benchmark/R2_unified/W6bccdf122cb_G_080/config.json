@@ -1,0 +1,43 @@
+{
+  "status": "LOCKED_BEFORE_NATURAL_AND_CONTROLLED_PREDICTION",
+  "crs": "EPSG:32651",
+  "domain_radius_m": 30,
+  "cell_m": 1,
+  "network_near_m": 10,
+  "face_near_m": 6,
+  "door_near_m": 14,
+  "frontage_near_m": 6,
+  "hard_line_clearance_m": 0.15,
+  "interface_reach_m": 1.6,
+  "interface_separation_m": 3,
+  "max_interfaces": 16,
+  "min_region_clearance_m": 0.55,
+  "min_patch_area_m2": 2,
+  "unknown_portal_budget_m": 0.65,
+  "unknown_penalty_per_m": 6,
+  "unknown_fixed_penalty_m": 5,
+  "inference_cost_multiplier": 1.5,
+  "case_variants": [
+    "S1",
+    "I-LINE",
+    "I-REGION",
+    "I-REGION-ABL",
+    "I-REGION-NET-ABL"
+  ],
+  "development_sensitivities": [
+    {
+      "id": "grid_1p5m",
+      "cell_m": 1.5
+    },
+    {
+      "id": "proximity_8m",
+      "network_near_m": 8
+    }
+  ],
+  "confirmation_methods": [
+    "I-LINE",
+    "I-REGION"
+  ],
+  "rule_note": "Mapped area exact; native walk line remains a zero-width source graph object. Inferred cell fragments need eligible observed network proximity and positive paved, marked-face-near, park with fixed door frontage, or park with multiple spatially distinct raw walkways; obstacle exclusion precedes classification. Width screen is a connected-component witness of an eroded core at 0.55m radius, not road width. Only short, bounded interface stitches may use UNKNOWN under explicit context. No performance-driven parameter changes.",
+  "stop": "No confirmation-guided changes; three development configuration settings maximum planned; keep all reference tasks and report failed queries."
+}

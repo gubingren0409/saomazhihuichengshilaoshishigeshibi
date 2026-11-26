@@ -1,0 +1,42 @@
+{
+  "task": "OSM-GEOAPIFY-KNOWN-ENTRANCE-E2E-R1",
+  "status": "SEALED_R1_CANDIDATE_PENDING_CLEAN_PACKAGE_REPLAY",
+  "started_at": "2026-11-11T18:34:45.5095355+08:00",
+  "active_compute_budget_s": 14400,
+  "new_app_request_cap": 16,
+  "phase": "R1_FIXED_ZIP_VERIFICATION",
+  "route_answer_cache": false,
+  "new_external_requests": 0,
+  "old_artifacts_read_only": true,
+  "updated_at": "2026-11-11T19:34:58.901650+08:00",
+  "completed": {
+    "input_final_baseline_verification": true,
+    "actual_cli_http_ui": true,
+    "seven_failures_individually_diagnosed": 7,
+    "main_parents": 25,
+    "main_queries": 41,
+    "main_evaluations": 123,
+    "main_actual_graph_searches": 122,
+    "app_registered_requests": 12,
+    "app_positive_routes": 8,
+    "app_negative_rejections": 4,
+    "unit_tests": 6,
+    "independent_source_geometry": true,
+    "independent_concurrency": true,
+    "independent_lambda_1": true,
+    "code_and_old_data_protection": true
+  },
+  "pending": [
+    "R1 fixed ZIP strict independent unchanged-members clean new HTTP solve"
+  ],
+  "package_fresh_query_reserved": 1,
+  "scientific_result": "CONDITIONAL_KNOWN_ENTRANCE_PROTOTYPE; NOT_FIELD_NAVIGATION",
+  "independent_preseal_review": "COMPLETED_WITH_SCOPE",
+  "ordinary_repairs": "Completed and verified; seven defined stairs-only failures retained",
+  "app_registered_requests": 13,
+  "fresh_total_including_two_clean_requests": 15,
+  "preprocessing_append_only_regression": "PASS_TWO_COLD_RUNS",
+  "app_IO_fix_regression": "ALL_PREVIOUS12_IDENTICAL_PLUS_SCOPE_REJECTION",
+  "active_review_archive": "delivery/OPEN_REVIEW_R1_FIXED.zip",
+  "first_archive": "FAIL_PRESERVED_406c9705"
+}

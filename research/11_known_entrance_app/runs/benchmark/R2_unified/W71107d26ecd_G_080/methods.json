@@ -1,0 +1,40 @@
+{
+  "status": "LOCKED_BEFORE_R4_OUTCOMES",
+  "crs": "EPSG:32651",
+  "prediction_radius_m": 30,
+  "score_radius_m": 30,
+  "cell_m": 1,
+  "grid_origin": [
+    0,
+    0
+  ],
+  "context_radii_m": [
+    40,
+    80,
+    160
+  ],
+  "display_radius_m": 160,
+  "M0": {
+    "region_sha256": "74d579de368df4f60623ee26e1c804134ea0e142b89ff56b554678f8fdb268e8",
+    "routing_sha256": "8a0863972877eebb67407443ec41fef5504c91c3510d25b621f5820b14d5100f",
+    "config_sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026"
+  },
+  "M1": {
+    "perimeter_junction_min_m": 30,
+    "portal_max_from_center_m": 30,
+    "portal_to_cell_m": 14,
+    "max_observed_chain_m": 100,
+    "face_or_frontage_m": 3,
+    "support_line_fraction": 0.8,
+    "opposite_dot_max": -0.25
+  },
+  "ablation": "M1 without exterior network witness support is exactly M0; original restrictions, parameters, and route costs remain shared.",
+  "exposure": "ALL_OLD_PARENT_GROUPS_ALREADY_EXPOSED_SAME_SOURCE_DIAGNOSTIC",
+  "experiment_budget": {
+    "versions_including_25_parents": 60,
+    "regional_runs": 400,
+    "configured_M1_variants": 1,
+    "active_cpu_wall_hours": 4
+  },
+  "selection": "H/N all three radii, G where a fixed-reference local contract is valid all three radii, S lawful native neutral shape only at 80m, plus archival E0 and north E5. No confirmation retuning."
+}

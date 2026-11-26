@@ -1,0 +1,33 @@
+{
+  "reviewer": "/root/e2e_review",
+  "scope": "Independent execution of frozen/current checker equivalence on fixed source-segment samples and raw constraint crossing probes; not an independent replacement for source reconstruction",
+  "old_sha256": "bc8e8645a257e7c8f78ab694cd9eccb0aeedd1c6341bc10f28b4cc55e5c6938f",
+  "new_sha256": "aa31d3ace09dd6ebcf513978abd70986fb58142c109880e891710fad1e06dba8",
+  "cases": [
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "checked_segments_or_probes": 38,
+      "rejected_before": 8,
+      "differences": []
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "checked_segments_or_probes": 38,
+      "rejected_before": 8,
+      "differences": []
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "checked_segments_or_probes": 38,
+      "rejected_before": 8,
+      "differences": []
+    },
+    {
+      "input_id": "NORTH_160",
+      "checked_segments_or_probes": 38,
+      "rejected_before": 8,
+      "differences": []
+    }
+  ],
+  "status": "PASS"
+}

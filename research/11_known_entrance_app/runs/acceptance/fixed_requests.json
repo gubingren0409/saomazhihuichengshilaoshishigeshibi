@@ -1,0 +1,77 @@
+{
+  "policy": "Registered exact doors, stable native ID start selection before solving; no answer cache",
+  "requests": [
+    {
+      "request_id": "APP-01",
+      "scene_id": "sh-huangpu-01",
+      "door_id": "node/6897141353",
+      "start_id": "node/10073042336",
+      "purpose": "ENTER_BUILDING",
+      "method": "F0",
+      "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+    },
+    {
+      "request_id": "APP-02",
+      "scene_id": "sh-huangpu-01",
+      "door_id": "node/6897141353",
+      "start_id": "node/10073042336",
+      "purpose": "ENTER_BUILDING",
+      "method": "F1",
+      "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+    },
+    {
+      "request_id": "APP-03",
+      "scene_id": "sh-huangpu-01",
+      "door_id": "node/6897145227",
+      "start_id": "node/10073042336",
+      "purpose": "APPROACH_OUTSIDE",
+      "method": "F0",
+      "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+    },
+    {
+      "request_id": "APP-04",
+      "scene_id": "sh-huangpu-01",
+      "door_id": "node/6897145227",
+      "start_id": "node/10073042336",
+      "purpose": "APPROACH_OUTSIDE",
+      "method": "F1",
+      "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+    },
+    {
+      "request_id": "APP-05",
+      "scene_id": "sh-huangpu-01",
+      "door_id": "node/6897145227",
+      "start_id": "node/11667615960",
+      "purpose": "APPROACH_OUTSIDE",
+      "method": "F0",
+      "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+    },
+    {
+      "request_id": "APP-06",
+      "scene_id": "sh-huangpu-01",
+      "door_id": "node/6897145227",
+      "start_id": "node/11667615960",
+      "purpose": "APPROACH_OUTSIDE",
+      "method": "F1",
+      "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+    },
+    {
+      "request_id": "APP-07",
+      "scene_id": "sh-library",
+      "door_id": "node/11300000483",
+      "start_id": "node/105253317",
+      "purpose": "ENTER_BUILDING",
+      "method": "F0",
+      "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+    },
+    {
+      "request_id": "APP-08",
+      "scene_id": "sh-library",
+      "door_id": "node/11300000483",
+      "start_id": "node/105253317",
+      "purpose": "ENTER_BUILDING",
+      "method": "F1",
+      "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+    }
+  ]
+}

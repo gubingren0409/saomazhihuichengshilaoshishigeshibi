@@ -1,0 +1,91 @@
+{
+  "reviewer": "/root/e2e_review",
+  "role": "Independent read-only recheck of actual author cold-run outputs and archived/current file bytes; these two CLI process starts were author actions",
+  "old_preprocessing_receipts": [
+    {
+      "path": "runs/preprocessing/07747db655fee11ae9eb3b289d8cafd677491c814097f7f02f17430389268064.json",
+      "before_sha256": "2844db2077de2222b8691d14f01f07963f794dfda4eb9299e106ee08273b2944",
+      "after_sha256": "2844db2077de2222b8691d14f01f07963f794dfda4eb9299e106ee08273b2944",
+      "unchanged": true
+    },
+    {
+      "path": "runs/preprocessing/95bfb1b9c4d7ab2c7134abd5cc6b77b214349160343ccbd0ce22f9bd0d98e0d0.json",
+      "before_sha256": "954952b9ab37967b15af1e578a56254757ed6bdec00f0f88b95b442e08bbc1c3",
+      "after_sha256": "954952b9ab37967b15af1e578a56254757ed6bdec00f0f88b95b442e08bbc1c3",
+      "unchanged": true
+    },
+    {
+      "path": "runs/preprocessing/9d4f04e53cb8e67cd313afc8447cc538da299413bf889a7a1b2676bdca319591.json",
+      "before_sha256": "bf60f0af15f900b031096f67036dc0e3ae10efa24bae13150bdacf61a01856d0",
+      "after_sha256": "bf60f0af15f900b031096f67036dc0e3ae10efa24bae13150bdacf61a01856d0",
+      "unchanged": true
+    },
+    {
+      "path": "runs/preprocessing/d98f59cf06ab58b905a74c8a1a27f278fbbdeff1028a88acc200c32e8ffa13ab.json",
+      "before_sha256": "cc2a86224a3584deb1a1e5cd5263880cdc18331920f4a72888e0f10b763d41f6",
+      "after_sha256": "cc2a86224a3584deb1a1e5cd5263880cdc18331920f4a72888e0f10b763d41f6",
+      "unchanged": true
+    },
+    {
+      "path": "runs/preprocessing/ee81e468f819084d71a6412c6a173b20ba7cfd1ea0b1c19b535fc269cf2f2acd.json",
+      "before_sha256": "540a399834715881f575360cb6a85b20a1cf7fd86b96819cdd7dd9e5628af29c",
+      "after_sha256": "540a399834715881f575360cb6a85b20a1cf7fd86b96819cdd7dd9e5628af29c",
+      "unchanged": true
+    }
+  ],
+  "old_files_unchanged": true,
+  "same_cache_key": true,
+  "distinct_prep_ids": true,
+  "distinct_solver_calls": true,
+  "both_uncached_new_cold_records": true,
+  "route_geometry_unchanged": true,
+  "cold_runs": [
+    {
+      "response_path": "runs/acceptance/logfix_cli_1.response.json",
+      "response_sha256": "20e39d6b3a4b2e8e084f780674dca9ebe2cdd27ba3129f248ea017c3837c4474",
+      "run_id": "RUN-20261111T192854-9df6b7bf52",
+      "solver_invocation_id": "f775ae5b7bd14eca8e4f0baebb68a82e",
+      "solver_invoked": true,
+      "cache_hit": false,
+      "cache_key": "9ba6705662e5f8dbe6485fc69922727354a690f8c4493bfdaef40eaed2cafbfa",
+      "preprocessing_run_id": "PREP-c8ea1910036343eeb969f89eeb0dbc36",
+      "preprocessing_path": "runs/preprocessing/9ba6705662e5f8dbe6485fc69922727354a690f8c4493bfdaef40eaed2cafbfa-PREP-c8ea1910036343eeb969f89eeb0dbc36.json",
+      "preprocessing_sha256": "e5b4b095fc1c720ae9e22f7bea31d4e766271fe0cc0a5edd79b752f478e2b99e",
+      "all_archived_route_fields_equal": true,
+      "archived_route_field_comparisons": {
+        "status": true,
+        "normalized_request": true,
+        "start": true,
+        "door": true,
+        "bindings": true,
+        "route": true,
+        "planning_region": true,
+        "graph": true
+      }
+    },
+    {
+      "response_path": "runs/acceptance/logfix_cli_2.response.json",
+      "response_sha256": "81a2d208803f71d83f4b0b4c9a0fbcc029917151d96792e7e087bf7cdde5049b",
+      "run_id": "RUN-20261111T192920-ff526928ee",
+      "solver_invocation_id": "299788a6ccd84df4b0d66ce654673ae3",
+      "solver_invoked": true,
+      "cache_hit": false,
+      "cache_key": "9ba6705662e5f8dbe6485fc69922727354a690f8c4493bfdaef40eaed2cafbfa",
+      "preprocessing_run_id": "PREP-a3ae119f39a940e5b27e1ce2a945451b",
+      "preprocessing_path": "runs/preprocessing/9ba6705662e5f8dbe6485fc69922727354a690f8c4493bfdaef40eaed2cafbfa-PREP-a3ae119f39a940e5b27e1ce2a945451b.json",
+      "preprocessing_sha256": "41abaaa421e9a9f417ec827ac108cd786b9ad42effb37ca58965db5a6be5d118",
+      "all_archived_route_fields_equal": true,
+      "archived_route_field_comparisons": {
+        "status": true,
+        "normalized_request": true,
+        "start": true,
+        "door": true,
+        "bindings": true,
+        "route": true,
+        "planning_region": true,
+        "graph": true
+      }
+    }
+  ],
+  "final_independent_clean_replay": "PENDING_R1_FIXED_ZIP"
+}

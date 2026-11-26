@@ -1,0 +1,266 @@
+{
+  "started_at": "2026-11-11T18:34:45.509535+08:00",
+  "snapshot_at": "2026-11-11T19:12:05.649340+08:00",
+  "wall_elapsed_s": 2240.139805,
+  "active_compute_budget_s": 14400,
+  "fresh_business_request_cap": 16,
+  "registered_fresh_cases_before_package": 12,
+  "package_fresh_case_reserved": 1,
+  "new_external_requests": 0,
+  "parameter_searches": 0,
+  "known_core_elapsed_sum_s": 1019.7475835000369,
+  "ledger": [
+    {
+      "id": "W0440b97497a_N_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 13.093868500000099
+    },
+    {
+      "id": "W0caca58bc41_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 14.446021700001438
+    },
+    {
+      "id": "W2b809bbe6b8_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 13.132826100001694
+    },
+    {
+      "id": "W363939afb45_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 9.48549279999861
+    },
+    {
+      "id": "W384c2d89f5c_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 15.003505500004394
+    },
+    {
+      "id": "W4d1eccec240_N_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 20.009847499997704
+    },
+    {
+      "id": "W6bccdf122cb_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 28.246124200013583
+    },
+    {
+      "id": "W6daddd19fdb_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 15.455297299995436
+    },
+    {
+      "id": "W71107d26ecd_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 13.198081399998046
+    },
+    {
+      "id": "W745941f0f92_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 14.174801200002548
+    },
+    {
+      "id": "W7a6b5a10076_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 20.698035599998548
+    },
+    {
+      "id": "W85f439ac693_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 19.69494789998862
+    },
+    {
+      "id": "W87f642a7b21_N_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 16.939810700001544
+    },
+    {
+      "id": "W902d9fe8127_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 21.096258000005037
+    },
+    {
+      "id": "W97b65e9a893_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 29.08561650000047
+    },
+    {
+      "id": "W9ec65a55fde_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 29.619909000000916
+    },
+    {
+      "id": "Wa273f228558_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 36.56992639999953
+    },
+    {
+      "id": "Wa426c5c4d49_N_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 20.908517800009577
+    },
+    {
+      "id": "Wacc0185d756_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 12.389053899998544
+    },
+    {
+      "id": "Wae8bd8566f9_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 22.162311499996576
+    },
+    {
+      "id": "Wc4183046a70_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 14.852380500000436
+    },
+    {
+      "id": "Wce5a4f14276_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 26.565466800006106
+    },
+    {
+      "id": "Wdb2b99d1247_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 23.056445200010785
+    },
+    {
+      "id": "We43ad3502c7_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 27.258831800005282
+    },
+    {
+      "id": "Wf405b19d925_G_080",
+      "role": "BENCHMARK_COLD_REGRESSION",
+      "wall_s": 16.0455215999973
+    },
+    {
+      "id": "RUN-20261111T184840-d1199cb8a1",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 132.51633680000668,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T185609-3be903398e",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 150.2937047999876,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T185842-450fe4fa63",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 1.2595916999998735,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T190024-a4535e83e2",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 60.76507730000594,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T190125-f7cb6bd7aa",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 4.038362999999663,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T190130-b406c2dfca",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 1.1746320000092965,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T190131-deca8514a5",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 1.1076946000102907,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T190132-2aa9905d07",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 33.82853449998947,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T190206-034db81c70",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 0.1541821999999229,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T190206-37c979fd84",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 0.011210999989998527,
+      "solver_invoked": false
+    },
+    {
+      "id": "RUN-20261111T190206-6c567bbc61",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 0.01204989998950623,
+      "solver_invoked": false
+    },
+    {
+      "id": "RUN-20261111T190206-ced9e16fa4",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 0.737596199993277,
+      "solver_invoked": false
+    },
+    {
+      "id": "RUN-20261111T190207-c481d5331c",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 0.7231518000044161,
+      "solver_invoked": false
+    },
+    {
+      "id": "RUN-20261111T190535-a1b9f038fa",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 26.50120590000006,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T190654-24bac58b30",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 102.21335140000156,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T190838-2d76e0addc",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 0.8151665000041248,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T191053-509bdd083c",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 0.8145457000064198,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T191054-14f9d4e66a",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 3.9963781999977073,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T191054-9252f5de9e",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 3.9465288999926997,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T191058-5ef8d64f9b",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 0.8423099000065122,
+      "solver_invoked": true
+    },
+    {
+      "id": "RUN-20261111T191130-b536277079",
+      "role": "PLAN_INVOCATION_INCLUDING_REPEATS_AND_CLI",
+      "wall_s": 0.8070718000089983,
+      "solver_invoked": true
+    }
+  ],
+  "accounting_limit": "Recorded plan and main worker durations, may overlap; source preparations/reviews additionally recorded in their receipts. Wall clock and bounded workload both well below4h, no restarted budget."
+}

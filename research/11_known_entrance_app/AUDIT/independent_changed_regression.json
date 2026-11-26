@@ -1,0 +1,115 @@
+{
+  "reviewer": "/root/e2e_review",
+  "role": "EVALUATION_ONLY_AFTER_PREDICTION; RAW SOURCE NOT GIVEN TO PREDICTOR",
+  "input_id": "W9ec65a55fde_G_080",
+  "query_id": "Q2",
+  "rows": [
+    {
+      "method": "F0",
+      "metrics": {
+        "length_m": 26.29650184291521,
+        "layer_lengths": {
+          "derived": 26.29650184291521
+        },
+        "cost_m": 26.29650184291521,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0
+      },
+      "outside_visible_mapped_face_m": 0.0,
+      "visible_mapped_source_ids": [
+        "way/1160136226"
+      ],
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "endpoint_first_stitch": {
+        "xy": [
+          [
+            351558.21988313226,
+            3453791.223439055
+          ],
+          [
+            351558.02154414856,
+            3453790.927994483
+          ]
+        ],
+        "layer": "derived",
+        "source_id": "cell/351558/3453790/2685",
+        "length_m": 0.35584525781094484,
+        "cost_m": 0.35584525781094484,
+        "geometry_kind": "NEW_GRID_WITHIN_MAPPED_FACE",
+        "u": "node/10789601373",
+        "v": "cell/351558/3453790/2685"
+      }
+    },
+    {
+      "method": "F1",
+      "metrics": {
+        "length_m": 26.29650184291521,
+        "layer_lengths": {
+          "derived": 26.29650184291521
+        },
+        "cost_m": 26.29650184291521,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0
+      },
+      "outside_visible_mapped_face_m": 0.0,
+      "visible_mapped_source_ids": [
+        "way/1160136226"
+      ],
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "endpoint_first_stitch": {
+        "xy": [
+          [
+            351558.21988313226,
+            3453791.223439055
+          ],
+          [
+            351558.02154414856,
+            3453790.927994483
+          ]
+        ],
+        "layer": "derived",
+        "source_id": "cell/351558/3453790/2685",
+        "length_m": 0.35584525781094484,
+        "cost_m": 0.35584525781094484,
+        "geometry_kind": "NEW_GRID_WITHIN_MAPPED_FACE",
+        "u": "node/10789601373",
+        "v": "cell/351558/3453790/2685"
+      }
+    }
+  ],
+  "query_source_exact_observed": {
+    "endpoint_kind": "NATIVE_ENDPOINT",
+    "id": "node/10789601373",
+    "tags": {},
+    "xy": [
+      351558.21988313226,
+      3453791.223439055
+    ]
+  },
+  "result_sha256": "0f74ac4013d12b2372de62458f59cf373e9c2a7fe9020f1db81633d776785fe0",
+  "source_role": "Independent raw source hard checks + observed-only mapped-face union; no author scoring or constraint function called"
+}

@@ -1,0 +1,51 @@
+{
+  "reviewer": "/root/e2e_review",
+  "browser": "Playwright real Microsoft Edge",
+  "url": "http://127.0.0.1:53421/",
+  "started_at_epoch": 1794394634.872228,
+  "console_errors": [],
+  "local_requests": [
+    {
+      "url": "http://127.0.0.1:53421/",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/app.css",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/app.js",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/scenes",
+      "method": "GET",
+      "post_data": null
+    },
+    {
+      "url": "http://127.0.0.1:53421/api/scene?scene_id=sh-huangpu-01&door_id=node%2F6897141353",
+      "method": "GET",
+      "post_data": null
+    }
+  ],
+  "blocked_nonlocal_requests": [],
+  "computation_requested": false,
+  "selected_inputs": {
+    "scene": "sh-huangpu-01",
+    "door": "node/6897141353",
+    "start": "node/1890732610",
+    "method": "F1",
+    "purpose": "APPROACH_OUTSIDE"
+  },
+  "visible_start_count": 263,
+  "map_path_count_before": 7713,
+  "status_text": "地图就绪。点击计算将调用后端统一内核。",
+  "map_path_count_after": 7713,
+  "close_viewbox": "354331.2895933251 -3456135.105993877 130.12345679012344 80",
+  "full_viewbox": "354223.26261173584 -3456223.0891986894 305.7628053582408 187.9832048122771",
+  "screenshot": "AUDIT/independent_browser_inspect.png",
+  "closed_at_epoch": 1794394671.977948
+}

@@ -1,0 +1,139 @@
+{
+  "reviewer": "/root/e2e_review",
+  "role": "POST_SEAL_INDEPENDENT_INTEGRITY_AND_CLEAN_NEW_HTTP_SOLVE",
+  "started_at_epoch": 1794396189.3575265,
+  "expected_zip_sha256": "406c97059a7d9c6049e35b4d9defc9045eb53e95286263b76ef50adc06f3c2a5",
+  "new_external_requests": 0,
+  "fresh_request_class": "FINAL_PACKAGE_REPLAY_SEPARATE_FROM_12_APP_ACCEPTANCE",
+  "stage": "VERIFY_FROZEN_FILES_UNCHANGED",
+  "zip_bytes": 26109057,
+  "zip_sha256": "406c97059a7d9c6049e35b4d9defc9045eb53e95286263b76ef50adc06f3c2a5",
+  "manifest_sha256": "51a64b9b7653073f3a3d557faaef5dd8045e98d103ee41cc5a2058cc92e99b37",
+  "member_count": 736,
+  "manifest_entries": 735,
+  "unpacked_bytes": 98212151,
+  "archive_crc": "PASS",
+  "member_sha256": "PASS",
+  "path_safety": "PASS",
+  "saved_normalized_requests": 11,
+  "unpack_directory": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_unpacked_final",
+  "clean_import_probe_module_files": {
+    "planner": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_unpacked_final\\src\\planner.py",
+    "scene_data": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_unpacked_final\\src\\scene_data.py",
+    "native_adapter": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_unpacked_final\\src\\frozen_scene\\native_adapter.py"
+  },
+  "service_command": [
+    "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_unpacked_final\\scripts\\serve_app.py",
+    "--port",
+    "53422"
+  ],
+  "child_pythonpath_cleared": true,
+  "shipped_planner_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_unpacked_final\\src\\planner.py",
+  "shipped_planner_sha256": "c5e93e601d67658b2849631528ad0efcfe8b867c24cfc5c318760cec0e7d1614",
+  "clean_service_pid": 179352,
+  "startup_s": 3.2721019000018714,
+  "clean_url": "http://127.0.0.1:53422/",
+  "scene_load_s": 6.97809010000492,
+  "new_request": {
+    "scene_id": "sh-library",
+    "start_id": "node/105253333",
+    "door_id": "node/11300000483",
+    "purpose": "ENTER_BUILDING",
+    "method": "F1",
+    "request_id": "CLEAN-REPLAY-4b30c82e3d94400b908faee6cfc2f19c"
+  },
+  "start_selection": {
+    "rule": "SECOND_LEXICOGRAPHIC_NATIVE_ID_WITH_DISTANCE_50_200M_BEFORE_SOLVING",
+    "first_two": [
+      {
+        "id": "node/105253317",
+        "label": "node/105253317",
+        "xy": [
+          351461.44629125996,
+          3453985.5238055084
+        ],
+        "wgs84": [
+          121.4407224,
+          31.2105632
+        ],
+        "tags": {
+          "created_by": "JOSM"
+        },
+        "distance_to_door_m": 113.07849956941722,
+        "role": "EXACT_EXISTING_ELIGIBLE_NATIVE_NODE"
+      },
+      {
+        "id": "node/105253333",
+        "label": "node/105253333",
+        "xy": [
+          351409.4755140859,
+          3453948.450357066
+        ],
+        "wgs84": [
+          121.4401825,
+          31.2102222
+        ],
+        "tags": {},
+        "distance_to_door_m": 65.52552639642612,
+        "role": "EXACT_EXISTING_ELIGIBLE_NATIVE_NODE"
+      }
+    ],
+    "eligible_start_count": 60,
+    "normalized_input_absent_from_all_saved_json_requests": true,
+    "selection_not_based_on_route_result": true
+  },
+  "new_http_request_s": 16.219541200000094,
+  "new_run_id": "RUN-20261111T192330-0ef0842380",
+  "new_solver": {
+    "invoked": true,
+    "elapsed_s": 0.0015941999881761149,
+    "algorithm": "networkx weighted bidirectional shortest path",
+    "invocation_id": "eb77bb4952384f8d9449bcb296c45cdc",
+    "answer_source": "CURRENT_REQUEST_SOLVER"
+  },
+  "new_status": "ROUTED_NATIVE_OR_MAPPED",
+  "performance": {
+    "elapsed_s": 16.195423900004243,
+    "validation_s": 0.0007593000045744702,
+    "preprocessing_cache": {
+      "key": "07747db655fee11ae9eb3b289d8cafd677491c814097f7f02f17430389268064",
+      "hit": false,
+      "load_or_prepare_s": 16.107259999989765
+    }
+  },
+  "get_new_run_matches_response": true,
+  "checker_module_file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_unpacked_final\\scripts\\independent_check.py",
+  "checker_sha256": "ab21dbc621ec36bb34a5f5987fbc387de4f52cefe31a3491856e0624bf50ddcb",
+  "independent_geometry": {
+    "length_m": 116.74224132751877,
+    "layer_lengths": {
+      "native": 116.74224132751877
+    },
+    "cost_m": 116.74224132751877,
+    "start_residual_m": 0.0,
+    "end_residual_m": 0.0,
+    "known_conflicts": 0,
+    "field_public_access_verification": false
+  },
+  "clean_stop_response": {
+    "status": "STOPPING",
+    "pid": 179352
+  },
+  "clean_service_exit_code": 0,
+  "clean_service_stopped": true,
+  "rss_monitor": {
+    "peak_observed_rss_bytes": 262430720,
+    "samples": 259
+  },
+  "status": "FAIL",
+  "error": {
+    "type": "AssertionError",
+    "message": "SHIPPED_FILE_CHANGED:['runs/preprocessing/07747db655fee11ae9eb3b289d8cafd677491c814097f7f02f17430389268064.json']"
+  },
+  "total_wall_s": 40.56640419999894,
+  "ended_at_epoch": 1794396229.921521
+}

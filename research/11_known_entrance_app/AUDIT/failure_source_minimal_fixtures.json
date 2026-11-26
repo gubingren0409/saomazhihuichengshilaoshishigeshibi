@@ -1,0 +1,400 @@
+[
+  {
+    "input_id": "W0caca58bc41_G_080",
+    "query_id": "Q1",
+    "source_clip": "sh-huangpu-01.osm.json",
+    "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "failed_endpoint_ids": [
+      "node/1890811950"
+    ],
+    "raw_minimal_objects": [
+      {
+        "type": "way",
+        "id": 178723095,
+        "nodes": [
+          1890812028,
+          1890811950
+        ],
+        "tags": {
+          "highway": "steps"
+        },
+        "version": 1
+      },
+      {
+        "type": "node",
+        "id": 1890812028,
+        "lon": 121.4688697,
+        "lat": 31.2307535,
+        "tags": {},
+        "version": 3
+      },
+      {
+        "type": "node",
+        "id": 1890811950,
+        "lon": 121.4689533,
+        "lat": 31.2306572,
+        "tags": {},
+        "version": 2
+      }
+    ],
+    "raw_tags_match_observed": true,
+    "raw_node_tags": [
+      {
+        "id": "node/1890811950",
+        "tags": {}
+      }
+    ],
+    "code_branch": "src/region.py:non_ground => highway steps; src/free_routing.py:visible eligible adjacent source check",
+    "interpretation": "Native stairs remain routable by their own recorded topology. Their isolated endpoint is not authorized as same-level new free-space interface without compatible visible ground connection. No physical inaccessibility claim.",
+    "counterfactual": "Planar nearby grid candidates have no known 2D obstacle conflict, but accepting that alone would remove the frozen level-compatibility policy; not adopted.",
+    "new_route_answer_cache": false,
+    "masked_reference_read_for_diagnosis": false
+  },
+  {
+    "input_id": "W0caca58bc41_G_080",
+    "query_id": "Q2",
+    "source_clip": "sh-huangpu-01.osm.json",
+    "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "failed_endpoint_ids": [
+      "node/1890812028"
+    ],
+    "raw_minimal_objects": [
+      {
+        "type": "way",
+        "id": 178723095,
+        "nodes": [
+          1890812028,
+          1890811950
+        ],
+        "tags": {
+          "highway": "steps"
+        },
+        "version": 1
+      },
+      {
+        "type": "node",
+        "id": 1890812028,
+        "lon": 121.4688697,
+        "lat": 31.2307535,
+        "tags": {},
+        "version": 3
+      },
+      {
+        "type": "node",
+        "id": 1890811950,
+        "lon": 121.4689533,
+        "lat": 31.2306572,
+        "tags": {},
+        "version": 2
+      }
+    ],
+    "raw_tags_match_observed": true,
+    "raw_node_tags": [
+      {
+        "id": "node/1890812028",
+        "tags": {}
+      }
+    ],
+    "code_branch": "src/region.py:non_ground => highway steps; src/free_routing.py:visible eligible adjacent source check",
+    "interpretation": "Native stairs remain routable by their own recorded topology. Their isolated endpoint is not authorized as same-level new free-space interface without compatible visible ground connection. No physical inaccessibility claim.",
+    "counterfactual": "Planar nearby grid candidates have no known 2D obstacle conflict, but accepting that alone would remove the frozen level-compatibility policy; not adopted.",
+    "new_route_answer_cache": false,
+    "masked_reference_read_for_diagnosis": false
+  },
+  {
+    "input_id": "W0caca58bc41_G_080",
+    "query_id": "Q3",
+    "source_clip": "sh-huangpu-01.osm.json",
+    "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "failed_endpoint_ids": [
+      "node/1890811950"
+    ],
+    "raw_minimal_objects": [
+      {
+        "type": "way",
+        "id": 178723095,
+        "nodes": [
+          1890812028,
+          1890811950
+        ],
+        "tags": {
+          "highway": "steps"
+        },
+        "version": 1
+      },
+      {
+        "type": "node",
+        "id": 1890812028,
+        "lon": 121.4688697,
+        "lat": 31.2307535,
+        "tags": {},
+        "version": 3
+      },
+      {
+        "type": "node",
+        "id": 1890811950,
+        "lon": 121.4689533,
+        "lat": 31.2306572,
+        "tags": {},
+        "version": 2
+      }
+    ],
+    "raw_tags_match_observed": true,
+    "raw_node_tags": [
+      {
+        "id": "node/1890811950",
+        "tags": {}
+      }
+    ],
+    "code_branch": "src/region.py:non_ground => highway steps; src/free_routing.py:visible eligible adjacent source check",
+    "interpretation": "Native stairs remain routable by their own recorded topology. Their isolated endpoint is not authorized as same-level new free-space interface without compatible visible ground connection. No physical inaccessibility claim.",
+    "counterfactual": "Planar nearby grid candidates have no known 2D obstacle conflict, but accepting that alone would remove the frozen level-compatibility policy; not adopted.",
+    "new_route_answer_cache": false,
+    "masked_reference_read_for_diagnosis": false
+  },
+  {
+    "input_id": "W902d9fe8127_G_080",
+    "query_id": "Q1",
+    "source_clip": "sh-tower.osm.json",
+    "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+    "failed_endpoint_ids": [
+      "node/7576890790"
+    ],
+    "raw_minimal_objects": [
+      {
+        "type": "way",
+        "id": 810390869,
+        "nodes": [
+          7576890789,
+          7576890790
+        ],
+        "tags": {
+          "highway": "steps"
+        },
+        "version": 1
+      },
+      {
+        "type": "node",
+        "id": 7576890789,
+        "lon": 121.5022005,
+        "lat": 31.2325245,
+        "tags": {
+          "entrance": "yes"
+        },
+        "version": 1
+      },
+      {
+        "type": "node",
+        "id": 7576890790,
+        "lon": 121.5022171,
+        "lat": 31.2324974,
+        "tags": {},
+        "version": 1
+      }
+    ],
+    "raw_tags_match_observed": true,
+    "raw_node_tags": [
+      {
+        "id": "node/7576890790",
+        "tags": {}
+      }
+    ],
+    "code_branch": "src/region.py:non_ground => highway steps; src/free_routing.py:visible eligible adjacent source check",
+    "interpretation": "Native stairs remain routable by their own recorded topology. Their isolated endpoint is not authorized as same-level new free-space interface without compatible visible ground connection. No physical inaccessibility claim.",
+    "counterfactual": "Planar nearby grid candidates have no known 2D obstacle conflict, but accepting that alone would remove the frozen level-compatibility policy; not adopted.",
+    "new_route_answer_cache": false,
+    "masked_reference_read_for_diagnosis": false
+  },
+  {
+    "input_id": "W97b65e9a893_G_080",
+    "query_id": "Q1",
+    "source_clip": "sh-tower.osm.json",
+    "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+    "failed_endpoint_ids": [
+      "node/1993253296"
+    ],
+    "raw_minimal_objects": [
+      {
+        "type": "way",
+        "id": 188703989,
+        "nodes": [
+          1993253295,
+          1993253297,
+          1993253299,
+          1993253300,
+          1993253298,
+          1993253296
+        ],
+        "tags": {
+          "foot": "yes",
+          "highway": "steps"
+        },
+        "version": 1
+      },
+      {
+        "type": "node",
+        "id": 1993253295,
+        "lon": 121.5000684,
+        "lat": 31.2396603,
+        "tags": {},
+        "version": 3
+      },
+      {
+        "type": "node",
+        "id": 1993253297,
+        "lon": 121.5000672,
+        "lat": 31.2397136,
+        "tags": {},
+        "version": 2
+      },
+      {
+        "type": "node",
+        "id": 1993253299,
+        "lon": 121.5000475,
+        "lat": 31.2397566,
+        "tags": {},
+        "version": 2
+      },
+      {
+        "type": "node",
+        "id": 1993253300,
+        "lon": 121.5000088,
+        "lat": 31.2397611,
+        "tags": {},
+        "version": 2
+      },
+      {
+        "type": "node",
+        "id": 1993253298,
+        "lon": 121.4999853,
+        "lat": 31.2397463,
+        "tags": {},
+        "version": 2
+      },
+      {
+        "type": "node",
+        "id": 1993253296,
+        "lon": 121.4999722,
+        "lat": 31.239716,
+        "tags": {},
+        "version": 1
+      }
+    ],
+    "raw_tags_match_observed": true,
+    "raw_node_tags": [
+      {
+        "id": "node/1993253296",
+        "tags": {}
+      }
+    ],
+    "code_branch": "src/region.py:non_ground => highway steps; src/free_routing.py:visible eligible adjacent source check",
+    "interpretation": "Native stairs remain routable by their own recorded topology. Their isolated endpoint is not authorized as same-level new free-space interface without compatible visible ground connection. No physical inaccessibility claim.",
+    "counterfactual": "Planar nearby grid candidates have no known 2D obstacle conflict, but accepting that alone would remove the frozen level-compatibility policy; not adopted.",
+    "new_route_answer_cache": false,
+    "masked_reference_read_for_diagnosis": false
+  },
+  {
+    "input_id": "Wa273f228558_G_080",
+    "query_id": "Q1",
+    "source_clip": "sh-tower.osm.json",
+    "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+    "failed_endpoint_ids": [
+      "node/1779952827"
+    ],
+    "raw_minimal_objects": [
+      {
+        "type": "way",
+        "id": 166547266,
+        "nodes": [
+          1779952828,
+          1779952827
+        ],
+        "tags": {
+          "conveying": "yes",
+          "highway": "steps"
+        },
+        "version": 5
+      },
+      {
+        "type": "node",
+        "id": 1779952828,
+        "lon": 121.4988715,
+        "lat": 31.2390455,
+        "tags": {},
+        "version": 4
+      },
+      {
+        "type": "node",
+        "id": 1779952827,
+        "lon": 121.4986531,
+        "lat": 31.2391311,
+        "tags": {},
+        "version": 3
+      }
+    ],
+    "raw_tags_match_observed": true,
+    "raw_node_tags": [
+      {
+        "id": "node/1779952827",
+        "tags": {}
+      }
+    ],
+    "code_branch": "src/region.py:non_ground => highway steps; src/free_routing.py:visible eligible adjacent source check",
+    "interpretation": "Native stairs remain routable by their own recorded topology. Their isolated endpoint is not authorized as same-level new free-space interface without compatible visible ground connection. No physical inaccessibility claim.",
+    "counterfactual": "Planar nearby grid candidates have no known 2D obstacle conflict, but accepting that alone would remove the frozen level-compatibility policy; not adopted.",
+    "new_route_answer_cache": false,
+    "masked_reference_read_for_diagnosis": false
+  },
+  {
+    "input_id": "Wa273f228558_G_080",
+    "query_id": "Q2",
+    "source_clip": "sh-tower.osm.json",
+    "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+    "failed_endpoint_ids": [
+      "node/1779952827"
+    ],
+    "raw_minimal_objects": [
+      {
+        "type": "way",
+        "id": 166547266,
+        "nodes": [
+          1779952828,
+          1779952827
+        ],
+        "tags": {
+          "conveying": "yes",
+          "highway": "steps"
+        },
+        "version": 5
+      },
+      {
+        "type": "node",
+        "id": 1779952828,
+        "lon": 121.4988715,
+        "lat": 31.2390455,
+        "tags": {},
+        "version": 4
+      },
+      {
+        "type": "node",
+        "id": 1779952827,
+        "lon": 121.4986531,
+        "lat": 31.2391311,
+        "tags": {},
+        "version": 3
+      }
+    ],
+    "raw_tags_match_observed": true,
+    "raw_node_tags": [
+      {
+        "id": "node/1779952827",
+        "tags": {}
+      }
+    ],
+    "code_branch": "src/region.py:non_ground => highway steps; src/free_routing.py:visible eligible adjacent source check",
+    "interpretation": "Native stairs remain routable by their own recorded topology. Their isolated endpoint is not authorized as same-level new free-space interface without compatible visible ground connection. No physical inaccessibility claim.",
+    "counterfactual": "Planar nearby grid candidates have no known 2D obstacle conflict, but accepting that alone would remove the frozen level-compatibility policy; not adopted.",
+    "new_route_answer_cache": false,
+    "masked_reference_read_for_diagnosis": false
+  }
+]

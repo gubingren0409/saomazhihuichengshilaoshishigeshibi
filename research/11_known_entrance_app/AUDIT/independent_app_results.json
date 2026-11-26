@@ -1,0 +1,838 @@
+{
+  "reviewer": "/root/e2e_review",
+  "author_functions_called": false,
+  "requests": 12,
+  "routed": 8,
+  "no_new_planning_requests_issued_by_this_check": true,
+  "pairs": [
+    {
+      "cases": [
+        1,
+        2
+      ],
+      "same_unweighted_graph": true,
+      "same_surface": true,
+      "native_plus_mapped_only": true
+    },
+    {
+      "cases": [
+        3,
+        4
+      ],
+      "same_unweighted_graph": true,
+      "same_surface": true,
+      "native_plus_mapped_only": false
+    },
+    {
+      "cases": [
+        5,
+        6
+      ],
+      "same_unweighted_graph": true,
+      "same_surface": true,
+      "native_plus_mapped_only": false
+    },
+    {
+      "cases": [
+        7,
+        8
+      ],
+      "same_unweighted_graph": true,
+      "same_surface": true,
+      "native_plus_mapped_only": true
+    }
+  ],
+  "violations": [],
+  "rows": [
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "APP-01",
+      "method": "F0",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          354396.35132172017,
+          3456095.105993877
+        ],
+        "tags": {
+          "entrance": "main"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 159.19560018181014,
+        "layer_lengths": {
+          "native": 58.30248533526798,
+          "derived": 100.8931148465418
+        },
+        "cost_m": 159.19560018181014,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "length_m_saved_error": 5.115907697472721e-13,
+        "cost_weighted_m_saved_error": 5.115907697472721e-13
+      },
+      "exit_inbound_route_error": false,
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-01.response.json",
+      "file_sha256": "debe64939cf61544646bfbae3eafa19cc9f71dd532da812494ee51dcf82626de",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.0820973999943817,
+        "algorithm": "networkx weighted bidirectional shortest path",
+        "invocation_id": "575bbe6f935147d6820ff49098957170",
+        "answer_source": "CURRENT_REQUEST_SOLVER"
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "scene_id": "sh-huangpu-01",
+        "start_id": "node/10073042336",
+        "door_id": "node/6897141353",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "lambda": 1
+      },
+      "surface_sha256": "165de961590b9d3ba3f8fcc5f2df7eaab0366b87aec118ad93639c3515b194bd",
+      "unweighted_graph_sha256": "bf96b16f75eda9a50f01ef2633d45e57ade5ede323b5db9037a5b8f60ff572d9"
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "APP-02",
+      "method": "F1",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          354396.35132172017,
+          3456095.105993877
+        ],
+        "tags": {
+          "entrance": "main"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 159.19560018181014,
+        "layer_lengths": {
+          "native": 58.30248533526798,
+          "derived": 100.89311484654182
+        },
+        "cost_m": 159.19560018181014,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "length_m_saved_error": 5.115907697472721e-13,
+        "cost_weighted_m_saved_error": 5.115907697472721e-13
+      },
+      "exit_inbound_route_error": false,
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-02.response.json",
+      "file_sha256": "c5f8e7b4f952e25fe55c8665a9eac7712d4e0f0a0dc49fcf5811d95a3c17b119",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.06886850000591949,
+        "algorithm": "networkx weighted bidirectional shortest path",
+        "invocation_id": "7b0cbadb1dfd4fe4879c66622b91866b",
+        "answer_source": "CURRENT_REQUEST_SOLVER"
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "scene_id": "sh-huangpu-01",
+        "start_id": "node/10073042336",
+        "door_id": "node/6897141353",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "lambda": 2
+      },
+      "surface_sha256": "165de961590b9d3ba3f8fcc5f2df7eaab0366b87aec118ad93639c3515b194bd",
+      "unweighted_graph_sha256": "bf96b16f75eda9a50f01ef2633d45e57ade5ede323b5db9037a5b8f60ff572d9"
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "UI-8fe0f7f2-18e0-4e69-8fbb-80dc0092cfe4",
+      "method": "F0",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          354344.3888134466,
+          3456163.0891986894
+        ],
+        "tags": {
+          "entrance": "exit"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 331.6474354242748,
+        "layer_lengths": {
+          "native": 125.56547183888839,
+          "derived": 190.80662574170267,
+          "inferred": 15.27533784368331
+        },
+        "cost_m": 331.6474354242748,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "length_m_saved_error": 1.0800249583553523e-12,
+        "cost_weighted_m_saved_error": 1.0800249583553523e-12
+      },
+      "exit_inbound_route_error": false,
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-03.response.json",
+      "file_sha256": "3298f41de0949f8639b5d2308b4f8e96f6bfbd4f8a233ac1b758943883d464c7",
+      "status": "ROUTED_CONDITIONAL",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.1742933999921661,
+        "algorithm": "networkx weighted bidirectional shortest path",
+        "invocation_id": "4c0cc18072274ff79558a7af88988658",
+        "answer_source": "CURRENT_REQUEST_SOLVER"
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "scene_id": "sh-huangpu-01",
+        "start_id": "node/10073042336",
+        "door_id": "node/6897145227",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "lambda": 1
+      },
+      "surface_sha256": "28dfb08415c5df16c9df7d181c6603b52dc099f8410f3ba86d45508da0463494",
+      "unweighted_graph_sha256": "7323aef15df1e1e62892a15013f806fae12d09a9fa40a7cd00a32b12218cb9cd"
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "UI-a22995a6-f093-428f-ab08-cf19cf6758e8",
+      "method": "F1",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          354344.3888134466,
+          3456163.0891986894
+        ],
+        "tags": {
+          "entrance": "exit"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 331.9223356481821,
+        "layer_lengths": {
+          "native": 125.56547183888839,
+          "derived": 193.23697587120387,
+          "inferred": 13.119887938089517
+        },
+        "cost_m": 345.04222358627163,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "length_m_saved_error": 1.0231815394945443e-12,
+        "cost_weighted_m_saved_error": 1.0231815394945443e-12
+      },
+      "exit_inbound_route_error": false,
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-04.response.json",
+      "file_sha256": "b5b79ffdd228be93d68821546e7e1efacf455e2202b1dfad00747cabc42fc992",
+      "status": "ROUTED_CONDITIONAL",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.17620120001083706,
+        "algorithm": "networkx weighted bidirectional shortest path",
+        "invocation_id": "8a6b90e7620c464083ce6a4eae181ee8",
+        "answer_source": "CURRENT_REQUEST_SOLVER"
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "scene_id": "sh-huangpu-01",
+        "start_id": "node/10073042336",
+        "door_id": "node/6897145227",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "lambda": 2
+      },
+      "surface_sha256": "28dfb08415c5df16c9df7d181c6603b52dc099f8410f3ba86d45508da0463494",
+      "unweighted_graph_sha256": "7323aef15df1e1e62892a15013f806fae12d09a9fa40a7cd00a32b12218cb9cd"
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "APP-05",
+      "method": "F0",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          354344.3888134466,
+          3456163.0891986894
+        ],
+        "tags": {
+          "entrance": "exit"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 698.7795854257816,
+        "layer_lengths": {
+          "native": 492.6976218403954,
+          "derived": 190.80662574170267,
+          "inferred": 15.27533784368331
+        },
+        "cost_m": 698.7795854257816,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "length_m_saved_error": 7.958078640513122e-13,
+        "cost_weighted_m_saved_error": 9.094947017729282e-13
+      },
+      "exit_inbound_route_error": false,
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-05.response.json",
+      "file_sha256": "bd486e4a4ffb697401696a718c866703d82c064099b310883c315a77deb2f94e",
+      "status": "ROUTED_CONDITIONAL",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.14956039999378845,
+        "algorithm": "networkx weighted bidirectional shortest path",
+        "invocation_id": "bd6d9a29fd2b4de2a6d34f9c4eaa766e",
+        "answer_source": "CURRENT_REQUEST_SOLVER"
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "scene_id": "sh-huangpu-01",
+        "start_id": "node/11667615960",
+        "door_id": "node/6897145227",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "lambda": 1
+      },
+      "surface_sha256": "28dfb08415c5df16c9df7d181c6603b52dc099f8410f3ba86d45508da0463494",
+      "unweighted_graph_sha256": "7323aef15df1e1e62892a15013f806fae12d09a9fa40a7cd00a32b12218cb9cd"
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "APP-06",
+      "method": "F1",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          354344.3888134466,
+          3456163.0891986894
+        ],
+        "tags": {
+          "entrance": "exit"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 699.0544856496891,
+        "layer_lengths": {
+          "native": 492.6976218403954,
+          "derived": 193.23697587120384,
+          "inferred": 13.119887938089517
+        },
+        "cost_m": 712.1743735877786,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "length_m_saved_error": 1.0231815394945443e-12,
+        "cost_weighted_m_saved_error": 1.0231815394945443e-12
+      },
+      "exit_inbound_route_error": false,
+      "source_check": {
+        "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+        "source_constraint_geometry_count": 4935,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-06.response.json",
+      "file_sha256": "1ebc8429872ad29058d41af1c5282b1e1021cc1f8db94afb270a3ac1f8beb19d",
+      "status": "ROUTED_CONDITIONAL",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.17603459999372717,
+        "algorithm": "networkx weighted bidirectional shortest path",
+        "invocation_id": "d32013cabb324447aea767bf94f391b6",
+        "answer_source": "CURRENT_REQUEST_SOLVER"
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "scene_id": "sh-huangpu-01",
+        "start_id": "node/11667615960",
+        "door_id": "node/6897145227",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "lambda": 2
+      },
+      "surface_sha256": "28dfb08415c5df16c9df7d181c6603b52dc099f8410f3ba86d45508da0463494",
+      "unweighted_graph_sha256": "7323aef15df1e1e62892a15013f806fae12d09a9fa40a7cd00a32b12218cb9cd"
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "APP-07",
+      "method": "F0",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          351413.6223179579,
+          3453883.056178218
+        ],
+        "tags": {
+          "door": "yes/manual/main_entrance",
+          "entrance": "yes"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 180.58111866323975,
+        "layer_lengths": {
+          "native": 180.58111866323975
+        },
+        "cost_m": 180.58111866323975,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "length_m_saved_error": 0.0,
+        "cost_weighted_m_saved_error": 0.0
+      },
+      "exit_inbound_route_error": false,
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-07.response.json",
+      "file_sha256": "76c142150d4ea22937234b2beab630ff12b52e27b787f80a18dd6d928b83c46e",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.00306770000315737,
+        "algorithm": "networkx weighted bidirectional shortest path",
+        "invocation_id": "2a75232a13354af89abc66d2b3a50abc",
+        "answer_source": "CURRENT_REQUEST_SOLVER"
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "scene_id": "sh-library",
+        "start_id": "node/105253317",
+        "door_id": "node/11300000483",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "lambda": 1
+      },
+      "surface_sha256": "36ec30b2e7aa7c7fe11c381e22d57968b8d8c1844713b4257941a61e73ece49e",
+      "unweighted_graph_sha256": "b17b2b31af10759947ed0a84157cc8f8571b7875722562c584d0d93e5d380ce1"
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "APP-08",
+      "method": "F1",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          351413.6223179579,
+          3453883.056178218
+        ],
+        "tags": {
+          "door": "yes/manual/main_entrance",
+          "entrance": "yes"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 180.58111866323975,
+        "layer_lengths": {
+          "native": 180.58111866323975
+        },
+        "cost_m": 180.58111866323975,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": 0.0,
+        "end_residual_m": 0.0,
+        "length_m_saved_error": 0.0,
+        "cost_weighted_m_saved_error": 0.0
+      },
+      "exit_inbound_route_error": false,
+      "source_check": {
+        "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+        "source_constraint_geometry_count": 6039,
+        "area_conflicts": [],
+        "native_source_errors": [],
+        "new_lawn_conflicts": [],
+        "derived_source_errors": [],
+        "explicit_direction_errors": [],
+        "unparsed_multipolygons": [],
+        "scope": "DIRECT_RAW_BUILDING_WATER_PERMISSION_AREA_AND_LINE_BARRIER_GEOMETRY_WITH_FROZEN_GATE_BUFFER_POLICY; NATIVE_LINE_AND_DERIVED_FACE_PROVENANCE; NOT_FIELD_OR_COMPLETE_UNKNOWN_LAYER_VERIFICATION"
+      },
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-08.response.json",
+      "file_sha256": "6c746e7dd4dafc4a1e2ad40165d746f9a6015877ada1daa92aefa13d1ffe516f",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.0015453999949386343,
+        "algorithm": "networkx weighted bidirectional shortest path",
+        "invocation_id": "76e8e32fd09a4dc688d9205bca093690",
+        "answer_source": "CURRENT_REQUEST_SOLVER"
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "scene_id": "sh-library",
+        "start_id": "node/105253317",
+        "door_id": "node/11300000483",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "lambda": 2
+      },
+      "surface_sha256": "36ec30b2e7aa7c7fe11c381e22d57968b8d8c1844713b4257941a61e73ece49e",
+      "unweighted_graph_sha256": "b17b2b31af10759947ed0a84157cc8f8571b7875722562c584d0d93e5d380ce1"
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "APP-09",
+      "method": "F0",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          354344.3888134466,
+          3456163.0891986894
+        ],
+        "tags": {
+          "entrance": "exit"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "exit_inbound_route_error": false,
+      "source_check": null,
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-09.response.json",
+      "file_sha256": "a685f5cdb371a5459644ef0886abf8ed82bac9a7408a717e304ecad3f4c30844",
+      "status": "REJECTED_ENTRANCE_ROLE",
+      "solver": {
+        "invoked": false
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "request_id": "APP-09",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "surface_sha256": null,
+      "unweighted_graph_sha256": null
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "APP-10",
+      "method": "F0",
+      "door_source_check": null,
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "exit_inbound_route_error": false,
+      "source_check": null,
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-10.response.json",
+      "file_sha256": "63d202e0a0185509063fb176ccb51f5db40abb7f33066b7b7a07267677aaf6f6",
+      "status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "solver": {
+        "invoked": false
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "request_id": "APP-10",
+        "scene_id": "sh-wukang",
+        "door_id": "",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "surface_sha256": null,
+      "unweighted_graph_sha256": null
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "APP-11",
+      "method": "F0",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          354344.3888134466,
+          3456163.0891986894
+        ],
+        "tags": {
+          "entrance": "exit"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "exit_inbound_route_error": false,
+      "source_check": null,
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-11.response.json",
+      "file_sha256": "c7abe1befe9c46c0721efda43e33d5b3f928e0f5dd514db98707f20ce89d3f91",
+      "status": "INVALID_START",
+      "solver": {
+        "invoked": false
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "request_id": "APP-11",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/NOT_A_SOURCE_NODE",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME"
+      },
+      "surface_sha256": "28dfb08415c5df16c9df7d181c6603b52dc099f8410f3ba86d45508da0463494",
+      "unweighted_graph_sha256": "7323aef15df1e1e62892a15013f806fae12d09a9fa40a7cd00a32b12218cb9cd"
+    },
+    {
+      "reviewer": "/root/e2e_review",
+      "author_functions_called": false,
+      "request_id": "APP-12",
+      "method": "F0",
+      "door_source_check": {
+        "source_node_exists": true,
+        "original_xy": [
+          354344.3888134466,
+          3456163.0891986894
+        ],
+        "tags": {
+          "entrance": "exit"
+        },
+        "registered_entrance": true
+      },
+      "metrics": {
+        "length_m": 0.0,
+        "layer_lengths": {},
+        "cost_m": 0.0,
+        "continuity_gaps": [],
+        "saved_segment_errors": [],
+        "start_residual_m": null,
+        "end_residual_m": null
+      },
+      "exit_inbound_route_error": false,
+      "source_check": null,
+      "limitations": [
+        "No field/public-current-access verification",
+        "Does not assert unrecorded obstacles absent",
+        "Barrier widths use frozen policy buffers, not measurements; full unknown-level/source-completeness verification is outside scope"
+      ],
+      "file": "runs/acceptance/APP-12.response.json",
+      "file_sha256": "d69ab0f3f75526f37bbd62df99d45d580ac86eee50b91e75e7dfc8067f57d137",
+      "status": "INVALID_REQUEST",
+      "solver": {
+        "invoked": false
+      },
+      "route_answer_cache": {
+        "enabled": false,
+        "hit": false
+      },
+      "normalized_request": {
+        "request_id": "APP-12",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "start_xy": [
+          "INVALID",
+          "COORDINATE"
+        ]
+      },
+      "surface_sha256": "28dfb08415c5df16c9df7d181c6603b52dc099f8410f3ba86d45508da0463494",
+      "unweighted_graph_sha256": "7323aef15df1e1e62892a15013f806fae12d09a9fa40a7cd00a32b12218cb9cd"
+    }
+  ]
+}

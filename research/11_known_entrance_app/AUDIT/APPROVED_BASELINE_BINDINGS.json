@@ -1,0 +1,46 @@
+{
+  "purpose": "Fixed history, not a new experiment",
+  "baseline": {
+    "uploaded_filename": "OPEN_REVIEW(8).zip",
+    "codex_expected_relative_path": "OSM_GEOAPIFY_R4_FREE_SPACE_R1/delivery/OPEN_REVIEW.zip",
+    "bytes": 131701394,
+    "sha256": "1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a",
+    "zip_members": 1213,
+    "manifest_entries": 1212,
+    "included_in_this_package": false,
+    "instruction": "Locate exact matching existing local ZIP; otherwise transfer uploaded OPEN_REVIEW(8).zip separately. Read-only."
+  },
+  "excerpt_members": {
+    "README.md": {
+      "bytes": 4235,
+      "sha256": "29a4eeae89e2b63fdf8e6a2b63ba8fff87bc231341314afb611095e6ed4cf6fd"
+    },
+    "SCOPE_AND_METHOD.md": {
+      "bytes": 5300,
+      "sha256": "7e6d26065a3d06c521e4bb3551fa9d9a67935accd6d3ccfc2a80f4f05f758e2d"
+    },
+    "RESULTS.md": {
+      "bytes": 5318,
+      "sha256": "5b9c05d41b62322c4ed53091a7e7d7b90aa1f9bc840f9f5dde011a779ca024ca"
+    },
+    "config/contract.json": {
+      "bytes": 1628,
+      "sha256": "a783d5870672f1cd435f5ff26ee956a9cc14e55054aaa09aece8e67c4ad40e0e"
+    },
+    "config/constraint_contract.json": {
+      "bytes": 2863,
+      "sha256": "5833a46ccfa1f104d79cbf284fb12e5066b9eec88c92bb8a31fd6b2731ba4c4a"
+    }
+  },
+  "supporting_evidence": {
+    "FREE_SPACE_R1_GPT_REVIEW.zip": {
+      "bytes": 875414,
+      "sha256": "5d89538c059a0a96579dfafedaeccb183c36bc64c15c6fb213846a75cc5854a7"
+    },
+    "PROJECT_PROGRESS_AUDIT.zip": {
+      "bytes": 102368,
+      "sha256": "6036e2425d4b428ea2e7def5d2a488c140a3e572c18bb48e57f3a5302e06f8e6"
+    }
+  },
+  "rule_copy_identity": "Read-only copies from current provided project files; no edits, no new active project settings."
+}
