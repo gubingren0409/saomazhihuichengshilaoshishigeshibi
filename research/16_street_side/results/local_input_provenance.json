@@ -1,0 +1,74 @@
+[
+  {
+    "window_id": "missing",
+    "source_path_original": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-wukang\\source.osm.json",
+    "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+    "source_metadata": {
+      "generator": "Geofabrik PBF + pyosmium 4.3.2 pilot clip",
+      "osm3s": {
+        "timestamp_osm_base": "2026-11-08T21:21:00Z",
+        "replication_sequence_number": "840"
+      },
+      "source": "https://download.geofabrik.de/asia/china/shanghai-261108.osm.pbf",
+      "license": "ODbL-1.0",
+      "bounds_wsen": [
+        121.4161549072511,
+        31.194017950952123,
+        121.4512465927489,
+        31.21852626140535
+      ]
+    },
+    "packaged_input_path": "results\\inputs\\missing.json",
+    "input_sha256": "a1a541fdf1b1b787a27ec5e1ea15901b102829991e45d3dd7b14bee5daec89be",
+    "source_geometry_is_projected_derivative": "EPSG:32651 from frozen G1;original node lon/lat kept in local input objects",
+    "scope": "Existing already-exposed Shanghai source; no new download; no independent-site split"
+  },
+  {
+    "window_id": "native",
+    "source_path_original": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-huangpu-01\\source.osm.json",
+    "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "source_metadata": {
+      "generator": "Geofabrik PBF + pyosmium 4.3.2 pilot clip",
+      "osm3s": {
+        "timestamp_osm_base": "2026-11-08T21:21:00Z",
+        "replication_sequence_number": "840"
+      },
+      "source": "https://download.geofabrik.de/asia/china/shanghai-261108.osm.pbf",
+      "license": "ODbL-1.0",
+      "bounds_wsen": [
+        121.453,
+        31.216,
+        121.488,
+        31.244
+      ]
+    },
+    "packaged_input_path": "results\\inputs\\native.json",
+    "input_sha256": "a010970b9355ee8ab05f6846440724b7acc453eb243079f8bd7b2b74417a553c",
+    "source_geometry_is_projected_derivative": "EPSG:32651 from frozen G1;original node lon/lat kept in local input objects",
+    "scope": "Existing already-exposed Shanghai source; no new download; no independent-site split"
+  },
+  {
+    "window_id": "tagged",
+    "source_path_original": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-library\\source.osm.json",
+    "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+    "source_metadata": {
+      "generator": "Geofabrik PBF + pyosmium 4.3.2 pilot clip",
+      "osm3s": {
+        "timestamp_osm_base": "2026-11-08T21:21:00Z",
+        "replication_sequence_number": "840"
+      },
+      "source": "https://download.geofabrik.de/asia/china/shanghai-261108.osm.pbf",
+      "license": "ODbL-1.0",
+      "bounds_wsen": [
+        121.42246960725109,
+        31.19722121588461,
+        121.45756129274889,
+        31.221728696380126
+      ]
+    },
+    "packaged_input_path": "results\\inputs\\tagged.json",
+    "input_sha256": "4ec7a03b913f8be16767b60494beaa5468b3b98ca7e57c09ab7c9e0f356d01a3",
+    "source_geometry_is_projected_derivative": "EPSG:32651 from frozen G1;original node lon/lat kept in local input objects",
+    "scope": "Existing already-exposed Shanghai source; no new download; no independent-site split"
+  }
+]

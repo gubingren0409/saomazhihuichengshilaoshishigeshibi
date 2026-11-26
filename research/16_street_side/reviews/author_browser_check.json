@@ -1,0 +1,143 @@
+{
+  "role": "root author UI check; separate from independent technical review",
+  "at": "2026-11-13T03:50:24.010026+08:00",
+  "checks": [
+    {
+      "window": "native",
+      "query": "0",
+      "svg_paths": {
+        "R0": 249,
+        "R1": 218,
+        "R2": 280
+      },
+      "summaries": {
+        "R0": "CONNECTED · 131 条图边 · F1 代理代价 266.10",
+        "R1": "CONNECTED · 100 条图边 · F1 代理代价 266.10",
+        "R2": "CONNECTED · 162 条图边 · F1 代理代价 266.10"
+      }
+    },
+    {
+      "window": "native",
+      "query": "1",
+      "svg_paths": {
+        "R0": 249,
+        "R1": 218,
+        "R2": 280
+      },
+      "summaries": {
+        "R0": "CONNECTED · 131 条图边 · F1 代理代价 266.10",
+        "R1": "CONNECTED · 100 条图边 · F1 代理代价 266.10",
+        "R2": "CONNECTED · 162 条图边 · F1 代理代价 266.10"
+      }
+    },
+    {
+      "window": "tagged",
+      "query": "0",
+      "svg_paths": {
+        "R0": 164,
+        "R1": 103,
+        "R2": 233
+      },
+      "summaries": {
+        "R0": "CONNECTED · 71 条图边 · F1 代理代价 158.81",
+        "R1": "CONNECTED · 10 条图边 · F1 代理代价 158.81",
+        "R2": "CONNECTED · 140 条图边 · F1 代理代价 158.81"
+      }
+    },
+    {
+      "window": "tagged",
+      "query": "1",
+      "svg_paths": {
+        "R0": 156,
+        "R1": 95,
+        "R2": 225
+      },
+      "summaries": {
+        "R0": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS（侧别被压成同点，不能算成功） · 71 条图边 · F1 代理代价 0.00",
+        "R1": "DISCONNECTED · 10 条图边",
+        "R2": "DISCONNECTED · 140 条图边"
+      }
+    },
+    {
+      "window": "missing",
+      "query": "0",
+      "svg_paths": {
+        "R0": 119,
+        "R1": 100,
+        "R2": 128
+      },
+      "summaries": {
+        "R0": "CONNECTED · 29 条图边 · F1 代理代价 265.31",
+        "R1": "ENDPOINT_UNAVAILABLE · 20 条图边",
+        "R2": "CONNECTED · 38 条图边 · F1 代理代价 530.62"
+      }
+    },
+    {
+      "window": "missing",
+      "query": "1",
+      "svg_paths": {
+        "R0": 109,
+        "R1": 100,
+        "R2": 118
+      },
+      "summaries": {
+        "R0": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS（侧别被压成同点，不能算成功） · 29 条图边 · F1 代理代价 0.00",
+        "R1": "ENDPOINT_UNAVAILABLE · 20 条图边",
+        "R2": "DISCONNECTED · 38 条图边"
+      }
+    }
+  ],
+  "page_errors": [],
+  "external_requests_blocked": [],
+  "new_solver_calls": 0,
+  "object_click": {
+    "variant": "R2",
+    "identity": "SOURCE_GEOMETRY",
+    "edge_id": "R2:native:way/1150630714:0",
+    "u": "native:10703754083:layer=0;level=0;bridge=no;tunnel=no",
+    "v": "native:10703754084:layer=0;level=0;bridge=no;tunnel=no",
+    "xy": [
+      [
+        350574.6986526062,
+        3453980.4963632794
+      ],
+      [
+        350586.7625482886,
+        3453982.5093330485
+      ]
+    ],
+    "layer": "native",
+    "evidence": "MAPPED_PEDESTRIAN_WAY",
+    "source_id": "way/1150630714",
+    "source_node_ids": [
+      10703754083,
+      10703754084
+    ],
+    "side": null,
+    "directions": [
+      1,
+      -1
+    ],
+    "geometry_status": "SOURCE_GEOMETRY",
+    "hypothesis": false,
+    "cost_f0": 12.230683804552788,
+    "cost_f1": 12.230683804552788,
+    "length_basis": "SOURCE_LINE_LENGTH_M;road_axis_is_not_sidewalk",
+    "tags": {
+      "highway": "footway",
+      "surface": "paved"
+    }
+  },
+  "request_export_fields": [
+    "identity",
+    "window_id",
+    "query",
+    "display_bounds_xy",
+    "visible_layers",
+    "source_sha256"
+  ],
+  "offline_file_open": "PASS",
+  "all_six_query_switches": "PASS",
+  "layers_pan_zoom_object_export": "PASS",
+  "status": "PASS"
+}

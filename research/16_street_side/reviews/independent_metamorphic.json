@@ -1,0 +1,227 @@
+{
+  "reviewer": "/root/resume_review",
+  "checked_at": "2026-11-12T19:50:08.850218+00:00",
+  "status": "PASS_FOR_TWO_WAY_REVERSAL_METAMORPHIC_CASES",
+  "author_source_sha256": "b7243dca1c9c3c0bae2dd5cc4e2786ddafc528ed2fb635c7f79893d22d53be6a",
+  "cases": [
+    {
+      "name": "tagged_left_to_right",
+      "variant": "R1",
+      "graph_builds": 2,
+      "pass": true,
+      "directed_arcs_checked": 2,
+      "original_canonical_arcs": [
+        [
+          "left",
+          [
+            0.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ],
+          10.0,
+          10.0,
+          "SOURCE_SIDEWALK_SIDE_TAG_TOPOLOGY_ONLY",
+          false,
+          "SCHEMATIC"
+        ],
+        [
+          "left",
+          [
+            6.0,
+            0.0
+          ],
+          [
+            6.0,
+            10.0
+          ],
+          10.0,
+          10.0,
+          "SOURCE_SIDEWALK_SIDE_TAG_TOPOLOGY_ONLY",
+          false,
+          "SCHEMATIC"
+        ]
+      ],
+      "reversed_canonical_arcs": [
+        [
+          "left",
+          [
+            0.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ],
+          10.0,
+          10.0,
+          "SOURCE_SIDEWALK_SIDE_TAG_TOPOLOGY_ONLY",
+          false,
+          "SCHEMATIC"
+        ],
+        [
+          "left",
+          [
+            6.0,
+            0.0
+          ],
+          [
+            6.0,
+            10.0
+          ],
+          10.0,
+          10.0,
+          "SOURCE_SIDEWALK_SIDE_TAG_TOPOLOGY_ONLY",
+          false,
+          "SCHEMATIC"
+        ]
+      ]
+    },
+    {
+      "name": "missing_both_sides",
+      "variant": "R2",
+      "graph_builds": 2,
+      "pass": true,
+      "directed_arcs_checked": 4,
+      "original_canonical_arcs": [
+        [
+          "left",
+          [
+            0.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ],
+          10.0,
+          20.0,
+          "CONDITIONAL_MISSING_SIDE_TAG_ORDINARY_GROUND_ROAD",
+          true,
+          "SCHEMATIC"
+        ],
+        [
+          "left",
+          [
+            6.0,
+            0.0
+          ],
+          [
+            6.0,
+            10.0
+          ],
+          10.0,
+          20.0,
+          "CONDITIONAL_MISSING_SIDE_TAG_ORDINARY_GROUND_ROAD",
+          true,
+          "SCHEMATIC"
+        ],
+        [
+          "right",
+          [
+            0.0,
+            -4.0
+          ],
+          [
+            10.0,
+            -4.0
+          ],
+          10.0,
+          20.0,
+          "CONDITIONAL_MISSING_SIDE_TAG_ORDINARY_GROUND_ROAD",
+          true,
+          "SCHEMATIC"
+        ],
+        [
+          "right",
+          [
+            14.0,
+            0.0
+          ],
+          [
+            14.0,
+            10.0
+          ],
+          10.0,
+          20.0,
+          "CONDITIONAL_MISSING_SIDE_TAG_ORDINARY_GROUND_ROAD",
+          true,
+          "SCHEMATIC"
+        ]
+      ],
+      "reversed_canonical_arcs": [
+        [
+          "left",
+          [
+            0.0,
+            4.0
+          ],
+          [
+            10.0,
+            4.0
+          ],
+          10.0,
+          20.0,
+          "CONDITIONAL_MISSING_SIDE_TAG_ORDINARY_GROUND_ROAD",
+          true,
+          "SCHEMATIC"
+        ],
+        [
+          "left",
+          [
+            6.0,
+            0.0
+          ],
+          [
+            6.0,
+            10.0
+          ],
+          10.0,
+          20.0,
+          "CONDITIONAL_MISSING_SIDE_TAG_ORDINARY_GROUND_ROAD",
+          true,
+          "SCHEMATIC"
+        ],
+        [
+          "right",
+          [
+            0.0,
+            -4.0
+          ],
+          [
+            10.0,
+            -4.0
+          ],
+          10.0,
+          20.0,
+          "CONDITIONAL_MISSING_SIDE_TAG_ORDINARY_GROUND_ROAD",
+          true,
+          "SCHEMATIC"
+        ],
+        [
+          "right",
+          [
+            14.0,
+            0.0
+          ],
+          [
+            14.0,
+            10.0
+          ],
+          10.0,
+          20.0,
+          "CONDITIONAL_MISSING_SIDE_TAG_ORDINARY_GROUND_ROAD",
+          true,
+          "SCHEMATIC"
+        ]
+      ]
+    }
+  ],
+  "independent_metamorphic_graph_builds": 4,
+  "new_solver_calls": 0,
+  "new_sssp_calls": 0,
+  "new_network_requests": 0,
+  "scope": "Independent input reversal and directed-edge/cost/geometry equality comparison around delivered author graph. This calls author graph generation under test and is not an independently reimplemented classifier or field validation."
+}

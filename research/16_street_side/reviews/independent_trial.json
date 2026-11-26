@@ -1,0 +1,310 @@
+{
+  "reviewer": "/root/resume_review",
+  "checked_at": "2026-11-12T19:49:24.198600+00:00",
+  "status": "PASS_FOR_BOUNDED_SAVED_TOPOLOGY_TRIAL",
+  "windows": 3,
+  "formal_outcome_certificates_checked": 24,
+  "graph_edges_checked": 701,
+  "native_edge_records_checked": 475,
+  "side_edge_records_checked": 226,
+  "source_crossing_interface_records_checked": 0,
+  "graphs": [
+    {
+      "window": "native",
+      "variant": "R0",
+      "edges": 131,
+      "native_segment_identities": 131,
+      "side_segment_identities": 0,
+      "graph_file_sha256": "41a9ef44c33e4a2a3890410e589d9a3dec9645466512ed8e9c9528bf5284f556"
+    },
+    {
+      "window": "native",
+      "variant": "R1",
+      "edges": 100,
+      "native_segment_identities": 100,
+      "side_segment_identities": 0,
+      "graph_file_sha256": "c70671a8bc94407f11e7508e6ac8a532be9c8ec7ae3b4634ad31aa3bae2f5197"
+    },
+    {
+      "window": "native",
+      "variant": "R2",
+      "edges": 162,
+      "native_segment_identities": 100,
+      "side_segment_identities": 62,
+      "graph_file_sha256": "72d5c38bcf8d565dcf795dbb28ada00f08b6f991975b929309218b4a4e179437"
+    },
+    {
+      "window": "tagged",
+      "variant": "R0",
+      "edges": 71,
+      "native_segment_identities": 71,
+      "side_segment_identities": 0,
+      "graph_file_sha256": "7da2714a81d2286c65d7d87d3c8497eeaa95918e262d2b8cfd572ca6580fbecb"
+    },
+    {
+      "window": "tagged",
+      "variant": "R1",
+      "edges": 10,
+      "native_segment_identities": 2,
+      "side_segment_identities": 8,
+      "graph_file_sha256": "3445b20498ef629e861b81a0055807c86c041fed9e038e3d1f5383a793e9a24f"
+    },
+    {
+      "window": "tagged",
+      "variant": "R2",
+      "edges": 140,
+      "native_segment_identities": 2,
+      "side_segment_identities": 138,
+      "graph_file_sha256": "323d2b2d61bf2c89eaf03a90f02b0a1912e8e1b32287f16bd62fbd80f9d04cc7"
+    },
+    {
+      "window": "missing",
+      "variant": "R0",
+      "edges": 29,
+      "native_segment_identities": 29,
+      "side_segment_identities": 0,
+      "graph_file_sha256": "63837deeb0d175006d9f6fd5b37593b8096506464093455048e824908b8fe7b8"
+    },
+    {
+      "window": "missing",
+      "variant": "R1",
+      "edges": 20,
+      "native_segment_identities": 20,
+      "side_segment_identities": 0,
+      "graph_file_sha256": "19afeaeef1828d6c58414839828e2df7fcb4ea72fbfd78d782026f4927305b39"
+    },
+    {
+      "window": "missing",
+      "variant": "R2",
+      "edges": 38,
+      "native_segment_identities": 20,
+      "side_segment_identities": 18,
+      "graph_file_sha256": "25374badc0d2f00422d6380f9f59fb5924fb8c8775fd7adf7a6fd14c6d896c15"
+    }
+  ],
+  "failures": [],
+  "executed_source_sha256": "030d73246bfdc54a2789c965ec93d4589bcae7b38608d934e88c4781c168750f",
+  "current_delivery_source_sha256": "b7243dca1c9c3c0bae2dd5cc4e2786ddafc528ed2fb635c7f79893d22d53be6a",
+  "engineering_fix": {
+    "at": "2026-11-13T03:40:51.442741+08:00",
+    "reason": "Root preseal review found ambiguous multiroad crossing-node merge in generic unexercised code",
+    "parent_code_sha256": "030d73246bfdc54a2789c965ec93d4589bcae7b38608d934e88c4781c168750f",
+    "fixed_code_sha256": "29ce942900d92b80c0b1893974af777957d365e772409c72df8c70981b373c88",
+    "fix": "Suppress logical-to-native crossing links when source node is incident to more than one road identity; no new crossing added",
+    "actual_graphs_reconstructed": 9,
+    "graph_equivalence": [
+      {
+        "window": "missing",
+        "variant": "R0",
+        "matches": true,
+        "saved_sha256_canonical": "34ef7e61d2c6c4f73f3b8f9db7fe4b8c378b065d678387dc09416e6a4b9c88d6",
+        "reconstructed_sha256_canonical": "34ef7e61d2c6c4f73f3b8f9db7fe4b8c378b065d678387dc09416e6a4b9c88d6"
+      },
+      {
+        "window": "missing",
+        "variant": "R1",
+        "matches": true,
+        "saved_sha256_canonical": "d49b47ca89b5f01a41012782971d1c6249f27555c45d7fd9fe77695210728135",
+        "reconstructed_sha256_canonical": "d49b47ca89b5f01a41012782971d1c6249f27555c45d7fd9fe77695210728135"
+      },
+      {
+        "window": "missing",
+        "variant": "R2",
+        "matches": true,
+        "saved_sha256_canonical": "ec445a0de47a752d715578bafa26ef9bf2f44f0da623af2d92385fd24372bac5",
+        "reconstructed_sha256_canonical": "ec445a0de47a752d715578bafa26ef9bf2f44f0da623af2d92385fd24372bac5"
+      },
+      {
+        "window": "native",
+        "variant": "R0",
+        "matches": true,
+        "saved_sha256_canonical": "65877a06101f09dbfb266c90b643a80f82cdc1dfb28ba18defd5dc0a67fc315f",
+        "reconstructed_sha256_canonical": "65877a06101f09dbfb266c90b643a80f82cdc1dfb28ba18defd5dc0a67fc315f"
+      },
+      {
+        "window": "native",
+        "variant": "R1",
+        "matches": true,
+        "saved_sha256_canonical": "0742b4c1e883a73a29f9b4823fc93ffc741c65aba293792ae79a785d1053f679",
+        "reconstructed_sha256_canonical": "0742b4c1e883a73a29f9b4823fc93ffc741c65aba293792ae79a785d1053f679"
+      },
+      {
+        "window": "native",
+        "variant": "R2",
+        "matches": true,
+        "saved_sha256_canonical": "121f1c47d4b83145a7f32fc2aacb28044c0a07cde36bf6956f9fd6c4f95a1af9",
+        "reconstructed_sha256_canonical": "121f1c47d4b83145a7f32fc2aacb28044c0a07cde36bf6956f9fd6c4f95a1af9"
+      },
+      {
+        "window": "tagged",
+        "variant": "R0",
+        "matches": true,
+        "saved_sha256_canonical": "8eb7707ad9b34d8dc5c545d7354426c130544f9c9a12b7f4d43445d9bcf0f832",
+        "reconstructed_sha256_canonical": "8eb7707ad9b34d8dc5c545d7354426c130544f9c9a12b7f4d43445d9bcf0f832"
+      },
+      {
+        "window": "tagged",
+        "variant": "R1",
+        "matches": true,
+        "saved_sha256_canonical": "90856e4c10795d0fdcfa7b6384c176b4137c5126feef70ad56ac3713512d55e8",
+        "reconstructed_sha256_canonical": "90856e4c10795d0fdcfa7b6384c176b4137c5126feef70ad56ac3713512d55e8"
+      },
+      {
+        "window": "tagged",
+        "variant": "R2",
+        "matches": true,
+        "saved_sha256_canonical": "f125b6a1de73e007b3336a132b34c70e839edeba35f766b26d5cde1d29da53dd",
+        "reconstructed_sha256_canonical": "f125b6a1de73e007b3336a132b34c70e839edeba35f766b26d5cde1d29da53dd"
+      }
+    ],
+    "affected_formal_queries": 0,
+    "additional_formal_solver_calls": 0,
+    "synthetic_repair_sssp_calls": 2,
+    "synthetic_cases_after_fix": 10,
+    "initial_synthetic_cases": 9,
+    "initial_synthetic_sssp_calls": 2,
+    "total_synthetic_sssp_calls": 4,
+    "actual_new_graph_builds": 9,
+    "accepted": true,
+    "result_interpretation": "All18 existing formal requests remain bound to executed source snapshot+hash, and fixed final source reproduces identical nine graphs; no route was overwritten/rerun.",
+    "delivery_code_sha256": "11ec5c9f54b5bc19b8c3dd8d238c0a95facfc54309698923c8feeaa02e3aa0b3",
+    "after_graph_check_change": "Only adds verify-graphs CLI to reconstruct packaged graphs without route computation; graph, binding and solve functions unchanged. fixed_code_sha256 retains actual graph-equivalence-tested source version."
+  },
+  "metric_qualification": {
+    "at": "2026-11-13T03:43:26.897909+08:00",
+    "repair_type": "METRIC_QUALIFICATION_NO_SOLVER",
+    "trigger": "Author noticed physical_route_length_m field emitted for SOURCE_GEOMETRY road axes; scope already topologyonly. Correct nomenclature beforedelivery.",
+    "source_registry_path": "audit/experiment_registry.jsonl",
+    "source_registry_sha256_unchanged": "20a12b4735e6fe794c6b12cd335b6802eb5f6e1abfca5df85051b256734b95db",
+    "changes": [
+      {
+        "query_id": "tagged-along",
+        "variant": "R0",
+        "old_misnamed_physical_route_length_m": 158.8126080465067,
+        "corrected_physical_route_length_m": null,
+        "reason": "R0road-axis/referencegeometry or collapsedsidealias is not physicalsidewalk route length"
+      },
+      {
+        "query_id": "tagged-cross-side",
+        "variant": "R0",
+        "old_misnamed_physical_route_length_m": 0,
+        "corrected_physical_route_length_m": null,
+        "reason": "R0road-axis/referencegeometry or collapsedsidealias is not physicalsidewalk route length"
+      },
+      {
+        "query_id": "missing-along",
+        "variant": "R0",
+        "old_misnamed_physical_route_length_m": 265.3087222794089,
+        "corrected_physical_route_length_m": null,
+        "reason": "R0road-axis/referencegeometry or collapsedsidealias is not physicalsidewalk route length"
+      },
+      {
+        "query_id": "missing-cross-side",
+        "variant": "R0",
+        "old_misnamed_physical_route_length_m": 0,
+        "corrected_physical_route_length_m": null,
+        "reason": "R0road-axis/referencegeometry or collapsedsidealias is not physicalsidewalk route length"
+      }
+    ],
+    "map_before_sha256": "6774c4c099c2781a3cbd37086731574afb99bb41b51435f0c551398377e0d1dc",
+    "map_after_sha256": "98f9bc888d6fadce4898ad38cee9d45037c3a1b83d2ca28c59805df4ce928a7d",
+    "csv_before_sha256": "ceb699d16ebd25ec014d2abaed14220a62126e3e871ef272364ff0495b264009",
+    "csv_after_sha256": "31135ff40729315fccaff30f884143f2bb32b58ea5cafe8399e02e62602e157d",
+    "original_executed_source": "results/pre_fix/executed_street_side.py",
+    "parent_source_before_metric_fix": "results/pre_fix/source_before_metric_qualification.py",
+    "final_source_sha256": "0659159ff27c72f0917a1d95d2fe128fba3da8bdcfa429bf95195c639b1da5a3",
+    "graph_or_cost_changes": 0,
+    "extra_route_requests": 0,
+    "extra_sssp_calls": 0,
+    "meaning": "Only source-native pedestrian controlmaplinelength is reported; sourceaxes/SCHEMATIC/zeroaliases have walkinglengthunknown. No estimate is real-world walkingtruth."
+  },
+  "R0_repair": {
+    "at": "2026-11-13T03:47:16.285054+08:00",
+    "parent_code": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\src\\planner.py",
+    "parent_code_sha256": "c328b038c5549309bd77bab04573f68a077c978e50f2bcc36da0f39f849c80e1",
+    "parent_rule": "planner.py:317-333; F1 reweights only inferred/assumed/unknown;originalnative axis retainslengthcost",
+    "parent_source_snapshot": "results/pre_R0_cost_fix/executed_street_side_before_cost_fix.py",
+    "final_code_sha256": "b7243dca1c9c3c0bae2dd5cc4e2786ddafc528ed2fb635c7f79893d22d53be6a",
+    "repair_queries": [
+      {
+        "query_id": "native-along",
+        "parent_formal_attempt": 1,
+        "repair_formal_attempt": 19,
+        "status_before": "CONNECTED",
+        "status_after": "CONNECTED",
+        "path_edge_ids_equal": true,
+        "old_cost_f1_proxy": 266.10326541632566,
+        "fixed_cost_f1_proxy": 266.10326541632566
+      },
+      {
+        "query_id": "native-reverse",
+        "parent_formal_attempt": 4,
+        "repair_formal_attempt": 20,
+        "status_before": "CONNECTED",
+        "status_after": "CONNECTED",
+        "path_edge_ids_equal": true,
+        "old_cost_f1_proxy": 266.10326541632566,
+        "fixed_cost_f1_proxy": 266.10326541632566
+      },
+      {
+        "query_id": "tagged-along",
+        "parent_formal_attempt": 7,
+        "repair_formal_attempt": 21,
+        "status_before": "CONNECTED",
+        "status_after": "CONNECTED",
+        "path_edge_ids_equal": true,
+        "old_cost_f1_proxy": 158.81260804650668,
+        "fixed_cost_f1_proxy": 158.81260804650668
+      },
+      {
+        "query_id": "tagged-cross-side",
+        "parent_formal_attempt": 10,
+        "repair_formal_attempt": 22,
+        "status_before": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS",
+        "status_after": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS",
+        "path_edge_ids_equal": true,
+        "old_cost_f1_proxy": 0.0,
+        "fixed_cost_f1_proxy": 0.0
+      },
+      {
+        "query_id": "missing-along",
+        "parent_formal_attempt": 13,
+        "repair_formal_attempt": 23,
+        "status_before": "CONNECTED",
+        "status_after": "CONNECTED",
+        "path_edge_ids_equal": true,
+        "old_cost_f1_proxy": 530.617444558818,
+        "fixed_cost_f1_proxy": 265.308722279409
+      },
+      {
+        "query_id": "missing-cross-side",
+        "parent_formal_attempt": 16,
+        "repair_formal_attempt": 24,
+        "status_before": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS",
+        "status_after": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS",
+        "path_edge_ids_equal": true,
+        "old_cost_f1_proxy": 0.0,
+        "fixed_cost_f1_proxy": 0.0
+      }
+    ],
+    "extra_formal_attempts": 6,
+    "extra_actual_solver_calls": 6,
+    "total_formal_attempts": 24,
+    "total_actual_formal_solver_calls": 22,
+    "first18_records_preserved": true,
+    "other_R1_R2_graphs_unchanged": true,
+    "epistemic_shared_street_assumption_remains_recorded": true,
+    "geometric_walking_gain_claim": false
+  },
+  "new_independent_solver_or_sssp_calls": 0,
+  "new_independent_BFS_calls": 0,
+  "certificate_passes": 24,
+  "independent_original_source_admission_comparisons": true,
+  "limits": [
+    "Shortest path optimality is certified within saved logical graph via directed edge inequalities and matching path, not real-world navigation optimality.",
+    "All schematic side positions lack verified width/clearance; absence of mapped conflict is not physical passage proof.",
+    "Native identity preservation does not prove there are no separately mapped physically parallel paths without a source association.",
+    "Same-side cross-road/plaza/native interface binding is not implemented here; parent full-face method remains frozen and unused by this local probe.",
+    "No independence/generalization accuracy claim, no user visual acceptance or publication approval."
+  ]
+}

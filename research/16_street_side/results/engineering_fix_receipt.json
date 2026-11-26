@@ -1,0 +1,85 @@
+{
+  "at": "2026-11-13T03:40:51.442741+08:00",
+  "reason": "Root preseal review found ambiguous multiroad crossing-node merge in generic unexercised code",
+  "parent_code_sha256": "030d73246bfdc54a2789c965ec93d4589bcae7b38608d934e88c4781c168750f",
+  "fixed_code_sha256": "29ce942900d92b80c0b1893974af777957d365e772409c72df8c70981b373c88",
+  "fix": "Suppress logical-to-native crossing links when source node is incident to more than one road identity; no new crossing added",
+  "actual_graphs_reconstructed": 9,
+  "graph_equivalence": [
+    {
+      "window": "missing",
+      "variant": "R0",
+      "matches": true,
+      "saved_sha256_canonical": "34ef7e61d2c6c4f73f3b8f9db7fe4b8c378b065d678387dc09416e6a4b9c88d6",
+      "reconstructed_sha256_canonical": "34ef7e61d2c6c4f73f3b8f9db7fe4b8c378b065d678387dc09416e6a4b9c88d6"
+    },
+    {
+      "window": "missing",
+      "variant": "R1",
+      "matches": true,
+      "saved_sha256_canonical": "d49b47ca89b5f01a41012782971d1c6249f27555c45d7fd9fe77695210728135",
+      "reconstructed_sha256_canonical": "d49b47ca89b5f01a41012782971d1c6249f27555c45d7fd9fe77695210728135"
+    },
+    {
+      "window": "missing",
+      "variant": "R2",
+      "matches": true,
+      "saved_sha256_canonical": "ec445a0de47a752d715578bafa26ef9bf2f44f0da623af2d92385fd24372bac5",
+      "reconstructed_sha256_canonical": "ec445a0de47a752d715578bafa26ef9bf2f44f0da623af2d92385fd24372bac5"
+    },
+    {
+      "window": "native",
+      "variant": "R0",
+      "matches": true,
+      "saved_sha256_canonical": "65877a06101f09dbfb266c90b643a80f82cdc1dfb28ba18defd5dc0a67fc315f",
+      "reconstructed_sha256_canonical": "65877a06101f09dbfb266c90b643a80f82cdc1dfb28ba18defd5dc0a67fc315f"
+    },
+    {
+      "window": "native",
+      "variant": "R1",
+      "matches": true,
+      "saved_sha256_canonical": "0742b4c1e883a73a29f9b4823fc93ffc741c65aba293792ae79a785d1053f679",
+      "reconstructed_sha256_canonical": "0742b4c1e883a73a29f9b4823fc93ffc741c65aba293792ae79a785d1053f679"
+    },
+    {
+      "window": "native",
+      "variant": "R2",
+      "matches": true,
+      "saved_sha256_canonical": "121f1c47d4b83145a7f32fc2aacb28044c0a07cde36bf6956f9fd6c4f95a1af9",
+      "reconstructed_sha256_canonical": "121f1c47d4b83145a7f32fc2aacb28044c0a07cde36bf6956f9fd6c4f95a1af9"
+    },
+    {
+      "window": "tagged",
+      "variant": "R0",
+      "matches": true,
+      "saved_sha256_canonical": "8eb7707ad9b34d8dc5c545d7354426c130544f9c9a12b7f4d43445d9bcf0f832",
+      "reconstructed_sha256_canonical": "8eb7707ad9b34d8dc5c545d7354426c130544f9c9a12b7f4d43445d9bcf0f832"
+    },
+    {
+      "window": "tagged",
+      "variant": "R1",
+      "matches": true,
+      "saved_sha256_canonical": "90856e4c10795d0fdcfa7b6384c176b4137c5126feef70ad56ac3713512d55e8",
+      "reconstructed_sha256_canonical": "90856e4c10795d0fdcfa7b6384c176b4137c5126feef70ad56ac3713512d55e8"
+    },
+    {
+      "window": "tagged",
+      "variant": "R2",
+      "matches": true,
+      "saved_sha256_canonical": "f125b6a1de73e007b3336a132b34c70e839edeba35f766b26d5cde1d29da53dd",
+      "reconstructed_sha256_canonical": "f125b6a1de73e007b3336a132b34c70e839edeba35f766b26d5cde1d29da53dd"
+    }
+  ],
+  "affected_formal_queries": 0,
+  "additional_formal_solver_calls": 0,
+  "synthetic_repair_sssp_calls": 2,
+  "synthetic_cases_after_fix": 10,
+  "initial_synthetic_cases": 9,
+  "initial_synthetic_sssp_calls": 2,
+  "total_synthetic_sssp_calls": 4,
+  "actual_new_graph_builds": 9,
+  "accepted": true,
+  "result_interpretation": "All18 existing formal requests remain bound to executed source snapshot+hash, and fixed final source reproduces identical nine graphs; no route was overwritten/rerun.",
+  "delivery_code_sha256": "11ec5c9f54b5bc19b8c3dd8d238c0a95facfc54309698923c8feeaa02e3aa0b3",
+  "after_graph_check_change": "Only adds verify-graphs CLI to reconstruct packaged graphs without route computation; graph, binding and solve functions unchanged. fixed_code_sha256 retains actual graph-equivalence-tested source version."
+}

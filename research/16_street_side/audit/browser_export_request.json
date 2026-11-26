@@ -1,0 +1,122 @@
+{
+  "identity": "SAVED_FORMAL_QUERY_DISPLAY_NO_NEW_SOLVER_CALL",
+  "window_id": "missing",
+  "query": {
+    "query_id": "missing-cross-side",
+    "kind": "OPPOSITE_SIDE_SAME_SOURCE_STATION",
+    "road_id": "way/11761212",
+    "start_node": 3017753313,
+    "end_node": 3017753313,
+    "start_side": "left",
+    "end_side": "right",
+    "description": "OPPOSITE_SIDE_SAME_SOURCE_STATION",
+    "bindings": {
+      "R0": {
+        "start": "native:3017753313:layer=0;level=0;bridge=no;tunnel=no",
+        "end": "native:3017753313:layer=0;level=0;bridge=no;tunnel=no",
+        "meaning": "R0 collapses side identity to axis node"
+      },
+      "R1": {
+        "start": "way/11761212:left:node/3017753313:layer=0;level=0;bridge=no;tunnel=no",
+        "end": "way/11761212:right:node/3017753313:layer=0;level=0;bridge=no;tunnel=no",
+        "meaning": "same source station and logical road side;physical position unknown"
+      },
+      "R2": {
+        "start": "way/11761212:left:node/3017753313:layer=0;level=0;bridge=no;tunnel=no",
+        "end": "way/11761212:right:node/3017753313:layer=0;level=0;bridge=no;tunnel=no",
+        "meaning": "same source station and logical road side;physical position unknown"
+      }
+    },
+    "results": {
+      "R0": {
+        "status": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS",
+        "solver_invoked": true,
+        "edge_ids": [],
+        "node_path": [
+          "native:3017753313:layer=0;level=0;bridge=no;tunnel=no"
+        ],
+        "cost_f1_proxy": 0,
+        "cost_f0_proxy": 0,
+        "source_line_reference_length_m": 0,
+        "hypothesis_edges": 0,
+        "schematic_edges": 0,
+        "physical_route_length_m": null,
+        "popped_nodes": 29,
+        "distance_labels": {
+          "native:3017753313:layer=0;level=0;bridge=no;tunnel=no": 0,
+          "native:3020066685:layer=0;level=0;bridge=no;tunnel=no": 109.67120894414766,
+          "native:1317175521:layer=0;level=0;bridge=no;tunnel=no": 75.81540659555259,
+          "native:3017753312:layer=0;level=0;bridge=no;tunnel=no": 130.11394865205165,
+          "native:105259252:layer=0;level=0;bridge=no;tunnel=no": 86.73426176067758,
+          "native:10703754088:layer=0;level=0;bridge=no;tunnel=no": 101.73304873044752,
+          "native:10703754083:layer=0;level=0;bridge=no;tunnel=no": 94.86168611668347,
+          "native:10703754084:layer=0;level=0;bridge=no;tunnel=no": 107.09236992123625,
+          "native:3048216957:layer=0;level=0;bridge=no;tunnel=no": 201.61853062084006,
+          "native:10703754087:layer=0;level=0;bridge=no;tunnel=no": 107.40534846085346,
+          "native:10703754085:layer=0;level=0;bridge=no;tunnel=no": 115.03436043267376,
+          "native:10703754086:layer=0;level=0;bridge=no;tunnel=no": 114.04665863180264,
+          "native:105253460:layer=0;level=0;bridge=no;tunnel=no": 170.44703616272548,
+          "native:10703761805:layer=0;level=0;bridge=no;tunnel=no": 141.21990538534553,
+          "native:10703754089:layer=0;level=0;bridge=no;tunnel=no": 150.61674939804905,
+          "native:10703754104:layer=0;level=0;bridge=no;tunnel=no": 146.6353115370607,
+          "native:10703754103:layer=0;level=0;bridge=no;tunnel=no": 156.0509946162971,
+          "native:10703761835:layer=0;level=0;bridge=no;tunnel=no": 153.3497817577229,
+          "native:10703754090:layer=0;level=0;bridge=no;tunnel=no": 159.31866705083226,
+          "native:10703761834:layer=0;level=0;bridge=no;tunnel=no": 159.37540740389687,
+          "native:10703754102:layer=0;level=0;bridge=no;tunnel=no": 163.87364841960957,
+          "native:10703754091:layer=0;level=0;bridge=no;tunnel=no": 168.55034869195237,
+          "native:10703754101:layer=0;level=0;bridge=no;tunnel=no": 169.66606133061873,
+          "native:10703754100:layer=0;level=0;bridge=no;tunnel=no": 175.08861343353564,
+          "native:10703754096:layer=0;level=0;bridge=no;tunnel=no": 180.22233619680142,
+          "native:10703754095:layer=0;level=0;bridge=no;tunnel=no": 191.86582548097942,
+          "native:10703754097:layer=0;level=0;bridge=no;tunnel=no": 187.95261107756153,
+          "native:10703754094:layer=0;level=0;bridge=no;tunnel=no": 200.4921714476346,
+          "native:1487384237:layer=0;level=0;bridge=no;tunnel=no": 225.19193818691318
+        },
+        "length_interpretation": "WALKING_LENGTH_UNKNOWN;cost_or_axis_reference_only",
+        "qualified_from_original_registry": false,
+        "current_formal_attempt": 24
+      },
+      "R1": {
+        "status": "ENDPOINT_UNAVAILABLE",
+        "solver_invoked": false,
+        "edge_ids": [],
+        "node_path": [],
+        "length_interpretation": "WALKING_LENGTH_UNKNOWN;cost_or_axis_reference_only",
+        "qualified_from_original_registry": true
+      },
+      "R2": {
+        "status": "DISCONNECTED",
+        "solver_invoked": true,
+        "edge_ids": [],
+        "node_path": [],
+        "popped_nodes": 6,
+        "distance_labels": {
+          "way/11761212:left:node/3017753313:layer=0;level=0;bridge=no;tunnel=no": 0,
+          "way/11761212:left:node/3020066685:layer=0;level=0;bridge=no;tunnel=no": 219.34241788829533,
+          "way/11761212:left:node/1317175521:layer=0;level=0;bridge=no;tunnel=no": 151.63081319110518,
+          "way/11761212:left:node/105259252:layer=0;level=0;bridge=no;tunnel=no": 173.46852352135517,
+          "way/11761212:left:node/10703754083:layer=0;level=0;bridge=no;tunnel=no": 189.72337223336694,
+          "way/11761212:left:node/105253460:layer=0;level=0;bridge=no;tunnel=no": 340.89407232545096
+        },
+        "length_interpretation": "WALKING_LENGTH_UNKNOWN;cost_or_axis_reference_only",
+        "qualified_from_original_registry": true
+      }
+    }
+  },
+  "display_bounds_xy": [
+    350460.41478489165,
+    3453672.7693530084,
+    350796.41478489165,
+    3454008.7693530084
+  ],
+  "visible_layers": [
+    "native",
+    "tag_derived",
+    "hypothesis",
+    "crossing",
+    "constraints",
+    "road_axis"
+  ],
+  "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45"
+}

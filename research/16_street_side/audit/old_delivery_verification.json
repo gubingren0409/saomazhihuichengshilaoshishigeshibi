@@ -1,0 +1,348 @@
+{
+  "checked_at": "2026-11-13T03:35:05.831260+08:00",
+  "old_delivery_chain": "COMPLETE",
+  "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+  "archive_bytes": 72108383,
+  "archive_sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+  "manifest_files_checked": 343,
+  "receipt_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\INDEPENDENT_DELIVERY_RECEIPT.json",
+  "receipt_sha256": "c2071680f2f9e535d9e18a6d22b4d7f29cd05641f8b8a2c9c6b05547d4bdc934",
+  "original_receipt_time_utc": "2026-11-12T08:42:55.744725+00:00",
+  "evidence_files_checked": [
+    {
+      "path": "reviews\\final_unpack_receipt.json",
+      "sha256": "e9ee238ee3f21c86a47cdb8a8bcdf003c9007bda84dde7249c8ad2eda467a7a7",
+      "bytes": 855,
+      "actual_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\final_unpack_receipt.json",
+      "match": true
+    },
+    {
+      "path": "INDEPENDENT_MACHINE_REPLAY_RECEIPT.json",
+      "sha256": "ea57ff108fb1abab41bfd4f3d4bec1f06e14efe033388f183a65f51252f7572f",
+      "bytes": 4137,
+      "actual_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\INDEPENDENT_MACHINE_REPLAY_RECEIPT.json",
+      "match": true
+    },
+    {
+      "path": "independent_browser\\receipt.json",
+      "sha256": "4781161fc91d6007ac0e43da91f807616e329ead96e993b1810df24b712bed0c",
+      "bytes": 18942,
+      "actual_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\independent_browser\\receipt.json",
+      "match": true
+    },
+    {
+      "path": "postseal_logs\\independent_binding.txt",
+      "sha256": "5bfb19f3afc627b2cc5fa1c0a80c514f4f44df13af0f513b672885df74a640fb",
+      "bytes": 147,
+      "actual_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\independent_binding.txt",
+      "match": true
+    },
+    {
+      "path": "postseal_logs\\independent_current_graph.txt",
+      "sha256": "19879f16ca8d0c173061f83da3989a2c7c431f48eed441bffcd04e866985c6fe",
+      "bytes": 133,
+      "actual_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\independent_current_graph.txt",
+      "match": true
+    },
+    {
+      "path": "postseal_logs\\independent_phase1.txt",
+      "sha256": "28af3c3633dc6e011bc1b53b9dba79ef8ab86ce3343f51acb8e90236b05d9105",
+      "bytes": 66,
+      "actual_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\independent_phase1.txt",
+      "match": true
+    },
+    {
+      "path": "postseal_logs\\independent_phase2.txt",
+      "sha256": "672af8e7b4ddce4d9c29a6fb52fc32e54a81ab79b90e1f420999e787201daf7d",
+      "bytes": 113,
+      "actual_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\independent_phase2.txt",
+      "match": true
+    },
+    {
+      "path": "postseal_logs\\independent_track_a.txt",
+      "sha256": "f77904360af979e0de40a8f467a8bd97411bc150a46cf03c7e2a42da66b4248c",
+      "bytes": 85,
+      "actual_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\independent_track_a.txt",
+      "match": true
+    },
+    {
+      "path": "postseal_logs\\unittest.txt",
+      "sha256": "315c945273f50b84eb009c4a68780f70dc7d80383ce1734fc25040f5d9702301",
+      "bytes": 782,
+      "actual_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\unittest.txt",
+      "match": true
+    }
+  ],
+  "existing_replay_outputs_checked": [
+    {
+      "name": "independent_binding",
+      "output_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\independent_binding.json",
+      "output_sha256": "8846b516b9ca04ceaf6756936e84a44c6711dbd94e8270f31f4808d48c796a4c",
+      "source_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\src\\independent_binding.py",
+      "source_sha256": "3df09931c9ce3bb6cbff0abb864cad92c2ccec3322d57e5d2d164fa5a2fb5b47"
+    },
+    {
+      "name": "independent_phase1",
+      "output_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\independent_phase1.json",
+      "output_sha256": "5f334334e4e52be06c96487f272ed7cdfbd937ba2314851b38b739b312354d45",
+      "source_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\src\\independent_phase1.py",
+      "source_sha256": "f104b86d073fe0451cf837f2d8af48b50840e1d2edfcc3a310a528654cc3c40b"
+    },
+    {
+      "name": "independent_current_graph",
+      "output_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\independent_current_graph.json",
+      "output_sha256": "40987ad53ecf3b0ce8d84faccf5223cde569f4cf0b3f81877a2154fe5bfcb445",
+      "source_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\src\\independent_current_graph.py",
+      "source_sha256": "50b18b40469cdae98ca33c22a802be039033ddfffd6bcd4f1c80c4b7177797c7"
+    },
+    {
+      "name": "independent_phase2",
+      "output_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\independent_phase2.json",
+      "output_sha256": "17c0415b8b04c04bb4adc6e203e0360878720183a209731005a86f3e5248f17a",
+      "source_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\src\\independent_phase2.py",
+      "source_sha256": "2ac94495ec266e81e1ea6db25601a0ea945fc83b98920bb81d3d4e01b42e31a8"
+    },
+    {
+      "name": "independent_track_a",
+      "output_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\independent_track_a.json",
+      "output_sha256": "892661b6eeb46513b796498bab35fd9f40bbb1d0e7fee357a761b596e9273078",
+      "source_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\src\\independent_track_a.py",
+      "source_sha256": "2d31143742e9dd212592052607353a1d941cd99f926791c3d35fc5a4afa26c4b"
+    }
+  ],
+  "original_public_files_checked": [
+    {
+      "path": ".gitattributes",
+      "sha256": "08fd71392ca9db66c76fbee932d61b471826bf83e8bc3c865daaeb8df356df51"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "ac1ae364d5675c454074b7b401d9bd35a796abe5207d733ac5a27edc5d16466b"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c281ca9523ceca2045e90760372f0a6bd742d701b1b5ca54b6a24ff0c5e58ab1"
+    },
+    {
+      "path": "docs/baseline_registry.csv",
+      "sha256": "f7c3d479ec6ba82a283193b9064dd6e2e92456d313f315cef36dee29fe934a96"
+    },
+    {
+      "path": "docs/data_contract.md",
+      "sha256": "c946c416551f6df4e502b1ffbe541e253518ca79c8d0c923fd2324dfd19a3812"
+    },
+    {
+      "path": "docs/dataset_registry.md",
+      "sha256": "eb53057be5301414a1b74cdd55dba29880113003c98b3b45efadda64bef7ccfc"
+    },
+    {
+      "path": "docs/governance_pointer.md",
+      "sha256": "a83fd6bfb47bff98743b84f03642aa4a6de6e4073dcd740350179764ac00f33d"
+    },
+    {
+      "path": "docs/methodology_registry.md",
+      "sha256": "62ca441086070b760213d3064ae1d91bcee380c0dc394fc0c32137a944657f7a"
+    },
+    {
+      "path": "docs/project_charter.md",
+      "sha256": "20eccadb911625ef1c0d401bf1e3d77d12e4f42ec53877cb47f6713b3e03c3e1"
+    },
+    {
+      "path": "docs/project_status.md",
+      "sha256": "9f45533bc637e75bf928d09070aeea6692b99610a04792353060a4ad6520761f"
+    },
+    {
+      "path": "docs/public_release_audit.md",
+      "sha256": "2b0d57846881f67c91aa73b03516180de55af30717aee2d14119259b35c79d05"
+    },
+    {
+      "path": "docs/research_decisions.md",
+      "sha256": "4b1ef1b9657b1cf8cd383a2791cd4d2beb2379ac3060a9481e8154ee76aa1d05"
+    },
+    {
+      "path": "docs/research_overview.md",
+      "sha256": "0416e8385bba7f420b2b527c4cee5e5dbcdee0977601f2ff8cde87a186ff654c"
+    },
+    {
+      "path": "docs/round_delivery_protocol.md",
+      "sha256": "dc8467fa7104c8f5c2869b0b8bcbfab57425417bab6217c9d904ee2ac2d53f62"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "04559febb540fbab83a30c589c878a89c6e12271f3d2db3b2dbbbd8f37833c2f"
+    },
+    {
+      "path": "schemas/decisions.schema.json",
+      "sha256": "532f25bd50f6d002ce9804854df05edd832bbfd831295feb613589798ea9f984"
+    },
+    {
+      "path": "schemas/experiments.schema.json",
+      "sha256": "6c2126b57162c8dc8d65bf2eb541c54fd04a522a775535a7bb4ff2d548d07523"
+    },
+    {
+      "path": "schemas/scene.schema.json",
+      "sha256": "1aa628bb430f001937bd63209066c1bb23fb56126c98b08e9a8bfd6d83527dbf"
+    },
+    {
+      "path": "schemas/sources.schema.json",
+      "sha256": "b61196581e90bebd7ed4911b137806e38ca74088042f2162bcf0da63a1fee10f"
+    },
+    {
+      "path": "src/walkability_foundation/__init__.py",
+      "sha256": "a3a73f5828d4d61798ee9544b7ab7aefee756b6c3194e5b63b3b84c093ae11d6"
+    },
+    {
+      "path": "src/walkability_foundation/graph_costs.py",
+      "sha256": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+    },
+    {
+      "path": "tests/test_graph_costs.py",
+      "sha256": "9a2a70b569500d5bf3e11283a3fa62f02c4cce1fd1cc544699275054abfcea3e"
+    },
+    {
+      "path": "tests/test_release_audit.py",
+      "sha256": "436af997643578890c062d2d1e0b568a6fd2167e05f285fd93cc857ef4d9f89a"
+    },
+    {
+      "path": "tools/audit_public_tree.py",
+      "sha256": "293008ef41ddbd17c31bd544e4f4b7f5102bbb95baac0ade1d197c3aff81cbe4"
+    },
+    {
+      "path": "tools/phase1/index.html",
+      "sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c"
+    },
+    {
+      "path": "tools/phase1/requirements.txt",
+      "sha256": "f5ec06935e283a1d2aa5dae573e50f7683863064343e1d11b1a9fdfbff908feb"
+    },
+    {
+      "path": "tools/phase1/src/build_audit.py",
+      "sha256": "515caf50f948cd202e3242bff1988d0d893d45af78f07adc34039f00a554c8d8"
+    },
+    {
+      "path": "tools/phase1/src/export_current_graph.py",
+      "sha256": "4f50a0af38ec57699cae4c265a3814544abe1bd9b9907e065b316973ca0d46c3"
+    },
+    {
+      "path": "tools/phase1/src/map.css",
+      "sha256": "ff4d3081044c4687aca70f4c340564d9a9df2733fad4007de6b4be199a96eb0a"
+    },
+    {
+      "path": "tools/phase1/src/map.js",
+      "sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02"
+    },
+    {
+      "path": "tools/phase1/src/render_maps.py",
+      "sha256": "dff266e49a62a9256cf1703a59747023efa1b9e96b9f7746f0e412809106e37a"
+    },
+    {
+      "path": "tools/phase2/src/build_atlas.py",
+      "sha256": "6ddf39d3592efc05d9d31d2e05030902737760f1b159e97de16c49e9b8c94073"
+    },
+    {
+      "path": "tools/phase2/src/fetch_bounded.py",
+      "sha256": "635a0de3184ade54741af4d125a4ee01674bab4712b3e0f9a49561dd30069a9a"
+    },
+    {
+      "path": "tools/phase2/src/spatial_groups.py",
+      "sha256": "f40e57e12848055712b3f3f14fbc0c405ad33cf549386f4865686356a0afa50b"
+    },
+    {
+      "path": "tools/phase2/src/summarize_audit.py",
+      "sha256": "627344dc15832e0df51c926a1f0884672cefdd02f9da9b9f640f4308bcbd59bc"
+    },
+    {
+      "path": "tools/phase2/src/verify_atlas.py",
+      "sha256": "e9ed3d6619289f7d7e5c53ce9ca9952411e2cfd7ebc1df08259c301d89b599c7"
+    },
+    {
+      "path": "tools/run_development_probe.py",
+      "sha256": "058d107579c9c6b0fa47a034bdd87fe3587b58534f0388302e86c0c6e630d157"
+    },
+    {
+      "path": "tools/verify_probe_certificates.py",
+      "sha256": "75552d0066e8aa045496534a8fd21c29f40e8e5c74e1d6671c9a4a53e7afd527"
+    }
+  ],
+  "new_old_experiment_calls": 0,
+  "Bad_Request_root_cause": "UNKNOWN_NO_SPECIFIC_ERROR_LOG",
+  "preserved_history": {
+    "original_started_at": "2026-11-12T15:21:50+08:00",
+    "sealed_at": "2026-11-12T16:31:11.688601+08:00",
+    "historical_goal_service_status": "blocked",
+    "sealed_pending_snapshot": "UNCHANGED"
+  },
+  "G0_PUBLICATION": "PENDING_USER_APPROVAL",
+  "G1_VISUAL_ACCEPTANCE": "PENDING_USER_REVIEW",
+  "G2_SPLIT_FREEZE": "NOT_APPROVED",
+  "PARENT_GOAL_COMPLETE": false,
+  "current_working_root_warnings": [
+    {
+      "path": "phase1/maps/sh-exhibition.png",
+      "exists": false,
+      "expected_sha256": "9c6b727f017d640ba9326c1a839a50c8083fdf8f1f5ceb5a449562d25bb5a276",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-huangpu-01.png",
+      "exists": false,
+      "expected_sha256": "6e439695961fb1fe141a8a33272025747a597e953572d7161bd2c5173bbe600d",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-huangpu-01.svg",
+      "exists": false,
+      "expected_sha256": "3c870f57f1ad6111c66069c6110227c5c76b300d05516aaa25310aadf1551e87",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-library.png",
+      "exists": false,
+      "expected_sha256": "17ac7b954d3c8495856251dd527a7896604ddf050e4e58f592d1547255a4a17c",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-library.svg",
+      "exists": false,
+      "expected_sha256": "1f059d77ffbee4b2011db61704666cda1871040db4b536c294a925bd0833fe8c",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-newworld.png",
+      "exists": false,
+      "expected_sha256": "16df6549e073e7005a46fa8a7ad383a0dce06f84850494cf4064f3702fe8ac16",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-newworld.svg",
+      "exists": false,
+      "expected_sha256": "02eecd0ccc60b993317dd7b3edaf12e5d10ee0902055ea8b476a7d8688453f25",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-tower.png",
+      "exists": false,
+      "expected_sha256": "35080dad1c5c65ca124895175256f252d7c5d40444c4d9a501b4a76ce14fe872",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-tower.svg",
+      "exists": false,
+      "expected_sha256": "9dc04c94fc48fa51ea45c912e2dc7fe500e837d4eeeccf05d97f199b4be0d487",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-wukang.png",
+      "exists": false,
+      "expected_sha256": "0ff82f89839f3a42cd63f345d5131f744372c654c29de8049dba6df425984336",
+      "actual_sha256": null
+    },
+    {
+      "path": "reviews/browser/foundation-overview.png",
+      "exists": false,
+      "expected_sha256": "7776cea4649a1aae051c7fe9408d9f9ec458fb8c917acecbcea24ed94816e453",
+      "actual_sha256": null
+    }
+  ],
+  "current_working_root_scope": "11 historical map/browser files missing at current read; cause/time UNKNOWN. Fixed archive evidence COMPLETE; do not claim mutable root all343 present."
+}

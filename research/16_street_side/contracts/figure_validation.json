@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-11-12T19:49:34.368456+00:00",
+  "command": [
+    "C:/Users/28489/AppData/Local/Programs/Python/Python312/python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "E:/智慧城市和位置服务/project/Smart_Cities_and_Location_Services/tools/skills/publication-plots/scripts/check_figure_set.py",
+    "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\missing_comparison.png",
+    "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\missing_detail.png",
+    "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\native_comparison.png",
+    "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\native_detail.png",
+    "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\tagged_comparison.png",
+    "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\tagged_detail.png"
+  ],
+  "exit_code": 0,
+  "stdout": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\missing_comparison.png: 2160x1140, mean-channel-stddev=16.63\nE:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\missing_detail.png: 2160x1140, mean-channel-stddev=16.18\nE:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\native_comparison.png: 2160x1140, mean-channel-stddev=19.40\nE:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\native_detail.png: 2160x1140, mean-channel-stddev=19.16\nE:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\tagged_comparison.png: 2160x1140, mean-channel-stddev=16.89\nE:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\tagged_detail.png: 2160x1140, mean-channel-stddev=16.52\n",
+  "stderr": "",
+  "map_data_sha256": "349f321d820feb9935f52160bc85b4a1ff030733ce53c7cc30058d89ae14e23c",
+  "files": [
+    {
+      "path": "figures\\missing_comparison.png",
+      "sha256": "f8f8e6f915a2bed572217832e6ad93a32ac23d6e0ddf13e94c618997becabc13",
+      "bytes": 430117
+    },
+    {
+      "path": "figures\\missing_detail.png",
+      "sha256": "5331ea6942dba5aed0a71f728ee5c2fbca0abbb11af8296b3adad07bdc4a5b69",
+      "bytes": 300515
+    },
+    {
+      "path": "figures\\native_comparison.png",
+      "sha256": "b114e3c05cc0761538e0e8fc2ecffe81f689c2af992e564d81b33d9d2052758b",
+      "bytes": 593789
+    },
+    {
+      "path": "figures\\native_detail.png",
+      "sha256": "7fd268f1ee1d6ecca4c9fe31d5eec3d74df782d0b26ed67173e87a1926bb26ef",
+      "bytes": 380254
+    },
+    {
+      "path": "figures\\tagged_comparison.png",
+      "sha256": "d962ae2e6265b97e3549c38da88023e79c64241af0bfbd0c8f96eea2b6c04928",
+      "bytes": 502625
+    },
+    {
+      "path": "figures\\tagged_detail.png",
+      "sha256": "fac66d0f47ab6567fb1ad2afc08e750e1f91ca6b85e1f7c227bf062534e28894",
+      "bytes": 343962
+    }
+  ],
+  "actual_visual_inspection": {
+    "final_all_six": true,
+    "inspected_files": [
+      "missing_comparison.png",
+      "missing_detail.png",
+      "native_comparison.png",
+      "native_detail.png",
+      "tagged_comparison.png",
+      "tagged_detail.png"
+    ],
+    "identity": "data_visual author inspection via view_image; not independent reviewer or user acceptance"
+  },
+  "browser_review": "root actual browser review separate receipt; raster test does not substitute it"
+}

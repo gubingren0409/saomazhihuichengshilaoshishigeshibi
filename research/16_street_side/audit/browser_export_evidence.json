@@ -1,0 +1,38 @@
+{
+  "variant": "R2",
+  "identity": "SOURCE_GEOMETRY",
+  "edge_id": "R2:native:way/1150630714:0",
+  "u": "native:10703754083:layer=0;level=0;bridge=no;tunnel=no",
+  "v": "native:10703754084:layer=0;level=0;bridge=no;tunnel=no",
+  "xy": [
+    [
+      350574.6986526062,
+      3453980.4963632794
+    ],
+    [
+      350586.7625482886,
+      3453982.5093330485
+    ]
+  ],
+  "layer": "native",
+  "evidence": "MAPPED_PEDESTRIAN_WAY",
+  "source_id": "way/1150630714",
+  "source_node_ids": [
+    10703754083,
+    10703754084
+  ],
+  "side": null,
+  "directions": [
+    1,
+    -1
+  ],
+  "geometry_status": "SOURCE_GEOMETRY",
+  "hypothesis": false,
+  "cost_f0": 12.230683804552788,
+  "cost_f1": 12.230683804552788,
+  "length_basis": "SOURCE_LINE_LENGTH_M;road_axis_is_not_sidewalk",
+  "tags": {
+    "highway": "footway",
+    "surface": "paved"
+  }
+}

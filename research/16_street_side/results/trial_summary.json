@@ -1,0 +1,38 @@
+{
+  "completed_at": "2026-11-13T03:39:13.265595+08:00",
+  "formal_attempts": 24,
+  "actual_formal_dijkstra_calls": 22,
+  "formal_endpoint_unavailable_without_search": 2,
+  "repair_retests": 6,
+  "synthetic_shortest_path_calls": 2,
+  "native_exact_geometry_query_count": 6,
+  "topology_only_query_count": 12,
+  "by_variant": {
+    "R0": {
+      "CONNECTED": 4,
+      "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS": 2
+    },
+    "R1": {
+      "CONNECTED": 3,
+      "DISCONNECTED": 1,
+      "ENDPOINT_UNAVAILABLE": 2
+    },
+    "R2": {
+      "CONNECTED": 4,
+      "DISCONNECTED": 2
+    }
+  },
+  "costs_are_topology_proxies_except_native_controls": true,
+  "new_full_business_routes": 0,
+  "no_default_method_upgrade": true,
+  "no_new_data_requests": true,
+  "synthetic_shortest_path_calls_total": 4,
+  "synthetic_test_cases_executed_total": 19,
+  "graph_equivalence_builds": 18,
+  "engineering_fix_receipt": "results/engineering_fix_receipt.json",
+  "source_permission_inventory_fix": "results/source_permission_inventory_fix.json",
+  "final_code_sha256": "b7243dca1c9c3c0bae2dd5cc4e2786ddafc528ed2fb635c7f79893d22d53be6a",
+  "current_matrix_requests": 18,
+  "superseded_initial_R0_requests": 6,
+  "R0_cost_repair_receipt": "results/R0_cost_repair_receipt.json"
+}

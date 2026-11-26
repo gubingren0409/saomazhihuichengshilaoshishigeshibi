@@ -1,0 +1,12 @@
+{
+  "started_by": "root",
+  "pid": 99416,
+  "port": 53511,
+  "bind": "127.0.0.1",
+  "purpose": "READ_ONLY_REVIEW",
+  "health_identity": "PG1-RESUME-STREET-SIDE-R1",
+  "run_command": "python -X utf8 -B scripts/serve_review.py --port 53511",
+  "stop_this_instance_command": "Stop-Process -Id 99416",
+  "foreground_stop": "Ctrl+C when run in foreground",
+  "no_old_services_terminated": true
+}

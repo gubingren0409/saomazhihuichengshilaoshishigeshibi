@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-13T03:40:06.038517+08:00",
+  "pid": 99416,
+  "host": "127.0.0.1",
+  "port": 53511,
+  "checks": [
+    {
+      "path": "health",
+      "status": 200,
+      "bytes": 94,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "path": "foundation/",
+      "status": 200,
+      "bytes": 4664,
+      "content_type": "text/html"
+    },
+    {
+      "path": "foundation/scene_index.json",
+      "status": 200,
+      "bytes": 35216,
+      "content_type": "application/json"
+    },
+    {
+      "path": "foundation/maps/sh-huangpu-01.png",
+      "status": 200,
+      "bytes": 3204402,
+      "content_type": "image/png"
+    }
+  ]
+}

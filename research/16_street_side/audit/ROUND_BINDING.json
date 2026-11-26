@@ -1,0 +1,102 @@
+{
+  "round_id": "PG1-RESUME-STREET-SIDE-R1",
+  "bound_at": "2026-11-13T03:53:30.623015+08:00",
+  "base_commit": "3134c0ea68e00871ed6dc86ca7bc905071449dae",
+  "final_local_commit": "1ab7fd75704d98e85fe4e69a85dc828e7df2ffb5",
+  "branch": "codex/pg1-resume-street-side-r1",
+  "repository": "gubingren0409/saomazhihuichengshilaoshishigeshibi",
+  "source_prepared": true,
+  "local_committed": true,
+  "pushed": false,
+  "GPT_remote_readback": false,
+  "current_remote_state": "NOT_QUERIED_THIS_RESUME",
+  "first_public_push": "NOT_APPROVED_NOT_PERFORMED",
+  "new_source_file_count": 13,
+  "source_files": [
+    {
+      "execution_copy": "scripts/audit_business_axes.py",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/scripts/audit_business_axes.py",
+      "bytes": 5884,
+      "sha256": "4ebb0f3e2f5d9def3ff1e38a806beb7b62474bea9746489e5cde8d05617c7a84"
+    },
+    {
+      "execution_copy": "scripts/build_closeout.py",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/scripts/build_closeout.py",
+      "bytes": 10470,
+      "sha256": "e3c37329d64ebfeeda0a4e1bebdab1aecb5218f51daff24297e68cd2930a9aff"
+    },
+    {
+      "execution_copy": "scripts/build_visuals.py",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/scripts/build_visuals.py",
+      "bytes": 29204,
+      "sha256": "aa6836e605208dad1a678783b4139a64360e05a6cba7a2671509220de99d14c2"
+    },
+    {
+      "execution_copy": "scripts/check_browser.py",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/scripts/check_browser.py",
+      "bytes": 3967,
+      "sha256": "852ef693b5ab4daed44de0daeaa25d9217cc65e74b5193ee1137f1ef71463661"
+    },
+    {
+      "execution_copy": "scripts/freeze_source.py",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/scripts/freeze_source.py",
+      "bytes": 3516,
+      "sha256": "839bab8cbaa974df3ce5808a294e7eed9c3af270b8cc4bd7354e112e34e132fe"
+    },
+    {
+      "execution_copy": "scripts/independent_check.py",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/scripts/independent_check.py",
+      "bytes": 25472,
+      "sha256": "bfff77ad8eeb275c66f8848ab093f181479924f13603ec87227a3ae0642b591d"
+    },
+    {
+      "execution_copy": "scripts/recover_delivery.py",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/scripts/recover_delivery.py",
+      "bytes": 5625,
+      "sha256": "80f16256f210818a7518229ce9f7709266a256571e28eff481ace4aa9a718b20"
+    },
+    {
+      "execution_copy": "scripts/serve_review.py",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/scripts/serve_review.py",
+      "bytes": 2651,
+      "sha256": "c5f048286be74ee9d1be72f2bc0906eca8f3affd6b95bff2c24a7598cb16f3e7"
+    },
+    {
+      "execution_copy": "scripts/street_side.py",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/scripts/street_side.py",
+      "bytes": 31005,
+      "sha256": "b7243dca1c9c3c0bae2dd5cc4e2786ddafc528ed2fb635c7f79893d22d53be6a"
+    },
+    {
+      "execution_copy": "maps/viewer.js",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/maps/viewer.js",
+      "bytes": 11338,
+      "sha256": "d47d51001c6c30451fb25bda03c4e1758cab7ba4fb8ebd0f6a6c037fea0798ee"
+    },
+    {
+      "execution_copy": "maps/viewer.css",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/maps/viewer.css",
+      "bytes": 2482,
+      "sha256": "8bb4048626e9ac985b2c6bccbed83767ec1f138ba80a40cea767c09fd4c3944c"
+    },
+    {
+      "execution_copy": "README.md",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/README.md",
+      "bytes": 2450,
+      "sha256": "bf45eb1ee28cfed78b063b4f2fe5f24db5d8cb3bde03c71e2157d6824c2b8660"
+    },
+    {
+      "execution_copy": "DEPENDENCIES_AND_RIGHTS.md",
+      "repository_path": "rounds/PG1_RESUME_STREET_SIDE_R1/DEPENDENCIES_AND_RIGHTS.md",
+      "bytes": 1495,
+      "sha256": "d9c2b1fe398b7bcf649a319c845d79e844e80ca8dfc7a47233d9feb105e49af2"
+    }
+  ],
+  "secret_scan": {
+    "scope": "Only selected new text/source files; known token-prefix patterns; not a proof of universal secret absence",
+    "findings": 0
+  },
+  "publication_boundary": "Old38 candidate list frozen. New private local source commit not added to approved public list; raw maps/results/coordinates excluded from this source commit; license not selected.",
+  "initial_resume_commit": "e4801dcc2f7c044f1582b203c767506bdf28a3c7",
+  "clarification_commit_only": "case-correct independent review link and Windows replay limits; no algorithm/results changed"
+}

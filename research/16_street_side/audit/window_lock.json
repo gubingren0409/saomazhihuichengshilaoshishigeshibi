@@ -1,0 +1,124 @@
+{
+  "locked_at": "2026-11-13T03:38:15.751441+08:00",
+  "new_graphs_or_routes_before_lock": 0,
+  "strata_order": [
+    "native",
+    "tagged",
+    "missing"
+  ],
+  "main_formal_requests": 18,
+  "repair_allowance": 6,
+  "cost_policy": "F1 only for18main topology queries; F0/F1 edgecosts both exported; F1=F0+hypothesis_axis_reference_cost;no newcostsearch",
+  "query_scope": "Source waypoint/side identity diagnostics, NOT registered-door business routes;native control uses exact source geometry;side results topology only",
+  "cutoff": "2026-11-13T05:17:19+08:00",
+  "windows": [
+    {
+      "window_id": "native",
+      "scene_id": "sh-huangpu-01",
+      "label": "上海博物馆人民广场馆 · 39764359",
+      "bounds_xy": [
+        353729.5267431182,
+        3456270.902233435,
+        354049.5267431182,
+        3456590.902233435
+      ],
+      "selected_road_id": "way/39764359",
+      "queries": [
+        {
+          "query_id": "native-along",
+          "kind": "NATIVE_ALONG",
+          "road_id": "way/39764359",
+          "start_node": 13763096983,
+          "end_node": 1728701622,
+          "start_side": "left",
+          "end_side": "left"
+        },
+        {
+          "query_id": "native-reverse",
+          "kind": "NATIVE_REVERSE",
+          "road_id": "way/39764359",
+          "start_node": 1728701622,
+          "end_node": 13763096983,
+          "start_side": "left",
+          "end_side": "left"
+        }
+      ],
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "selection_basis": "Fixed native/tagged/missing strata; minimum numeric way ID within750m of frozen target; midpoint kept source segment;320m square;no route outcome used",
+      "input_path": "results\\inputs\\native.json",
+      "input_sha256": "a010970b9355ee8ab05f6846440724b7acc453eb243079f8bd7b2b74417a553c"
+    },
+    {
+      "window_id": "tagged",
+      "scene_id": "sh-library",
+      "label": "上海图书馆淮海路馆 · 安福路",
+      "bounds_xy": [
+        351323.31002892845,
+        3454451.3702966054,
+        351643.31002892845,
+        3454771.3702966054
+      ],
+      "selected_road_id": "way/438516308",
+      "queries": [
+        {
+          "query_id": "tagged-along",
+          "kind": "SAME_LEFT_SIDE",
+          "road_id": "way/438516308",
+          "start_node": 3382616037,
+          "end_node": 154072987,
+          "start_side": "left",
+          "end_side": "left"
+        },
+        {
+          "query_id": "tagged-cross-side",
+          "kind": "OPPOSITE_SIDE_SAME_SOURCE_STATION",
+          "road_id": "way/438516308",
+          "start_node": 552689675,
+          "end_node": 552689675,
+          "start_side": "left",
+          "end_side": "right"
+        }
+      ],
+      "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "selection_basis": "Fixed native/tagged/missing strata; minimum numeric way ID within750m of frozen target; midpoint kept source segment;320m square;no route outcome used",
+      "input_path": "results\\inputs\\tagged.json",
+      "input_sha256": "4ec7a03b913f8be16767b60494beaa5468b3b98ca7e57c09ab7c9e0f356d01a3"
+    },
+    {
+      "window_id": "missing",
+      "scene_id": "sh-wukang",
+      "label": "武康大楼 · 兴国路",
+      "bounds_xy": [
+        350468.41478489165,
+        3453680.7693530084,
+        350788.41478489165,
+        3454000.7693530084
+      ],
+      "selected_road_id": "way/11761212",
+      "queries": [
+        {
+          "query_id": "missing-along",
+          "kind": "SAME_LEFT_SIDE",
+          "road_id": "way/11761212",
+          "start_node": 105253460,
+          "end_node": 10703754083,
+          "start_side": "left",
+          "end_side": "left"
+        },
+        {
+          "query_id": "missing-cross-side",
+          "kind": "OPPOSITE_SIDE_SAME_SOURCE_STATION",
+          "road_id": "way/11761212",
+          "start_node": 3017753313,
+          "end_node": 3017753313,
+          "start_side": "left",
+          "end_side": "right"
+        }
+      ],
+      "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "selection_basis": "Fixed native/tagged/missing strata; minimum numeric way ID within750m of frozen target; midpoint kept source segment;320m square;no route outcome used",
+      "input_path": "results\\inputs\\missing.json",
+      "input_sha256": "a1a541fdf1b1b787a27ec5e1ea15901b102829991e45d3dd7b14bee5daec89be"
+    }
+  ]
+}

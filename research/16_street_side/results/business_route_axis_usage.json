@@ -1,0 +1,205 @@
+{
+  "scope": "FOUR_FIXED_BUSINESS_QUERIES_TIMES_TWO_COST_METHODS; HISTORICAL_RESULT_READ_ONLY",
+  "historical_records": 8,
+  "business_queries": 4,
+  "axis_using_records": 8,
+  "axis_using_business_queries": 4,
+  "rows": [
+    {
+      "request_id": "APP-01",
+      "scene_id": "sh-huangpu-01",
+      "start_id": "node/10073042336",
+      "door_id": "node/6897141353",
+      "purpose": "ENTER_BUILDING",
+      "method": "F0",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "total_segments": 8,
+      "route_length_m": 148.86312206979613,
+      "road_axis_segments": 4,
+      "road_axis_length_m": 52.17089760169881,
+      "road_axis_fraction_by_length": 0.3504622022990886,
+      "axis_evidence": {
+        "SHARED_STREET_ASSUMPTION": 4
+      },
+      "new_solver_calls": 0,
+      "old_result_path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T015521-bb55088ddb.json",
+      "old_result_sha256": "e3bb0ec35680aec65011beb26a791f1dc3bc0bc0e38b282a65d129c5859bce3e"
+    },
+    {
+      "request_id": "APP-02",
+      "scene_id": "sh-huangpu-01",
+      "start_id": "node/10073042336",
+      "door_id": "node/6897141353",
+      "purpose": "ENTER_BUILDING",
+      "method": "F1",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "total_segments": 8,
+      "route_length_m": 148.86312206979613,
+      "road_axis_segments": 4,
+      "road_axis_length_m": 52.17089760169881,
+      "road_axis_fraction_by_length": 0.3504622022990886,
+      "axis_evidence": {
+        "SHARED_STREET_ASSUMPTION": 4
+      },
+      "new_solver_calls": 0,
+      "old_result_path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T015651-bf37c97cdb.json",
+      "old_result_sha256": "27023b80a751e8d13b38d0a31f6f714905918164e348d41f7b459dcb382635e8"
+    },
+    {
+      "request_id": "APP-03",
+      "scene_id": "sh-huangpu-01",
+      "start_id": "node/10073042336",
+      "door_id": "node/6897145227",
+      "purpose": "APPROACH_OUTSIDE",
+      "method": "F0",
+      "status": "ROUTED_CONDITIONAL",
+      "total_segments": 59,
+      "route_length_m": 299.53144993549483,
+      "road_axis_segments": 12,
+      "road_axis_length_m": 125.56547183888841,
+      "road_axis_fraction_by_length": 0.4192063032644131,
+      "axis_evidence": {
+        "SHARED_STREET_ASSUMPTION": 12
+      },
+      "new_solver_calls": 0,
+      "old_result_path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021014-c0606583a4.json",
+      "old_result_sha256": "ba59af704e4f2baae6dfd0057dbe754dc92a8e808303e9b80b74c098089a4c34"
+    },
+    {
+      "request_id": "APP-04",
+      "scene_id": "sh-huangpu-01",
+      "start_id": "node/10073042336",
+      "door_id": "node/6897145227",
+      "purpose": "APPROACH_OUTSIDE",
+      "method": "F1",
+      "status": "ROUTED_CONDITIONAL",
+      "total_segments": 52,
+      "route_length_m": 300.7841854102122,
+      "road_axis_segments": 12,
+      "road_axis_length_m": 125.56547183888841,
+      "road_axis_fraction_by_length": 0.417460351739042,
+      "axis_evidence": {
+        "SHARED_STREET_ASSUMPTION": 12
+      },
+      "new_solver_calls": 0,
+      "old_result_path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021137-983fd8a137.json",
+      "old_result_sha256": "d575926cfd8586908a7e68cb92da98bb7877f8eeccfac6f13cb587601be3d74f"
+    },
+    {
+      "request_id": "APP-05",
+      "scene_id": "sh-huangpu-01",
+      "start_id": "node/11667615960",
+      "door_id": "node/6897145227",
+      "purpose": "APPROACH_OUTSIDE",
+      "method": "F0",
+      "status": "ROUTED_CONDITIONAL",
+      "total_segments": 76,
+      "route_length_m": 666.6635999370019,
+      "road_axis_segments": 13,
+      "road_axis_length_m": 116.81027691937564,
+      "road_axis_fraction_by_length": 0.1752162213902393,
+      "axis_evidence": {
+        "SHARED_STREET_ASSUMPTION": 13
+      },
+      "new_solver_calls": 0,
+      "old_result_path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021159-1f2e6e5725.json",
+      "old_result_sha256": "d8372506b520bc0e9b986c05d69c8236ee3cbbb09f8b6a2803668487195cd0a4"
+    },
+    {
+      "request_id": "APP-06",
+      "scene_id": "sh-huangpu-01",
+      "start_id": "node/11667615960",
+      "door_id": "node/6897145227",
+      "purpose": "APPROACH_OUTSIDE",
+      "method": "F1",
+      "status": "ROUTED_CONDITIONAL",
+      "total_segments": 69,
+      "route_length_m": 667.9163354117193,
+      "road_axis_segments": 13,
+      "road_axis_length_m": 116.81027691937564,
+      "road_axis_fraction_by_length": 0.17488758805003782,
+      "axis_evidence": {
+        "SHARED_STREET_ASSUMPTION": 13
+      },
+      "new_solver_calls": 0,
+      "old_result_path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021222-c4b4c8e476.json",
+      "old_result_sha256": "b4f72ac023944a8975ac0da47f50df8aa1dc33d06b137639daa8b2d2fb1df105"
+    },
+    {
+      "request_id": "APP-07",
+      "scene_id": "sh-library",
+      "start_id": "node/105253317",
+      "door_id": "node/11300000483",
+      "purpose": "ENTER_BUILDING",
+      "method": "F0",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "total_segments": 5,
+      "route_length_m": 180.58111866323975,
+      "road_axis_segments": 2,
+      "road_axis_length_m": 116.91684945301432,
+      "road_axis_fraction_by_length": 0.6474478080460284,
+      "axis_evidence": {
+        "EXPLICIT_FOOT_ON_WAY_AXIS": 2
+      },
+      "new_solver_calls": 0,
+      "old_result_path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021335-505ec0b269.json",
+      "old_result_sha256": "09b49e3aff31e4c680894e8cded45db1110d7ad40909d56d9fec0d0ba0cf5c2e"
+    },
+    {
+      "request_id": "APP-08",
+      "scene_id": "sh-library",
+      "start_id": "node/105253317",
+      "door_id": "node/11300000483",
+      "purpose": "ENTER_BUILDING",
+      "method": "F1",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "total_segments": 5,
+      "route_length_m": 180.58111866323975,
+      "road_axis_segments": 2,
+      "road_axis_length_m": 116.91684945301432,
+      "road_axis_fraction_by_length": 0.6474478080460284,
+      "axis_evidence": {
+        "EXPLICIT_FOOT_ON_WAY_AXIS": 2
+      },
+      "new_solver_calls": 0,
+      "old_result_path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021346-5d56eb2eaf.json",
+      "old_result_sha256": "7a6b68c1e113a11d3eebbb7797ecf1550797ee69cd4541c84777e38941b95e33"
+    }
+  ],
+  "source_refs": [
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T015521-bb55088ddb.json",
+      "sha256": "e3bb0ec35680aec65011beb26a791f1dc3bc0bc0e38b282a65d129c5859bce3e"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T015651-bf37c97cdb.json",
+      "sha256": "27023b80a751e8d13b38d0a31f6f714905918164e348d41f7b459dcb382635e8"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021014-c0606583a4.json",
+      "sha256": "ba59af704e4f2baae6dfd0057dbe754dc92a8e808303e9b80b74c098089a4c34"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021137-983fd8a137.json",
+      "sha256": "d575926cfd8586908a7e68cb92da98bb7877f8eeccfac6f13cb587601be3d74f"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021159-1f2e6e5725.json",
+      "sha256": "d8372506b520bc0e9b986c05d69c8236ee3cbbb09f8b6a2803668487195cd0a4"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021222-c4b4c8e476.json",
+      "sha256": "b4f72ac023944a8975ac0da47f50df8aa1dc33d06b137639daa8b2d2fb1df105"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021335-505ec0b269.json",
+      "sha256": "09b49e3aff31e4c680894e8cded45db1110d7ad40909d56d9fec0d0ba0cf5c2e"
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\runs\\app\\RUN-20261112T021346-5d56eb2eaf.json",
+      "sha256": "7a6b68c1e113a11d3eebbb7797ecf1550797ee69cd4541c84777e38941b95e33"
+    }
+  ],
+  "new_solver_calls": 0,
+  "new_network_requests": 0
+}

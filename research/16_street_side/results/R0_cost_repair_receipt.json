@@ -1,0 +1,78 @@
+{
+  "at": "2026-11-13T03:47:16.285054+08:00",
+  "parent_code": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\src\\planner.py",
+  "parent_code_sha256": "c328b038c5549309bd77bab04573f68a077c978e50f2bcc36da0f39f849c80e1",
+  "parent_rule": "planner.py:317-333; F1 reweights only inferred/assumed/unknown;originalnative axis retainslengthcost",
+  "parent_source_snapshot": "results/pre_R0_cost_fix/executed_street_side_before_cost_fix.py",
+  "final_code_sha256": "b7243dca1c9c3c0bae2dd5cc4e2786ddafc528ed2fb635c7f79893d22d53be6a",
+  "repair_queries": [
+    {
+      "query_id": "native-along",
+      "parent_formal_attempt": 1,
+      "repair_formal_attempt": 19,
+      "status_before": "CONNECTED",
+      "status_after": "CONNECTED",
+      "path_edge_ids_equal": true,
+      "old_cost_f1_proxy": 266.10326541632566,
+      "fixed_cost_f1_proxy": 266.10326541632566
+    },
+    {
+      "query_id": "native-reverse",
+      "parent_formal_attempt": 4,
+      "repair_formal_attempt": 20,
+      "status_before": "CONNECTED",
+      "status_after": "CONNECTED",
+      "path_edge_ids_equal": true,
+      "old_cost_f1_proxy": 266.10326541632566,
+      "fixed_cost_f1_proxy": 266.10326541632566
+    },
+    {
+      "query_id": "tagged-along",
+      "parent_formal_attempt": 7,
+      "repair_formal_attempt": 21,
+      "status_before": "CONNECTED",
+      "status_after": "CONNECTED",
+      "path_edge_ids_equal": true,
+      "old_cost_f1_proxy": 158.81260804650668,
+      "fixed_cost_f1_proxy": 158.81260804650668
+    },
+    {
+      "query_id": "tagged-cross-side",
+      "parent_formal_attempt": 10,
+      "repair_formal_attempt": 22,
+      "status_before": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS",
+      "status_after": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS",
+      "path_edge_ids_equal": true,
+      "old_cost_f1_proxy": 0.0,
+      "fixed_cost_f1_proxy": 0.0
+    },
+    {
+      "query_id": "missing-along",
+      "parent_formal_attempt": 13,
+      "repair_formal_attempt": 23,
+      "status_before": "CONNECTED",
+      "status_after": "CONNECTED",
+      "path_edge_ids_equal": true,
+      "old_cost_f1_proxy": 530.617444558818,
+      "fixed_cost_f1_proxy": 265.308722279409
+    },
+    {
+      "query_id": "missing-cross-side",
+      "parent_formal_attempt": 16,
+      "repair_formal_attempt": 24,
+      "status_before": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS",
+      "status_after": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS",
+      "path_edge_ids_equal": true,
+      "old_cost_f1_proxy": 0.0,
+      "fixed_cost_f1_proxy": 0.0
+    }
+  ],
+  "extra_formal_attempts": 6,
+  "extra_actual_solver_calls": 6,
+  "total_formal_attempts": 24,
+  "total_actual_formal_solver_calls": 22,
+  "first18_records_preserved": true,
+  "other_R1_R2_graphs_unchanged": true,
+  "epistemic_shared_street_assumption_remains_recorded": true,
+  "geometric_walking_gain_claim": false
+}

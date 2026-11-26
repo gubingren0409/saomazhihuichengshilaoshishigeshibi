@@ -1,0 +1,31 @@
+{
+  "round": "PG1-RESUME-STREET-SIDE-R1",
+  "created_at": "2026-11-13T03:40:56.038020+08:00",
+  "user_authorization": "inputs/PG1_RESUME_FEEDBACK_R1/CODEX_FEEDBACK_AND_RESUME.md",
+  "first_command_at": "2026-11-13T03:17:19+08:00",
+  "writable_resume_at": "2026-11-13T03:33:16.888358+08:00",
+  "conservative_research_cutoff": "2026-11-13T05:17:19+08:00",
+  "time_policy": "Do not reset2h; permissionwait counted conservatively. Stop earlier when approveddeliverables complete.",
+  "main_query_max": 18,
+  "repair_retest_max": 6,
+  "synthetic_and_independent_traversals": "separateactualcounts; formalrequests nothidden by renaming",
+  "cost_policy": "F1 only for18main topology queries; F0/F1 edgecosts both exported; F1=F0+hypothesis_axis_reference_cost;no newcostsearch",
+  "locked_before_new_graphs_or_routes": "2026-11-13T03:38:15.751441+08:00",
+  "window_lock_sha256": "58177c3e74e5e3bddbdf2b252f8da51077f78b48419e2e0bdc77b994b327a590",
+  "new_acquisition_requests": 0,
+  "training": 0,
+  "old_cost_probe_reruns": 0,
+  "default_method": "R0 unchanged;R1/R2candidateonly",
+  "branches": {
+    "R0": "frozen native-admission axis/shared representation, sourceaxis notindependent sidewalk",
+    "R1": "native independentwalkways +positive sidewalksidetags; unknowninterfacesleftunbound",
+    "R2": "R1+explicitlyhypothesiseligibleordinarygroundmissingtags; unchangedcrossingpolicy"
+  },
+  "geometry": "EPSG32651sourceprojection;fixed4mSCHEMATICdisplayoffsetnotwidthorclearance; logicalsidequeriesreporttopologycostproxyonly",
+  "gates": {
+    "G0_PUBLICATION": "PENDING_USER_APPROVAL",
+    "G1_VISUAL_ACCEPTANCE": "PENDING_USER_REVIEW",
+    "G2_SPLIT_FREEZE": "NOT_APPROVED",
+    "PARENT_GOAL_COMPLETE": false
+  }
+}

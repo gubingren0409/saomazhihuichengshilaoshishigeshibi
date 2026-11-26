@@ -1,0 +1,77 @@
+{
+  "round": "PG1-RESUME-STREET-SIDE-R1",
+  "status": "PARTIAL_WITH_EVIDENCE",
+  "first_command_at": "2026-11-13T03:17:19+08:00",
+  "resumed_writable_at": "2026-11-13T03:33:16.888358+08:00",
+  "conservative_research_cutoff": "2026-11-13T05:17:19+08:00",
+  "old_delivery": "COMPLETE",
+  "G0_PUBLICATION": "PENDING_USER_APPROVAL",
+  "G1_VISUAL_ACCEPTANCE": "PENDING_USER_REVIEW",
+  "G2_SPLIT_FREEZE": "NOT_APPROVED",
+  "PARENT_GOAL_COMPLETE": false,
+  "route_budget": {
+    "main_max": 18,
+    "repair_max": 6,
+    "executed": 24,
+    "actual_dijkstra": 22
+  },
+  "new_requests": 0,
+  "current_stage": "CONTENT_FROZEN_PENDING_OUTSIDE_POSTSEAL_RECEIPT",
+  "last_checkpoint_at": "2026-11-13T03:52:54.376066+08:00",
+  "window_lock": "audit/window_lock.json",
+  "review_service": "http://127.0.0.1:53511/",
+  "service_pid": 99416,
+  "trial_counts": {
+    "completed_at": "2026-11-13T03:39:13.265595+08:00",
+    "formal_attempts": 24,
+    "actual_formal_dijkstra_calls": 22,
+    "formal_endpoint_unavailable_without_search": 2,
+    "repair_retests": 6,
+    "synthetic_shortest_path_calls": 2,
+    "native_exact_geometry_query_count": 6,
+    "topology_only_query_count": 12,
+    "by_variant": {
+      "R0": {
+        "CONNECTED": 4,
+        "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS": 2
+      },
+      "R1": {
+        "CONNECTED": 3,
+        "DISCONNECTED": 1,
+        "ENDPOINT_UNAVAILABLE": 2
+      },
+      "R2": {
+        "CONNECTED": 4,
+        "DISCONNECTED": 2
+      }
+    },
+    "costs_are_topology_proxies_except_native_controls": true,
+    "new_full_business_routes": 0,
+    "no_default_method_upgrade": true,
+    "no_new_data_requests": true,
+    "synthetic_shortest_path_calls_total": 4,
+    "synthetic_test_cases_executed_total": 19,
+    "graph_equivalence_builds": 18,
+    "engineering_fix_receipt": "results/engineering_fix_receipt.json",
+    "source_permission_inventory_fix": "results/source_permission_inventory_fix.json",
+    "final_code_sha256": "b7243dca1c9c3c0bae2dd5cc4e2786ddafc528ed2fb635c7f79893d22d53be6a",
+    "current_matrix_requests": 18,
+    "superseded_initial_R0_requests": 6,
+    "R0_cost_repair_receipt": "results/R0_cost_repair_receipt.json"
+  },
+  "bounded_topology_execution": "COMPLETE_WITH_REPAIRS",
+  "physical_side_interface_readiness": "NOT_VERIFIED",
+  "default_method": "R0_NOT_UPGRADED",
+  "content_frozen_at": "2026-11-13T03:54:28.884507+08:00",
+  "final_local_commit": "1ab7fd75704d98e85fe4e69a85dc828e7df2ffb5",
+  "old_delivery_chain": "COMPLETE",
+  "independent_preseal_review": "PASS_SCOPED_TO_TOPOLOGY_EVIDENCE_WITH_INTEGRATION_LIMITS",
+  "GPT_review": "PENDING",
+  "user_visual_review": "PENDING",
+  "postseal_verification": "PENDING_SEE_OUTSIDE_delivery/INDEPENDENT_RESUME_DELIVERY_RECEIPT.json",
+  "new_data_downloads": 0,
+  "new_map_API_requests": 0,
+  "training": 0,
+  "public_pushes": 0,
+  "parent_goal_complete": false
+}
