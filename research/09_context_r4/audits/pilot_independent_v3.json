@@ -1,0 +1,841 @@
+{
+  "status": "INDEPENDENT_OBSERVATION_AND_MASK_AUDIT",
+  "scope": "RAW_GEOMETRY_RECONSTRUCTION_AND_APP_INPUT_CONTRACT",
+  "observed_inputs": 25,
+  "normalized_observed_inputs": 21,
+  "parent_cases": 4,
+  "fixed_parent_queries": 4,
+  "normalized_parent_mask_versions": 7,
+  "manifest_sha256": "3ac8adb2c131507b24e3b24c6b7c5517a7ac7d09fb49539803a97b23f7770d18",
+  "original_raw_clips": [
+    {
+      "name": "sh-huangpu-01.osm.json",
+      "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+    },
+    {
+      "name": "sh-library.osm.json",
+      "sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8"
+    },
+    {
+      "name": "sh-newworld.osm.json",
+      "sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9"
+    }
+  ],
+  "nested_pairs": [
+    {
+      "parent_task_id": "W0440b97497a",
+      "mode": "N",
+      "radii": [
+        40,
+        80
+      ],
+      "compared_directed_source_segments": 36,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "W0440b97497a",
+      "mode": "N",
+      "radii": [
+        80,
+        160
+      ],
+      "compared_directed_source_segments": 80,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "Wc4183046a70",
+      "mode": "H",
+      "radii": [
+        40,
+        80
+      ],
+      "compared_directed_source_segments": 0,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "Wc4183046a70",
+      "mode": "H",
+      "radii": [
+        80,
+        160
+      ],
+      "compared_directed_source_segments": 4,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "Wc4183046a70",
+      "mode": "G",
+      "radii": [
+        40,
+        80
+      ],
+      "compared_directed_source_segments": 22,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "Wc4183046a70",
+      "mode": "G",
+      "radii": [
+        80,
+        160
+      ],
+      "compared_directed_source_segments": 28,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "H",
+      "radii": [
+        40,
+        80
+      ],
+      "compared_directed_source_segments": 2,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "H",
+      "radii": [
+        80,
+        160
+      ],
+      "compared_directed_source_segments": 28,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "G",
+      "radii": [
+        40,
+        80
+      ],
+      "compared_directed_source_segments": 4,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "G",
+      "radii": [
+        80,
+        160
+      ],
+      "compared_directed_source_segments": 32,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "W745941f0f92",
+      "mode": "H",
+      "radii": [
+        40,
+        80
+      ],
+      "compared_directed_source_segments": 38,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "W745941f0f92",
+      "mode": "H",
+      "radii": [
+        80,
+        160
+      ],
+      "compared_directed_source_segments": 132,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "W745941f0f92",
+      "mode": "G",
+      "radii": [
+        40,
+        80
+      ],
+      "compared_directed_source_segments": 38,
+      "max_lost_legal_m": 0.0
+    },
+    {
+      "parent_task_id": "W745941f0f92",
+      "mode": "G",
+      "radii": [
+        80,
+        160
+      ],
+      "compared_directed_source_segments": 132,
+      "max_lost_legal_m": 0.0
+    }
+  ],
+  "observed": [
+    {
+      "id": "W0440b97497a_H0_ORIGINAL_EXPORT",
+      "parent_task_id": "W0440b97497a",
+      "mode": "H0",
+      "radius_m": 40,
+      "observed_nodes": 18,
+      "directed_fragments": 36,
+      "endpoint_kinds": {
+        "NATIVE_ENDPOINT": 18
+      },
+      "object_counts": {
+        "background/GRASS": 1,
+        "hard/WATER": 1,
+        "support/PARK": 1
+      },
+      "registered_entrance": null,
+      "historical_export": true,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": 103.93516880128614,
+      "independent_source_checks": {}
+    },
+    {
+      "id": "W0440b97497a_N_040",
+      "parent_task_id": "W0440b97497a",
+      "mode": "N",
+      "radius_m": 40,
+      "observed_nodes": 18,
+      "directed_fragments": 36,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 3,
+        "NATIVE_ENDPOINT": 15
+      },
+      "object_counts": {
+        "background/GRASS": 1,
+        "hard/WATER": 1,
+        "support/PARK": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 3
+      }
+    },
+    {
+      "id": "W0440b97497a_N_080",
+      "parent_task_id": "W0440b97497a",
+      "mode": "N",
+      "radius_m": 80,
+      "observed_nodes": 38,
+      "directed_fragments": 80,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 4,
+        "NATIVE_ENDPOINT": 34
+      },
+      "object_counts": {
+        "background/GRASS": 1,
+        "hard/WATER": 1,
+        "support/PARK": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 3
+      }
+    },
+    {
+      "id": "W0440b97497a_N_160",
+      "parent_task_id": "W0440b97497a",
+      "mode": "N",
+      "radius_m": 160,
+      "observed_nodes": 86,
+      "directed_fragments": 176,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 6,
+        "NATIVE_ENDPOINT": 80
+      },
+      "object_counts": {
+        "background/GRASS": 1,
+        "hard/BUILDING": 6,
+        "hard/WATER": 1,
+        "support/PARK": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 9
+      }
+    },
+    {
+      "id": "Wc4183046a70_H0_ORIGINAL_EXPORT",
+      "parent_task_id": "Wc4183046a70",
+      "mode": "H0",
+      "radius_m": 40,
+      "observed_nodes": 0,
+      "directed_fragments": 0,
+      "endpoint_kinds": {},
+      "object_counts": {
+        "hard/BUILDING": 2,
+        "support/PARK": 1
+      },
+      "registered_entrance": null,
+      "historical_export": true,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": 0.0,
+      "independent_source_checks": {}
+    },
+    {
+      "id": "Wc4183046a70_H_040",
+      "parent_task_id": "Wc4183046a70",
+      "mode": "H",
+      "radius_m": 40,
+      "observed_nodes": 0,
+      "directed_fragments": 0,
+      "endpoint_kinds": {},
+      "object_counts": {
+        "hard/BUILDING": 2,
+        "support/PARK": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 3,
+        "source_cut_intervals_rebuilt": 17
+      }
+    },
+    {
+      "id": "Wc4183046a70_H_080",
+      "parent_task_id": "Wc4183046a70",
+      "mode": "H",
+      "radius_m": 80,
+      "observed_nodes": 3,
+      "directed_fragments": 4,
+      "endpoint_kinds": {
+        "NATIVE_ENDPOINT": 3
+      },
+      "object_counts": {
+        "hard/BUILDING": 10,
+        "support/PARK": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 11,
+        "source_cut_intervals_rebuilt": 17
+      }
+    },
+    {
+      "id": "Wc4183046a70_H_160",
+      "parent_task_id": "Wc4183046a70",
+      "mode": "H",
+      "radius_m": 160,
+      "observed_nodes": 16,
+      "directed_fragments": 24,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 2,
+        "NATIVE_ENDPOINT": 14
+      },
+      "object_counts": {
+        "hard/BARRIER": 1,
+        "hard/BUILDING": 32,
+        "support/PARK": 2
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 35,
+        "source_cut_intervals_rebuilt": 17
+      }
+    },
+    {
+      "id": "Wc4183046a70_G_040",
+      "parent_task_id": "Wc4183046a70",
+      "mode": "G",
+      "radius_m": 40,
+      "observed_nodes": 13,
+      "directed_fragments": 22,
+      "endpoint_kinds": {
+        "MASK_BOUNDARY_ENDPOINT": 2,
+        "CONTEXT_CLIP_ENDPOINT": 1,
+        "NATIVE_ENDPOINT": 10
+      },
+      "object_counts": {
+        "hard/BUILDING": 2,
+        "support/PARK": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 2,
+      "historically_hidden_way_outside_retained_m": 113.91137539301326,
+      "retained_original_way_lengths_m": {
+        "way/1160136220": 6.919428525231809,
+        "way/1160136221": 106.99194686778145
+      },
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 3,
+        "source_cut_intervals_rebuilt": 8,
+        "historically_hidden_ways_with_proved_legal_continuation": 2
+      }
+    },
+    {
+      "id": "Wc4183046a70_G_080",
+      "parent_task_id": "Wc4183046a70",
+      "mode": "G",
+      "radius_m": 80,
+      "observed_nodes": 17,
+      "directed_fragments": 28,
+      "endpoint_kinds": {
+        "MASK_BOUNDARY_ENDPOINT": 3,
+        "NATIVE_ENDPOINT": 14
+      },
+      "object_counts": {
+        "hard/BUILDING": 10,
+        "support/PARK": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 2,
+      "historically_hidden_way_outside_retained_m": 128.95906925918783,
+      "retained_original_way_lengths_m": {
+        "way/1160136220": 6.919428525231809,
+        "way/1160136221": 122.03964073395602
+      },
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 11,
+        "source_cut_intervals_rebuilt": 8,
+        "historically_hidden_ways_with_proved_legal_continuation": 3
+      }
+    },
+    {
+      "id": "Wc4183046a70_G_160",
+      "parent_task_id": "Wc4183046a70",
+      "mode": "G",
+      "radius_m": 160,
+      "observed_nodes": 30,
+      "directed_fragments": 48,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 2,
+        "MASK_BOUNDARY_ENDPOINT": 3,
+        "NATIVE_ENDPOINT": 25
+      },
+      "object_counts": {
+        "hard/BARRIER": 1,
+        "hard/BUILDING": 32,
+        "support/PARK": 2
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 2,
+      "historically_hidden_way_outside_retained_m": 128.95906925918783,
+      "retained_original_way_lengths_m": {
+        "way/1160136220": 6.919428525231809,
+        "way/1160136221": 122.03964073395602
+      },
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 35,
+        "source_cut_intervals_rebuilt": 8,
+        "historically_hidden_ways_with_proved_legal_continuation": 3
+      }
+    },
+    {
+      "id": "W6daddd19fdb_H0_ORIGINAL_EXPORT",
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "H0",
+      "radius_m": 40,
+      "observed_nodes": 2,
+      "directed_fragments": 2,
+      "endpoint_kinds": {
+        "NATIVE_ENDPOINT": 2
+      },
+      "object_counts": {
+        "hard/BUILDING": 2
+      },
+      "registered_entrance": null,
+      "historical_export": true,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": 30.306222585358938,
+      "independent_source_checks": {}
+    },
+    {
+      "id": "W6daddd19fdb_H_040",
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "H",
+      "radius_m": 40,
+      "observed_nodes": 2,
+      "directed_fragments": 2,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 1,
+        "NATIVE_ENDPOINT": 1
+      },
+      "object_counts": {
+        "hard/BUILDING": 2
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 2,
+        "source_cut_intervals_rebuilt": 15
+      }
+    },
+    {
+      "id": "W6daddd19fdb_H_080",
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "H",
+      "radius_m": 80,
+      "observed_nodes": 15,
+      "directed_fragments": 28,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 3,
+        "NATIVE_ENDPOINT": 12
+      },
+      "object_counts": {
+        "hard/BUILDING": 5,
+        "support/PARK": 1,
+        "support/PEDESTRIAN_AREA": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 7,
+        "source_cut_intervals_rebuilt": 15
+      }
+    },
+    {
+      "id": "W6daddd19fdb_H_160",
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "H",
+      "radius_m": 160,
+      "observed_nodes": 44,
+      "directed_fragments": 82,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 8,
+        "NATIVE_ENDPOINT": 36
+      },
+      "object_counts": {
+        "background/GRASS": 3,
+        "hard/BUILDING": 15,
+        "support/PARK": 2,
+        "support/PEDESTRIAN_AREA": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "historical_shared_exterior_nodes": 2,
+        "exact_context_objects": 21,
+        "source_cut_intervals_rebuilt": 15
+      }
+    },
+    {
+      "id": "W6daddd19fdb_G_040",
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "G",
+      "radius_m": 40,
+      "observed_nodes": 4,
+      "directed_fragments": 4,
+      "endpoint_kinds": {
+        "MASK_BOUNDARY_ENDPOINT": 1,
+        "CONTEXT_CLIP_ENDPOINT": 1,
+        "NATIVE_ENDPOINT": 2
+      },
+      "object_counts": {
+        "hard/BUILDING": 2
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 1,
+      "historically_hidden_way_outside_retained_m": 15.115983371599027,
+      "retained_original_way_lengths_m": {
+        "way/27041875": 15.115983371599027
+      },
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 2,
+        "source_cut_intervals_rebuilt": 10,
+        "historically_hidden_ways_with_proved_legal_continuation": 1
+      }
+    },
+    {
+      "id": "W6daddd19fdb_G_080",
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "G",
+      "radius_m": 80,
+      "observed_nodes": 19,
+      "directed_fragments": 32,
+      "endpoint_kinds": {
+        "MASK_BOUNDARY_ENDPOINT": 2,
+        "CONTEXT_CLIP_ENDPOINT": 4,
+        "NATIVE_ENDPOINT": 13
+      },
+      "object_counts": {
+        "hard/BUILDING": 5,
+        "support/PARK": 1,
+        "support/PEDESTRIAN_AREA": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 2,
+      "historically_hidden_way_outside_retained_m": 81.4186042042414,
+      "retained_original_way_lengths_m": {
+        "way/27041875": 15.115983371599027,
+        "way/564255336": 66.30262083264238
+      },
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 7,
+        "source_cut_intervals_rebuilt": 10,
+        "historically_hidden_ways_with_proved_legal_continuation": 2
+      }
+    },
+    {
+      "id": "W6daddd19fdb_G_160",
+      "parent_task_id": "W6daddd19fdb",
+      "mode": "G",
+      "radius_m": 160,
+      "observed_nodes": 51,
+      "directed_fragments": 96,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 9,
+        "MASK_BOUNDARY_ENDPOINT": 2,
+        "NATIVE_ENDPOINT": 40
+      },
+      "object_counts": {
+        "background/GRASS": 3,
+        "hard/BUILDING": 15,
+        "support/PARK": 2,
+        "support/PEDESTRIAN_AREA": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 2,
+      "historically_hidden_way_outside_retained_m": 328.5899215880899,
+      "retained_original_way_lengths_m": {
+        "way/27041875": 15.115983371599027,
+        "way/564255336": 313.47393821649086
+      },
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 21,
+        "source_cut_intervals_rebuilt": 10,
+        "historically_hidden_ways_with_proved_legal_continuation": 2
+      }
+    },
+    {
+      "id": "W745941f0f92_H0_ORIGINAL_EXPORT",
+      "parent_task_id": "W745941f0f92",
+      "mode": "H0",
+      "radius_m": 40,
+      "observed_nodes": 23,
+      "directed_fragments": 38,
+      "endpoint_kinds": {
+        "NATIVE_ENDPOINT": 23
+      },
+      "object_counts": {
+        "support/PARK": 1,
+        "support/PEDESTRIAN_AREA": 1
+      },
+      "registered_entrance": null,
+      "historical_export": true,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": 132.7504801348631,
+      "independent_source_checks": {}
+    },
+    {
+      "id": "W745941f0f92_H_040",
+      "parent_task_id": "W745941f0f92",
+      "mode": "H",
+      "radius_m": 40,
+      "observed_nodes": 23,
+      "directed_fragments": 38,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 9,
+        "NATIVE_ENDPOINT": 14
+      },
+      "object_counts": {
+        "support/PARK": 1,
+        "support/PEDESTRIAN_AREA": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 2,
+        "source_cut_intervals_rebuilt": 1
+      }
+    },
+    {
+      "id": "W745941f0f92_H_080",
+      "parent_task_id": "W745941f0f92",
+      "mode": "H",
+      "radius_m": 80,
+      "observed_nodes": 71,
+      "directed_fragments": 132,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 20,
+        "NATIVE_ENDPOINT": 51
+      },
+      "object_counts": {
+        "hard/BUILDING": 1,
+        "support/PARK": 2,
+        "support/PEDESTRIAN_AREA": 2
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 5,
+        "source_cut_intervals_rebuilt": 1
+      }
+    },
+    {
+      "id": "W745941f0f92_H_160",
+      "parent_task_id": "W745941f0f92",
+      "mode": "H",
+      "radius_m": 160,
+      "observed_nodes": 233,
+      "directed_fragments": 486,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 31,
+        "NATIVE_ENDPOINT": 202
+      },
+      "object_counts": {
+        "background/GRASS": 5,
+        "hard/BARRIER": 1,
+        "hard/BUILDING": 9,
+        "support/PARK": 2,
+        "support/PEDESTRIAN_AREA": 2
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 19,
+        "source_cut_intervals_rebuilt": 1
+      }
+    },
+    {
+      "id": "W745941f0f92_G_040",
+      "parent_task_id": "W745941f0f92",
+      "mode": "G",
+      "radius_m": 40,
+      "observed_nodes": 23,
+      "directed_fragments": 38,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 9,
+        "NATIVE_ENDPOINT": 14
+      },
+      "object_counts": {
+        "support/PARK": 1,
+        "support/PEDESTRIAN_AREA": 1
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 2,
+        "source_cut_intervals_rebuilt": 1
+      }
+    },
+    {
+      "id": "W745941f0f92_G_080",
+      "parent_task_id": "W745941f0f92",
+      "mode": "G",
+      "radius_m": 80,
+      "observed_nodes": 71,
+      "directed_fragments": 132,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 20,
+        "NATIVE_ENDPOINT": 51
+      },
+      "object_counts": {
+        "hard/BUILDING": 1,
+        "support/PARK": 2,
+        "support/PEDESTRIAN_AREA": 2
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 5,
+        "source_cut_intervals_rebuilt": 1
+      }
+    },
+    {
+      "id": "W745941f0f92_G_160",
+      "parent_task_id": "W745941f0f92",
+      "mode": "G",
+      "radius_m": 160,
+      "observed_nodes": 233,
+      "directed_fragments": 486,
+      "endpoint_kinds": {
+        "CONTEXT_CLIP_ENDPOINT": 31,
+        "NATIVE_ENDPOINT": 202
+      },
+      "object_counts": {
+        "background/GRASS": 5,
+        "hard/BARRIER": 1,
+        "hard/BUILDING": 9,
+        "support/PARK": 2,
+        "support/PEDESTRIAN_AREA": 2
+      },
+      "registered_entrance": null,
+      "historical_export": false,
+      "observed_fragments_on_historically_hidden_ways": 0,
+      "historically_hidden_way_outside_retained_m": 0,
+      "retained_original_way_lengths_m": {},
+      "historical_full_segment_length_outside_40m": null,
+      "independent_source_checks": {
+        "exact_context_objects": 19,
+        "source_cut_intervals_rebuilt": 1
+      }
+    }
+  ],
+  "external_requests": 0
+}

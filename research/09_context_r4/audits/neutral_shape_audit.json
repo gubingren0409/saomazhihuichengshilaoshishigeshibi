@@ -1,0 +1,519 @@
+{
+  "status": "INDEPENDENT_NATIVE_NEUTRAL_GEOMETRY_SCAN",
+  "scope": "EXISTING_FROZEN_OBJECTS_ONLY",
+  "same_geometry_min_mutual_coverage": 0.99,
+  "line_alias_buffer_m": 0.05,
+  "native_polygon_cases": 7,
+  "native_line_cases": 14,
+  "eligible_neutral_geometry": 0,
+  "cases": [
+    {
+      "parent_task_id": "W0caca58bc41",
+      "reference_kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "target_ids": [
+        "way/178721645"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 2,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [
+        {
+          "source_id": "way/71308769",
+          "target_coverage": 0.9818114350018258,
+          "geometry_fraction_in_target": 0.45285448285201096,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": false,
+          "identity_fields": [
+            "name",
+            "name:en",
+            "name:zh",
+            "name:zh-Hans",
+            "name:zh-Hant"
+          ],
+          "related_identity_fields": [],
+          "eligible_independent_neutral": false,
+          "tags": {
+            "landuse": "commercial",
+            "name": "迪美购物中心",
+            "name:en": "Dmall",
+            "name:zh": "迪美购物中心",
+            "name:zh-Hans": "迪美购物中心",
+            "name:zh-Hant": "迪美購物中心"
+          }
+        },
+        {
+          "source_id": "way/404709025",
+          "target_coverage": 0.9194555892486931,
+          "geometry_fraction_in_target": 0.007399668970352927,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": false,
+          "identity_fields": [
+            "leisure",
+            "name",
+            "name:en",
+            "name:fr",
+            "name:ko",
+            "name:ru",
+            "name:zh",
+            "name:zh-Hans",
+            "name:zh-Hant",
+            "tourism"
+          ],
+          "related_identity_fields": [],
+          "eligible_independent_neutral": false,
+          "tags": {
+            "addr:city": "上海",
+            "addr:housenumber": "120",
+            "addr:street": "人民大道",
+            "leisure": "park",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:fr": "people square",
+            "name:ko": "인민광장",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "wikidata": "Q10883549",
+            "wikipedia": "zh:人民广场"
+          }
+        }
+      ],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W2b809bbe6b8",
+      "reference_kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "target_ids": [
+        "relation/2153738"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 2,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [
+        {
+          "source_id": "way/178719573",
+          "target_coverage": 1.000000000000002,
+          "geometry_fraction_in_target": 0.8067863156624685,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": true,
+          "identity_fields": [
+            "foot",
+            "highway"
+          ],
+          "related_identity_fields": [
+            "highway",
+            "name",
+            "name:en",
+            "name:ru",
+            "name:zh",
+            "name:zh-Hans",
+            "name:zh-Hant",
+            "tourism"
+          ],
+          "eligible_independent_neutral": false,
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          }
+        },
+        {
+          "source_id": "way/404709025",
+          "target_coverage": 0.9632916168047015,
+          "geometry_fraction_in_target": 0.14604047723297137,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": false,
+          "identity_fields": [
+            "leisure",
+            "name",
+            "name:en",
+            "name:fr",
+            "name:ko",
+            "name:ru",
+            "name:zh",
+            "name:zh-Hans",
+            "name:zh-Hant",
+            "tourism"
+          ],
+          "related_identity_fields": [],
+          "eligible_independent_neutral": false,
+          "tags": {
+            "addr:city": "上海",
+            "addr:housenumber": "120",
+            "addr:street": "人民大道",
+            "leisure": "park",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:fr": "people square",
+            "name:ko": "인민광장",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "wikidata": "Q10883549",
+            "wikipedia": "zh:人民广场"
+          }
+        }
+      ],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W363939afb45",
+      "reference_kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "target_ids": [
+        "way/178725157"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W384c2d89f5c",
+      "reference_kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "target_ids": [
+        "way/1287048334"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W6bccdf122cb",
+      "reference_kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "target_ids": [
+        "way/965081081"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 1,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [
+        {
+          "source_id": "way/729214977",
+          "target_coverage": 1.0,
+          "geometry_fraction_in_target": 0.01014621710757302,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": false,
+          "identity_fields": [],
+          "related_identity_fields": [],
+          "eligible_independent_neutral": false,
+          "tags": {
+            "landuse": "commercial"
+          }
+        }
+      ],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W6daddd19fdb",
+      "reference_kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "target_ids": [
+        "way/160023915"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 1,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [
+        {
+          "source_id": "way/1021006028",
+          "target_coverage": 1.0000000000000002,
+          "geometry_fraction_in_target": 0.035875019046175925,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": false,
+          "identity_fields": [],
+          "related_identity_fields": [],
+          "eligible_independent_neutral": false,
+          "tags": {
+            "landuse": "retail"
+          }
+        }
+      ],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W71107d26ecd",
+      "reference_kind": "LINE_MASK_NO_AREA_SUPPORT",
+      "target_ids": [
+        "way/1219527812"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W745941f0f92",
+      "reference_kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "target_ids": [
+        "way/513764738"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W7a6b5a10076",
+      "reference_kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "target_ids": [
+        "relation/2385771"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 2,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [
+        {
+          "source_id": "way/178721643",
+          "target_coverage": 1.0,
+          "geometry_fraction_in_target": 0.8962833839982528,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": true,
+          "identity_fields": [],
+          "related_identity_fields": [
+            "highway"
+          ],
+          "eligible_independent_neutral": false,
+          "tags": {}
+        },
+        {
+          "source_id": "way/404709025",
+          "target_coverage": 0.9999515528800974,
+          "geometry_fraction_in_target": 0.04625584515347581,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": false,
+          "identity_fields": [
+            "leisure",
+            "name",
+            "name:en",
+            "name:fr",
+            "name:ko",
+            "name:ru",
+            "name:zh",
+            "name:zh-Hans",
+            "name:zh-Hant",
+            "tourism"
+          ],
+          "related_identity_fields": [],
+          "eligible_independent_neutral": false,
+          "tags": {
+            "addr:city": "上海",
+            "addr:housenumber": "120",
+            "addr:street": "人民大道",
+            "leisure": "park",
+            "name": "人民广场",
+            "name:en": "People's Square",
+            "name:fr": "people square",
+            "name:ko": "인민광장",
+            "name:ru": "Народная площадь",
+            "name:zh": "人民广场",
+            "name:zh-Hans": "人民广场",
+            "name:zh-Hant": "人民廣場",
+            "tourism": "attraction",
+            "wikidata": "Q10883549",
+            "wikipedia": "zh:人民广场"
+          }
+        }
+      ],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W85f439ac693",
+      "reference_kind": "LINE_MASK_NO_AREA_SUPPORT",
+      "target_ids": [
+        "way/477497932"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W902d9fe8127",
+      "reference_kind": "LINE_MASK_NO_AREA_SUPPORT",
+      "target_ids": [
+        "way/810390870"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W97b65e9a893",
+      "reference_kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "target_ids": [
+        "way/188703984"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "W9ec65a55fde",
+      "reference_kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "target_ids": [
+        "way/1160136222"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "Wa273f228558",
+      "reference_kind": "LINE_MASK_NO_AREA_SUPPORT",
+      "target_ids": [
+        "way/188703985"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "Wacc0185d756",
+      "reference_kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "target_ids": [
+        "way/178801546"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "Wae8bd8566f9",
+      "reference_kind": "LINE_MASK_NO_AREA_SUPPORT",
+      "target_ids": [
+        "way/513764741"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "Wc4183046a70",
+      "reference_kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "target_ids": [
+        "way/1160136226"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "Wce5a4f14276",
+      "reference_kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "target_ids": [
+        "way/961638134"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "Wdb2b99d1247",
+      "reference_kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "target_ids": [
+        "way/564273557"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "We43ad3502c7",
+      "reference_kind": "LINE_MASK_WITH_RETAINED_SUPPORT",
+      "target_ids": [
+        "way/178801533"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 0,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [],
+      "eligible_count": 0
+    },
+    {
+      "parent_task_id": "Wf405b19d925",
+      "reference_kind": "AREA_AND_INTERNAL_LINES_MASKED",
+      "target_ids": [
+        "relation/8055906"
+      ],
+      "evaluation_window_area_m2": 2826.2980412613324,
+      "near_overlap_candidates": 3,
+      "near_exact_candidates": [],
+      "best_overlap_examples": [
+        {
+          "source_id": "way/564255303",
+          "target_coverage": 1.0,
+          "geometry_fraction_in_target": 0.9239314794573099,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": true,
+          "identity_fields": [],
+          "related_identity_fields": [
+            "highway"
+          ],
+          "eligible_independent_neutral": false,
+          "tags": {}
+        },
+        {
+          "source_id": "way/558913296",
+          "target_coverage": 1.0,
+          "geometry_fraction_in_target": 0.3003251441543425,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": false,
+          "identity_fields": [
+            "leisure"
+          ],
+          "related_identity_fields": [],
+          "eligible_independent_neutral": false,
+          "tags": {
+            "leisure": "park"
+          }
+        },
+        {
+          "source_id": "way/513764745",
+          "target_coverage": 1.0,
+          "geometry_fraction_in_target": 0.2592537220585036,
+          "equivalent_footprint_or_trace": false,
+          "dependent_on_source_target": false,
+          "identity_fields": [
+            "footway",
+            "highway"
+          ],
+          "related_identity_fields": [],
+          "eligible_independent_neutral": false,
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          }
+        }
+      ],
+      "eligible_count": 0
+    }
+  ],
+  "interpretation": "Synthetic neutral diagnostics are separate. This check requires an existing independent shape, not a polygon manufactured from the withheld reference."
+}

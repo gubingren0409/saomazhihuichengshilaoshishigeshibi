@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "method": "M1",
+  "input_id": "W745941f0f92_G_080",
+  "query_count": 2,
+  "query_order_before": [
+    "Q1",
+    "Q2"
+  ],
+  "query_order_after": [
+    "Q2",
+    "Q1"
+  ],
+  "reference_decoy_only": true,
+  "same_authoritative_surface": true,
+  "same_fixed_query_route_geometry": true,
+  "surface_sha256": "4dc2785effee723f8303707dc4e6fbe8101fe4bf58cf8919083e19b86e4d2249",
+  "external_requests": 0,
+  "observed_sha256": "8b17da3e4432b6991cb81d6852d3154d16825d34b3a302a6de28277cc8c5811b",
+  "independent_actual_file_open_trace": {
+    "scratch_attempts": [
+      {
+        "path": "reference.json",
+        "operation": "READ_ATTEMPT"
+      },
+      {
+        "path": "query.json",
+        "operation": "READ_ATTEMPT"
+      },
+      {
+        "path": "local_config.json",
+        "operation": "READ_ATTEMPT"
+      },
+      {
+        "path": "methods.json",
+        "operation": "READ_ATTEMPT"
+      },
+      {
+        "path": "observed.json",
+        "operation": "READ_ATTEMPT"
+      },
+      {
+        "path": "m0_surface.json",
+        "operation": "READ_ATTEMPT"
+      },
+      {
+        "path": "surface.freeze",
+        "operation": "WRITE"
+      },
+      {
+        "path": "query.json",
+        "operation": "READ_ATTEMPT"
+      },
+      {
+        "path": "prediction.json",
+        "operation": "WRITE"
+      }
+    ],
+    "outside_data_attempts": []
+  },
+  "worker_read_events": [
+    {
+      "role": "DENIED_REFERENCE_PROBE",
+      "path": "reference.json",
+      "event": "DENIED_OPEN",
+      "reason": "INPUT_ROLE_DENIED",
+      "sequence": 1
+    },
+    {
+      "role": "DENIED_EARLY_QUERY_PROBE",
+      "path": "query.json",
+      "event": "DENIED_OPEN",
+      "reason": "QUERY_READ_BEFORE_SURFACE",
+      "sequence": 2
+    },
+    {
+      "role": "FROZEN_CONFIG",
+      "path": "local_config.json",
+      "event": "ACTUAL_FILE_OPEN",
+      "sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026",
+      "sequence": 3
+    },
+    {
+      "role": "METHOD_CONTRACT",
+      "path": "methods.json",
+      "event": "ACTUAL_FILE_OPEN",
+      "sha256": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f",
+      "sequence": 4
+    },
+    {
+      "role": "OBSERVED",
+      "path": "observed.json",
+      "event": "ACTUAL_FILE_OPEN",
+      "sha256": "8b17da3e4432b6991cb81d6852d3154d16825d34b3a302a6de28277cc8c5811b",
+      "sequence": 5
+    },
+    {
+      "role": "CURRENT_M0_SURFACE_CACHE",
+      "path": "m0_surface.json",
+      "event": "ACTUAL_FILE_OPEN",
+      "sha256": "86fbf09ef29dd55e3a92c4ccdd2025a4c72d2b2355663f3b80bcce638fc2284d",
+      "sequence": 6
+    },
+    {
+      "role": "SURFACE_FROZEN",
+      "path": "surface.freeze",
+      "sha256": "4dc2785effee723f8303707dc4e6fbe8101fe4bf58cf8919083e19b86e4d2249",
+      "event": "ACTUAL_STAGE_WRITE",
+      "sequence": 7
+    },
+    {
+      "role": "QUERY",
+      "path": "query.json",
+      "event": "ACTUAL_FILE_OPEN",
+      "sha256": "2093993119993f5e4cde5202e02648091f7799db535e16518672ea076472f551",
+      "sequence": 8
+    }
+  ],
+  "scope": "INDEPENDENT PYTHON OPEN-HOOK PLUS WORKER ALLOWLIST, NOT OS SANDBOX"
+}

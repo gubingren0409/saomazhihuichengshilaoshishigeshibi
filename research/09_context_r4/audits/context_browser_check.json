@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "browser": "147.0.3912.72",
+  "page_sha256": "6fbe08539fe1fb867f1b531c6db8bb5d14d9b1975fef315012d340be3d638310",
+  "views": [
+    "file:context",
+    "file:mask",
+    "file:method",
+    "file:business",
+    "http:context",
+    "http:mask",
+    "http:method",
+    "http:business"
+  ],
+  "checks": [
+    "radius_changes_observed_receipt_but_not_score_domain",
+    "linked_point_and_reset",
+    "reference_opt_in_only",
+    "same_extent_h_g",
+    "region_cell_evidence",
+    "real_outer_witness_details",
+    "m0_m1_identical_observation",
+    "original_north_exit"
+  ],
+  "figures": [
+    {
+      "png": "01-context-and-local.png",
+      "svg": "01-context-and-local.svg",
+      "task": "Wc4183046a70",
+      "mode": "H",
+      "radius": "160",
+      "method": "M1",
+      "tab": "context",
+      "rightModel": "16ff06582e13c50a1b981a732723336229f6741264514ff2afae3926742e19f2",
+      "changedCells": 0,
+      "reference": false,
+      "anchor": [
+        351540,
+        3453820
+      ]
+    },
+    {
+      "png": "02-masking-comparison.png",
+      "svg": "02-masking-comparison.svg",
+      "task": "Wc4183046a70",
+      "mode": "G",
+      "radius": "80",
+      "method": "M1",
+      "tab": "mask",
+      "rightModel": null,
+      "changedCells": 0,
+      "reference": false,
+      "anchor": [
+        351540,
+        3453820
+      ]
+    },
+    {
+      "png": "03-m0-m1-comparison.png",
+      "svg": "03-m0-m1-comparison.svg",
+      "task": "W745941f0f92",
+      "mode": "G",
+      "radius": "80",
+      "method": "M1",
+      "tab": "method",
+      "rightModel": "4dc2785effee723f8303707dc4e6fbe8101fe4bf58cf8919083e19b86e4d2249",
+      "changedCells": 148,
+      "reference": false,
+      "anchor": [
+        354240,
+        3456660
+      ]
+    },
+    {
+      "png": "04-business-and-failures.png",
+      "svg": "04-business-and-failures.svg",
+      "task": "NORTH",
+      "mode": "NATURAL",
+      "radius": "160",
+      "method": "M1",
+      "tab": "business",
+      "rightModel": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+      "changedCells": 0,
+      "reference": false,
+      "anchor": [
+        354344.3888134466,
+        3456163.0891986894
+      ]
+    }
+  ],
+  "blocked_external": [],
+  "page_errors": []
+}

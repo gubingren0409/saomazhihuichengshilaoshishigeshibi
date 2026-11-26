@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>R4 CONTEXT · 看大范围，只补小范围</title>
+<style>
+:root{--ink:#1b3138;--sub:#526870;--bg:#f3f6f3;--line:#c9d5d1;--accent:#226759;--surface:#fff;--quiet:#eef4f0}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.52 system-ui,"Microsoft YaHei","Noto Sans CJK SC",sans-serif}
+header{padding:21px 0 17px;background:#dfece6;border-bottom:1px solid #b6c9bf}
+.wrap{width:min(96.5%,1490px);margin:auto}
+h1,h2,h3,p{margin:0}h1{font-size:clamp(27px,4.3vw,43px);line-height:1.16;margin:4px 0 8px}h2{font-size:24px;line-height:1.18}h3{font-size:15px}
+.kicker{font-weight:700;letter-spacing:.11em;font-size:11px;color:#27574d}.sub{color:var(--sub);font-size:13px}
+nav{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+nav a{color:var(--ink);text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:5px;padding:6px 10px;font-size:14px}
+nav a[aria-current=page]{background:#d9ece2;border-color:#79aa94;color:#174d40;font-weight:700}
+#figure{padding:12px 13px;background:#fff;border:1px solid var(--line);border-radius:7px}
+#intro{margin:4px 0 9px}
+.control-row,.toggles,.legend,.quick{display:flex;flex-wrap:wrap;align-items:center;gap:6px 11px}
+.control-row{margin:6px 0}label select{margin-left:4px}button,select{font:inherit;font-size:13px;border:1px solid #a9beb6;border-radius:4px;background:#fff;color:var(--ink);padding:3px 7px}
+button{cursor:pointer}button:hover{background:#eef6f1}button:disabled{cursor:default;color:#7e8b89}input[type=checkbox]{accent-color:var(--accent)}
+.toggles{padding:4px 8px;background:var(--quiet);font-size:12px}.legend{padding:6px 0;color:#415961;font-size:11px;gap:3px 10px}
+.swatch{display:inline-block;width:15px;height:7px;margin-right:3px;vertical-align:1px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}.map{min-width:0;border:1px solid var(--line);border-radius:5px;background:#f8f7f0;overflow:hidden}
+.map h3,.map p{background:#fff;padding:0 8px}.map h3{padding-top:5px}.map p{padding-bottom:5px;font-size:11px;min-height:25px}
+.map svg{width:100%;display:block;aspect-ratio:1.28;background:#f7f6ef;touch-action:none}
+.map .evidence-focus path{stroke:#c37725;stroke-width:3.1;stroke-opacity:1}
+.map [tabindex]{cursor:pointer}.map [tabindex]:focus{outline:none;filter:drop-shadow(0 0 1px #2f2c59)}
+#measure{display:flex;align-items:stretch;flex-wrap:wrap;gap:5px;margin:7px 0}.pill{background:#eaf2ed;border-left:3px solid #9dbcae;border-radius:2px;padding:2px 7px;font-size:12px}.pill strong{font-size:13px}
+#inspect{padding:6px 8px;background:#edf3f2;border-left:3px solid #8ba8a5;min-height:39px;font-size:12px;overflow-wrap:anywhere}
+#inspect dl{display:grid;grid-template-columns:max-content auto;gap:2px 8px;margin:2px 0}#inspect dt{font-weight:700}#inspect dd{margin:0;overflow-wrap:anywhere}
+#detail{padding:3px 0}details{margin:6px 0}summary{cursor:pointer;color:#36554f;font-size:13px}table{width:100%;border-collapse:collapse;font-size:12px}th,td{text-align:left;vertical-align:top;padding:3px 5px;border-bottom:1px solid #dce7e0}th{background:#eef3ef}
+#detail pre{overflow:auto;font-size:11px;max-height:240px;white-space:pre-wrap;overflow-wrap:anywhere}
+.small{font-size:11px;color:var(--sub);margin:4px 0}.quick{padding:9px 0 19px}.quick a{color:#176454}
+body.capture .control-row,body.capture .toggles,body.capture #inspect,body.capture #detail details{display:none}
+[hidden]{display:none!important}
+@media(max-width:800px){.pair{grid-template-columns:1fr}.map p{min-height:0}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<p class="kicker">OSM · R4 WALKABILITY R4 CONTEXT</p>
+<h1>看大范围，只补小范围</h1>
+<p class="sub">同一参考、30 米预测与评分域、1 米格网。40／80／160 米观察上下文和 H／S／G 遮蔽分别控制。</p>
+</div></header>
+<main class="wrap">
+<nav aria-label="四个审查入口">
+<a href="#context" data-tab="context">A · 街区与局部联动</a>
+<a href="#mask" data-tab="mask">B · 同目标遮蔽对照</a>
+<a href="#method" data-tab="method">C · 同输入方法对照</a>
+<a href="#business" data-tab="business">D · 业务与失败案例</a>
+</nav>
+<section id="figure" aria-label="街区和局部地图">
+<h2 id="title">读取已冻结地图</h2>
+<p id="intro" class="sub">加载离线实测数据。</p>
+<div class="control-row">
+<label>任务<select id="case" aria-label="任务"></select></label>
+<label>观察半径<select id="radius" aria-label="观察半径"></select></label>
+<label id="other-label" hidden>左图遮蔽<select id="other" aria-label="左图遮蔽"></select></label>
+<label id="mode-label">遮蔽<select id="mode" aria-label="遮蔽"></select></label>
+<label id="method-label">方法<select id="method" aria-label="方法"></select></label>
+<label id="query-label">固定查询<select id="query" aria-label="固定查询"></select></label>
+</div>
+<div class="control-row">
+<div id="shortcuts" class="control-row"></div>
+<button type="button" id="zoom-in">两图放大</button><button type="button" id="zoom-out">两图缩小</button>
+<button type="button" id="reset">重置视野</button><button type="button" id="full-route" aria-pressed="false" hidden>北门完整路线</button><button type="button" id="download">导出当前 SVG</button>
+</div>
+<div class="toggles">
+<label><input id="ref-toggle" type="checkbox">显示独立参考</label>
+<label><input id="gray-toggle" type="checkbox" checked>圈外人工背景</label>
+<label><input id="route-toggle" type="checkbox" checked>预测路线</label>
+<label><input id="base-toggle" type="checkbox">无推断路线基线</label>
+<label><input id="region-toggle" type="checkbox" checked>四态区域</label>
+</div>
+<div id="legend" class="legend" aria-label="图例"></div>
+<div class="pair">
+<article class="map"><h3 id="left-title"></h3><p id="left-note"></p><svg id="left-map" aria-label="左侧地图" role="group" xmlns="http://www.w3.org/2000/svg"></svg></article>
+<article class="map"><h3 id="right-title"></h3><p id="right-note"></p><svg id="right-map" aria-label="右侧地图" role="group" xmlns="http://www.w3.org/2000/svg"></svg></article>
+</div>
+<div id="measure"></div>
+<aside id="inspect" aria-live="polite">点击地图，两个视图会标出同一个位置。选择推断格片可查看证据。</aside>
+<div id="detail"></div>
+<p class="small" id="source"></p>
+</section>
+<footer class="quick"><a href="../RESULTS.md">实测结果</a><a href="../SCOPE_AND_METHOD.md">范围与方法</a><a href="../USER_REVIEW_NOTES.md">自然语言验收</a><span class="small">同源受控诊断 · 开启参考仅影响本页显示。</span></footer>
+</main>
+<script type="text/plain" id="payload">__PAYLOAD__</script>
+<script>__SCRIPT__</script>
+</body></html>

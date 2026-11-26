@@ -1,0 +1,425 @@
+{
+  "status": "INDEPENDENT_NORTH_EXIT_AND_E5_GEOMETRY_PASS",
+  "result_type": "UNMASKED_NATURAL_DIAGNOSTIC",
+  "raw_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "fixed_exit": {
+    "id": "node/6897145227",
+    "wgs84": [
+      121.4706605,
+      31.2305674
+    ],
+    "tags": {
+      "entrance": "exit"
+    }
+  },
+  "inbound_eligibility": "NOT_ELIGIBLE_EXIT",
+  "field_validation": "NOT_VERIFIED",
+  "frozen_s1_prior_audit_status": "S1_FROZEN_INDEPENDENT_CHECK_PASS",
+  "results": {
+    "M0": {
+      "surface_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+      "areas_m2": {
+        "NATIVE_WALKABLE": 941.7135281556102,
+        "INFERRED_WALKABLE": 180.9581178728577,
+        "RESTRICTED": 1687.1117872296181,
+        "UNKNOWN": 16.5146080028114
+      },
+      "fixed_queries": 8,
+      "replayed_original_route_segments_exactly": true,
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": false,
+          "length_m": 1166.9164035307433,
+          "cost_m": 1173.4693161379728,
+          "layer_lengths_m": {
+            "native": 960.5686968013391,
+            "derived": 193.24188151494596,
+            "inferred": 13.105825214458873
+          },
+          "inferred_inside_m": 13.105825214458873,
+          "outside_scoring_domain_m": 1132.5207596758733,
+          "residual_m": 0.0,
+          "native_conflicts": [
+            "way/178730989"
+          ],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": false,
+          "locally_recovered_query": false,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 36.85458935741887,
+          "cost_m": 36.85458935741887,
+          "layer_lengths_m": {
+            "derived": 36.854589357418874
+          },
+          "inferred_inside_m": 0.0,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": false,
+          "locally_recovered_query": false,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 28.833988802421008,
+          "cost_m": 28.833988802421008,
+          "layer_lengths_m": {
+            "derived": 28.83398880242101
+          },
+          "inferred_inside_m": 0.0,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": false,
+          "locally_recovered_query": false,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 20.457818008718395,
+          "cost_m": 20.457818008718395,
+          "layer_lengths_m": {
+            "derived": 20.457818008718398
+          },
+          "inferred_inside_m": 0.0,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": false,
+          "locally_recovered_query": false,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 10.759351840524083,
+          "cost_m": 10.759351840524083,
+          "layer_lengths_m": {
+            "derived": 10.759351840524081
+          },
+          "inferred_inside_m": 0.0,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": false,
+          "locally_recovered_query": false,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 3.3578193493357684,
+          "cost_m": 4.010925578754907,
+          "layer_lengths_m": {
+            "derived": 2.051606890497491,
+            "inferred": 1.306212458838278
+          },
+          "inferred_inside_m": 1.306212458838278,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": true,
+          "locally_recovered_query": true,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 8.518328851356767,
+          "cost_m": 12.530123111159188,
+          "layer_lengths_m": {
+            "derived": 0.4947403317519243,
+            "inferred": 8.023588519604843
+          },
+          "inferred_inside_m": 8.023588519604843,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": true,
+          "locally_recovered_query": true,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 24.93715628050939,
+          "cost_m": 30.594902216994203,
+          "layer_lengths_m": {
+            "inferred": 11.315491872969629,
+            "derived": 13.621664407539763
+          },
+          "inferred_inside_m": 11.315491872969629,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": true,
+          "locally_recovered_query": true,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        }
+      ],
+      "surface_before_full_route_graph": true,
+      "trace": {
+        "cells": 3203,
+        "cells_using_context": 0,
+        "context_added_area_m2": 0.0
+      }
+    },
+    "M1": {
+      "surface_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+      "areas_m2": {
+        "NATIVE_WALKABLE": 941.7135281556102,
+        "INFERRED_WALKABLE": 180.9581178728577,
+        "RESTRICTED": 1687.1117872296181,
+        "UNKNOWN": 16.5146080028114
+      },
+      "fixed_queries": 8,
+      "replayed_original_route_segments_exactly": true,
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": false,
+          "length_m": 1166.9164035307433,
+          "cost_m": 1173.4693161379728,
+          "layer_lengths_m": {
+            "native": 960.5686968013391,
+            "derived": 193.24188151494596,
+            "inferred": 13.105825214458873
+          },
+          "inferred_inside_m": 13.105825214458873,
+          "outside_scoring_domain_m": 1132.5207596758733,
+          "residual_m": 0.0,
+          "native_conflicts": [
+            "way/178730989"
+          ],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": false,
+          "locally_recovered_query": false,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 36.85458935741887,
+          "cost_m": 36.85458935741887,
+          "layer_lengths_m": {
+            "derived": 36.854589357418874
+          },
+          "inferred_inside_m": 0.0,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": false,
+          "locally_recovered_query": false,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 28.833988802421008,
+          "cost_m": 28.833988802421008,
+          "layer_lengths_m": {
+            "derived": 28.83398880242101
+          },
+          "inferred_inside_m": 0.0,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": false,
+          "locally_recovered_query": false,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 20.457818008718395,
+          "cost_m": 20.457818008718395,
+          "layer_lengths_m": {
+            "derived": 20.457818008718398
+          },
+          "inferred_inside_m": 0.0,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": false,
+          "locally_recovered_query": false,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 10.759351840524083,
+          "cost_m": 10.759351840524083,
+          "layer_lengths_m": {
+            "derived": 10.759351840524081
+          },
+          "inferred_inside_m": 0.0,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": false,
+          "locally_recovered_query": false,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 3.3578193493357684,
+          "cost_m": 4.010925578754907,
+          "layer_lengths_m": {
+            "derived": 2.051606890497491,
+            "inferred": 1.306212458838278
+          },
+          "inferred_inside_m": 1.306212458838278,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": true,
+          "locally_recovered_query": true,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 8.518328851356767,
+          "cost_m": 12.530123111159188,
+          "layer_lengths_m": {
+            "derived": 0.4947403317519243,
+            "inferred": 8.023588519604843
+          },
+          "inferred_inside_m": 8.023588519604843,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": true,
+          "locally_recovered_query": true,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "status": "ROUTED",
+          "reached": true,
+          "valid_reached": true,
+          "length_m": 24.93715628050939,
+          "cost_m": 30.594902216994203,
+          "layer_lengths_m": {
+            "inferred": 11.315491872969629,
+            "derived": 13.621664407539763
+          },
+          "inferred_inside_m": 11.315491872969629,
+          "outside_scoring_domain_m": 0.0,
+          "residual_m": 0.0,
+          "native_conflicts": [],
+          "conditional_conflicts": [],
+          "baseline_valid_reached": false,
+          "baseline_outside_scoring_domain_m": 0.0,
+          "uses_inferred_inside": true,
+          "locally_recovered_query": true,
+          "alternative_with_inference": false,
+          "native_outer_detour_only": false
+        }
+      ],
+      "surface_before_full_route_graph": true,
+      "trace": {
+        "cells": 3203,
+        "cells_using_context": 0,
+        "context_added_area_m2": 0.0
+      }
+    }
+  },
+  "scope": "Raw exit, frozen query objects, full path continuity/edge geometry, inferred class/length and locally observed restrictions; no physical field verification."
+}

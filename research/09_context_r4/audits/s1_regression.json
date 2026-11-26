@@ -1,0 +1,20 @@
+{
+  "status": "S1_REGRESSION_PASS",
+  "byte_identical_artifacts": {
+    "semantics_edges.csv": "be0d1393c5f3a6fad291b0be2030ea48315502f0cf56cb4bc17ecfb834470bfa",
+    "semantics_routes.geojson": "f77b22f5329cc16722fa2feef72626550d2fc0dbc7ae886934bdc28c21dc7480"
+  },
+  "restored_unique_segments": 377,
+  "routes": {
+    "S0": {
+      "north_fixed": 1237.814718494129,
+      "south": 1067.371390401112
+    },
+    "S1": {
+      "north_fixed": 1166.0987072809223,
+      "south": 1067.371390401112
+    }
+  },
+  "frozen_correctness_tests": 12,
+  "external_requests": 0
+}
