@@ -1,0 +1,18 @@
+{
+  "source": "https://overpass-api.de/api/interpreter",
+  "request_type": "BOUNDED_READ_ONLY_VECTOR",
+  "bounds_wsen": [
+    121.453,
+    31.216,
+    121.488,
+    31.244
+  ],
+  "query": "[out:json][timeout:24][maxsize:67108864];(way[\"building\"](31.216,121.453,31.244,121.488);way[\"highway\"](31.216,121.453,31.244,121.488);way[\"landuse\"](31.216,121.453,31.244,121.488);way[\"leisure\"](31.216,121.453,31.244,121.488);way[\"natural\"](31.216,121.453,31.244,121.488);way[\"waterway\"](31.216,121.453,31.244,121.488);way[\"amenity\"](31.216,121.453,31.244,121.488);way[\"tourism\"](31.216,121.453,31.244,121.488);way[\"barrier\"](31.216,121.453,31.244,121.488);way[\"railway\"](31.216,121.453,31.244,121.488);way[\"public_transport\"](31.216,121.453,31.244,121.488);way[\"entrance\"](31.216,121.453,31.244,121.488);relation[\"type\"=\"multipolygon\"][\"building\"](31.216,121.453,31.244,121.488);relation[\"type\"=\"multipolygon\"][\"landuse\"](31.216,121.453,31.244,121.488);relation[\"type\"=\"multipolygon\"][\"leisure\"](31.216,121.453,31.244,121.488);relation[\"type\"=\"multipolygon\"][\"natural\"](31.216,121.453,31.244,121.488);relation[\"type\"=\"multipolygon\"][\"waterway\"](31.216,121.453,31.244,121.488);relation[\"type\"=\"multipolygon\"][\"amenity\"](31.216,121.453,31.244,121.488);relation[\"type\"=\"multipolygon\"][\"tourism\"](31.216,121.453,31.244,121.488);node[\"name\"](31.216,121.453,31.244,121.488);node[\"entrance\"](31.216,121.453,31.244,121.488);node[\"barrier\"](31.216,121.453,31.244,121.488);node[\"highway\"](31.216,121.453,31.244,121.488);node[\"railway\"](31.216,121.453,31.244,121.488););out body;>;out skel qt;",
+  "query_version": 1,
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "started_utc": "2026-11-09T09:59:17.380687+00:00",
+  "status": "HTTP_ERROR",
+  "http_status": 502,
+  "retry_after": null
+}

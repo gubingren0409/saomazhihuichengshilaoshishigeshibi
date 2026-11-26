@@ -1,0 +1,256 @@
+{
+  "reviewer": "/root/osm_review",
+  "provider_calls": 0,
+  "scene_contract_sha256": "12f457f66fe107f44c47fd57bf884087562d3aef5d30278a65b0d2e8b2cba01b",
+  "route": {
+    "live_receipt_sha256": "5e3e7c22ee108f6cdead569aa251822a3bd00dd8863b9e28da0d7d5fd383c041",
+    "geojson_sha256": "b93240608e78a0082def54e401466d7be45ea4827899c51bf8a603eceaad79d2",
+    "provider_declared_length_m": 964,
+    "provider_duration_s": 912.079,
+    "independent_wgs84_geometry_m": 961.8193148173871,
+    "segment_count": 1,
+    "vertex_count": 80,
+    "origin_offset_m": 0.03617523242292413,
+    "frozen_entrance_offset_m": 54.9858197201278,
+    "offset_from_local_diagnostic_endpoint_m": 0.038333363226779923,
+    "planar_target_interior_intersection_mercator_m": 0.0,
+    "source_entrance_identity": "UNKNOWN",
+    "credits_observed": null,
+    "route_is_complete_to_entrance": false
+  },
+  "score": {
+    "sha256": "17a0f3e44b8d28617d7a647eb9327f99094c9653fa6ad0e5bcd045f68af397e9",
+    "same_as_initial_blank_template": true,
+    "filled_items_observed": 0,
+    "reviewer_edited_scores": false
+  },
+  "original_sealed_zip_sha256": "c717dd1958d73fb92476624640ad46f1ccca3a792e2016c849649bb0e812d870",
+  "static": {
+    "receipt_sha256": "9a81707fc4e859ae84eb3fb88a46afb23d619029d09249dfcce057e2cfe8b2b9",
+    "completion_qa_sha256": "7e05fe04bc6e4a78ca173af80c4c86e6765c32966ac1c59cf5b420a62ded07f6",
+    "live_static_calls": 4,
+    "route_reruns": 0,
+    "views": {
+      "detail": {
+        "images": {
+          "base": {
+            "sha256": "854bd9e42db8d04a4be6593a9dbcc16a466ea64be9d2796ea1551dd2eb4f6f64",
+            "bytes": 566607,
+            "size": [
+              1200,
+              900
+            ]
+          },
+          "route": {
+            "sha256": "6f8777fa88158f37b293941c3bb6ea056611fb4fb620bdff53e163fe637ad5b5",
+            "bytes": 577874,
+            "size": [
+              1200,
+              900
+            ]
+          }
+        },
+        "independent_camera_fit": {
+          "control_count": 4,
+          "fit_max_residual_px": 2.0495186137532011e-13,
+          "reference_center_mercator": [
+            13522093.634314496,
+            3662680.0161876376
+          ],
+          "px_coef": [
+            1.6745807223885802,
+            599.9999999984403
+          ],
+          "py_coef": [
+            -1.674580894481192,
+            450.00001273081074
+          ],
+          "rendered_control_centers_px": [
+            [
+              192.0,
+              144.0
+            ],
+            [
+              1008.0,
+              144.0
+            ],
+            [
+              192.0,
+              756.0
+            ],
+            [
+              1008.0,
+              756.0
+            ]
+          ],
+          "extent_wsen": [
+            121.46781519852942,
+            31.228126549232645,
+            121.47425250147057,
+            31.23225490952643
+          ],
+          "ground_m_per_px_at_center": 0.511090092437059,
+          "abs_bbox_offsets_in_reference_pixels": [
+            0.00012167181459338063,
+            3.227930658519867e-05,
+            0.0001216749337436727,
+            5.774093041947593e-05
+          ]
+        },
+        "route_color_validation": {
+          "tested_visible_samples": 32,
+          "samples_supported_by_overlay_line_color": 32,
+          "matching_fraction": 1.0,
+          "exact_route_color_changed_pixels": 5940,
+          "base_and_overlay_equal_pixel_fraction": 0.9913166666666666
+        },
+        "attribution_request": "default",
+        "actual_credits_observed": null
+      },
+      "context": {
+        "images": {
+          "base": {
+            "sha256": "c2a041d66470f4e88fdeb97a56ae7f05fad962e113bc215dd0418c111de4f256",
+            "bytes": 1219330,
+            "size": [
+              1200,
+              900
+            ]
+          },
+          "route": {
+            "sha256": "2e931a90ecba3c00b048da0473210a9ab91f59e3efff62f91edd8347b663bd86",
+            "bytes": 1224297,
+            "size": [
+              1200,
+              900
+            ]
+          }
+        },
+        "independent_camera_fit": {
+          "control_count": 4,
+          "fit_max_residual_px": 2.3437142008433856e-13,
+          "reference_center_mercator": [
+            13522093.634314496,
+            3662680.0161876376
+          ],
+          "px_coef": [
+            0.4186452762346579,
+            599.9999999992202
+          ],
+          "py_coef": [
+            -0.4186452977854495,
+            449.9999964043993
+          ],
+          "rendered_control_centers_px": [
+            [
+              192.0,
+              144.0
+            ],
+            [
+              1008.0,
+              144.0
+            ],
+            [
+              192.0,
+              756.0
+            ],
+            [
+              1008.0,
+              756.0
+            ]
+          ],
+          "extent_wsen": [
+            121.45815924705884,
+            31.221933671964617,
+            121.48390845294117,
+            31.238447110180502
+          ],
+          "ground_m_per_px_at_center": 2.0443599107672834,
+          "abs_bbox_offsets_in_reference_pixels": [
+            1.539456626657123e-05,
+            3.1114498897985275e-05,
+            1.5393006691425188e-05,
+            3.830569989638057e-05
+          ]
+        },
+        "route_color_validation": {
+          "tested_visible_samples": 32,
+          "samples_supported_by_overlay_line_color": 32,
+          "matching_fraction": 1.0,
+          "exact_route_color_changed_pixels": 1946,
+          "base_and_overlay_equal_pixel_fraction": 0.9967435185185185
+        },
+        "attribution_request": "default",
+        "actual_credits_observed": null
+      }
+    }
+  },
+  "browser": {
+    "status": "PASS",
+    "paired_base_views": 2,
+    "images_loaded": 8,
+    "score_controls": {
+      "select": 21,
+      "textarea": 2
+    },
+    "score_values_default_empty": true,
+    "submitted_scores": 0,
+    "external_requests": 0,
+    "viewer": [
+      {
+        "scene_id": "sh-huangpu-01",
+        "view": "detail",
+        "route_counts": {
+          "local": 0,
+          "geoapify": 80,
+          "diagnostic": 90
+        },
+        "bounds": [
+          121.46781519918181,
+          31.228126549380278,
+          121.47425250081835,
+          31.23225490926096
+        ],
+        "loaded": true,
+        "image_present": true,
+        "bearing": 0,
+        "pitch": 0,
+        "bounds_match": true,
+        "max_corner_error_css_px": 5.651403356481481e-09,
+        "diagnostic_points": 3,
+        "visible_layers": {
+          "local": false,
+          "geoapify": true,
+          "diagnostic": true
+        }
+      },
+      {
+        "scene_id": "sh-huangpu-01",
+        "view": "context",
+        "route_counts": {
+          "local": 0,
+          "geoapify": 80,
+          "diagnostic": 90
+        },
+        "bounds": [
+          121.45815924672866,
+          31.22193367139431,
+          121.48390845327128,
+          31.238447110883712
+        ],
+        "loaded": true,
+        "image_present": true,
+        "bearing": 0,
+        "pitch": 0,
+        "bounds_match": true,
+        "max_corner_error_css_px": 2.825800038408488e-09,
+        "diagnostic_points": 3,
+        "visible_layers": {
+          "local": false,
+          "geoapify": true,
+          "diagnostic": true
+        }
+      }
+    ]
+  }
+}

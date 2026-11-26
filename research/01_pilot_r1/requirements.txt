@@ -1,0 +1,9 @@
+Pillow==10.2.0
+networkx==3.6.1
+pyproj==3.8.0
+shapely==2.1.2
+geographiclib==2.1
+pytest==8.4.2
+playwright==1.58.0
+# Only for re-cropping the upstream Geofabrik PBF, not for replaying the sealed clip.
+osmium==4.3.2

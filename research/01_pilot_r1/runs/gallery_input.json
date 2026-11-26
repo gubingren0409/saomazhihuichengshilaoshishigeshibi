@@ -1,0 +1,148 @@
+{
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "label": "上海博物馆人民广场馆",
+      "views": {
+        "detail": {
+          "center": [
+            121.47103385,
+            31.230190751866655
+          ],
+          "bounds": [
+            121.4678151991821,
+            31.2281265493807,
+            121.47425250081787,
+            31.232254909261577
+          ],
+          "assets": {
+            "osm": {
+              "status": "LOCAL_REAL",
+              "base": "visuals/osm/sh-huangpu-01_detail_base.png",
+              "route": "visuals/osm/sh-huangpu-01_detail_route.png",
+              "route_identity": "PARTIAL_DIAGNOSTIC_TO_NEAREST_MAPPED_SEGMENT",
+              "attribution_burned_in": true,
+              "qa": {
+                "pixel_size": [
+                  1200,
+                  900
+                ],
+                "target_pixel_size": [
+                  267.7457260073667,
+                  258.9672486701519
+                ],
+                "actual_bounds": [
+                  121.4678151991821,
+                  31.2281265493807,
+                  121.47425250081787,
+                  31.232254909261577
+                ],
+                "meters_per_pixel": 0.5110899908233082,
+                "target_area_ratio": 0.030691920431338608
+              }
+            },
+            "geoapify": {
+              "status": "LIVE",
+              "base": "visuals/geoapify/sh-huangpu-01_detail_base.png",
+              "route": "visuals/geoapify/sh-huangpu-01_detail_route.png",
+              "route_identity": "GEOAPIFY_ROUTING_ROUTE",
+              "route_target_offset_m": 55.13495845084106,
+              "route_control_points": 4,
+              "qa": {
+                "pixel_size": [
+                  1200,
+                  900
+                ],
+                "target_pixel_size": [
+                  267.7457260073667,
+                  258.96724867015183
+                ],
+                "actual_bounds": [
+                  121.4678151991821,
+                  31.2281265493807,
+                  121.47425250081787,
+                  31.232254909261577
+                ],
+                "meters_per_pixel": 0.5110899908233082,
+                "target_area_ratio": 0.030691920431338608
+              },
+              "human_display_verified": true,
+              "local_retention_verified": true,
+              "attribution_burned_in": false,
+              "attribution": "© OpenStreetMap contributors · © OpenMapTiles · Powered by Geoapify"
+            }
+          }
+        },
+        "context": {
+          "center": [
+            121.47103385,
+            31.230190751866655
+          ],
+          "bounds": [
+            121.4581592467285,
+            31.22193367139365,
+            121.48390845327147,
+            31.23844711088328
+          ],
+          "assets": {
+            "osm": {
+              "status": "LOCAL_REAL",
+              "base": "visuals/osm/sh-huangpu-01_context_base.png",
+              "route": "visuals/osm/sh-huangpu-01_context_route.png",
+              "route_identity": "PARTIAL_DIAGNOSTIC_TO_NEAREST_MAPPED_SEGMENT",
+              "attribution_burned_in": true,
+              "qa": {
+                "pixel_size": [
+                  1200,
+                  900
+                ],
+                "target_pixel_size": [
+                  66.93643150192872,
+                  64.74181216750986
+                ],
+                "actual_bounds": [
+                  121.4581592467285,
+                  31.22193367139365,
+                  121.48390845327147,
+                  31.23844711088328
+                ],
+                "meters_per_pixel": 2.044359958945651,
+                "target_area_ratio": 0.001918245026960325
+              }
+            },
+            "geoapify": {
+              "status": "LIVE",
+              "base": "visuals/geoapify/sh-huangpu-01_context_base.png",
+              "route": "visuals/geoapify/sh-huangpu-01_context_route.png",
+              "route_identity": "GEOAPIFY_ROUTING_ROUTE",
+              "route_target_offset_m": 55.13495845084106,
+              "route_control_points": 4,
+              "qa": {
+                "pixel_size": [
+                  1200,
+                  900
+                ],
+                "target_pixel_size": [
+                  66.93643150192867,
+                  64.74181216750992
+                ],
+                "actual_bounds": [
+                  121.4581592467285,
+                  31.22193367139365,
+                  121.48390845327147,
+                  31.23844711088328
+                ],
+                "meters_per_pixel": 2.044359958945651,
+                "target_area_ratio": 0.001918245026960325
+              },
+              "human_display_verified": true,
+              "local_retention_verified": true,
+              "attribution_burned_in": false,
+              "attribution": "© OpenStreetMap contributors · © OpenMapTiles · Powered by Geoapify"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

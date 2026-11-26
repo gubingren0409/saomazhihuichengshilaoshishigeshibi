@@ -1,0 +1,71 @@
+{
+  "scene_id": "sh-huangpu-01",
+  "authorization": "USER_AUTHORIZED_SINGLE_ROUTING_PROBE",
+  "project_free_quota": "NOT_INDEPENDENTLY_VERIFIED",
+  "scope": "ONE_ROUTE_REQUEST_NO_UPGRADE",
+  "scene_contract_sha256": "12f457f66fe107f44c47fd57bf884087562d3aef5d30278a65b0d2e8b2cba01b",
+  "status": "LIVE_ROUTE_RETURNED",
+  "transport": "EXISTING_LOCAL_HTTPS_PROXY",
+  "receipt": {
+    "provider": "Geoapify",
+    "execution": "LIVE",
+    "endpoint": "https://api.geoapify.com/v1/routing",
+    "parameters": {
+      "waypoints": "lonlat:121.467161300,31.230940800|lonlat:121.471215800,31.229960700",
+      "mode": "walk",
+      "type": "balanced",
+      "units": "metric",
+      "format": "geojson"
+    },
+    "started_utc": "2026-11-09T10:33:28+00:00",
+    "status_code": 200,
+    "actual_credits": null,
+    "elapsed_s": 0.859,
+    "content_type": "application/json",
+    "response_bytes": 3482,
+    "estimated_credits": 1
+  },
+  "route": {
+    "source": "Geoapify Routing API",
+    "attribution": [
+      "© OpenStreetMap contributors",
+      "Powered by Geoapify"
+    ],
+    "crs": "EPSG:4326",
+    "mode": "walk",
+    "provider_distance_m": 964,
+    "provider_duration_s": 912.079,
+    "geometry_length_m": 962.0237948739488,
+    "requested_start_wgs84": [
+      121.4671613,
+      31.2309408
+    ],
+    "requested_target_wgs84": [
+      121.4712158,
+      31.2299607
+    ],
+    "route_start_wgs84": [
+      121.467161,
+      31.230941
+    ],
+    "route_endpoint_wgs84": [
+      121.471329,
+      31.230447
+    ],
+    "start_offset_m": 0.036169220839803645,
+    "target_offset_m": 55.13495845084106,
+    "segment_gaps_m": [],
+    "provider_geometry_type": "MultiLineString",
+    "provider_feature_count": 1,
+    "entrance": null,
+    "entrance_identity": "UNKNOWN"
+  },
+  "geojson": {
+    "path": "visuals/geoapify/sh-huangpu-01_probe_walk.geojson",
+    "sha256": "b93240608e78a0082def54e401466d7be45ea4827899c51bf8a603eceaad79d2"
+  },
+  "requests_attempted": 1,
+  "quota_headers_seen": [],
+  "quota_numeric_headers": {},
+  "static_map_requests": 0
+}

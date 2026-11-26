@@ -1,0 +1,65 @@
+{
+  "status": "NO_ROUTE",
+  "geometry": null,
+  "failure_reason": "TARGET_SNAP_OUTSIDE_LIMIT",
+  "requested_start": [
+    121.4671613,
+    31.2309408
+  ],
+  "requested_target": [
+    121.4712158,
+    31.2299607
+  ],
+  "route_start": null,
+  "route_end": null,
+  "snap_start_m": 0.0,
+  "snap_end_m": 55.02217444013307,
+  "length_m": null,
+  "node_ids": [],
+  "way_ids": [],
+  "segments": [],
+  "profile": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+  "engine": "NetworkX 3.6.1 Dijkstra",
+  "graph_stats": {
+    "eligible_ways": 1760,
+    "eligible_segments": 7113,
+    "missing_node_segments": 0,
+    "blocked_node_segments": 54,
+    "outside_snapshot_segments": 567
+  },
+  "max_snap_m": 35,
+  "snap_start": {
+    "way_id": 39764601,
+    "source_node_ids": [
+      13763096985,
+      476682043
+    ],
+    "segment_index": 1,
+    "fraction": 1.0,
+    "position": [
+      121.4671613,
+      31.2309408
+    ],
+    "distance_m": 0.0,
+    "evidence": "MAPPED_PEDESTRIAN_WAY"
+  },
+  "snap_end": {
+    "way_id": 178719573,
+    "source_node_ids": [
+      1891590993,
+      1890732610
+    ],
+    "segment_index": 98,
+    "fraction": 1.0,
+    "position": [
+      121.4713292,
+      31.2304473
+    ],
+    "distance_m": 55.02217444013307,
+    "evidence": "MAPPED_PEDESTRIAN_WAY"
+  },
+  "scene_id": "sh-huangpu-01",
+  "identity": "LIVE_OSM_VECTOR_OFFLINE_ROUTING",
+  "target_identity": "OSM_TAGGED_BUILDING_ENTRANCE_REFERENCE",
+  "snapshot_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+}

@@ -1,0 +1,265 @@
+{
+  "scene_id": "sh-huangpu-01",
+  "views": {
+    "detail": {
+      "status": "LOCAL_REAL",
+      "base": "visuals/geoapify/sh-huangpu-01_detail_base.png",
+      "base_sha256": "854bd9e42db8d04a4be6593a9dbcc16a466ea64be9d2796ea1551dd2eb4f6f64",
+      "pixel_size": [
+        1200,
+        900
+      ],
+      "human_display_verified": true,
+      "local_retention_verified": true,
+      "attribution_burned_in": false,
+      "attribution": "© OpenStreetMap contributors · © OpenMapTiles · Powered by Geoapify",
+      "alignment": {
+        "actual_bounds": [
+          121.4678151991821,
+          31.2281265493807,
+          121.47425250081787,
+          31.232254909261577
+        ],
+        "extent_3857": [
+          13521735.335744409,
+          3662411.2922600727,
+          13522451.932884583,
+          3662948.7401152025
+        ],
+        "meters_per_pixel": 0.5110899908233082,
+        "bounds_match": true,
+        "max_corner_error_css_px": 0.0,
+        "control_max_fit_error_css_px": 0.0,
+        "base_overlay_identical_pixel_fraction": 0.9913166666666666,
+        "control_points": [
+          {
+            "wgs84": [
+              121.46884516744383,
+              31.231594383801205
+            ],
+            "expected_px": [
+              192.0,
+              144.0
+            ],
+            "color": "#f410c9",
+            "observed_px": [
+              192.0,
+              144.0
+            ],
+            "control_color_pixels": 32
+          },
+          {
+            "wgs84": [
+              121.47322253255614,
+              31.231594383801205
+            ],
+            "expected_px": [
+              1008.0,
+              144.0
+            ],
+            "color": "#0ee8ec",
+            "observed_px": [
+              1008.0,
+              144.0
+            ],
+            "control_color_pixels": 32
+          },
+          {
+            "wgs84": [
+              121.46884516744383,
+              31.228787099082005
+            ],
+            "expected_px": [
+              192.0,
+              756.0
+            ],
+            "color": "#ff6b01",
+            "observed_px": [
+              192.0,
+              756.0
+            ],
+            "control_color_pixels": 32
+          },
+          {
+            "wgs84": [
+              121.47322253255614,
+              31.228787099082005
+            ],
+            "expected_px": [
+              1008.0,
+              756.0
+            ],
+            "color": "#55ea04",
+            "observed_px": [
+              1008.0,
+              756.0
+            ],
+            "control_color_pixels": 32
+          }
+        ]
+      },
+      "actual_bounds": [
+        121.4678151991821,
+        31.2281265493807,
+        121.47425250081787,
+        31.232254909261577
+      ],
+      "meters_per_pixel": 0.5110899908233082,
+      "bounds_match": true,
+      "max_corner_error_css_px": 0.0,
+      "target_pixel_size": [
+        267.7457260073667,
+        258.96724867015183
+      ],
+      "target_area_ratio": 0.030691920431338608,
+      "target_pixel_measurement": "FROZEN_OSM_FOOTPRINT_PROJECTED_ON_VERIFIED_CAMERA",
+      "overlay_qa": {
+        "route_color_samples_matched": 243,
+        "visible_route_color_samples": 243,
+        "route_overlay_verified": true
+      },
+      "route": "visuals/geoapify/sh-huangpu-01_detail_route.png",
+      "route_sha256": "6f8777fa88158f37b293941c3bb6ea056611fb4fb620bdff53e163fe637ad5b5",
+      "route_identity": "GEOAPIFY_ROUTING_ROUTE",
+      "route_target_offset_m": 55.13495845084106,
+      "route_control_points": 4
+    },
+    "context": {
+      "status": "LOCAL_REAL",
+      "base": "visuals/geoapify/sh-huangpu-01_context_base.png",
+      "base_sha256": "c2a041d66470f4e88fdeb97a56ae7f05fad962e113bc215dd0418c111de4f256",
+      "pixel_size": [
+        1200,
+        900
+      ],
+      "human_display_verified": true,
+      "local_retention_verified": true,
+      "attribution_burned_in": false,
+      "attribution": "© OpenStreetMap contributors · © OpenMapTiles · Powered by Geoapify",
+      "alignment": {
+        "actual_bounds": [
+          121.4581592467285,
+          31.22193367139365,
+          121.48390845327147,
+          31.23844711088328
+        ],
+        "extent_3857": [
+          13520660.44003415,
+          3661605.1204773774,
+          13523526.828594843,
+          3663754.9118978977
+        ],
+        "meters_per_pixel": 2.044359958945651,
+        "bounds_match": true,
+        "max_corner_error_css_px": 0.0,
+        "control_max_fit_error_css_px": 0.0,
+        "base_overlay_identical_pixel_fraction": 0.9967435185185185,
+        "control_points": [
+          {
+            "wgs84": [
+              121.46227911977537,
+              31.23580515449902
+            ],
+            "expected_px": [
+              192.0,
+              144.0
+            ],
+            "color": "#f410c9",
+            "observed_px": [
+              192.0,
+              144.0
+            ],
+            "control_color_pixels": 32
+          },
+          {
+            "wgs84": [
+              121.4797885802246,
+              31.23580515449902
+            ],
+            "expected_px": [
+              1008.0,
+              144.0
+            ],
+            "color": "#0ee8ec",
+            "observed_px": [
+              1008.0,
+              144.0
+            ],
+            "control_color_pixels": 32
+          },
+          {
+            "wgs84": [
+              121.46227911977537,
+              31.224576015632852
+            ],
+            "expected_px": [
+              192.0,
+              756.0
+            ],
+            "color": "#ff6b01",
+            "observed_px": [
+              192.0,
+              756.0
+            ],
+            "control_color_pixels": 32
+          },
+          {
+            "wgs84": [
+              121.4797885802246,
+              31.224576015632852
+            ],
+            "expected_px": [
+              1008.0,
+              756.0
+            ],
+            "color": "#55ea04",
+            "observed_px": [
+              1008.0,
+              756.0
+            ],
+            "control_color_pixels": 32
+          }
+        ]
+      },
+      "actual_bounds": [
+        121.4581592467285,
+        31.22193367139365,
+        121.48390845327147,
+        31.23844711088328
+      ],
+      "meters_per_pixel": 2.044359958945651,
+      "bounds_match": true,
+      "max_corner_error_css_px": 0.0,
+      "target_pixel_size": [
+        66.93643150192867,
+        64.74181216750992
+      ],
+      "target_area_ratio": 0.001918245026960325,
+      "target_pixel_measurement": "FROZEN_OSM_FOOTPRINT_PROJECTED_ON_VERIFIED_CAMERA",
+      "overlay_qa": {
+        "route_color_samples_matched": 78,
+        "visible_route_color_samples": 79,
+        "route_overlay_verified": true
+      },
+      "route": "visuals/geoapify/sh-huangpu-01_context_route.png",
+      "route_sha256": "2e931a90ecba3c00b048da0473210a9ab91f59e3efff62f91edd8347b663bd86",
+      "route_identity": "GEOAPIFY_ROUTING_ROUTE",
+      "route_target_offset_m": 55.13495845084106,
+      "route_control_points": 4
+    }
+  },
+  "route_geojson": {
+    "path": "visuals/geoapify/sh-huangpu-01_probe_walk.geojson",
+    "sha256": "b93240608e78a0082def54e401466d7be45ea4827899c51bf8a603eceaad79d2"
+  },
+  "route_display_verified": true,
+  "status": "READY_FOR_USER_VISUAL_REVIEW",
+  "route_provider_distance_m": 964,
+  "route_target_offset_m": 55.13495845084106,
+  "real_static_requests": 4,
+  "actual_credits": null,
+  "new_route_requests": 0,
+  "manual_visual_review": "PENDING_USER_REVIEW",
+  "field_verification": 0,
+  "source_permission": "ALLOWED_WITH_CONDITIONS_RETAIN_ATTRIBUTION"
+}

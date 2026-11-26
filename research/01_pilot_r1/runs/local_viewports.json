@@ -1,0 +1,213 @@
+{
+  "scene_id": "sh-huangpu-01",
+  "source_snapshot_utc": "2026-11-08T21:21:00Z",
+  "attribution": "© OpenStreetMap contributors (ODbL-1.0)",
+  "unmatched_renderable_relations": 0,
+  "local_route_status": "NO_ROUTE",
+  "local_route_failure": "TARGET_SNAP_OUTSIDE_LIMIT",
+  "overlay_geometry_check": {
+    "target_building_interior_m_approx": 0.0,
+    "basis": "Projected intersection excluding the 0.5m outline buffer, approximate ground scale; not accessibility truth."
+  },
+  "diagnostic_status": "PASS",
+  "views": {
+    "detail": {
+      "center": [
+        121.47103385,
+        31.230190751866655
+      ],
+      "bounds": [
+        121.4678151991821,
+        31.2281265493807,
+        121.47425250081787,
+        31.232254909261577
+      ],
+      "extent_3857": [
+        13521735.335744409,
+        3662411.2922600727,
+        13522451.932884583,
+        3662948.7401152025
+      ],
+      "width": 1200,
+      "height": 900,
+      "bearing": 0,
+      "pitch": 0,
+      "zoom": 18,
+      "tile_css_size": 256,
+      "dpr": 1,
+      "meters_per_pixel": 0.5110899908233082,
+      "projected_units_per_pixel": 0.5971642834779395,
+      "crs": "EPSG:3857",
+      "bounds_crs": "EPSG:4326",
+      "feature_counts": {
+        "land": 29,
+        "pedestrian_area": 4,
+        "road": 80,
+        "building": 32,
+        "foot": 90
+      },
+      "render_stroke_css_pixels": {
+        "road": [
+          5,
+          8,
+          10,
+          12,
+          14,
+          16
+        ],
+        "foot": [
+          3
+        ]
+      },
+      "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+      "visible_unique_labels": 24,
+      "decluttered_labels": 30,
+      "scale": {
+        "visible": true,
+        "bar_meters": 100,
+        "bar_css_pixels": 195.6602590454008
+      },
+      "attribution": "© OpenStreetMap contributors · ODbL",
+      "status": "PASS_LOCAL_GEOMETRY_RENDER",
+      "actual_bounds": [
+        121.4678151991821,
+        31.2281265493807,
+        121.47425250081787,
+        31.232254909261577
+      ],
+      "pixel_size": [
+        1200,
+        900
+      ],
+      "target_pixel_size": [
+        267.7457260073667,
+        258.9672486701519
+      ],
+      "target_area_ratio": 0.030691920431338608,
+      "building_fully_inside": true,
+      "distinct_pixel_colors": 1164,
+      "label_visibility_assessment": "AUTOMATED_COUNTS_ONLY_HUMAN_PENDING",
+      "coverage_assessment": "OSM_MAPPED_FEATURES_ONLY",
+      "context_route_shown": true,
+      "requested_start_pixel": [
+        -121.89564245402423,
+        286.48567021403454
+      ],
+      "requested_target_pixel": [
+        633.917938348297,
+        500.15222361886555
+      ],
+      "rendered_route_end_pixel": [
+        655.0572305105602,
+        394.0713406576919
+      ],
+      "overlay_identity": "PARTIAL_DIAGNOSTIC_TO_NEAREST_MAPPED_SEGMENT",
+      "base": "visuals/osm/sh-huangpu-01_detail_base.png",
+      "route": "visuals/osm/sh-huangpu-01_detail_route.png",
+      "base_sha256": "c80e9934e40ddcfed577e67461af1d4fc8d2869a91390d488fbbae879b4f7360",
+      "route_sha256": "f3a61ea541f353ce01034945a14b14f6a015583c0fe82dc9950371d4287b05e1"
+    },
+    "context": {
+      "center": [
+        121.47103385,
+        31.230190751866655
+      ],
+      "bounds": [
+        121.4581592467285,
+        31.22193367139365,
+        121.48390845327147,
+        31.23844711088328
+      ],
+      "extent_3857": [
+        13520660.44003415,
+        3661605.1204773774,
+        13523526.828594843,
+        3663754.9118978977
+      ],
+      "width": 1200,
+      "height": 900,
+      "bearing": 0,
+      "pitch": 0,
+      "zoom": 16,
+      "tile_css_size": 256,
+      "dpr": 1,
+      "meters_per_pixel": 2.044359958945651,
+      "projected_units_per_pixel": 2.388657133911758,
+      "crs": "EPSG:3857",
+      "bounds_crs": "EPSG:4326",
+      "feature_counts": {
+        "land": 85,
+        "water": 7,
+        "pedestrian_area": 17,
+        "stream": 2,
+        "road": 984,
+        "building": 1736,
+        "foot": 385
+      },
+      "render_stroke_css_pixels": {
+        "stream": [
+          2
+        ],
+        "road": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10
+        ],
+        "foot": [
+          2
+        ]
+      },
+      "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+      "visible_unique_labels": 172,
+      "decluttered_labels": 1128,
+      "scale": {
+        "visible": true,
+        "bar_meters": 250,
+        "bar_css_pixels": 122.28766216343519
+      },
+      "attribution": "© OpenStreetMap contributors · ODbL",
+      "status": "PASS_LOCAL_GEOMETRY_RENDER",
+      "actual_bounds": [
+        121.4581592467285,
+        31.22193367139365,
+        121.48390845327147,
+        31.23844711088328
+      ],
+      "pixel_size": [
+        1200,
+        900
+      ],
+      "target_pixel_size": [
+        66.93643150192872,
+        64.74181216750986
+      ],
+      "target_area_ratio": 0.001918245026960325,
+      "building_fully_inside": true,
+      "distinct_pixel_colors": 1512,
+      "label_visibility_assessment": "AUTOMATED_COUNTS_ONLY_HUMAN_PENDING",
+      "coverage_assessment": "OSM_MAPPED_FEATURES_ONLY",
+      "context_route_shown": true,
+      "requested_start_pixel": [
+        419.5260893862594,
+        409.1214175535263
+      ],
+      "requested_target_pixel": [
+        608.4794845870853,
+        462.538055904711
+      ],
+      "rendered_route_end_pixel": [
+        613.764307627658,
+        436.017835164429
+      ],
+      "overlay_identity": "PARTIAL_DIAGNOSTIC_TO_NEAREST_MAPPED_SEGMENT",
+      "base": "visuals/osm/sh-huangpu-01_context_base.png",
+      "route": "visuals/osm/sh-huangpu-01_context_route.png",
+      "base_sha256": "4ca6170a61c07a959f921187f9f2228f3f6bef31d053d57379b8dbfc373abb8a",
+      "route_sha256": "51d2261473c835a2d71f9c9a8f3ac88e191f035a7dc27af064c834bb7ea05251"
+    }
+  }
+}

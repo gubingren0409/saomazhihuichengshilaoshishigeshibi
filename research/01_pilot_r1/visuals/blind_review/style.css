@@ -1,0 +1,67 @@
+:root {
+  color-scheme:light;
+  --ink:#172d36;
+  --muted:#526775;
+  --paper:#f2f5f3;
+  --line:#d7e0df;
+  --accent:#146a5f;
+  --wash:#e7f3ef;
+  --shadow:0 6px 24px rgba(28,58,63,.07);
+  font:15px/1.58 system-ui,"Microsoft YaHei",sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink)}
+[hidden]{display:none!important}
+a{color:#126157;text-underline-offset:.19em}
+a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #71b4a4;outline-offset:2px}
+.wrap{width:min(1280px,calc(100% - 48px));margin-inline:auto}
+.hero{background:linear-gradient(115deg,#123b3a,#19374a);color:#f6fffd;padding:36px 0 34px}
+.hero p{max-width:54rem;color:#d6eeea}
+.hero .eyebrow{color:#a8ddd0}
+h1,h2,h3,h4,p{margin:0}
+h1{font-size:clamp(2rem,5vw,3.3rem);font-weight:760;letter-spacing:.02em;margin:.2rem 0 .32rem}
+h2{font-size:clamp(1.25rem,3vw,1.7rem)}
+h3{font-size:1.12rem}
+h4{font-size:.95rem;margin-bottom:.34rem}
+.eyebrow{font-size:.78rem;color:var(--accent);letter-spacing:.10em;font-weight:730}
+.hero-meta,.actions{display:flex;gap:.65rem;align-items:center;flex-wrap:wrap}
+.hero-meta{margin-top:1rem}
+.hero-meta span{font-size:.8rem;border:1px solid #709797;border-radius:5px;padding:.15rem .5rem}
+.actions{margin-block:1rem;gap:1.15rem}
+.button,button{display:inline-block;padding:.46rem .82rem;background:var(--accent);color:white;border:0;border-radius:6px;text-decoration:none;font:inherit;font-weight:640;cursor:pointer}
+.button:hover,button:hover{background:#0e5048}
+.note{padding:.65rem .9rem;background:var(--wash);border-left:3px solid #61a89a;border-radius:5px;margin:.55rem 0 1rem}
+.scene,.score-scene{border:1px solid var(--line);border-radius:10px;margin-bottom:1.3rem;background:white;box-shadow:var(--shadow)}
+.scene-head,.score-scene{padding:1rem 1.1rem}
+.scene-head{background:#f9fcfb;border-radius:10px 10px 0 0}
+.view{border-top:1px solid var(--line);padding:1rem 1.1rem 1.1rem}
+.view-head{display:flex;justify-content:space-between;gap:.65rem;align-items:flex-start;margin-bottom:.65rem}
+.view-head p,figcaption,footer,.score-scene>p{font-size:.85rem;color:var(--muted)}
+code{background:#eef4f3;border-radius:5px;padding:.16rem .45rem;color:#2c5453;white-space:nowrap}
+.map-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}
+figure{margin:0;min-width:0}
+.frame,.unavailable{aspect-ratio:4/3;display:block;border:1px solid var(--line);border-radius:6px;background:#edf1ef;overflow:hidden}
+.frame img{display:block;width:100%;height:100%;object-fit:contain}
+.unavailable{display:grid;align-content:center;text-align:center;justify-items:center;padding:.65rem;background:repeating-linear-gradient(-45deg,#f5f8f7,#f5f8f7 8px,#f0f4f3 8px,#f0f4f3 16px)}
+.unavailable span{font-weight:680}
+.unavailable p{font-size:.83rem;color:var(--muted);margin:.2rem 0}
+figcaption{display:flex;justify-content:space-between;gap:.3rem .55rem;flex-wrap:wrap;margin-top:.25rem}
+.credit{font-size:.79rem}
+details{border:1px solid var(--line);border-radius:6px;margin-top:.65rem;padding:.36rem .56rem}
+summary{cursor:pointer;font-weight:650;color:#285b56}
+details>p{font-size:.84rem;overflow-wrap:anywhere}
+.route-pair{margin:.5rem .15rem .2rem}
+footer{padding:0 0 1.3rem}
+.score-scroll{overflow-x:auto}
+table{border-collapse:collapse;margin:.65rem 0;width:100%;min-width:490px}
+th,td{text-align:left;padding:.45rem .6rem;border-bottom:1px solid var(--line);vertical-align:middle}
+thead{background:#edf4f3}
+th small{display:block;color:var(--muted);font-weight:450}
+select,textarea{background:white;border:1px solid #a8bcbc;border-radius:5px;padding:.35rem .43rem;color:inherit;font:inherit}
+select{min-width:5rem}
+.free{display:block;font-weight:650;margin:.5rem 0 .18rem}
+textarea{display:block;resize:vertical;width:100%}
+#score-form{margin-bottom:1.15rem}
+#save-status a{display:inline-block;margin-left:.65rem}
+@media(max-width:680px){.wrap{width:calc(100% - 28px)}.hero{padding:25px 0}.scene-head,.score-scene,.view{padding:.65rem}.map-pair{gap:.45rem}}
+@media(max-width:420px){.map-pair{grid-template-columns:1fr}}

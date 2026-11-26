@@ -1,0 +1,291 @@
+{
+  "scene_id": "sh-huangpu-01",
+  "scene_contract_sha256": "12f457f66fe107f44c47fd57bf884087562d3aef5d30278a65b0d2e8b2cba01b",
+  "route_geojson": {
+    "path": "visuals/geoapify/sh-huangpu-01_probe_walk.geojson",
+    "sha256": "b93240608e78a0082def54e401466d7be45ea4827899c51bf8a603eceaad79d2"
+  },
+  "status": "FOUR_LIVE_STATIC_IMAGES",
+  "requests": [
+    {
+      "view": "detail",
+      "kind": "base",
+      "status": "LIVE_SAVED",
+      "controls": [],
+      "receipt": {
+        "provider": "Geoapify",
+        "execution": "LIVE",
+        "endpoint": "https://maps.geoapify.com/v1/staticmap",
+        "parameters": {
+          "style": "osm-bright-smooth",
+          "width": 1200,
+          "height": 900,
+          "area": "rect:121.467815199,31.228126549,121.474252501,31.232254909",
+          "bearing": 0,
+          "pitch": 0,
+          "scaleFactor": 1,
+          "attribution": "default",
+          "format": "png"
+        },
+        "started_utc": "2026-11-09T10:45:51+00:00",
+        "status_code": 200,
+        "actual_credits": null,
+        "elapsed_s": 6.39,
+        "content_type": "image/png",
+        "response_bytes": 566607,
+        "attribution": [
+          "© OpenStreetMap contributors",
+          "© OpenMapTiles",
+          "Powered by Geoapify"
+        ],
+        "viewport_status": "REQUESTED_AREA_NOT_INDEPENDENTLY_VERIFIED",
+        "actual_bounds_wgs84": null,
+        "estimated_credits": 5.12,
+        "actual_dimensions_px": [
+          1200,
+          900
+        ]
+      },
+      "asset": {
+        "path": "visuals/geoapify/sh-huangpu-01_detail_base.png",
+        "sha256": "854bd9e42db8d04a4be6593a9dbcc16a466ea64be9d2796ea1551dd2eb4f6f64",
+        "bytes": 566607
+      }
+    },
+    {
+      "view": "detail",
+      "kind": "route",
+      "status": "LIVE_SAVED",
+      "controls": [
+        {
+          "wgs84": [
+            121.46884516744383,
+            31.231594383801205
+          ],
+          "expected_px": [
+            192.0,
+            144.0
+          ],
+          "color": "#f410c9"
+        },
+        {
+          "wgs84": [
+            121.47322253255614,
+            31.231594383801205
+          ],
+          "expected_px": [
+            1008.0,
+            144.0
+          ],
+          "color": "#0ee8ec"
+        },
+        {
+          "wgs84": [
+            121.46884516744383,
+            31.228787099082005
+          ],
+          "expected_px": [
+            192.0,
+            756.0
+          ],
+          "color": "#ff6b01"
+        },
+        {
+          "wgs84": [
+            121.47322253255614,
+            31.228787099082005
+          ],
+          "expected_px": [
+            1008.0,
+            756.0
+          ],
+          "color": "#55ea04"
+        }
+      ],
+      "receipt": {
+        "provider": "Geoapify",
+        "execution": "LIVE",
+        "endpoint": "https://maps.geoapify.com/v1/staticmap",
+        "parameters": {
+          "style": "osm-bright-smooth",
+          "width": 1200,
+          "height": 900,
+          "area": "rect:121.467815199,31.228126549,121.474252501,31.232254909",
+          "bearing": 0,
+          "pitch": 0,
+          "scaleFactor": 1,
+          "attribution": "default",
+          "format": "png",
+          "geometry": "polyline6:y|dqz@qpwtfF`N`V|AnC`@UhFqCfMiHoEgI|@o@vFcEjDgCjEaD|AiAcBmCsN}Vz@aAp@uAlAuDvAkF^eAf@k@dC_Cz@uAf@oAn@wC^iCBeCCkAYK]]Qe@Eu@Fi@Tc@h@a@ReCBoBCkCM_BIqAD_C^eCZ{BB{@?iCE{AMiAmAkEqBcEQ_@gAyBKSwLsTrH}GlAw@hA[rDk@YqBE]Ii@_E^wAn@y\\nXmKsRhIqGpB~DdH_GmCaFMUwI}OS_@yB_EcIxFtCfFcIzFsKyRh[gWt@_AfDiJfFhKdFkE;linecolor:#195eae;linewidth:5;lineopacity:1|circle:121.467161000,31.230941000,6;linecolor:#2f6b4a;linewidth:1;fillcolor:#2f6b4a;lineopacity:1;fillopacity:1|circle:121.471329000,31.230447000,7;linecolor:#195eae;linewidth:1;fillcolor:#195eae;lineopacity:1;fillopacity:1|circle:121.471215800,31.229960700,6;linecolor:#8c4a27;linewidth:1;fillcolor:#8c4a27;lineopacity:1;fillopacity:1|circle:121.468845167,31.231594384,4;linecolor:#f410c9;linewidth:1;fillcolor:#f410c9;lineopacity:1;fillopacity:1|circle:121.473222533,31.231594384,4;linecolor:#0ee8ec;linewidth:1;fillcolor:#0ee8ec;lineopacity:1;fillopacity:1|circle:121.468845167,31.228787099,4;linecolor:#ff6b01;linewidth:1;fillcolor:#ff6b01;lineopacity:1;fillopacity:1|circle:121.473222533,31.228787099,4;linecolor:#55ea04;linewidth:1;fillcolor:#55ea04;lineopacity:1;fillopacity:1"
+        },
+        "started_utc": "2026-11-09T10:45:57+00:00",
+        "status_code": 200,
+        "actual_credits": null,
+        "elapsed_s": 13.25,
+        "content_type": "image/png",
+        "response_bytes": 577874,
+        "attribution": [
+          "© OpenStreetMap contributors",
+          "© OpenMapTiles",
+          "Powered by Geoapify"
+        ],
+        "viewport_status": "REQUESTED_AREA_NOT_INDEPENDENTLY_VERIFIED",
+        "actual_bounds_wgs84": null,
+        "estimated_credits": 5.12,
+        "actual_dimensions_px": [
+          1200,
+          900
+        ]
+      },
+      "asset": {
+        "path": "visuals/geoapify/sh-huangpu-01_detail_route.png",
+        "sha256": "6f8777fa88158f37b293941c3bb6ea056611fb4fb620bdff53e163fe637ad5b5",
+        "bytes": 577874
+      }
+    },
+    {
+      "view": "context",
+      "kind": "base",
+      "status": "LIVE_SAVED",
+      "controls": [],
+      "receipt": {
+        "provider": "Geoapify",
+        "execution": "LIVE",
+        "endpoint": "https://maps.geoapify.com/v1/staticmap",
+        "parameters": {
+          "style": "osm-bright-smooth",
+          "width": 1200,
+          "height": 900,
+          "area": "rect:121.458159247,31.221933671,121.483908453,31.238447111",
+          "bearing": 0,
+          "pitch": 0,
+          "scaleFactor": 1,
+          "attribution": "default",
+          "format": "png"
+        },
+        "started_utc": "2026-11-09T10:46:11+00:00",
+        "status_code": 200,
+        "actual_credits": null,
+        "elapsed_s": 12.218,
+        "content_type": "image/png",
+        "response_bytes": 1219330,
+        "attribution": [
+          "© OpenStreetMap contributors",
+          "© OpenMapTiles",
+          "Powered by Geoapify"
+        ],
+        "viewport_status": "REQUESTED_AREA_NOT_INDEPENDENTLY_VERIFIED",
+        "actual_bounds_wgs84": null,
+        "estimated_credits": 5.12,
+        "actual_dimensions_px": [
+          1200,
+          900
+        ]
+      },
+      "asset": {
+        "path": "visuals/geoapify/sh-huangpu-01_context_base.png",
+        "sha256": "c2a041d66470f4e88fdeb97a56ae7f05fad962e113bc215dd0418c111de4f256",
+        "bytes": 1219330
+      }
+    },
+    {
+      "view": "context",
+      "kind": "route",
+      "status": "LIVE_SAVED",
+      "controls": [
+        {
+          "wgs84": [
+            121.46227911977537,
+            31.23580515449902
+          ],
+          "expected_px": [
+            192.0,
+            144.0
+          ],
+          "color": "#f410c9"
+        },
+        {
+          "wgs84": [
+            121.4797885802246,
+            31.23580515449902
+          ],
+          "expected_px": [
+            1008.0,
+            144.0
+          ],
+          "color": "#0ee8ec"
+        },
+        {
+          "wgs84": [
+            121.46227911977537,
+            31.224576015632852
+          ],
+          "expected_px": [
+            192.0,
+            756.0
+          ],
+          "color": "#ff6b01"
+        },
+        {
+          "wgs84": [
+            121.4797885802246,
+            31.224576015632852
+          ],
+          "expected_px": [
+            1008.0,
+            756.0
+          ],
+          "color": "#55ea04"
+        }
+      ],
+      "receipt": {
+        "provider": "Geoapify",
+        "execution": "LIVE",
+        "endpoint": "https://maps.geoapify.com/v1/staticmap",
+        "parameters": {
+          "style": "osm-bright-smooth",
+          "width": 1200,
+          "height": 900,
+          "area": "rect:121.458159247,31.221933671,121.483908453,31.238447111",
+          "bearing": 0,
+          "pitch": 0,
+          "scaleFactor": 1,
+          "attribution": "default",
+          "format": "png",
+          "geometry": "polyline6:y|dqz@qpwtfF`N`V|AnC`@UhFqCfMiHoEgI|@o@vFcEjDgCjEaD|AiAcBmCsN}Vz@aAp@uAlAuDvAkF^eAf@k@dC_Cz@uAf@oAn@wC^iCBeCCkAYK]]Qe@Eu@Fi@Tc@h@a@ReCBoBCkCM_BIqAD_C^eCZ{BB{@?iCE{AMiAmAkEqBcEQ_@gAyBKSwLsTrH}GlAw@hA[rDk@YqBE]Ii@_E^wAn@y\\nXmKsRhIqGpB~DdH_GmCaFMUwI}OS_@yB_EcIxFtCfFcIzFsKyRh[gWt@_AfDiJfFhKdFkE;linecolor:#195eae;linewidth:5;lineopacity:1|circle:121.467161000,31.230941000,6;linecolor:#2f6b4a;linewidth:1;fillcolor:#2f6b4a;lineopacity:1;fillopacity:1|circle:121.471329000,31.230447000,7;linecolor:#195eae;linewidth:1;fillcolor:#195eae;lineopacity:1;fillopacity:1|circle:121.471215800,31.229960700,6;linecolor:#8c4a27;linewidth:1;fillcolor:#8c4a27;lineopacity:1;fillopacity:1|circle:121.462279120,31.235805154,4;linecolor:#f410c9;linewidth:1;fillcolor:#f410c9;lineopacity:1;fillopacity:1|circle:121.479788580,31.235805154,4;linecolor:#0ee8ec;linewidth:1;fillcolor:#0ee8ec;lineopacity:1;fillopacity:1|circle:121.462279120,31.224576016,4;linecolor:#ff6b01;linewidth:1;fillcolor:#ff6b01;lineopacity:1;fillopacity:1|circle:121.479788580,31.224576016,4;linecolor:#55ea04;linewidth:1;fillcolor:#55ea04;lineopacity:1;fillopacity:1"
+        },
+        "started_utc": "2026-11-09T10:46:23+00:00",
+        "status_code": 200,
+        "actual_credits": null,
+        "elapsed_s": 12.141,
+        "content_type": "image/png",
+        "response_bytes": 1224297,
+        "attribution": [
+          "© OpenStreetMap contributors",
+          "© OpenMapTiles",
+          "Powered by Geoapify"
+        ],
+        "viewport_status": "REQUESTED_AREA_NOT_INDEPENDENTLY_VERIFIED",
+        "actual_bounds_wgs84": null,
+        "estimated_credits": 5.12,
+        "actual_dimensions_px": [
+          1200,
+          900
+        ]
+      },
+      "asset": {
+        "path": "visuals/geoapify/sh-huangpu-01_context_route.png",
+        "sha256": "2e931a90ecba3c00b048da0473210a9ab91f59e3efff62f91edd8347b663bd86",
+        "bytes": 1224297
+      }
+    }
+  ],
+  "authorization": "USER_REQUESTED_BLANK_SIDE_COMPLETION_WITHIN_FREE_PLAN_ASSUMPTION",
+  "transport": "EXISTING_LOCAL_HTTPS_PROXY",
+  "request_budget": 4,
+  "scope": "TWO_BASE_AND_TWO_ROUTE_OVERLAY_STATIC_MAPS",
+  "route_requests": 0,
+  "account_credits_independently_verified": false,
+  "started_utc": "2026-11-09T10:45:51.370665+00:00",
+  "finished_utc": "2026-11-09T10:46:35.441481+00:00"
+}

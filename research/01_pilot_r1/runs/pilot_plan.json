@@ -1,0 +1,30 @@
+{
+  "pilot": "OSM_GEOAPIFY_PILOT_R1",
+  "frozen_before_routing": true,
+  "scene": {
+    "scene_id": "SH-HUANGPU-01",
+    "label": "上海博物馆人民广场馆",
+    "role": "CALIBRATION_ONLY",
+    "use": "公共文化场馆",
+    "target_building": "way/161090899",
+    "snapshot_query_bbox_wsen": [
+      121.453,
+      31.216,
+      121.488,
+      31.244
+    ],
+    "nominal_start": [
+      121.4673,
+      31.2311
+    ],
+    "start_selection": "Among local explicitly foot-oriented linear ways without known access exclusion at 240–440 m geodesic from target representative point, pick native node nearest nominal west start, stable ties by node ID; no route outcomes used.",
+    "target_selection": "Among south-third nodes on target exterior with usable entrance tag, pick nearest to south facade midpoint; if absent freeze southern facade diagnostic map point, label physical door coordinate unconfirmed.",
+    "viewport_center": "midpoint of target footprint projected envelope",
+    "coordinate_contract": "WGS84 longitude latitude; north up; Web Mercator; 1200x900; zoom 18/16; DPR1; scale from ground geodesic distances",
+    "institution_source": "https://www.shanghaimuseum.cn/mu/frontend/pg/service/visit-west",
+    "path_snap_max_m": 35
+  },
+  "expansion_gate": "Both real map/route paths and exact extent/permission checked on calibration case before additional buildings.",
+  "pacing": "Overpass one scoped query per site, no retry across endpoints for rate limits.",
+  "billing": "0 new spend; Geoapify live only with local key and known free available credits"
+}

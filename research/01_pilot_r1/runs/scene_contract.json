@@ -1,0 +1,148 @@
+{
+  "scene_id": "sh-huangpu-01",
+  "label": "上海博物馆人民广场馆",
+  "role": "CALIBRATION_ONLY",
+  "use": "公共文化场馆",
+  "building_native_id": "way/161090899",
+  "building_name_evidence": "上海博物馆/Shanghai Museum/上海博物馆",
+  "building_footprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          121.4706447,
+          31.2295968
+        ],
+        [
+          121.4711411,
+          31.2299126
+        ],
+        [
+          121.4712158,
+          31.2299607
+        ],
+        [
+          121.4712905,
+          31.2300089
+        ],
+        [
+          121.471752,
+          31.2303065
+        ],
+        [
+          121.4715326,
+          31.2305468
+        ],
+        [
+          121.4713228,
+          31.2304116
+        ],
+        [
+          121.4710014,
+          31.2307847
+        ],
+        [
+          121.4706605,
+          31.2305674
+        ],
+        [
+          121.4703157,
+          31.2303463
+        ],
+        [
+          121.4706453,
+          31.229964
+        ],
+        [
+          121.4704398,
+          31.2298316
+        ],
+        [
+          121.4706447,
+          31.2295968
+        ]
+      ]
+    ]
+  },
+  "institution_source": "https://www.shanghaimuseum.cn/mu/frontend/pg/service/visit-west",
+  "start": [
+    121.4671613,
+    31.2309408
+  ],
+  "start_native_id": "node/476682043",
+  "start_role": "DECLARED_MAP_QUERY_ORIGIN",
+  "target": [
+    121.4712158,
+    31.2299607
+  ],
+  "target_role": "OSM_TAGGED_BUILDING_ENTRANCE_REFERENCE",
+  "entry_native_id": "node/6897141353",
+  "entry_scope": "Building entrance map reference; on-site state unverified",
+  "poi_search_location": null,
+  "poi_search_status": "NOT_REQUESTED_FIXED_GEOMETRY",
+  "access_reference_status": "SOURCE_REFERENCE_ONLY",
+  "endpoint_rule": "Among south-third nodes on target exterior with usable entrance tag, pick nearest to south facade midpoint; if absent freeze southern facade diagnostic map point, label physical door coordinate unconfirmed.",
+  "path_snap_max_m": 35,
+  "frozen_before_route": true,
+  "views": {
+    "detail": {
+      "center": [
+        121.47103385,
+        31.230190751866655
+      ],
+      "bounds": [
+        121.4678151991821,
+        31.2281265493807,
+        121.47425250081787,
+        31.232254909261577
+      ],
+      "extent_3857": [
+        13521735.335744409,
+        3662411.2922600727,
+        13522451.932884583,
+        3662948.7401152025
+      ],
+      "width": 1200,
+      "height": 900,
+      "bearing": 0,
+      "pitch": 0,
+      "zoom": 18,
+      "tile_css_size": 256,
+      "dpr": 1,
+      "meters_per_pixel": 0.5110899908233082,
+      "projected_units_per_pixel": 0.5971642834779395,
+      "crs": "EPSG:3857",
+      "bounds_crs": "EPSG:4326"
+    },
+    "context": {
+      "center": [
+        121.47103385,
+        31.230190751866655
+      ],
+      "bounds": [
+        121.4581592467285,
+        31.22193367139365,
+        121.48390845327147,
+        31.23844711088328
+      ],
+      "extent_3857": [
+        13520660.44003415,
+        3661605.1204773774,
+        13523526.828594843,
+        3663754.9118978977
+      ],
+      "width": 1200,
+      "height": 900,
+      "bearing": 0,
+      "pitch": 0,
+      "zoom": 16,
+      "tile_css_size": 256,
+      "dpr": 1,
+      "meters_per_pixel": 2.044359958945651,
+      "projected_units_per_pixel": 2.388657133911758,
+      "crs": "EPSG:3857",
+      "bounds_crs": "EPSG:4326"
+    }
+  },
+  "snapshot_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+}

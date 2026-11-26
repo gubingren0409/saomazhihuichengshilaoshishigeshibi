@@ -1,0 +1,490 @@
+{
+  "scope": "OPEN_REVIEW_AB_COMPLETION",
+  "status": "READY_FOR_USER_VISUAL_REVIEW",
+  "credential_scan": "PASS",
+  "configured_key_checked": true,
+  "manifest_excludes_itself": true,
+  "hosted_images_and_routes": "ATTRIBUTED_LIVE",
+  "entries": [
+    {
+      "path": ".env.example",
+      "bytes": 18,
+      "sha256": "95bf46b2d6fcd06fd3382f08804ff7d37f750257a03a438fc7044dd7bd2daab1"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 120,
+      "sha256": "840f2f2e2eae946b61e276f7defaf1352cc4efa1d0064212a2f401c02abe0f93"
+    },
+    {
+      "path": "01_SOURCE_AND_PERMISSION_AUDIT.md",
+      "bytes": 8255,
+      "sha256": "6ad04e8108eb0e39c1a55a8667f0517f2c9aaf0735e4e44472a64968f4cc4fa4"
+    },
+    {
+      "path": "02_SAMPLE_AND_VIEWPORT_CONTRACT.md",
+      "bytes": 1593,
+      "sha256": "b6239343db43720ee1a86d2ff69a4ce4d3365dc51942b02f7d4096ecdbdef67d"
+    },
+    {
+      "path": "03_API_AND_RENDER_IMPLEMENTATION.md",
+      "bytes": 1940,
+      "sha256": "932b544e9d756d5accc40d1b7e2b3b932af21b96729f791e97783d48d866a12e"
+    },
+    {
+      "path": "04_EXPERIMENT_RESULTS.md",
+      "bytes": 2776,
+      "sha256": "9d08040f94af858c346dc352e0fb2acd1a3ed8d19770f8ce634ae1d48192eac8"
+    },
+    {
+      "path": "05_HUMAN_REVIEW_GUIDE.md",
+      "bytes": 1663,
+      "sha256": "6932db4cc269eb418a820a9f9d1764780ed750ae6b732ecb547d80c81333f211"
+    },
+    {
+      "path": "06_USER_SCORE_SHEET.csv",
+      "bytes": 560,
+      "sha256": "17a0f3e44b8d28617d7a647eb9327f99094c9653fa6ad0e5bcd045f68af397e9"
+    },
+    {
+      "path": "08_DECISION_AND_NEXT_STEPS.md",
+      "bytes": 947,
+      "sha256": "8a9f1678248077d20d0abf6afb242947c5e239a8dbe4650edfb6fc2ee0be53f7"
+    },
+    {
+      "path": "09_AB_COMPLETION_RESULTS.md",
+      "bytes": 2359,
+      "sha256": "74da92ea351ea5809978ef3e3714afd8ccc660febc85ad723702171e1306f3c2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2280,
+      "sha256": "fce1eb24fe624481abce9cb64405bc49662c31f0baff330b2b1cd4ce820ecba8"
+    },
+    {
+      "path": "STATUS.json",
+      "bytes": 1010,
+      "sha256": "7088239669af63361dce2e72eb32d685abf435888a863936ed317b0df3cf758e"
+    },
+    {
+      "path": "audits/INDEPENDENT_AB_COMPLETION.md",
+      "bytes": 3216,
+      "sha256": "c1095ffa88bac64a4a5e1a3e66f7404262a9b7a80155cf24edbbca28b8b03047"
+    },
+    {
+      "path": "audits/INDEPENDENT_REVIEW.md",
+      "bytes": 5197,
+      "sha256": "69612882cbf754d41557b51da354a0ae741ae67d62b99d0242860684d0b608dc"
+    },
+    {
+      "path": "audits/independent_ab_browser.py",
+      "bytes": 3592,
+      "sha256": "6e0101e20dcceef3b4d99a9d94f9636032d628e9f2f3acc1ba619d2487ce4a40"
+    },
+    {
+      "path": "audits/independent_browser.json",
+      "bytes": 1698,
+      "sha256": "26af7f404cb8dbb50b2923134144d6e2c180d480235ab21d5d4e6b4a7e918d45"
+    },
+    {
+      "path": "audits/independent_browser.py",
+      "bytes": 4571,
+      "sha256": "5ad60915d3eeed529167abbd453f192ee851ad3830fe85ebb5b7b6836e277ba8"
+    },
+    {
+      "path": "audits/independent_geoapify.json",
+      "bytes": 7578,
+      "sha256": "836d095406ecbada6e0fc1333db3db5af225d638960f88a68919baa1f0347c1b"
+    },
+    {
+      "path": "audits/independent_geoapify.py",
+      "bytes": 18764,
+      "sha256": "178391f14d604c8cb050df21cbdb833d45cf0b9b6ad31c49fb89e2f9c02c648a"
+    },
+    {
+      "path": "audits/independent_geometry.json",
+      "bytes": 6824,
+      "sha256": "75245b392574f5272d05f7a20086dfa7bc7a9ac69eb7d51c44fa13949d47670a"
+    },
+    {
+      "path": "audits/independent_geometry.py",
+      "bytes": 22488,
+      "sha256": "122e35edc1ec4e41cdfc76952b6da14847162d6de430d9cf613711029ca68eb6"
+    },
+    {
+      "path": "audits/maplibre_browser_qa.json",
+      "bytes": 2478,
+      "sha256": "42816c3a731d1907e164aa0c613533c34812479ea71e8a86d7b9804e3fd22f94"
+    },
+    {
+      "path": "audits/old_workspaces.json",
+      "bytes": 569,
+      "sha256": "321efc533d8753a1be9693025ff33fa61475f9870ada4677f3c916d240930ecf"
+    },
+    {
+      "path": "audits/overlay_label_revision.json",
+      "bytes": 650,
+      "sha256": "b9a23df5170b2b82f76be279ff77bdf6a24824b6ec91495d029da1cab01ef934"
+    },
+    {
+      "path": "audits/verify_ab_archive.py",
+      "bytes": 3903,
+      "sha256": "e01c6a66b5071e6f0e2dc173da0409f01084a0cdeeecf583a46a450d2b686d9d"
+    },
+    {
+      "path": "audits/verify_review_archive.py",
+      "bytes": 5521,
+      "sha256": "3319fcdfc3430128149cce67362cf11dbb5bf53c3ea2da1836962027f75997bf"
+    },
+    {
+      "path": "data/LICENSE_NOTICE.md",
+      "bytes": 601,
+      "sha256": "d334a3b0b4444e10893e4bbe2cd50c004cd56dbc12f430dd2af49e491d1ca2d8"
+    },
+    {
+      "path": "data/manifest.csv",
+      "bytes": 3537,
+      "sha256": "090bbf4ea9494ac17b9e26753936c597bbb95b71833d0707250a69eeedbae687"
+    },
+    {
+      "path": "data/sh-huangpu-01.osm.json",
+      "bytes": 6356390,
+      "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 212,
+      "sha256": "cf119c2dd02071d39b950b1d632d0bd1703423343429d4eb9fff0c2b874056db"
+    },
+    {
+      "path": "runs/gallery_input.json",
+      "bytes": 5162,
+      "sha256": "03be008fa43944b5321fd7bb64247bdff449e1eb4f2a17dd3cc0bbd913b55fb4"
+    },
+    {
+      "path": "runs/geoapify_first.json",
+      "bytes": 432,
+      "sha256": "f4cabe1bd40835429a7c94056039f1e595f13bc3617632da55bd78d22a321f20"
+    },
+    {
+      "path": "runs/geoapify_static_completion.json",
+      "bytes": 7866,
+      "sha256": "7e05fe04bc6e4a78ca173af80c4c86e6765c32966ac1c59cf5b420a62ded07f6"
+    },
+    {
+      "path": "runs/geoapify_static_requests.json",
+      "bytes": 10665,
+      "sha256": "9a81707fc4e859ae84eb3fb88a46afb23d619029d09249dfcce057e2cfe8b2b9"
+    },
+    {
+      "path": "runs/geoapify_walk_probe.json",
+      "bytes": 936,
+      "sha256": "28e8424f3accbc35f9f94c9a3d04143bcf403f8a80da4093ee34759ddc4fdd15"
+    },
+    {
+      "path": "runs/geoapify_walk_probe_proxy.json",
+      "bytes": 2125,
+      "sha256": "5e3e7c22ee108f6cdead569aa251822a3bd00dd8863b9e28da0d7d5fd383c041"
+    },
+    {
+      "path": "runs/geofabrik_acquisition.json",
+      "bytes": 833,
+      "sha256": "fb3d2c6d91b2d5bf7de63f74a6461571f49cd0afa027a2341153242303afb7a1"
+    },
+    {
+      "path": "runs/local_approach_diagnostic.geojson",
+      "bytes": 6050,
+      "sha256": "267eff4760ca9241910537dbefb03a1c5896187ecb7334dd4ff295347e5e465f"
+    },
+    {
+      "path": "runs/local_approach_diagnostic.json",
+      "bytes": 50245,
+      "sha256": "975953c032fe62ea920b0beaf86427975cc7a1fc4316cd260c7a140e861e081b"
+    },
+    {
+      "path": "runs/local_route.geojson",
+      "bytes": 255,
+      "sha256": "c50b053687a8701620bb0c43d551481c0f3e91fb22c0b240cf701009b11a9a0e"
+    },
+    {
+      "path": "runs/local_route.json",
+      "bytes": 1559,
+      "sha256": "b8bda13a310911c2436fc76b364ff7587ab4bc358791e723c8f14310a14c8922"
+    },
+    {
+      "path": "runs/local_viewports.json",
+      "bytes": 6092,
+      "sha256": "96c143b8d5d3abf1a2a7483a74b73d9aa49eb56f2867b97e7022a57aa05e2d1f"
+    },
+    {
+      "path": "runs/maplibre_viewer_input.json",
+      "bytes": 8422,
+      "sha256": "d5b4c08eee86814306e5b7ad8d92dff4196f2e07f4416d64bda299f1d456243f"
+    },
+    {
+      "path": "runs/maplibre_viewer_input_completed.json",
+      "bytes": 14476,
+      "sha256": "14111f8af32640a43b7717bc7f3c4fbb702c8d9799f1a7e68e0fd7519856bb51"
+    },
+    {
+      "path": "runs/osm_acquisition.json",
+      "bytes": 1891,
+      "sha256": "f9cbdc8bf3426ec53b5d736a579340dec407b3081b82a6ddd0d8ded5e13cbb0d"
+    },
+    {
+      "path": "runs/pilot_plan.json",
+      "bytes": 1586,
+      "sha256": "f180743d0fe29ffb00fc20a457e9bb2809573cdb9d7799ec2d8bf693bb33d168"
+    },
+    {
+      "path": "runs/scene_contract.json",
+      "bytes": 3685,
+      "sha256": "12f457f66fe107f44c47fd57bf884087562d3aef5d30278a65b0d2e8b2cba01b"
+    },
+    {
+      "path": "src/clip_pbf.py",
+      "bytes": 5917,
+      "sha256": "a451e37e4345ddfb0242724f1d5b0b4619ecf226e5f5ea98022f6abcc912e2cb"
+    },
+    {
+      "path": "src/complete_geoapify_static.py",
+      "bytes": 6480,
+      "sha256": "8a3d940919b59e8268fcbb1e80da2298b629b1e2df07d20b9a5022f21ef15ce0"
+    },
+    {
+      "path": "src/fetch_osm.py",
+      "bytes": 4026,
+      "sha256": "b578dca30488c1f3bb1d81ce32f7ea84e18b10a33a9f1572fa8830aa50452c77"
+    },
+    {
+      "path": "src/gallery.py",
+      "bytes": 18004,
+      "sha256": "5892a5b9e4ac2b2498f8be6d871790985c3be3fd06cc88e9cba60f348217ff98"
+    },
+    {
+      "path": "src/geoapify.py",
+      "bytes": 14106,
+      "sha256": "bce35dc65b1a5c1e300c3eef18281c551911ca42fcddb4b5e3b138e03abde573"
+    },
+    {
+      "path": "src/local_route.py",
+      "bytes": 12438,
+      "sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f"
+    },
+    {
+      "path": "src/package_review.py",
+      "bytes": 5850,
+      "sha256": "1789f02777f543f565806081ffe5d99deee1202767ddf4e1b291acba6802641b"
+    },
+    {
+      "path": "src/prepare_gallery.py",
+      "bytes": 5999,
+      "sha256": "d84fb9a8670251596b8919aca3e2d7b63f9c22b082263dd662728618c8063c74"
+    },
+    {
+      "path": "src/probe_geoapify.py",
+      "bytes": 5881,
+      "sha256": "ba11197a5f2a7a4dcdf334feacd9fd9fd8c5bde0a04ae69f375cdc15f13cc0d4"
+    },
+    {
+      "path": "src/render_osm.py",
+      "bytes": 12397,
+      "sha256": "bf1832decb3ea7716b7af4736b0643d28f4e38df353065e2ea53794f8e5ea029"
+    },
+    {
+      "path": "src/route_viewer.py",
+      "bytes": 12762,
+      "sha256": "b7e9208d41ff72c3a4ae4bb9aaa1e4ea90e53acd6fcebebfdc055f614ec6884e"
+    },
+    {
+      "path": "src/run_geoapify.py",
+      "bytes": 7383,
+      "sha256": "fb68a9624de05f1025ba5dec6496378a2a3eda5d908c437e50c86a94563ef7d0"
+    },
+    {
+      "path": "src/run_local.py",
+      "bytes": 6299,
+      "sha256": "7af7955c75a902976605023ca3af93634109f25aaf9056f413442fd7996ba8ed"
+    },
+    {
+      "path": "src/scene.py",
+      "bytes": 6537,
+      "sha256": "5ec0fd58b63f0aafc449517b2dd5a0ecda643200b6a947f7259824b4361fa44b"
+    },
+    {
+      "path": "src/verify_geoapify_views.py",
+      "bytes": 9119,
+      "sha256": "c8a8ea59340b91d17bc4db87e055e9c447a07bf72ddb6b5dd0858532bc394087"
+    },
+    {
+      "path": "tests/test_geoapify.py",
+      "bytes": 6828,
+      "sha256": "9127cc626e66ee73c9df8286b15bb4e555be09e4ee8ac9783b072fd30621f72d"
+    },
+    {
+      "path": "tests/test_geoapify_runner.py",
+      "bytes": 3376,
+      "sha256": "9e2b1700d15b5d386be22b9b3024d4e7b9ac1553eb118abb0f6d13d72b8b1193"
+    },
+    {
+      "path": "tests/test_geoapify_views.py",
+      "bytes": 897,
+      "sha256": "233686408244867e79436ac77c87ce0e60e1d867043298abb56fa205fbea959b"
+    },
+    {
+      "path": "tests/test_local_route.py",
+      "bytes": 5215,
+      "sha256": "438697e55291079e80b5866dbe47ba203d41becdfeceb34e9e08d854e860735e"
+    },
+    {
+      "path": "tests/test_route_viewer.py",
+      "bytes": 2250,
+      "sha256": "4ed312b0fa6528619dde375983e5e40be570fea56229806f8e26d67677b8f153"
+    },
+    {
+      "path": "visuals/blind_review/assets/P-2CAE-A-base.png",
+      "bytes": 1219330,
+      "sha256": "c2a041d66470f4e88fdeb97a56ae7f05fad962e113bc215dd0418c111de4f256"
+    },
+    {
+      "path": "visuals/blind_review/assets/P-2CAE-A-route.png",
+      "bytes": 1224297,
+      "sha256": "2e931a90ecba3c00b048da0473210a9ab91f59e3efff62f91edd8347b663bd86"
+    },
+    {
+      "path": "visuals/blind_review/assets/P-2CAE-B-base.png",
+      "bytes": 503952,
+      "sha256": "4ca6170a61c07a959f921187f9f2228f3f6bef31d053d57379b8dbfc373abb8a"
+    },
+    {
+      "path": "visuals/blind_review/assets/P-2CAE-B-route.png",
+      "bytes": 508604,
+      "sha256": "51d2261473c835a2d71f9c9a8f3ac88e191f035a7dc27af064c834bb7ea05251"
+    },
+    {
+      "path": "visuals/blind_review/assets/P-872C-A-base.png",
+      "bytes": 566607,
+      "sha256": "854bd9e42db8d04a4be6593a9dbcc16a466ea64be9d2796ea1551dd2eb4f6f64"
+    },
+    {
+      "path": "visuals/blind_review/assets/P-872C-A-route.png",
+      "bytes": 577874,
+      "sha256": "6f8777fa88158f37b293941c3bb6ea056611fb4fb620bdff53e163fe637ad5b5"
+    },
+    {
+      "path": "visuals/blind_review/assets/P-872C-B-base.png",
+      "bytes": 146498,
+      "sha256": "c80e9934e40ddcfed577e67461af1d4fc8d2869a91390d488fbbae879b4f7360"
+    },
+    {
+      "path": "visuals/blind_review/assets/P-872C-B-route.png",
+      "bytes": 157424,
+      "sha256": "f3a61ea541f353ce01034945a14b14f6a015583c0fe82dc9950371d4287b05e1"
+    },
+    {
+      "path": "visuals/blind_review/index.html",
+      "bytes": 6407,
+      "sha256": "38e0ee7b2f82e9ac010c5833c13f36d6930f8d47f817f5f2d6b5b5cd3350de61"
+    },
+    {
+      "path": "visuals/blind_review/score.html",
+      "bytes": 9893,
+      "sha256": "7e8816313f8066a63a98f952649809a044dc9c3aaecadc7f086d938641e4ca54"
+    },
+    {
+      "path": "visuals/blind_review/score.js",
+      "bytes": 2913,
+      "sha256": "5a6826515af8c87a8bf28de2ea59e013639a81ce5974e5fc52661066f461cb10"
+    },
+    {
+      "path": "visuals/blind_review/style.css",
+      "bytes": 4128,
+      "sha256": "bb7b35a5b970e0879ed8eb5e707a80ebd5c173179db0af94eba142c46ad30566"
+    },
+    {
+      "path": "visuals/failure_cases/README.md",
+      "bytes": 376,
+      "sha256": "37423d2d1f634b785eed2d356da77a934e7284090ef5737d5ed356b6f77ee22b"
+    },
+    {
+      "path": "visuals/geoapify/ATTRIBUTION.md",
+      "bytes": 602,
+      "sha256": "c60ba49517ec37d7f5fd29ba1916d380d00b2db002a6d37cfbe4feefd42c678b"
+    },
+    {
+      "path": "visuals/geoapify/sh-huangpu-01_context_base.png",
+      "bytes": 1219330,
+      "sha256": "c2a041d66470f4e88fdeb97a56ae7f05fad962e113bc215dd0418c111de4f256"
+    },
+    {
+      "path": "visuals/geoapify/sh-huangpu-01_context_route.png",
+      "bytes": 1224297,
+      "sha256": "2e931a90ecba3c00b048da0473210a9ab91f59e3efff62f91edd8347b663bd86"
+    },
+    {
+      "path": "visuals/geoapify/sh-huangpu-01_detail_base.png",
+      "bytes": 566607,
+      "sha256": "854bd9e42db8d04a4be6593a9dbcc16a466ea64be9d2796ea1551dd2eb4f6f64"
+    },
+    {
+      "path": "visuals/geoapify/sh-huangpu-01_detail_route.png",
+      "bytes": 577874,
+      "sha256": "6f8777fa88158f37b293941c3bb6ea056611fb4fb620bdff53e163fe637ad5b5"
+    },
+    {
+      "path": "visuals/geoapify/sh-huangpu-01_probe_walk.geojson",
+      "bytes": 6032,
+      "sha256": "b93240608e78a0082def54e401466d7be45ea4827899c51bf8a603eceaad79d2"
+    },
+    {
+      "path": "visuals/osm/sh-huangpu-01_context_base.png",
+      "bytes": 503952,
+      "sha256": "4ca6170a61c07a959f921187f9f2228f3f6bef31d053d57379b8dbfc373abb8a"
+    },
+    {
+      "path": "visuals/osm/sh-huangpu-01_context_route.png",
+      "bytes": 508604,
+      "sha256": "51d2261473c835a2d71f9c9a8f3ac88e191f035a7dc27af064c834bb7ea05251"
+    },
+    {
+      "path": "visuals/osm/sh-huangpu-01_detail_base.png",
+      "bytes": 146498,
+      "sha256": "c80e9934e40ddcfed577e67461af1d4fc8d2869a91390d488fbbae879b4f7360"
+    },
+    {
+      "path": "visuals/osm/sh-huangpu-01_detail_route.png",
+      "bytes": 157424,
+      "sha256": "f3a61ea541f353ce01034945a14b14f6a015583c0fe82dc9950371d4287b05e1"
+    },
+    {
+      "path": "visuals/revealed/README.md",
+      "bytes": 145,
+      "sha256": "e6f20dfaa9327bb69d6672438b8cdd85060f26522e12ab4c87999fcf44c73696"
+    },
+    {
+      "path": "visuals/route_comparisons/index.html",
+      "bytes": 880093,
+      "sha256": "cb851e8be726ea963d7e4743a57a60b92552660e6fbfd4aa4b54bb78eaef8eff"
+    },
+    {
+      "path": "visuals/route_comparisons/vendor/LICENSE.txt",
+      "bytes": 5984,
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2"
+    },
+    {
+      "path": "visuals/route_comparisons/vendor/maplibre-gl.css",
+      "bytes": 69449,
+      "sha256": "1dae8925ee5906e442f0fd7028dded2884381b9acd7a780e5270025e09fc7c5e"
+    },
+    {
+      "path": "visuals/route_comparisons/vendor/maplibre-gl.js",
+      "bytes": 1013855,
+      "sha256": "06b392de571c99e242581b0f3f23893e6e95efd3656974d6edfd8f8599ddf362"
+    },
+    {
+      "path": "visuals/route_comparisons/vendor/source_receipt.json",
+      "bytes": 805,
+      "sha256": "461720863323d9cb22da74fa3e4505e0a96a47993ec9fa95fc4186d9be24db15"
+    }
+  ]
+}

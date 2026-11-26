@@ -1,0 +1,29 @@
+{
+  "status": "LIVE_SNAPSHOT_OFFLINE_CLIP",
+  "source": "https://download.geofabrik.de/asia/china/shanghai-261108.osm.pbf",
+  "source_bytes": 26079230,
+  "source_sha256": "e4b83f15cc358d347c47708239f8c556d9819a69f43ff32f42a23c405733e8f6",
+  "bounds_wsen": [
+    121.453,
+    31.216,
+    121.488,
+    31.244
+  ],
+  "license": "ODbL-1.0",
+  "snapshot_timestamp": "2026-11-08T21:21:00Z",
+  "clip_utc": "2026-11-09T10:08:10.378913+00:00",
+  "clip_bytes": 6356390,
+  "clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "element_count": 58006,
+  "missing_relation_way_count": 0,
+  "first_transfer": {
+    "http_status": 200,
+    "bytes": 17038870,
+    "status": "TIMEOUT"
+  },
+  "resume_transfer": {
+    "http_status": 206,
+    "bytes": 9040360,
+    "status": "COMPLETE"
+  }
+}

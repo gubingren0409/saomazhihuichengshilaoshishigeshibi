@@ -1,0 +1,281 @@
+{
+  "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "contract_sha256": "12f457f66fe107f44c47fd57bf884087562d3aef5d30278a65b0d2e8b2cba01b",
+  "route_sha256": "b8bda13a310911c2436fc76b364ff7587ab4bc358791e723c8f14310a14c8922",
+  "target_way": 161090899,
+  "unique_nodes": 49964,
+  "unique_ways": 8013,
+  "route": {
+    "status": "NO_PATH_TO_AUDIT",
+    "declared_failure": "TARGET_SNAP_OUTSIDE_LIMIT",
+    "snap_start": {
+      "verified_gap_m": 0.0,
+      "way_id": 39764601,
+      "segment_index": 1,
+      "candidate_position": [
+        121.4671613,
+        31.2309408
+      ],
+      "native_nodes": [
+        13763096985,
+        476682043
+      ]
+    },
+    "snap_end": {
+      "verified_gap_m": 55.02217444119203,
+      "way_id": 178719573,
+      "segment_index": 98,
+      "candidate_position": [
+        121.4713292,
+        31.2304473
+      ],
+      "native_nodes": [
+        1891590993,
+        1890732610
+      ],
+      "independent_nearest": [
+        55.02217444119202,
+        178719573,
+        98
+      ]
+    }
+  },
+  "views": {
+    "detail": {
+      "bounds_wsen": [
+        121.4678151991821,
+        31.2281265493807,
+        121.47425250081787,
+        31.232254909261577
+      ],
+      "projected_m_per_px": [
+        0.5971642834801848,
+        0.5971642834770804
+      ],
+      "ground_m_per_px_xy_at_center": [
+        0.5110899908926014,
+        0.5085837937160299
+      ],
+      "building_px_wh": [
+        267.74572600667074,
+        258.9672486672571
+      ],
+      "building_pixel_area_fraction": 0.03069192043135031,
+      "route_start_px": [
+        -121.89564245058823,
+        286.4856702142827
+      ],
+      "route_end_px": [
+        655.0572305119766,
+        394.0713406588131
+      ],
+      "route_end_inside_view": true,
+      "overlay_route_projected_fraction_inside": 0.6231052805996723,
+      "png": {
+        "size_px": [
+          1200,
+          900
+        ],
+        "distinct_base_colors": 1164,
+        "changed_overlay_pixels": 34646,
+        "changed_overlay_bbox": [
+          0,
+          14,
+          735,
+          581
+        ],
+        "sha256_base": "c80e9934e40ddcfed577e67461af1d4fc8d2869a91390d488fbbae879b4f7360",
+        "sha256_overlay": "f3a61ea541f353ce01034945a14b14f6a015583c0fe82dc9950371d4287b05e1"
+      }
+    },
+    "context": {
+      "bounds_wsen": [
+        121.4581592467285,
+        31.22193367139365,
+        121.48390845327147,
+        31.23844711088328
+      ],
+      "projected_m_per_px": [
+        2.3886571339114258,
+        2.3886571339129783
+      ],
+      "ground_m_per_px_xy_at_center": [
+        2.044359962216476,
+        2.0343351854563494
+      ],
+      "building_px_wh": [
+        66.93643150192867,
+        64.74181216668805
+      ],
+      "building_pixel_area_fraction": 0.0019182450269631343,
+      "route_start_px": [
+        419.5260893862594,
+        409.12141755326047
+      ],
+      "route_end_px": [
+        613.7643076276579,
+        436.0178351643406
+      ],
+      "route_end_inside_view": true,
+      "overlay_route_projected_fraction_inside": 1.0,
+      "png": {
+        "size_px": [
+          1200,
+          900
+        ],
+        "distinct_base_colors": 1512,
+        "changed_overlay_pixels": 24333,
+        "changed_overlay_bbox": [
+          15,
+          14,
+          635,
+          484
+        ],
+        "sha256_base": "4ca6170a61c07a959f921187f9f2228f3f6bef31d053d57379b8dbfc373abb8a",
+        "sha256_overlay": "51d2261473c835a2d71f9c9a8f3ac88e191f035a7dc27af064c834bb7ea05251"
+      }
+    }
+  },
+  "start_native_node": 476682043,
+  "entrance_native_node": 6897141353,
+  "geojson_sha256": "c50b053687a8701620bb0c43d551481c0f3e91fb22c0b240cf701009b11a9a0e",
+  "diagnostic": {
+    "status": "PASS",
+    "length_m": 1416.719342827191,
+    "start_offset_m": 0.0,
+    "target_offset_m": 0.0,
+    "route_start_wgs84": [
+      121.4671613,
+      31.2309408
+    ],
+    "route_endpoint_wgs84": [
+      121.4713292,
+      31.2304473
+    ],
+    "n_vertices": 90,
+    "native_segments_checked": 89,
+    "native_transition_nodes_checked": 0,
+    "native_ways_checked": [
+      39764601,
+      39764359,
+      165953415,
+      39764607,
+      513764740,
+      761403176,
+      1303211752,
+      178722057,
+      178723091,
+      178725152,
+      178725158,
+      178719573
+    ],
+    "native_nodes_checked": [
+      476678903,
+      476682043,
+      479442750,
+      479442751,
+      1730911786,
+      1730911814,
+      1774546618,
+      1890732552,
+      1890732556,
+      1890732574,
+      1890732610,
+      1890732617,
+      1890732623,
+      1890732629,
+      1890732636,
+      1890732646,
+      1890732682,
+      1890732692,
+      1890732696,
+      1890732720,
+      1890732735,
+      1890732771,
+      1890732816,
+      1890732830,
+      1890732838,
+      1890732875,
+      1890732891,
+      1890732934,
+      1890745426,
+      1890745479,
+      1890761631,
+      1890761637,
+      1890761638,
+      1890761640,
+      1890761657,
+      1890761668,
+      1890761675,
+      1890761679,
+      1890761681,
+      1890761699,
+      1890761704,
+      1890761706,
+      1890761713,
+      1890811887,
+      1890811900,
+      1890811914,
+      1890811961,
+      1890811990,
+      1890811995,
+      1890812024,
+      1890818612,
+      1890818613,
+      1890818614,
+      1890818617,
+      1890818619,
+      1890818623,
+      1890818627,
+      1890818628,
+      1890818637,
+      1890818645,
+      1890818647,
+      1890818650,
+      1890818651,
+      1890818652,
+      1890818657,
+      1890818659,
+      1890818660,
+      1890818661,
+      1890818663,
+      1890818664,
+      1890818667,
+      1890818670,
+      1890818671,
+      1890818677,
+      1890818680,
+      1890842752,
+      1890862817,
+      1890877346,
+      1890877363,
+      1890935445,
+      5021317171,
+      7113798197,
+      7113798198,
+      7113798199,
+      7113798200,
+      7113798201,
+      11201355932,
+      13763096983,
+      13763096984,
+      13763096985
+    ],
+    "evidence_counts": {
+      "MAPPED_PEDESTRIAN_WAY": 89
+    },
+    "remaining_gap_m": 55.02217444119203,
+    "missing_segment_drawn": false,
+    "target_building_interior_intersection_mercator_m": 0.0,
+    "closed_building_tagged_ways_checked": 4678,
+    "invalid_closed_building_tagged_ways": 0,
+    "crossed_closed_building_tagged_ways": []
+  },
+  "pbf_crosscheck": {
+    "status": "PASS",
+    "pbf_bytes": 26079230,
+    "pbf_sha256": "e4b83f15cc358d347c47708239f8c556d9819a69f43ff32f42a23c405733e8f6",
+    "n_native_nodes": 103,
+    "n_native_ways": 13
+  }
+}

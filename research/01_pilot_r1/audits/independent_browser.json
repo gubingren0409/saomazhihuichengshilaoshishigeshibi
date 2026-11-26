@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "identity": "ACTUAL_LOCAL_PILOT_ARTIFACTS",
+  "provider_calls": 0,
+  "gallery_dimensions": [
+    [
+      1200,
+      900
+    ],
+    [
+      1200,
+      900
+    ],
+    [
+      1200,
+      900
+    ],
+    [
+      1200,
+      900
+    ]
+  ],
+  "scored_items": 0,
+  "score_controls": {
+    "select": 21,
+    "textarea": 2
+  },
+  "views": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "view": "detail",
+      "route_counts": {
+        "local": 0,
+        "geoapify": 0,
+        "diagnostic": 90
+      },
+      "bounds": [
+        121.46781519918181,
+        31.228126549380278,
+        121.47425250081835,
+        31.23225490926096
+      ],
+      "loaded": true,
+      "image_present": true,
+      "bearing": 0,
+      "pitch": 0,
+      "bounds_match": true,
+      "max_corner_error_css_px": 5.651403356481481e-09,
+      "diagnostic_points": 3,
+      "visible_layers": {
+        "local": false,
+        "geoapify": false,
+        "diagnostic": true
+      }
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "view": "context",
+      "route_counts": {
+        "local": 0,
+        "geoapify": 0,
+        "diagnostic": 90
+      },
+      "bounds": [
+        121.45815924672866,
+        31.22193367139431,
+        121.48390845327128,
+        31.238447110883712
+      ],
+      "loaded": true,
+      "image_present": true,
+      "bearing": 0,
+      "pitch": 0,
+      "bounds_match": true,
+      "max_corner_error_css_px": 2.825800038408488e-09,
+      "diagnostic_points": 3,
+      "visible_layers": {
+        "local": false,
+        "geoapify": false,
+        "diagnostic": true
+      }
+    }
+  ]
+}

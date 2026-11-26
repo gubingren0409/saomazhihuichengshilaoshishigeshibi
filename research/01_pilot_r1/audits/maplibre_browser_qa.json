@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "identity": "ACTUAL_PILOT_ARTIFACT",
+  "real_provider_calls": 0,
+  "views": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "view": "detail",
+      "route_counts": {
+        "local": 0,
+        "geoapify": 0,
+        "diagnostic": 90
+      },
+      "bounds": [
+        121.46781519918181,
+        31.228126549380278,
+        121.47425250081835,
+        31.23225490926096
+      ],
+      "loaded": true,
+      "image_present": true,
+      "bearing": 0,
+      "pitch": 0,
+      "bounds_match": true,
+      "max_corner_error_css_px": 5.651403356481481e-09,
+      "diagnostic_points": 3,
+      "visible_layers": {
+        "local": false,
+        "geoapify": false,
+        "diagnostic": true
+      }
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "view": "context",
+      "route_counts": {
+        "local": 0,
+        "geoapify": 0,
+        "diagnostic": 90
+      },
+      "bounds": [
+        121.45815924672866,
+        31.22193367139431,
+        121.48390845327128,
+        31.238447110883712
+      ],
+      "loaded": true,
+      "image_present": true,
+      "bearing": 0,
+      "pitch": 0,
+      "bounds_match": true,
+      "max_corner_error_css_px": 2.825800038408488e-09,
+      "diagnostic_points": 3,
+      "visible_layers": {
+        "local": false,
+        "geoapify": false,
+        "diagnostic": true
+      }
+    }
+  ],
+  "audit_identity": "/root/osm_route",
+  "audit_type": "AUTHOR_BROWSER_AUTOMATED_CHECK",
+  "browser": "Microsoft Edge Chromium (headless), file://, external HTTP/HTTPS blocked",
+  "coverage": "Loaded embedded local OSM base images, diagnostic GeoJSON line and three points. No complete fixed-endpoint route or Geoapify layer present.",
+  "unit_tests": {
+    "count": 17,
+    "status": "PASS",
+    "scope": "local_route and route_viewer"
+  },
+  "reproduce": "python -B src/route_viewer.py --input runs/maplibre_viewer_input.json --output visuals/route_comparisons/index.html",
+  "author_numeric_crosscheck": {
+    "identity": "AUTHOR_SEPARATE_GEODESIC_LIBRARY",
+    "algorithm": "GeographicLib WGS84 Inverse, native IDs checked against source ways",
+    "diagnostic_segments_checked": 89,
+    "diagnostic_length_m": 1416.719342827191,
+    "reported_length_m": 1416.7193428331866,
+    "remaining_gap_to_original_target_m": 55.02217444119203,
+    "max_source_edge_collinearity_residual_m": 0.0,
+    "full_local_route_geometry": "ABSENT"
+  }
+}
