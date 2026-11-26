@@ -1,0 +1,43 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Four independent synthetic Fix4 cases; no production shortest paths",
+  "connectivity_source_sha256": "12a30f7571fee7bb6db0fedaac232a45d1ee94df9ffcb5d6d5091b5e00b58e50",
+  "script_sha256": "e5dbd4d34a38945e4353df57560e40a0613c8b5ef61cb7a61b9a86e39f93ed8e",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "checks": [
+    {
+      "case": "SOURCE_DENSE_INTERIOR_AND_TRUE_TRANSITION",
+      "passed": true,
+      "interior_grid_nodes": 81,
+      "grid_portals": 0,
+      "old_source_local_options_unchanged": true,
+      "directed_actual_boundary_split_routable": true
+    },
+    {
+      "case": "LOCAL_REGION_DENSE_INTERIOR_AND_TRUE_TRANSITION",
+      "passed": true,
+      "interior_grid_nodes": 81,
+      "grid_portals": 0,
+      "old_source_local_options_unchanged": true,
+      "directed_actual_boundary_split_routable": true
+    },
+    {
+      "case": "SOURCE_PAID_HYPOTHESIS_POINT_TOUCH",
+      "passed": true,
+      "original_hypothesis_path_retained": true,
+      "native_derived_only_path": false,
+      "shared_grid_promoted": false,
+      "old_options_unchanged": true
+    },
+    {
+      "case": "LOCAL_REGION_PAID_HYPOTHESIS_POINT_TOUCH",
+      "passed": true,
+      "original_hypothesis_path_retained": true,
+      "native_derived_only_path": false,
+      "shared_grid_promoted": false,
+      "old_options_unchanged": true
+    }
+  ],
+  "status": "PASS_FOR_FOUR_FIX4_CASES"
+}

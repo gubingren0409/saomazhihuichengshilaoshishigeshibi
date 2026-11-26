@@ -1,0 +1,1069 @@
+{
+  "role": "AUTHOR_PLOTTING_DESIGN_AND_REVIEW; SOURCE_METHOD_AND_ROUTE_QUERY_POPULATIONS_UNCHANGED",
+  "timestamp_utc": "2026-11-11T19:23:09.091963+00:00",
+  "references_read": [
+    {
+      "path": "E:/智慧城市和位置服务/project/Smart_Cities_and_Location_Services/tools/skills/publication-plots/SKILL.md",
+      "sha256": "abda9e124ebd86640bb7b344138f4066fddece67bc706925f7f86ef4d07d766a"
+    },
+    {
+      "path": "E:/智慧城市和位置服务/project/Smart_Cities_and_Location_Services/tools/skills/publication-plots/references/visual-design.md",
+      "sha256": "be67ab48f7a2622378b4380f52383b3cb1cd63276dce6417a5d3077f8034905a"
+    },
+    {
+      "path": "E:/智慧城市和位置服务/project/Smart_Cities_and_Location_Services/docs/design-system/SMART_CITIES_VISUAL_SYSTEM.md",
+      "sha256": "8571868e88a57781619450b68adf2b3036090718793d450c98310ca901e4fa54"
+    },
+    {
+      "path": "input_contract/PED_AREA_CONNECTIVITY_R1_INPUTS/project_rules/SMART_CITIES_VISUAL_SYSTEM.md",
+      "sha256": "d109b1072cb05a5309c96e3f5aa1337d0e2a67614a1e7cbc0a62fa50253b45a8"
+    }
+  ],
+  "visual_system_resolution": "Task-supplied Visual System v2.8 is newer than canonical local v2.6. Exact shared P2 palette retained. No external visual-source research or map/API request was made.",
+  "analytical_questions": {
+    "museum_source_overview": "Separate raw P versus Omega, direct pairwise gaps, and an existing original source-node line chain. The raw chain is not a claim that all its segments enter the current routing graph.",
+    "six_scene_source_inventory": "Show the mutually exclusive 149 explicit scene-ID candidate partition, while separating 130 admitted scene-ID areas from 88 global unique areas and 82 globally new objects.",
+    "mechanism_M02_source_complete": "M02：补齐面内原生步行面，完整路线缩短",
+    "mechanism_M04_exact_stitch": "M04：共边面精确接图，恢复完整路线",
+    "mechanism_M06_no_route_change": "M06：条件接缝分支保留了路线未变的结果",
+    "business_south_no_route_change": "博物馆南门：完整路线未变，新增边未被使用",
+    "business_north_same_route": "博物馆北门到门外：使用精确接口，路线仍未变",
+    "historical_F1_same_route": "历史长查询 F1：完整路线仍未变化"
+  },
+  "layout_candidates_actually_rendered": [
+    {
+      "candidate": "Six full-clip context maps",
+      "observed": "Source areas are tiny at 3 km extent; original SVG approximately 14 MB. Background rasterization increased companion weight.",
+      "decision": "Replace main inventory figure with complete count bars; all raw six-scene source geography remains interactive and the reusable source_distribution_map function remains in the script."
+    },
+    {
+      "candidate": "Mutually exclusive inventory bars plus separate nonempty-Omega count",
+      "observed": "Denominators, incomplete coverage and ground rejection are legible at final export size.",
+      "decision": "Adopted."
+    },
+    {
+      "candidate": "Museum overview plus two spatial details",
+      "observed": "Direct 7.07 m and 10.30 m gaps can be distinguished without enlarging source geometry. Independent reviewer correctly requested explicit separation from current graph admission.",
+      "decision": "Adopted with raw-chain/graph-admission wording clarified."
+    }
+  ],
+  "actual_repairs": [
+    {
+      "issue": "Caption overlapped subplot titles",
+      "repair": "Reserved more vertical space; rerendered saved-run figures without changing bounds or coordinates."
+    },
+    {
+      "issue": "Function label was shadowed by a local run label during a new source-ID annotation pass",
+      "repair": "Renamed local variable; output generation rerun. No solver was invoked."
+    },
+    {
+      "issue": "M06 source-ID and terminal annotations overlapped",
+      "repair": "Moved the source-ID text annotation only. Added a source-bound accepted-seam inset from actual result evidence, with explicit unused status."
+    },
+    {
+      "issue": "A batch image display appeared to omit a leading M04 glyph",
+      "repair": "Checked single image and compared title-region pixels against an isolated rendering; mean absolute difference was exactly 0. This is not evidence of a confirmed PDF or font bug. PDF checks use one fresh process per document conservatively."
+    },
+    {
+      "issue": "PDF backend produced clipped hatch/dash differences and spurious P outline strokes, including inside inset axes.",
+      "repair": "One final PDF-only pass rasterized context and P outline dashes from the same figure at 300 dpi. Omega, admitted native lines, real routes and text remain vector; SVG remains fully vector. Final PNG/SVG bytes were held fixed during this pass. Actual final PDF pages were all rendered at 200 dpi and viewed."
+    },
+    {
+      "issue": "Historical-query start annotation overlapped the panel header in the initial rendered sample.",
+      "repair": "Moved only its text offset inside the map. Exact original source marker coordinates and both full route geometries stayed fixed."
+    }
+  ],
+  "independent_review_scope": {
+    "agent": "/root/connectivity_review",
+    "actually_viewed": "Five PNGs before small final caption/profile additions; geometry, source IDs, paired outcomes unchanged. Source caveat incorporated.",
+    "not_claimed": "No independent PDF page audit or new route recomputation by the plot author."
+  },
+  "constraints": {
+    "working_crs": "EPSG:32651",
+    "original_coordinates_moved": false,
+    "line_smoothing_or_simplification": false,
+    "invented_roads_or_basemap": false,
+    "solver_calls": 0,
+    "new_map_or_external_api_calls": 0,
+    "new_doors_or_query_population": false,
+    "source_locks_modified": false,
+    "services_stopped_by_plot_author": 0,
+    "user_observation": "PENDING_USER_OBSERVATION",
+    "screenshot_binding": "SCREENSHOT_REQUEST_UNBOUND"
+  },
+  "reproduction": [
+    "python -X utf8 -B scripts/plot_connectivity.py --source-only --comparison-spec visuals/route_comparison_spec.json --output-dir visuals --check-exports"
+  ],
+  "pending": [],
+  "artifacts": [
+    {
+      "figure": "business_north_same_route",
+      "svg_image_elements": 0,
+      "outputs": [
+        {
+          "path": "visuals/business_north_same_route.svg",
+          "bytes": 934021,
+          "sha256": "163825bfd84e7b00efca59f6d3571adeff7872f220b0c7d8773eeb664930a575"
+        },
+        {
+          "path": "visuals/business_north_same_route.pdf",
+          "bytes": 696923,
+          "sha256": "f662711d9ab33dacb8dc4969c50cae4a70471c835287e306291d321cf3f6923a"
+        },
+        {
+          "path": "visuals/business_north_same_route.png",
+          "bytes": 1100910,
+          "sha256": "e9b218bc5269bbedf035ceb85baf9e5f63caf4189f792049ecb1e2101e9dc608"
+        }
+      ],
+      "metadata_path": "visuals/business_north_same_route.json",
+      "metadata_sha256": "8b154f275a483cdf54659268cd044d9424f6c2448c27d33c4d8ee7113246db2a",
+      "saved_results": [
+        {
+          "path": "runs/app/RUN-20261112T015659-017ffc002e.json",
+          "sha256": "0275a9b6d0b78a97c23f30be67a08f493f7279973f5be8145567f20008ff114c",
+          "run_id": "RUN-20261112T015659-017ffc002e",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.39529570000013337,
+            "algorithm": "networkx weighted bidirectional shortest path",
+            "invocation_id": "ab24109e237c4fe8a1bbd20247c49880",
+            "answer_source": "CURRENT_REQUEST_SOLVER"
+          },
+          "status": "ROUTED_CONDITIONAL",
+          "route_length_m": 299.53144993549483,
+          "route_cost_weighted_m": 299.53144993549483,
+          "endpoints": [
+            {
+              "id": "node/10073042336",
+              "xy": [
+                354290.77721060865,
+                3456012.174117223
+              ],
+              "raw_xy": [
+                354290.77721060865,
+                3456012.174117223
+              ]
+            },
+            {
+              "id": "node/6897145227",
+              "native_id": "node/6897145227",
+              "xy": [
+                354344.3888134466,
+                3456163.0891986894
+              ],
+              "wgs84": [
+                121.4706605,
+                31.2305674
+              ],
+              "tags": {
+                "entrance": "exit"
+              },
+              "entrance_type": "exit",
+              "registered": true,
+              "building_id": "way/161090899",
+              "association_evidence": "NATIVE_NODE_ON_TARGET_BUILDING_OUTER_RING_FROZEN_SOURCE_CONTRACT",
+              "role": "REGISTERED_EXIT",
+              "eligible_purposes": [
+                "APPROACH_OUTSIDE"
+              ],
+              "public_access": "UNKNOWN",
+              "current_opening": "UNKNOWN",
+              "physical_door_field_verified": false
+            }
+          ],
+          "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+          "input_connectivity_mode": "FROZEN_FULL_FACE",
+          "raw_evidence_parent_mode": null,
+          "preprocessing_cache_key": "4054c85e9a41d5181adae7b9ba5f50bffb60c0d724a73a099d6b93c115243258",
+          "unweighted_graph_sha256": "cbf4cc23378f0e89545565deead8f43a37d07bb147f44fd781c087700eaaf5d4",
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+        },
+        {
+          "path": "runs/app/RUN-20261112T021014-c0606583a4.json",
+          "sha256": "ba59af704e4f2baae6dfd0057dbe754dc92a8e808303e9b80b74c098089a4c34",
+          "run_id": "RUN-20261112T021014-c0606583a4",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.4234771999908844,
+            "algorithm": "networkx weighted bidirectional shortest path",
+            "invocation_id": "95b0a99c6e24445ab66cff113b579826",
+            "answer_source": "CURRENT_REQUEST_SOLVER"
+          },
+          "status": "ROUTED_CONDITIONAL",
+          "route_length_m": 299.53144993549483,
+          "route_cost_weighted_m": 299.53144993549483,
+          "endpoints": [
+            {
+              "id": "node/10073042336",
+              "xy": [
+                354290.77721060865,
+                3456012.174117223
+              ],
+              "raw_xy": [
+                354290.77721060865,
+                3456012.174117223
+              ]
+            },
+            {
+              "id": "node/6897145227",
+              "native_id": "node/6897145227",
+              "xy": [
+                354344.3888134466,
+                3456163.0891986894
+              ],
+              "wgs84": [
+                121.4706605,
+                31.2305674
+              ],
+              "tags": {
+                "entrance": "exit"
+              },
+              "entrance_type": "exit",
+              "registered": true,
+              "building_id": "way/161090899",
+              "association_evidence": "NATIVE_NODE_ON_TARGET_BUILDING_OUTER_RING_FROZEN_SOURCE_CONTRACT",
+              "role": "REGISTERED_EXIT",
+              "eligible_purposes": [
+                "APPROACH_OUTSIDE"
+              ],
+              "public_access": "UNKNOWN",
+              "current_opening": "UNKNOWN",
+              "physical_door_field_verified": false
+            }
+          ],
+          "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+          "input_connectivity_mode": "CONDITIONAL_SEAMS",
+          "raw_evidence_parent_mode": "FROZEN_FULL_FACE",
+          "preprocessing_cache_key": "d30ba724eb9fa4d8cc00778f4da460dac01910b38f274015357280f06729b9e9",
+          "unweighted_graph_sha256": "b042d27e2aef4b98d24715bae6aaa2b6781a830372da45ebc1d7b3a54d9ddba8",
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+        }
+      ],
+      "same_exact_source_endpoints": true,
+      "same_full_route_segment_geometries": true,
+      "new_exact_or_seam_length_m": 0.09860439519289833
+    },
+    {
+      "figure": "business_south_no_route_change",
+      "svg_image_elements": 0,
+      "outputs": [
+        {
+          "path": "visuals/business_south_no_route_change.svg",
+          "bytes": 773644,
+          "sha256": "3a9e5da2f83523824e690644eb43c87d4da7eb811415cce2bc08372a4fbc8696"
+        },
+        {
+          "path": "visuals/business_south_no_route_change.pdf",
+          "bytes": 516854,
+          "sha256": "a38004161322645684c7750d38e3e66d17d8c3ce037478ace8d037ccc4557db8"
+        },
+        {
+          "path": "visuals/business_south_no_route_change.png",
+          "bytes": 898918,
+          "sha256": "071dfe368c07626aa489077d0aa0569c1e3c7cf94dcec896a2ae817cd194f3b1"
+        }
+      ],
+      "metadata_path": "visuals/business_south_no_route_change.json",
+      "metadata_sha256": "163af68286f2c757c21ab3601ac9b03137e71c45fe1cdc2b0a0d6821fc9c83f0",
+      "saved_results": [
+        {
+          "path": "runs/app/RUN-20261112T014120-854cf312f0.json",
+          "sha256": "d9a4a87a88a6029096db776a7740f0d60212134642baca027af9bdfa79752160",
+          "run_id": "RUN-20261112T014120-854cf312f0",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.39495349999924656,
+            "algorithm": "networkx weighted bidirectional shortest path",
+            "invocation_id": "cf704844a1d048328cf895cff21981b0",
+            "answer_source": "CURRENT_REQUEST_SOLVER"
+          },
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "route_length_m": 148.86312206979613,
+          "route_cost_weighted_m": 148.86312206979613,
+          "endpoints": [
+            {
+              "id": "node/10073042336",
+              "xy": [
+                354290.77721060865,
+                3456012.174117223
+              ],
+              "raw_xy": [
+                354290.77721060865,
+                3456012.174117223
+              ]
+            },
+            {
+              "id": "node/6897141353",
+              "native_id": "node/6897141353",
+              "xy": [
+                354396.35132172017,
+                3456095.105993877
+              ],
+              "wgs84": [
+                121.4712158,
+                31.2299607
+              ],
+              "tags": {
+                "entrance": "main"
+              },
+              "entrance_type": "main",
+              "registered": true,
+              "building_id": "way/161090899",
+              "association_evidence": "NATIVE_NODE_ON_TARGET_BUILDING_OUTER_RING_FROZEN_SOURCE_CONTRACT",
+              "role": "REGISTERED_DOOR",
+              "eligible_purposes": [
+                "APPROACH_OUTSIDE",
+                "ENTER_BUILDING"
+              ],
+              "public_access": "UNKNOWN",
+              "current_opening": "UNKNOWN",
+              "physical_door_field_verified": false
+            }
+          ],
+          "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+          "input_connectivity_mode": "FROZEN_FULL_FACE",
+          "raw_evidence_parent_mode": null,
+          "preprocessing_cache_key": "9cc16b596d0e860bbb540ee486add9620558189e73238658f7f6d9e419d48bf9",
+          "unweighted_graph_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986",
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+        },
+        {
+          "path": "runs/app/RUN-20261112T015521-bb55088ddb.json",
+          "sha256": "e3bb0ec35680aec65011beb26a791f1dc3bc0bc0e38b282a65d129c5859bce3e",
+          "run_id": "RUN-20261112T015521-bb55088ddb",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.47176200000103563,
+            "algorithm": "networkx weighted bidirectional shortest path",
+            "invocation_id": "4d2c109582ae439a8e22900aadf0a4da",
+            "answer_source": "CURRENT_REQUEST_SOLVER"
+          },
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "route_length_m": 148.86312206979613,
+          "route_cost_weighted_m": 148.86312206979613,
+          "endpoints": [
+            {
+              "id": "node/10073042336",
+              "xy": [
+                354290.77721060865,
+                3456012.174117223
+              ],
+              "raw_xy": [
+                354290.77721060865,
+                3456012.174117223
+              ]
+            },
+            {
+              "id": "node/6897141353",
+              "native_id": "node/6897141353",
+              "xy": [
+                354396.35132172017,
+                3456095.105993877
+              ],
+              "wgs84": [
+                121.4712158,
+                31.2299607
+              ],
+              "tags": {
+                "entrance": "main"
+              },
+              "entrance_type": "main",
+              "registered": true,
+              "building_id": "way/161090899",
+              "association_evidence": "NATIVE_NODE_ON_TARGET_BUILDING_OUTER_RING_FROZEN_SOURCE_CONTRACT",
+              "role": "REGISTERED_DOOR",
+              "eligible_purposes": [
+                "APPROACH_OUTSIDE",
+                "ENTER_BUILDING"
+              ],
+              "public_access": "UNKNOWN",
+              "current_opening": "UNKNOWN",
+              "physical_door_field_verified": false
+            }
+          ],
+          "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+          "input_connectivity_mode": "CONDITIONAL_SEAMS",
+          "raw_evidence_parent_mode": "FROZEN_FULL_FACE",
+          "preprocessing_cache_key": "d200b9409522ff870731efd267bb21128b3cdd94373398b01adb1b4e459bdb38",
+          "unweighted_graph_sha256": "db8202683f6d327d8d04eeff4b62b63de9f418a537a62fae5bf500077db25d6d",
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+        }
+      ],
+      "same_exact_source_endpoints": true,
+      "same_full_route_segment_geometries": true,
+      "new_exact_or_seam_length_m": 0
+    },
+    {
+      "figure": "historical_F1_same_route",
+      "svg_image_elements": 0,
+      "outputs": [
+        {
+          "path": "visuals/historical_F1_same_route.svg",
+          "bytes": 692327,
+          "sha256": "6dece4205327e654a341a78940ebbdccbf161e651264fceeef7732ae5ccc2e2f"
+        },
+        {
+          "path": "visuals/historical_F1_same_route.pdf",
+          "bytes": 830369,
+          "sha256": "3884c7588c9b828839c93af8883b5bb6caef25d91ad88eb5cab859bc33a54a6f"
+        },
+        {
+          "path": "visuals/historical_F1_same_route.png",
+          "bytes": 1361151,
+          "sha256": "9458a50535f2ec3bf24242fdd45f404fc3c055904679573f8ec9c2c8426537ce"
+        }
+      ],
+      "metadata_path": "visuals/historical_F1_same_route.json",
+      "metadata_sha256": "c1dd33dc2563b83e03b13dc1e978a76d6584f74b6db391d43a9410ec650403ae",
+      "saved_results": [
+        {
+          "path": "runs/app/RUN-20261112T030435-8babb2bbc1.json",
+          "sha256": "c0395a10f1271560deeabb30f05f9fda0ec42cdd7364fe33c2670ed87c613064",
+          "run_id": "RUN-20261112T030435-8babb2bbc1",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 1.0991926999995485,
+            "algorithm": "networkx weighted bidirectional shortest path",
+            "invocation_id": "a88b437efa434ecbbd026ba96669ee24",
+            "answer_source": "CURRENT_REQUEST_SOLVER"
+          },
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "route_length_m": 682.4434990268184,
+          "route_cost_weighted_m": 682.4434990268184,
+          "endpoints": [
+            {
+              "id": "node/1890885411",
+              "xy": [
+                354421.08175868663,
+                3456268.506130074
+              ],
+              "raw_xy": [
+                354421.08175868663,
+                3456268.506130074
+              ]
+            },
+            {
+              "id": "node/6897141353",
+              "native_id": "node/6897141353",
+              "xy": [
+                354396.35132172017,
+                3456095.105993877
+              ],
+              "wgs84": [
+                121.4712158,
+                31.2299607
+              ],
+              "tags": {
+                "entrance": "main"
+              },
+              "entrance_type": "main",
+              "registered": true,
+              "building_id": "way/161090899",
+              "association_evidence": "NATIVE_NODE_ON_TARGET_BUILDING_OUTER_RING_FROZEN_SOURCE_CONTRACT",
+              "role": "REGISTERED_DOOR",
+              "eligible_purposes": [
+                "APPROACH_OUTSIDE",
+                "ENTER_BUILDING"
+              ],
+              "public_access": "UNKNOWN",
+              "current_opening": "UNKNOWN",
+              "physical_door_field_verified": false
+            }
+          ],
+          "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+          "input_connectivity_mode": "FROZEN_FULL_FACE",
+          "raw_evidence_parent_mode": null,
+          "preprocessing_cache_key": "9cc16b596d0e860bbb540ee486add9620558189e73238658f7f6d9e419d48bf9",
+          "unweighted_graph_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986",
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+        },
+        {
+          "path": "runs/app/RUN-20261112T030454-3c8a8ed835.json",
+          "sha256": "92e3a764be467e934b2940e4a0a1127f4d21e969e8d35a391366c83d64031d40",
+          "run_id": "RUN-20261112T030454-3c8a8ed835",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 1.0316301999991992,
+            "algorithm": "networkx weighted bidirectional shortest path",
+            "invocation_id": "f6866b6a143040eab747940777606efc",
+            "answer_source": "CURRENT_REQUEST_SOLVER"
+          },
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "route_length_m": 682.4434990268184,
+          "route_cost_weighted_m": 682.4434990268184,
+          "endpoints": [
+            {
+              "id": "node/1890885411",
+              "xy": [
+                354421.08175868663,
+                3456268.506130074
+              ],
+              "raw_xy": [
+                354421.08175868663,
+                3456268.506130074
+              ]
+            },
+            {
+              "id": "node/6897141353",
+              "native_id": "node/6897141353",
+              "xy": [
+                354396.35132172017,
+                3456095.105993877
+              ],
+              "wgs84": [
+                121.4712158,
+                31.2299607
+              ],
+              "tags": {
+                "entrance": "main"
+              },
+              "entrance_type": "main",
+              "registered": true,
+              "building_id": "way/161090899",
+              "association_evidence": "NATIVE_NODE_ON_TARGET_BUILDING_OUTER_RING_FROZEN_SOURCE_CONTRACT",
+              "role": "REGISTERED_DOOR",
+              "eligible_purposes": [
+                "APPROACH_OUTSIDE",
+                "ENTER_BUILDING"
+              ],
+              "public_access": "UNKNOWN",
+              "current_opening": "UNKNOWN",
+              "physical_door_field_verified": false
+            }
+          ],
+          "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+          "input_connectivity_mode": "CONDITIONAL_SEAMS",
+          "raw_evidence_parent_mode": "FROZEN_FULL_FACE",
+          "preprocessing_cache_key": "d200b9409522ff870731efd267bb21128b3cdd94373398b01adb1b4e459bdb38",
+          "unweighted_graph_sha256": "db8202683f6d327d8d04eeff4b62b63de9f418a537a62fae5bf500077db25d6d",
+          "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+        }
+      ],
+      "same_exact_source_endpoints": true,
+      "same_full_route_segment_geometries": true,
+      "new_exact_or_seam_length_m": 4.199931195798873
+    },
+    {
+      "figure": "mechanism_M02_source_complete",
+      "svg_image_elements": 0,
+      "outputs": [
+        {
+          "path": "visuals/mechanism_M02_source_complete.svg",
+          "bytes": 219173,
+          "sha256": "b7fff386e8860acabc264a6110337410964ff456fb95d7f9fa7b46f98f92d22c"
+        },
+        {
+          "path": "visuals/mechanism_M02_source_complete.pdf",
+          "bytes": 314075,
+          "sha256": "229dc9df2e4915ae90710f374f7173619d6f013a8d5cc4788a837ede89839f38"
+        },
+        {
+          "path": "visuals/mechanism_M02_source_complete.png",
+          "bytes": 877624,
+          "sha256": "9220221fc8d890734c2cbec77fc8a71a5deb04f303f7f14eb4dc4b06155f8561"
+        }
+      ],
+      "metadata_path": "visuals/mechanism_M02_source_complete.json",
+      "metadata_sha256": "f1de175de0c532fc69d5d90a075b815c2402522eb12097566ffde14c7051c439",
+      "saved_results": [
+        {
+          "path": "runs/mechanisms/RUN-20261112T005345-d12c501226.json",
+          "sha256": "f6bca9ee02e5fbd16e362184268affdc02067227a6cf15d9faac43a6310c0adb",
+          "run_id": "RUN-20261112T005345-d12c501226",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.00026709999656304717,
+            "invocation_id": "16a5d4775e684008aa104b325e9da42a",
+            "answer_source": "CURRENT_REQUEST_SOLVER",
+            "algorithm": "networkx weighted shortest path"
+          },
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "route_length_m": 33.34170148227133,
+          "route_cost_weighted_m": 33.34170148227133,
+          "endpoints": [
+            {
+              "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+              "coordinates_moved": false,
+              "id": "node/7079045116",
+              "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+              "native_id": "node/7079045116",
+              "source_node_tags": {},
+              "source_node_version": 1,
+              "wgs84": [
+                121.4525271,
+                31.2187167
+              ],
+              "xy": [
+                352598.7570287816,
+                3454873.5162723036
+              ]
+            },
+            {
+              "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+              "coordinates_moved": false,
+              "id": "node/4381584609",
+              "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+              "native_id": "node/4381584609",
+              "source_node_tags": {},
+              "source_node_version": 1,
+              "wgs84": [
+                121.4528074,
+                31.2186731
+              ],
+              "xy": [
+                352625.39177630795,
+                3454868.3094552094
+              ]
+            }
+          ],
+          "code_sha256": "ee3c1f2e301781432cec1ff1fc689bb65a69bf7e02da1f288fa3eacc5499b60f",
+          "input_connectivity_mode": "FROZEN_FULL_FACE",
+          "raw_evidence_parent_mode": null,
+          "preprocessing_cache_key": "e3f5bf4785c80fa850e96a81e62db5f22fac286b7b18de786a99152a415f8c93",
+          "unweighted_graph_sha256": "61ab5c0aea14e35637b1c094c1666de890a36f8ce22776bdbef0271e6f0a332e",
+          "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61"
+        },
+        {
+          "path": "runs/mechanisms/RUN-20261112T005350-3d75512963.json",
+          "sha256": "941922b4e6f20ea550fdd8fd7f3c2a24e31034d128843997a0e3f7871913050e",
+          "run_id": "RUN-20261112T005350-3d75512963",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.0008420999947702512,
+            "invocation_id": "cf6958d651e04ee8a310c731cd17a1af",
+            "answer_source": "CURRENT_REQUEST_SOLVER",
+            "algorithm": "networkx weighted shortest path"
+          },
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "route_length_m": 27.140117449893413,
+          "route_cost_weighted_m": 27.140117449893413,
+          "endpoints": [
+            {
+              "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+              "coordinates_moved": false,
+              "id": "node/7079045116",
+              "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+              "native_id": "node/7079045116",
+              "source_node_tags": {},
+              "source_node_version": 1,
+              "wgs84": [
+                121.4525271,
+                31.2187167
+              ],
+              "xy": [
+                352598.7570287816,
+                3454873.5162723036
+              ]
+            },
+            {
+              "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+              "coordinates_moved": false,
+              "id": "node/4381584609",
+              "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+              "native_id": "node/4381584609",
+              "source_node_tags": {},
+              "source_node_version": 1,
+              "wgs84": [
+                121.4528074,
+                31.2186731
+              ],
+              "xy": [
+                352625.39177630795,
+                3454868.3094552094
+              ]
+            }
+          ],
+          "code_sha256": "ee3c1f2e301781432cec1ff1fc689bb65a69bf7e02da1f288fa3eacc5499b60f",
+          "input_connectivity_mode": "SOURCE_COMPLETE",
+          "raw_evidence_parent_mode": "FROZEN_FULL_FACE",
+          "preprocessing_cache_key": "7590b20484d7b2c94ba7625614634ab040479c37d0d4cb9535bfc56a98dcf651",
+          "unweighted_graph_sha256": "6df3a82322ae356907e502f8fa01b5eba20705f4968d1ef2890821664f5a37b3",
+          "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61"
+        }
+      ],
+      "same_exact_source_endpoints": true,
+      "same_full_route_segment_geometries": false,
+      "new_exact_or_seam_length_m": 0
+    },
+    {
+      "figure": "mechanism_M04_exact_stitch",
+      "svg_image_elements": 0,
+      "outputs": [
+        {
+          "path": "visuals/mechanism_M04_exact_stitch.svg",
+          "bytes": 212688,
+          "sha256": "09902a2b7603c937fe957e01bc603d12cd99e7430894b088014b3ad541fa34cd"
+        },
+        {
+          "path": "visuals/mechanism_M04_exact_stitch.pdf",
+          "bytes": 414053,
+          "sha256": "d91b08ca8d3166351556a4208f2ed46a7baace324466dcca4f2d62cff7bd1fb4"
+        },
+        {
+          "path": "visuals/mechanism_M04_exact_stitch.png",
+          "bytes": 881372,
+          "sha256": "30f6ef340995d559869cb2cec5c344a8f90c8bd437b45fa5c212ccb8ba471087"
+        }
+      ],
+      "metadata_path": "visuals/mechanism_M04_exact_stitch.json",
+      "metadata_sha256": "d9556e45d5264307511f207f5b95cad59ffbf301fa30ffbcbe7dffad7ab2c8ef",
+      "saved_results": [
+        {
+          "path": "runs/mechanisms/RUN-20261112T005400-1775ce2387.json",
+          "sha256": "bbaf3100a4934842b137846ecc9af10d7657c6729d01ed5d4710a508894aa278",
+          "run_id": "RUN-20261112T005400-1775ce2387",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.0008571999933337793,
+            "invocation_id": "cb4a2372c9e24d10a929d89eec075fab",
+            "answer_source": "CURRENT_REQUEST_SOLVER",
+            "algorithm": "networkx weighted shortest path"
+          },
+          "status": "NO_VALID_ROUTE",
+          "route_length_m": null,
+          "route_cost_weighted_m": null,
+          "endpoints": [
+            {
+              "basis": "ORIGINAL_SOURCE_FACE_OUTER_BOUNDARY_NODE; NO_INDEPENDENT_ELIGIBLE_LINE_NODE_AVAILABLE",
+              "coordinates_moved": false,
+              "id": "node/2613044111",
+              "mode_binding": "SAME_ORIGINAL_NODE_AND_COORDINATE; ATTACH_ONLY_TO_ADMITTED_CONTAINING_FACE; NO_BINDING_WHEN_FACE_ABSENT",
+              "native_id": "node/2613044111",
+              "network_binding_class": "SOURCE_BOUNDARY_INTERFACE_QUERY; FACE_ATTACHMENT_REQUIRED_IF_ABSENT_FROM_NATIVE_GRAPH",
+              "omega_covers": true,
+              "selection_rule": "LOWEST_ORIGINAL_NODE_ID_AMONG_OMEGA_COVERED_OUTER_BOUNDARY_NODES",
+              "source_area_id": "way/1275365117",
+              "source_node_tags": {},
+              "source_node_version": 1,
+              "wgs84": [
+                121.4408871,
+                31.2240887
+              ],
+              "xy": [
+                351498.287766238,
+                3455484.57699674
+              ]
+            },
+            {
+              "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+              "coordinates_moved": false,
+              "id": "node/12682703868",
+              "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+              "native_id": "node/12682703868",
+              "source_node_tags": {},
+              "source_node_version": 1,
+              "wgs84": [
+                121.4420413,
+                31.2250968
+              ],
+              "xy": [
+                351609.81069622654,
+                3455594.7721985923
+              ]
+            }
+          ],
+          "code_sha256": "ee3c1f2e301781432cec1ff1fc689bb65a69bf7e02da1f288fa3eacc5499b60f",
+          "input_connectivity_mode": "SOURCE_COMPLETE",
+          "raw_evidence_parent_mode": "FROZEN_FULL_FACE",
+          "preprocessing_cache_key": "7590b20484d7b2c94ba7625614634ab040479c37d0d4cb9535bfc56a98dcf651",
+          "unweighted_graph_sha256": "dce7e6ea17edfd0d273ceb7ee99d8fd8d93f4bba5dd73efb0e575127c6bc5711",
+          "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61"
+        },
+        {
+          "path": "runs/mechanisms/RUN-20261112T030817-af47b79523.json",
+          "sha256": "c6017c4c185ade4cc1a2567d27fe30bdfe2b50b457d60015f3107d9f0d3ea8a4",
+          "run_id": "RUN-20261112T030817-af47b79523",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.0002609000075608492,
+            "invocation_id": "77d108609a7541e8855c0619ddbfcd21",
+            "answer_source": "CURRENT_REQUEST_SOLVER",
+            "algorithm": "networkx weighted shortest path"
+          },
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "route_length_m": 158.19762121365844,
+          "route_cost_weighted_m": 158.19762121365844,
+          "endpoints": [
+            {
+              "basis": "ORIGINAL_SOURCE_FACE_OUTER_BOUNDARY_NODE; NO_INDEPENDENT_ELIGIBLE_LINE_NODE_AVAILABLE",
+              "coordinates_moved": false,
+              "id": "node/2613044111",
+              "mode_binding": "SAME_ORIGINAL_NODE_AND_COORDINATE; ATTACH_ONLY_TO_ADMITTED_CONTAINING_FACE; NO_BINDING_WHEN_FACE_ABSENT",
+              "native_id": "node/2613044111",
+              "network_binding_class": "SOURCE_BOUNDARY_INTERFACE_QUERY; FACE_ATTACHMENT_REQUIRED_IF_ABSENT_FROM_NATIVE_GRAPH",
+              "omega_covers": true,
+              "selection_rule": "LOWEST_ORIGINAL_NODE_ID_AMONG_OMEGA_COVERED_OUTER_BOUNDARY_NODES",
+              "source_area_id": "way/1275365117",
+              "source_node_tags": {},
+              "source_node_version": 1,
+              "wgs84": [
+                121.4408871,
+                31.2240887
+              ],
+              "xy": [
+                351498.287766238,
+                3455484.57699674
+              ]
+            },
+            {
+              "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+              "coordinates_moved": false,
+              "id": "node/12682703868",
+              "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+              "native_id": "node/12682703868",
+              "source_node_tags": {},
+              "source_node_version": 1,
+              "wgs84": [
+                121.4420413,
+                31.2250968
+              ],
+              "xy": [
+                351609.81069622654,
+                3455594.7721985923
+              ]
+            }
+          ],
+          "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+          "input_connectivity_mode": "EXACT_STITCH",
+          "raw_evidence_parent_mode": "FROZEN_FULL_FACE",
+          "preprocessing_cache_key": "5d7db3e6ee57e62c614556de1599e2fa3f20e0a6ad9bbd8f9a889babf3b79e59",
+          "unweighted_graph_sha256": "3e6b34d6dd2e2f8fe3c48766cdcec76125c8e45c2060e4eb7b589c5644959269",
+          "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61"
+        }
+      ],
+      "same_exact_source_endpoints": true,
+      "same_full_route_segment_geometries": null,
+      "new_exact_or_seam_length_m": 158.19762121365844
+    },
+    {
+      "figure": "mechanism_M06_no_route_change",
+      "svg_image_elements": 0,
+      "outputs": [
+        {
+          "path": "visuals/mechanism_M06_no_route_change.svg",
+          "bytes": 332129,
+          "sha256": "6a88270305c57428069d3363a01e3041d2961e2d5768d6d7f1f89fcf4bb02f0e"
+        },
+        {
+          "path": "visuals/mechanism_M06_no_route_change.pdf",
+          "bytes": 473838,
+          "sha256": "3b766eb1928b9eb40d8614d88387ceef12088fa7416dc37d113bdcbb5793ab55"
+        },
+        {
+          "path": "visuals/mechanism_M06_no_route_change.png",
+          "bytes": 847772,
+          "sha256": "57dd01491f64e7024ae4b65744463652cd61307f78b467b8212778ed9495cc4e"
+        }
+      ],
+      "metadata_path": "visuals/mechanism_M06_no_route_change.json",
+      "metadata_sha256": "0ef3a26382b807a11a6ab6e8f5e8d99607928f9d5884bfa2641c9c2440249d66",
+      "saved_results": [
+        {
+          "path": "runs/mechanisms/RUN-20261112T030823-722f561fa0.json",
+          "sha256": "f858e8e4b91b8ece4e8e535292effc039b6a358e9b8cba6abdb61d785afa7e43",
+          "run_id": "RUN-20261112T030823-722f561fa0",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.00025019999884534627,
+            "invocation_id": "89e8817426fb4f8886fc749c5a1e4367",
+            "answer_source": "CURRENT_REQUEST_SOLVER",
+            "algorithm": "networkx weighted shortest path"
+          },
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "route_length_m": 171.3742045750688,
+          "route_cost_weighted_m": 171.3742045750688,
+          "endpoints": [
+            {
+              "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+              "coordinates_moved": false,
+              "id": "node/3382616037",
+              "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+              "native_id": "node/3382616037",
+              "source_node_tags": {},
+              "source_node_version": 2,
+              "wgs84": [
+                121.4422451,
+                31.216639
+              ],
+              "xy": [
+                351616.00867530424,
+                3454656.968149748
+              ]
+            },
+            {
+              "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+              "coordinates_moved": false,
+              "id": "node/9775005120",
+              "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+              "native_id": "node/9775005120",
+              "source_node_tags": {
+                "highway": "traffic_signals",
+                "traffic_signals": "traffic_lights"
+              },
+              "source_node_version": 2,
+              "wgs84": [
+                121.4438953,
+                31.217254
+              ],
+              "xy": [
+                351774.1763820868,
+                3454722.925045912
+              ]
+            }
+          ],
+          "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+          "input_connectivity_mode": "EXACT_STITCH",
+          "raw_evidence_parent_mode": "FROZEN_FULL_FACE",
+          "preprocessing_cache_key": "5d7db3e6ee57e62c614556de1599e2fa3f20e0a6ad9bbd8f9a889babf3b79e59",
+          "unweighted_graph_sha256": "b03f18166d9a8f5a06c31628b4b2111a415907cc3397735ad908d81e324964b1",
+          "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61"
+        },
+        {
+          "path": "runs/mechanisms/RUN-20261112T030825-0e6f5df2f4.json",
+          "sha256": "8a4d7331038ea1aa940b188d0271ef91d5f41c92fa6c9fe13225f3e0603eee2d",
+          "run_id": "RUN-20261112T030825-0e6f5df2f4",
+          "solver": {
+            "invoked": true,
+            "elapsed_s": 0.00046130000555422157,
+            "invocation_id": "009151ad4d394cf9ac255d787a2cb19f",
+            "answer_source": "CURRENT_REQUEST_SOLVER",
+            "algorithm": "networkx weighted shortest path"
+          },
+          "status": "ROUTED_NATIVE_OR_MAPPED",
+          "route_length_m": 171.3742045750688,
+          "route_cost_weighted_m": 171.3742045750688,
+          "endpoints": [
+            {
+              "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+              "coordinates_moved": false,
+              "id": "node/3382616037",
+              "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+              "native_id": "node/3382616037",
+              "source_node_tags": {},
+              "source_node_version": 2,
+              "wgs84": [
+                121.4422451,
+                31.216639
+              ],
+              "xy": [
+                351616.00867530424,
+                3454656.968149748
+              ]
+            },
+            {
+              "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+              "coordinates_moved": false,
+              "id": "node/9775005120",
+              "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+              "native_id": "node/9775005120",
+              "source_node_tags": {
+                "highway": "traffic_signals",
+                "traffic_signals": "traffic_lights"
+              },
+              "source_node_version": 2,
+              "wgs84": [
+                121.4438953,
+                31.217254
+              ],
+              "xy": [
+                351774.1763820868,
+                3454722.925045912
+              ]
+            }
+          ],
+          "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+          "input_connectivity_mode": "CONDITIONAL_SEAMS",
+          "raw_evidence_parent_mode": "FROZEN_FULL_FACE",
+          "preprocessing_cache_key": "3e7b483ac360787a83496aa9ec6ec766513b5594043d2f4dfd83589726396ae2",
+          "unweighted_graph_sha256": "b7d4df604747135c7e418af0f9041a213efcaa84b9a8aee8773c0d0010e70837",
+          "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61"
+        }
+      ],
+      "same_exact_source_endpoints": true,
+      "same_full_route_segment_geometries": true,
+      "new_exact_or_seam_length_m": 0
+    },
+    {
+      "figure": "museum_source_overview",
+      "svg_image_elements": 0,
+      "outputs": [
+        {
+          "path": "visuals/museum_source_overview.svg",
+          "bytes": 433319,
+          "sha256": "630c59798bfb68ce993356667b9a555dfaac9d984ef89721645be223c33eb6e5"
+        },
+        {
+          "path": "visuals/museum_source_overview.pdf",
+          "bytes": 957279,
+          "sha256": "13d267a5ca9cb6df6c7b3942d2703d17253e36335520e97a6e75674a97ac2c0f"
+        },
+        {
+          "path": "visuals/museum_source_overview.png",
+          "bytes": 1676673,
+          "sha256": "91143a19776aeb875a7f24715f71fe463d81948405eb573b084dc0c805e74447"
+        }
+      ],
+      "metadata_path": "visuals/museum_source_overview.json",
+      "metadata_sha256": "9adedcf4b14288c9da1a4ac1d8e65257c8ad2048ff0efb6c79598a533df9458f",
+      "saved_results": [],
+      "same_exact_source_endpoints": null,
+      "same_full_route_segment_geometries": null,
+      "new_exact_or_seam_length_m": null
+    },
+    {
+      "figure": "six_scene_source_inventory",
+      "svg_image_elements": 0,
+      "outputs": [
+        {
+          "path": "visuals/six_scene_source_inventory.svg",
+          "bytes": 23444,
+          "sha256": "6c7d5912d4200a4970a6e66aec2efe1a843eabbc3771d091ef275341e953d3fc"
+        },
+        {
+          "path": "visuals/six_scene_source_inventory.pdf",
+          "bytes": 75817,
+          "sha256": "7ee8cb72d0f9438ea65a85d9a8493b6f6f0076e5d7b65dbe2ef3ffbe2cd98786"
+        },
+        {
+          "path": "visuals/six_scene_source_inventory.png",
+          "bytes": 371677,
+          "sha256": "1a189045b82cc4fac30f2f70453470ae9d2c813f8b0bdfe5e174204d5f34b019"
+        }
+      ],
+      "metadata_path": "visuals/six_scene_source_inventory.json",
+      "metadata_sha256": "98bef5af7e075abd1f5f49fb21ff8d18832c85b1b7cc2a0237f7774fe1820143",
+      "saved_results": [],
+      "same_exact_source_endpoints": null,
+      "same_full_route_segment_geometries": null,
+      "new_exact_or_seam_length_m": null
+    }
+  ],
+  "plot_script_sha256": "278f6181ff89e30a6a2b2f1f321876df9292b06eaf3d10d72ab5c8c3cd2149f8",
+  "frozen_view_module_sha256": "b2043f206c54f44d54482e8e537048eebe5ac630e27ed67a4c131805414572e7",
+  "publication_directory": "visuals",
+  "figure_count": 8,
+  "source_figure_count": 2,
+  "route_case_count": 6,
+  "case_spec_sha256": "64d112be38a8aca0958cfb2f25106af5983092bb666829bb55639de97dc43bb1",
+  "design_spec_sha256": "e936e27926a94bdd62d396fa680a38660e9fe22e14f280550d4cdbf41ee374ee",
+  "export_qa_sha256": "4e3f5941718cff4d8fbaea57105bc549d8e7b6898e772e9e0874ec23c7b1885e",
+  "author_review_scope": {
+    "final_pngs_actually_viewed": 8,
+    "native_svg_browser_renders_actually_viewed": 8,
+    "final_pdf_pages_actually_viewed_at_200dpi": 8,
+    "all_svg_image_elements": 0,
+    "local_browser": "Microsoft Edge; all requests blocked; no external request made",
+    "final_outputs_frozen": true,
+    "pdf_format_fallback": "Map PDFs rasterize source context, non-admitted context lines and P outline dashes at 300 dpi for backend fidelity. Omega, admitted native lines, real routes and text remain vector; SVG is fully vector."
+  },
+  "epoch_compatibility": {
+    "M02": "FORMAL-065/066 retained unchanged B0/B1 mathematical kernels and their real original code SHA.",
+    "M04": "FORMAL-074 retained B1; right panel reads REPLAY-FORMAL-075 actual final file.",
+    "M06": "Both panels read REPLAY-FORMAL-083/084 actual final files.",
+    "business_and_historical": "Fresh actual FORMAL-001/004, 009/012 and 057/060; no code SHA rewritten.",
+    "mode_labels": "Actual result input mode; raw evidence parent_mode preserved as metadata; PREP chain remains authority."
+  },
+  "route_layout_choice": "Paired identical source base and extent keeps disconnected and unchanged outcomes visible. Single overlays were considered, not claimed as an actually rendered alternative.",
+  "packaging": "Publish root visuals only. Exclude duplicate master figures and render_checks from ZIP. Native source/geometry and runtime results remain separately referenced."
+}

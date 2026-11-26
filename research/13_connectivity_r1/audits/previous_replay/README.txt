@@ -1,0 +1,3 @@
+本包是固定主ZIP的包外复验实物，请与OPEN_REVIEW_R1_FINAL_FIXED.zip一并提交审核。主ZIP未嵌套或改写。两次新请求完整折线、来源、费用、独立重测及测试日志均已包含，Windows路径仅作运行溯源。
+最终原始clean回执为REQUIRES_INSPECTION，原记录完整保留；postseal补证证明唯一原生分割警报符合事前1e-8m数值契约（实际横距约1.08e-11m，父边有序substring逐值一致），10项正反例通过。没有把它写成严格二进制集合重合，也没有改原路径。其他clean检查均通过。
+几何复核可用附带scripts脚本和主包raw数据、final_new_response/measurement/receipt重放。完整核对事前源码注册还需可选历史OPEN_REVIEW_R1_FINAL.zip（b390ce...）；缺它时脚本明确只给几何复核状态。最终准确信息见FINAL_DELIVERY.json和postseal补证。

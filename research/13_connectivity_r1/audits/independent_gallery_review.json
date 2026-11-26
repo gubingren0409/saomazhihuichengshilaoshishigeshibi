@@ -1,0 +1,126 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Actual final Edge gallery GET rendering, all eight PNG decodes, case screenshots and a real CSV download; images viewed separately",
+  "APP_solver_calls": 0,
+  "POST_attempts": [],
+  "external_requests_blocked_before_send": [],
+  "url": "http://127.0.0.1:53441/review",
+  "served_gallery_file_sha256": "97652bf8fc750b21511e222a4c9f0176c1363e50e9fd58600bfb2bffac763da1",
+  "script_sha256": "185137e6f7f0b4fcb721891e5465962f4014c95026acf9e5d7ad32ef87495537",
+  "checks": [
+    {
+      "name": "FINAL_PAGE_HAS_COMPLETE_MATRIX_AND_PENDING_USER_OBSERVATION",
+      "passed": true,
+      "detail": {
+        "title": "步行面衔接 R1 · 源对象、实际路线与条件接缝",
+        "body_prefix": "OSM / GEOAPIFY · PEDESTRIAN AREA CONNECTIVITY R1\n\n从一块可走的广场，\n到能接上周围步道的步行空间\n\n先分清源对象遗漏、真实接口漏接与地图间隙，再看新增连接有没有进入实际路线。图表来自冻结源几何与真实运行输出；边界原样保留，条件接缝单独记账。\n\n用户穿行观察仍待审核\n截图原请求尚未唯一绑定\n原登记门与起点不移动\n打开本地实时 APP ↗\n查看实际路线对照\n复现与启动说明\n当前汇总已完成\n104项固定比较已完成；实际正式尝试共121次，其中包含16次已锁修复复算及1次中断。角色表使用104项主比较分母，全部首跑/复算分别保留。独立复核与用户审核分开记录。\n121\n实际正式尝试（含拒绝、修复复算与中断）\n92\n实际调用求解器的请求\n69\n104项主比较中输出合法完整路线的请求\n8 / 8\n已核验 hash 并收录的图表\n疑点与源对象\n四种模式\n实际案例\n完整结果口径\n复现与审核材料\n图上有间隙，是否意味着网络没有接上？\n源诊断图 2 / 2\n\n原始边界 P、扣障后的 Ω 与独立原生线分开核对。颜色、线宽和直接距离都不能单独证明全网不可达。\n\n博物馆南门面与东北侧步道\nSVG\n·\nPDF\n·\nPNG\n·\n图表元数据\n源图、范围和端点可核对 · 坐标 EPSG:32651\n\n南门面与东北侧长线直接间距为 7.07 m。但 way/178737608 已通过 node/1890935415 与 node/1891590997 分别连接该面和 way/564255372；不能把两个对象的直接间隙称为整个源网络断开。实际路由图准入仍需核对本次结果。\n\n六个冻结裁片里，旧面集合遗漏了什么？\nSVG\n·\nPDF\n·\nPNG\n·\n图表元数据\n源图、范围和端点可核对 · 坐标 EPSG:32651\n\n源准入 130 个场景—对象记录，按原生身份去重为 88 个面；其中 82 个此前未被选入。跨裁片副本不是独立样本。草地、公园和未解析完整成员不因相邻而自动成为步行面。\n\n每一步到底改变了什么？\n\n四种模式均以完整合法面求路。B0 是封存完整面，不用历史边缘带冒充主基线；同输入比较不混入门、起点和用途变化。\n\nB0 · 封存完整面\n\n上轮固定面集合与接口逻辑。本轮主基线。\n\nB1 · 补齐源面\n\n补读原已存在的合格面，保持原接口与约束。\n\nB2 · 精确衔接\n\n在 B1 同一面集合上修复真实相交、覆盖、共边和重叠接口。\n\nB3 · 条件接缝\n\n加入整段约束合格的局部假设。主 2 米，0.5 / 5 米敏感性；10 米仅诊断。\n\n哪些实际路线改变了，哪些保持不变？\n已绑定正式输出 6 / 6 个案例\n\n每张对照图保留完整折线、原始端点与各自 run ID。没有路线的模式展示失败身份，不画一条示意线替代。接缝没有被采用、收益为零或仍断开的结果一并保留。\n\n01\n\n实际案例 · SH-EXHIBITION\n\nM02：补齐面内原生步行面，完整路线缩短\nSVG\n·\nPDF\n·\nPNG\n·\n图表元数据\n源图、范围和端点可核对 · 坐标 EPSG:32651\n\n在这一相同输入对照中，几何长度减少 6.20 m。\n\n模式 / 方法\t实际状态\t几何长度\t广义代价\t精确接口段\t条件接缝段\nB0 封存完整面\nF0\n\t已形成合法完整路线\nROUTED_NATIVE_OR_MAPPED\n\t33.34 m\t33.34 加权米\t0.00 m\t0.00 m\nB1 补齐源面\nF0\n\t已形成合法完整路线\nROUTED_NATIVE_OR_MAPPED\n\t27.14 m\t27.14 加权米\t0.00 m\t0.00 m\n\n同一起点 node/7079045116 → 同一终点 node/4381584609\n用途：LOCAL_MECHANISM_QUERY_NO_DOOR_OR_ENTRANCE_ASSERTION。机制终点不冒称建筑入口；原门 / 原生端点没有移动。\n\n查看真实 run IDs、输入、校验与失败身份\n02\n\n实际案例 · SH-EXHIBITION\n\nM04：共边面精确接图，恢复完整路线\nSVG\n·\nPDF\n·\nPNG\n·\n图表元数据\n源图、范围和端点可核对 · 坐标 EPSG:32651\n\n比较前未形成合法完整路线，比较后实际可达；"
+      }
+    },
+    {
+      "name": "ALL_EIGHT_REAL_PNG_IMAGES_DECODED",
+      "passed": true,
+      "detail": [
+        {
+          "src": "visuals/museum_source_overview.png",
+          "complete": true,
+          "width": 3635,
+          "height": 2202,
+          "alt": "区分南门面与周围步道的真实接触和超过阈值的源间隙"
+        },
+        {
+          "src": "visuals/six_scene_source_inventory.png",
+          "complete": true,
+          "width": 3002,
+          "height": 1898,
+          "alt": "按互斥来源原因完整核对六场景候选人口，避免跨clip重复当独立证据"
+        },
+        {
+          "src": "visuals/mechanism_M02_source_complete.png",
+          "complete": true,
+          "width": 3331,
+          "height": 2217,
+          "alt": "M02：补齐面内原生步行面，完整路线缩短"
+        },
+        {
+          "src": "visuals/mechanism_M04_exact_stitch.png",
+          "complete": true,
+          "width": 3331,
+          "height": 2217,
+          "alt": "M04：共边面精确接图，恢复完整路线"
+        },
+        {
+          "src": "visuals/mechanism_M06_no_route_change.png",
+          "complete": true,
+          "width": 3331,
+          "height": 2217,
+          "alt": "M06：条件接缝分支保留了路线未变的结果"
+        },
+        {
+          "src": "visuals/business_south_no_route_change.png",
+          "complete": true,
+          "width": 3331,
+          "height": 2217,
+          "alt": "博物馆南门：完整路线未变，新增边未被使用"
+        },
+        {
+          "src": "visuals/business_north_same_route.png",
+          "complete": true,
+          "width": 3331,
+          "height": 2217,
+          "alt": "博物馆北门到门外：使用精确接口，路线仍未变"
+        },
+        {
+          "src": "visuals/historical_F1_same_route.png",
+          "complete": true,
+          "width": 3331,
+          "height": 2217,
+          "alt": "历史长查询 F1：完整路线仍未变化"
+        }
+      ]
+    },
+    {
+      "name": "NO_PENDING_FIGURE_OR_UNAVAILABLE_DATA_PLACEHOLDER",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ACTUAL_BROWSER_CSV_DOWNLOAD_NONEMPTY",
+      "passed": true,
+      "detail": {
+        "suggested_filename": "sample_results.csv",
+        "bytes": 64051,
+        "sha256": "09f7b4100544d0d81aee35876f4dfa7be3f7ea125e698e6d95335d737dc8257e"
+      }
+    },
+    {
+      "name": "ACTUAL_INDEPENDENT_MD_DOWNLOAD_MATCHES_FROZEN_REVIEW",
+      "passed": true,
+      "detail": {
+        "bytes": 11413,
+        "sha256": "2e653ed32ab393a439606a26d6b711326319a46ba61773947f7ff414030c9332"
+      }
+    },
+    {
+      "name": "GET_ONLY_NO_EXTERNAL_REQUEST_OR_BROWSER_ERROR",
+      "passed": true,
+      "detail": {
+        "blocked_non_GET": [],
+        "blocked_foreign": [],
+        "page_errors": [],
+        "HTTP_failures": []
+      }
+    }
+  ],
+  "actual_screenshots": [
+    "audits\\independent_gallery_header.png",
+    "audits\\independent_gallery_case_1.png",
+    "audits\\independent_gallery_case_2.png",
+    "audits\\independent_gallery_case_3.png",
+    "audits\\independent_gallery_case_4.png",
+    "audits\\independent_gallery_case_5.png",
+    "audits\\independent_gallery_case_6.png",
+    "audits\\independent_gallery_matrix.png"
+  ],
+  "user_observation": "PENDING_USER_OBSERVATION",
+  "status": "PASS_FOR_FINAL_GALLERY_GET_RENDER_AND_DOWNLOAD_SCOPE"
+}

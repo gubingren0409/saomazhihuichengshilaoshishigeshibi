@@ -1,0 +1,359 @@
+{
+  "role": "AUTHOR_ISOLATED_REAL_NORTH_ROADMAP_REPLAY",
+  "parent_source_sha256": "7b4b5eff6aae0343932eedb4c5f02634f8c1914c1efa9329de128f0196abc1c6",
+  "candidate_source_sha256": "ebbb4e3988aad47d8950f5a4603906f836b1fe7d3f5a66ffdc2988f42101ef5b",
+  "parent_preprocessing_record": {
+    "namespace": "APP_CONNECTIVITY",
+    "mode": "SOURCE_COMPLETE",
+    "seam_max_m": null,
+    "cache_key": "cc00448c84f8851873b72631a54974f9239f00f9bb5ef3c3edb04f66d28b5624",
+    "parent_cache_key": "a287762421531e2e64abedb9fc19c351cea0944f45fc67926ce7e462634fcc0d",
+    "source_selection_sha256": "855ebd865f893eeb7edaa90860b819b39a64ef28407329a3a235286e93793c57",
+    "graph_sha256": "2b79f522732b904ef881896312b5584a2b6b75f418ebff0f31c062deb7b20f66",
+    "code_sha256": "ee3c1f2e301781432cec1ff1fc689bb65a69bf7e02da1f288fa3eacc5499b60f",
+    "local_surface_sha256": "11328703c526181ba3194ea16c8e14ec61c1dc94e1ddc9f1f234ee39cdae08f8",
+    "graph_delta_only": false,
+    "stored_overlay": "data/connectivity_graphs/cc00448c84f8851873b72631a54974f9239f00f9bb5ef3c3edb04f66d28b5624-PREP-d17a08727d304117b03fae4701d794ff.jsonl.gz",
+    "stored_overlay_sha256": "ff2bea43e1a3d8b2ee50bb4c471d85cc8f1108bc70cc13f383a8139f0a0b59e9",
+    "connectivity_evidence": {
+      "mode": "SOURCE_COMPLETE",
+      "parent_mode": "FROZEN_FULL_FACE",
+      "source_selection_sha256": "855ebd865f893eeb7edaa90860b819b39a64ef28407329a3a235286e93793c57",
+      "old_area_ids": [
+        "relation/2153738",
+        "relation/2385771"
+      ],
+      "added_area_ids": [
+        "relation/8055906",
+        "way/1289666063",
+        "way/1572010715",
+        "way/160023915",
+        "way/160023918",
+        "way/160023919",
+        "way/160895400",
+        "way/160895826",
+        "way/160896233",
+        "way/161090905",
+        "way/178721645",
+        "way/405396505",
+        "way/407411288",
+        "way/428199191",
+        "way/428199195",
+        "way/428199196",
+        "way/428199199",
+        "way/435452346",
+        "way/435452349",
+        "way/525376140",
+        "way/553893870",
+        "way/553893883",
+        "way/554033955",
+        "way/682216778",
+        "way/682223773",
+        "way/682223781",
+        "way/900252576"
+      ],
+      "interfaces": [],
+      "conditional_links": [],
+      "delta_only": false
+    },
+    "elapsed_s": 260.1789407000033,
+    "route_answers_stored": false
+  },
+  "corner_certificates": [
+    {
+      "source_id": "relation/2153738",
+      "component": 0,
+      "domain_key": "1a28181d9ef781c910c2d453",
+      "original_geometry_sha256": "d8388ea089ab586e918cd6c25ca112be78125250fe18af2013191ff3c627ecd1",
+      "new_geometry_sha256": "30da4f142add327a1b61beab3e0fe933ae7f2ccd2b38d426578cd9bb7443d7e8",
+      "added_geometry_sha256": "e60dcba9c652b544bf3cedaec7717c107cced114bab8dddb58e6d5a0bae36572",
+      "lost_geometry_sha256": "8a17710f319331ff02e06848cb83b52c1042dbc4dbf4a9ed88feeefd6b3cda72",
+      "full_constraint_sha256": "c2234832a125a0213edba86b188ea0c973916aa6bdb76a9d8d4d632a64b92e92",
+      "parent_full_common_sha256": "c2234832a125a0213edba86b188ea0c973916aa6bdb76a9d8d4d632a64b92e92",
+      "visibility_code_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+      "strict_global_subset": true,
+      "added_geometry": {
+        "type": "Polygon",
+        "coordinates": []
+      },
+      "lost_geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                354317.282902775,
+                3456312.1895266934
+              ],
+              [
+                354317.3012372849,
+                3456312.204535907
+              ],
+              [
+                354317.30123728496,
+                3456312.204535907
+              ],
+              [
+                354317.282902775,
+                3456312.1895266934
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                354401.66083030694,
+                3456349.531306116
+              ],
+              [
+                354401.658895305,
+                3456349.5298935864
+              ],
+              [
+                354401.65889530495,
+                3456349.5298935864
+              ],
+              [
+                354401.66083030694,
+                3456349.531306116
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                354353.9830635489,
+                3456179.7377023706
+              ],
+              [
+                354353.98306354886,
+                3456179.7377023706
+              ],
+              [
+                354353.9830635488,
+                3456179.7377023706
+              ],
+              [
+                354353.98212974163,
+                3456179.7390247607
+              ],
+              [
+                354353.9830635489,
+                3456179.7377023706
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                354250.551511387,
+                3456112.665682768
+              ],
+              [
+                354250.55151138693,
+                3456112.665682768
+              ],
+              [
+                354244.75663078023,
+                3456121.914787282
+              ],
+              [
+                354250.551511387,
+                3456112.665682768
+              ]
+            ]
+          ]
+        ]
+      },
+      "reused_corner_count": 1774,
+      "unchanged_neighbour_corner_count": 1770,
+      "changed_neighbour_corner_count": 4,
+      "rejected_alias_due_to_incident_arc_count": 0,
+      "incident_options_checked": 4440,
+      "reused_positive_pairs": 1941,
+      "reused_negative_pairs": 1563624,
+      "negative_pair_samples": [
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.0649985563,
+            3456150.749932173
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.087035886,
+            3456150.7591450065
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.10985184385,
+            3456150.766212699
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.13323815836,
+            3456150.7710707337
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.1569813516,
+            3456150.7736747656
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.18086468807,
+            3456150.7740010233
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.204670153,
+            3456150.7720465297
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.22818044235,
+            3456150.7678291253
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.25118094665,
+            3456150.7613873077
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.2734617098,
+            3456150.752779881
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.2948193459,
+            3456150.7420854154
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.3150588954,
+            3456150.7294015344
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.3339956052,
+            3456150.71484402
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.3514566149,
+            3456150.6985457577
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354102.3672825349,
+            3456150.680655524
+          ]
+        ],
+        [
+          [
+            354102.0240554925,
+            3456150.725426287
+          ],
+          [
+            354108.6311293804,
+            3456156.117799983
+          ]
+        ]
+      ],
+      "policy": "EXACT_COMPONENT_OWNER_AND_XY; FULL_NEW_DOMAIN_AND_CONSTRAINT_INCIDENT_RECHECK; NO_TOLERANCE_EQUALITY",
+      "negative_pairs_sha256": "03e2267cb397cb98d5a58733e6a4c34429aa7ca8dd5af81154b46323f0058caa"
+    }
+  ],
+  "domain_visibility_statistics": {
+    "visibility_checks": 2352,
+    "domain_rejections": 2040,
+    "constraint_rejections": 0,
+    "numeric_tolerance_admissions": 0,
+    "reflex_vertices": 1778,
+    "required_points": 0,
+    "pair_candidates": 0,
+    "local_tangent_rejections": 0
+  },
+  "new_nodes": 1819,
+  "new_arcs": 4486,
+  "interval_source_validation_failures": [],
+  "elapsed_s": 54.38551780000853,
+  "APP_solver_calls": 0,
+  "source_graph_searches": 0,
+  "scope": "One real north roadmap with frozen B1 source interfaces; no route requests, no prediction or saved-route read",
+  "source_portal_metadata_scope": "Parent face evidence was not saved by old integration; recovered source interfaces from frozen fullface graph incidence for this isolated replay only"
+}

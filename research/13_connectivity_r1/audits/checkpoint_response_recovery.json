@@ -1,0 +1,28 @@
+{
+  "role": "BASELINE_REJECTION",
+  "expected_status": "INVALID_START",
+  "request": {
+    "request_id": "APP-11",
+    "scene_id": "sh-huangpu-01",
+    "door_id": "node/6897145227",
+    "start_id": "node/NOT_A_SOURCE_NODE",
+    "purpose": "APPROACH_OUTSIDE",
+    "method": "F0",
+    "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+    "connectivity_mode": "SOURCE_COMPLETE",
+    "area_routing": "FULL_FACE"
+  },
+  "attempt_id": "FORMAL-042",
+  "run_id": "RUN-20261112T021549-78be6ec2b0",
+  "status": "INVALID_START",
+  "solver_invoked": false,
+  "path": "runs/app/RUN-20261112T021549-78be6ec2b0.json",
+  "result_sha256": "d12ebb6803ac5def78209d5ecb9f914957a066824f43491cf76273dc9a7e57e7",
+  "length_m": null,
+  "cost_m": null,
+  "validation_passed": null,
+  "elapsed_s": 246.1211362000031,
+  "expected_matches": true,
+  "delivery": "EXACT_ACTUAL_SERVER_RESULT_RECOVERED_AFTER_CLIENT_CHECKPOINT_NO_NEW_REQUEST",
+  "recovered_at": "2026-11-12T02:20:10.765854+08:00"
+}

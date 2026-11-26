@@ -1,0 +1,947 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "All fixed main four-mode route geometry, costs and classification-only changes; independent saved-response measurement, no shortest-path invocation",
+  "APP_solver_calls": 0,
+  "script_sha256": "cb899fe6d9f38c937eaa9c65afc7302411335273f0055943dd3e2410b451cdd1",
+  "complete_registry_snapshot_sha256": "68b7c90ccc7c0f1bf204fe22b5b92350f9d6e9098db4f9a4d12eccd27bb3ba69",
+  "expected_main_requests": 8,
+  "observed_complete_main_requests": 8,
+  "checked_main_responses": 32,
+  "rows": [
+    {
+      "request_id": "APP-01",
+      "fixed_request_except_mode": {
+        "request_id": "APP-01",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "area_routing": "FULL_FACE"
+      },
+      "comparisons": [
+        {
+          "mode": "FROZEN_FULL_FACE",
+          "run_id": "RUN-20261112T014120-854cf312f0",
+          "response_sha256": "d9a4a87a88a6029096db776a7740f0d60212134642baca027af9bdfa79752160",
+          "length_m": 148.86312206979613,
+          "cost_m": 148.86312206979613,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 58.30248533526798,
+            "edge_band_derived": 0.6184199318156919,
+            "full_face_derived": 89.94221680271245,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "SOURCE_COMPLETE",
+          "run_id": "RUN-20261112T014418-5a6e60cc11",
+          "response_sha256": "b34f1d91f0969dac0c9f7a44ca4f8bdd24f9124fd4cc65355bd6874f129faac4",
+          "length_m": 148.86312206979613,
+          "cost_m": 148.86312206979613,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 58.30248533526798,
+            "edge_band_derived": 0.6184199318156919,
+            "full_face_derived": 89.94221680271245,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "EXACT_STITCH",
+          "run_id": "RUN-20261112T014845-9f9ccaf9dd",
+          "response_sha256": "0ccd6e007cbfa5ed8efb5c81750b0c45bd35f250da5453040e443cfcfe565023",
+          "length_m": 148.86312206979613,
+          "cost_m": 148.86312206979613,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 58.30248533526798,
+            "edge_band_derived": 0.6184199318156919,
+            "full_face_derived": 89.94221680271245,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "CONDITIONAL_SEAMS",
+          "run_id": "RUN-20261112T015521-bb55088ddb",
+          "response_sha256": "e3bb0ec35680aec65011beb26a791f1dc3bc0bc0e38b282a65d129c5859bce3e",
+          "length_m": 148.86312206979613,
+          "cost_m": 148.86312206979613,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 58.30248533526798,
+            "edge_band_derived": 0.6184199318156919,
+            "full_face_derived": 89.94221680271245,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        }
+      ]
+    },
+    {
+      "request_id": "APP-02",
+      "fixed_request_except_mode": {
+        "request_id": "APP-02",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "area_routing": "FULL_FACE"
+      },
+      "comparisons": [
+        {
+          "mode": "FROZEN_FULL_FACE",
+          "run_id": "RUN-20261112T015627-46c4d75781",
+          "response_sha256": "6ecade60dcc6eb2f7406e57cf87ae2b9153b35e73661260ffa9701c40953cd4c",
+          "length_m": 148.86312206979613,
+          "cost_m": 148.86312206979613,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 58.30248533526798,
+            "edge_band_derived": 0.6184199318156919,
+            "full_face_derived": 89.94221680271245,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "SOURCE_COMPLETE",
+          "run_id": "RUN-20261112T015634-194a048966",
+          "response_sha256": "3504744e3b270bf3e09fde13611e4e2cd8481f68ba1fdb26bd0d5e8caa2fb040",
+          "length_m": 148.86312206979613,
+          "cost_m": 148.86312206979613,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 58.30248533526798,
+            "edge_band_derived": 0.6184199318156919,
+            "full_face_derived": 89.94221680271245,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "EXACT_STITCH",
+          "run_id": "RUN-20261112T015640-407ba76179",
+          "response_sha256": "71f191fdce0c59f0362bd88ef98a64ee94ad32eb4953c3934d24c5a879eccdc7",
+          "length_m": 148.86312206979613,
+          "cost_m": 148.86312206979613,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 58.30248533526798,
+            "edge_band_derived": 0.6184199318156919,
+            "full_face_derived": 89.94221680271245,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "CONDITIONAL_SEAMS",
+          "run_id": "RUN-20261112T015651-bf37c97cdb",
+          "response_sha256": "27023b80a751e8d13b38d0a31f6f714905918164e348d41f7b459dcb382635e8",
+          "length_m": 148.86312206979613,
+          "cost_m": 148.86312206979613,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 58.30248533526798,
+            "edge_band_derived": 0.6184199318156919,
+            "full_face_derived": 89.94221680271245,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        }
+      ]
+    },
+    {
+      "request_id": "APP-03",
+      "fixed_request_except_mode": {
+        "request_id": "APP-03",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "area_routing": "FULL_FACE"
+      },
+      "comparisons": [
+        {
+          "mode": "FROZEN_FULL_FACE",
+          "run_id": "RUN-20261112T015659-017ffc002e",
+          "response_sha256": "0275a9b6d0b78a97c23f30be67a08f493f7279973f5be8145567f20008ff114c",
+          "length_m": 299.53144993549483,
+          "cost_m": 299.53144993549483,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 125.56547183888839,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 161.43178811731582,
+            "local_mapped_grid_derived": 5.820766091346741e-11,
+            "assumed": 12.534189979232385,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "SOURCE_COMPLETE",
+          "run_id": "RUN-20261112T015919-f73bc985c0",
+          "response_sha256": "c1483193934958f6efdca1b9468cae4e5e9dad9af36cf592ea5ebea9623eee80",
+          "length_m": 299.53144993549483,
+          "cost_m": 299.53144993549483,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 125.56547183888839,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 161.43178811731582,
+            "local_mapped_grid_derived": 5.820766091346741e-11,
+            "assumed": 12.534189979232385,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "EXACT_STITCH",
+          "run_id": "RUN-20261112T020327-d30f80b549",
+          "response_sha256": "b7ee53fd6287a282b07feee96cccf1918315b6a9e681f1c892ccbe062531dc2f",
+          "length_m": 299.53144993549483,
+          "cost_m": 299.53144993549483,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 125.56547183888839,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 161.33318372212293,
+            "local_mapped_grid_derived": 5.820766091346741e-11,
+            "assumed": 12.534189979232385,
+            "exact_interface_derived": 0.09860439519289833,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [
+            "source-interface/451b812eb92ba7bef4d54e9b",
+            "source-interface/586cbb7a78cb42771b51c2e7",
+            "source-interface/8d39aae103db4a27313df283",
+            "source-interface/ee9720ecdbafcfd2f3ac43ae"
+          ],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "CONDITIONAL_SEAMS",
+          "run_id": "RUN-20261112T021014-c0606583a4",
+          "response_sha256": "ba59af704e4f2baae6dfd0057dbe754dc92a8e808303e9b80b74c098089a4c34",
+          "length_m": 299.53144993549483,
+          "cost_m": 299.53144993549483,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 125.56547183888839,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 161.33318372212293,
+            "local_mapped_grid_derived": 5.820766091346741e-11,
+            "assumed": 12.534189979232385,
+            "exact_interface_derived": 0.09860439519289833,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [
+            "source-interface/451b812eb92ba7bef4d54e9b",
+            "source-interface/586cbb7a78cb42771b51c2e7",
+            "source-interface/8d39aae103db4a27313df283",
+            "source-interface/ee9720ecdbafcfd2f3ac43ae"
+          ],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        }
+      ]
+    },
+    {
+      "request_id": "APP-04",
+      "fixed_request_except_mode": {
+        "request_id": "APP-04",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "area_routing": "FULL_FACE"
+      },
+      "comparisons": [
+        {
+          "mode": "FROZEN_FULL_FACE",
+          "run_id": "RUN-20261112T021123-bb7538c812",
+          "response_sha256": "e0bedd8d9c1f286709af568bf3a1a861ef2c092cf78776dbdfec54368d37bfdd",
+          "length_m": 300.7841854102122,
+          "cost_m": 310.4657655078996,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 125.56547183888839,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 165.53713347363643,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 9.6815800976874,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "SOURCE_COMPLETE",
+          "run_id": "RUN-20261112T021126-c03bff8348",
+          "response_sha256": "ec8bdb5ed060c5d3302f88ca2c962154093fb5c8c27b6342b5fe0439d7986923",
+          "length_m": 300.7841854102122,
+          "cost_m": 310.4657655078996,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 125.56547183888839,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 165.53713347363643,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 9.6815800976874,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "EXACT_STITCH",
+          "run_id": "RUN-20261112T021131-7b02e8a8fb",
+          "response_sha256": "fecbe074f3c975ab412ec686c65f95d6104191b3236ab8060f9c52d905dd1f83",
+          "length_m": 300.7841854102122,
+          "cost_m": 310.4657655078996,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 125.56547183888839,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 165.43852907844354,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 9.6815800976874,
+            "exact_interface_derived": 0.09860439519289833,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [
+            "source-interface/451b812eb92ba7bef4d54e9b",
+            "source-interface/586cbb7a78cb42771b51c2e7",
+            "source-interface/8d39aae103db4a27313df283",
+            "source-interface/ee9720ecdbafcfd2f3ac43ae"
+          ],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "CONDITIONAL_SEAMS",
+          "run_id": "RUN-20261112T021137-983fd8a137",
+          "response_sha256": "d575926cfd8586908a7e68cb92da98bb7877f8eeccfac6f13cb587601be3d74f",
+          "length_m": 300.7841854102122,
+          "cost_m": 310.4657655078996,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 125.56547183888839,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 165.43852907844354,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 9.6815800976874,
+            "exact_interface_derived": 0.09860439519289833,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [
+            "source-interface/451b812eb92ba7bef4d54e9b",
+            "source-interface/586cbb7a78cb42771b51c2e7",
+            "source-interface/8d39aae103db4a27313df283",
+            "source-interface/ee9720ecdbafcfd2f3ac43ae"
+          ],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        }
+      ]
+    },
+    {
+      "request_id": "APP-05",
+      "fixed_request_except_mode": {
+        "request_id": "APP-05",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "area_routing": "FULL_FACE"
+      },
+      "comparisons": [
+        {
+          "mode": "FROZEN_FULL_FACE",
+          "run_id": "RUN-20261112T021145-f8116e45fa",
+          "response_sha256": "d26f6f586d4485a843395b9282e6d607e7c11bd8a24e9a0c3d5c01ec75b1c37e",
+          "length_m": 666.6635999370019,
+          "cost_m": 666.6635999370019,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 492.6976218403954,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 161.43178811731582,
+            "local_mapped_grid_derived": 5.820766091346741e-11,
+            "assumed": 12.534189979232385,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "SOURCE_COMPLETE",
+          "run_id": "RUN-20261112T021147-036d6cf6fc",
+          "response_sha256": "8c0bab026d6ffd09630e08906ffb37928639f33bfe98e9b6f726fd78f08bf030",
+          "length_m": 666.6635999370019,
+          "cost_m": 666.6635999370019,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 492.6976218403954,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 161.43178811731582,
+            "local_mapped_grid_derived": 5.820766091346741e-11,
+            "assumed": 12.534189979232385,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "EXACT_STITCH",
+          "run_id": "RUN-20261112T021153-446d76fa4d",
+          "response_sha256": "514adc381223736bd65948c51ba5c0d827e7316bdcb975b9ebdc3288fdd5a82e",
+          "length_m": 666.6635999370019,
+          "cost_m": 666.6635999370019,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 492.6976218403954,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 161.33318372212293,
+            "local_mapped_grid_derived": 5.820766091346741e-11,
+            "assumed": 12.534189979232385,
+            "exact_interface_derived": 0.09860439519289833,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [
+            "source-interface/451b812eb92ba7bef4d54e9b",
+            "source-interface/586cbb7a78cb42771b51c2e7",
+            "source-interface/8d39aae103db4a27313df283",
+            "source-interface/ee9720ecdbafcfd2f3ac43ae"
+          ],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "CONDITIONAL_SEAMS",
+          "run_id": "RUN-20261112T021159-1f2e6e5725",
+          "response_sha256": "d8372506b520bc0e9b986c05d69c8236ee3cbbb09f8b6a2803668487195cd0a4",
+          "length_m": 666.6635999370019,
+          "cost_m": 666.6635999370019,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 492.6976218403954,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 161.33318372212293,
+            "local_mapped_grid_derived": 5.820766091346741e-11,
+            "assumed": 12.534189979232385,
+            "exact_interface_derived": 0.09860439519289833,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [
+            "source-interface/451b812eb92ba7bef4d54e9b",
+            "source-interface/586cbb7a78cb42771b51c2e7",
+            "source-interface/8d39aae103db4a27313df283",
+            "source-interface/ee9720ecdbafcfd2f3ac43ae"
+          ],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        }
+      ]
+    },
+    {
+      "request_id": "APP-06",
+      "fixed_request_except_mode": {
+        "request_id": "APP-06",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "area_routing": "FULL_FACE"
+      },
+      "comparisons": [
+        {
+          "mode": "FROZEN_FULL_FACE",
+          "run_id": "RUN-20261112T021207-f8df1b370e",
+          "response_sha256": "67375aa15eb7605458e28d9571fd90172ee1e78c4cca3db9872c496b41d6af2a",
+          "length_m": 667.9163354117193,
+          "cost_m": 677.5979155094067,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 492.6976218403954,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 165.53713347363643,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 9.6815800976874,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "SOURCE_COMPLETE",
+          "run_id": "RUN-20261112T021209-a770d19dd3",
+          "response_sha256": "37c2dae108fb913d2059c91d708115579bd3b5f25162c5820e4790ca049f31a2",
+          "length_m": 667.9163354117193,
+          "cost_m": 677.5979155094067,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 492.6976218403954,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 165.53713347363643,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 9.6815800976874,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "EXACT_STITCH",
+          "run_id": "RUN-20261112T021213-58e3cd2824",
+          "response_sha256": "96518613e6bc5d846da2e2c59d53e340b4f714c3aba8d5b579f459e5ea233a4f",
+          "length_m": 667.9163354117193,
+          "cost_m": 677.5979155094067,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 492.6976218403954,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 165.43852907844354,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 9.6815800976874,
+            "exact_interface_derived": 0.09860439519289833,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [
+            "source-interface/451b812eb92ba7bef4d54e9b",
+            "source-interface/586cbb7a78cb42771b51c2e7",
+            "source-interface/8d39aae103db4a27313df283",
+            "source-interface/ee9720ecdbafcfd2f3ac43ae"
+          ],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "CONDITIONAL_SEAMS",
+          "run_id": "RUN-20261112T021222-c4b4c8e476",
+          "response_sha256": "b4f72ac023944a8975ac0da47f50df8aa1dc33d06b137639daa8b2d2fb1df105",
+          "length_m": 667.9163354117193,
+          "cost_m": 677.5979155094067,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 492.6976218403954,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 165.43852907844354,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 9.6815800976874,
+            "exact_interface_derived": 0.09860439519289833,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [
+            "source-interface/451b812eb92ba7bef4d54e9b",
+            "source-interface/586cbb7a78cb42771b51c2e7",
+            "source-interface/8d39aae103db4a27313df283",
+            "source-interface/ee9720ecdbafcfd2f3ac43ae"
+          ],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        }
+      ]
+    },
+    {
+      "request_id": "APP-07",
+      "fixed_request_except_mode": {
+        "request_id": "APP-07",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "area_routing": "FULL_FACE"
+      },
+      "comparisons": [
+        {
+          "mode": "FROZEN_FULL_FACE",
+          "run_id": "RUN-20261112T021229-fd061236ef",
+          "response_sha256": "a47df16bfd911b9422cfb574b087d5556b416864b304ea3722fe97c98f9cebd3",
+          "length_m": 180.58111866323975,
+          "cost_m": 180.58111866323975,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 180.58111866323975,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 0.0,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "SOURCE_COMPLETE",
+          "run_id": "RUN-20261112T021303-c2925cc810",
+          "response_sha256": "963f06c92e60a1f6792280372a686596e6231a5835158ebbdbe447c909b4feda",
+          "length_m": 180.58111866323975,
+          "cost_m": 180.58111866323975,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 180.58111866323975,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 0.0,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "EXACT_STITCH",
+          "run_id": "RUN-20261112T021318-cbe5e3e9d2",
+          "response_sha256": "f353db8db57249bc62eaa31a052cb413d753d741de0d4c7875ab2a5ae21b1f07",
+          "length_m": 180.58111866323975,
+          "cost_m": 180.58111866323975,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 180.58111866323975,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 0.0,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "CONDITIONAL_SEAMS",
+          "run_id": "RUN-20261112T021335-505ec0b269",
+          "response_sha256": "09b49e3aff31e4c680894e8cded45db1110d7ad40909d56d9fec0d0ba0cf5c2e",
+          "length_m": 180.58111866323975,
+          "cost_m": 180.58111866323975,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 180.58111866323975,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 0.0,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        }
+      ]
+    },
+    {
+      "request_id": "APP-08",
+      "fixed_request_except_mode": {
+        "request_id": "APP-08",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "area_routing": "FULL_FACE"
+      },
+      "comparisons": [
+        {
+          "mode": "FROZEN_FULL_FACE",
+          "run_id": "RUN-20261112T021345-36c8e03a40",
+          "response_sha256": "78263e752da382a9250da91e0e507cced2ca9610b4b7f89b0942736ed3c7f5d6",
+          "length_m": 180.58111866323975,
+          "cost_m": 180.58111866323975,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 180.58111866323975,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 0.0,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "SOURCE_COMPLETE",
+          "run_id": "RUN-20261112T021345-07a89765e8",
+          "response_sha256": "0081ac8cc38d90905a6299a8e086d8f414b6a3be9f1d388690940739bb1a0820",
+          "length_m": 180.58111866323975,
+          "cost_m": 180.58111866323975,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 180.58111866323975,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 0.0,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "EXACT_STITCH",
+          "run_id": "RUN-20261112T021345-80d2c26df3",
+          "response_sha256": "5bc2572816459a25dcfacf3ce0d8387ff536ad917c176bb6ecb08d7ca4455574",
+          "length_m": 180.58111866323975,
+          "cost_m": 180.58111866323975,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 180.58111866323975,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 0.0,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        },
+        {
+          "mode": "CONDITIONAL_SEAMS",
+          "run_id": "RUN-20261112T021346-5d56eb2eaf",
+          "response_sha256": "7a6b68c1e113a11d3eebbb7797ecf1550797ee69cd4541c84777e38941b95e33",
+          "length_m": 180.58111866323975,
+          "cost_m": 180.58111866323975,
+          "geometry_length_gain_m": 0.0,
+          "weighted_cost_gain_m": 0.0,
+          "same_exact_ordered_coordinates_after_consecutive_duplicate_removal": true,
+          "same_exact_geometry_point_set": true,
+          "strict_new_geometry_outside_baseline_m": 0.0,
+          "strict_baseline_geometry_outside_new_m": 0.0,
+          "source_lengths_m": {
+            "native": 180.58111866323975,
+            "edge_band_derived": 0.0,
+            "full_face_derived": 0.0,
+            "local_mapped_grid_derived": 0.0,
+            "assumed": 0.0,
+            "exact_interface_derived": 0.0,
+            "conditional_seam": 0.0
+          },
+          "interface_ids_used": [],
+          "interpretation": "Identical ordered route; source-class/interface labels may change without a geometric gain"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "all_modes_exact_same_ordered_route_as_B0": true,
+  "status": "PASS_FOR_ALL_THIRTY_TWO_FIXED_MAIN_COMPARISONS",
+  "limits": [
+    "This measures model routes; no source-boundary accuracy or physical passage truth follows",
+    "Interface source-class lengths are reported separately and are not automatically new geometric route lengths"
+  ]
+}

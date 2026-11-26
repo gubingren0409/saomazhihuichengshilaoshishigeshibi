@@ -1,0 +1,76 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Independent synthetic graph and geometry expectations against frozen API; no full-map shortest-path proof",
+  "connectivity_source_sha256": "7b4b5eff6aae0343932eedb4c5f02634f8c1914c1efa9329de128f0196abc1c6",
+  "fixture_script_sha256": "5cc930208e8f36a94c228137c0873a4aa4508edda87b7dd742ea320ebb6bab1f",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "checks": [
+    {
+      "name": "NATIVE_GAP_ENDPOINT_FULL_ATTRIBUTES_PRESERVED",
+      "passed": true,
+      "detail": {
+        "accepted_seams": 2,
+        "source_metadata_equal": true,
+        "xy_comparison": "Exact coordinate values; Python list/tuple container representation treated as equivalent; all other attributes exact"
+      }
+    },
+    {
+      "name": "SAME_SOURCE_ROAD_PARTITION_REMAINS_DISCONNECTED",
+      "passed": true,
+      "detail": {
+        "domain_count": 2,
+        "new_crossing": false
+      }
+    },
+    {
+      "name": "POINT_TOUCH_ONE_SIDED_NATIVE_NO_ALIAS_OR_GAP_BYPASS",
+      "passed": true,
+      "detail": {
+        "one_sided_native_did_not_bridge": true
+      }
+    },
+    {
+      "name": "CURVED_PARENT_ORDER_LENGTH_DIRECTION_AND_BENDS",
+      "passed": true,
+      "detail": {
+        "ordered_parent_substring_max_coordinate_difference_m": 0.0,
+        "parent_bends_retained": true
+      }
+    },
+    {
+      "name": "CLEARANCE_REMOVAL_IS_NOT_SOURCE_GAP",
+      "passed": true,
+      "detail": {
+        "P_to_Omega_removed_strip_not_filled": true
+      }
+    },
+    {
+      "name": "PREDECLARED_CAPS_ONLY_0_5_2_5_METRES",
+      "passed": true,
+      "detail": {
+        "0.5": false,
+        "2.0": false,
+        "5.0": true
+      }
+    },
+    {
+      "name": "F0_F1_PARALLEL_NATIVE_AND_ASSUMED_CHOICES_REMAIN_DISTINCT",
+      "passed": true,
+      "detail": {
+        "independently_weighted_same_graph": {
+          "1": {
+            "cost_m": 5.0,
+            "assumed_length_m": 1.0
+          },
+          "2": {
+            "cost_m": 5.5,
+            "assumed_length_m": 0
+          }
+        },
+        "accepted_seams": 1
+      }
+    }
+  ],
+  "status": "PASS_FOR_SEVEN_REPORTED_SYNTHETIC_CHECKS"
+}

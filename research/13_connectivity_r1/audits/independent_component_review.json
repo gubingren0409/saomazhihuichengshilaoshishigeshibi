@@ -1,0 +1,403 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Independent union-find WCC and iterative Kosaraju SCC, all isolated IDs retained, source/local canonical topology SHA and actual overlay PREP/response chain bound; before query terminal binding",
+  "APP_solver_calls": 0,
+  "route_solver_calls": 0,
+  "visibility_rebuilds": 0,
+  "author_component_receipt_sha256": "51d7da8b6e98c5b1661cfa2191115b9e3a0ba6c268796a21ac28aef3e9acb130",
+  "component_csv_sha256": "a84b5c4f1a70013dfee7a2036e6a978b41b07c0af96b148549b0b90393010031",
+  "membership_csv_sha256": "7cc912f8eaa6517c64bb2c96d1e31126b0dbeaba17eed38c385fb20cc863692d",
+  "rows": [
+    {
+      "namespace": [
+        "sh-exhibition",
+        ""
+      ],
+      "mode": "FROZEN_FULL_FACE",
+      "prepared_graph_sha256": "61ab5c0aea14e35637b1c094c1666de890a36f8ce22776bdbef0271e6f0a332e",
+      "measured": {
+        "nodes": 3421,
+        "arcs": 6810,
+        "weak_components": 212,
+        "strong_components": 212
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-exhibition",
+        ""
+      ],
+      "mode": "SOURCE_COMPLETE",
+      "prepared_graph_sha256": "6df3a82322ae356907e502f8fa01b5eba20705f4968d1ef2890821664f5a37b3",
+      "measured": {
+        "nodes": 3912,
+        "arcs": 8686,
+        "weak_components": 215,
+        "strong_components": 215
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-exhibition",
+        ""
+      ],
+      "mode": "EXACT_STITCH",
+      "prepared_graph_sha256": "b03f18166d9a8f5a06c31628b4b2111a415907cc3397735ad908d81e324964b1",
+      "measured": {
+        "nodes": 4074,
+        "arcs": 9658,
+        "weak_components": 215,
+        "strong_components": 215
+      },
+      "interface_membership_records_checked": 1788,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-exhibition",
+        ""
+      ],
+      "mode": "CONDITIONAL_SEAMS",
+      "prepared_graph_sha256": "b7d4df604747135c7e418af0f9041a213efcaa84b9a8aee8773c0d0010e70837",
+      "measured": {
+        "nodes": 4080,
+        "arcs": 9712,
+        "weak_components": 213,
+        "strong_components": 213
+      },
+      "interface_membership_records_checked": 2086,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        ""
+      ],
+      "mode": "FROZEN_FULL_FACE",
+      "prepared_graph_sha256": "df984f3ae272447ecbc3715e86e8c107ec7ac2a34c6834f1b85271a65d46f1ba",
+      "measured": {
+        "nodes": 36935,
+        "arcs": 215390,
+        "weak_components": 245,
+        "strong_components": 246
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        ""
+      ],
+      "mode": "SOURCE_COMPLETE",
+      "prepared_graph_sha256": "2b79f522732b904ef881896312b5584a2b6b75f418ebff0f31c062deb7b20f66",
+      "measured": {
+        "nodes": 40028,
+        "arcs": 224188,
+        "weak_components": 252,
+        "strong_components": 253
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        ""
+      ],
+      "mode": "EXACT_STITCH",
+      "prepared_graph_sha256": "49238fa1fb00613d14632019b5f459bacfbf47ccf8352e6400bed0dc85e86287",
+      "measured": {
+        "nodes": 40835,
+        "arcs": 226420,
+        "weak_components": 254,
+        "strong_components": 255
+      },
+      "interface_membership_records_checked": 11024,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        ""
+      ],
+      "mode": "CONDITIONAL_SEAMS",
+      "prepared_graph_sha256": "a7326489124ec7c0461282ded8a9a04ecf2d17fb4c0453c820b25ad2156b1c1c",
+      "measured": {
+        "nodes": 40841,
+        "arcs": 226492,
+        "weak_components": 253,
+        "strong_components": 254
+      },
+      "interface_membership_records_checked": 12017,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        "node/6897141353"
+      ],
+      "mode": "FROZEN_FULL_FACE",
+      "prepared_graph_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986",
+      "measured": {
+        "nodes": 38420,
+        "arcs": 290940,
+        "weak_components": 245,
+        "strong_components": 246
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        "node/6897141353"
+      ],
+      "mode": "SOURCE_COMPLETE",
+      "prepared_graph_sha256": "31f5afc8da7a44e6e7fcb9947d8fa140504cfa67a3a3c0dbd69fc45af63f5522",
+      "measured": {
+        "nodes": 41513,
+        "arcs": 299738,
+        "weak_components": 252,
+        "strong_components": 253
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        "node/6897141353"
+      ],
+      "mode": "EXACT_STITCH",
+      "prepared_graph_sha256": "2f4c41477d88ce3094c3956ac2423ec2473409fcfdf9bb44b6d3762922eea831",
+      "measured": {
+        "nodes": 42320,
+        "arcs": 301970,
+        "weak_components": 254,
+        "strong_components": 255
+      },
+      "interface_membership_records_checked": 12160,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        "node/6897141353"
+      ],
+      "mode": "CONDITIONAL_SEAMS",
+      "prepared_graph_sha256": "db8202683f6d327d8d04eeff4b62b63de9f418a537a62fae5bf500077db25d6d",
+      "measured": {
+        "nodes": 42326,
+        "arcs": 302042,
+        "weak_components": 253,
+        "strong_components": 254
+      },
+      "interface_membership_records_checked": 13153,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        "node/6897145227"
+      ],
+      "mode": "FROZEN_FULL_FACE",
+      "prepared_graph_sha256": "cbf4cc23378f0e89545565deead8f43a37d07bb147f44fd781c087700eaaf5d4",
+      "measured": {
+        "nodes": 38355,
+        "arcs": 241716,
+        "weak_components": 245,
+        "strong_components": 246
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        "node/6897145227"
+      ],
+      "mode": "SOURCE_COMPLETE",
+      "prepared_graph_sha256": "dae6b5b328fc07bb817da144ce3bf10e5c843a71e0664b2afd761c88b9bb8486",
+      "measured": {
+        "nodes": 41448,
+        "arcs": 250514,
+        "weak_components": 252,
+        "strong_components": 253
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        "node/6897145227"
+      ],
+      "mode": "EXACT_STITCH",
+      "prepared_graph_sha256": "7aafe4a68f232e1b983b6067d63bcc2fc15e0eca4fb35d2ef29e19a2f94a5041",
+      "measured": {
+        "nodes": 42255,
+        "arcs": 252968,
+        "weak_components": 254,
+        "strong_components": 255
+      },
+      "interface_membership_records_checked": 14440,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-huangpu-01",
+        "node/6897145227"
+      ],
+      "mode": "CONDITIONAL_SEAMS",
+      "prepared_graph_sha256": "b042d27e2aef4b98d24715bae6aaa2b6781a830372da45ebc1d7b3a54d9ddba8",
+      "measured": {
+        "nodes": 42261,
+        "arcs": 253040,
+        "weak_components": 253,
+        "strong_components": 254
+      },
+      "interface_membership_records_checked": 15433,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-library",
+        "node/11300000483"
+      ],
+      "mode": "FROZEN_FULL_FACE",
+      "prepared_graph_sha256": "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb",
+      "measured": {
+        "nodes": 6101,
+        "arcs": 22392,
+        "weak_components": 254,
+        "strong_components": 254
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-library",
+        "node/11300000483"
+      ],
+      "mode": "SOURCE_COMPLETE",
+      "prepared_graph_sha256": "14307ef870ce08273868e50ce7152cb7069aa451321955a154bbc9c89762e179",
+      "measured": {
+        "nodes": 6293,
+        "arcs": 23600,
+        "weak_components": 255,
+        "strong_components": 255
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-library",
+        "node/11300000483"
+      ],
+      "mode": "EXACT_STITCH",
+      "prepared_graph_sha256": "b7c8901b35bad674ddc609d75ae756835f395519464043e4276734a66a4a8152",
+      "measured": {
+        "nodes": 6451,
+        "arcs": 24562,
+        "weak_components": 255,
+        "strong_components": 255
+      },
+      "interface_membership_records_checked": 1788,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-library",
+        "node/11300000483"
+      ],
+      "mode": "CONDITIONAL_SEAMS",
+      "prepared_graph_sha256": "ffc403e13ba9f7083861fe6b8d17315aa21075e4dd3d72d434d3d1be23c1db5b",
+      "measured": {
+        "nodes": 6455,
+        "arcs": 24600,
+        "weak_components": 254,
+        "strong_components": 254
+      },
+      "interface_membership_records_checked": 2029,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-tower",
+        ""
+      ],
+      "mode": "FROZEN_FULL_FACE",
+      "prepared_graph_sha256": "254e35ee7a9126cf3d57ac18e81f576d9718d1da9fb6fd0c1750dbf93c72f544",
+      "measured": {
+        "nodes": 9284,
+        "arcs": 24313,
+        "weak_components": 455,
+        "strong_components": 456
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-tower",
+        ""
+      ],
+      "mode": "SOURCE_COMPLETE",
+      "prepared_graph_sha256": "843a8cd2aad3a6a45b4ab994b15037749f39fb8e04043773b96a54cbf27dd074",
+      "measured": {
+        "nodes": 12700,
+        "arcs": 34497,
+        "weak_components": 550,
+        "strong_components": 551
+      },
+      "interface_membership_records_checked": 0,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-tower",
+        ""
+      ],
+      "mode": "EXACT_STITCH",
+      "prepared_graph_sha256": "560b5de52457e3170113274fc092bfcdf5010af3225b88a933eb368a88e0ea56",
+      "measured": {
+        "nodes": 14884,
+        "arcs": 39335,
+        "weak_components": 602,
+        "strong_components": 603
+      },
+      "interface_membership_records_checked": 6476,
+      "errors": []
+    },
+    {
+      "namespace": [
+        "sh-tower",
+        ""
+      ],
+      "mode": "CONDITIONAL_SEAMS",
+      "prepared_graph_sha256": "5a3aa86f6bf4f555bcace7b2a98a204866ea2f1517640b8e9f064e604c38974e",
+      "measured": {
+        "nodes": 14900,
+        "arcs": 39493,
+        "weak_components": 602,
+        "strong_components": 603
+      },
+      "interface_membership_records_checked": 7309,
+      "errors": []
+    }
+  ],
+  "author_declared_full_attribute_identity_failures": [],
+  "status": "PASS_FOR_REPORTED_BOUND_COMPONENT_COUNTS",
+  "limits": [
+    "Topology-only snapshots cannot independently recreate full attributed graph SHA; author reconstruction requires that equality first and this audit verifies its original PREP and response bindings",
+    "Directed model components do not establish physical passage, public access, continuous-domain components or registered-door eligibility",
+    "No query endpoint binding or shortest-path invocation performed"
+  ]
+}

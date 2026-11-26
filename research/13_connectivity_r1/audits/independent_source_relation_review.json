@@ -1,0 +1,1335 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Raw source population and remeasurement of every frozen author relation; Omega verified separately before reuse",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "source_admitted_scene_objects": 130,
+  "source_admitted_unique_type_id_versions": 88,
+  "newly_qualified_scene_objects": 124,
+  "newly_qualified_unique_type_id_versions": 82,
+  "cross_clip_repeated_unique_objects": 38,
+  "raw_highway_line_scene_objects": 11411,
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "relations": 301,
+      "independent_categories": {
+        "SOURCE_POSITIVE_GAP": 64,
+        "P_CONTACT_OMEGA_SEPARATED": 30,
+        "BOTH_CONTACT": 207
+      },
+      "author_relation_sha256": "db67e6f97b1cb778f762622fbc9fbebe4301b22620a77c0056936c019d7c0345",
+      "omega_independent_check_sha256": "fc55052e7b97643a853f9ae4e48a4b2b54920a49106385a8a7d0c3af2c4e75cf"
+    },
+    {
+      "scene_id": "sh-wukang",
+      "relations": 28,
+      "independent_categories": {
+        "SOURCE_POSITIVE_GAP": 15,
+        "BOTH_CONTACT": 13
+      },
+      "author_relation_sha256": "e13148d0269e2e9c79fb5b4b4c29ee17f4818f246990e5b6bbf0c79934596a4b",
+      "omega_independent_check_sha256": "930e1f17372b7c52d90a6179b28becd3f4f0cd99b9c018dbd5c7c4873095fe3f"
+    },
+    {
+      "scene_id": "sh-tower",
+      "relations": 394,
+      "independent_categories": {
+        "BOTH_CONTACT": 234,
+        "SOURCE_POSITIVE_GAP": 130,
+        "P_CONTACT_OMEGA_SEPARATED": 26,
+        "EMPTY_OMEGA": 4
+      },
+      "author_relation_sha256": "9e42bcb2097433c4cb941007cbefa9b446a81b1e938a581ff7b62dc1cd658b5f",
+      "omega_independent_check_sha256": "28328e2f64425ff2e629f967e7970c1065ff21369e1ced1836a16e7a7ff4952b"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "relations": 190,
+      "independent_categories": {
+        "SOURCE_POSITIVE_GAP": 42,
+        "P_CONTACT_OMEGA_SEPARATED": 19,
+        "BOTH_CONTACT": 129
+      },
+      "author_relation_sha256": "c899d8e2de2d27e57e92194a3df381a25c9e08800b7d72e9c95d3492ec0503a2",
+      "omega_independent_check_sha256": "29fcd248be4c74b5386d75e62906539eaa9710b8efa8dd29b3a7e21e5d50b57f"
+    },
+    {
+      "scene_id": "sh-library",
+      "relations": 115,
+      "independent_categories": {
+        "SOURCE_POSITIVE_GAP": 43,
+        "BOTH_CONTACT": 72
+      },
+      "author_relation_sha256": "d07f073a03bc4dd4435b36a225f3014c1c32c72db70f874d61c4808c6590a7a7",
+      "omega_independent_check_sha256": "4be2285f7088816c5e63f38702340e3f297b0311e414b690342901ea65e4a13e"
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "relations": 153,
+      "independent_categories": {
+        "BOTH_CONTACT": 93,
+        "SOURCE_POSITIVE_GAP": 58,
+        "P_CONTACT_OMEGA_SEPARATED": 2
+      },
+      "author_relation_sha256": "5260c64ac7c2572d3184a162afaeeccf639c2ed6e28e8691f01e85a596087738",
+      "omega_independent_check_sha256": "d059028b8a0313fd98e7088e8c346d8ddc999656e4357f96451dde7be385c832"
+    }
+  ],
+  "relation_count": 1181,
+  "errors": [],
+  "P_contact_omega_gap": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/1303211746",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500000022981438,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178721892",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24953614452245954,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178721893",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999997937723706,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178723096",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2499999239843728,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178723098",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500000470375681,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178725152",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2502233894089681,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178725157",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2499999001565386,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178725158",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24956660475410297,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178731158",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.251112154964728,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178731161",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24964497222568938,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178732947",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.25000001172404446,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178732948",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2499999539972186,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178733291",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999996906981256,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178737609",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999991545519917,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178737619",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999994632299272,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178738418",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 1.3031073779528053,
+      "P_intersection_length_m": 12.639254127409755,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178801537",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.250000021091364,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178801546",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999994519858776,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/405396505",
+      "b_source_id": "way/405396511",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14759264136652686,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411288",
+      "b_source_id": "way/525376136",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24968400846152022,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/116884297",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.25000013107095803,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/760475727",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999989344271012,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199195",
+      "b_source_id": "way/116884297",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2498840309649947,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199195",
+      "b_source_id": "way/760475693",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500000783321917,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199196",
+      "b_source_id": "way/428199197",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999988378516444,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199196",
+      "b_source_id": "way/553899386",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500000155888327,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199196",
+      "b_source_id": "way/760475725",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500013806392522,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/760475693",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.25000001697333085,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/760475726",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999996056450846,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/682216778",
+      "b_source_id": "way/682216783",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14981931833452072,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/7474324",
+      "b_source_id": "way/178492989",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.1500000000136931,
+      "P_intersection_length_m": 8.57968589978037,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/7474324",
+      "b_source_id": "way/49224795",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14999798394102734,
+      "P_intersection_length_m": 10.947704262353065,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/7474324",
+      "b_source_id": "way/515758775",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999996102450625,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/1300252256",
+      "b_source_id": "way/1300252257",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500000001440724,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/164959132",
+      "b_source_id": "way/145007016",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14999999991053753,
+      "P_intersection_length_m": 17.476594470042162,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/164959132",
+      "b_source_id": "way/164958534",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999995885040371,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/164959132",
+      "b_source_id": "way/49219226",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14999999998637573,
+      "P_intersection_length_m": 17.551726583583076,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/116884297",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.25000013107095803,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/760475727",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999989344271012,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199195",
+      "b_source_id": "way/116884297",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2498840309649947,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199195",
+      "b_source_id": "way/760475693",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500000783321917,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199196",
+      "b_source_id": "way/428199197",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999988378516444,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199196",
+      "b_source_id": "way/553899386",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500000155888327,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199196",
+      "b_source_id": "way/760475725",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500013806392522,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/515758743",
+      "b_source_id": "way/178492989",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.15000000006919084,
+      "P_intersection_length_m": 7.23011691233839,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/515758743",
+      "b_source_id": "way/49224795",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14999999827443428,
+      "P_intersection_length_m": 6.341941578161298,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893880",
+      "b_source_id": "way/227316843",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14988132547342614,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT",
+        "SOURCE_BARRIER:way/428202595"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893880",
+      "b_source_id": "way/428199197",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999977370879306,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/760475693",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.25000001697333085,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/760475726",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999996056450846,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/964420110",
+      "b_source_id": "way/1066735070",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14999999990410176,
+      "P_intersection_length_m": 14.574901144496696,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/964420110",
+      "b_source_id": "way/9704035",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14999999358986651,
+      "P_intersection_length_m": 5.511375256514503,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/965030363",
+      "b_source_id": "way/965030370",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 21.386248944075298,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/965049038",
+      "b_source_id": "way/965049037",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2496710636946505,
+      "P_intersection_length_m": 91.77211726125057,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274372",
+      "b_source_id": "way/10632119",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.1499999999067648,
+      "P_intersection_length_m": 7.426932079897808,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274372",
+      "b_source_id": "way/47281535",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14995322946634734,
+      "P_intersection_length_m": 19.570561009421095,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/1303211746",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500000022981438,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178721892",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24953614452245954,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178721893",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999997937723706,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178723096",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2499999239843728,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178723098",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2500000470375681,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178725152",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2502233894089681,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178725157",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2499999001565386,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178725158",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24956660475410297,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178731158",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.251112154964728,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178731161",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24964497222568938,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178732947",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.25000001172404446,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178732948",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.2499999539972186,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178733291",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999996906981256,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178737609",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999991545519917,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178737619",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999994632299272,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178738418",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 1.3031073779528053,
+      "P_intersection_length_m": 12.639254127409755,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178801537",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.250000021091364,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "relation/2153738",
+      "b_source_id": "way/178801546",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24999994519858776,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411288",
+      "b_source_id": "way/525376136",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24968400846152022,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411288",
+      "b_source_id": "way/525376136",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.24968400846152022,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": true,
+      "author_nearest_connector_conflicts": [
+        "FACE_AREAL_OR_SOURCE_HOLE_CLEARANCE_MASK"
+      ],
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/682216778",
+      "b_source_id": "way/682216783",
+      "P_distance_m": 0.0,
+      "omega_distance_m": 0.14981931833452072,
+      "P_intersection_length_m": 0.0,
+      "omega_intersection_length_m": 0.0,
+      "category": "P_CONTACT_OMEGA_SEPARATED",
+      "b_ground_permission_eligible": false,
+      "author_nearest_connector_conflicts": [
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ],
+      "errors": []
+    }
+  ],
+  "status": "MATCH_FOR_REPORTED_SOURCE_AND_RELATION_SCOPE",
+  "limits": [
+    "A P contact separated by Omega is a constraint/clearance case, not proof of an OSM gap",
+    "Matching geometry does not prove graph admission or route use",
+    "Repeated scene objects are not distinct new physical surfaces",
+    "No user acceptance or field validation"
+  ]
+}

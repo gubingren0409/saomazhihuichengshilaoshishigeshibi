@@ -1,0 +1,495 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "independent_reference": "RAW_OSM_EXACT_NODE_CHAIN_RING_CONSTRUCTION_NO_AUTHOR_CLASSIFICATION_IMPORTS",
+  "crs": "EPSG:32651",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "raw_bounds_wsen": [
+        121.453,
+        31.216,
+        121.488,
+        31.244
+      ],
+      "manifest_bounds_wsen": [
+        121.453,
+        31.216,
+        121.488,
+        31.244
+      ],
+      "raw_type_counts": {
+        "node": 49964,
+        "way": 8013,
+        "relation": 29
+      },
+      "area_candidate_count": 5123,
+      "admission_counts": {
+        "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA": 5091,
+        "ADMITTED": 29,
+        "NON_GROUND_OR_UNRESOLVED_LAYER": 2,
+        "INCOMPLETE_SOURCE_COVERAGE": 1
+      },
+      "admitted_ids": [
+        "relation/2153738",
+        "relation/2385771",
+        "relation/8055906",
+        "way/1289666063",
+        "way/1572010715",
+        "way/160023915",
+        "way/160023918",
+        "way/160023919",
+        "way/160895400",
+        "way/160895826",
+        "way/160896233",
+        "way/161090905",
+        "way/178721645",
+        "way/405396505",
+        "way/407411288",
+        "way/428199191",
+        "way/428199195",
+        "way/428199196",
+        "way/428199199",
+        "way/435452346",
+        "way/435452349",
+        "way/525376140",
+        "way/553893870",
+        "way/553893883",
+        "way/554033955",
+        "way/682216778",
+        "way/682223773",
+        "way/682223781",
+        "way/900252576"
+      ],
+      "old_selected_ids": [
+        "relation/2153738",
+        "relation/2385771"
+      ],
+      "newly_qualified_ids": [
+        "relation/8055906",
+        "way/1289666063",
+        "way/1572010715",
+        "way/160023915",
+        "way/160023918",
+        "way/160023919",
+        "way/160895400",
+        "way/160895826",
+        "way/160896233",
+        "way/161090905",
+        "way/178721645",
+        "way/405396505",
+        "way/407411288",
+        "way/428199191",
+        "way/428199195",
+        "way/428199196",
+        "way/428199199",
+        "way/435452346",
+        "way/435452349",
+        "way/525376140",
+        "way/553893870",
+        "way/553893883",
+        "way/554033955",
+        "way/682216778",
+        "way/682223773",
+        "way/682223781",
+        "way/900252576"
+      ],
+      "old_selected_not_admitted": [],
+      "exact_geometry_duplicate_groups": [],
+      "broad_walk_line_count": 2635
+    },
+    {
+      "scene_id": "sh-wukang",
+      "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "raw_bounds_wsen": [
+        121.4161549072511,
+        31.194017950952123,
+        121.4512465927489,
+        31.21852626140535
+      ],
+      "manifest_bounds_wsen": [
+        121.4161549072511,
+        31.194017950952123,
+        121.4512465927489,
+        31.21852626140535
+      ],
+      "raw_type_counts": {
+        "node": 39626,
+        "way": 5857,
+        "relation": 7
+      },
+      "area_candidate_count": 4597,
+      "admission_counts": {
+        "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA": 4592,
+        "ADMITTED": 3,
+        "INCOMPLETE_SOURCE_COVERAGE": 2
+      },
+      "admitted_ids": [
+        "way/1160136226",
+        "way/331207147",
+        "way/674428069"
+      ],
+      "old_selected_ids": [],
+      "newly_qualified_ids": [
+        "way/1160136226",
+        "way/331207147",
+        "way/674428069"
+      ],
+      "old_selected_not_admitted": [],
+      "exact_geometry_duplicate_groups": [],
+      "broad_walk_line_count": 1107
+    },
+    {
+      "scene_id": "sh-tower",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "raw_bounds_wsen": [
+        121.48372090725108,
+        31.22336795421446,
+        121.51881259274889,
+        31.247868657294042
+      ],
+      "manifest_bounds_wsen": [
+        121.48372090725108,
+        31.22336795421446,
+        121.51881259274889,
+        31.247868657294042
+      ],
+      "raw_type_counts": {
+        "node": 43737,
+        "way": 5561,
+        "relation": 82
+      },
+      "area_candidate_count": 2631,
+      "admission_counts": {
+        "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA": 2577,
+        "ADMITTED": 48,
+        "NON_GROUND_OR_UNRESOLVED_LAYER": 2,
+        "INCOMPLETE_SOURCE_COVERAGE": 4
+      },
+      "admitted_ids": [
+        "relation/7474324",
+        "way/1211261444",
+        "way/1300252256",
+        "way/1427522329",
+        "way/1429697325",
+        "way/1429905588",
+        "way/144724514",
+        "way/1573409049",
+        "way/160165831",
+        "way/164959132",
+        "way/166110062",
+        "way/166128036",
+        "way/167049142",
+        "way/167049143",
+        "way/40040197",
+        "way/40779182",
+        "way/40779655",
+        "way/428199191",
+        "way/428199195",
+        "way/428199196",
+        "way/428199199",
+        "way/515758743",
+        "way/553893870",
+        "way/553893880",
+        "way/553893883",
+        "way/554033955",
+        "way/754767798",
+        "way/948064626",
+        "way/948913517",
+        "way/957455550",
+        "way/957643170",
+        "way/959022796",
+        "way/959022831",
+        "way/959022837",
+        "way/964420080",
+        "way/964420093",
+        "way/964420106",
+        "way/964420110",
+        "way/965030363",
+        "way/965030386",
+        "way/965030389",
+        "way/965049038",
+        "way/965081081",
+        "way/965110098",
+        "way/967274372",
+        "way/967835503",
+        "way/967835529",
+        "way/969466759"
+      ],
+      "old_selected_ids": [
+        "way/965081081"
+      ],
+      "newly_qualified_ids": [
+        "relation/7474324",
+        "way/1211261444",
+        "way/1300252256",
+        "way/1427522329",
+        "way/1429697325",
+        "way/1429905588",
+        "way/144724514",
+        "way/1573409049",
+        "way/160165831",
+        "way/164959132",
+        "way/166110062",
+        "way/166128036",
+        "way/167049142",
+        "way/167049143",
+        "way/40040197",
+        "way/40779182",
+        "way/40779655",
+        "way/428199191",
+        "way/428199195",
+        "way/428199196",
+        "way/428199199",
+        "way/515758743",
+        "way/553893870",
+        "way/553893880",
+        "way/553893883",
+        "way/554033955",
+        "way/754767798",
+        "way/948064626",
+        "way/948913517",
+        "way/957455550",
+        "way/957643170",
+        "way/959022796",
+        "way/959022831",
+        "way/959022837",
+        "way/964420080",
+        "way/964420093",
+        "way/964420106",
+        "way/964420110",
+        "way/965030363",
+        "way/965030386",
+        "way/965030389",
+        "way/965049038",
+        "way/965110098",
+        "way/967274372",
+        "way/967835503",
+        "way/967835529",
+        "way/969466759"
+      ],
+      "old_selected_not_admitted": [],
+      "exact_geometry_duplicate_groups": [],
+      "broad_walk_line_count": 2586
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "raw_bounds_wsen": [
+        121.45153915725106,
+        31.224814541750792,
+        121.48663084274887,
+        31.24931486971595
+      ],
+      "manifest_bounds_wsen": [
+        121.45153915725106,
+        31.224814541750792,
+        121.48663084274887,
+        31.24931486971595
+      ],
+      "raw_type_counts": {
+        "node": 43391,
+        "way": 6493,
+        "relation": 22
+      },
+      "area_candidate_count": 3918,
+      "admission_counts": {
+        "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA": 3894,
+        "ADMITTED": 19,
+        "NON_GROUND_OR_UNRESOLVED_LAYER": 2,
+        "INCOMPLETE_SOURCE_COVERAGE": 3
+      },
+      "admitted_ids": [
+        "relation/2153738",
+        "relation/2385771",
+        "relation/8055906",
+        "way/1211604642",
+        "way/1289666063",
+        "way/1365758867",
+        "way/1572010715",
+        "way/160023915",
+        "way/160023918",
+        "way/160023919",
+        "way/160895400",
+        "way/160895826",
+        "way/160896233",
+        "way/161090905",
+        "way/177929642",
+        "way/178721645",
+        "way/407411288",
+        "way/525376140",
+        "way/900252576"
+      ],
+      "old_selected_ids": [
+        "relation/8055906",
+        "way/160023915"
+      ],
+      "newly_qualified_ids": [
+        "relation/2153738",
+        "relation/2385771",
+        "way/1211604642",
+        "way/1289666063",
+        "way/1365758867",
+        "way/1572010715",
+        "way/160023918",
+        "way/160023919",
+        "way/160895400",
+        "way/160895826",
+        "way/160896233",
+        "way/161090905",
+        "way/177929642",
+        "way/178721645",
+        "way/407411288",
+        "way/525376140",
+        "way/900252576"
+      ],
+      "old_selected_not_admitted": [],
+      "exact_geometry_duplicate_groups": [],
+      "broad_walk_line_count": 2309
+    },
+    {
+      "scene_id": "sh-library",
+      "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "raw_bounds_wsen": [
+        121.42246960725109,
+        31.19722121588461,
+        121.45756129274889,
+        31.221728696380126
+      ],
+      "manifest_bounds_wsen": [
+        121.42246960725109,
+        31.19722121588461,
+        121.45756129274889,
+        31.221728696380126
+      ],
+      "raw_type_counts": {
+        "node": 47436,
+        "way": 7539,
+        "relation": 10
+      },
+      "area_candidate_count": 6207,
+      "admission_counts": {
+        "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA": 6195,
+        "ADMITTED": 12
+      },
+      "admitted_ids": [
+        "way/1160136226",
+        "way/1264845154",
+        "way/331207147",
+        "way/436681710",
+        "way/440429843",
+        "way/440439921",
+        "way/440439922",
+        "way/440478976",
+        "way/440478977",
+        "way/447882284",
+        "way/447882287",
+        "way/674428069"
+      ],
+      "old_selected_ids": [
+        "way/1160136226"
+      ],
+      "newly_qualified_ids": [
+        "way/1264845154",
+        "way/331207147",
+        "way/436681710",
+        "way/440429843",
+        "way/440439921",
+        "way/440439922",
+        "way/440478976",
+        "way/440478977",
+        "way/447882284",
+        "way/447882287",
+        "way/674428069"
+      ],
+      "old_selected_not_admitted": [],
+      "exact_geometry_duplicate_groups": [],
+      "broad_walk_line_count": 1163
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "raw_bounds_wsen": [
+        121.43077670725108,
+        31.21448305254272,
+        121.46586839274889,
+        31.238986059222622
+      ],
+      "manifest_bounds_wsen": [
+        121.43077670725108,
+        31.21448305254272,
+        121.46586839274889,
+        31.238986059222622
+      ],
+      "raw_type_counts": {
+        "node": 42963,
+        "way": 6176,
+        "relation": 21
+      },
+      "area_candidate_count": 4501,
+      "admission_counts": {
+        "SOURCE_NOT_EXPLICIT_PEDESTRIAN_AREA": 4479,
+        "ADMITTED": 19,
+        "INCOMPLETE_SOURCE_COVERAGE": 2,
+        "NON_GROUND_OR_UNRESOLVED_LAYER": 1
+      },
+      "admitted_ids": [
+        "way/1264845154",
+        "way/1275365117",
+        "way/1289666063",
+        "way/1369422283",
+        "way/331207147",
+        "way/407411288",
+        "way/436681710",
+        "way/440429843",
+        "way/440439921",
+        "way/440439922",
+        "way/440478976",
+        "way/440478977",
+        "way/447882284",
+        "way/447882287",
+        "way/525376140",
+        "way/681573501",
+        "way/682216778",
+        "way/682223773",
+        "way/682223781"
+      ],
+      "old_selected_ids": [],
+      "newly_qualified_ids": [
+        "way/1264845154",
+        "way/1275365117",
+        "way/1289666063",
+        "way/1369422283",
+        "way/331207147",
+        "way/407411288",
+        "way/436681710",
+        "way/440429843",
+        "way/440439921",
+        "way/440439922",
+        "way/440478976",
+        "way/440478977",
+        "way/447882284",
+        "way/447882287",
+        "way/525376140",
+        "way/681573501",
+        "way/682216778",
+        "way/682223773",
+        "way/682223781"
+      ],
+      "old_selected_not_admitted": [],
+      "exact_geometry_duplicate_groups": [],
+      "broad_walk_line_count": 1469
+    }
+  ],
+  "elapsed_s": 12.977137200010475,
+  "scope": "Source P and broad source-line relations only; no claim of Omega legality or routing admission yet",
+  "limits": [
+    "Source geometry is not field truth",
+    "Broad line set deliberately includes blocked/non-ground lines for rejection review",
+    "No object is snapped, repaired, closed or inferred",
+    "No screenshot request metadata; SCREENSHOT_REQUEST_UNBOUND",
+    "Historical user observation remains PENDING_USER_OBSERVATION"
+  ]
+}

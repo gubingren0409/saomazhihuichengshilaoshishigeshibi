@@ -1,0 +1,110 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Saved-response independent geometry/length/cost/native parent provenance and paired graph identities; no independent whole-network shortest-path solve",
+  "review_script_sha256": "959991be29e00924fd5737f5059ad005a111238e10291c7d4df2537e61a4d638",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "numeric_policy_registered": true,
+  "frozen_visibility_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+  "native_numeric_limit_m": 1e-08,
+  "rows": [
+    {
+      "file": "runtime\\pilot_snapshot_3\\runs\\mechanisms\\RUN-20261112T005041-4214c4eaa8.json",
+      "sha256": "d6b717d1deca84a5c868396059b46f3ba97132bc30589f5a91ac7f99d73e5f94",
+      "run_id": "RUN-20261112T005041-4214c4eaa8",
+      "status": "MECHANISM_ENDPOINT_UNBOUND",
+      "errors": [],
+      "scope": "REQUEST_STATUS_ONLY_NO_ROUTE_GEOMETRY_OR_IMPOSSIBILITY_PROOF"
+    },
+    {
+      "file": "runtime\\pilot_snapshot_3\\runs\\mechanisms\\RUN-20261112T005057-43bdaf7d01.json",
+      "sha256": "d74271d5d46381fdc26d767c898ed2b34eddd10daf681d349f4d1f66744e0006",
+      "run_id": "RUN-20261112T005057-43bdaf7d01",
+      "status": "NO_VALID_ROUTE",
+      "errors": [],
+      "scope": "REQUEST_STATUS_ONLY_NO_ROUTE_GEOMETRY_OR_IMPOSSIBILITY_PROOF"
+    },
+    {
+      "file": "runtime\\pilot_snapshot_3\\runs\\mechanisms\\RUN-20261112T005105-c67a6bf939.json",
+      "sha256": "00e316ad76fea499e48024eb5a29578ccd7615e8b33a0b2809978b0b4f1b0308",
+      "run_id": "RUN-20261112T005105-c67a6bf939",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measured_length_m": 158.1976212136584,
+      "measured_cost_m": 158.1976212136584,
+      "measured_layers_m": {
+        "derived": 158.1976212136584
+      },
+      "measured_source_lengths_m": {
+        "exact_interface_derived": 158.1976212136584
+      },
+      "source_endpoint_measurements": {
+        "start": {
+          "id": "node/2613044111",
+          "raw_source_xy": [
+            351498.287766238,
+            3455484.57699674
+          ],
+          "error_m": 0.0
+        },
+        "target": {
+          "id": "node/12682703868",
+          "raw_source_xy": [
+            351609.81069622654,
+            3455594.7721985923
+          ],
+          "error_m": 0.0
+        }
+      },
+      "native_parent_proofs": [],
+      "whole_geometry_errors": [],
+      "graph_sha256": "f9611e9cd3548778b79bfd79c6b6d0ac2959f37cfbf889d35b22d4a01b4a3784",
+      "solver_invocation_id": "f3787b51bbd245c29a32664d810fa2d9"
+    },
+    {
+      "file": "runtime\\pilot_snapshot_3\\runs\\mechanisms\\RUN-20261112T005110-e98b66c5ee.json",
+      "sha256": "6d95862816c324f75ad64e20d93245011933bbc0ee359e6674c82c528e25f1e4",
+      "run_id": "RUN-20261112T005110-e98b66c5ee",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measured_length_m": 158.1976212136584,
+      "measured_cost_m": 158.1976212136584,
+      "measured_layers_m": {
+        "derived": 158.1976212136584
+      },
+      "measured_source_lengths_m": {
+        "exact_interface_derived": 158.1976212136584
+      },
+      "source_endpoint_measurements": {
+        "start": {
+          "id": "node/2613044111",
+          "raw_source_xy": [
+            351498.287766238,
+            3455484.57699674
+          ],
+          "error_m": 0.0
+        },
+        "target": {
+          "id": "node/12682703868",
+          "raw_source_xy": [
+            351609.81069622654,
+            3455594.7721985923
+          ],
+          "error_m": 0.0
+        }
+      },
+      "native_parent_proofs": [],
+      "whole_geometry_errors": [],
+      "graph_sha256": "45fb0528c3794d4ea8c694c626be30ab72f4595b599e8b2f863311220cdb82db",
+      "solver_invocation_id": "d7f7f32ff80d4259b1d88efe83d4269c"
+    }
+  ],
+  "F0_F1_pairs": [],
+  "status": "PASS_FOR_REPORTED_RESPONSE_SCOPE",
+  "limitations": [
+    "No-route and refusal status is not independently proved impossible",
+    "Conditional links checked for source geometry roles/cap/no-fill; full-source barrier regression is separate",
+    "No field or user observation acceptance",
+    "Original strict binary native-set alarms retained and may be resolved only by registered ordered-parent proof"
+  ]
+}

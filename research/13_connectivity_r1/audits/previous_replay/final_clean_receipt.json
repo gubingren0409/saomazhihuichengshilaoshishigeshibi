@@ -1,0 +1,107 @@
+{
+  "reviewer": "/root/face_review",
+  "role": "INDEPENDENT_FIXED_ARCHIVE_REAL_NEW_REQUEST_REPLAY",
+  "archive": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\delivery\\OPEN_REVIEW_R1_FINAL_FIXED.zip",
+  "archive_sha256": "c5472838de6320d983d80e4defd448e08c017777f23bc7aa083d38e7ce10b08a",
+  "scratch": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\runtime\\independent_clean_20261111T231044-87776242",
+  "checks": [
+    {
+      "name": "INDEPENDENT_CRC_PATH_ALL_MEMBER_SHA_EXACT_MANIFEST",
+      "passed": true,
+      "members": 404
+    },
+    {
+      "name": "CLEAN_UNPACK_UNITTEST_DISCOVER_REAL_EXECUTION",
+      "passed": true
+    },
+    {
+      "name": "CLEAN_SERVICE_FRESH_FULL_FACE_F1_REQUEST_REAL_SOLVER",
+      "passed": true
+    },
+    {
+      "name": "INDEPENDENT_RAW_GEOMETRY_LENGTH_COST_ENDPOINT_REMEASUREMENT",
+      "passed": false
+    },
+    {
+      "name": "ALL_ORIGINAL_SHIPPED_FILES_UNCHANGED_AFTER_LIVE_REPLAY",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "name": "OLD_SERVICE_NOT_RESTARTED_OR_STOPPED",
+      "passed": true
+    },
+    {
+      "name": "FIXED_ARCHIVE_UNCHANGED",
+      "passed": true
+    }
+  ],
+  "APP_solver_calls": 1,
+  "old_service_url": "http://127.0.0.1:53421/",
+  "unittest_discover": {
+    "command": "python -X utf8 -B -m unittest discover -s tests",
+    "exit_code": 0,
+    "log": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\runtime\\independent_clean_20261111T231044-87776242\\unittest_discover.txt",
+    "log_sha256": "aec6a2a8a1432e759fa408fae35301a01f34d7bbbe843262491c15beb6939042",
+    "stdout_tail": "",
+    "stderr_tail": ".................................\n----------------------------------------------------------------------\nRan 33 tests in 0.753s\n\nOK\n"
+  },
+  "request": {
+    "scene_id": "sh-huangpu-01",
+    "start_id": "node/11201355932",
+    "door_id": "node/6897141353",
+    "purpose": "APPROACH_OUTSIDE",
+    "method": "F1",
+    "area_routing": "FULL_FACE",
+    "request_id": "INDEPENDENT-CLEAN-aa949fd6e27741838d4141f98408f679"
+  },
+  "request_file_sha256": "aca74b9bf05daab1adbe08c1972bf4f080d18f3f560435e00aa3a63deaf785e0",
+  "temporary_service": {
+    "pid": 242988,
+    "url": "http://127.0.0.1:53437/",
+    "health": {
+      "status": "UP",
+      "pid": 242988,
+      "route_answer_cache": false,
+      "service": "PEDESTRIAN_AREA_SHORTEST_R1"
+    }
+  },
+  "request_elapsed_s": 198.0858797999972,
+  "solver": {
+    "status": "ROUTED_NATIVE_OR_MAPPED",
+    "run_id": "RUN-20261111T231056-705308bede",
+    "request_id": "INDEPENDENT-CLEAN-aa949fd6e27741838d4141f98408f679",
+    "solver": {
+      "invoked": true,
+      "elapsed_s": 0.7825802000006661,
+      "algorithm": "networkx weighted bidirectional shortest path",
+      "invocation_id": "34edd2cacf92487da57724092edb86b8",
+      "answer_source": "CURRENT_REQUEST_SOLVER"
+    },
+    "route_answer_cache": {
+      "enabled": false,
+      "hit": false
+    }
+  },
+  "temporary_service_stopped": true,
+  "remeasurement_process": {
+    "exit_code": 0,
+    "stdout": "{\"status\": \"REQUIRES_INSPECTION\", \"rows\": 1, \"paired_checks\": 0, \"errors\": 1}\n",
+    "stderr": ""
+  },
+  "remeasurement_status": "REQUIRES_INSPECTION",
+  "remeasurement_sha256": "10cfd28c75d362c2126d2139db743bb7fe77e33195b69eba620208108d34487e",
+  "old_service_before": {
+    "status": "UP",
+    "pid": 178908,
+    "route_answer_cache": false,
+    "service": "KNOWN_ENTRANCE_E2E_R1"
+  },
+  "old_service_after": {
+    "status": "UP",
+    "pid": 178908,
+    "route_answer_cache": false,
+    "service": "KNOWN_ENTRANCE_E2E_R1"
+  },
+  "status": "REQUIRES_INSPECTION"
+}

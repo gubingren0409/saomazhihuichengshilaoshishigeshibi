@@ -1,0 +1,329 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Five explicit refusal classes at four modes, derived from raw frozen scene/native-node/door-role/coordinate requirements; no graph no-path proof",
+  "APP_solver_calls": 0,
+  "formal_lock_sha256": "a76770863dd66f9c1b9364cf49801794abf1ef3d889c8d07a605a7b88f3e0700",
+  "complete_registry_snapshot_sha256": "e4404246ee498120c3199723053c1a5c028076807ef90205c8c2a11a21b476f7",
+  "expected_unique_negative_combinations": 20,
+  "observed_unique_negative_combinations": 20,
+  "saved_response_records_checked_including_replays": 20,
+  "rows": [
+    {
+      "formal_attempt_id": "FORMAL-049",
+      "run_id": "RUN-20261112T005344-b5ef5849a9",
+      "request_id": "APP-13",
+      "mode": "FROZEN_FULL_FACE",
+      "independently_expected_status": "INVALID_REQUEST",
+      "actual_status": "INVALID_REQUEST",
+      "raw_rule": "Scene is not one of six acquired/frozen scene IDs",
+      "raw_evidence": {},
+      "response_sha256": "a98c48849404d3842e59220c70f0ad3c80401348cf48661ea4280ec46137bee8",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-050",
+      "run_id": "RUN-20261112T005344-d83abf348e",
+      "request_id": "APP-13",
+      "mode": "SOURCE_COMPLETE",
+      "independently_expected_status": "INVALID_REQUEST",
+      "actual_status": "INVALID_REQUEST",
+      "raw_rule": "Scene is not one of six acquired/frozen scene IDs",
+      "raw_evidence": {},
+      "response_sha256": "ff27708658557e045db2816b647df77dfdeb2e866482feae21895256d869890c",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-051",
+      "run_id": "RUN-20261112T005345-ed8eac5df5",
+      "request_id": "APP-13",
+      "mode": "EXACT_STITCH",
+      "independently_expected_status": "INVALID_REQUEST",
+      "actual_status": "INVALID_REQUEST",
+      "raw_rule": "Scene is not one of six acquired/frozen scene IDs",
+      "raw_evidence": {},
+      "response_sha256": "8c6e746ae381187be0ad61648be0e296d3fcb380f7f1a7dedd2ac133f5e46705",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-052",
+      "run_id": "RUN-20261112T005345-1c4187187a",
+      "request_id": "APP-13",
+      "mode": "CONDITIONAL_SEAMS",
+      "independently_expected_status": "INVALID_REQUEST",
+      "actual_status": "INVALID_REQUEST",
+      "raw_rule": "Scene is not one of six acquired/frozen scene IDs",
+      "raw_evidence": {},
+      "response_sha256": "4ed2954fd62e1ed17ed0e6e5c117537d61da7f196a6a1a58005757b54b691232",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-033",
+      "run_id": "RUN-20261112T021347-deaacc9aa5",
+      "request_id": "APP-09",
+      "mode": "FROZEN_FULL_FACE",
+      "independently_expected_status": "REJECTED_ENTRANCE_ROLE",
+      "actual_status": "REJECTED_ENTRANCE_ROLE",
+      "raw_rule": "Original node remains entrance=exit; inbound request must be rejected",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        }
+      },
+      "response_sha256": "ada362c95e0694dbad34c4de21605f5598f21af191724a8d74b48142c312f58f",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-034",
+      "run_id": "RUN-20261112T021347-da582c591d",
+      "request_id": "APP-09",
+      "mode": "SOURCE_COMPLETE",
+      "independently_expected_status": "REJECTED_ENTRANCE_ROLE",
+      "actual_status": "REJECTED_ENTRANCE_ROLE",
+      "raw_rule": "Original node remains entrance=exit; inbound request must be rejected",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        }
+      },
+      "response_sha256": "1334641d1094dfdd0a55b1ed4d2114efda405f71e29860d795fb92f2f65a8d89",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-035",
+      "run_id": "RUN-20261112T021347-b443de4653",
+      "request_id": "APP-09",
+      "mode": "EXACT_STITCH",
+      "independently_expected_status": "REJECTED_ENTRANCE_ROLE",
+      "actual_status": "REJECTED_ENTRANCE_ROLE",
+      "raw_rule": "Original node remains entrance=exit; inbound request must be rejected",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        }
+      },
+      "response_sha256": "77624faad53c12b1710d9b4d3d3be4e4bbd76945d9a19d3fb8236900382f3ca0",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-036",
+      "run_id": "RUN-20261112T021347-93d75bfb5e",
+      "request_id": "APP-09",
+      "mode": "CONDITIONAL_SEAMS",
+      "independently_expected_status": "REJECTED_ENTRANCE_ROLE",
+      "actual_status": "REJECTED_ENTRANCE_ROLE",
+      "raw_rule": "Original node remains entrance=exit; inbound request must be rejected",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        }
+      },
+      "response_sha256": "b5996b61d671887d375f618c1b61ebb96aab95f52bd0ca33898a02a2ef4e53a2",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-041",
+      "run_id": "RUN-20261112T021347-1a7533289e",
+      "request_id": "APP-11",
+      "mode": "FROZEN_FULL_FACE",
+      "independently_expected_status": "INVALID_START",
+      "actual_status": "INVALID_START",
+      "raw_rule": "Requested start is not an acquired original native node",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        }
+      },
+      "response_sha256": "f10dabd4cff169f71730ded5e8b9502073fc1115a3f4d823bea632e2e3f3ada6",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-042",
+      "run_id": "RUN-20261112T021549-78be6ec2b0",
+      "request_id": "APP-11",
+      "mode": "SOURCE_COMPLETE",
+      "independently_expected_status": "INVALID_START",
+      "actual_status": "INVALID_START",
+      "raw_rule": "Requested start is not an acquired original native node",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        }
+      },
+      "response_sha256": "d12ebb6803ac5def78209d5ecb9f914957a066824f43491cf76273dc9a7e57e7",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-043",
+      "run_id": "RUN-20261112T023253-53a1f237c4",
+      "request_id": "APP-11",
+      "mode": "EXACT_STITCH",
+      "independently_expected_status": "INVALID_START",
+      "actual_status": "INVALID_START",
+      "raw_rule": "Requested start is not an acquired original native node",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        }
+      },
+      "response_sha256": "f3b94e43c0fe9a95886014fdc8ddc07ed4eafa9d3dc167a4873072bf7ef94eb1",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-044",
+      "run_id": "RUN-20261112T023256-88b3127d0b",
+      "request_id": "APP-11",
+      "mode": "CONDITIONAL_SEAMS",
+      "independently_expected_status": "INVALID_START",
+      "actual_status": "INVALID_START",
+      "raw_rule": "Requested start is not an acquired original native node",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        }
+      },
+      "response_sha256": "311dcac804e958656369aeee5a3b3e3416d7a4d842c3f729204fe53133a3d47a",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-045",
+      "run_id": "RUN-20261112T023302-8f78b257c4",
+      "request_id": "APP-12",
+      "mode": "FROZEN_FULL_FACE",
+      "independently_expected_status": "INVALID_REQUEST",
+      "actual_status": "INVALID_REQUEST",
+      "raw_rule": "Start coordinate values are not two finite numbers",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        },
+        "original_start_xy": [
+          354290.77721060865,
+          3456012.174117223
+        ]
+      },
+      "response_sha256": "03e2d37d6017b06a942e089559f0f748f94a993bfc6228b16f1adfd4a8e0a7a5",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-046",
+      "run_id": "RUN-20261112T023304-7576c10c65",
+      "request_id": "APP-12",
+      "mode": "SOURCE_COMPLETE",
+      "independently_expected_status": "INVALID_REQUEST",
+      "actual_status": "INVALID_REQUEST",
+      "raw_rule": "Start coordinate values are not two finite numbers",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        },
+        "original_start_xy": [
+          354290.77721060865,
+          3456012.174117223
+        ]
+      },
+      "response_sha256": "ac606849b09f5593847ccf3ce81b28544f0f4964e9853c12273e1ffee6964933",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-047",
+      "run_id": "RUN-20261112T023306-9f5cfe5e88",
+      "request_id": "APP-12",
+      "mode": "EXACT_STITCH",
+      "independently_expected_status": "INVALID_REQUEST",
+      "actual_status": "INVALID_REQUEST",
+      "raw_rule": "Start coordinate values are not two finite numbers",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        },
+        "original_start_xy": [
+          354290.77721060865,
+          3456012.174117223
+        ]
+      },
+      "response_sha256": "8a7b663a7f2420c555027a993c85932dd65e3df52d903aceb981fbc289111e30",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-048",
+      "run_id": "RUN-20261112T023312-4a409fcca9",
+      "request_id": "APP-12",
+      "mode": "CONDITIONAL_SEAMS",
+      "independently_expected_status": "INVALID_REQUEST",
+      "actual_status": "INVALID_REQUEST",
+      "raw_rule": "Start coordinate values are not two finite numbers",
+      "raw_evidence": {
+        "original_door_tags": {
+          "entrance": "exit"
+        },
+        "original_start_xy": [
+          354290.77721060865,
+          3456012.174117223
+        ]
+      },
+      "response_sha256": "aa5cd1c26cac363247c765d1377b12db0f73f9d5639f46bb7a6de2f73ab3aa64",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-037",
+      "run_id": "RUN-20261112T030716-d6e3bb1a6c",
+      "request_id": "APP-10",
+      "mode": "FROZEN_FULL_FACE",
+      "independently_expected_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "actual_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "raw_rule": "No original native registered door ID is requested; no entrance may be generated",
+      "raw_evidence": {
+        "building_raw_entrance_nodes": []
+      },
+      "response_sha256": "7d5d07da8c1d6b615304d3f07573e6283c4d7d99359e91bc753220a7ee7af433",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-038",
+      "run_id": "RUN-20261112T030717-35471ddc5b",
+      "request_id": "APP-10",
+      "mode": "SOURCE_COMPLETE",
+      "independently_expected_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "actual_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "raw_rule": "No original native registered door ID is requested; no entrance may be generated",
+      "raw_evidence": {
+        "building_raw_entrance_nodes": []
+      },
+      "response_sha256": "2f00d87ba19be0015bf3cfde4dd3161da0ccad223cb2af73b17aa04ed331f9c7",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-039",
+      "run_id": "RUN-20261112T030717-3c215b541b",
+      "request_id": "APP-10",
+      "mode": "EXACT_STITCH",
+      "independently_expected_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "actual_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "raw_rule": "No original native registered door ID is requested; no entrance may be generated",
+      "raw_evidence": {
+        "building_raw_entrance_nodes": []
+      },
+      "response_sha256": "eb0f6adb524a8a334477d70cd7ac9db2e6218fc752e5b12a612276d249bd9b18",
+      "errors": []
+    },
+    {
+      "formal_attempt_id": "FORMAL-040",
+      "run_id": "RUN-20261112T030717-0e9d088d6e",
+      "request_id": "APP-10",
+      "mode": "CONDITIONAL_SEAMS",
+      "independently_expected_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "actual_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "raw_rule": "No original native registered door ID is requested; no entrance may be generated",
+      "raw_evidence": {
+        "building_raw_entrance_nodes": []
+      },
+      "response_sha256": "d8a40199a649bc480b0d188281e553dde8fedc6bda1144a8c45dab16acbc1179",
+      "errors": []
+    }
+  ],
+  "status": "PASS_FOR_ALL_TWENTY_EXPLICIT_REFUSAL_COMBINATIONS",
+  "limits": [
+    "Unknown or disconnected whole-network path failures are not proved impossible by this audit",
+    "Repeated old/replay records are counted separately from the twenty unique prescribed combinations"
+  ]
+}

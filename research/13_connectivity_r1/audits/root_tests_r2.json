@@ -1,0 +1,14 @@
+{
+  "observed_command": "python -X utf8 -B -m unittest discover -s tests",
+  "observed_result": {
+    "tests_run": 72,
+    "failures": 0,
+    "errors": 0,
+    "exit_code": 0,
+    "elapsed_s": 1.261
+  },
+  "evidence_type": "Receipt of actual main terminal invocation immediately after applying Fix4; not a new solver or model run.",
+  "terminal_output_summary": "Ran 72 tests in 1.261s; OK",
+  "source_binding": "audits/backend_freeze_r2.json",
+  "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721"
+}

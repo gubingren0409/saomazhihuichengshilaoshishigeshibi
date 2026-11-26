@@ -1,0 +1,35 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "check": "READ_ONLY_INITIAL_OLD_SERVICE_PROCESS_IDENTITY",
+  "recorded_local": "2026-11-12T00:26:05.5892755+08:00",
+  "expected_ports": [
+    53431,
+    53421
+  ],
+  "service_processes": [
+    {
+      "pid": 178908,
+      "start_time_local": "2026-11-11T19:27:02.2902437+08:00",
+      "executable": "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+    },
+    {
+      "pid": 244836,
+      "start_time_local": "2026-11-11T23:17:36.5610405+08:00",
+      "executable": "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+    }
+  ],
+  "homepage_http": [
+    {
+      "bytes": 4307,
+      "status": 200,
+      "port": 53431
+    },
+    {
+      "bytes": 3623,
+      "status": 200,
+      "port": 53421
+    }
+  ],
+  "solver_calls": 0,
+  "limits": "Ordinary sandbox mode cannot see these PIDs or use loopback; authorized read-only escalated inspection required"
+}

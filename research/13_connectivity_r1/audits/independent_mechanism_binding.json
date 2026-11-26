@@ -1,0 +1,185 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "mechanism_source_sha256": "ab3a156584efc7bc56e5015f8b58c10472d6178468be4cf6cd3f799806911092",
+  "fixture_script_sha256": "1f44bfdc6eec2753e112ca576c201c0bc824d140be572d0f2e2de307072a15f5",
+  "endpoint_lock_sha256": "d88d4a30508eaea694cb48100dce85951744ca4c5a0ffee514e60f030e55f57d",
+  "endpoint_lock_unchanged": true,
+  "raw_M04_endpoint_checks": [
+    {
+      "endpoint": "start",
+      "id": "node/2613044111",
+      "side_source_id": "way/1275365117",
+      "exact_raw_coordinate_values": true,
+      "raw_outer_node_membership": true,
+      "independently_checked_omega_covers": true,
+      "original_fields_unchanged": true,
+      "resolved_area": "way/1275365117"
+    },
+    {
+      "endpoint": "end",
+      "id": "node/12682703868",
+      "side_source_id": "way/1369422283",
+      "exact_raw_coordinate_values": true,
+      "raw_outer_node_membership": true,
+      "independently_checked_omega_covers": true,
+      "original_fields_unchanged": true,
+      "resolved_area": "way/1369422283"
+    }
+  ],
+  "mode_visibility_binding_checks": [
+    {
+      "mode": "FROZEN_FULL_FACE",
+      "bindings": [
+        {
+          "id": "node/2613044111",
+          "bound": false,
+          "reason": "UNBOUND_TO_INACTIVE_OR_CONSTRAINED_SOURCE_FACE",
+          "source_area_id": "way/1275365117"
+        },
+        {
+          "id": "node/12682703868",
+          "bound": false,
+          "reason": "UNBOUND_TO_INACTIVE_OR_CONSTRAINED_SOURCE_FACE",
+          "source_area_id": "way/1369422283"
+        }
+      ],
+      "expected_bound": false,
+      "scope": "Raw corner-node visibility attachment only, not full-network route solve"
+    },
+    {
+      "mode": "SOURCE_COMPLETE",
+      "bindings": [
+        {
+          "id": "node/2613044111",
+          "bound": true,
+          "identity": "ORIGINAL_SOURCE_BOUNDARY_NODE_QUERY_ATTACHMENT",
+          "source_area_id": "way/1275365117",
+          "visible_attachments": 4,
+          "attached_node_ids": [
+            "fullface/way/1275365117/component/0/independent-corner/1",
+            "fullface/way/1275365117/component/0/independent-corner/3",
+            "fullface/way/1275365117/component/0/independent-corner/4",
+            "fullface/way/1275365117/component/0/independent-corner/5"
+          ],
+          "displacement_m": 0.0,
+          "reason": null
+        },
+        {
+          "id": "node/12682703868",
+          "bound": true,
+          "identity": "ORIGINAL_SOURCE_BOUNDARY_NODE_QUERY_ATTACHMENT",
+          "source_area_id": "way/1369422283",
+          "visible_attachments": 6,
+          "attached_node_ids": [
+            "fullface/way/1369422283/component/0/independent-corner/2",
+            "fullface/way/1369422283/component/0/independent-corner/3",
+            "fullface/way/1369422283/component/1/independent-corner/0",
+            "fullface/way/1369422283/component/1/independent-corner/1",
+            "fullface/way/1369422283/component/1/independent-corner/3",
+            "fullface/way/1369422283/component/1/independent-corner/4"
+          ],
+          "displacement_m": 0.0,
+          "reason": null
+        }
+      ],
+      "expected_bound": true,
+      "scope": "Raw corner-node visibility attachment only, not full-network route solve"
+    },
+    {
+      "mode": "EXACT_STITCH",
+      "bindings": [
+        {
+          "id": "node/2613044111",
+          "bound": true,
+          "identity": "ORIGINAL_SOURCE_BOUNDARY_NODE_QUERY_ATTACHMENT",
+          "source_area_id": "way/1275365117",
+          "visible_attachments": 7,
+          "attached_node_ids": [
+            "fullface/way/1275365117/component/0/independent-corner/1",
+            "fullface/way/1275365117/component/0/independent-corner/3",
+            "fullface/way/1275365117/component/0/independent-corner/4",
+            "fullface/way/1275365117/component/0/independent-corner/5",
+            "fullface/way/1369422283/component/0/independent-corner/0",
+            "fullface/way/1369422283/component/0/independent-corner/1",
+            "fullface/way/1369422283/component/0/independent-corner/4"
+          ],
+          "displacement_m": 0.0,
+          "reason": null
+        },
+        {
+          "id": "node/12682703868",
+          "bound": true,
+          "identity": "ORIGINAL_SOURCE_BOUNDARY_NODE_QUERY_ATTACHMENT",
+          "source_area_id": "way/1369422283",
+          "visible_attachments": 6,
+          "attached_node_ids": [
+            "fullface/way/1369422283/component/0/independent-corner/2",
+            "fullface/way/1369422283/component/0/independent-corner/3",
+            "fullface/way/1369422283/component/1/independent-corner/0",
+            "fullface/way/1369422283/component/1/independent-corner/1",
+            "fullface/way/1369422283/component/1/independent-corner/3",
+            "fullface/way/1369422283/component/1/independent-corner/4"
+          ],
+          "displacement_m": 0.0,
+          "reason": null
+        }
+      ],
+      "expected_bound": true,
+      "scope": "Raw corner-node visibility attachment only, not full-network route solve"
+    },
+    {
+      "mode": "CONDITIONAL_SEAMS",
+      "bindings": [
+        {
+          "id": "node/2613044111",
+          "bound": true,
+          "identity": "ORIGINAL_SOURCE_BOUNDARY_NODE_QUERY_ATTACHMENT",
+          "source_area_id": "way/1275365117",
+          "visible_attachments": 7,
+          "attached_node_ids": [
+            "fullface/way/1275365117/component/0/independent-corner/1",
+            "fullface/way/1275365117/component/0/independent-corner/3",
+            "fullface/way/1275365117/component/0/independent-corner/4",
+            "fullface/way/1275365117/component/0/independent-corner/5",
+            "fullface/way/1369422283/component/0/independent-corner/0",
+            "fullface/way/1369422283/component/0/independent-corner/1",
+            "fullface/way/1369422283/component/0/independent-corner/4"
+          ],
+          "displacement_m": 0.0,
+          "reason": null
+        },
+        {
+          "id": "node/12682703868",
+          "bound": true,
+          "identity": "ORIGINAL_SOURCE_BOUNDARY_NODE_QUERY_ATTACHMENT",
+          "source_area_id": "way/1369422283",
+          "visible_attachments": 6,
+          "attached_node_ids": [
+            "fullface/way/1369422283/component/0/independent-corner/2",
+            "fullface/way/1369422283/component/0/independent-corner/3",
+            "fullface/way/1369422283/component/1/independent-corner/0",
+            "fullface/way/1369422283/component/1/independent-corner/1",
+            "fullface/way/1369422283/component/1/independent-corner/3",
+            "fullface/way/1369422283/component/1/independent-corner/4"
+          ],
+          "displacement_m": 0.0,
+          "reason": null
+        }
+      ],
+      "expected_bound": true,
+      "scope": "Raw corner-node visibility attachment only, not full-network route solve"
+    }
+  ],
+  "unrelated_side_rejected": true,
+  "inactive_admission_rejected": true,
+  "layer_alias_not_downgraded": true,
+  "point_only_query_boundary_alias_bridge": false,
+  "status": "PASS_FOR_REPORTED_RAW_ENDPOINT_AND_VISIBILITY_ATTACHMENT_SCOPE",
+  "limits": [
+    "No APP solver or real full-network shortest-path query",
+    "M04 end basis B_LINE is historical template wording; actual raw source is a B-face outer node",
+    "Query endpoints are local network references, never generated entrances"
+  ]
+}

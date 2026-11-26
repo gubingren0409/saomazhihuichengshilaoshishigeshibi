@@ -1,0 +1,12 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Actual final HTTP response bytes versus root-announced frozen index and local file",
+  "url": "http://127.0.0.1:53441/review",
+  "http_status": 200,
+  "bytes": 6527602,
+  "expected_frozen_index_sha256": "97652bf8fc750b21511e222a4c9f0176c1363e50e9fd58600bfb2bffac763da1",
+  "actual_HTTP_body_sha256": "97652bf8fc750b21511e222a4c9f0176c1363e50e9fd58600bfb2bffac763da1",
+  "local_index_sha256": "97652bf8fc750b21511e222a4c9f0176c1363e50e9fd58600bfb2bffac763da1",
+  "APP_solver_calls": 0,
+  "status": "PASS_FOR_FINAL_HTTP_INDEX_BYTES"
+}

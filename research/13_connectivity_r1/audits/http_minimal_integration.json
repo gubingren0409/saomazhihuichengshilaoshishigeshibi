@@ -1,0 +1,50 @@
+{
+  "request": {
+    "mechanism_id": "M04",
+    "method": "F0",
+    "connectivity_mode": "EXACT_STITCH",
+    "request_id": "HTTP-INTEGRATION-M04",
+    "run_purpose": "DEVELOPMENT_HTTP_INTEGRATION"
+  },
+  "run_id": "RUN-20261112T005232-7712b6cd63",
+  "status": "ROUTED_NATIVE_OR_MAPPED",
+  "solver": {
+    "invoked": true,
+    "elapsed_s": 0.0010153000039281324,
+    "invocation_id": "99ab1cb36b474db793bcfb1b68fd4813",
+    "answer_source": "CURRENT_REQUEST_SOLVER",
+    "algorithm": "networkx weighted shortest path"
+  },
+  "length_m": 158.19762121365844,
+  "bindings": [
+    {
+      "id": "node/2613044111",
+      "bound": true,
+      "identity": "ORIGINAL_SOURCE_BOUNDARY_NODE_QUERY_ATTACHMENT",
+      "source_area_id": "way/1275365117",
+      "visible_attachments": 4,
+      "attached_node_ids": [
+        "fullface/way/1275365117/component/0/v/0",
+        "stitch/domain/64d3d58c5531650a52a29950/v/0",
+        "stitch/domain/64d3d58c5531650a52a29950/v/2",
+        "stitch/domain/64d3d58c5531650a52a29950/v/3"
+      ],
+      "displacement_m": 0.0,
+      "reason": null
+    },
+    {
+      "id": "node/12682703868",
+      "bound": true,
+      "identity": "ORIGINAL_SOURCE_BOUNDARY_NODE_QUERY_ATTACHMENT",
+      "source_area_id": "way/1369422283",
+      "visible_attachments": 2,
+      "attached_node_ids": [
+        "node/12682703869",
+        "node/12682703870"
+      ],
+      "displacement_m": 0.0,
+      "reason": null
+    }
+  ],
+  "elapsed_s": 23.40982330001134
+}

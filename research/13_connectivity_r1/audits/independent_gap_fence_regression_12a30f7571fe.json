@@ -1,0 +1,241 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Full-source barrier lying strictly inside a source-positive gap, absent from all per-face near-barrier lists",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "connectivity_source_sha256": "12a30f7571fee7bb6db0fedaac232a45d1ee94df9ffcb5d6d5091b5e00b58e50",
+  "fixture_script_sha256": "807700ec4c20bd9e3c1bd8674120a231f3c92eb0931372d16209a74b751c30f1",
+  "checks": [
+    {
+      "case": "EXACT_NATIVE_GATE",
+      "expected_accepted": true,
+      "actual_accepted": true,
+      "passed": true,
+      "record": {
+        "id": "conditional-seam/0dceb2207225d503363b685b",
+        "kind": "CONDITIONAL_GAP_LINK",
+        "layer": "inferred",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.0,
+              10.0
+            ],
+            [
+              5.0,
+              10.0
+            ]
+          ]
+        },
+        "distance_m": 1.0,
+        "probe_m": 10.0,
+        "seam_max_m": 2.0,
+        "source_area_ids": [
+          "left",
+          "right"
+        ],
+        "source_ids": [],
+        "p_distance_m": 1.0,
+        "omega_distance_m": 1.0,
+        "accepted": true,
+        "entered_graph": true,
+        "reasons": [],
+        "status": "ACCEPTED",
+        "width_m": null,
+        "width_semantics": "LOGICAL_LINE_ONLY_UNKNOWN_SOURCE_WIDTH_NO_AREA_PROMOTION",
+        "assumption_multiplier_F0": 1,
+        "assumption_multiplier_F1": 2,
+        "graph_node_ids": [
+          "stitch/seam/face/125101525ec67ddff2d79e71",
+          "stitch/seam/face/d5e4f4f51888fc842adf4950"
+        ]
+      },
+      "fence_crossing": {
+        "type": "Point",
+        "coordinates": [
+          4.5,
+          10.0
+        ]
+      },
+      "gate_crossing_distance_m": 0.0,
+      "whole_replay_errors": [
+        [],
+        []
+      ],
+      "forced_incorrectly_accepted_record_replay_errors": []
+    },
+    {
+      "case": "OFF_GATE_0_15M",
+      "expected_accepted": false,
+      "actual_accepted": false,
+      "passed": true,
+      "record": {
+        "id": "conditional-seam/0dceb2207225d503363b685b",
+        "kind": "CONDITIONAL_GAP_LINK",
+        "layer": "inferred",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.0,
+              10.0
+            ],
+            [
+              5.0,
+              10.0
+            ]
+          ]
+        },
+        "distance_m": 1.0,
+        "probe_m": 10.0,
+        "seam_max_m": 2.0,
+        "source_area_ids": [
+          "left",
+          "right"
+        ],
+        "source_ids": [],
+        "p_distance_m": 1.0,
+        "omega_distance_m": 1.0,
+        "accepted": false,
+        "entered_graph": false,
+        "reasons": [
+          "FULL_SOURCE_BARRIER_WITHOUT_EXACT_ALLOWED_GATE:way/fence"
+        ],
+        "status": "REJECTED",
+        "width_m": null,
+        "width_semantics": "LOGICAL_LINE_ONLY_UNKNOWN_SOURCE_WIDTH_NO_AREA_PROMOTION",
+        "assumption_multiplier_F0": 1,
+        "assumption_multiplier_F1": 2
+      },
+      "fence_crossing": {
+        "type": "Point",
+        "coordinates": [
+          4.5,
+          10.0
+        ]
+      },
+      "gate_crossing_distance_m": 0.15000000000000036,
+      "whole_replay_errors": [],
+      "forced_incorrectly_accepted_record_replay_errors": [
+        "FULL_SOURCE_BARRIER_WITHOUT_EXACT_ALLOWED_GATE:way/fence"
+      ]
+    },
+    {
+      "case": "NO_GATE",
+      "expected_accepted": false,
+      "actual_accepted": false,
+      "passed": true,
+      "record": {
+        "id": "conditional-seam/0dceb2207225d503363b685b",
+        "kind": "CONDITIONAL_GAP_LINK",
+        "layer": "inferred",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.0,
+              10.0
+            ],
+            [
+              5.0,
+              10.0
+            ]
+          ]
+        },
+        "distance_m": 1.0,
+        "probe_m": 10.0,
+        "seam_max_m": 2.0,
+        "source_area_ids": [
+          "left",
+          "right"
+        ],
+        "source_ids": [],
+        "p_distance_m": 1.0,
+        "omega_distance_m": 1.0,
+        "accepted": false,
+        "entered_graph": false,
+        "reasons": [
+          "FULL_SOURCE_BARRIER_WITHOUT_EXACT_ALLOWED_GATE:way/fence",
+          "MAPPED_HARD_INTERIOR_CONFLICT"
+        ],
+        "status": "REJECTED",
+        "width_m": null,
+        "width_semantics": "LOGICAL_LINE_ONLY_UNKNOWN_SOURCE_WIDTH_NO_AREA_PROMOTION",
+        "assumption_multiplier_F0": 1,
+        "assumption_multiplier_F1": 2
+      },
+      "fence_crossing": {
+        "type": "Point",
+        "coordinates": [
+          4.5,
+          10.0
+        ]
+      },
+      "gate_crossing_distance_m": null,
+      "whole_replay_errors": [],
+      "forced_incorrectly_accepted_record_replay_errors": [
+        "FULL_SOURCE_BARRIER_WITHOUT_EXACT_ALLOWED_GATE:way/fence",
+        "MAPPED_HARD_INTERIOR_CONFLICT"
+      ]
+    },
+    {
+      "case": "MISSING_RAW_BARRIER_GEOMETRY",
+      "expected_accepted": false,
+      "actual_accepted": false,
+      "passed": true,
+      "record": {
+        "id": "conditional-seam/0dceb2207225d503363b685b",
+        "kind": "CONDITIONAL_GAP_LINK",
+        "layer": "inferred",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.0,
+              10.0
+            ],
+            [
+              5.0,
+              10.0
+            ]
+          ]
+        },
+        "distance_m": 1.0,
+        "probe_m": 10.0,
+        "seam_max_m": 2.0,
+        "source_area_ids": [
+          "left",
+          "right"
+        ],
+        "source_ids": [],
+        "p_distance_m": 1.0,
+        "omega_distance_m": 1.0,
+        "accepted": false,
+        "entered_graph": false,
+        "reasons": [
+          "INCOMPLETE_SOURCE_BARRIER_GEOMETRY:way/fence"
+        ],
+        "status": "REJECTED",
+        "width_m": null,
+        "width_semantics": "LOGICAL_LINE_ONLY_UNKNOWN_SOURCE_WIDTH_NO_AREA_PROMOTION",
+        "assumption_multiplier_F0": 1,
+        "assumption_multiplier_F1": 2
+      },
+      "fence_crossing": {
+        "type": "Point",
+        "coordinates": [
+          4.5,
+          10.0
+        ]
+      },
+      "gate_crossing_distance_m": 0.0,
+      "whole_replay_errors": [],
+      "forced_incorrectly_accepted_record_replay_errors": [
+        "INCOMPLETE_SOURCE_BARRIER_GEOMETRY:way/fence"
+      ]
+    }
+  ],
+  "status": "PASS_FOR_REPORTED_FULL_SOURCE_GAP_BARRIER_CHECKS",
+  "original_counterexample": "audits/independent_gap_fence_counterexample.json"
+}

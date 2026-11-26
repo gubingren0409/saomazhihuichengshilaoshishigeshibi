@@ -1,0 +1,447 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "role": "ACTUAL_EDGE_GET_ONLY_UI_INTERACTION",
+  "url": "http://127.0.0.1:53441/",
+  "checks": [
+    {
+      "name": "COLD_LOAD_CONTROL_SWITCHES_PRESERVE_MAP_AND_ALL_STARTS",
+      "passed": true,
+      "detail": {
+        "mapSerial": 1,
+        "mapLoading": false,
+        "mapReady": true,
+        "mapSceneId": "sh-huangpu-01",
+        "planning": false,
+        "controls": {
+          "scene_id": "sh-huangpu-01",
+          "door_id": "node/6897141353",
+          "start_id": "node/1890732610",
+          "purpose": "ENTER_BUILDING",
+          "method": "F0",
+          "area_routing": "FULL_FACE",
+          "connectivity_mode": "CONDITIONAL_SEAMS",
+          "seam_max_m": 2
+        },
+        "starts_count": 6311,
+        "features_count": 11407,
+        "raw_relation_count": 301,
+        "viewBoxes": {
+          "overview": [
+            354206.35132172017,
+            -3456406.6090024607,
+            460.1311448250199,
+            601.4571393069903
+          ],
+          "svg": [
+            354396.73747565266,
+            -3456171.6548717376,
+            159.48998178506375,
+            110
+          ]
+        },
+        "current_run_id": null,
+        "comparison_run_ids": [],
+        "source_ids": [],
+        "request_history": [],
+        "paths": 74,
+        "overview_paths": 296,
+        "source_starts": 6311
+      }
+    },
+    {
+      "name": "FOUR_EXPLICIT_CONNECTIVITY_MODES_AVAILABLE",
+      "passed": true,
+      "detail": [
+        "FROZEN_FULL_FACE",
+        "SOURCE_COMPLETE",
+        "EXACT_STITCH",
+        "CONDITIONAL_SEAMS"
+      ]
+    },
+    {
+      "name": "CONTROLLED_503_RETAINS_EXISTING_MAP_AND_RETRY",
+      "passed": true,
+      "detail": {
+        "mapSerial": 2,
+        "mapLoading": false,
+        "mapReady": false,
+        "mapSceneId": "sh-huangpu-01",
+        "planning": false,
+        "controls": {
+          "scene_id": "sh-huangpu-01",
+          "door_id": "node/6897141353",
+          "start_id": "node/1890732610",
+          "purpose": "ENTER_BUILDING",
+          "method": "F0",
+          "area_routing": "FULL_FACE",
+          "connectivity_mode": "CONDITIONAL_SEAMS",
+          "seam_max_m": 2
+        },
+        "starts_count": 6311,
+        "features_count": 11407,
+        "raw_relation_count": 301,
+        "viewBoxes": {
+          "overview": [
+            354206.35132172017,
+            -3456406.6090024607,
+            460.1311448250199,
+            601.4571393069903
+          ],
+          "svg": [
+            354396.73747565266,
+            -3456171.6548717376,
+            159.48998178506375,
+            110
+          ]
+        },
+        "current_run_id": null,
+        "comparison_run_ids": [],
+        "source_ids": [],
+        "request_history": [],
+        "retry_visible": true,
+        "paths": 74
+      }
+    },
+    {
+      "name": "RETRY_FETCHES_REAL_MAP",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "REAL_LATE_SCENE_RESPONSE_CANNOT_OVERWRITE_NEW_SELECTION",
+      "passed": true,
+      "detail": {
+        "mapSerial": 5,
+        "mapLoading": false,
+        "mapReady": true,
+        "mapSceneId": "sh-huangpu-01",
+        "planning": false,
+        "controls": {
+          "scene_id": "sh-huangpu-01",
+          "door_id": "node/6897141353",
+          "start_id": "node/1890732610",
+          "purpose": "ENTER_BUILDING",
+          "method": "F0",
+          "area_routing": "FULL_FACE",
+          "connectivity_mode": "CONDITIONAL_SEAMS",
+          "seam_max_m": 2
+        },
+        "starts_count": 6311,
+        "features_count": 11407,
+        "raw_relation_count": 301,
+        "viewBoxes": {
+          "overview": [
+            354206.35132172017,
+            -3456406.6090024607,
+            460.1311448250199,
+            601.4571393069903
+          ],
+          "svg": [
+            354396.73747565266,
+            -3456171.6548717376,
+            159.48998178506375,
+            110
+          ]
+        },
+        "current_run_id": null,
+        "comparison_run_ids": [],
+        "source_ids": [],
+        "request_history": []
+      }
+    },
+    {
+      "name": "REAL_LATE_DOOR_RESPONSE_CANNOT_OVERWRITE_NEW_STARTS",
+      "passed": true,
+      "detail": {
+        "mapSerial": 7,
+        "mapLoading": false,
+        "mapReady": true,
+        "mapSceneId": "sh-huangpu-01",
+        "planning": false,
+        "controls": {
+          "scene_id": "sh-huangpu-01",
+          "door_id": "node/6897141353",
+          "start_id": "node/1890732610",
+          "purpose": "ENTER_BUILDING",
+          "method": "F0",
+          "area_routing": "FULL_FACE",
+          "connectivity_mode": "CONDITIONAL_SEAMS",
+          "seam_max_m": 2
+        },
+        "starts_count": 6311,
+        "features_count": 11407,
+        "raw_relation_count": 301,
+        "viewBoxes": {
+          "overview": [
+            354206.35132172017,
+            -3456406.6090024607,
+            460.1311448250199,
+            601.4571393069903
+          ],
+          "svg": [
+            354396.73747565266,
+            -3456171.6548717376,
+            159.48998178506375,
+            110
+          ]
+        },
+        "current_run_id": null,
+        "comparison_run_ids": [],
+        "source_ids": [],
+        "request_history": []
+      }
+    },
+    {
+      "name": "MODE_SWITCHES_CLEAR_ANSWERS_KEEP_MAP_AND_STARTS",
+      "passed": true,
+      "detail": [
+        {
+          "mapSerial": 7,
+          "mapLoading": false,
+          "mapReady": true,
+          "mapSceneId": "sh-huangpu-01",
+          "planning": false,
+          "controls": {
+            "scene_id": "sh-huangpu-01",
+            "door_id": "node/6897141353",
+            "start_id": "node/1890732610",
+            "purpose": "ENTER_BUILDING",
+            "method": "F0",
+            "area_routing": "FULL_FACE",
+            "connectivity_mode": "FROZEN_FULL_FACE",
+            "seam_max_m": 2
+          },
+          "starts_count": 6311,
+          "features_count": 11407,
+          "raw_relation_count": 301,
+          "viewBoxes": {
+            "overview": [
+              354206.35132172017,
+              -3456406.6090024607,
+              460.1311448250199,
+              601.4571393069903
+            ],
+            "svg": [
+              354396.73747565266,
+              -3456171.6548717376,
+              159.48998178506375,
+              110
+            ]
+          },
+          "current_run_id": null,
+          "comparison_run_ids": [],
+          "source_ids": [],
+          "request_history": []
+        },
+        {
+          "mapSerial": 7,
+          "mapLoading": false,
+          "mapReady": true,
+          "mapSceneId": "sh-huangpu-01",
+          "planning": false,
+          "controls": {
+            "scene_id": "sh-huangpu-01",
+            "door_id": "node/6897141353",
+            "start_id": "node/1890732610",
+            "purpose": "ENTER_BUILDING",
+            "method": "F0",
+            "area_routing": "FULL_FACE",
+            "connectivity_mode": "SOURCE_COMPLETE",
+            "seam_max_m": 2
+          },
+          "starts_count": 6311,
+          "features_count": 11407,
+          "raw_relation_count": 301,
+          "viewBoxes": {
+            "overview": [
+              354206.35132172017,
+              -3456406.6090024607,
+              460.1311448250199,
+              601.4571393069903
+            ],
+            "svg": [
+              354396.73747565266,
+              -3456171.6548717376,
+              159.48998178506375,
+              110
+            ]
+          },
+          "current_run_id": null,
+          "comparison_run_ids": [],
+          "source_ids": [],
+          "request_history": []
+        },
+        {
+          "mapSerial": 7,
+          "mapLoading": false,
+          "mapReady": true,
+          "mapSceneId": "sh-huangpu-01",
+          "planning": false,
+          "controls": {
+            "scene_id": "sh-huangpu-01",
+            "door_id": "node/6897141353",
+            "start_id": "node/1890732610",
+            "purpose": "ENTER_BUILDING",
+            "method": "F0",
+            "area_routing": "FULL_FACE",
+            "connectivity_mode": "EXACT_STITCH",
+            "seam_max_m": 2
+          },
+          "starts_count": 6311,
+          "features_count": 11407,
+          "raw_relation_count": 301,
+          "viewBoxes": {
+            "overview": [
+              354206.35132172017,
+              -3456406.6090024607,
+              460.1311448250199,
+              601.4571393069903
+            ],
+            "svg": [
+              354396.73747565266,
+              -3456171.6548717376,
+              159.48998178506375,
+              110
+            ]
+          },
+          "current_run_id": null,
+          "comparison_run_ids": [],
+          "source_ids": [],
+          "request_history": []
+        },
+        {
+          "mapSerial": 7,
+          "mapLoading": false,
+          "mapReady": true,
+          "mapSceneId": "sh-huangpu-01",
+          "planning": false,
+          "controls": {
+            "scene_id": "sh-huangpu-01",
+            "door_id": "node/6897141353",
+            "start_id": "node/1890732610",
+            "purpose": "ENTER_BUILDING",
+            "method": "F0",
+            "area_routing": "FULL_FACE",
+            "connectivity_mode": "CONDITIONAL_SEAMS",
+            "seam_max_m": 2
+          },
+          "starts_count": 6311,
+          "features_count": 11407,
+          "raw_relation_count": 301,
+          "viewBoxes": {
+            "overview": [
+              354206.35132172017,
+              -3456406.6090024607,
+              460.1311448250199,
+              601.4571393069903
+            ],
+            "svg": [
+              354396.73747565266,
+              -3456171.6548717376,
+              159.48998178506375,
+              110
+            ]
+          },
+          "current_run_id": null,
+          "comparison_run_ids": [],
+          "source_ids": [],
+          "request_history": []
+        }
+      ]
+    },
+    {
+      "name": "REAL_OBJECT_SELECTION_SHOWS_SOURCE_ID_TAGS_AND_NETWORK_CAUTION",
+      "passed": false,
+      "detail": {
+        "evidence": "独立原生线（保留源身份） · way/564255372\n原生标签：footway=sidewalk · highway=footway · surface=paving_stones\n本段 287.99 m；条件假设\n记录状态：ELIGIBLE_NATIVE_LINEAR_TAGS\n相关直接源关系 / 本次接口：1 项。对象正距离不等于全网络断开。",
+        "why": "这些是两个对象的直接几何关系，不是全网断开判定；可能经第三条原生步道相连。“已入图 / 已采用”依据本次实际返回。共 1 项。",
+        "record_prefix": ""
+      }
+    },
+    {
+      "name": "WHY_PANEL_SEPARATES_DIRECT_GAP_FROM_NETWORK_DISCONNECTION",
+      "passed": true,
+      "detail": "这些是两个对象的直接几何关系，不是全网断开判定；可能经第三条原生步道相连。“已入图 / 已采用”依据本次实际返回。共 1 项。"
+    },
+    {
+      "name": "ACTUAL_WHEEL_ZOOM_CHANGES_EXPORTED_VIEW",
+      "passed": true,
+      "detail": {
+        "before": [
+          354389.3194920801,
+          -3456316.360418546,
+          309.686862875302,
+          213.5905624604784
+        ],
+        "after": [
+          354412.5428148998,
+          -3456300.363922485,
+          263.2338334440067,
+          181.55197809140662
+        ]
+      }
+    },
+    {
+      "name": "ACTUAL_GET_ONLY_EXPORT_CONTAINS_REQUEST_VIEWS_OBJECT_IDS_GEOMETRY",
+      "passed": true,
+      "detail": {
+        "file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\audits\\independent_ui_get_request_view.json",
+        "visible_objects": 452,
+        "selected_id": "way/564255372",
+        "viewBoxes": {
+          "overview": [
+            354206.35132172017,
+            -3456406.6090024607,
+            460.1311448250199,
+            601.4571393069903
+          ],
+          "svg": [
+            354412.5428148998,
+            -3456300.363922485,
+            263.2338334440067,
+            181.55197809140662
+          ]
+        }
+      }
+    },
+    {
+      "name": "EXPORT_KEEPS_PENDING_OBSERVATION_AND_UNBOUND_SCREENSHOT",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PROPOSED_NOVEL_NATIVE_STARTS_PRESENT_IN_REAL_CURRENT_CATALOG",
+      "passed": true,
+      "detail": {
+        "novel_UI_start": "node/1890877354",
+        "novel_clean_start": "node/1890877364",
+        "start_count": 6311
+      }
+    },
+    {
+      "name": "NO_SOLVER_POST_ATTEMPTED_DURING_GET_ONLY_AUDIT",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "NO_BROWSER_PAGE_ERRORS",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "APP_solver_calls": 0,
+  "blocked_plan_POST_attempts": [],
+  "page_errors": [],
+  "real_scene_GET_count": 7,
+  "actual_screenshots": [
+    "audits/independent_ui_get_initial.png",
+    "audits/independent_ui_get_selected_native_chain.png"
+  ],
+  "status": "REQUIRES_INSPECTION",
+  "transport_control": "One intentional map GET HTTP503; stale map/door responses held then delivered from the real backend without data substitution",
+  "limits": [
+    "No route POST or solver performed",
+    "Screenshot visual inspection recorded separately",
+    "Technical UI evidence does not accept historical user observation or field passage"
+  ]
+}

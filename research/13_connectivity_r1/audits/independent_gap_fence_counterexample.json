@@ -1,0 +1,81 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "APP_solver_calls": 0,
+  "connectivity_sha256": "e26bb592349c1ede4bd66f247266d7427dc2bcd61d1865cbcf182b7c5d989c76",
+  "counterexample": "Fence strictly inside source-positive gap, absent from per-face near-barrier lists; common gate aperture permits off-exact crossing",
+  "records": [
+    {
+      "seam": {
+        "id": "conditional-seam/0dceb2207225d503363b685b",
+        "kind": "CONDITIONAL_GAP_LINK",
+        "layer": "inferred",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              4.0,
+              10.0
+            ],
+            [
+              5.0,
+              10.0
+            ]
+          ]
+        },
+        "distance_m": 1.0,
+        "probe_m": 10.0,
+        "seam_max_m": 2.0,
+        "source_area_ids": [
+          "left",
+          "right"
+        ],
+        "source_ids": [],
+        "p_distance_m": 1.0,
+        "omega_distance_m": 1.0,
+        "accepted": true,
+        "entered_graph": true,
+        "reasons": [],
+        "status": "ACCEPTED",
+        "width_m": null,
+        "width_semantics": "LOGICAL_LINE_ONLY_UNKNOWN_SOURCE_WIDTH_NO_AREA_PROMOTION",
+        "assumption_multiplier_F0": 1,
+        "assumption_multiplier_F1": 2,
+        "graph_node_ids": [
+          "stitch/seam/face/125101525ec67ddff2d79e71",
+          "stitch/seam/face/d5e4f4f51888fc842adf4950"
+        ]
+      },
+      "fence_hit": {
+        "type": "Point",
+        "coordinates": [
+          4.5,
+          10.0
+        ]
+      },
+      "distance_from_exact_gate_m": 0.15000000000000036,
+      "has_positive_common_hard_intersection": 0.0
+    }
+  ],
+  "fence_geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        4.5,
+        -1.0
+      ],
+      [
+        4.5,
+        12.0
+      ]
+    ]
+  },
+  "gate_geometry": {
+    "type": "Point",
+    "coordinates": [
+      4.5,
+      10.15
+    ]
+  },
+  "face_barrier_lists": [],
+  "actual_source_graph_route_exists": true
+}

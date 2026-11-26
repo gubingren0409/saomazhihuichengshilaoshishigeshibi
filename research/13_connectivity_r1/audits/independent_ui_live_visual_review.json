@@ -1,0 +1,42 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Actually viewed all five real Edge live screenshots as images, separately from DOM assertions",
+  "APP_solver_calls_for_visual_review": 0,
+  "served_APP_JS_during_capture": "0c643fe82f0e89c06eb59f578299c0da7a214979641c5b1226e621caa272d42b",
+  "images": [
+    {
+      "path": "audits/independent_ui_live/compare-actual-edge.png",
+      "sha256": "a16f48c196c4793028ab2b9dcd61dae8491ab6d0f3464da62f9263d685153b7d",
+      "actually_viewed": true
+    },
+    {
+      "path": "audits/independent_ui_live/selected-actual-computed-object.png",
+      "sha256": "7261b4520b84dd2f05d7656366ec3f8e2f6d5523391476d22a1bdf60ad7c4fca",
+      "actually_viewed": true
+    },
+    {
+      "path": "audits/independent_ui_live/late-response-isolated.png",
+      "sha256": "7c8b7b0c42d83d7f87c861e1a3e0c57e359f3780420a908f6d5ed5450aaab50c",
+      "actually_viewed": true
+    },
+    {
+      "path": "audits/independent_ui_live/parallel-F0-actual-edge.png",
+      "sha256": "285546ff6a53b3c32a99b252b3191e83066650559b4248aaaac203f0fe4c4f18",
+      "actually_viewed": true
+    },
+    {
+      "path": "audits/independent_ui_live/parallel-F1-actual-edge.png",
+      "sha256": "aa98f6f2f60f50f77e5cbfa2b6c066dd29da63d78b69fc5a5acf7d136b50db19",
+      "actually_viewed": true
+    }
+  ],
+  "observations": [
+    "B0/B3 comparison shows actual separate run IDs and equal 299.53m route; no invented gain, 12.53m preexisting hypothesis shown separately from 7.07m source-object direct gap",
+    "Selected actual 1m accepted seam is explicitly entered graph but unused by this route, with unknown width; nearby refused seams retain reasons",
+    "Late-response image shows current changed controls, original map and all 6311 starts, no old route, selected object or gold highlight",
+    "Parallel F0/F1 images show same original start and 280.11m geometry; costs 280.11/289.86 correspond to 9.75m hypothesis charged twice under F1",
+    "Text/legends/scales and source IDs are readable; user observation remains pending; no field-passability acceptance"
+  ],
+  "minor_text_note": "Successful run originally retained the generic clearRoute recompute instruction. Root corrected only that literal after capture; actual APP3 tested source is archived and literal delta independently checked separately",
+  "status": "PASS_FOR_REPORTED_ACTUAL_PNG_VISUAL_SCOPE"
+}

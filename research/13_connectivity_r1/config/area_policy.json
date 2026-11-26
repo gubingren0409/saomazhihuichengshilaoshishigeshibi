@@ -1,0 +1,24 @@
+{
+  "task": "OSM-GEOAPIFY-PEDESTRIAN-AREA-SHORTEST-R1",
+  "modes": [
+    "EDGE_BAND",
+    "FULL_FACE"
+  ],
+  "default": "EDGE_BAND",
+  "full_face_population": "All distinct source_area_id in each frozen mapped_edges file, with uniform raw-tag/member/coverage/permission/ground admission",
+  "domain": "Original mapped pedestrian polygon with holes; full-source negative restrictions; no outer-boundary erosion",
+  "areal_clearance_m": 0.25,
+  "buffer_quad_segs": 16,
+  "barriers": "Frozen exact allowed gate intersection plus unchanged common physical masks; no extra 0.25m barrier buffer",
+  "unknown_region_radius_m": 30,
+  "unknown_region_grid_m": 1,
+  "F1_assumed_multiplier": 2,
+  "full_face_derived_cost_multiplier": 1,
+  "route_answer_cache": false,
+  "new_external_requests": 0,
+  "training": false,
+  "unmarked_entrance_generation": false,
+  "optimality": "Computed polygon visibility domain at finite source portals; overall graph optimum, not unrestricted continuous-global or field optimum",
+  "derived_portal_parameter_canonicalization_max_m": 1e-08,
+  "numeric_policy": "Only newly computed source-polyline/face intersections; nearest representable inward parent parameter, explicit certificate, unchanged strict domain; never move native nodes/doors/starts"
+}

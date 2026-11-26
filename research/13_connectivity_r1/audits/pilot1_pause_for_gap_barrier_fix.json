@@ -1,0 +1,30 @@
+{
+  "time": "2026-11-12T00:36:26.205668+08:00",
+  "reason": "Pause owned immutable pilot before potentially affected pre-fix B3; source-level independent fence counterexample found",
+  "terminated_only_verified_own_pilot": [
+    {
+      "pid": 264336,
+      "cmdline": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "runtime/pilot_snapshot_1/run_pilot.py"
+      ],
+      "cwd": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1"
+    },
+    {
+      "pid": 265892,
+      "cmdline": [
+        "C:\\Users\\28489\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+        "-Command",
+        "try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}\nNew-Item -ItemType Directory -Path runtime/pilot_snapshot_1 -Force | Out-Null\n@'\nfrom pathlib import Path\nimport shutil,json,hashlib\nroot=Path('.').resolve();worker=root/'runtime/pilot_snapshot_1'\nfor folder in('src','config'):\n shutil.copytree(root/folder,worker/folder,dirs_exist_ok=False)\nfor folder in('scenes',):shutil.copytree(root/'data'/folder,worker/'data'/folder,dirs_exist_ok=False)\nfor name in('scene_manifest.json','face_selection_lock.json','baseline_requests.json'):\n (worker/'data'/name).write_bytes((root/'data'/name).read_bytes())\n(worker/'data/connectivity').mkdir();(worker/'data/connectivity/source_selection_lock.json').write_bytes((root/'data/connectivity/source_selection_lock.json').read_bytes())\nq=json.loads((root/'data/baseline_requests.json').read_text(encoding='utf-8'))['positive'][0]\n(worker/'pilot_request.json').write_text(json.dumps(q,indent=2),encoding='utf-8')\n(worker/'snapshot_manifest.json').write_text(json.dumps({'role':'IMMUTABLE_REAL_SMALL_PILOT_BEFORE_EXPANSION','source_files':{p.relative_to(worker).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()for folder in('src','config')for p in(worker/folder).rglob('*')if p.is_file()},'request':q,'modes':['FROZEN_FULL_FACE','SOURCE_COMPLETE','EXACT_STITCH','CONDITIONAL_SEAMS'],'source_selection_sha256':hashlib.sha256((worker/'data/connectivity/source_selection_lock.json').read_bytes()).hexdigest(),'old_SOURCE_PIN':'c5472838de6320d983d80e4defd448e08c017777f23bc7aa083d38e7ce10b08a'},ensure_ascii=False,indent=2),encoding='utf-8')\n(worker/'run_pilot.py').write_text('''from pathlib import Path\nimport json,time\nfrom src.planner import plan,put\nroot=Path(__file__).resolve().parent\nq=json.loads((root/'pilot_request.json').read_text());rows=[]\nfor mode in ('FROZEN_FULL_FACE','SOURCE_COMPLETE','EXACT_STITCH','CONDITIONAL_SEAMS'):\n request={**q,'area_routing':'FULL_FACE','connectivity_mode':mode,'request_id':'PILOT1-'+mode,'run_purpose':'DEVELOPMENT_PILOT'}\n r=plan(request);put(root/'results'/(mode+'.json'),r);rows.append({'mode':mode,'status':r['status'],'length_m':r.get('route',{}).get('length_m'),'cost_m':r.get('route',{}).get('cost_weighted_m'),'run_id':r['run_id'],'elapsed_s':r['elapsed_s']})\n put(root/'results/progress.json',{'rows':rows});print(json.dumps(rows[-1]),flush=True)\nput(root/'results/summary.json',{'actual_attempts':len(rows),'rows':rows,'final_main_result':False})\n''',encoding='utf-8')\nprint('pilot snapshot created',worker)\n'@ | & 'C:/Users/28489/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -B -\n& 'C:/Users/28489/AppData/Local/Programs/Python/Python312/python.exe' -X utf8 -B runtime/pilot_snapshot_1/run_pilot.py"
+      ],
+      "cwd": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1"
+    }
+  ],
+  "completed_B0_preserved": "148.86312206979613m",
+  "old_services_touched": false,
+  "B3_result_validity": "No pre-fix B3 is accepted",
+  "source_snapshot_modified": false
+}

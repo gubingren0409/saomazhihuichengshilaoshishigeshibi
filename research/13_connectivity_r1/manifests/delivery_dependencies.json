@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-11-12T03:37:59.905616+08:00",
+  "runtime": "Included new code/config and six actual frozen source clips/mapped edges; installed Python/package versions required. No old model used.",
+  "history_provenance_not_fully_reproduced_by_new_runtime": true,
+  "historical_authority_references": [
+    {
+      "role": "fixed historical FULL_FACE authority",
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\delivery\\OPEN_REVIEW_R1_FINAL_FIXED.zip",
+      "sha256": "c5472838de6320d983d80e4defd448e08c017777f23bc7aa083d38e7ce10b08a",
+      "embedded": false,
+      "needed_to_launch_new_APP": false
+    },
+    {
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\delivery\\FINAL_REPLAY_EVIDENCE.zip",
+      "sha256": "7285518c573051d7f620808135e767a723ea6945d0088683e81288848ce346b2",
+      "bytes": 745257,
+      "CRC": "PASS",
+      "all_member_SHA": "PASS",
+      "bound_baseline": "c5472838de6320d983d80e4defd448e08c017777f23bc7aa083d38e7ce10b08a"
+    }
+  ],
+  "actual_embedded_runtime_sources": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_path": "data/scenes/sh-huangpu-01/source.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "mapped_edges_path": "data/scenes/sh-huangpu-01/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f"
+    },
+    {
+      "scene_id": "sh-wukang",
+      "source_path": "data/scenes/sh-wukang/source.osm.json",
+      "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "mapped_edges_path": "data/scenes/sh-wukang/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d"
+    },
+    {
+      "scene_id": "sh-tower",
+      "source_path": "data/scenes/sh-tower/source.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "mapped_edges_path": "data/scenes/sh-tower/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "d664bcc5d13518c1890c66980a585d81503712e82f95afb64177d4d2de94468c"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_path": "data/scenes/sh-newworld/source.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "mapped_edges_path": "data/scenes/sh-newworld/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "9031f3ccd3802fe3ef8bf74385fccdbc0947be2cd53311973ad54546a19c7ab8"
+    },
+    {
+      "scene_id": "sh-library",
+      "source_path": "data/scenes/sh-library/source.osm.json",
+      "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "mapped_edges_path": "data/scenes/sh-library/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7"
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "source_path": "data/scenes/sh-exhibition/source.osm.json",
+      "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "mapped_edges_path": "data/scenes/sh-exhibition/mapped_edges.jsonl.gz",
+      "mapped_edges_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d"
+    }
+  ],
+  "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+  "source_coordinate_system": "EPSG:32651",
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "external_map_API_requests": 0,
+  "redistribution": "OSM derivative/data notice preserved; no Geoapify service data reacquired; no credentials/browser profiles in allowlist."
+}

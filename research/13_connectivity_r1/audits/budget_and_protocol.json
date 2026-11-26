@@ -1,0 +1,34 @@
+{
+  "record_type": "CURRENT_PROTOCOL_CONSOLIDATION_NOT_RETROACTIVE_PREREGISTRATION",
+  "written_at": "2026-11-12T01:31:29.396259+08:00",
+  "budget_start": "2026-11-12T00:09:06.0058603+08:00",
+  "research_deadline": "2026-11-12T04:09:06.0058603+08:00",
+  "budget_not_reset": true,
+  "core_budget_s": 14400,
+  "formal_actual_cap": 128,
+  "formal_primary_count": 104,
+  "prelocked_affected_replays": 16,
+  "interrupted_count": 1,
+  "planned_actual_total": 121,
+  "independent_live_call_cap": 6,
+  "independent_final_replay_call_cap": 2,
+  "development_attempts_disclosed": "audits/development_run_registry.json",
+  "source_lock_sha256": "855ebd865f893eeb7edaa90860b819b39a64ef28407329a3a235286e93793c57",
+  "endpoint_lock_sha256": "d88d4a30508eaea694cb48100dce85951744ca4c5a0ffee514e60f030e55f57d",
+  "formal_lock_sha256": "a76770863dd66f9c1b9364cf49801794abf1ef3d889c8d07a605a7b88f3e0700",
+  "replay_lock_sha256": "bfbe7cf692d50872886663a68dbb6e0a54c85134b318d9c5ad908bc086b6e707",
+  "original_contract": "input_contract/PED_AREA_CONNECTIVITY_R1_INPUTS; source task is attachment db252538...",
+  "hypothesis_costs": {
+    "F0": 1,
+    "F1": 2
+  },
+  "thresholds": {
+    "probe_m": 10,
+    "main_max_m": 2,
+    "sensitivity_max_m": [
+      0.5,
+      5
+    ]
+  },
+  "no_new_data_or_model": true
+}

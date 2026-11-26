@@ -1,0 +1,17 @@
+{
+  "channel": "APP_NATURAL_QUERY",
+  "source": "Six exact frozen OpenStreetMap clips; no new requests",
+  "crs": "EPSG:32651",
+  "door_policy": "Exact original registered node on target building outer ring; exit approach only",
+  "prediction_radius_m": 30,
+  "observation_radius_m": 160,
+  "front_network_extent": "Full available frozen source clip",
+  "native_semantics": "Frozen WALKABILITY-R3 S1 segment_decision; grass background does not remove valid mapped footway",
+  "mapped_area_edges": "Exact R4-REV1 R1_AREA_EDGE_MAIN 3m band/.5m grid/.25m clearance unchanged",
+  "access_area_interpretation": "Every restricted closed way with valid area semantics or multipolygon; no scene/task allowlist",
+  "boundary_exception": "Exact same observed foot-allowed native line on permission-area boundary, no area dilation or interior exception",
+  "motor_policy": "Frozen conservative walking-way filter; zero-width no-new-free-crossing centerlines; carriageway widths unknown",
+  "F0_F1": "Same default-free region, nodes, arcs, interfaces; F0=1 and F1=2 finite assumed cost only",
+  "new_entrance_generation": false,
+  "field_verified": false
+}

@@ -1,0 +1,189 @@
+{
+  "question": "M04：共边面精确接图，恢复完整路线",
+  "scene_id": "sh-exhibition",
+  "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+  "bounds": [
+    351473.64187021344,
+    3455466.57699674,
+    351634.4565922511,
+    3455612.7721985923
+  ],
+  "saved_results": [
+    {
+      "path": "runs/mechanisms/RUN-20261112T005400-1775ce2387.json",
+      "sha256": "bbaf3100a4934842b137846ecc9af10d7657c6729d01ed5d4710a508894aa278",
+      "run_id": "RUN-20261112T005400-1775ce2387",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.0008571999933337793,
+        "invocation_id": "cb4a2372c9e24d10a929d89eec075fab",
+        "answer_source": "CURRENT_REQUEST_SOLVER",
+        "algorithm": "networkx weighted shortest path"
+      },
+      "status": "NO_VALID_ROUTE",
+      "route_length_m": null,
+      "route_cost_weighted_m": null,
+      "endpoints": [
+        {
+          "basis": "ORIGINAL_SOURCE_FACE_OUTER_BOUNDARY_NODE; NO_INDEPENDENT_ELIGIBLE_LINE_NODE_AVAILABLE",
+          "coordinates_moved": false,
+          "id": "node/2613044111",
+          "mode_binding": "SAME_ORIGINAL_NODE_AND_COORDINATE; ATTACH_ONLY_TO_ADMITTED_CONTAINING_FACE; NO_BINDING_WHEN_FACE_ABSENT",
+          "native_id": "node/2613044111",
+          "network_binding_class": "SOURCE_BOUNDARY_INTERFACE_QUERY; FACE_ATTACHMENT_REQUIRED_IF_ABSENT_FROM_NATIVE_GRAPH",
+          "omega_covers": true,
+          "selection_rule": "LOWEST_ORIGINAL_NODE_ID_AMONG_OMEGA_COVERED_OUTER_BOUNDARY_NODES",
+          "source_area_id": "way/1275365117",
+          "source_node_tags": {},
+          "source_node_version": 1,
+          "wgs84": [
+            121.4408871,
+            31.2240887
+          ],
+          "xy": [
+            351498.287766238,
+            3455484.57699674
+          ]
+        },
+        {
+          "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+          "coordinates_moved": false,
+          "id": "node/12682703868",
+          "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+          "native_id": "node/12682703868",
+          "source_node_tags": {},
+          "source_node_version": 1,
+          "wgs84": [
+            121.4420413,
+            31.2250968
+          ],
+          "xy": [
+            351609.81069622654,
+            3455594.7721985923
+          ]
+        }
+      ],
+      "code_sha256": "ee3c1f2e301781432cec1ff1fc689bb65a69bf7e02da1f288fa3eacc5499b60f",
+      "input_connectivity_mode": "SOURCE_COMPLETE",
+      "raw_evidence_parent_mode": "FROZEN_FULL_FACE",
+      "preprocessing_cache_key": "7590b20484d7b2c94ba7625614634ab040479c37d0d4cb9535bfc56a98dcf651",
+      "unweighted_graph_sha256": "dce7e6ea17edfd0d273ceb7ee99d8fd8d93f4bba5dd73efb0e575127c6bc5711",
+      "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61"
+    },
+    {
+      "path": "runs/mechanisms/RUN-20261112T030817-af47b79523.json",
+      "sha256": "c6017c4c185ade4cc1a2567d27fe30bdfe2b50b457d60015f3107d9f0d3ea8a4",
+      "run_id": "RUN-20261112T030817-af47b79523",
+      "solver": {
+        "invoked": true,
+        "elapsed_s": 0.0002609000075608492,
+        "invocation_id": "77d108609a7541e8855c0619ddbfcd21",
+        "answer_source": "CURRENT_REQUEST_SOLVER",
+        "algorithm": "networkx weighted shortest path"
+      },
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "route_length_m": 158.19762121365844,
+      "route_cost_weighted_m": 158.19762121365844,
+      "endpoints": [
+        {
+          "basis": "ORIGINAL_SOURCE_FACE_OUTER_BOUNDARY_NODE; NO_INDEPENDENT_ELIGIBLE_LINE_NODE_AVAILABLE",
+          "coordinates_moved": false,
+          "id": "node/2613044111",
+          "mode_binding": "SAME_ORIGINAL_NODE_AND_COORDINATE; ATTACH_ONLY_TO_ADMITTED_CONTAINING_FACE; NO_BINDING_WHEN_FACE_ABSENT",
+          "native_id": "node/2613044111",
+          "network_binding_class": "SOURCE_BOUNDARY_INTERFACE_QUERY; FACE_ATTACHMENT_REQUIRED_IF_ABSENT_FROM_NATIVE_GRAPH",
+          "omega_covers": true,
+          "selection_rule": "LOWEST_ORIGINAL_NODE_ID_AMONG_OMEGA_COVERED_OUTER_BOUNDARY_NODES",
+          "source_area_id": "way/1275365117",
+          "source_node_tags": {},
+          "source_node_version": 1,
+          "wgs84": [
+            121.4408871,
+            31.2240887
+          ],
+          "xy": [
+            351498.287766238,
+            3455484.57699674
+          ]
+        },
+        {
+          "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+          "coordinates_moved": false,
+          "id": "node/12682703868",
+          "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+          "native_id": "node/12682703868",
+          "source_node_tags": {},
+          "source_node_version": 1,
+          "wgs84": [
+            121.4420413,
+            31.2250968
+          ],
+          "xy": [
+            351609.81069622654,
+            3455594.7721985923
+          ]
+        }
+      ],
+      "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+      "input_connectivity_mode": "EXACT_STITCH",
+      "raw_evidence_parent_mode": "FROZEN_FULL_FACE",
+      "preprocessing_cache_key": "5d7db3e6ee57e62c614556de1599e2fa3f20e0a6ad9bbd8f9a889babf3b79e59",
+      "unweighted_graph_sha256": "3e6b34d6dd2e2f8fe3c48766cdcec76125c8e45c2060e4eb7b589c5644959269",
+      "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61"
+    }
+  ],
+  "same_base_and_extent": true,
+  "same_exact_source_endpoints": true,
+  "route_coordinates_altered": false,
+  "seam_detail": null,
+  "assumed_detail": null,
+  "same_full_route_segment_geometries": null,
+  "new_exact_or_seam_length_m": 158.19762121365844,
+  "new_source_area_ids_used": [
+    "way/1275365117",
+    "way/1369422283"
+  ],
+  "source_interface_detail": null,
+  "epoch_compatibility_note": "B1 保留未变数学核的原运行；B2 绑定最终 replay，各自原始代码 SHA 见图旁记录。",
+  "mode_authority": "ACTUAL_RESULT_INPUT_MODE; RAW_PARENT_MODE_IS_PRESERVED_METADATA_ONLY; PREP_CHAIN_REMAINS_EXTERNAL_AUTHORITY",
+  "outputs": [
+    {
+      "path": "visuals/mechanism_M04_exact_stitch.svg",
+      "bytes": 212688,
+      "sha256": "09902a2b7603c937fe957e01bc603d12cd99e7430894b088014b3ad541fa34cd"
+    },
+    {
+      "path": "visuals/mechanism_M04_exact_stitch.pdf",
+      "bytes": 414053,
+      "sha256": "d91b08ca8d3166351556a4208f2ed46a7baace324466dcca4f2d62cff7bd1fb4"
+    },
+    {
+      "path": "visuals/mechanism_M04_exact_stitch.png",
+      "bytes": 881372,
+      "sha256": "30f6ef340995d559869cb2cec5c344a8f90c8bd437b45fa5c212ccb8ba471087"
+    }
+  ],
+  "crs": "EPSG:32651",
+  "routes_recomputed": false,
+  "external_map_requests": 0,
+  "source": "© OpenStreetMap contributors · ODbL · frozen 2026-11-08T21:21:00Z",
+  "palette": "P2 Cloud Sorbet Exact",
+  "renderer": "Matplotlib",
+  "author_visual_review": "ACTUAL_FINAL_PNG_NATIVE_SVG_AND_200DPI_PDF_PAGE_VIEWED; READABLE_WITH_DOCUMENTED_PDF_RASTER_FALLBACK",
+  "pdf_background_export": "SOURCE_CONTEXT_NON_ADMITTED_LINES_AND_P_OUTLINE_DASHES_RASTERIZED_AT_300DPI_TO_AVOID_BACKEND_CLIPPING_ARTIFACTS; OMEGA_ADMITTED_NATIVE_LINES_ROUTES_TEXT_REMAIN_VECTOR; SVG_FULLY_VECTOR",
+  "reviewed_output_hashes": {
+    "png_sha256": "30f6ef340995d559869cb2cec5c344a8f90c8bd437b45fa5c212ccb8ba471087",
+    "pdf_sha256": "d91b08ca8d3166351556a4208f2ed46a7baace324466dcca4f2d62cff7bd1fb4",
+    "svg_sha256": "09902a2b7603c937fe957e01bc603d12cd99e7430894b088014b3ad541fa34cd",
+    "pdf_render_sha256": "094bc3af2187b459fa44b085859396bc7632c2aca2ae70b8aff28be1b8bce74c",
+    "rendered_svg_sha256": "466be4f2136ce5f3be89152c99fcb08ecf88558a8701a65533aeb4d84b443443"
+  },
+  "formal_attempt_ids": [
+    "FORMAL-074",
+    "REPLAY-FORMAL-075"
+  ],
+  "result_registries": [
+    "results/formal_registry.jsonl",
+    "results/formal_replay_registry.jsonl"
+  ]
+}

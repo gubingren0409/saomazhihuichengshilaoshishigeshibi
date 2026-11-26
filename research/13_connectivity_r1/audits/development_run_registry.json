@@ -1,0 +1,196 @@
+{
+  "completed": [
+    {
+      "role": "PREDECLARED_DEVELOPMENT",
+      "snapshot": 1,
+      "path": "runtime/pilot_snapshot_1/results/FROZEN_FULL_FACE.json",
+      "sha256": "58ac6e4bc1c34090376b2ee60ecc846ac6dbcc3b2c1360f1ccc5e5c743d16153",
+      "run_id": "RUN-20261112T003158-54b579f6e4",
+      "input": {
+        "request_id": "PILOT1-FROZEN_FULL_FACE",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "area_routing": "FULL_FACE",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "run_purpose": "DEVELOPMENT_PILOT"
+      },
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "solver_invoked": true,
+      "length_m": 148.86312206979613,
+      "elapsed_s": 181.12753309999243
+    },
+    {
+      "role": "PREDECLARED_DEVELOPMENT",
+      "snapshot": 2,
+      "path": "runtime/pilot_snapshot_2/results/CONDITIONAL_SEAMS.json",
+      "sha256": "13363e66edcaa343a1426fbd39b6a5b58af19ef99f1a949267c2f697a97cd755",
+      "run_id": "RUN-20261112T003940-340a552607",
+      "input": {
+        "mechanism_id": "M04",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "method": "F0",
+        "request_id": "PILOT2-M04-CONDITIONAL_SEAMS",
+        "run_purpose": "DEVELOPMENT_REAL_INTERFACE_PILOT"
+      },
+      "status": "MECHANISM_ENDPOINT_UNBOUND",
+      "solver_invoked": false,
+      "length_m": null,
+      "elapsed_s": 6.233199499998591
+    },
+    {
+      "role": "PREDECLARED_DEVELOPMENT",
+      "snapshot": 2,
+      "path": "runtime/pilot_snapshot_2/results/EXACT_STITCH.json",
+      "sha256": "f3bd28c1e8dfd7fcd2f2d0fe4093b2db1be60331c02d9013435e9f1f72d5210a",
+      "run_id": "RUN-20261112T003935-b96eb84029",
+      "input": {
+        "mechanism_id": "M04",
+        "connectivity_mode": "EXACT_STITCH",
+        "method": "F0",
+        "request_id": "PILOT2-M04-EXACT_STITCH",
+        "run_purpose": "DEVELOPMENT_REAL_INTERFACE_PILOT"
+      },
+      "status": "MECHANISM_ENDPOINT_UNBOUND",
+      "solver_invoked": false,
+      "length_m": null,
+      "elapsed_s": 4.362940299994079
+    },
+    {
+      "role": "PREDECLARED_DEVELOPMENT",
+      "snapshot": 2,
+      "path": "runtime/pilot_snapshot_2/results/FROZEN_FULL_FACE.json",
+      "sha256": "41069bad8f111b416d7f816c471c2a2708730b13c3869688a83b5218037da3fe",
+      "run_id": "RUN-20261112T003912-37be593e24",
+      "input": {
+        "mechanism_id": "M04",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "method": "F0",
+        "request_id": "PILOT2-M04-FROZEN_FULL_FACE",
+        "run_purpose": "DEVELOPMENT_REAL_INTERFACE_PILOT"
+      },
+      "status": "MECHANISM_ENDPOINT_UNBOUND",
+      "solver_invoked": false,
+      "length_m": null,
+      "elapsed_s": 15.192080599998008
+    },
+    {
+      "role": "PREDECLARED_DEVELOPMENT",
+      "snapshot": 2,
+      "path": "runtime/pilot_snapshot_2/results/SOURCE_COMPLETE.json",
+      "sha256": "cae4cef59bda9b57180a9f994ef037097e238f7e1cbb0f8090fbe49b4f675295",
+      "run_id": "RUN-20261112T003927-5754fee317",
+      "input": {
+        "mechanism_id": "M04",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "method": "F0",
+        "request_id": "PILOT2-M04-SOURCE_COMPLETE",
+        "run_purpose": "DEVELOPMENT_REAL_INTERFACE_PILOT"
+      },
+      "status": "MECHANISM_ENDPOINT_UNBOUND",
+      "solver_invoked": false,
+      "length_m": null,
+      "elapsed_s": 7.7435892000066815
+    },
+    {
+      "role": "PREDECLARED_DEVELOPMENT",
+      "snapshot": 3,
+      "path": "runtime/pilot_snapshot_3/results/CONDITIONAL_SEAMS.json",
+      "sha256": "c7a9f783c78de8865fcf81ed3b6947f68eabea55b6a805bd59aecfd4f73b33d0",
+      "run_id": "RUN-20261112T005110-e98b66c5ee",
+      "input": {
+        "mechanism_id": "M04",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "run_purpose": "DEVELOPMENT_BOUNDARY_BINDING_FIX_REGRESSION"
+      },
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "solver_invoked": true,
+      "length_m": 158.19762121365844,
+      "elapsed_s": 6.549298700003419
+    },
+    {
+      "role": "PREDECLARED_DEVELOPMENT",
+      "snapshot": 3,
+      "path": "runtime/pilot_snapshot_3/results/EXACT_STITCH.json",
+      "sha256": "b9c8c5c9333165d200d516070307a96e859c2a0c29acda4830203993f6ab5ba6",
+      "run_id": "RUN-20261112T005105-c67a6bf939",
+      "input": {
+        "mechanism_id": "M04",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "run_purpose": "DEVELOPMENT_BOUNDARY_BINDING_FIX_REGRESSION"
+      },
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "solver_invoked": true,
+      "length_m": 158.19762121365844,
+      "elapsed_s": 4.788772800005972
+    },
+    {
+      "role": "PREDECLARED_DEVELOPMENT",
+      "snapshot": 3,
+      "path": "runtime/pilot_snapshot_3/results/FROZEN_FULL_FACE.json",
+      "sha256": "836d81883809c8aa4db1f802959e92139cf7dd42ca0311ac0d0f0c910df46597",
+      "run_id": "RUN-20261112T005041-4214c4eaa8",
+      "input": {
+        "mechanism_id": "M04",
+        "method": "F0",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "run_purpose": "DEVELOPMENT_BOUNDARY_BINDING_FIX_REGRESSION"
+      },
+      "status": "MECHANISM_ENDPOINT_UNBOUND",
+      "solver_invoked": false,
+      "length_m": null,
+      "elapsed_s": 15.163396900010412
+    },
+    {
+      "role": "PREDECLARED_DEVELOPMENT",
+      "snapshot": 3,
+      "path": "runtime/pilot_snapshot_3/results/SOURCE_COMPLETE.json",
+      "sha256": "316849669dfd6528e05e4aa383747a252598422d5fa56399786247ae61101de8",
+      "run_id": "RUN-20261112T005057-43bdaf7d01",
+      "input": {
+        "mechanism_id": "M04",
+        "method": "F0",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "run_purpose": "DEVELOPMENT_BOUNDARY_BINDING_FIX_REGRESSION"
+      },
+      "status": "NO_VALID_ROUTE",
+      "solver_invoked": true,
+      "length_m": null,
+      "elapsed_s": 8.883653600001708
+    },
+    {
+      "role": "PREDECLARED_DEVELOPMENT_HTTP",
+      "run_id": "RUN-20261112T005232-7712b6cd63",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "input": {
+        "mechanism_id": "M04",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "request_id": "HTTP-INTEGRATION-M04",
+        "run_purpose": "DEVELOPMENT_HTTP_INTEGRATION"
+      },
+      "solver_invoked": true,
+      "length_m": 158.19762121365844
+    }
+  ],
+  "interrupted": [
+    {
+      "snapshot": 1,
+      "mode": "SOURCE_COMPLETE",
+      "reason": "Own worker stopped before any B3 because independent fence counterexample needed fix; no output substituted.",
+      "attempted": true
+    }
+  ],
+  "completed_count": 10,
+  "completed_solver_invocations": 5,
+  "total_attempted_including_interrupted": 11,
+  "engineering_setup_failures": [
+    "Hardlink sandbox denied; safely used normal copy.",
+    "One copy command used snapshot cwd; failed before any solver, retained files, corrected cwd."
+  ]
+}

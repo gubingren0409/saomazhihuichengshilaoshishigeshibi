@@ -1,0 +1,91 @@
+{
+  "question": "按互斥来源原因完整核对六场景候选人口，避免跨clip重复当独立证据",
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "old": 2,
+      "new": 27,
+      "non_ground_rejected": 2,
+      "coverage_rejected": 1,
+      "explicit_candidate_count": 32
+    },
+    {
+      "scene_id": "sh-wukang",
+      "old": 0,
+      "new": 3,
+      "non_ground_rejected": 0,
+      "coverage_rejected": 2,
+      "explicit_candidate_count": 5
+    },
+    {
+      "scene_id": "sh-tower",
+      "old": 1,
+      "new": 47,
+      "non_ground_rejected": 2,
+      "coverage_rejected": 4,
+      "explicit_candidate_count": 54
+    },
+    {
+      "scene_id": "sh-newworld",
+      "old": 2,
+      "new": 17,
+      "non_ground_rejected": 2,
+      "coverage_rejected": 3,
+      "explicit_candidate_count": 24
+    },
+    {
+      "scene_id": "sh-library",
+      "old": 1,
+      "new": 11,
+      "non_ground_rejected": 0,
+      "coverage_rejected": 0,
+      "explicit_candidate_count": 12
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "old": 0,
+      "new": 19,
+      "non_ground_rejected": 1,
+      "coverage_rejected": 2,
+      "explicit_candidate_count": 22
+    }
+  ],
+  "partition_total": 149,
+  "partition_conserved": true,
+  "source_admitted_scene_id_count": 130,
+  "global_unique_source_faces": 88,
+  "new_global_unique_source_faces": 82,
+  "layout_choice": "MUTUALLY_EXCLUSIVE_COUNT_BARS_SELECTED_AFTER_RENDER_REVIEW; FULL_CLIP_GALLERY_IS_TOO_DENSE_AT_FINAL_SIZE",
+  "full_source_geography": "AVAILABLE_IN_INTERACTIVE_SIX_SCENE_DIAGNOSIS_AND_ROUTE_CASE_MAPS",
+  "outputs": [
+    {
+      "path": "visuals/six_scene_source_inventory.svg",
+      "bytes": 23444,
+      "sha256": "6c7d5912d4200a4970a6e66aec2efe1a843eabbc3771d091ef275341e953d3fc"
+    },
+    {
+      "path": "visuals/six_scene_source_inventory.pdf",
+      "bytes": 75817,
+      "sha256": "7ee8cb72d0f9438ea65a85d9a8493b6f6f0076e5d7b65dbe2ef3ffbe2cd98786"
+    },
+    {
+      "path": "visuals/six_scene_source_inventory.png",
+      "bytes": 371677,
+      "sha256": "1a189045b82cc4fac30f2f70453470ae9d2c813f8b0bdfe5e174204d5f34b019"
+    }
+  ],
+  "crs": "EPSG:32651",
+  "routes_recomputed": false,
+  "external_map_requests": 0,
+  "source": "© OpenStreetMap contributors · ODbL · frozen 2026-11-08T21:21:00Z",
+  "palette": "P2 Cloud Sorbet Exact",
+  "renderer": "Matplotlib",
+  "author_visual_review": "ACTUAL_FINAL_PNG_NATIVE_SVG_AND_200DPI_PDF_PAGE_VIEWED; READABLE_WITH_DOCUMENTED_PDF_RASTER_FALLBACK",
+  "reviewed_output_hashes": {
+    "png_sha256": "1a189045b82cc4fac30f2f70453470ae9d2c813f8b0bdfe5e174204d5f34b019",
+    "pdf_sha256": "7ee8cb72d0f9438ea65a85d9a8493b6f6f0076e5d7b65dbe2ef3ffbe2cd98786",
+    "svg_sha256": "6c7d5912d4200a4970a6e66aec2efe1a843eabbc3771d091ef275341e953d3fc",
+    "pdf_render_sha256": "62d00e7291a97b377c9c172d92db4c9d3f9cf6c5d251b51e780053ecf674b0eb",
+    "rendered_svg_sha256": "02609cebec5a1b3ced4d4a059176a7515ea2c5a0b4ed76870612b7bebc25a84e"
+  }
+}

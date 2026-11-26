@@ -1,0 +1,267 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scene_id": "sh-library",
+  "independent_reference": "RAW_OSM_EXACT_NODE_RING_AND_NEGATIVE_MASK_RECONSTRUCTION_NO_SRC_IMPORTS",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+  "author_faces_sha256": "2879b39e9a96fb05f48136c639fb93960533681c58e10e9f9df5fed3d10aa85a",
+  "author_full_common_sha256": "687e6c8ef9050690349417fec14e34b32b414e8dbe09ad1722ab10fe4318a0c3",
+  "author_faces_stable": true,
+  "raw_common_blocked_symmetric_difference_m2": 7.90574423609777e-09,
+  "inherited_ordered_overlay_area_reporting_precision_m2": 1e-05,
+  "elapsed_s": 6.974835200002417,
+  "rows": [
+    {
+      "source_id": "way/1160136226",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 723.9140831564908,
+      "independent_omega_area_m2": 723.9140831564907,
+      "author_omega_area_m2": 723.9140831564907,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1264845154",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 9.775924615987568e-11,
+      "independent_P_area_m2": 817.3391552181758,
+      "independent_omega_area_m2": 811.2412420398377,
+      "author_omega_area_m2": 811.2412420398377,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/1264845153",
+          "kind": "BUILDING",
+          "tags": {
+            "amenity": "theatre",
+            "building": "yes",
+            "name": "上戏实验剧院"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/1264845153",
+          "kind": "BUILDING",
+          "tags": {
+            "amenity": "theatre",
+            "building": "yes",
+            "name": "上戏实验剧院"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/331207147",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 7.145615732689729e-10,
+      "independent_P_area_m2": 8651.839109564826,
+      "independent_omega_area_m2": 8626.811846783918,
+      "author_omega_area_m2": 8626.811846783918,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/646634539",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海",
+            "addr:district": "Xuhui",
+            "addr:housenumber": "989",
+            "addr:street": "Changle Road",
+            "building": "commercial",
+            "building:levels": "45",
+            "height": "196",
+            "name": "The Center",
+            "name:en": "The Center",
+            "website": "https://www.emporis.com/buildings/101748/the-center-shanghai-china"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/646634539",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海",
+            "addr:district": "Xuhui",
+            "addr:housenumber": "989",
+            "addr:street": "Changle Road",
+            "building": "commercial",
+            "building:levels": "45",
+            "height": "196",
+            "name": "The Center",
+            "name:en": "The Center",
+            "website": "https://www.emporis.com/buildings/101748/the-center-shanghai-china"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/436681710",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 3170.9364105399864,
+      "independent_omega_area_m2": 3144.844070295134,
+      "author_omega_area_m2": 3144.844070295134,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/440429838",
+          "kind": "BUILDING",
+          "tags": {
+            "amenity": "shelter",
+            "bench": "yes",
+            "building": "yes",
+            "shelter_type": "pagoda"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/440429838",
+          "kind": "BUILDING",
+          "tags": {
+            "amenity": "shelter",
+            "bench": "yes",
+            "building": "yes",
+            "shelter_type": "pagoda"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/440429843",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 233.9758006078652,
+      "independent_omega_area_m2": 233.97580060786527,
+      "author_omega_area_m2": 233.97580060786527,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/440439921",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 202.76903027265521,
+      "independent_omega_area_m2": 202.76903027265521,
+      "author_omega_area_m2": 202.76903027265521,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/440439922",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 273.4534509551036,
+      "independent_omega_area_m2": 273.4534509551036,
+      "author_omega_area_m2": 273.4534509551036,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/440478976",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 492.17911335714916,
+      "independent_omega_area_m2": 492.17911335714894,
+      "author_omega_area_m2": 492.17911335714894,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/440478977",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 795.2617616905693,
+      "independent_omega_area_m2": 795.2617616905693,
+      "author_omega_area_m2": 795.2617616905693,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/447882284",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 57.96346062197362,
+      "independent_omega_area_m2": 57.963460621973624,
+      "author_omega_area_m2": 57.963460621973624,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/447882287",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 55.888376991311596,
+      "independent_omega_area_m2": 55.888376991311596,
+      "author_omega_area_m2": 55.888376991311596,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/674428069",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 499.7594442533824,
+      "independent_omega_area_m2": 499.7594442533824,
+      "author_omega_area_m2": 499.7594442533824,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    }
+  ],
+  "status": "GEOMETRY_MATCH_FOR_REPORTED_SCOPE",
+  "limits": [
+    "No route or interface graph correctness inferred from matching Omega",
+    "No field validation",
+    "P geometry remains unchanged; common and areal masks preserve distinct roles",
+    "Roads are zero-width component constraints and are not extra areal masks"
+  ]
+}

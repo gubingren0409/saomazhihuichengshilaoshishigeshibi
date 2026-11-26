@@ -1,0 +1,1424 @@
+{
+  "status": "PRELOCKED_BEFORE_FORMAL_RESULTS",
+  "requests": [
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-01",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-001"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-01",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-002"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-01",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-003"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-01",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-004"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-02",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-005"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-02",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-006"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-02",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-007"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-02",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-008"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-03",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-009"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-03",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-010"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-03",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-011"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-03",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-012"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-04",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-013"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-04",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-014"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-04",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-015"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-04",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-016"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-05",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-017"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-05",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-018"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-05",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-019"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-05",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-020"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-06",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-021"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-06",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-022"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-06",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-023"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-06",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/11667615960",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-024"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-07",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-025"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-07",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-026"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-07",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-027"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-07",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-028"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-08",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-029"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-08",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-030"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-08",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-031"
+    },
+    {
+      "role": "BASELINE_POSITIVE",
+      "request": {
+        "request_id": "APP-08",
+        "scene_id": "sh-library",
+        "door_id": "node/11300000483",
+        "start_id": "node/105253317",
+        "purpose": "ENTER_BUILDING",
+        "method": "F1",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-032"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "REJECTED_ENTRANCE_ROLE",
+      "request": {
+        "request_id": "APP-09",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-033"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "REJECTED_ENTRANCE_ROLE",
+      "request": {
+        "request_id": "APP-09",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-034"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "REJECTED_ENTRANCE_ROLE",
+      "request": {
+        "request_id": "APP-09",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-035"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "REJECTED_ENTRANCE_ROLE",
+      "request": {
+        "request_id": "APP-09",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "ENTER_BUILDING",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-036"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "request": {
+        "request_id": "APP-10",
+        "scene_id": "sh-wukang",
+        "door_id": "",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-037"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "request": {
+        "request_id": "APP-10",
+        "scene_id": "sh-wukang",
+        "door_id": "",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-038"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "request": {
+        "request_id": "APP-10",
+        "scene_id": "sh-wukang",
+        "door_id": "",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-039"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "NO_ELIGIBLE_REGISTERED_ENTRANCE",
+      "request": {
+        "request_id": "APP-10",
+        "scene_id": "sh-wukang",
+        "door_id": "",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-040"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_START",
+      "request": {
+        "request_id": "APP-11",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/NOT_A_SOURCE_NODE",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-041"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_START",
+      "request": {
+        "request_id": "APP-11",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/NOT_A_SOURCE_NODE",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-042"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_START",
+      "request": {
+        "request_id": "APP-11",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/NOT_A_SOURCE_NODE",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-043"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_START",
+      "request": {
+        "request_id": "APP-11",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/NOT_A_SOURCE_NODE",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-044"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_REQUEST",
+      "request": {
+        "request_id": "APP-12",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "start_xy": [
+          "INVALID",
+          "COORDINATE"
+        ],
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-045"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_REQUEST",
+      "request": {
+        "request_id": "APP-12",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "start_xy": [
+          "INVALID",
+          "COORDINATE"
+        ],
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-046"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_REQUEST",
+      "request": {
+        "request_id": "APP-12",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "start_xy": [
+          "INVALID",
+          "COORDINATE"
+        ],
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-047"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_REQUEST",
+      "request": {
+        "request_id": "APP-12",
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "start_xy": [
+          "INVALID",
+          "COORDINATE"
+        ],
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-048"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_REQUEST",
+      "request": {
+        "request_id": "APP-13",
+        "scene_id": "OUTSIDE_FROZEN_SCENE_COVERAGE",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-049"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_REQUEST",
+      "request": {
+        "request_id": "APP-13",
+        "scene_id": "OUTSIDE_FROZEN_SCENE_COVERAGE",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-050"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_REQUEST",
+      "request": {
+        "request_id": "APP-13",
+        "scene_id": "OUTSIDE_FROZEN_SCENE_COVERAGE",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-051"
+    },
+    {
+      "role": "BASELINE_REJECTION",
+      "expected_status": "INVALID_REQUEST",
+      "request": {
+        "request_id": "APP-13",
+        "scene_id": "OUTSIDE_FROZEN_SCENE_COVERAGE",
+        "door_id": "node/6897145227",
+        "start_id": "node/10073042336",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE"
+      },
+      "attempt_id": "FORMAL-052"
+    },
+    {
+      "role": "HISTORICAL_LONG_QUERY_NOT_SCREENSHOT_BOUND",
+      "request": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1890885411",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE",
+        "request_id": "EXTRA-F0"
+      },
+      "attempt_id": "FORMAL-053"
+    },
+    {
+      "role": "HISTORICAL_LONG_QUERY_NOT_SCREENSHOT_BOUND",
+      "request": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1890885411",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE",
+        "request_id": "EXTRA-F0"
+      },
+      "attempt_id": "FORMAL-054"
+    },
+    {
+      "role": "HISTORICAL_LONG_QUERY_NOT_SCREENSHOT_BOUND",
+      "request": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1890885411",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE",
+        "request_id": "EXTRA-F0"
+      },
+      "attempt_id": "FORMAL-055"
+    },
+    {
+      "role": "HISTORICAL_LONG_QUERY_NOT_SCREENSHOT_BOUND",
+      "request": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1890885411",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE",
+        "request_id": "EXTRA-F0"
+      },
+      "attempt_id": "FORMAL-056"
+    },
+    {
+      "role": "HISTORICAL_LONG_QUERY_NOT_SCREENSHOT_BOUND",
+      "request": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1890885411",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "area_routing": "FULL_FACE",
+        "request_id": "EXTRA-F1"
+      },
+      "attempt_id": "FORMAL-057"
+    },
+    {
+      "role": "HISTORICAL_LONG_QUERY_NOT_SCREENSHOT_BOUND",
+      "request": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1890885411",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "area_routing": "FULL_FACE",
+        "request_id": "EXTRA-F1"
+      },
+      "attempt_id": "FORMAL-058"
+    },
+    {
+      "role": "HISTORICAL_LONG_QUERY_NOT_SCREENSHOT_BOUND",
+      "request": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1890885411",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "connectivity_mode": "EXACT_STITCH",
+        "area_routing": "FULL_FACE",
+        "request_id": "EXTRA-F1"
+      },
+      "attempt_id": "FORMAL-059"
+    },
+    {
+      "role": "HISTORICAL_LONG_QUERY_NOT_SCREENSHOT_BOUND",
+      "request": {
+        "scene_id": "sh-huangpu-01",
+        "door_id": "node/6897141353",
+        "start_id": "node/1890885411",
+        "purpose": "APPROACH_OUTSIDE",
+        "method": "F1",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "area_routing": "FULL_FACE",
+        "request_id": "EXTRA-F1"
+      },
+      "attempt_id": "FORMAL-060"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M01",
+        "method": "F0",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "seam_max_m": 2.0,
+        "request_id": "M01-F0"
+      },
+      "attempt_id": "FORMAL-061"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M01",
+        "method": "F0",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "seam_max_m": 2.0,
+        "request_id": "M01-F0"
+      },
+      "attempt_id": "FORMAL-062"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M01",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "seam_max_m": 2.0,
+        "request_id": "M01-F0"
+      },
+      "attempt_id": "FORMAL-063"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M01",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 2.0,
+        "request_id": "M01-F0"
+      },
+      "attempt_id": "FORMAL-064"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M02",
+        "method": "F0",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "seam_max_m": 2.0,
+        "request_id": "M02-F0"
+      },
+      "attempt_id": "FORMAL-065"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M02",
+        "method": "F0",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "seam_max_m": 2.0,
+        "request_id": "M02-F0"
+      },
+      "attempt_id": "FORMAL-066"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M02",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "seam_max_m": 2.0,
+        "request_id": "M02-F0"
+      },
+      "attempt_id": "FORMAL-067"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M02",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 2.0,
+        "request_id": "M02-F0"
+      },
+      "attempt_id": "FORMAL-068"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M03",
+        "method": "F0",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "seam_max_m": 2.0,
+        "request_id": "M03-F0"
+      },
+      "attempt_id": "FORMAL-069"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M03",
+        "method": "F0",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "seam_max_m": 2.0,
+        "request_id": "M03-F0"
+      },
+      "attempt_id": "FORMAL-070"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M03",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "seam_max_m": 2.0,
+        "request_id": "M03-F0"
+      },
+      "attempt_id": "FORMAL-071"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M03",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 2.0,
+        "request_id": "M03-F0"
+      },
+      "attempt_id": "FORMAL-072"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M04",
+        "method": "F0",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "seam_max_m": 2.0,
+        "request_id": "M04-F0"
+      },
+      "attempt_id": "FORMAL-073"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M04",
+        "method": "F0",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "seam_max_m": 2.0,
+        "request_id": "M04-F0"
+      },
+      "attempt_id": "FORMAL-074"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M04",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "seam_max_m": 2.0,
+        "request_id": "M04-F0"
+      },
+      "attempt_id": "FORMAL-075"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M04",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 2.0,
+        "request_id": "M04-F0"
+      },
+      "attempt_id": "FORMAL-076"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M05",
+        "method": "F0",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "seam_max_m": 2.0,
+        "request_id": "M05-F0"
+      },
+      "attempt_id": "FORMAL-077"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M05",
+        "method": "F0",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "seam_max_m": 2.0,
+        "request_id": "M05-F0"
+      },
+      "attempt_id": "FORMAL-078"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M05",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "seam_max_m": 2.0,
+        "request_id": "M05-F0"
+      },
+      "attempt_id": "FORMAL-079"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M05",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 2.0,
+        "request_id": "M05-F0"
+      },
+      "attempt_id": "FORMAL-080"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F0",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "seam_max_m": 2.0,
+        "request_id": "M06-F0"
+      },
+      "attempt_id": "FORMAL-081"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F0",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "seam_max_m": 2.0,
+        "request_id": "M06-F0"
+      },
+      "attempt_id": "FORMAL-082"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "seam_max_m": 2.0,
+        "request_id": "M06-F0"
+      },
+      "attempt_id": "FORMAL-083"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 2.0,
+        "request_id": "M06-F0"
+      },
+      "attempt_id": "FORMAL-084"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M07",
+        "method": "F0",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "seam_max_m": 2.0,
+        "request_id": "M07-F0"
+      },
+      "attempt_id": "FORMAL-085"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M07",
+        "method": "F0",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "seam_max_m": 2.0,
+        "request_id": "M07-F0"
+      },
+      "attempt_id": "FORMAL-086"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M07",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "seam_max_m": 2.0,
+        "request_id": "M07-F0"
+      },
+      "attempt_id": "FORMAL-087"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M07",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 2.0,
+        "request_id": "M07-F0"
+      },
+      "attempt_id": "FORMAL-088"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M08",
+        "method": "F0",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "seam_max_m": 2.0,
+        "request_id": "M08-F0"
+      },
+      "attempt_id": "FORMAL-089"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M08",
+        "method": "F0",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "seam_max_m": 2.0,
+        "request_id": "M08-F0"
+      },
+      "attempt_id": "FORMAL-090"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M08",
+        "method": "F0",
+        "connectivity_mode": "EXACT_STITCH",
+        "seam_max_m": 2.0,
+        "request_id": "M08-F0"
+      },
+      "attempt_id": "FORMAL-091"
+    },
+    {
+      "role": "SOURCE_INTERFACE_MECHANISM",
+      "request": {
+        "mechanism_id": "M08",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 2.0,
+        "request_id": "M08-F0"
+      },
+      "attempt_id": "FORMAL-092"
+    },
+    {
+      "role": "PRELOCKED_THRESHOLD_SENSITIVITY",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 0.5,
+        "request_id": "M06-SENS-0.5-F0"
+      },
+      "attempt_id": "FORMAL-093"
+    },
+    {
+      "role": "PRELOCKED_THRESHOLD_SENSITIVITY",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F1",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 0.5,
+        "request_id": "M06-SENS-0.5-F1"
+      },
+      "attempt_id": "FORMAL-094"
+    },
+    {
+      "role": "PRELOCKED_THRESHOLD_SENSITIVITY",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 5.0,
+        "request_id": "M06-SENS-5.0-F0"
+      },
+      "attempt_id": "FORMAL-095"
+    },
+    {
+      "role": "PRELOCKED_THRESHOLD_SENSITIVITY",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F1",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 5.0,
+        "request_id": "M06-SENS-5.0-F1"
+      },
+      "attempt_id": "FORMAL-096"
+    },
+    {
+      "role": "PRELOCKED_THRESHOLD_SENSITIVITY",
+      "request": {
+        "mechanism_id": "M07",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 0.5,
+        "request_id": "M07-SENS-0.5-F0"
+      },
+      "attempt_id": "FORMAL-097"
+    },
+    {
+      "role": "PRELOCKED_THRESHOLD_SENSITIVITY",
+      "request": {
+        "mechanism_id": "M07",
+        "method": "F1",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 0.5,
+        "request_id": "M07-SENS-0.5-F1"
+      },
+      "attempt_id": "FORMAL-098"
+    },
+    {
+      "role": "PRELOCKED_THRESHOLD_SENSITIVITY",
+      "request": {
+        "mechanism_id": "M07",
+        "method": "F0",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 5.0,
+        "request_id": "M07-SENS-5.0-F0"
+      },
+      "attempt_id": "FORMAL-099"
+    },
+    {
+      "role": "PRELOCKED_THRESHOLD_SENSITIVITY",
+      "request": {
+        "mechanism_id": "M07",
+        "method": "F1",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 5.0,
+        "request_id": "M07-SENS-5.0-F1"
+      },
+      "attempt_id": "FORMAL-100"
+    },
+    {
+      "role": "GAP_COST_PAIR",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F1",
+        "connectivity_mode": "FROZEN_FULL_FACE",
+        "seam_max_m": 2.0,
+        "request_id": "M06-F1"
+      },
+      "attempt_id": "FORMAL-101"
+    },
+    {
+      "role": "GAP_COST_PAIR",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F1",
+        "connectivity_mode": "SOURCE_COMPLETE",
+        "seam_max_m": 2.0,
+        "request_id": "M06-F1"
+      },
+      "attempt_id": "FORMAL-102"
+    },
+    {
+      "role": "GAP_COST_PAIR",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F1",
+        "connectivity_mode": "EXACT_STITCH",
+        "seam_max_m": 2.0,
+        "request_id": "M06-F1"
+      },
+      "attempt_id": "FORMAL-103"
+    },
+    {
+      "role": "GAP_COST_PAIR",
+      "request": {
+        "mechanism_id": "M06",
+        "method": "F1",
+        "connectivity_mode": "CONDITIONAL_SEAMS",
+        "seam_max_m": 2.0,
+        "request_id": "M06-F1"
+      },
+      "attempt_id": "FORMAL-104"
+    }
+  ],
+  "count": 104,
+  "formal_cap": 128,
+  "reserve": 24,
+  "baseline_file_sha256": "20c79669cdeecd8336f0128f9708bd813c2a5359e45642e644caec85c2b8ade3",
+  "mechanism_endpoint_lock_sha256": "d88d4a30508eaea694cb48100dce85951744ca4c5a0ffee514e60f030e55f57d",
+  "development_pilots": "Separately predeclared engineering diagnostics; all actual attempts disclosed, never substitute formal matrix.",
+  "configurations": "4 main modes at2m, B3 .5m and5m sensitivity; all F0/F1 same unweighted graph."
+}

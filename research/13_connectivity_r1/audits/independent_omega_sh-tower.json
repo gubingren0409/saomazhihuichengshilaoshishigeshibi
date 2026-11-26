@@ -1,0 +1,3035 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scene_id": "sh-tower",
+  "independent_reference": "RAW_OSM_EXACT_NODE_RING_AND_NEGATIVE_MASK_RECONSTRUCTION_NO_SRC_IMPORTS",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+  "author_faces_sha256": "5bd8fa3df4d8db1b4bfeed9333944f437209cae9dca74cf8e02b09b0f9f13ac6",
+  "author_full_common_sha256": "8e44500493716dad4ecb7e38f52e0cb8e126cbbf2b7b86d440555a1749521338",
+  "author_faces_stable": true,
+  "raw_common_blocked_symmetric_difference_m2": 0.0,
+  "inherited_ordered_overlay_area_reporting_precision_m2": 1e-05,
+  "elapsed_s": 4.641071500009275,
+  "rows": [
+    {
+      "source_id": "relation/7474324",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.216044875229248e-09,
+      "independent_P_area_m2": 12708.17355974195,
+      "independent_omega_area_m2": 12314.51675769173,
+      "author_omega_area_m2": 12314.51675769173,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/515758762",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758784",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758785",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758760",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758781",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758786",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        },
+        {
+          "source_id": "way/515758751",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758779",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758767",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758768",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758764",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758746",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758766",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758765",
+          "kind": "BUILDING",
+          "tags": {
+            "amenity": "restaurant",
+            "building": "yes",
+            "cuisine": "chinese"
+          }
+        },
+        {
+          "source_id": "way/515758777",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758772",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758755",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758753",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/515758762",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758760",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758781",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758786",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/515758779",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758784",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758785",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178492989",
+          "kind": "RAW_RESTRICTED_LINEAR",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "highway": "secondary",
+            "layer": "-1",
+            "maxspeed": "40",
+            "maxspeed:type": "sign",
+            "name": "人民路隧道",
+            "name:en": "Renmin Road Tunnel",
+            "oneway": "yes",
+            "surface": "asphalt",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "source_id": "way/49224795",
+          "kind": "RAW_RESTRICTED_LINEAR",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "highway": "secondary",
+            "layer": "-1",
+            "maxspeed": "40",
+            "maxspeed:type": "sign",
+            "name": "人民路隧道",
+            "name:en": "Renmin Road Tunnel",
+            "oneway": "yes",
+            "surface": "asphalt",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        },
+        {
+          "source_id": "way/515758772",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758755",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758767",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758768",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758764",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758746",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758766",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758765",
+          "kind": "BUILDING",
+          "tags": {
+            "amenity": "restaurant",
+            "building": "yes",
+            "cuisine": "chinese"
+          }
+        },
+        {
+          "source_id": "way/515758777",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758751",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758753",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1211261444",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 7459.2642583044435,
+      "independent_omega_area_m2": 7177.322797335724,
+      "author_omega_area_m2": 7177.322797335724,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        },
+        {
+          "source_id": "way/8002009",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        },
+        {
+          "source_id": "way/511382730",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        },
+        {
+          "source_id": "way/8002009",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        },
+        {
+          "source_id": "way/1211261443",
+          "kind": "BARRIER",
+          "tags": {
+            "barrier": "wall"
+          }
+        },
+        {
+          "source_id": "way/511382730",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1300252256",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 4.971478605305876e-11,
+      "independent_P_area_m2": 315.8096099216293,
+      "independent_omega_area_m2": 311.6093245583656,
+      "author_omega_area_m2": 311.6093245583656,
+      "independent_mask_sources": [
+        {
+          "source_id": "relation/17818757",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "1138号",
+            "addr:province": "上海",
+            "addr:street": "浦东南路",
+            "building": "yes",
+            "height": "30",
+            "name": "上海湾",
+            "shop": "mall",
+            "type": "multipolygon"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "relation/17818757",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "1138号",
+            "addr:province": "上海",
+            "addr:street": "浦东南路",
+            "building": "yes",
+            "height": "30",
+            "name": "上海湾",
+            "shop": "mall",
+            "type": "multipolygon"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1427522329",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 1484.7338523952355,
+      "independent_omega_area_m2": 1484.7338523952355,
+      "author_omega_area_m2": 1484.7338523952355,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1429697325",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 2469.368486008869,
+      "independent_omega_area_m2": 2352.320259758017,
+      "author_omega_area_m2": 2352.320259758017,
+      "independent_mask_sources": [
+        {
+          "source_id": "relation/19600208",
+          "kind": "UNKNOWN",
+          "tags": {
+            "amenity": "community_centre",
+            "building": "yes",
+            "type": "multipolygon"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "relation/19600208",
+          "kind": "UNKNOWN",
+          "tags": {
+            "amenity": "community_centre",
+            "building": "yes",
+            "type": "multipolygon"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1429905588",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 628.569762861232,
+      "independent_omega_area_m2": 628.569762861232,
+      "author_omega_area_m2": 628.569762861232,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/144724514",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 5.73945004586976e-10,
+      "independent_P_area_m2": 1700.7165595079553,
+      "independent_omega_area_m2": 1678.340526621317,
+      "author_omega_area_m2": 1678.340526621317,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/134626455",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/134626455",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1573409049",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 1697.909509475558,
+      "independent_omega_area_m2": 1697.9095094755583,
+      "author_omega_area_m2": 1697.9095094755583,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/160165831",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 7635.912865525143,
+      "independent_omega_area_m2": 7374.057105357714,
+      "author_omega_area_m2": 7374.057105357714,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/160165834",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "5"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/160165834",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "5"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/164959132",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 1.0674932593288848e-09,
+      "outside_source_P_m2": 1.4874122861662474e-10,
+      "independent_P_area_m2": 8311.897555851738,
+      "independent_omega_area_m2": 8179.908479902892,
+      "author_omega_area_m2": 8179.908479901993,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        },
+        {
+          "source_id": "way/166328196",
+          "kind": "BARRIER",
+          "tags": {
+            "barrier": "fence"
+          }
+        },
+        {
+          "source_id": "way/49219226",
+          "kind": "RAW_RESTRICTED_LINEAR",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "highway": "secondary",
+            "horse": "no",
+            "layer": "-1",
+            "name": "新建路隧道",
+            "name:en": "Xinjian Road Tunnel",
+            "oneway": "yes",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "source_id": "way/145007016",
+          "kind": "RAW_RESTRICTED_LINEAR",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "highway": "secondary",
+            "horse": "no",
+            "layer": "-1",
+            "name": "新建路隧道",
+            "name:en": "Xinjian Road Tunnel",
+            "oneway": "yes",
+            "tunnel": "yes"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/166110062",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 4253.174879331989,
+      "independent_omega_area_m2": 4195.925061216099,
+      "author_omega_area_m2": 4195.925061216099,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/166128036",
+      "author_status": "NO_LEGAL_COMPONENT",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 947.0236798161741,
+      "independent_omega_area_m2": 0.0,
+      "author_omega_area_m2": 0.0,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/255624910",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:housenumber": "8",
+            "addr:street": "世纪大道",
+            "brand": "Apple Store",
+            "brand:wikidata": "Q421253",
+            "brand:wikipedia": "en:Apple Store",
+            "building": "retail",
+            "layer": "-2",
+            "level": "-2",
+            "location": "underground",
+            "name": "Apple 浦东",
+            "name:en": "Apple Pudong",
+            "name:zh": "Apple 浦东",
+            "name:zh-Hans": "Apple 浦东",
+            "name:zh-Hant": "Apple 浦東",
+            "opening_hours": "10:00-22:00",
+            "operator": "苹果贸易（上海）有限公司世纪大道分公司",
+            "payment:alipay": "yes",
+            "payment:american_express": "yes",
+            "payment:apple_pay": "yes",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:discover_card": "yes",
+            "payment:huawei_pay": "yes",
+            "payment:mastercard": "yes",
+            "payment:mipay": "yes",
+            "payment:samsung_pay": "yes",
+            "payment:unionpay": "yes",
+            "payment:visa": "yes",
+            "phone": "+86 400 617 1305",
+            "shop": "electronics",
+            "short_name": "Apple",
+            "start_date": "2010-07-10",
+            "website": "https://www.apple.com/cn/retail/pudong/"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/255624910",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:housenumber": "8",
+            "addr:street": "世纪大道",
+            "brand": "Apple Store",
+            "brand:wikidata": "Q421253",
+            "brand:wikipedia": "en:Apple Store",
+            "building": "retail",
+            "layer": "-2",
+            "level": "-2",
+            "location": "underground",
+            "name": "Apple 浦东",
+            "name:en": "Apple Pudong",
+            "name:zh": "Apple 浦东",
+            "name:zh-Hans": "Apple 浦东",
+            "name:zh-Hant": "Apple 浦東",
+            "opening_hours": "10:00-22:00",
+            "operator": "苹果贸易（上海）有限公司世纪大道分公司",
+            "payment:alipay": "yes",
+            "payment:american_express": "yes",
+            "payment:apple_pay": "yes",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:discover_card": "yes",
+            "payment:huawei_pay": "yes",
+            "payment:mastercard": "yes",
+            "payment:mipay": "yes",
+            "payment:samsung_pay": "yes",
+            "payment:unionpay": "yes",
+            "payment:visa": "yes",
+            "phone": "+86 400 617 1305",
+            "shop": "electronics",
+            "short_name": "Apple",
+            "start_date": "2010-07-10",
+            "website": "https://www.apple.com/cn/retail/pudong/"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/167049142",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.2290358661348755e-10,
+      "independent_P_area_m2": 437.0160387824957,
+      "independent_omega_area_m2": 434.27340036130323,
+      "author_omega_area_m2": 434.27340036130323,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/166544770",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "tent"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/166544770",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "tent"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/167049143",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 618.8112079798028,
+      "independent_omega_area_m2": 587.7546982561089,
+      "author_omega_area_m2": 587.7546982561089,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/166544770",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "tent"
+          }
+        },
+        {
+          "source_id": "way/134626455",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/166544770",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "tent"
+          }
+        },
+        {
+          "source_id": "way/134626455",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/40040197",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.3605996171850605e-10,
+      "independent_P_area_m2": 5622.22110619043,
+      "independent_omega_area_m2": 4790.518313976468,
+      "author_omega_area_m2": 4790.518313976468,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/1211163027",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "layer": "1"
+          }
+        },
+        {
+          "source_id": "way/1211163026",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "layer": "1"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/166125927",
+          "kind": "BARRIER",
+          "tags": {
+            "barrier": "wall"
+          }
+        },
+        {
+          "source_id": "way/1211163027",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "layer": "1"
+          }
+        },
+        {
+          "source_id": "way/1211163026",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "layer": "1"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/40779182",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 2.808644479913424e-10,
+      "independent_P_area_m2": 2136.0076238387505,
+      "independent_omega_area_m2": 2124.714557449109,
+      "author_omega_area_m2": 2124.714557449109,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/40779113",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "168",
+            "addr:postcode": "200120",
+            "addr:street": "陆家嘴西路",
+            "building": "retail",
+            "contact:instagram": "shanghaisuperbrandmall",
+            "name": "正大广场",
+            "name:en": "Super Brand Mall",
+            "name:ko": "정대광장(수퍼 브랜드 몰)",
+            "name:zh": "正大广场",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "mall",
+            "website": "https://www.superbrandmall.com",
+            "wheelchair": "limited",
+            "wikidata": "Q7642221",
+            "wikimedia_commons": "Category:Super Brand Mall",
+            "wikipedia": "en:Super Brand Mall"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/40779113",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "168",
+            "addr:postcode": "200120",
+            "addr:street": "陆家嘴西路",
+            "building": "retail",
+            "contact:instagram": "shanghaisuperbrandmall",
+            "name": "正大广场",
+            "name:en": "Super Brand Mall",
+            "name:ko": "정대광장(수퍼 브랜드 몰)",
+            "name:zh": "正大广场",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "mall",
+            "website": "https://www.superbrandmall.com",
+            "wheelchair": "limited",
+            "wikidata": "Q7642221",
+            "wikimedia_commons": "Category:Super Brand Mall",
+            "wikipedia": "en:Super Brand Mall"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/40779655",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 1736.0321429559187,
+      "independent_omega_area_m2": 1732.7010883311127,
+      "author_omega_area_m2": 1732.7010883311127,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/166545281",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/166545281",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/428199191",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 2.577658301649438e-11,
+      "independent_P_area_m2": 772.021655779567,
+      "independent_omega_area_m2": 743.6400182618813,
+      "author_omega_area_m2": 743.6400182618813,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/428202605",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "景容楼",
+            "name:en": "Jingrong Chamber",
+            "name:zh": "景容楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/389702030",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2",
+            "roof:levels": "1",
+            "roof:shape": "gabled",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/389701901",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "童涵春堂",
+            "name:en": "Tonghanchun Hall",
+            "name:zh": "童涵春堂",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/553893884",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2"
+          }
+        },
+        {
+          "source_id": "way/428202607",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/428202605",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "景容楼",
+            "name:en": "Jingrong Chamber",
+            "name:zh": "景容楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/389702030",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2",
+            "roof:levels": "1",
+            "roof:shape": "gabled",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/389701901",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "童涵春堂",
+            "name:en": "Tonghanchun Hall",
+            "name:zh": "童涵春堂",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/553893884",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2"
+          }
+        },
+        {
+          "source_id": "way/428202607",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/428199195",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 3.097670233655984e-11,
+      "independent_P_area_m2": 710.2582744822944,
+      "independent_omega_area_m2": 679.9988599913652,
+      "author_omega_area_m2": 679.9988599913652,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/389701812",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "和丰楼",
+            "name:en": "Hefeng Chamber",
+            "name:zh": "和丰楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/428202608",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/553893872",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/553893873",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4"
+          }
+        },
+        {
+          "source_id": "way/62072388",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water"
+          }
+        },
+        {
+          "source_id": "way/428202606",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/389701812",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "和丰楼",
+            "name:en": "Hefeng Chamber",
+            "name:zh": "和丰楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/428202608",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/553893872",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/553893873",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4"
+          }
+        },
+        {
+          "source_id": "way/62072388",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water"
+          }
+        },
+        {
+          "source_id": "way/428202606",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/428199196",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.4055658058894499e-11,
+      "independent_P_area_m2": 318.53429721335533,
+      "independent_omega_area_m2": 294.2672805498019,
+      "author_omega_area_m2": 294.2672805498019,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/165791764",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/553893867",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "3"
+          }
+        },
+        {
+          "source_id": "way/428202597",
+          "kind": "BUILDING",
+          "tags": {
+            "amenity": "place_of_worship",
+            "building": "yes",
+            "building:levels": "1",
+            "name": "城隍庙",
+            "name:en": "City God Temple",
+            "name:ru": "Храм городского бога Пинъяо",
+            "name:zh": "城隍庙",
+            "religion": "taoist",
+            "roof:levels": "1",
+            "wikipedia": "en:City God Temple of Pingyao"
+          }
+        },
+        {
+          "source_id": "way/389701812",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "和丰楼",
+            "name:en": "Hefeng Chamber",
+            "name:zh": "和丰楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/553893868",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/165791764",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/553893867",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "3"
+          }
+        },
+        {
+          "source_id": "way/389701812",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "和丰楼",
+            "name:en": "Hefeng Chamber",
+            "name:zh": "和丰楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/553893868",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2"
+          }
+        },
+        {
+          "source_id": "node/5346226590",
+          "kind": "RAW_BLOCKED_BARRIER_NODE",
+          "tags": {
+            "barrier": "gate",
+            "entrance": "yes"
+          }
+        },
+        {
+          "source_id": "way/428202597",
+          "kind": "BUILDING",
+          "tags": {
+            "amenity": "place_of_worship",
+            "building": "yes",
+            "building:levels": "1",
+            "name": "城隍庙",
+            "name:en": "City God Temple",
+            "name:ru": "Храм городского бога Пинъяо",
+            "name:zh": "城隍庙",
+            "religion": "taoist",
+            "roof:levels": "1",
+            "wikipedia": "en:City God Temple of Pingyao"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/428199199",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.8806677027326246e-11,
+      "independent_P_area_m2": 1314.193116459446,
+      "independent_omega_area_m2": 1277.4477383583244,
+      "author_omega_area_m2": 1277.4477383583244,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/428202599",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "华宝楼",
+            "name:en": "Huabao Chamber",
+            "name:zh": "华宝楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202601",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "天裕楼",
+            "name:en": "Tianyu Tower",
+            "name:zh": "天裕楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/165791764",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/389701812",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "和丰楼",
+            "name:en": "Hefeng Chamber",
+            "name:zh": "和丰楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/428202599",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "华宝楼",
+            "name:en": "Huabao Chamber",
+            "name:zh": "华宝楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202601",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "天裕楼",
+            "name:en": "Tianyu Tower",
+            "name:zh": "天裕楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/165791764",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/389701812",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "和丰楼",
+            "name:en": "Hefeng Chamber",
+            "name:zh": "和丰楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/515758743",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.2691909218476988e-09,
+      "independent_P_area_m2": 5233.0026240024645,
+      "independent_omega_area_m2": 4982.361136417764,
+      "author_omega_area_m2": 4982.361136417764,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/515758760",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        },
+        {
+          "source_id": "way/515758751",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758746",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/515758760",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178492989",
+          "kind": "RAW_RESTRICTED_LINEAR",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "highway": "secondary",
+            "layer": "-1",
+            "maxspeed": "40",
+            "maxspeed:type": "sign",
+            "name": "人民路隧道",
+            "name:en": "Renmin Road Tunnel",
+            "oneway": "yes",
+            "surface": "asphalt",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "source_id": "way/49224795",
+          "kind": "RAW_RESTRICTED_LINEAR",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "highway": "secondary",
+            "layer": "-1",
+            "maxspeed": "40",
+            "maxspeed:type": "sign",
+            "name": "人民路隧道",
+            "name:en": "Renmin Road Tunnel",
+            "oneway": "yes",
+            "surface": "asphalt",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        },
+        {
+          "source_id": "way/515758746",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/515758751",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/553893870",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 185.87083563657316,
+      "independent_omega_area_m2": 171.4873900421181,
+      "author_omega_area_m2": 171.4873900421181,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/428202599",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "华宝楼",
+            "name:en": "Huabao Chamber",
+            "name:zh": "华宝楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202601",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "天裕楼",
+            "name:en": "Tianyu Tower",
+            "name:zh": "天裕楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/428202599",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "华宝楼",
+            "name:en": "Huabao Chamber",
+            "name:zh": "华宝楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202601",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "天裕楼",
+            "name:en": "Tianyu Tower",
+            "name:zh": "天裕楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/553893880",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 298.60551107093755,
+      "independent_omega_area_m2": 267.3129534642068,
+      "author_omega_area_m2": 267.3129534642068,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/389701812",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "和丰楼",
+            "name:en": "Hefeng Chamber",
+            "name:zh": "和丰楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/553893868",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2"
+          }
+        },
+        {
+          "source_id": "way/428202609",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "3",
+            "roof:levels": "1",
+            "roof:shape": "gabled"
+          }
+        },
+        {
+          "source_id": "way/228035332",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "1",
+            "roof:levels": "1",
+            "roof:shape": "gabled"
+          }
+        },
+        {
+          "source_id": "way/553893873",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4"
+          }
+        },
+        {
+          "source_id": "way/553893874",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/389701812",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "和丰楼",
+            "name:en": "Hefeng Chamber",
+            "name:zh": "和丰楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/553893868",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "2"
+          }
+        },
+        {
+          "source_id": "way/428202609",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "3",
+            "roof:levels": "1",
+            "roof:shape": "gabled"
+          }
+        },
+        {
+          "source_id": "way/553893873",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4"
+          }
+        },
+        {
+          "source_id": "way/428202595",
+          "kind": "BARRIER",
+          "tags": {
+            "barrier": "wall"
+          }
+        },
+        {
+          "source_id": "way/228035332",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "1",
+            "roof:levels": "1",
+            "roof:shape": "gabled"
+          }
+        },
+        {
+          "source_id": "way/553893874",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/553893883",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 695.0477124683113,
+      "independent_omega_area_m2": 650.3414429822477,
+      "author_omega_area_m2": 650.3414429822477,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/389701901",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "童涵春堂",
+            "name:en": "Tonghanchun Hall",
+            "name:zh": "童涵春堂",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/428202607",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202604",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "小世界会所",
+            "name:en": "Xiaoshijie",
+            "name:zh": "小世界会所",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202603",
+          "kind": "BUILDING",
+          "tags": {
+            "amenity": "restaurant",
+            "building": "yes",
+            "building:levels": "4",
+            "name": "上海老饭店",
+            "name:en": "Shanghai Old Hotel",
+            "name:zh": "上海老饭店",
+            "opening_hours": "Mo-Su 11:00-14:00; Mo-Su 17:00-21:30",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/428202603",
+          "kind": "BUILDING",
+          "tags": {
+            "amenity": "restaurant",
+            "building": "yes",
+            "building:levels": "4",
+            "name": "上海老饭店",
+            "name:en": "Shanghai Old Hotel",
+            "name:zh": "上海老饭店",
+            "opening_hours": "Mo-Su 11:00-14:00; Mo-Su 17:00-21:30",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202604",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "小世界会所",
+            "name:en": "Xiaoshijie",
+            "name:zh": "小世界会所",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/389701901",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "童涵春堂",
+            "name:en": "Tonghanchun Hall",
+            "name:zh": "童涵春堂",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/428202607",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/554033955",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 8.399941507609369e-11,
+      "independent_P_area_m2": 1974.5022560304837,
+      "independent_omega_area_m2": 1844.417890420472,
+      "author_omega_area_m2": 1844.417890420472,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/428202601",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "天裕楼",
+            "name:en": "Tianyu Tower",
+            "name:zh": "天裕楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/389701971",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "皕灵楼",
+            "name:en": "Biling Chamber",
+            "name:zh": "皕灵楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/389701812",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "和丰楼",
+            "name:en": "Hefeng Chamber",
+            "name:zh": "和丰楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/428202608",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/553893872",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/428202602",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "悦宾楼",
+            "name:en": "Yuebin Chamber",
+            "name:zh": "悦宾楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202606",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202605",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "景容楼",
+            "name:en": "Jingrong Chamber",
+            "name:zh": "景容楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/389701901",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "童涵春堂",
+            "name:en": "Tonghanchun Hall",
+            "name:zh": "童涵春堂",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/428202601",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "天裕楼",
+            "name:en": "Tianyu Tower",
+            "name:zh": "天裕楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/389701971",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "皕灵楼",
+            "name:en": "Biling Chamber",
+            "name:zh": "皕灵楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/389701812",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "和丰楼",
+            "name:en": "Hefeng Chamber",
+            "name:zh": "和丰楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/428202608",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/553893872",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/428202602",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "悦宾楼",
+            "name:en": "Yuebin Chamber",
+            "name:zh": "悦宾楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202606",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/428202605",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "景容楼",
+            "name:en": "Jingrong Chamber",
+            "name:zh": "景容楼",
+            "roof:levels": "1",
+            "roof:shape": "mansard"
+          }
+        },
+        {
+          "source_id": "way/389701901",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "童涵春堂",
+            "name:en": "Tonghanchun Hall",
+            "name:zh": "童涵春堂",
+            "roof:levels": "1",
+            "roof:shape": "mansard",
+            "source": "Bing"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/754767798",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 1807.0622165761847,
+      "independent_omega_area_m2": 1789.4027826522597,
+      "author_omega_area_m2": 1789.4027826522597,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/948057320",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "kindergarten"
+          }
+        },
+        {
+          "source_id": "way/836643375",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "school"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/948057320",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "kindergarten"
+          }
+        },
+        {
+          "source_id": "way/836643375",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "school"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/948064626",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 690.1656520951608,
+      "independent_omega_area_m2": 674.6859294902627,
+      "author_omega_area_m2": 674.6859294902627,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/804795623",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "name": "1 - 5 phase Ⅰ"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/804795623",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "name": "1 - 5 phase Ⅰ"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/948913517",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 1011.8218665370069,
+      "independent_omega_area_m2": 996.266919226585,
+      "author_omega_area_m2": 996.266919226585,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/673517961",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "residential",
+            "name": "Club House"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/673517961",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "residential",
+            "name": "Club House"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/957455550",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 4329.639889423021,
+      "independent_omega_area_m2": 4329.6398894230215,
+      "author_omega_area_m2": 4329.6398894230215,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/957643170",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 11052.678219234203,
+      "independent_omega_area_m2": 11052.272723811095,
+      "author_omega_area_m2": 11052.272723811095,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/1427539586",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "name": "陆家嘴富汇大厦"
+          }
+        }
+      ],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/959022796",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 4366.133818755284,
+      "independent_omega_area_m2": 4366.133818755285,
+      "author_omega_area_m2": 4366.133818755285,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/959022831",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 2090.70143425103,
+      "independent_omega_area_m2": 2073.186520688718,
+      "author_omega_area_m2": 2073.186520688718,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/959022832",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/959022833",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/959022832",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/959022833",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/959022837",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 9686.794484282917,
+      "independent_omega_area_m2": 9686.794484282918,
+      "author_omega_area_m2": 9686.794484282918,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/964420080",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 5.316815469337023e-10,
+      "independent_P_area_m2": 979.6563892703641,
+      "independent_omega_area_m2": 952.134180526609,
+      "author_omega_area_m2": 952.134180526609,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/964420093",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 1913.0318776791796,
+      "independent_omega_area_m2": 1913.0318776791805,
+      "author_omega_area_m2": 1913.0318776791805,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/964420106",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 879.4563758851963,
+      "independent_omega_area_m2": 856.5864237594826,
+      "author_omega_area_m2": 856.5864237594826,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/71118583",
+          "kind": "WATER",
+          "tags": {
+            "intermittent": "no",
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "water": "river"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/964420110",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 3.4776576198305466e-09,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 4556.931037879606,
+      "independent_omega_area_m2": 4501.689702039585,
+      "author_omega_area_m2": 4501.68970203919,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/964420112",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "layer": "-1"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/1066735070",
+          "kind": "RAW_RESTRICTED_LINEAR",
+          "tags": {
+            "bicycle": "no",
+            "bus": "no",
+            "foot": "no",
+            "goods": "no",
+            "hazmat": "no",
+            "hgv": "no",
+            "highway": "secondary",
+            "lanes": "2",
+            "layer": "-2",
+            "maxspeed": "40",
+            "maxspeed:mofa": "15",
+            "maxspeed:type": "sign",
+            "mofa:conditional": "yes @ 23:00-05:00",
+            "motorcycle": "no",
+            "name": "复兴东路隧道 (上层)",
+            "name:en": "East Fuxing Road Tunnel",
+            "name:zh": "复兴东路隧道 (上层)",
+            "name:zh-Hans": "复兴东路隧道 (上层)",
+            "name:zh-Hant": "復興東路隧道 (上層)",
+            "name:zh-Latn-pinyin": "Fùxīng Dōnglù Suìdào (Shàng Céng)",
+            "oneway": "yes",
+            "surface": "asphalt",
+            "tourist_bus": "no",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "source_id": "way/9704035",
+          "kind": "RAW_RESTRICTED_LINEAR",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "goods": "no",
+            "hazmat": "no",
+            "hgv": "no",
+            "highway": "secondary",
+            "lanes": "1",
+            "layer": "-3",
+            "moped": "no",
+            "motorcycle": "designated",
+            "name": "复兴东路隧道 (下层)",
+            "name:en": "East Fuxing Road Tunnel",
+            "name:zh": "复兴东路隧道 (下层)",
+            "name:zh-Hans": "复兴东路隧道 (下层)",
+            "name:zh-Hant": "復興東路隧道 (下層)",
+            "name:zh-Latn-pinyin": "Fùxīng Dōnglù Suìdào (Xià Céng)",
+            "oneway": "yes",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "source_id": "way/964420112",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "layer": "-1"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/965030363",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 884.5287655905263,
+      "independent_omega_area_m2": 419.2495174870532,
+      "author_omega_area_m2": 419.2495174870532,
+      "independent_mask_sources": [
+        {
+          "source_id": "relation/12981053",
+          "kind": "UNKNOWN",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "68号",
+            "addr:province": "上海",
+            "addr:street": "银城中路",
+            "building": "commercial",
+            "name": "时代金融中心",
+            "name:en": "One Lujiazui",
+            "type": "multipolygon",
+            "wikidata": "Q2024017"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "relation/12981053",
+          "kind": "UNKNOWN",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "68号",
+            "addr:province": "上海",
+            "addr:street": "银城中路",
+            "building": "commercial",
+            "name": "时代金融中心",
+            "name:en": "One Lujiazui",
+            "type": "multipolygon",
+            "wikidata": "Q2024017"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/965030386",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 886.8249199593347,
+      "independent_omega_area_m2": 863.6472493725643,
+      "author_omega_area_m2": 863.6472493725643,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/959649120",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/959649120",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/965030389",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.3987439600126293e-10,
+      "independent_P_area_m2": 836.6168187370192,
+      "independent_omega_area_m2": 815.1094510801261,
+      "author_omega_area_m2": 815.1094510801261,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/959649120",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/959649120",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/965049038",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 7367.62580450407,
+      "independent_omega_area_m2": 6854.724710097897,
+      "author_omega_area_m2": 6854.724710097897,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/965049035",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/958766046",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "66号",
+            "addr:province": "上海",
+            "addr:street": "银城路",
+            "building": "yes",
+            "name": "GALA MALL",
+            "shop": "mall"
+          }
+        },
+        {
+          "source_id": "way/965049036",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass",
+            "layer": "1"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/965049035",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/958766046",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "66号",
+            "addr:province": "上海",
+            "addr:street": "银城路",
+            "building": "yes",
+            "name": "GALA MALL",
+            "shop": "mall"
+          }
+        },
+        {
+          "source_id": "way/965049036",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass",
+            "layer": "1"
+          }
+        },
+        {
+          "source_id": "way/965049037",
+          "kind": "RAW_BLOCKED_SUPPORT",
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "layer": "-1"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/965081081",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 542.2421762778339,
+      "independent_omega_area_m2": 542.2421762778341,
+      "author_omega_area_m2": 542.2421762778341,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/965110098",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 1466.0632911279122,
+      "independent_omega_area_m2": 1441.0594133144878,
+      "author_omega_area_m2": 1441.0594133144878,
+      "independent_mask_sources": [
+        {
+          "source_id": "relation/12876242",
+          "kind": "UNKNOWN",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "800号",
+            "addr:province": "上海",
+            "addr:street": "世纪大道",
+            "building": "yes",
+            "name": "南洋商业银行大厦",
+            "office": "yes",
+            "type": "multipolygon"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "relation/12876242",
+          "kind": "UNKNOWN",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "800号",
+            "addr:province": "上海",
+            "addr:street": "世纪大道",
+            "building": "yes",
+            "name": "南洋商业银行大厦",
+            "office": "yes",
+            "type": "multipolygon"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/967274372",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 4.26477075876619e-10,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 934.7633719739838,
+      "independent_omega_area_m2": 913.392242487785,
+      "author_omega_area_m2": 913.392242488207,
+      "independent_mask_sources": [
+        {
+          "source_id": "relation/16334990",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "type": "multipolygon",
+            "water": "river",
+            "wikidata": "Q99785",
+            "wikipedia": "zh:黄浦江"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/47281535",
+          "kind": "RAW_RESTRICTED_LINEAR",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "highway": "secondary",
+            "horse": "no",
+            "layer": "-3",
+            "lit": "yes",
+            "name": "大连路隧道",
+            "name:en": "Dalian Road Tunnel",
+            "name:zh": "大连路隧道",
+            "name:zh-Hans": "大连路隧道",
+            "name:zh-Hant": "大連路隧道",
+            "oneway": "yes",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "source_id": "way/10632119",
+          "kind": "RAW_RESTRICTED_LINEAR",
+          "tags": {
+            "bicycle": "no",
+            "foot": "no",
+            "highway": "secondary",
+            "horse": "no",
+            "layer": "-3",
+            "lit": "yes",
+            "name": "大连路隧道",
+            "name:en": "Dalian Road Tunnel",
+            "name:zh": "大连路隧道",
+            "name:zh-Hans": "大连路隧道",
+            "name:zh-Hant": "大連路隧道",
+            "oneway": "yes",
+            "tunnel": "yes"
+          }
+        },
+        {
+          "source_id": "relation/16334990",
+          "kind": "WATER",
+          "tags": {
+            "natural": "water",
+            "source": "Yahoo imagery",
+            "type": "multipolygon",
+            "water": "river",
+            "wikidata": "Q99785",
+            "wikipedia": "zh:黄浦江"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/967835503",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.4098598612351243e-10,
+      "independent_P_area_m2": 5243.992030460063,
+      "independent_omega_area_m2": 5185.426765147362,
+      "author_omega_area_m2": 5185.426765147362,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/967835498",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "501号",
+            "addr:province": "上海",
+            "addr:street": "张杨路",
+            "building": "yes",
+            "name": "第一八佰伴",
+            "shop": "mall"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/967835498",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "501号",
+            "addr:province": "上海",
+            "addr:street": "张杨路",
+            "building": "yes",
+            "name": "第一八佰伴",
+            "shop": "mall"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/967835529",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 3869.6982423465843,
+      "independent_omega_area_m2": 3869.6982423465843,
+      "author_omega_area_m2": 3869.6982423465843,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/969466759",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 809.00593070758,
+      "independent_omega_area_m2": 806.9342057726228,
+      "author_omega_area_m2": 806.9342057726228,
+      "independent_mask_sources": [
+        {
+          "source_id": "relation/17818757",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "1138号",
+            "addr:province": "上海",
+            "addr:street": "浦东南路",
+            "building": "yes",
+            "height": "30",
+            "name": "上海湾",
+            "shop": "mall",
+            "type": "multipolygon"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "relation/17818757",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "浦东新区",
+            "addr:housenumber": "1138号",
+            "addr:province": "上海",
+            "addr:street": "浦东南路",
+            "building": "yes",
+            "height": "30",
+            "name": "上海湾",
+            "shop": "mall",
+            "type": "multipolygon"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    }
+  ],
+  "status": "GEOMETRY_MATCH_FOR_REPORTED_SCOPE",
+  "limits": [
+    "No route or interface graph correctness inferred from matching Omega",
+    "No field validation",
+    "P geometry remains unchanged; common and areal masks preserve distinct roles",
+    "Roads are zero-width component constraints and are not extra areal masks"
+  ]
+}

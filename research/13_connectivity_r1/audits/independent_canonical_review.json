@@ -1,0 +1,41 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Exact prelocked primary/replay selection and every raw response SHA/input/version; originals retained; no outcome-driven selection",
+  "APP_solver_calls": 0,
+  "primary_registry_sha256": "e4404246ee498120c3199723053c1a5c028076807ef90205c8c2a11a21b476f7",
+  "replay_registry_sha256": "ef76855a7e6ceb6dd8aaab71fa7cb9bb2a723079c04660102e1af3e0fb90c242",
+  "formal_lock_sha256": "a76770863dd66f9c1b9364cf49801794abf1ef3d889c8d07a605a7b88f3e0700",
+  "performance_replay_lock_sha256": "bfbe7cf692d50872886663a68dbb6e0a54c85134b318d9c5ad908bc086b6e707",
+  "primary_completed": 104,
+  "prelocked_replays_completed": 16,
+  "interrupted_actual_attempts": 1,
+  "formal_actual_requests_including_interruption": 121,
+  "formal_actual_solver_invocations": 92,
+  "formal_cap": 128,
+  "independent_live_solver_calls_separate": 6,
+  "independent_clean_calls_reserved_separate": 2,
+  "canonical_requests": 104,
+  "canonical_solver_invocations": 78,
+  "canonical_role_counts": {
+    "BASELINE_POSITIVE": 32,
+    "BASELINE_REJECTION": 20,
+    "HISTORICAL_LONG_QUERY_NOT_SCREENSHOT_BOUND": 8,
+    "SOURCE_INTERFACE_MECHANISM": 32,
+    "PRELOCKED_THRESHOLD_SENSITIVITY": 8,
+    "GAP_COST_PAIR": 4
+  },
+  "canonical_status_counts": {
+    "ROUTED_NATIVE_OR_MAPPED": 53,
+    "ROUTED_CONDITIONAL": 16,
+    "REJECTED_ENTRANCE_ROLE": 4,
+    "NO_ELIGIBLE_REGISTERED_ENTRANCE": 4,
+    "INVALID_START": 4,
+    "INVALID_REQUEST": 8,
+    "NO_VALID_ROUTE": 9,
+    "MECHANISM_ENDPOINT_UNBOUND": 6
+  },
+  "canonical_registry": "audits\\independent_canonical_registry.jsonl",
+  "canonical_registry_sha256": "aed81c51317a3ac02524a7bf06e8f2232b9f899913bbbc211f582753a9ef5bad",
+  "errors": [],
+  "status": "PASS_FOR_LOCKED_104_PLUS_16_CANONICAL_SELECTION"
+}

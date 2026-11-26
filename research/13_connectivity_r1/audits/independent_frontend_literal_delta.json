@@ -1,0 +1,18 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Exact byte replacement of one displayed literal only, after six actual UI tests; no event/solver logic changed",
+  "old_tested_APP_SHA256": "0c643fe82f0e89c06eb59f578299c0da7a214979641c5b1226e621caa272d42b",
+  "delivered_APP_SHA256": "ae148ac942cf005eb5344bbd231cc2c53af7009ea76ed89d4645f38e39f9df53",
+  "old_bytes": 35974,
+  "new_bytes": 35965,
+  "old_CR": 73,
+  "new_CR": 73,
+  "old_LF": 73,
+  "new_LF": 73,
+  "one_old_literal_occurrence": true,
+  "exact_one_literal_byte_replacement": true,
+  "initial_alarm_retained": "audits/independent_frontend_literal_delta_initial_alarm.json",
+  "initial_bad_newline_source_retained": "audits/independent_frontend_literal_delta_initial.js",
+  "actual_UI_solver_calls_repeated": 0,
+  "status": "PASS_FOR_EXACT_LITERAL_ONLY_DELTA"
+}

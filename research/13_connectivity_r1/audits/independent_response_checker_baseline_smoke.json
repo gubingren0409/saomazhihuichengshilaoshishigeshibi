@@ -1,0 +1,676 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Saved-response independent geometry/length/cost/native parent provenance and paired graph identities; no independent whole-network shortest-path solve",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "numeric_policy_registered": true,
+  "frozen_visibility_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+  "native_numeric_limit_m": 1e-08,
+  "rows": [
+    {
+      "file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\runtime\\independent_clean_20261111T231044-87776242\\fresh_response.json",
+      "sha256": "bbb83f06d3320d48dab450728a262c7d1620dc31ac6a6e1e18c511ec4d69d4e3",
+      "run_id": "RUN-20261111T231056-705308bede",
+      "status": "ROUTED_NATIVE_OR_MAPPED",
+      "errors": [],
+      "measured_length_m": 345.5322063317509,
+      "measured_cost_m": 345.5322063317509,
+      "measured_layers_m": {
+        "native": 92.16521669080339,
+        "derived": 253.36698964094745
+      },
+      "measured_source_lengths_m": {
+        "native": 92.16521669080339,
+        "full_face_derived": 252.74856970913177,
+        "edge_band_derived": 0.6184199318156919
+      },
+      "source_endpoint_measurements": {
+        "start": {
+          "id": "node/11201355932",
+          "raw_source_xy": [
+            354327.041734161,
+            3456160.4467561394
+          ],
+          "error_m": 0.0
+        },
+        "target": {
+          "id": "node/6897141353",
+          "raw_source_xy": [
+            354396.35132172017,
+            3456095.105993877
+          ],
+          "error_m": 0.0
+        }
+      },
+      "native_parent_proofs": [
+        {
+          "segment_index": 0,
+          "strict_original_difference_length_m": 0.0,
+          "original_strict_alarm_preserved": false,
+          "parent_source_id": "way/178719573",
+          "raw_adjacent_index": 111,
+          "parent_native_ids": [
+            "node/11201355932",
+            "node/1890862817"
+          ],
+          "parent_coordinates": [
+            [
+              354327.041734161,
+              3456160.4467561394
+            ],
+            [
+              354328.1002420535,
+              3456161.208182979
+            ]
+          ],
+          "direction": -1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            1.3039209295390555
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354327.041734161,
+              3456160.4467561394
+            ],
+            [
+              354328.1002420535,
+              3456161.208182979
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "1",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 0,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": true
+        },
+        {
+          "segment_index": 1,
+          "strict_original_difference_length_m": 11.33513379050555,
+          "original_strict_alarm_preserved": true,
+          "parent_source_id": "way/178719573",
+          "raw_adjacent_index": 110,
+          "parent_native_ids": [
+            "node/1890862817",
+            "node/1890877346"
+          ],
+          "parent_coordinates": [
+            [
+              354328.1002420535,
+              3456161.208182979
+            ],
+            [
+              354354.18634582916,
+              3456179.883232214
+            ]
+          ],
+          "direction": -1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            11.335133790533623
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354328.1002420535,
+              3456161.208182979
+            ],
+            [
+              354337.3169761947,
+              3456167.8064456154
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "53665498499792740643209/151889350565475565875746",
+              "perpendicular_distance_m": 1.07773587999693e-11,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 1,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": false
+        },
+        {
+          "segment_index": 33,
+          "strict_original_difference_length_m": 0.0,
+          "original_strict_alarm_preserved": false,
+          "parent_source_id": "way/161090908",
+          "raw_adjacent_index": 0,
+          "parent_native_ids": [
+            "node/1890745479",
+            "node/1890842757"
+          ],
+          "parent_coordinates": [
+            [
+              354310.12220249086,
+              3456102.6744872355
+            ],
+            [
+              354316.1015165673,
+              3456085.20748539
+            ]
+          ],
+          "direction": 1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            18.46207871011588
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354310.12220249086,
+              3456102.6744872355
+            ],
+            [
+              354316.1015165673,
+              3456085.20748539
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "1",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 0,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": true
+        },
+        {
+          "segment_index": 34,
+          "strict_original_difference_length_m": 0.0,
+          "original_strict_alarm_preserved": false,
+          "parent_source_id": "way/161090908",
+          "raw_adjacent_index": 1,
+          "parent_native_ids": [
+            "node/1890842757",
+            "node/1890842750"
+          ],
+          "parent_coordinates": [
+            [
+              354316.1015165673,
+              3456085.20748539
+            ],
+            [
+              354318.04138667166,
+              3456078.062856132
+            ]
+          ],
+          "direction": 1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            7.403298133416602
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354316.1015165673,
+              3456085.20748539
+            ],
+            [
+              354318.04138667166,
+              3456078.062856132
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "1",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 0,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": true
+        },
+        {
+          "segment_index": 35,
+          "strict_original_difference_length_m": 0.0,
+          "original_strict_alarm_preserved": false,
+          "parent_source_id": "way/161090908",
+          "raw_adjacent_index": 2,
+          "parent_native_ids": [
+            "node/1890842750",
+            "node/1890842758"
+          ],
+          "parent_coordinates": [
+            [
+              354318.04138667166,
+              3456078.062856132
+            ],
+            [
+              354319.9448994171,
+              3456067.603756095
+            ]
+          ],
+          "direction": 1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            10.630904682262656
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354318.04138667166,
+              3456078.062856132
+            ],
+            [
+              354319.9448994171,
+              3456067.603756095
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "1",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 0,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": true
+        },
+        {
+          "segment_index": 36,
+          "strict_original_difference_length_m": 0.0,
+          "original_strict_alarm_preserved": false,
+          "parent_source_id": "way/161090908",
+          "raw_adjacent_index": 3,
+          "parent_native_ids": [
+            "node/1890842758",
+            "node/1890842753"
+          ],
+          "parent_coordinates": [
+            [
+              354319.9448994171,
+              3456067.603756095
+            ],
+            [
+              354320.89028349146,
+              3456062.2578824046
+            ]
+          ],
+          "direction": 1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            5.428822760020852
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354319.9448994171,
+              3456067.603756095
+            ],
+            [
+              354320.89028349146,
+              3456062.2578824046
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "1",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 0,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": true
+        },
+        {
+          "segment_index": 37,
+          "strict_original_difference_length_m": 0.0,
+          "original_strict_alarm_preserved": false,
+          "parent_source_id": "way/161090908",
+          "raw_adjacent_index": 4,
+          "parent_native_ids": [
+            "node/1890842753",
+            "node/12379457646"
+          ],
+          "parent_coordinates": [
+            [
+              354320.89028349146,
+              3456062.2578824046
+            ],
+            [
+              354324.0288494557,
+              3456042.601755729
+            ]
+          ],
+          "direction": 1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            19.905122762785066
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354320.89028349146,
+              3456062.2578824046
+            ],
+            [
+              354324.0288494557,
+              3456042.601755729
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "1",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 0,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": true
+        },
+        {
+          "segment_index": 38,
+          "strict_original_difference_length_m": 0.0,
+          "original_strict_alarm_preserved": false,
+          "parent_source_id": "way/1338361261",
+          "raw_adjacent_index": 0,
+          "parent_native_ids": [
+            "node/12379457646",
+            "node/12379457645"
+          ],
+          "parent_coordinates": [
+            [
+              354324.0288494557,
+              3456042.601755729
+            ],
+            [
+              354324.61655390076,
+              3456038.94603893
+            ]
+          ],
+          "direction": 1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            3.7026560503629837
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354324.0288494557,
+              3456042.601755729
+            ],
+            [
+              354324.61655390076,
+              3456038.94603893
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "1",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 0,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": true
+        },
+        {
+          "segment_index": 39,
+          "strict_original_difference_length_m": 0.0,
+          "original_strict_alarm_preserved": false,
+          "parent_source_id": "way/1338361262",
+          "raw_adjacent_index": 0,
+          "parent_native_ids": [
+            "node/12379457645",
+            "node/476677929"
+          ],
+          "parent_coordinates": [
+            [
+              354324.61655390076,
+              3456038.94603893
+            ],
+            [
+              354325.09009823285,
+              3456035.990375502
+            ]
+          ],
+          "direction": 1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            2.9933577359055508
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354324.61655390076,
+              3456038.94603893
+            ],
+            [
+              354325.09009823285,
+              3456035.990375502
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "1",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 0,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": true
+        },
+        {
+          "segment_index": 40,
+          "strict_original_difference_length_m": 0.0,
+          "original_strict_alarm_preserved": false,
+          "parent_source_id": "way/1338361262",
+          "raw_adjacent_index": 1,
+          "parent_native_ids": [
+            "node/476677929",
+            "node/1890935355"
+          ],
+          "parent_coordinates": [
+            [
+              354325.09009823285,
+              3456035.990375502
+            ],
+            [
+              354325.95743419,
+              3456031.1999268327
+            ]
+          ],
+          "direction": 1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            4.868333402320013
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354325.09009823285,
+              3456035.990375502
+            ],
+            [
+              354325.95743419,
+              3456031.1999268327
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "1",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 0,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": true
+        },
+        {
+          "segment_index": 41,
+          "strict_original_difference_length_m": 0.0,
+          "original_strict_alarm_preserved": false,
+          "parent_source_id": "way/178737605",
+          "raw_adjacent_index": 0,
+          "parent_native_ids": [
+            "node/1890935355",
+            "node/1890935454"
+          ],
+          "parent_coordinates": [
+            [
+              354325.95743419,
+              3456031.1999268327
+            ],
+            [
+              354331.91300043056,
+              3456032.6585559454
+            ]
+          ],
+          "direction": -1,
+          "source_tags_equal": true,
+          "parameter_interval_m": [
+            0.0,
+            6.1315877335691775
+          ],
+          "ordered_expected_coordinates": [
+            [
+              354325.95743419,
+              3456031.1999268327
+            ],
+            [
+              354331.91300043056,
+              3456032.6585559454
+            ]
+          ],
+          "whole_piece_endpoint_bounds": [
+            {
+              "passed": true,
+              "projection_fraction": "0",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            },
+            {
+              "passed": true,
+              "projection_fraction": "1",
+              "perpendicular_distance_m": 0.0,
+              "exact_squared_cross_bound": true
+            }
+          ],
+          "whole_piece_bound_reason": "Distance to finite convex parent segment is convex; both projected endpoint parameters are within [0,1]",
+          "certificate_count": 0,
+          "passed": true,
+          "errors": [],
+          "strict_binary_set_coincidence_claimed": true
+        }
+      ],
+      "whole_geometry_errors": [],
+      "graph_sha256": "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986",
+      "solver_invocation_id": "34edd2cacf92487da57724092edb86b8"
+    }
+  ],
+  "F0_F1_pairs": [],
+  "status": "PASS_FOR_REPORTED_RESPONSE_SCOPE",
+  "limitations": [
+    "No-route and refusal status is not independently proved impossible",
+    "Conditional links checked for source geometry roles/cap/no-fill; full-source barrier regression is separate",
+    "No field or user observation acceptance",
+    "Original strict binary native-set alarms retained and may be resolved only by registered ordered-parent proof"
+  ]
+}

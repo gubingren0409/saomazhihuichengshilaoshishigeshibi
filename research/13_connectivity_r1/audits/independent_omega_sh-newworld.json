@@ -1,0 +1,2129 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scene_id": "sh-newworld",
+  "independent_reference": "RAW_OSM_EXACT_NODE_RING_AND_NEGATIVE_MASK_RECONSTRUCTION_NO_SRC_IMPORTS",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+  "author_faces_sha256": "dbc9330449dd6fe2063196247ae5f074d300da0cde0df692741785e428e08d8b",
+  "author_full_common_sha256": "1c1e55d23e5640eda7f46ab15293dbabed45977183012e8fdd94bd3eb93085cd",
+  "author_faces_stable": true,
+  "raw_common_blocked_symmetric_difference_m2": 1.860915066701353e-08,
+  "inherited_ordered_overlay_area_reporting_precision_m2": 1e-05,
+  "elapsed_s": 4.587850700001582,
+  "rows": [
+    {
+      "source_id": "relation/2153738",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.0420008098553646e-09,
+      "independent_P_area_m2": 19271.107344253844,
+      "independent_omega_area_m2": 18387.797226018887,
+      "author_omega_area_m2": 18387.797226018887,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/178732700",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178722058",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178722056",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178732703",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178732701",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178719577",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178732944",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178719569",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178801548",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178733293",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178732945",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "layer": "1"
+          }
+        },
+        {
+          "source_id": "way/178719571",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178733295",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178719568",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178732942",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/178801548",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178732944",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178733295",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178733293",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178732942",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178719569",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/161092464",
+          "kind": "BARRIER",
+          "tags": {
+            "barrier": "fence"
+          }
+        },
+        {
+          "source_id": "way/161092454",
+          "kind": "BARRIER",
+          "tags": {
+            "barrier": "fence"
+          }
+        },
+        {
+          "source_id": "way/178719571",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/161092450",
+          "kind": "BARRIER",
+          "tags": {
+            "barrier": "fence"
+          }
+        },
+        {
+          "source_id": "way/178719568",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178732945",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "layer": "1"
+          }
+        },
+        {
+          "source_id": "way/178730989",
+          "kind": "RAW_PERMISSION_AREA",
+          "tags": {
+            "access": "private",
+            "amenity": "parking"
+          }
+        },
+        {
+          "source_id": "way/178732700",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178722058",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178722056",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178732703",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178732701",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178719577",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "relation/2385771",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 2.995154807765993e-10,
+      "independent_P_area_m2": 5880.020892024015,
+      "independent_omega_area_m2": 5826.120745012713,
+      "author_omega_area_m2": 5826.120745012713,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/178721634",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178801547",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/161090899",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "201",
+            "addr:street": "人民大道",
+            "building": "yes",
+            "contact:bilibili": "586852858",
+            "contact:instagram": "theshanghaimuseum",
+            "contact:phone": "+86-21-63723500-132",
+            "contact:tiktok": "MS4wLjABAAAAvgW-hMLuZNKCgJaueieZXzqQrEeaAace1q-NmJlZ_oE",
+            "contact:twitter": "ShanghaiMuseum",
+            "contact:weibo": "6584156654",
+            "contact:youtube": "@theshanghaimuseum3655",
+            "fee": "no",
+            "name": "上海博物馆",
+            "name:en": "Shanghai Museum",
+            "name:fr": "Musée de Shanghaï",
+            "name:hi": "शंघाई संग्रहालय",
+            "name:pt": "Museu de Shanghai (People Square)",
+            "name:ru": "Шанхайский музей",
+            "name:zh": "上海博物馆",
+            "name:zh-Hans": "上海博物馆",
+            "name:zh-Hant": "上海博物館",
+            "opening_hours": "Mo-Su 09:00-17:00",
+            "toilets:wheelchair": "no",
+            "tourism": "museum",
+            "website": "https://www.shanghaimuseum.net/",
+            "website:en": "https://www.shanghaimuseum.net/mu/frontend/pg/en/index",
+            "wheelchair": "yes",
+            "wikidata": "Q1051293",
+            "wikipedia": "zh:上海博物馆"
+          }
+        },
+        {
+          "source_id": "way/178721647",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178801548",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/178721634",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178721647",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/161090899",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "201",
+            "addr:street": "人民大道",
+            "building": "yes",
+            "contact:bilibili": "586852858",
+            "contact:instagram": "theshanghaimuseum",
+            "contact:phone": "+86-21-63723500-132",
+            "contact:tiktok": "MS4wLjABAAAAvgW-hMLuZNKCgJaueieZXzqQrEeaAace1q-NmJlZ_oE",
+            "contact:twitter": "ShanghaiMuseum",
+            "contact:weibo": "6584156654",
+            "contact:youtube": "@theshanghaimuseum3655",
+            "fee": "no",
+            "name": "上海博物馆",
+            "name:en": "Shanghai Museum",
+            "name:fr": "Musée de Shanghaï",
+            "name:hi": "शंघाई संग्रहालय",
+            "name:pt": "Museu de Shanghai (People Square)",
+            "name:ru": "Шанхайский музей",
+            "name:zh": "上海博物馆",
+            "name:zh-Hans": "上海博物馆",
+            "name:zh-Hant": "上海博物館",
+            "opening_hours": "Mo-Su 09:00-17:00",
+            "toilets:wheelchair": "no",
+            "tourism": "museum",
+            "website": "https://www.shanghaimuseum.net/",
+            "website:en": "https://www.shanghaimuseum.net/mu/frontend/pg/en/index",
+            "wheelchair": "yes",
+            "wikidata": "Q1051293",
+            "wikipedia": "zh:上海博物馆"
+          }
+        },
+        {
+          "source_id": "way/178731809",
+          "kind": "RAW_PERMISSION_AREA",
+          "tags": {
+            "access": "private",
+            "amenity": "parking"
+          }
+        },
+        {
+          "source_id": "way/178801548",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/178801547",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "relation/8055906",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 3474.2128771453868,
+      "independent_omega_area_m2": 3446.148164225641,
+      "author_omega_area_m2": 3446.148164225641,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/564255309",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/564255316",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/564255312",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/564255309",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/564255316",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/564255312",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1211604642",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 520.5904748627933,
+      "independent_omega_area_m2": 520.5904748627931,
+      "author_omega_area_m2": 520.5904748627931,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1289666063",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 595.2801770791925,
+      "independent_omega_area_m2": 595.2801770791925,
+      "author_omega_area_m2": 595.2801770791925,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1365758867",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 403.0709233823688,
+      "independent_omega_area_m2": 403.0709233823688,
+      "author_omega_area_m2": 403.0709233823688,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/1572010715",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 439.75089270345154,
+      "independent_omega_area_m2": 421.3254531870663,
+      "author_omega_area_m2": 421.3254531870663,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/1197245616",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/11636772",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "133",
+            "addr:street": "圆明园路",
+            "building": "yes",
+            "building:levels": "8",
+            "name": "女青年会大楼"
+          }
+        },
+        {
+          "source_id": "way/446944632",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "12"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/1197245616",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/11636772",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "133",
+            "addr:street": "圆明园路",
+            "building": "yes",
+            "building:levels": "8",
+            "name": "女青年会大楼"
+          }
+        },
+        {
+          "source_id": "way/446944632",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "12"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/160023915",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 3.456941217929322e-10,
+      "independent_P_area_m2": 10948.326008369973,
+      "independent_omega_area_m2": 10784.806861534486,
+      "author_omega_area_m2": 10784.806861534486,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/761632795",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/51317518",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "tower",
+            "building:use": "office",
+            "name": "宝龙大厦",
+            "name:en": "Baolong Tower",
+            "name:zh": "宝龙大厦",
+            "name:zh-Hans": "宝龙大厦",
+            "name:zh-Hant": "寶龍塔樓"
+          }
+        },
+        {
+          "source_id": "way/1196827504",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/51317420",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "635",
+            "addr:street": "南京东路",
+            "building": "retail",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "1989年14号",
+            "name": "永安百货",
+            "name:en": "Yong'an Department Store",
+            "name:zh": "永安百货",
+            "name:zh-Hans": "永安百货",
+            "name:zh-Hant": "永安百貨",
+            "old_name": "老永安公司",
+            "shop": "mall",
+            "start_date": "1918"
+          }
+        },
+        {
+          "source_id": "way/51317372",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "office",
+            "building:levels": "54",
+            "building:prefabricated": "yes",
+            "building:use": "office",
+            "height": "333",
+            "name": "上海世茂广场",
+            "name:en": "Shanghai Shimao Festival City",
+            "name:ko": "상하이 시마오 플라자",
+            "name:zh": "上海世茂广场",
+            "name:zh-Hans": "上海世茂广场",
+            "name:zh-Hant": "上海世茂廣場"
+          }
+        },
+        {
+          "source_id": "way/490270437",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "1989年16号",
+            "name": "上海市第一百货商店",
+            "name:en": "Shanghai No. 1 Department Store",
+            "name:ru": "Шанхайский универмаг № 1",
+            "name:zh": "上海市第一百货商店",
+            "name:zh-Hans": "上海市第一百货商店",
+            "name:zh-Hant": "上海市第一百貨商店",
+            "old_name": "大新公司;The Sun",
+            "opening_hours": "Mo-Su 09:30-22:00",
+            "shop": "department_store",
+            "start_date": "1934",
+            "wheelchair": "limited",
+            "wikidata": "Q1874561"
+          }
+        },
+        {
+          "source_id": "way/490270436",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "22",
+            "name": "第一百货C馆",
+            "name:zh": "第一百货C馆",
+            "name:zh-Hans": "第一百货C馆",
+            "name:zh-Hant": "第一百貨C館",
+            "shop": "department_store"
+          }
+        },
+        {
+          "source_id": "way/1196827503",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/414733199",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/490266387",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "720",
+            "addr:street": "南京东路",
+            "building": "retail",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "1989年15号",
+            "name": "第一食品商店",
+            "name:en": "Shanghai First Foodmall",
+            "name:ko": "상하이제일식품상점 펑리수",
+            "name:zh": "第一食品商店",
+            "name:zh-Hans": "第一食品商店",
+            "name:zh-Hant": "第一食品商店",
+            "old_name": "新新公司",
+            "start_date": "1925"
+          }
+        },
+        {
+          "source_id": "way/490267531",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "690",
+            "addr:street": "南京东路",
+            "alt_name": "东亚饭店",
+            "building": "retail",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "1989年13号",
+            "name": "时装公司",
+            "name:en": "Shanghai Sincere Building",
+            "name:zh": "时装公司",
+            "name:zh-Hans": "时装公司",
+            "name:zh-Hant": "時裝公司",
+            "old_name": "先施公司",
+            "shop": "mall",
+            "start_date": "1917"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/51317420",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "635",
+            "addr:street": "南京东路",
+            "building": "retail",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "1989年14号",
+            "name": "永安百货",
+            "name:en": "Yong'an Department Store",
+            "name:zh": "永安百货",
+            "name:zh-Hans": "永安百货",
+            "name:zh-Hant": "永安百貨",
+            "old_name": "老永安公司",
+            "shop": "mall",
+            "start_date": "1918"
+          }
+        },
+        {
+          "source_id": "way/51317518",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "tower",
+            "building:use": "office",
+            "name": "宝龙大厦",
+            "name:en": "Baolong Tower",
+            "name:zh": "宝龙大厦",
+            "name:zh-Hans": "宝龙大厦",
+            "name:zh-Hant": "寶龍塔樓"
+          }
+        },
+        {
+          "source_id": "way/51317372",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "office",
+            "building:levels": "54",
+            "building:prefabricated": "yes",
+            "building:use": "office",
+            "height": "333",
+            "name": "上海世茂广场",
+            "name:en": "Shanghai Shimao Festival City",
+            "name:ko": "상하이 시마오 플라자",
+            "name:zh": "上海世茂广场",
+            "name:zh-Hans": "上海世茂广场",
+            "name:zh-Hant": "上海世茂廣場"
+          }
+        },
+        {
+          "source_id": "way/761632795",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196827504",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196827503",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/414733199",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/490266387",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "720",
+            "addr:street": "南京东路",
+            "building": "retail",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "1989年15号",
+            "name": "第一食品商店",
+            "name:en": "Shanghai First Foodmall",
+            "name:ko": "상하이제일식품상점 펑리수",
+            "name:zh": "第一食品商店",
+            "name:zh-Hans": "第一食品商店",
+            "name:zh-Hant": "第一食品商店",
+            "old_name": "新新公司",
+            "start_date": "1925"
+          }
+        },
+        {
+          "source_id": "way/490270436",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "22",
+            "name": "第一百货C馆",
+            "name:zh": "第一百货C馆",
+            "name:zh-Hans": "第一百货C馆",
+            "name:zh-Hant": "第一百貨C館",
+            "shop": "department_store"
+          }
+        },
+        {
+          "source_id": "way/490267531",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "690",
+            "addr:street": "南京东路",
+            "alt_name": "东亚饭店",
+            "building": "retail",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "1989年13号",
+            "name": "时装公司",
+            "name:en": "Shanghai Sincere Building",
+            "name:zh": "时装公司",
+            "name:zh-Hans": "时装公司",
+            "name:zh-Hant": "時裝公司",
+            "old_name": "先施公司",
+            "shop": "mall",
+            "start_date": "1917"
+          }
+        },
+        {
+          "source_id": "way/490270437",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "1989年16号",
+            "name": "上海市第一百货商店",
+            "name:en": "Shanghai No. 1 Department Store",
+            "name:ru": "Шанхайский универмаг № 1",
+            "name:zh": "上海市第一百货商店",
+            "name:zh-Hans": "上海市第一百货商店",
+            "name:zh-Hant": "上海市第一百貨商店",
+            "old_name": "大新公司;The Sun",
+            "opening_hours": "Mo-Su 09:30-22:00",
+            "shop": "department_store",
+            "start_date": "1934",
+            "wheelchair": "limited",
+            "wikidata": "Q1874561"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/160023918",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 2.503876911716255e-10,
+      "independent_P_area_m2": 5168.57646040697,
+      "independent_omega_area_m2": 5121.8932984549165,
+      "author_omega_area_m2": 5121.8932984549165,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/1196661446",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661447",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661448",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661452",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661453",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661451",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661449",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661450",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/159947152",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "source": "Bing"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/1196661452",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/159947152",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/1196661453",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661446",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661447",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661451",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661448",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661449",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196661450",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/160023919",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.4060312380256412e-09,
+      "independent_P_area_m2": 13825.687171449457,
+      "independent_omega_area_m2": 13615.781734004697,
+      "author_omega_area_m2": 13615.781734004697,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/494086374",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "8",
+            "check_date": "2025-08-22",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "A-Ⅲ-027",
+            "name": "353广场",
+            "name:zh": "353广场",
+            "name:zh-Hans": "353广场",
+            "name:zh-Hant": "353廣場",
+            "old_name": "慈淑大楼",
+            "shop": "mall",
+            "start_date": "1932"
+          }
+        },
+        {
+          "source_id": "way/792384681",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail"
+          }
+        },
+        {
+          "source_id": "way/160821058",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "building:levels": "10",
+            "name": "雅戈尔大厦",
+            "name:zh": "雅戈尔大厦",
+            "name:zh-Hans": "雅戈尔大厦",
+            "name:zh-Hant": "雅戈爾大廈"
+          }
+        },
+        {
+          "source_id": "way/160821059",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "name": "恒基名人购物中心",
+            "name:en": "Henderson Metropolitan",
+            "name:zh": "恒基名人购物中心",
+            "name:zh-Hans": "恒基名人购物中心",
+            "name:zh-Hant": "恒基名人購物中心",
+            "shop": "department_store"
+          }
+        },
+        {
+          "source_id": "way/159947152",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/1196401624",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196417813",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160895021",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "20"
+          }
+        },
+        {
+          "source_id": "way/160964966",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "name": "圣德娜商厦",
+            "name:zh": "圣德娜商厦",
+            "name:zh-Hans": "圣德娜商厦",
+            "name:zh-Hant": "聖德娜商廈",
+            "shop": "mall"
+          }
+        },
+        {
+          "source_id": "way/160894922",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160964963",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/756801872",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160894921",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160894924",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160894923",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160894925",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1197009294",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1197009293",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160821060",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "8"
+          }
+        },
+        {
+          "source_id": "way/160821061",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "10",
+            "name": "百联ZX",
+            "name:zh": "百联ZX",
+            "name:zh-Hans": "百联ZX",
+            "name:zh-Hant": "百聯ZX",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "department_store"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/159947152",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/1196401624",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196417813",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160895021",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "20"
+          }
+        },
+        {
+          "source_id": "way/160964966",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "name": "圣德娜商厦",
+            "name:zh": "圣德娜商厦",
+            "name:zh-Hans": "圣德娜商厦",
+            "name:zh-Hant": "聖德娜商廈",
+            "shop": "mall"
+          }
+        },
+        {
+          "source_id": "way/160894925",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160894922",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160821060",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "8"
+          }
+        },
+        {
+          "source_id": "way/160964963",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1197009294",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1197009293",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/756801872",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160894921",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160894924",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/160894923",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/494086374",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "8",
+            "check_date": "2025-08-22",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "A-Ⅲ-027",
+            "name": "353广场",
+            "name:zh": "353广场",
+            "name:zh-Hans": "353广场",
+            "name:zh-Hant": "353廣場",
+            "old_name": "慈淑大楼",
+            "shop": "mall",
+            "start_date": "1932"
+          }
+        },
+        {
+          "source_id": "way/792384681",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail"
+          }
+        },
+        {
+          "source_id": "way/160821058",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "building:levels": "10",
+            "name": "雅戈尔大厦",
+            "name:zh": "雅戈尔大厦",
+            "name:zh-Hans": "雅戈尔大厦",
+            "name:zh-Hant": "雅戈爾大廈"
+          }
+        },
+        {
+          "source_id": "way/160821059",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "name": "恒基名人购物中心",
+            "name:en": "Henderson Metropolitan",
+            "name:zh": "恒基名人购物中心",
+            "name:zh-Hans": "恒基名人购物中心",
+            "name:zh-Hant": "恒基名人購物中心",
+            "shop": "department_store"
+          }
+        },
+        {
+          "source_id": "way/160821061",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "10",
+            "name": "百联ZX",
+            "name:zh": "百联ZX",
+            "name:zh-Hans": "百联ZX",
+            "name:zh-Hant": "百聯ZX",
+            "opening_hours": "Mo-Su 10:00-22:00",
+            "shop": "department_store"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/160895400",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 2749.509038161779,
+      "independent_omega_area_m2": 2749.509038161779,
+      "author_omega_area_m2": 2749.509038161779,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/160895826",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 3710.899773627837,
+      "independent_omega_area_m2": 3710.899773627836,
+      "author_omega_area_m2": 3710.899773627836,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/160896233",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 584.0450914592662,
+      "independent_omega_area_m2": 584.0450914592662,
+      "author_omega_area_m2": 584.0450914592662,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/161090905",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 714.9048003390972,
+      "independent_omega_area_m2": 714.9048003390972,
+      "author_omega_area_m2": 714.9048003390972,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/177929642",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 1126.5225567889615,
+      "independent_omega_area_m2": 1115.553465698141,
+      "author_omega_area_m2": 1115.553465698141,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/744512987",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/11636804",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "107",
+            "addr:street": "南苏州路",
+            "addr:street:en": "South Suzhou Road",
+            "building": "hall",
+            "building:levels": "6",
+            "built": "1866",
+            "name": "原新天安堂",
+            "name:en": "Former Union Church",
+            "use": "church"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/744512987",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/178721645",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 1022.9931893179022,
+      "independent_omega_area_m2": 1022.9931893179023,
+      "author_omega_area_m2": 1022.9931893179023,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/407411288",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 903.4951680139951,
+      "independent_omega_area_m2": 802.0113420699565,
+      "author_omega_area_m2": 802.0113420699565,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/407411285",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass",
+            "source": "own drone pics"
+          }
+        },
+        {
+          "source_id": "way/525376141",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/525376142",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/525376143",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/407411285",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass",
+            "source": "own drone pics"
+          }
+        },
+        {
+          "source_id": "way/525376141",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/525376142",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        },
+        {
+          "source_id": "way/525376143",
+          "kind": "GRASS",
+          "tags": {
+            "landuse": "grass"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/525376140",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 103.59784701940737,
+      "independent_omega_area_m2": 103.59784701940737,
+      "author_omega_area_m2": 103.59784701940737,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/900252576",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 1.223787421267687e-09,
+      "independent_P_area_m2": 12127.941016810011,
+      "independent_omega_area_m2": 11898.976026416833,
+      "author_omega_area_m2": 11898.976026416833,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/1196713223",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/378107150",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "building:levels": "15",
+            "name": "南京大楼",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/378107140",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "33",
+            "name": "华东电力大楼",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/380339852",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "181",
+            "addr:street": "南京东路",
+            "building": "yes",
+            "building:levels": "7",
+            "heritage": "4",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "A-III-08",
+            "name": "华东电力管理局",
+            "name:zh": "华东电力管理局",
+            "name:zh-Hans": "华东电力管理局",
+            "name:zh-Hant": "華東電力管理局",
+            "old_name": "电力大楼",
+            "source": "Bing",
+            "start_date": "1929-1931"
+          }
+        },
+        {
+          "source_id": "way/1196704493",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/900252577",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/378107236",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "10",
+            "name": "上海新世界新丸中心 NEW ONE",
+            "name:en": "Shanghai New World Daimaru",
+            "name:zh": "上海新世界大丸百货",
+            "name:zh-Hans": "上海新世界大丸百货",
+            "name:zh-Hant": "上海新世界大丸百貨",
+            "shop": "mall",
+            "source": "Bing",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "source_id": "way/1156620261",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "name": "美伦大楼"
+          }
+        },
+        {
+          "source_id": "way/1196709516",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "building:levels": "8",
+            "name": "中央商场",
+            "shop": "department_store"
+          }
+        },
+        {
+          "source_id": "way/380339997",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "慈昌里大楼",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/380339993",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "98~114",
+            "addr:street": "南京东路",
+            "building": "yes",
+            "building:levels": "4",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "A-III-17",
+            "name": "慈安里大楼",
+            "name:en": "Fu Li Building",
+            "name:zh": "慈安里大楼",
+            "name:zh-Hans": "慈安里大楼",
+            "name:zh-Hant": "慈安裏大樓",
+            "old_name": "哈同大楼",
+            "source": "Bing",
+            "start_date": "1906"
+          }
+        },
+        {
+          "source_id": "way/1196704492",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "99",
+            "addr:street": "南京东路",
+            "building": "yes",
+            "building:levels": "16",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "A-Ⅲ-026",
+            "name": "嘉陵大楼",
+            "name:en": "Jialing Building",
+            "name:zh": "嘉陵大楼",
+            "name:zh-Hans": "嘉陵大楼",
+            "name:zh-Hant": "嘉陵大樓",
+            "old_name": "迦陵大楼",
+            "source": "Bing",
+            "start_date": "1937"
+          }
+        },
+        {
+          "source_id": "way/1196704494",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "office",
+            "building:levels": "16",
+            "name": "新黄浦金融大厦",
+            "name:zh": "新黄浦金融大厦",
+            "name:zh-Hans": "新黄浦金融大厦",
+            "name:zh-Hant": "新黃浦金融塔樓",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/177998982",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "19",
+            "addr:street": "中山东一路",
+            "addr:street:en": "East Zhongshan No. 1 Road",
+            "building": "hotel",
+            "building:levels": "8",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "1989年7号",
+            "name": "和平饭店南楼",
+            "name:en": "Peace Hotel South Building",
+            "start_date": "1908",
+            "tourism": "hotel",
+            "wikidata": "Q11133012",
+            "wikimedia_commons": "Category:Shanghai Palace Hotel",
+            "wikipedia": "zh:汇中饭店大楼"
+          }
+        },
+        {
+          "source_id": "way/380339984",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "黄浦区",
+            "addr:housenumber": "100",
+            "addr:street": "南京东路",
+            "building": "retail",
+            "building:levels": "8",
+            "name": "惠罗公司",
+            "shop": "department_store",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/1196676110",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "name": "工联大厦"
+          }
+        },
+        {
+          "source_id": "relation/2376366",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "黄浦区",
+            "addr:housenumber": "20",
+            "addr:postcode": "200002",
+            "addr:province": "上海市",
+            "addr:street": "南京东路",
+            "addr:street:en": "East Zhongshan No. 1 Road",
+            "alt_name": "Fairmont Peace Hotel",
+            "brand": "Fairmont",
+            "brand:wikidata": "Q1393345",
+            "building": "hotel",
+            "building:levels": "11",
+            "built": "1929",
+            "email": "peacehotel@fairmont.com",
+            "fax": "+86 21 6329 1888",
+            "internet_access": "yes",
+            "internet_access:fee": "customers",
+            "layer": "1",
+            "name": "和平饭店",
+            "name:en": "Fairmont Peace Hotel",
+            "phone": "+86 21 6138 6888",
+            "rooms": "270",
+            "stars": "5",
+            "tourism": "hotel",
+            "type": "multipolygon",
+            "website": "https://www.fairmont.com/peacehotel"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/1196713223",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/378107150",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "building:levels": "15",
+            "name": "南京大楼",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/378107140",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "33",
+            "name": "华东电力大楼",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/900252577",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/378107236",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "retail",
+            "building:levels": "10",
+            "name": "上海新世界新丸中心 NEW ONE",
+            "name:en": "Shanghai New World Daimaru",
+            "name:zh": "上海新世界大丸百货",
+            "name:zh-Hans": "上海新世界大丸百货",
+            "name:zh-Hant": "上海新世界大丸百貨",
+            "shop": "mall",
+            "source": "Bing",
+            "wheelchair": "limited"
+          }
+        },
+        {
+          "source_id": "way/380339852",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "181",
+            "addr:street": "南京东路",
+            "building": "yes",
+            "building:levels": "7",
+            "heritage": "4",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "A-III-08",
+            "name": "华东电力管理局",
+            "name:zh": "华东电力管理局",
+            "name:zh-Hans": "华东电力管理局",
+            "name:zh-Hant": "華東電力管理局",
+            "old_name": "电力大楼",
+            "source": "Bing",
+            "start_date": "1929-1931"
+          }
+        },
+        {
+          "source_id": "way/1156620261",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "name": "美伦大楼"
+          }
+        },
+        {
+          "source_id": "way/1196709516",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "commercial",
+            "building:levels": "8",
+            "name": "中央商场",
+            "shop": "department_store"
+          }
+        },
+        {
+          "source_id": "way/380339997",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "building:levels": "4",
+            "name": "慈昌里大楼",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/1196704493",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes"
+          }
+        },
+        {
+          "source_id": "way/1196704492",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "99",
+            "addr:street": "南京东路",
+            "building": "yes",
+            "building:levels": "16",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "A-Ⅲ-026",
+            "name": "嘉陵大楼",
+            "name:en": "Jialing Building",
+            "name:zh": "嘉陵大楼",
+            "name:zh-Hans": "嘉陵大楼",
+            "name:zh-Hant": "嘉陵大樓",
+            "old_name": "迦陵大楼",
+            "source": "Bing",
+            "start_date": "1937"
+          }
+        },
+        {
+          "source_id": "way/1196704494",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "office",
+            "building:levels": "16",
+            "name": "新黄浦金融大厦",
+            "name:zh": "新黄浦金融大厦",
+            "name:zh-Hans": "新黄浦金融大厦",
+            "name:zh-Hant": "新黃浦金融塔樓",
+            "source": "Bing"
+          }
+        },
+        {
+          "source_id": "way/177998982",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "19",
+            "addr:street": "中山东一路",
+            "addr:street:en": "East Zhongshan No. 1 Road",
+            "building": "hotel",
+            "building:levels": "8",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "1989年7号",
+            "name": "和平饭店南楼",
+            "name:en": "Peace Hotel South Building",
+            "start_date": "1908",
+            "tourism": "hotel",
+            "wikidata": "Q11133012",
+            "wikimedia_commons": "Category:Shanghai Palace Hotel",
+            "wikipedia": "zh:汇中饭店大楼"
+          }
+        },
+        {
+          "source_id": "way/1196676110",
+          "kind": "BUILDING",
+          "tags": {
+            "building": "yes",
+            "name": "工联大厦"
+          }
+        },
+        {
+          "source_id": "relation/2376366",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "黄浦区",
+            "addr:housenumber": "20",
+            "addr:postcode": "200002",
+            "addr:province": "上海市",
+            "addr:street": "南京东路",
+            "addr:street:en": "East Zhongshan No. 1 Road",
+            "alt_name": "Fairmont Peace Hotel",
+            "brand": "Fairmont",
+            "brand:wikidata": "Q1393345",
+            "building": "hotel",
+            "building:levels": "11",
+            "built": "1929",
+            "email": "peacehotel@fairmont.com",
+            "fax": "+86 21 6329 1888",
+            "internet_access": "yes",
+            "internet_access:fee": "customers",
+            "layer": "1",
+            "name": "和平饭店",
+            "name:en": "Fairmont Peace Hotel",
+            "phone": "+86 21 6138 6888",
+            "rooms": "270",
+            "stars": "5",
+            "tourism": "hotel",
+            "type": "multipolygon",
+            "website": "https://www.fairmont.com/peacehotel"
+          }
+        },
+        {
+          "source_id": "way/380339993",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:housenumber": "98~114",
+            "addr:street": "南京东路",
+            "building": "yes",
+            "building:levels": "4",
+            "heritage": "yes",
+            "heritage:operator": "上海市优秀历史建筑",
+            "heritage:ref": "A-III-17",
+            "name": "慈安里大楼",
+            "name:en": "Fu Li Building",
+            "name:zh": "慈安里大楼",
+            "name:zh-Hans": "慈安里大楼",
+            "name:zh-Hant": "慈安裏大樓",
+            "old_name": "哈同大楼",
+            "source": "Bing",
+            "start_date": "1906"
+          }
+        },
+        {
+          "source_id": "way/380339984",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海市",
+            "addr:district": "黄浦区",
+            "addr:housenumber": "100",
+            "addr:street": "南京东路",
+            "building": "retail",
+            "building:levels": "8",
+            "name": "惠罗公司",
+            "shop": "department_store",
+            "source": "Bing"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    }
+  ],
+  "status": "GEOMETRY_MATCH_FOR_REPORTED_SCOPE",
+  "limits": [
+    "No route or interface graph correctness inferred from matching Omega",
+    "No field validation",
+    "P geometry remains unchanged; common and areal masks preserve distinct roles",
+    "Roads are zero-width component constraints and are not extra areal masks"
+  ]
+}

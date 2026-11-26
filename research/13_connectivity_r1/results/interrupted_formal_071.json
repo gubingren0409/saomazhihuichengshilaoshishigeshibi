@@ -1,0 +1,30 @@
+{
+  "at": "2026-11-12T01:16:19.100142+08:00",
+  "attempt_id": "FORMAL-071",
+  "status": "INTERRUPTED_CONFIRMED_REDUNDANT_QUADRATIC_REBUILD",
+  "service_pid": 264980,
+  "client_pid_previously_stopped": 266864,
+  "cpu_s": [
+    1356.765625,
+    68.21875
+  ],
+  "rss_bytes": 2024062976,
+  "input": {
+    "attempt_id": "FORMAL-071",
+    "request": {
+      "mechanism_id": "M03",
+      "method": "F0",
+      "connectivity_mode": "EXACT_STITCH",
+      "seam_max_m": 2.0,
+      "request_id": "M03-F0",
+      "run_purpose": "FORMAL_PRELOCKED_MATRIX"
+    },
+    "started_at": "2026-11-12T01:01:38.601571+08:00",
+    "code_sha256": "ee3c1f2e301781432cec1ff1fc689bb65a69bf7e02da1f288fa3eacc5499b60f"
+  },
+  "source_freeze": "audits/backend_freeze_r1.json",
+  "no_result_claimed": true,
+  "counts_as_actual_formal_attempt": true,
+  "restart_must_not_reset_cap": 128,
+  "reason": "Exact source geometry diagnostics confirmed unchanged1774 reflex coordinates lost reuse after numeric singleton subtraction. Reproduce+minimal performance fix approved scope; keep first inputs/logs/source and rerun affected under versioned record."
+}

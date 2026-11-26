@@ -1,0 +1,165 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "M08 raw layer/source identity and all mode overlay chains; source isolation requires a bound source-topology snapshot",
+  "APP_solver_calls": 0,
+  "new_route_solver_calls": 0,
+  "raw_source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "incident_raw_highways": [
+    {
+      "source_id": "way/178725150",
+      "tags": {
+        "highway": "service",
+        "layer": "1",
+        "maxspeed": "5",
+        "name": "人民广场地下停车场",
+        "name:en": "People's Square Underground Parking",
+        "oneway": "yes"
+      },
+      "explicit_non_ground": true,
+      "linear_tag_reason": null
+    }
+  ],
+  "eligible_ground_incident_raw_highways": [],
+  "raw_target_distance_to_all_admitted_ground_Omega_m": 112.78229974578653,
+  "rows": [
+    {
+      "mode": "FROZEN_FULL_FACE",
+      "run_id": "RUN-20261112T024556-58f543bb3a",
+      "cache_key": "bbbace21405d7cb65a82b954702b74b67a26d437525b4807b8bd88af2cc5741e",
+      "raw_target_id": "node/1890818626",
+      "retained_target_graph_id": "node/1890818626@layer=1@level=0",
+      "original_xy": [
+        354533.00977994315,
+        3456252.4343078984
+      ],
+      "solver_invoked": true,
+      "status": "NO_VALID_ROUTE",
+      "overlays": [
+        {
+          "path": "data/derived_graphs/bbbace21405d7cb65a82b954702b74b67a26d437525b4807b8bd88af2cc5741e-PREP-0f4807bdf18640208a3413420d70c160.jsonl.gz",
+          "sha256": "02b0c12559383c0d4580509ab81f6c5d5ec4e95b78de1653ee4bf0cf9bdd4db3",
+          "same_identity_or_coordinate_nodes": [],
+          "incident_arcs": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "mode": "SOURCE_COMPLETE",
+      "run_id": "RUN-20261112T024602-99e16d2128",
+      "cache_key": "fa72b0c5e4deb62fc6d6ee10ceb0586b6d61f5aabcb518836a97149d53399b29",
+      "raw_target_id": "node/1890818626",
+      "retained_target_graph_id": "node/1890818626@layer=1@level=0",
+      "original_xy": [
+        354533.00977994315,
+        3456252.4343078984
+      ],
+      "solver_invoked": true,
+      "status": "NO_VALID_ROUTE",
+      "overlays": [
+        {
+          "path": "data/connectivity_graphs/fa72b0c5e4deb62fc6d6ee10ceb0586b6d61f5aabcb518836a97149d53399b29-PREP-f9d52041e90440bdbb031ea425449dbf.jsonl.gz",
+          "sha256": "ab1badb2fa11ecd6c9e34a83a673319fbdccce636de0466761a4707c821e32d7",
+          "same_identity_or_coordinate_nodes": [],
+          "incident_arcs": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "mode": "EXACT_STITCH",
+      "run_id": "RUN-20261112T024611-2eda6b63f7",
+      "cache_key": "8b17c58f798204b2df66fb0f8b273903e467fd1a0261954b8da30458f057ea6f",
+      "raw_target_id": "node/1890818626",
+      "retained_target_graph_id": "node/1890818626@layer=1@level=0",
+      "original_xy": [
+        354533.00977994315,
+        3456252.4343078984
+      ],
+      "solver_invoked": true,
+      "status": "NO_VALID_ROUTE",
+      "overlays": [
+        {
+          "path": "data/connectivity_graphs/fa72b0c5e4deb62fc6d6ee10ceb0586b6d61f5aabcb518836a97149d53399b29-PREP-f9d52041e90440bdbb031ea425449dbf.jsonl.gz",
+          "sha256": "ab1badb2fa11ecd6c9e34a83a673319fbdccce636de0466761a4707c821e32d7",
+          "same_identity_or_coordinate_nodes": [],
+          "incident_arcs": []
+        },
+        {
+          "path": "data/connectivity_graphs/8b17c58f798204b2df66fb0f8b273903e467fd1a0261954b8da30458f057ea6f-PREP-f4021d4dd89a45e4b73bbb184f5be9f3.jsonl.gz",
+          "sha256": "1ddc38da948ad74f81945c88811f441cc42cb37895d1574d66e4a504471f5051",
+          "same_identity_or_coordinate_nodes": [],
+          "incident_arcs": []
+        }
+      ],
+      "errors": []
+    },
+    {
+      "mode": "CONDITIONAL_SEAMS",
+      "run_id": "RUN-20261112T024623-6fea7244fe",
+      "cache_key": "f9a0aa0c3c23c09d35c1a75bfa2598dff268d32821ec43a08b63c9c3d8ebb22e",
+      "raw_target_id": "node/1890818626",
+      "retained_target_graph_id": "node/1890818626@layer=1@level=0",
+      "original_xy": [
+        354533.00977994315,
+        3456252.4343078984
+      ],
+      "solver_invoked": true,
+      "status": "NO_VALID_ROUTE",
+      "overlays": [
+        {
+          "path": "data/connectivity_graphs/fa72b0c5e4deb62fc6d6ee10ceb0586b6d61f5aabcb518836a97149d53399b29-PREP-f9d52041e90440bdbb031ea425449dbf.jsonl.gz",
+          "sha256": "ab1badb2fa11ecd6c9e34a83a673319fbdccce636de0466761a4707c821e32d7",
+          "same_identity_or_coordinate_nodes": [],
+          "incident_arcs": []
+        },
+        {
+          "path": "data/connectivity_graphs/8b17c58f798204b2df66fb0f8b273903e467fd1a0261954b8da30458f057ea6f-PREP-f4021d4dd89a45e4b73bbb184f5be9f3.jsonl.gz",
+          "sha256": "1ddc38da948ad74f81945c88811f441cc42cb37895d1574d66e4a504471f5051",
+          "same_identity_or_coordinate_nodes": [],
+          "incident_arcs": []
+        },
+        {
+          "path": "data/connectivity_graphs/f9a0aa0c3c23c09d35c1a75bfa2598dff268d32821ec43a08b63c9c3d8ebb22e-PREP-06d80abe76db4129928eb19391ac69dd.jsonl.gz",
+          "sha256": "857ab9d35dcbed52fa1f83ae2a2fab7283c42c7188e88adac4926669e67e4ff7",
+          "same_identity_or_coordinate_nodes": [],
+          "incident_arcs": []
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "source_isolation": {
+    "status": "VERIFIED_BOUND_SEPARATE_LAYER1_COMPONENT",
+    "snapshot": {
+      "path": "results/topology_inputs/948dad34c938f35e7eb1f1d11e842599c84ac4332481465101745a9fc563c8d8.jsonl.gz",
+      "sha256": "28599d7af248d795f8644682f55e528a1844f7e49db1cd4af7f06a8a02f13a1b",
+      "structural_sha256": "948dad34c938f35e7eb1f1d11e842599c84ac4332481465101745a9fc563c8d8",
+      "nodes": 34981,
+      "arcs": 210198
+    },
+    "actual_PREP_cache_key": "f9a0aa0c3c23c09d35c1a75bfa2598dff268d32821ec43a08b63c9c3d8ebb22e",
+    "full_attributed_PREP_graph_sha256_matches_component_binding": true,
+    "layer1_node_retained": true,
+    "target_in_degree": 2,
+    "target_out_degree": 2,
+    "plain_ground_alias_present": false,
+    "target_weak_component_size": 4,
+    "target_strong_component_size": 4,
+    "target_weak_component_members": [
+      "node/1890502839@layer=1@level=0",
+      "node/1890818626@layer=1@level=0",
+      "node/1890818638@layer=1@level=0",
+      "node/1890935453@layer=1@level=0"
+    ],
+    "all_members_explicit_layer1": true,
+    "start_and_target_weak_labels_different": true,
+    "new_overlay_arcs_touching_any_component_member": [],
+    "zero_degree_singleton_hypothesis": "REFUTED; target has original 2 incoming and 2 outgoing arcs in a separate 4-node layer1 component"
+  },
+  "status": "PASS_FOR_M08_LAYER_AND_NO_ALIAS_BRIDGE",
+  "limits": [
+    "Existing node binding does not assert an eligible ground arc, physical level access or successful route",
+    "A separate layer1 component is not a zero-degree node and is not proof of physical inaccessibility"
+  ]
+}

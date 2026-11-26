@@ -1,0 +1,1880 @@
+{
+  "rows": [
+    {
+      "mechanism_id": "M01",
+      "scene_id": "sh-tower",
+      "side": "start",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+        "coordinates_moved": false,
+        "id": "node/5344386233",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/5344386233",
+        "source_node_tags": {},
+        "source_node_version": 1,
+        "wgs84": [
+          121.4965464,
+          31.2407266
+        ],
+        "xy": [
+          356825.376841357,
+          3457255.3631034833
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/553692642",
+          "segment_index": 0,
+          "nodes": [
+            1769172169,
+            5344386233
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                356829.10956565844,
+                3457265.0575522846
+              ],
+              [
+                356825.376841357,
+                3457255.3631034833
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/553692642",
+          "segment_index": 1,
+          "nodes": [
+            5344386233,
+            5344386234
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                356825.376841357,
+                3457255.3631034833
+              ],
+              [
+                356824.3527806923,
+                3457249.4123682696
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M01",
+      "scene_id": "sh-tower",
+      "side": "end",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+        "coordinates_moved": false,
+        "id": "node/2703743735",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/2703743735",
+        "source_node_tags": {
+          "name": "3",
+          "railway": "subway_entrance",
+          "ref": "3"
+        },
+        "source_node_version": 3,
+        "wgs84": [
+          121.4984289,
+          31.2402422
+        ],
+        "xy": [
+          357003.937379444,
+          3457199.2298087273
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/553692651",
+          "segment_index": 0,
+          "nodes": [
+            2703743735,
+            5344386270
+          ],
+          "source_eligibility": "NON_GROUND_OR_UNRESOLVED_LAYER",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                357003.937379444,
+                3457199.2298087273
+              ],
+              [
+                357019.6999457718,
+                3457192.0197920855
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/553692652",
+          "segment_index": 0,
+          "nodes": [
+            2703743735,
+            5344386272
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [
+            "MAPPED_HARD_INTERIOR_CONFLICT"
+          ],
+          "tags": {
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                357003.937379444,
+                3457199.2298087273
+              ],
+              [
+                357000.33871234907,
+                3457200.7865307527
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M02",
+      "scene_id": "sh-exhibition",
+      "side": "start",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+        "coordinates_moved": false,
+        "id": "node/7079045116",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/7079045116",
+        "source_node_tags": {},
+        "source_node_version": 1,
+        "wgs84": [
+          121.4525271,
+          31.2187167
+        ],
+        "xy": [
+          352598.7570287816,
+          3454873.5162723036
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/436681710",
+          "segment_index": 14,
+          "nodes": [
+            4381584603,
+            7079045116
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "bicycle": "no",
+            "highway": "pedestrian",
+            "motor_vehicle": "no",
+            "note": "tree-lined avenue"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352598.65664316673,
+                3454873.15180869
+              ],
+              [
+                352598.7570287816,
+                3454873.5162723036
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/436681710",
+          "segment_index": 15,
+          "nodes": [
+            7079045116,
+            4381584610
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "bicycle": "no",
+            "highway": "pedestrian",
+            "motor_vehicle": "no",
+            "note": "tree-lined avenue"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352598.7570287816,
+                3454873.5162723036
+              ],
+              [
+                352598.9182976401,
+                3454874.1459701355
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/440429843",
+          "segment_index": 37,
+          "nodes": [
+            4381584610,
+            7079045116
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "surface": "concrete"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352598.9182976401,
+                3454874.1459701355
+              ],
+              [
+                352598.7570287816,
+                3454873.5162723036
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/440429843",
+          "segment_index": 38,
+          "nodes": [
+            7079045116,
+            4381584603
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "surface": "concrete"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352598.7570287816,
+                3454873.5162723036
+              ],
+              [
+                352598.65664316673,
+                3454873.15180869
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/758019387",
+          "segment_index": 3,
+          "nodes": [
+            4381584602,
+            7079045116
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352608.2443670553,
+                3454867.873221744
+              ],
+              [
+                352598.7570287816,
+                3454873.5162723036
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/758019387",
+          "segment_index": 4,
+          "nodes": [
+            7079045116,
+            7079045117
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352598.7570287816,
+                3454873.5162723036
+              ],
+              [
+                352592.6452540875,
+                3454883.424886611
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M02",
+      "scene_id": "sh-exhibition",
+      "side": "end",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+        "coordinates_moved": false,
+        "id": "node/4381584609",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/4381584609",
+        "source_node_tags": {},
+        "source_node_version": 1,
+        "wgs84": [
+          121.4528074,
+          31.2186731
+        ],
+        "xy": [
+          352625.39177630795,
+          3454868.3094552094
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/440429836",
+          "segment_index": 35,
+          "nodes": [
+            4381580565,
+            4381584609
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352625.45928050927,
+                3454873.1313311374
+              ],
+              [
+                352625.39177630795,
+                3454868.3094552094
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/440429836",
+          "segment_index": 36,
+          "nodes": [
+            4381584609,
+            4381584637
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352625.39177630795,
+                3454868.3094552094
+              ],
+              [
+                352625.37377520185,
+                3454867.0236216336
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/440429843",
+          "segment_index": 7,
+          "nodes": [
+            4381584637,
+            4381584609
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "surface": "concrete"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352625.37377520185,
+                3454867.0236216336
+              ],
+              [
+                352625.39177630795,
+                3454868.3094552094
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/440429843",
+          "segment_index": 8,
+          "nodes": [
+            4381584609,
+            4381584636
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "surface": "concrete"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352625.39177630795,
+                3454868.3094552094
+              ],
+              [
+                352623.5372724971,
+                3454869.920850724
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/758019386",
+          "segment_index": 0,
+          "nodes": [
+            4381584609,
+            7079045113
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352625.39177630795,
+                3454868.3094552094
+              ],
+              [
+                352613.4203168815,
+                3454874.829876944
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M03",
+      "scene_id": "sh-huangpu-01",
+      "side": "start",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+        "coordinates_moved": false,
+        "id": "node/477666637",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/477666637",
+        "source_node_tags": {
+          "name": "1",
+          "railway": "subway_entrance",
+          "ref": "1"
+        },
+        "source_node_version": 5,
+        "wgs84": [
+          121.4718627,
+          31.2328635
+        ],
+        "xy": [
+          354462.4205719816,
+          3456416.0215553055
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/178738418",
+          "segment_index": 0,
+          "nodes": [
+            477666637,
+            1890936618
+          ],
+          "source_eligibility": "NON_GROUND_OR_UNRESOLVED_LAYER",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [
+            "MAPPED_HARD_INTERIOR_CONFLICT"
+          ],
+          "tags": {
+            "handrail": "yes",
+            "highway": "steps"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354462.4205719816,
+                3456416.0215553055
+              ],
+              [
+                354467.63438671245,
+                3456404.5077861203
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/513764739",
+          "segment_index": 0,
+          "nodes": [
+            477666637,
+            5021317166
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [
+            "MAPPED_HARD_INTERIOR_CONFLICT"
+          ],
+          "tags": {
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354462.4205719816,
+                3456416.0215553055
+              ],
+              [
+                354460.25522429496,
+                3456420.641472335
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M03",
+      "scene_id": "sh-huangpu-01",
+      "side": "end",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+        "coordinates_moved": false,
+        "id": "node/1890732546",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/1890732546",
+        "source_node_tags": {},
+        "source_node_version": 1,
+        "wgs84": [
+          121.4697255,
+          31.2306601
+        ],
+        "xy": [
+          354255.4710753091,
+          3456174.5979696726
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/178719573",
+          "segment_index": 16,
+          "nodes": [
+            1890750316,
+            1890732546
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354222.07501442626,
+                3456150.92446279
+              ],
+              [
+                354255.4710753091,
+                3456174.5979696726
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/178719573",
+          "segment_index": 17,
+          "nodes": [
+            1890732546,
+            1890732657
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354255.4710753091,
+                3456174.5979696726
+              ],
+              [
+                354212.3164477913,
+                3456233.224530667
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M04",
+      "scene_id": "sh-exhibition",
+      "side": "start",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_FACE_OUTER_BOUNDARY_NODE; NO_INDEPENDENT_ELIGIBLE_LINE_NODE_AVAILABLE",
+        "coordinates_moved": false,
+        "id": "node/2613044111",
+        "mode_binding": "SAME_ORIGINAL_NODE_AND_COORDINATE; ATTACH_ONLY_TO_ADMITTED_CONTAINING_FACE; NO_BINDING_WHEN_FACE_ABSENT",
+        "native_id": "node/2613044111",
+        "network_binding_class": "SOURCE_BOUNDARY_INTERFACE_QUERY; FACE_ATTACHMENT_REQUIRED_IF_ABSENT_FROM_NATIVE_GRAPH",
+        "omega_covers": true,
+        "selection_rule": "LOWEST_ORIGINAL_NODE_ID_AMONG_OMEGA_COVERED_OUTER_BOUNDARY_NODES",
+        "source_area_id": "way/1275365117",
+        "source_node_tags": {},
+        "source_node_version": 1,
+        "wgs84": [
+          121.4408871,
+          31.2240887
+        ],
+        "xy": [
+          351498.287766238,
+          3455484.57699674
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/1275365117",
+          "segment_index": 3,
+          "nodes": [
+            11842008838,
+            2613044111
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "静安寺广场"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351494.40545284824,
+                3455527.472010758
+              ],
+              [
+                351498.287766238,
+                3455484.57699674
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/1275365117",
+          "segment_index": 4,
+          "nodes": [
+            2613044111,
+            2613044131
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "name": "静安寺广场"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351498.287766238,
+                3455484.57699674
+              ],
+              [
+                351531.99493723724,
+                3455501.9958957927
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M04",
+      "scene_id": "sh-exhibition",
+      "side": "end",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+        "coordinates_moved": false,
+        "id": "node/12682703868",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/12682703868",
+        "source_node_tags": {},
+        "source_node_version": 1,
+        "wgs84": [
+          121.4420413,
+          31.2250968
+        ],
+        "xy": [
+          351609.81069622654,
+          3455594.7721985923
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/1369422283",
+          "segment_index": 2,
+          "nodes": [
+            12682703867,
+            12682703868
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351623.44946506864,
+                3455572.805015161
+              ],
+              [
+                351609.81069622654,
+                3455594.7721985923
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/1369422283",
+          "segment_index": 3,
+          "nodes": [
+            12682703868,
+            12682703869
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351609.81069622654,
+                3455594.7721985923
+              ],
+              [
+                351580.34617260686,
+                3455575.497142175
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M05",
+      "scene_id": "sh-exhibition",
+      "side": "start",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+        "coordinates_moved": false,
+        "id": "node/4449442798",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/4449442798",
+        "source_node_tags": {},
+        "source_node_version": 2,
+        "wgs84": [
+          121.4525981,
+          31.2182895
+        ],
+        "xy": [
+          352604.85772567225,
+          3454826.0674201455
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/447882281",
+          "segment_index": 12,
+          "nodes": [
+            4449442797,
+            4449442798
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "footway",
+            "surface": "bricks"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352603.6505320068,
+                3454824.2328026537
+              ],
+              [
+                352604.85772567225,
+                3454826.0674201455
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/447882281",
+          "segment_index": 13,
+          "nodes": [
+            4449442798,
+            4449442819
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "footway",
+            "surface": "bricks"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352604.85772567225,
+                3454826.0674201455
+              ],
+              [
+                352605.5697301371,
+                3454834.7274422944
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/447882284",
+          "segment_index": 9,
+          "nodes": [
+            7079045125,
+            4449442798
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "motor_vehicle": "no",
+            "surface": "bricks"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352603.47292270255,
+                3454826.5192001467
+              ],
+              [
+                352604.85772567225,
+                3454826.0674201455
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/447882284",
+          "segment_index": 10,
+          "nodes": [
+            4449442798,
+            4449442799
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "motor_vehicle": "no",
+            "surface": "bricks"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352604.85772567225,
+                3454826.0674201455
+              ],
+              [
+                352606.26841036516,
+                3454826.10310354
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M05",
+      "scene_id": "sh-exhibition",
+      "side": "end",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+        "coordinates_moved": false,
+        "id": "node/4449442825",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/4449442825",
+        "source_node_tags": {},
+        "source_node_version": 2,
+        "wgs84": [
+          121.4526273,
+          31.2184416
+        ],
+        "xy": [
+          352607.875494594,
+          3454842.888411377
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/447882287",
+          "segment_index": 12,
+          "nodes": [
+            4449442824,
+            4449442825
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "motor_vehicle": "no",
+            "surface": "bricks"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352609.1333484341,
+                3454842.2166703492
+              ],
+              [
+                352607.875494594,
+                3454842.888411377
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/447882287",
+          "segment_index": 13,
+          "nodes": [
+            4449442825,
+            4449442803
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "motor_vehicle": "no",
+            "surface": "bricks"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                352607.875494594,
+                3454842.888411377
+              ],
+              [
+                352606.4590105816,
+                3454843.118895768
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M06",
+      "scene_id": "sh-exhibition",
+      "side": "start",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+        "coordinates_moved": false,
+        "id": "node/3382616037",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/3382616037",
+        "source_node_tags": {},
+        "source_node_version": 2,
+        "wgs84": [
+          121.4422451,
+          31.216639
+        ],
+        "xy": [
+          351616.00867530424,
+          3454656.968149748
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/331207147",
+          "segment_index": 12,
+          "nodes": [
+            2822040456,
+            3382616037
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "surface": "paving_stones"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351644.8564935162,
+                3454668.823814614
+              ],
+              [
+                351616.00867530424,
+                3454656.968149748
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/331207147",
+          "segment_index": 13,
+          "nodes": [
+            3382616037,
+            3382616038
+          ],
+          "source_eligibility": "SOURCE_AREA_BOUNDARY_NOT_INDEPENDENT_NATIVE_LINE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "area": "yes",
+            "highway": "pedestrian",
+            "surface": "paving_stones"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351616.00867530424,
+                3454656.968149748
+              ],
+              [
+                351605.6985571275,
+                3454681.9594307975
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/438516308",
+          "segment_index": 2,
+          "nodes": [
+            2822040456,
+            3382616037
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "cycleway:both": "no",
+            "highway": "residential",
+            "lanes": "1",
+            "lit": "yes",
+            "name": "安福路",
+            "name:en": "Anfu Road",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "sidewalk": "both",
+            "surface": "asphalt"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351644.8564935162,
+                3454668.823814614
+              ],
+              [
+                351616.00867530424,
+                3454656.968149748
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/438516308",
+          "segment_index": 3,
+          "nodes": [
+            3382616037,
+            552689671
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "cycleway:both": "no",
+            "highway": "residential",
+            "lanes": "1",
+            "lit": "yes",
+            "name": "安福路",
+            "name:en": "Anfu Road",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "sidewalk": "both",
+            "surface": "asphalt"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351616.00867530424,
+                3454656.968149748
+              ],
+              [
+                351611.3375059919,
+                3454654.783327517
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M06",
+      "scene_id": "sh-exhibition",
+      "side": "end",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+        "coordinates_moved": false,
+        "id": "node/9775005120",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/9775005120",
+        "source_node_tags": {
+          "highway": "traffic_signals",
+          "traffic_signals": "traffic_lights"
+        },
+        "source_node_version": 2,
+        "wgs84": [
+          121.4438953,
+          31.217254
+        ],
+        "xy": [
+          351774.1763820868,
+          3454722.925045912
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/1068144850",
+          "segment_index": 3,
+          "nodes": [
+            9775061987,
+            9775005120
+          ],
+          "source_eligibility": "FROZEN_NATIVE_ENGINE_NO_PEDESTRIAN_EVIDENCE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "bicycle": "no",
+            "highway": "secondary",
+            "name": "常熟路",
+            "oneway": "yes",
+            "trolley_wire": "yes"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351783.58488480264,
+                3454688.6890054247
+              ],
+              [
+                351774.1763820868,
+                3454722.925045912
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/1068144850",
+          "segment_index": 4,
+          "nodes": [
+            9775005120,
+            857586125
+          ],
+          "source_eligibility": "FROZEN_NATIVE_ENGINE_NO_PEDESTRIAN_EVIDENCE",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "bicycle": "no",
+            "highway": "secondary",
+            "name": "常熟路",
+            "oneway": "yes",
+            "trolley_wire": "yes"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351774.1763820868,
+                3454722.925045912
+              ],
+              [
+                351753.02677581983,
+                3454801.663307504
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/1117800969",
+          "segment_index": 0,
+          "nodes": [
+            9775005120,
+            6360292380
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "cycleway:both": "no",
+            "highway": "residential",
+            "lanes": "1",
+            "lit": "yes",
+            "name": "安福路",
+            "name:en": "Anfu Road",
+            "oneway": "yes",
+            "oneway:bicycle": "no",
+            "sidewalk": "both",
+            "surface": "asphalt"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                351774.1763820868,
+                3454722.925045912
+              ],
+              [
+                351768.93134439184,
+                3454720.581931921
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M07",
+      "scene_id": "sh-huangpu-01",
+      "side": "start",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+        "coordinates_moved": false,
+        "id": "node/1890732783",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/1890732783",
+        "source_node_tags": {},
+        "source_node_version": 2,
+        "wgs84": [
+          121.4720075,
+          31.2329289
+        ],
+        "xy": [
+          354476.3129066196,
+          3456423.080208247
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/178719573",
+          "segment_index": 54,
+          "nodes": [
+            1890732688,
+            1890732783
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354472.4981557671,
+                3456424.1640512394
+              ],
+              [
+                354476.3129066196,
+                3456423.080208247
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/178719573",
+          "segment_index": 55,
+          "nodes": [
+            1890732783,
+            1890732881
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354476.3129066196,
+                3456423.080208247
+              ],
+              [
+                354479.11606438016,
+                3456420.491457076
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/178721636",
+          "segment_index": 20,
+          "nodes": [
+            1890732688,
+            1890732783
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354472.4981557671,
+                3456424.1640512394
+              ],
+              [
+                354476.3129066196,
+                3456423.080208247
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/178721636",
+          "segment_index": 21,
+          "nodes": [
+            1890732783,
+            1890732881
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354476.3129066196,
+                3456423.080208247
+              ],
+              [
+                354479.11606438016,
+                3456420.491457076
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M07",
+      "scene_id": "sh-huangpu-01",
+      "side": "end",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+        "coordinates_moved": false,
+        "id": "node/1890761671",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/1890761671",
+        "source_node_tags": {},
+        "source_node_version": 1,
+        "wgs84": [
+          121.4696853,
+          31.2301023
+        ],
+        "xy": [
+          354250.78552725574,
+          3456112.8202719544
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/178719573",
+          "segment_index": 134,
+          "nodes": [
+            1890761642,
+            1890761671
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354244.96848414536,
+                3456122.0475206673
+              ],
+              [
+                354250.78552725574,
+                3456112.8202719544
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/178719573",
+          "segment_index": 135,
+          "nodes": [
+            1890761671,
+            1890862891
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354250.78552725574,
+                3456112.8202719544
+              ],
+              [
+                354249.76633781183,
+                3456112.1470027966
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/1303211746",
+          "segment_index": 0,
+          "nodes": [
+            1890761671,
+            1890818669
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354250.78552725574,
+                3456112.8202719544
+              ],
+              [
+                354284.08023437613,
+                3456136.73918626
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M08",
+      "scene_id": "sh-huangpu-01",
+      "side": "start",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_INDEPENDENT_ELIGIBLE_LINE_WITHIN_SOURCE_P",
+        "coordinates_moved": false,
+        "id": "node/1890732633",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/1890732633",
+        "source_node_tags": {},
+        "source_node_version": 2,
+        "wgs84": [
+          121.4681,
+          31.230443
+        ],
+        "xy": [
+          354100.3063374167,
+          3456152.6787019544
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/178719573",
+          "segment_index": 0,
+          "nodes": [
+            1890732633,
+            1890732813
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354100.3063374167,
+                3456152.6787019544
+              ],
+              [
+                354107.35652089946,
+                3456158.1909114607
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/178719573",
+          "segment_index": 161,
+          "nodes": [
+            1890862898,
+            1890732633
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354102.17233392375,
+                3456150.5241466137
+              ],
+              [
+                354100.3063374167,
+                3456152.6787019544
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/1303211752",
+          "segment_index": 10,
+          "nodes": [
+            1730911814,
+            1890732633
+          ],
+          "source_eligibility": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354079.0250142036,
+                3456137.707164193
+              ],
+              [
+                354100.3063374167,
+                3456152.6787019544
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    },
+    {
+      "mechanism_id": "M08",
+      "scene_id": "sh-huangpu-01",
+      "side": "end",
+      "original_endpoint": {
+        "basis": "ORIGINAL_SOURCE_NODE_ON_B_LINE; FARTHEST_FROM_A_SOURCE_FACE_THEN_NODE_ID",
+        "coordinates_moved": false,
+        "id": "node/1890818626",
+        "layer_aware_native_graph_id": "node/1890818626@layer=1@level=0",
+        "mode_binding": "EXACT_SAME_NATIVE_NODE_ID_AND_COORDINATE_ALL_MODES; MISSING_GRAPH_NODE_IS_A_REPORTED_FAILURE",
+        "native_id": "node/1890818626",
+        "source_node_tags": {},
+        "source_node_version": 1,
+        "wgs84": [
+          121.4726274,
+          31.2313968
+        ],
+        "xy": [
+          354533.00977994315,
+          3456252.4343078984
+        ]
+      },
+      "source_xy_exact": true,
+      "point_in_actual_coverage": true,
+      "distance_to_coverage_m": 0.0,
+      "incident_raw_segments": [
+        {
+          "source_id": "way/178725150",
+          "segment_index": 0,
+          "nodes": [
+            1890502839,
+            1890818626
+          ],
+          "source_eligibility": "NON_GROUND_OR_UNRESOLVED_LAYER",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "service",
+            "layer": "1",
+            "maxspeed": "5",
+            "name": "人民广场地下停车场",
+            "name:en": "People's Square Underground Parking",
+            "oneway": "yes"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354536.27540874144,
+                3456259.174320721
+              ],
+              [
+                354533.00977994315,
+                3456252.4343078984
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "way/178725150",
+          "segment_index": 1,
+          "nodes": [
+            1890818626,
+            1890935453
+          ],
+          "source_eligibility": "NON_GROUND_OR_UNRESOLVED_LAYER",
+          "whole_segment_coverage": true,
+          "whole_segment_common_reasons": [],
+          "tags": {
+            "highway": "service",
+            "layer": "1",
+            "maxspeed": "5",
+            "name": "人民广场地下停车场",
+            "name:en": "People's Square Underground Parking",
+            "oneway": "yes"
+          },
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                354533.00977994315,
+                3456252.4343078984
+              ],
+              [
+                354526.5089385152,
+                3456243.222306772
+              ]
+            ]
+          }
+        }
+      ],
+      "scope": "SOURCE_AND_COMMON_MASK_DIAGNOSTIC; NO_SOLVER_OR_ENDPOINT_RESELECTION; map absence/refusal does not establish physical no-path."
+    }
+  ],
+  "solver_calls": 0
+}

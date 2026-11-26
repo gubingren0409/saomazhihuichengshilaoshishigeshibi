@@ -1,0 +1,43 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Direct independent count in actual supplied source topology snapshot; final attributed PREP binding pending final CSV",
+  "APP_solver_calls": 0,
+  "route_solver_calls": 0,
+  "snapshot": "results\\topology_inputs\\948dad34c938f35e7eb1f1d11e842599c84ac4332481465101745a9fc563c8d8.jsonl.gz",
+  "snapshot_sha256": "28599d7af248d795f8644682f55e528a1844f7e49db1cd4af7f06a8a02f13a1b",
+  "canonical_structure_sha256_verified": "948dad34c938f35e7eb1f1d11e842599c84ac4332481465101745a9fc563c8d8",
+  "nodes": 34981,
+  "arcs": 210198,
+  "target_alias": "node/1890818626@layer=1@level=0",
+  "target_alias_retained": true,
+  "target_in_degree": 2,
+  "target_out_degree": 2,
+  "plain_ground_alias_retained": false,
+  "plain_ground_alias_in_degree": 0,
+  "plain_ground_alias_out_degree": 0,
+  "status": "PASS_FOR_OBSERVED_SEPARATE_LAYER1_COMPONENT",
+  "source_WCC": 239,
+  "source_SCC": 240,
+  "start_id": "node/1890732633",
+  "start_weak_label": "grid/relation/2153738/708201/6912305",
+  "target_weak_label": "node/1890502839@layer=1@level=0",
+  "start_strong_label": "grid/relation/2153738/708201/6912305",
+  "target_strong_label": "node/1890502839@layer=1@level=0",
+  "target_weak_component_size": 4,
+  "target_strong_component_size": 4,
+  "target_weak_component_members": [
+    "node/1890502839@layer=1@level=0",
+    "node/1890818626@layer=1@level=0",
+    "node/1890818638@layer=1@level=0",
+    "node/1890935453@layer=1@level=0"
+  ],
+  "target_strong_component_members": [
+    "node/1890502839@layer=1@level=0",
+    "node/1890818626@layer=1@level=0",
+    "node/1890818638@layer=1@level=0",
+    "node/1890935453@layer=1@level=0"
+  ],
+  "all_target_component_IDs_explicit_layer1": true,
+  "disjoint_from_start_weak_component": true,
+  "initial_zero_degree_hypothesis": "REFUTED; retained in independent_m08_source_snapshot_initial_isolation_alarm.json"
+}

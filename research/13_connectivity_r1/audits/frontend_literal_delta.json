@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-12T02:33:44.187085+08:00",
+  "actual_six_call_tested_js_sha256": "0c643fe82f0e89c06eb59f578299c0da7a214979641c5b1226e621caa272d42b",
+  "delivered_js_sha256": "e344eb700bbf1b5bc1e66427e15c8a04991938ccded093032055052d447d620c",
+  "change_type": "ONE_LITERAL_IN_CLEARROUTE_NO_CONTROL_FLOW_CHANGE",
+  "old_literal": "请求已更新。点选原生对象查看源依据；路线与接缝的采用状态需重新计算。",
+  "new_literal": "点选原生对象、路线或接缝查看依据；采用状态以当前有效计算为准。",
+  "additional_POST": 0,
+  "retest_scope": "node --check only for one string; all12realEdge functional checks apply to unchanged control flow; not claiming new6calls"
+}

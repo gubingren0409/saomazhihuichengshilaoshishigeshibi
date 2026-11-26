@@ -1,0 +1,210 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "role": "INITIAL_REVIEWER_ALARM_ADJUDICATION",
+  "original_alarm": "audits/independent_omega_initial_alarm_sh-huangpu-01.json",
+  "original_common_symmetric_difference_m2": 10913.032785037896,
+  "reviewer_error": {
+    "source_id": "way/1012295706",
+    "cause": "Reviewer applied the private closed living_street as restricted line then again as a paved support polygon; frozen context prevents the second insertion through mapped_seen",
+    "fix": "Mark added restrictive linear/area objects represented before support scan",
+    "author_implementation_changed": false
+  },
+  "inherited_conservative_fallback": {
+    "source_id": "relation/19420005",
+    "raw_version": 1,
+    "raw_tags": {
+      "addr:city": "上海市",
+      "addr:district": "黄浦区",
+      "addr:housenumber": "1",
+      "addr:province": "上海市",
+      "addr:street": "河南中路",
+      "building": "yes",
+      "building:levels": "8;6",
+      "name": "上海城市运动中心",
+      "source": "Bing",
+      "type": "multipolygon"
+    },
+    "members": [
+      {
+        "type": "way",
+        "ref": 369237853,
+        "role": "outer"
+      },
+      {
+        "type": "way",
+        "ref": 447017705,
+        "role": "outer"
+      }
+    ],
+    "independently_joined_outer_rings": 2,
+    "raw_exact_union_area_m2": 3762.821713224616,
+    "frozen_unknown_bbox_area_m2": 5996.246862297715,
+    "fallback_increment_m2": 2233.4251490731017,
+    "raw_area_outside_fallback_m2": 0.0,
+    "frozen_contract_kind": "UNKNOWN",
+    "reason": "Two raw complete outer rings share an internal edge; frozen Source.area requires all original member lines on union boundary and rejects, then Source.obstacles uses metric known-coordinate bbox buffered .01m",
+    "all_admitted_face_distances": [
+      {
+        "source_id": "way/160023919",
+        "P_distance_m": 536.6034041580039,
+        "omega_distance_m": 536.6291307492627
+      },
+      {
+        "source_id": "way/900252576",
+        "P_distance_m": 598.851631595819,
+        "omega_distance_m": 598.851631595819
+      },
+      {
+        "source_id": "way/160023918",
+        "P_distance_m": 601.7593571885657,
+        "omega_distance_m": 601.7781128581452
+      },
+      {
+        "source_id": "way/160895400",
+        "P_distance_m": 602.0750380967883,
+        "omega_distance_m": 602.0750380967883
+      },
+      {
+        "source_id": "way/553893883",
+        "P_distance_m": 619.4865529602808,
+        "omega_distance_m": 619.670420746759
+      },
+      {
+        "source_id": "way/428199191",
+        "P_distance_m": 662.8725063012104,
+        "omega_distance_m": 663.0012616513969
+      },
+      {
+        "source_id": "way/554033955",
+        "P_distance_m": 667.1353884348536,
+        "omega_distance_m": 667.3490038653325
+      },
+      {
+        "source_id": "way/160023915",
+        "P_distance_m": 731.3340638189413,
+        "omega_distance_m": 731.3340638189413
+      },
+      {
+        "source_id": "way/428199195",
+        "P_distance_m": 748.7862638289494,
+        "omega_distance_m": 749.1280757985938
+      },
+      {
+        "source_id": "way/428199199",
+        "P_distance_m": 806.6230682918068,
+        "omega_distance_m": 806.8443024333634
+      },
+      {
+        "source_id": "relation/2153738",
+        "P_distance_m": 816.0769161210799,
+        "omega_distance_m": 816.0769161210799
+      },
+      {
+        "source_id": "way/428199196",
+        "P_distance_m": 823.6337425551148,
+        "omega_distance_m": 823.9789821308259
+      },
+      {
+        "source_id": "way/553893870",
+        "P_distance_m": 834.240468227528,
+        "omega_distance_m": 834.35269287015
+      },
+      {
+        "source_id": "relation/2385771",
+        "P_distance_m": 901.9726569191072,
+        "omega_distance_m": 901.9726569191072
+      },
+      {
+        "source_id": "relation/8055906",
+        "P_distance_m": 1049.6605947856685,
+        "omega_distance_m": 1049.6605947856685
+      },
+      {
+        "source_id": "way/161090905",
+        "P_distance_m": 1055.9954761700103,
+        "omega_distance_m": 1055.9954761700103
+      },
+      {
+        "source_id": "way/1572010715",
+        "P_distance_m": 1074.5278572330644,
+        "omega_distance_m": 1074.8372805658773
+      },
+      {
+        "source_id": "way/178721645",
+        "P_distance_m": 1144.5216720942856,
+        "omega_distance_m": 1144.5216720942856
+      },
+      {
+        "source_id": "way/160896233",
+        "P_distance_m": 1242.3192392419853,
+        "omega_distance_m": 1242.3192392419853
+      },
+      {
+        "source_id": "way/160895826",
+        "P_distance_m": 1256.2221144339576,
+        "omega_distance_m": 1256.2221144339576
+      },
+      {
+        "source_id": "way/435452349",
+        "P_distance_m": 1509.5256251714209,
+        "omega_distance_m": 1509.526863907403
+      },
+      {
+        "source_id": "way/407411288",
+        "P_distance_m": 1568.980393382109,
+        "omega_distance_m": 1568.980393382109
+      },
+      {
+        "source_id": "way/525376140",
+        "P_distance_m": 1593.4814235773645,
+        "omega_distance_m": 1593.4814235773645
+      },
+      {
+        "source_id": "way/435452346",
+        "P_distance_m": 1617.3611017245971,
+        "omega_distance_m": 1617.3611017245971
+      },
+      {
+        "source_id": "way/1289666063",
+        "P_distance_m": 1979.6693404105363,
+        "omega_distance_m": 1979.6693404105363
+      },
+      {
+        "source_id": "way/405396505",
+        "P_distance_m": 2220.9577590108865,
+        "omega_distance_m": 2220.9577590108865
+      },
+      {
+        "source_id": "way/682223781",
+        "P_distance_m": 2275.9393829252417,
+        "omega_distance_m": 2275.9393829252417
+      },
+      {
+        "source_id": "way/682216778",
+        "P_distance_m": 2345.3541648257524,
+        "omega_distance_m": 2345.3541648257524
+      },
+      {
+        "source_id": "way/682223773",
+        "P_distance_m": 2409.5482139291094,
+        "omega_distance_m": 2409.5482139291094
+      }
+    ],
+    "registered_door_distances": [
+      {
+        "id": "node/6897141353",
+        "distance_m": 981.8870686948842
+      },
+      {
+        "id": "node/6897145227",
+        "distance_m": 1007.3616594791122
+      }
+    ],
+    "route_effect": "NOT_EVALUATED_NO_SOLVER_CALLS; no Omega effect on any of 29 museum faces"
+  },
+  "corrected_result": "All 29 P/Omega geometries independently match; all full common blocked geometry difference0m² under the inherited explicit conservative fallback",
+  "numeric_policy": "Existing 1e-5m² ordered-overlay reporting precision, not a map or obstacle tolerance",
+  "author_geometry_files_changed": false,
+  "APP_solver_calls": 0,
+  "external_requests": 0
+}

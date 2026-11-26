@@ -1,0 +1,35 @@
+{
+  "schema": "INDEPENDENT_FINAL_GALLERY_VISUAL_V1",
+  "status": "PASS",
+  "observed_utc": "2026-11-11T19:39:48.255589+00:00",
+  "final_http_body_sha256": "97652bf8fc750b21511e222a4c9f0176c1363e50e9fd58600bfb2bffac763da1",
+  "actual_view_image_inspected": [
+    {
+      "path": "audits/independent_gallery_header.png",
+      "sha256": "cbcd49dc19475217f4cf6bafec3ff7f6c9fde7b5ce98a07afe9162d62f55a974"
+    },
+    {
+      "path": "audits/independent_gallery_matrix.png",
+      "sha256": "bc8183ce29e20d021967764cc98d060010b94e5cf67c98bf17ac70d23fd3d54e"
+    },
+    {
+      "path": "audits/independent_gallery_case_2.png",
+      "sha256": "5e779ad62c8f48ece984582193967eac64cb8b4b0aead53a0afd75dd6251e147"
+    }
+  ],
+  "findings": [
+    "Header shows 121 actual formal attempts, 92 solver invocations, 8/8 figures, and pending user observation.",
+    "Complete denominator matrix keeps task, rejection, sensitivity and mechanism queries separate; download links are visible.",
+    "M04 case renders two complete panels with original non-entrance endpoint, B1 disconnected/B2 routed 158.20m; tables, labels and legend are legible without clipping."
+  ],
+  "related_machine_receipts": [
+    "audits/independent_gallery_http_identity.json",
+    "audits/independent_gallery_review.json"
+  ],
+  "solver_calls": 0,
+  "post_requests": 0,
+  "scope_limitations": [
+    "Three final gallery screenshots visually inspected; all eight original figure PNGs separately visually inspected in independent_final_visual_review.json.",
+    "This is page rendering and evidence binding verification, not user field observation or final clean replay."
+  ]
+}

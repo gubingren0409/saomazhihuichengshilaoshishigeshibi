@@ -1,0 +1,678 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Independent cache-on versus full pair recomputation on three small changed domains, inverse ownership/hash guards, and real north strict-added negative certificate samples",
+  "candidate_source_sha256": "ebbb4e3988aad47d8950f5a4603906f836b1fe7d3f5a66ffdc2988f42101ef5b",
+  "parent_main_source_sha256": "7b4b5eff6aae0343932eedb4c5f02634f8c1914c1efa9329de128f0196abc1c6",
+  "review_script_sha256": "d9501e459b5f0fd09799d1114a6e8652fc569db46e1ad5262fdfee5ea152dbec",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "checks": [
+    {
+      "case": "ADDED_REFLEX_NOTCH",
+      "passed": true,
+      "geometric_directed_option_set_size": 116,
+      "fast_only_options": 0,
+      "slow_only_options": 0,
+      "reuse_certificates": [
+        {
+          "source_id": "source/reference",
+          "component": 0,
+          "domain_key": "independent/ADDED_REFLEX_NOTCH",
+          "original_geometry_sha256": "d99fe7bec9a2529f58ecbc3f41b30b8d031bdad49c09e9b45bf046a2ec9dc5cb",
+          "new_geometry_sha256": "0e521edc6230acf6581a1ff64aad36ed52d3fa7dd19f4b4fe48f4a4d82ab53a4",
+          "added_geometry_sha256": "e60dcba9c652b544bf3cedaec7717c107cced114bab8dddb58e6d5a0bae36572",
+          "lost_geometry_sha256": "603b751ca4e1527ab450acf21d9f159fc64e2f42112f954bdbc3ffc5b28e97e2",
+          "full_constraint_sha256": "INDEPENDENT_SYNTHETIC_EMPTY_CONSTRAINTS",
+          "parent_full_common_sha256": "INDEPENDENT_SYNTHETIC_EMPTY_CONSTRAINTS",
+          "visibility_code_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+          "strict_global_subset": true,
+          "added_geometry": {
+            "type": "Polygon",
+            "coordinates": []
+          },
+          "lost_geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  4.8,
+                  10.0
+                ],
+                [
+                  4.8,
+                  9.5
+                ],
+                [
+                  4.2,
+                  9.5
+                ],
+                [
+                  4.2,
+                  10.0
+                ],
+                [
+                  4.8,
+                  10.0
+                ]
+              ]
+            ]
+          },
+          "reused_corner_count": 8,
+          "unchanged_neighbour_corner_count": 8,
+          "changed_neighbour_corner_count": 0,
+          "rejected_alias_due_to_incident_arc_count": 0,
+          "incident_options_checked": 44,
+          "reused_positive_pairs": 10,
+          "reused_negative_pairs": 18,
+          "negative_pair_samples": [
+            [
+              [
+                2.0,
+                5.0
+              ],
+              [
+                4.0,
+                6.0
+              ]
+            ],
+            [
+              [
+                2.0,
+                5.0
+              ],
+              [
+                6.0,
+                3.0
+              ]
+            ],
+            [
+              [
+                2.0,
+                5.0
+              ],
+              [
+                6.0,
+                6.0
+              ]
+            ],
+            [
+              [
+                2.0,
+                5.0
+              ],
+              [
+                7.0,
+                5.0
+              ]
+            ],
+            [
+              [
+                2.0,
+                5.0
+              ],
+              [
+                8.0,
+                5.0
+              ]
+            ],
+            [
+              [
+                3.0,
+                5.0
+              ],
+              [
+                4.0,
+                3.0
+              ]
+            ],
+            [
+              [
+                3.0,
+                5.0
+              ],
+              [
+                6.0,
+                3.0
+              ]
+            ],
+            [
+              [
+                3.0,
+                5.0
+              ],
+              [
+                6.0,
+                6.0
+              ]
+            ],
+            [
+              [
+                3.0,
+                5.0
+              ],
+              [
+                7.0,
+                5.0
+              ]
+            ],
+            [
+              [
+                3.0,
+                5.0
+              ],
+              [
+                8.0,
+                5.0
+              ]
+            ],
+            [
+              [
+                4.0,
+                3.0
+              ],
+              [
+                6.0,
+                6.0
+              ]
+            ],
+            [
+              [
+                4.0,
+                3.0
+              ],
+              [
+                7.0,
+                5.0
+              ]
+            ],
+            [
+              [
+                4.0,
+                3.0
+              ],
+              [
+                8.0,
+                5.0
+              ]
+            ],
+            [
+              [
+                4.0,
+                6.0
+              ],
+              [
+                6.0,
+                3.0
+              ]
+            ],
+            [
+              [
+                4.0,
+                6.0
+              ],
+              [
+                7.0,
+                5.0
+              ]
+            ],
+            [
+              [
+                4.0,
+                6.0
+              ],
+              [
+                8.0,
+                5.0
+              ]
+            ]
+          ],
+          "policy": "EXACT_COMPONENT_OWNER_AND_XY; FULL_NEW_DOMAIN_AND_CONSTRAINT_INCIDENT_RECHECK; NO_TOLERANCE_EQUALITY",
+          "negative_pairs_sha256": "03bcdab7ec2a1ba2fa878a2466d9d510891ce33a35c6062a7983bd9cdb6f7c56"
+        }
+      ]
+    },
+    {
+      "case": "LOST_OLD_VISIBLE_INTERVAL",
+      "passed": true,
+      "geometric_directed_option_set_size": 118,
+      "fast_only_options": 0,
+      "slow_only_options": 0,
+      "reuse_certificates": [
+        {
+          "source_id": "source/reference",
+          "component": 0,
+          "domain_key": "independent/LOST_OLD_VISIBLE_INTERVAL",
+          "original_geometry_sha256": "d99fe7bec9a2529f58ecbc3f41b30b8d031bdad49c09e9b45bf046a2ec9dc5cb",
+          "new_geometry_sha256": "891501ca4ed10c9aa92167c845949684b42e49a7f17ae35e51365f82cc4efef7",
+          "added_geometry_sha256": "e60dcba9c652b544bf3cedaec7717c107cced114bab8dddb58e6d5a0bae36572",
+          "lost_geometry_sha256": "23a0e5adbe16b13f31bad7f04a49400c271b1cb4701e8e828dab98f4b46ef131",
+          "full_constraint_sha256": "INDEPENDENT_SYNTHETIC_EMPTY_CONSTRAINTS",
+          "parent_full_common_sha256": "INDEPENDENT_SYNTHETIC_EMPTY_CONSTRAINTS",
+          "visibility_code_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+          "strict_global_subset": true,
+          "added_geometry": {
+            "type": "Polygon",
+            "coordinates": []
+          },
+          "lost_geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    5.5,
+                    3.0
+                  ],
+                  [
+                    5.5,
+                    2.8
+                  ],
+                  [
+                    4.5,
+                    2.8
+                  ],
+                  [
+                    4.5,
+                    3.0
+                  ],
+                  [
+                    5.5,
+                    3.0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    4.5,
+                    6.0
+                  ],
+                  [
+                    4.5,
+                    6.1
+                  ],
+                  [
+                    5.5,
+                    6.1
+                  ],
+                  [
+                    5.5,
+                    6.0
+                  ],
+                  [
+                    4.5,
+                    6.0
+                  ]
+                ]
+              ]
+            ]
+          },
+          "reused_corner_count": 4,
+          "unchanged_neighbour_corner_count": 4,
+          "changed_neighbour_corner_count": 0,
+          "rejected_alias_due_to_incident_arc_count": 4,
+          "incident_options_checked": 44,
+          "reused_positive_pairs": 2,
+          "reused_negative_pairs": 4,
+          "negative_pair_samples": [
+            [
+              [
+                2.0,
+                5.0
+              ],
+              [
+                7.0,
+                5.0
+              ]
+            ],
+            [
+              [
+                2.0,
+                5.0
+              ],
+              [
+                8.0,
+                5.0
+              ]
+            ],
+            [
+              [
+                3.0,
+                5.0
+              ],
+              [
+                7.0,
+                5.0
+              ]
+            ],
+            [
+              [
+                3.0,
+                5.0
+              ],
+              [
+                8.0,
+                5.0
+              ]
+            ]
+          ],
+          "policy": "EXACT_COMPONENT_OWNER_AND_XY; FULL_NEW_DOMAIN_AND_CONSTRAINT_INCIDENT_RECHECK; NO_TOLERANCE_EQUALITY",
+          "negative_pairs_sha256": "06c332d5ac95239b4ec62eb15d2ac2c6809fb719939ede1ba463a9e06bc697fd"
+        }
+      ]
+    },
+    {
+      "case": "STRICT_ADDED_MICRO_STRIP",
+      "passed": true,
+      "geometric_directed_option_set_size": 130,
+      "fast_only_options": 0,
+      "slow_only_options": 0,
+      "reuse_certificates": [
+        {
+          "source_id": "source/reference",
+          "component": 0,
+          "domain_key": "independent/STRICT_ADDED_MICRO_STRIP",
+          "original_geometry_sha256": "d99fe7bec9a2529f58ecbc3f41b30b8d031bdad49c09e9b45bf046a2ec9dc5cb",
+          "new_geometry_sha256": "545899191009d50a502518013f667927248bf5fbaccc44679221f0e3a5e116ae",
+          "added_geometry_sha256": "dbad438a603301dc7087b02e673519de6ad8d0d23d7e708d8ba95a742fcff1aa",
+          "lost_geometry_sha256": "e60dcba9c652b544bf3cedaec7717c107cced114bab8dddb58e6d5a0bae36572",
+          "full_constraint_sha256": "INDEPENDENT_SYNTHETIC_EMPTY_CONSTRAINTS",
+          "parent_full_common_sha256": "INDEPENDENT_SYNTHETIC_EMPTY_CONSTRAINTS",
+          "visibility_code_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+          "strict_global_subset": false,
+          "added_geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  4.0,
+                  4.999999999
+                ],
+                [
+                  4.0,
+                  5.000000001
+                ],
+                [
+                  6.0,
+                  5.000000001
+                ],
+                [
+                  6.0,
+                  4.999999999
+                ],
+                [
+                  4.0,
+                  4.999999999
+                ]
+              ]
+            ]
+          },
+          "lost_geometry": {
+            "type": "Polygon",
+            "coordinates": []
+          },
+          "reused_corner_count": 8,
+          "unchanged_neighbour_corner_count": 4,
+          "changed_neighbour_corner_count": 4,
+          "rejected_alias_due_to_incident_arc_count": 0,
+          "incident_options_checked": 44,
+          "reused_positive_pairs": 2,
+          "reused_negative_pairs": 0,
+          "negative_pair_samples": [],
+          "policy": "EXACT_COMPONENT_OWNER_AND_XY; FULL_NEW_DOMAIN_AND_CONSTRAINT_INCIDENT_RECHECK; NO_TOLERANCE_EQUALITY",
+          "negative_pairs_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "case": "SPLIT_OLD_COMPONENT_WITH_ISOLATED_CORNERS_NO_ALIAS",
+      "passed": true
+    },
+    {
+      "case": "CONSTRAINT_AND_VISIBILITY_HASH_MISMATCH_FAILS_CLOSED",
+      "passed": true
+    }
+  ],
+  "north_author_receipt_sha256": "c90b029708db8ca6ea0e87ab3fdfd140500ffa58d1731d7b0739f525526c26d2",
+  "north_independent_certificate_samples": [
+    {
+      "source_id": "relation/2153738",
+      "component": 0,
+      "strict_global_subset": true,
+      "reused_corners": 1774,
+      "unchanged_neighbors": 1770,
+      "reused_positive_pairs": 1941,
+      "reused_negative_pairs": 1563624,
+      "negative_sample_remeasurements": [
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.0649985563,
+              3456150.749932173
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.087035886,
+              3456150.7591450065
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.10985184385,
+              3456150.766212699
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.13323815836,
+              3456150.7710707337
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.1569813516,
+              3456150.7736747656
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.18086468807,
+              3456150.7740010233
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.204670153,
+              3456150.7720465297
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.22818044235,
+              3456150.7678291253
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.25118094665,
+              3456150.7613873077
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.2734617098,
+              3456150.752779881
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.2948193459,
+              3456150.7420854154
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.3150588954,
+              3456150.7294015344
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.3339956052,
+              3456150.71484402
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.3514566149,
+              3456150.6985457577
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354102.3672825349,
+              3456150.680655524
+            ]
+          ],
+          "strict_added_disjoint": true
+        },
+        {
+          "line": [
+            [
+              354102.0240554925,
+              3456150.725426287
+            ],
+            [
+              354108.6311293804,
+              3456156.117799983
+            ]
+          ],
+          "strict_added_disjoint": true
+        }
+      ]
+    }
+  ],
+  "north_independent_domain_neighbor_parent_graph_reconstruction": [
+    {
+      "source_id": "relation/2153738",
+      "old_reflex_count": 1774,
+      "new_reflex_count": 1778,
+      "unchanged_neighbor_count": 1770,
+      "strict_global_subset_independently_recomputed": true,
+      "all_four_geometry_WKB_hashes_match": true,
+      "all_old_corner_coordinates_match_parent_graph": true,
+      "negative_samples_absent_in_parent_both_directions": true,
+      "all_parent_corner_incident_options_strictly_covered_by_current_domain": 4440
+    }
+  ],
+  "status": "PASS_FOR_REPORTED_ISOLATED_PERFORMANCE_CACHE_SCOPE",
+  "limits": [
+    "Real north full slow N-squared graph was not rebuilt independently",
+    "All 1,563,624 real negative certificates were not re-enumerated; strict-set implication and samples plus small exhaustive graphs checked",
+    "Real new integrated preparation and routes remain to be rebuilt under the new frozen backend",
+    "Source geometry, thresholds, penalties and original point coordinates are not relaxed"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "core_requests": 32,
+  "business_tasks": 4,
+  "method_specific_query_rows": 8,
+  "each_has_all_four_modes": true,
+  "all_eight_costs_unchanged_across_modes": true,
+  "whole_coordinate_lists_equal_for_all": true,
+  "source_only_per_mode": 4,
+  "conditional_per_mode": 4,
+  "note": "No new solver; equality checks actual saved outputs. Exact-interface source-category changes do not by themselves mean geometric improvement."
+}

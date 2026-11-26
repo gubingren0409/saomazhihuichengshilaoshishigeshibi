@@ -1,0 +1,1502 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Independent raw P and frozen rejection reasons of all source-rejected relation records; no route or graph claim",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "rejected_explicit_source_face_count": 19,
+  "rejected_explicit_source_faces": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/182520941",
+      "status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "layer": "1",
+        "lit": "yes"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/407411280",
+      "status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "layer": "-1",
+        "level": "-1"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/553893880",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "surface": "paving_stones"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-wukang",
+      "source_id": "way/1264845154",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-wukang",
+      "source_id": "way/1429738270",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-tower",
+      "source_id": "way/166125929",
+      "status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "layer": "-1"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-tower",
+      "source_id": "way/177929642",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-tower",
+      "source_id": "way/900252576",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "lit": "yes",
+        "surface": "paving_stones"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-tower",
+      "source_id": "way/965049037",
+      "status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "layer": "-1"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-tower",
+      "source_id": "way/967274380",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-tower",
+      "source_id": "way/967274381",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_id": "way/182520941",
+      "status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "layer": "1",
+        "lit": "yes"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_id": "way/407411280",
+      "status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "layer": "-1",
+        "level": "-1"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_id": "way/428199191",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "lit": "yes",
+        "name": "黄金广场",
+        "name:en": "Golden Square",
+        "name:zh": "黄金广场",
+        "place": "square",
+        "surface": "paving_stones"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_id": "way/553893883",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "lit": "yes",
+        "surface": "paving_stones"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_id": "way/554033955",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "lit": "yes",
+        "surface": "paving_stones"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "source_id": "way/405396505",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "source_id": "way/407411280",
+      "status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "layer": "-1",
+        "level": "-1"
+      },
+      "geometry_reason": null
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "source_id": "way/1211604642",
+      "status": "INCOMPLETE_SOURCE_COVERAGE",
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      "geometry_reason": null
+    }
+  ],
+  "rejected_relation_count": 115,
+  "rows": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520941",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520943",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520945",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520946",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520947",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520949",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520950",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520954",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 9.956710247551708,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520956",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 8.149644491522967,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764726",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764729",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 5.064751380824398,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764733",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 5.981193922445099,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764735",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764736",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764737",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 3.164260762990209,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764738",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 3.7106079308420368,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764754",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 4.067716116499742,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/564255294",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 2.521970437204499,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/564255299",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411280",
+      "b_source_id": "way/407411280",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411280",
+      "b_source_id": "way/761643565",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 1.2702715477508968,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411280",
+      "b_source_id": "way/761643570",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199195",
+      "b_source_id": "way/553893880",
+      "independent_a_status": "ADMITTED",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": [
+        "NOT_A_REJECTED_FACE_RELATION"
+      ]
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_FACE",
+      "a_source_id": "way/428199195",
+      "b_source_id": "way/553893880",
+      "independent_a_status": "ADMITTED",
+      "independent_b_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893880",
+      "b_source_id": "way/116884306",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893880",
+      "b_source_id": "way/428199195",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893880",
+      "b_source_id": "way/428199197",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893880",
+      "b_source_id": "way/553893878",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893880",
+      "b_source_id": "way/553893880",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893880",
+      "b_source_id": "way/760475734",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "1121c1c9ec9fd8fb8cb2bb6dd1f8f57c4c4fd1914aa0ac3787e9a240e49a2a7f",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-wukang",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/1264845154",
+      "b_source_id": "way/1264845154",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "5b8a04c3ccc35c6a1c28ae7f0f12949c973f961449bd2b9a6e717f3dec890bc1",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-wukang",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/1264845154",
+      "b_source_id": "way/482569921",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 5.710830175707571,
+      "author_file_sha256": "5b8a04c3ccc35c6a1c28ae7f0f12949c973f961449bd2b9a6e717f3dec890bc1",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-wukang",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/1429738270",
+      "b_source_id": "way/1429738269",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "5b8a04c3ccc35c6a1c28ae7f0f12949c973f961449bd2b9a6e717f3dec890bc1",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-wukang",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/1429738270",
+      "b_source_id": "way/1429738270",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "5b8a04c3ccc35c6a1c28ae7f0f12949c973f961449bd2b9a6e717f3dec890bc1",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-wukang",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/1429738270",
+      "b_source_id": "way/70662735",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 3.473408823038162,
+      "author_file_sha256": "5b8a04c3ccc35c6a1c28ae7f0f12949c973f961449bd2b9a6e717f3dec890bc1",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/166125929",
+      "b_source_id": "way/166125929",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/166125929",
+      "b_source_id": "way/166125930",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/177929642",
+      "b_source_id": "way/177929642",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/177929642",
+      "b_source_id": "way/475071623",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 8.10961270837941,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/177929642",
+      "b_source_id": "way/966464271",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/900252576",
+      "b_source_id": "way/1196704495",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/900252576",
+      "b_source_id": "way/177993351",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/900252576",
+      "b_source_id": "way/178412507",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.6574932850236306,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/900252576",
+      "b_source_id": "way/238346293",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/900252576",
+      "b_source_id": "way/900252576",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/965049037",
+      "b_source_id": "way/965049037",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/965049037",
+      "b_source_id": "way/986752134",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/965049038",
+      "b_source_id": "way/965049037",
+      "independent_a_status": "ADMITTED",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": [
+        "NOT_A_REJECTED_FACE_RELATION"
+      ]
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_FACE",
+      "a_source_id": "way/965049038",
+      "b_source_id": "way/965049037",
+      "independent_a_status": "ADMITTED",
+      "independent_b_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274380",
+      "b_source_id": "way/457547879",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 6.967420246211694,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274380",
+      "b_source_id": "way/967274374",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 5.555944770211678,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274380",
+      "b_source_id": "way/967274375",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274380",
+      "b_source_id": "way/967274380",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274380",
+      "b_source_id": "way/967274381",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_FACE",
+      "a_source_id": "way/967274380",
+      "b_source_id": "way/967274381",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274380",
+      "b_source_id": "way/967274384",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274381",
+      "b_source_id": "way/967274374",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 2.4646007954103784,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274381",
+      "b_source_id": "way/967274375",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 7.045600849074118,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274381",
+      "b_source_id": "way/967274380",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274381",
+      "b_source_id": "way/967274381",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-tower",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/967274381",
+      "b_source_id": "way/967274384",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "36511dd2cecee518d4a3a1514301fb91f8b36d129832a33072794d0024d64038",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520941",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520943",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520945",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520946",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520947",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520949",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520950",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520954",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 9.956710247551708,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/182520956",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 8.149644491522967,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764726",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764729",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 5.064751380824398,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764733",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 5.981193922445099,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764735",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764736",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764737",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 3.164260762990209,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764738",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 3.7106079308420368,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/513764754",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 4.067716116499742,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/564255294",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 2.521970437204499,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/182520941",
+      "b_source_id": "way/564255299",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411280",
+      "b_source_id": "way/407411280",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411280",
+      "b_source_id": "way/761643565",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 1.2702715477508968,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411280",
+      "b_source_id": "way/761643570",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/116884314",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 6.993544918908733,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/116884331",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 6.993544918908733,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/428199191",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/428199194",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 1.9413224783699181,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/553893883",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_FACE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/553893883",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/554033955",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_FACE",
+      "a_source_id": "way/428199191",
+      "b_source_id": "way/554033955",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893883",
+      "b_source_id": "way/116884314",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893883",
+      "b_source_id": "way/116884331",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893883",
+      "b_source_id": "way/238219435",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 9.228027434123145,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893883",
+      "b_source_id": "way/33683251",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 8.792875099965425,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893883",
+      "b_source_id": "way/428199191",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/553893883",
+      "b_source_id": "way/553893883",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/116884264",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/116884308",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 6.960591522471914,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/33683251",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 6.832084473223939,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/428199191",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/428199194",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/553893885",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-newworld",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/554033955",
+      "b_source_id": "way/554033955",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "00e6048fb2dc28911912f47fb51fd5d1f1f8ca9c6c42f4305dd9a17b36f35ea6",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/1211604642",
+      "b_source_id": "way/1211604642",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/1211604642",
+      "b_source_id": "way/1211604643",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/1211604642",
+      "b_source_id": "way/47267008",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 2.1025629210774457,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/405396505",
+      "b_source_id": "way/15420801",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 2.717707097732141,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/405396505",
+      "b_source_id": "way/405396505",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/405396505",
+      "b_source_id": "way/405396511",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/405396505",
+      "b_source_id": "way/734421229",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 5.835238444240519,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/405396505",
+      "b_source_id": "way/734421230",
+      "independent_a_status": "INCOMPLETE_SOURCE_COVERAGE",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411280",
+      "b_source_id": "way/407411280",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411280",
+      "b_source_id": "way/761643565",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 1.2702715477508968,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "kind": "FACE_LINE",
+      "a_source_id": "way/407411280",
+      "b_source_id": "way/761643570",
+      "independent_a_status": "NON_GROUND_OR_UNRESOLVED_LAYER",
+      "independent_b_status": null,
+      "P_distance_m": 0.0,
+      "author_file_sha256": "461486bf37dc41bf60a5de734d4d3ab272969c5898ed12c700d1401502f47275",
+      "errors": []
+    }
+  ],
+  "status": "DIFFERENCE_REQUIRES_INSPECTION",
+  "limits": [
+    "Rejected P contact is not a permitted interface",
+    "Empty rejected Omega does not establish a measured source gap",
+    "Not an independent whole-network graph proof"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Independent auditor acceleration regression on exactly the same actual two r2 overlays; no production code changed",
+  "old_report_sha256": "3e0701407be8d88faa72023b9fe75c68e691be5966c50ff152aca4fe4abbfdc1",
+  "new_report_sha256": "c49dadb3f65c512eac59810275d5b9eb4c976e3f12dc1db398d5f8ee7b60a730",
+  "full_row_objects_equal": true,
+  "old_validator_source_snapshot": "audits/independent_overlay_validator_r2_batch1.py",
+  "new_validator_source": "scripts/independent_connectivity_overlays.py",
+  "APP_solver_calls": 0,
+  "status": "PASS_FOR_UNCHANGED_FULL_AUDIT_ROWS"
+}

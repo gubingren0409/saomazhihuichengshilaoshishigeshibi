@@ -1,0 +1,48 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Saved-response independent geometry/length/cost/native parent provenance and paired graph identities; no independent whole-network shortest-path solve",
+  "review_script_sha256": "c105cc9b2df1e4d35da525b8defc9c86b1d7d539fedfae5889290f1179cc34a6",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "numeric_policy_registered": true,
+  "frozen_visibility_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+  "native_numeric_limit_m": 1e-08,
+  "rows": [
+    {
+      "file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\runs\\mechanisms\\RUN-20261112T005441-caff6e2d37.json",
+      "sha256": "4c3ef3c4488dcdeb8104def4ca08de01ae5bda984fb04fced287c0a1355e9ff9",
+      "run_id": "RUN-20261112T005441-caff6e2d37",
+      "status": "MECHANISM_ENDPOINT_UNBOUND",
+      "errors": [],
+      "formal_attempt_id": "FORMAL-069",
+      "formal_role": "SOURCE_INTERFACE_MECHANISM",
+      "scope": "REQUEST_STATUS_ONLY_NO_ROUTE_GEOMETRY_OR_IMPOSSIBILITY_PROOF"
+    },
+    {
+      "file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\runs\\mechanisms\\RUN-20261112T005705-b4a0a9c44c.json",
+      "sha256": "8bbe6b7a127ec39983ee9b9d7642b7c7a29919a901ca681176573ad3963d5fea",
+      "run_id": "RUN-20261112T005705-b4a0a9c44c",
+      "status": "MECHANISM_ENDPOINT_UNBOUND",
+      "errors": [],
+      "formal_attempt_id": "FORMAL-070",
+      "formal_role": "SOURCE_INTERFACE_MECHANISM",
+      "scope": "REQUEST_STATUS_ONLY_NO_ROUTE_GEOMETRY_OR_IMPOSSIBILITY_PROOF"
+    }
+  ],
+  "F0_F1_pairs": [],
+  "status": "PASS_FOR_REPORTED_RESPONSE_SCOPE",
+  "limitations": [
+    "No-route and refusal status is not independently proved impossible",
+    "Conditional links checked for source geometry roles/cap/no-fill; full-source barrier regression is separate",
+    "No field or user observation acceptance",
+    "Original strict binary native-set alarms retained and may be resolved only by registered ordered-parent proof"
+  ],
+  "formal_registry_snapshot": {
+    "file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\results\\formal_registry.jsonl",
+    "completed_snapshot_sha256": "a2773e64e23416970b6ee44e42d7ad9d68a6565db3efc5f3ac727106360d867e",
+    "completed_entries_at_read": 30,
+    "selected_from_index": 28,
+    "selected_entry_count": 2
+  },
+  "formal_input_envelope": "Frozen request plus run_purpose=FORMAL_PRELOCKED_MATRIX, explicitly added by run_formal.py:31. No other input difference allowed. Initial reviewer envelope-only alarm retained separately."
+}

@@ -1,0 +1,22 @@
+{
+  "role": "ONE_EXISTING_LOG_TASK_BEFORE_NEW_FULL_FACE_RESULT",
+  "source_run": "RUN-20261111T195632-6ee41dfb85",
+  "source_response_sha256": "996ed61b7163c0430d671510ce869e8420d1ad3b47b94ac519a2044fb2feba17",
+  "screenshot_binding": "REQUEST_NOT_IDENTIFIED_FROM_IMAGE",
+  "selection": "Historical actual NE-start long detour request, no pixel coordinate guesses or new-route outcome selection",
+  "request": {
+    "scene_id": "sh-huangpu-01",
+    "door_id": "node/6897141353",
+    "start_id": "node/1890885411",
+    "purpose": "APPROACH_OUTSIDE",
+    "method": "F1"
+  },
+  "planned_modes": [
+    "EDGE_BAND",
+    "FULL_FACE"
+  ],
+  "planned_methods": [
+    "F0",
+    "F1"
+  ]
+}

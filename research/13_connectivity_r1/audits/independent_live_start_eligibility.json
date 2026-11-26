@@ -1,0 +1,267 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Only fixed predeclared original start eligibility; no route outcomes, new point selection or graph solve",
+  "APP_solver_calls": 0,
+  "request_plan_sha256": "52a669476e23600e712f596ade9084d615e371737ab394ff8daa81dac8f1de97",
+  "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "rows": [
+    {
+      "native_id": "node/10073042336",
+      "raw_xy": [
+        354290.77721060865,
+        3456012.174117223
+      ],
+      "raw_node_tags": {
+        "bus": "yes",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "public_transport": "stop_position"
+      },
+      "inside_full_acquired_coverage": true,
+      "has_ground_tag_eligible_whole_native_segment_without_hard_interior_contact": true,
+      "incident_segments": [
+        {
+          "source_id": "way/1100626088",
+          "raw_segment_index": 0,
+          "raw_nodes": [
+            10073042336,
+            471697853
+          ],
+          "raw_xy": [
+            [
+              354290.77721060865,
+              3456012.174117223
+            ],
+            [
+              354276.0668113654,
+              3456011.4465255756
+            ]
+          ],
+          "tags": {
+            "highway": "residential",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "name:zh": "武胜路",
+            "name:zh-Hans": "武胜路",
+            "name:zh-Hant": "武勝路",
+            "surface": "asphalt"
+          },
+          "linear_tag_reason": null,
+          "non_ground": false,
+          "hard_contacts": []
+        },
+        {
+          "source_id": "way/1338361263",
+          "raw_segment_index": 2,
+          "raw_nodes": [
+            1890750304,
+            10073042336
+          ],
+          "raw_xy": [
+            [
+              354309.97812572983,
+              3456015.2010598313
+            ],
+            [
+              354290.77721060865,
+              3456012.174117223
+            ]
+          ],
+          "tags": {
+            "highway": "residential",
+            "name": "武胜路",
+            "name:en": "Wusheng Road",
+            "name:zh": "武胜路",
+            "name:zh-Hans": "武胜路",
+            "name:zh-Hant": "武勝路",
+            "surface": "asphalt"
+          },
+          "linear_tag_reason": null,
+          "non_ground": false,
+          "hard_contacts": []
+        }
+      ]
+    },
+    {
+      "native_id": "node/1890877354",
+      "raw_xy": [
+        354399.8135771734,
+        3456282.659005005
+      ],
+      "raw_node_tags": {},
+      "inside_full_acquired_coverage": true,
+      "has_ground_tag_eligible_whole_native_segment_without_hard_interior_contact": true,
+      "incident_segments": [
+        {
+          "source_id": "way/178719573",
+          "raw_segment_index": 29,
+          "raw_nodes": [
+            1890732757,
+            1890877354
+          ],
+          "raw_xy": [
+            [
+              354363.4917489005,
+              3456256.109719707
+            ],
+            [
+              354399.8135771734,
+              3456282.659005005
+            ]
+          ],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "linear_tag_reason": null,
+          "non_ground": false,
+          "hard_contacts": []
+        },
+        {
+          "source_id": "way/178719573",
+          "raw_segment_index": 30,
+          "raw_nodes": [
+            1890877354,
+            1890732831
+          ],
+          "raw_xy": [
+            [
+              354399.8135771734,
+              3456282.659005005
+            ],
+            [
+              354407.78251477354,
+              3456288.4912965037
+            ]
+          ],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "linear_tag_reason": null,
+          "non_ground": false,
+          "hard_contacts": []
+        },
+        {
+          "source_id": "way/178732948",
+          "raw_segment_index": 1,
+          "raw_nodes": [
+            1890877301,
+            1890877354
+          ],
+          "raw_xy": [
+            [
+              354390.4019792753,
+              3456295.11784825
+            ],
+            [
+              354399.8135771734,
+              3456282.659005005
+            ]
+          ],
+          "tags": {
+            "highway": "footway"
+          },
+          "linear_tag_reason": null,
+          "non_ground": false,
+          "hard_contacts": []
+        }
+      ]
+    },
+    {
+      "native_id": "node/1890877364",
+      "raw_xy": [
+        354351.0132907955,
+        3456266.5599771095
+      ],
+      "raw_node_tags": {},
+      "inside_full_acquired_coverage": true,
+      "has_ground_tag_eligible_whole_native_segment_without_hard_interior_contact": true,
+      "incident_segments": [
+        {
+          "source_id": "way/178719573",
+          "raw_segment_index": 24,
+          "raw_nodes": [
+            1890877309,
+            1890877364
+          ],
+          "raw_xy": [
+            [
+              354317.4505609273,
+              3456312.0040792776
+            ],
+            [
+              354351.0132907955,
+              3456266.5599771095
+            ]
+          ],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "linear_tag_reason": null,
+          "non_ground": false,
+          "hard_contacts": []
+        },
+        {
+          "source_id": "way/178719573",
+          "raw_segment_index": 25,
+          "raw_nodes": [
+            1890877364,
+            1890732792
+          ],
+          "raw_xy": [
+            [
+              354351.0132907955,
+              3456266.5599771095
+            ],
+            [
+              354358.53180358536,
+              3456256.366849934
+            ]
+          ],
+          "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+          },
+          "linear_tag_reason": null,
+          "non_ground": false,
+          "hard_contacts": []
+        },
+        {
+          "source_id": "way/178732947",
+          "raw_segment_index": 6,
+          "raw_nodes": [
+            1890877301,
+            1890877364
+          ],
+          "raw_xy": [
+            [
+              354390.4019792753,
+              3456295.11784825
+            ],
+            [
+              354351.0132907955,
+              3456266.5599771095
+            ]
+          ],
+          "tags": {
+            "highway": "footway"
+          },
+          "linear_tag_reason": null,
+          "non_ground": false,
+          "hard_contacts": []
+        }
+      ]
+    }
+  ],
+  "status": "PASS_FOR_DECLARED_RAW_START_ELIGIBILITY",
+  "limits": [
+    "This is not a claim of whole-network reachability or a replacement for actual fresh solver calls"
+  ]
+}

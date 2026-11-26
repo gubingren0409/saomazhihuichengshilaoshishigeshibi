@@ -1,0 +1,29 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Actually viewed two new business PNGs as images; not a PDF review or independent field survey",
+  "APP_solver_calls": 0,
+  "images": [
+    {
+      "path": "figures/visuals/business_south_no_route_change.png",
+      "sha256": "4ab5fa5465a6baf51aa33176d54fcf542000c487af0ec07a85333ac8a5981e34",
+      "actually_viewed": true
+    },
+    {
+      "path": "figures/visuals/business_north_same_route.png",
+      "sha256": "95467881ea3f98b7f9bf7607cc953178ea6cc74c24039fd360d94faf893b69b8",
+      "actually_viewed": true
+    }
+  ],
+  "source_measurement_receipt": "audits/independent_main_comparisons.json",
+  "source_measurement_sha256": "850b2548e9ffdbf0fd5777bfbc35c6c9313fc0ca69404cae99f32e34c1f648c6",
+  "observations": [
+    "South: matched source view, original start and registered door, both148.86m, existing shared-node line and zero new interface/seam use stated",
+    "North: both299.53m and same route coordinates,0.099m interface classification distinguished from geometric gain;12.53m original door-front hypothesis is explicitly not a new seam",
+    "Endpoint IDs, run IDs, metric scales, EPSG32651, raw P/legal Omega/background/native lines and rejected seam legend are readable; no park/lawn admission or moved doorway suggested"
+  ],
+  "status": "PASS_FOR_TWO_MAIN_BUSINESS_PNG_VISUALS",
+  "limits": [
+    "Original five source/mechanism PNGs were viewed earlier; final replacements should be checked again when regenerated",
+    "No user observation or current physical passage accepted"
+  ]
+}

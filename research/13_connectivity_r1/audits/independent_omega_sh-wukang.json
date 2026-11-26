@@ -1,0 +1,99 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scene_id": "sh-wukang",
+  "independent_reference": "RAW_OSM_EXACT_NODE_RING_AND_NEGATIVE_MASK_RECONSTRUCTION_NO_SRC_IMPORTS",
+  "APP_solver_calls": 0,
+  "external_requests": 0,
+  "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+  "author_faces_sha256": "791ff54d4c1d7587b2f2985103c44244899116190d5eb13aa9f79be9eb660975",
+  "author_full_common_sha256": "cee1d7b5f42c56d83b485ebeadeaa7d9946c76589a08ba763f7917c5d08c49b8",
+  "author_faces_stable": true,
+  "raw_common_blocked_symmetric_difference_m2": 2.2290586732526935e-08,
+  "inherited_ordered_overlay_area_reporting_precision_m2": 1e-05,
+  "elapsed_s": 5.476849999991828,
+  "rows": [
+    {
+      "source_id": "way/1160136226",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 723.9140831564908,
+      "independent_omega_area_m2": 723.9140831564907,
+      "author_omega_area_m2": 723.9140831564907,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/331207147",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 7.145615732689729e-10,
+      "independent_P_area_m2": 8651.839109564826,
+      "independent_omega_area_m2": 8626.811846783918,
+      "author_omega_area_m2": 8626.811846783918,
+      "independent_mask_sources": [
+        {
+          "source_id": "way/646634539",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海",
+            "addr:district": "Xuhui",
+            "addr:housenumber": "989",
+            "addr:street": "Changle Road",
+            "building": "commercial",
+            "building:levels": "45",
+            "height": "196",
+            "name": "The Center",
+            "name:en": "The Center",
+            "website": "https://www.emporis.com/buildings/101748/the-center-shanghai-china"
+          }
+        }
+      ],
+      "independent_common_sources": [
+        {
+          "source_id": "way/646634539",
+          "kind": "BUILDING",
+          "tags": {
+            "addr:city": "上海",
+            "addr:district": "Xuhui",
+            "addr:housenumber": "989",
+            "addr:street": "Changle Road",
+            "building": "commercial",
+            "building:levels": "45",
+            "height": "196",
+            "name": "The Center",
+            "name:en": "The Center",
+            "website": "https://www.emporis.com/buildings/101748/the-center-shanghai-china"
+          }
+        }
+      ],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    },
+    {
+      "source_id": "way/674428069",
+      "author_status": "ADMITTED",
+      "independent_tag_eligible": true,
+      "source_P_symmetric_difference_m2": 0.0,
+      "omega_symmetric_difference_m2": 0.0,
+      "outside_source_P_m2": 0.0,
+      "independent_P_area_m2": 499.7594442533824,
+      "independent_omega_area_m2": 499.7594442533824,
+      "author_omega_area_m2": 499.7594442533824,
+      "independent_mask_sources": [],
+      "independent_common_sources": [],
+      "status": "MATCH_WITHIN_INHERITED_ORDERED_OVERLAY_PRECISION"
+    }
+  ],
+  "status": "GEOMETRY_MATCH_FOR_REPORTED_SCOPE",
+  "limits": [
+    "No route or interface graph correctness inferred from matching Omega",
+    "No field validation",
+    "P geometry remains unchanged; common and areal masks preserve distinct roles",
+    "Roads are zero-width component constraints and are not extra areal masks"
+  ]
+}

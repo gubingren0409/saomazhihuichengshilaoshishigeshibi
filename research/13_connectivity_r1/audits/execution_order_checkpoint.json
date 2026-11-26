@@ -1,0 +1,39 @@
+{
+  "at": "2026-11-12T02:18:46.823364+08:00",
+  "stopped_only_own_client": [
+    {
+      "pid": 275796,
+      "cmdline": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "scripts/run_formal.py",
+        "--url",
+        "http://127.0.0.1:53441"
+      ],
+      "cwd": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1"
+    }
+  ],
+  "active_server_not_stopped": 275588,
+  "pending": {
+    "attempt_id": "FORMAL-042",
+    "request": {
+      "request_id": "APP-11",
+      "scene_id": "sh-huangpu-01",
+      "door_id": "node/6897145227",
+      "start_id": "node/NOT_A_SOURCE_NODE",
+      "purpose": "APPROACH_OUTSIDE",
+      "method": "F0",
+      "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+      "connectivity_mode": "SOURCE_COMPLETE",
+      "area_routing": "FULL_FACE",
+      "run_purpose": "FORMAL_PRELOCKED_MATRIX"
+    },
+    "started_at": "2026-11-12T02:15:48.960435+08:00",
+    "code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721"
+  },
+  "main32_all_completed": true,
+  "original_runner_sha256": "88dc8d65b17eec10686d48c2ee5d9e436200bf936553269f248359a7a915d324",
+  "reason": "Use already-compiled north namespace for six prelocked independent UI calls, then group remaining identical requests to avoid repeated heavy rebuild. Source/model/parameters/query selection/counts unchanged; server active request finishes and will be adopted only by exact input/code/SHA."
+}

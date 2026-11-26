@@ -1,0 +1,122 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Read-only byte hashes of twelve source/mapped files and frozen old visibility module; not a fresh baseline ZIP validation",
+  "APP_solver_calls": 0,
+  "rows": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "field": "source_path",
+      "relative_path": "data/scenes/sh-huangpu-01/source.osm.json",
+      "declared_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "current_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "previous_project_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "field": "mapped_edges_path",
+      "relative_path": "data/scenes/sh-huangpu-01/mapped_edges.jsonl.gz",
+      "declared_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "current_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "previous_project_sha256": "cfd088bb507fa36ad9b38ae5ff396af90bfd7f9b1461f0240827940594b67f0f",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-wukang",
+      "field": "source_path",
+      "relative_path": "data/scenes/sh-wukang/source.osm.json",
+      "declared_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "current_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "previous_project_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-wukang",
+      "field": "mapped_edges_path",
+      "relative_path": "data/scenes/sh-wukang/mapped_edges.jsonl.gz",
+      "declared_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "current_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "previous_project_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-tower",
+      "field": "source_path",
+      "relative_path": "data/scenes/sh-tower/source.osm.json",
+      "declared_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "current_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "previous_project_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-tower",
+      "field": "mapped_edges_path",
+      "relative_path": "data/scenes/sh-tower/mapped_edges.jsonl.gz",
+      "declared_sha256": "d664bcc5d13518c1890c66980a585d81503712e82f95afb64177d4d2de94468c",
+      "current_sha256": "d664bcc5d13518c1890c66980a585d81503712e82f95afb64177d4d2de94468c",
+      "previous_project_sha256": "d664bcc5d13518c1890c66980a585d81503712e82f95afb64177d4d2de94468c",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-newworld",
+      "field": "source_path",
+      "relative_path": "data/scenes/sh-newworld/source.osm.json",
+      "declared_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "current_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "previous_project_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-newworld",
+      "field": "mapped_edges_path",
+      "relative_path": "data/scenes/sh-newworld/mapped_edges.jsonl.gz",
+      "declared_sha256": "9031f3ccd3802fe3ef8bf74385fccdbc0947be2cd53311973ad54546a19c7ab8",
+      "current_sha256": "9031f3ccd3802fe3ef8bf74385fccdbc0947be2cd53311973ad54546a19c7ab8",
+      "previous_project_sha256": "9031f3ccd3802fe3ef8bf74385fccdbc0947be2cd53311973ad54546a19c7ab8",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-library",
+      "field": "source_path",
+      "relative_path": "data/scenes/sh-library/source.osm.json",
+      "declared_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "current_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "previous_project_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-library",
+      "field": "mapped_edges_path",
+      "relative_path": "data/scenes/sh-library/mapped_edges.jsonl.gz",
+      "declared_sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7",
+      "current_sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7",
+      "previous_project_sha256": "8b2d604e3b76978527ecbd4be02de45b557762ba57fb6d4deb9db9077bc719b7",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "field": "source_path",
+      "relative_path": "data/scenes/sh-exhibition/source.osm.json",
+      "declared_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "current_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "previous_project_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "all_equal": true
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "field": "mapped_edges_path",
+      "relative_path": "data/scenes/sh-exhibition/mapped_edges.jsonl.gz",
+      "declared_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "current_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "previous_project_sha256": "59b6c70a00cd732f390c32c77f115489fa4dc5cc40b33b38bc9ed8c7efa1501d",
+      "all_equal": true
+    }
+  ],
+  "frozen_visibility": {
+    "relative_path": "src/face_visibility.py",
+    "current_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+    "previous_project_sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c",
+    "all_equal": true
+  },
+  "status": "PASS_FOR_REPORTED_OLD_SOURCE_BYTE_PRESERVATION"
+}

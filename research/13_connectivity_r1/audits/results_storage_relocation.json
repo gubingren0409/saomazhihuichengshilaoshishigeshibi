@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-12T03:09:33.380940+08:00",
+  "binding": {
+    "physical": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\results",
+    "logical": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\results"
+  },
+  "reason": "C low disk; only this new task results moved after workers finished",
+  "verification_scope": "All primary and replay rows remain SHA-bound to their immutable original response; original files from earlier goals not moved. No pre-move byte manifest for every small progress file was taken.",
+  "registries": [
+    {
+      "registry": "formal_registry.jsonl",
+      "rows": 104,
+      "sha256": "e4404246ee498120c3199723053c1a5c028076807ef90205c8c2a11a21b476f7",
+      "all_bound_raw_response_sha256": "PASS"
+    },
+    {
+      "registry": "formal_replay_registry.jsonl",
+      "rows": 16,
+      "sha256": "ef76855a7e6ceb6dd8aaab71fa7cb9bb2a723079c04660102e1af3e0fb90c242",
+      "all_bound_raw_response_sha256": "PASS"
+    }
+  ]
+}

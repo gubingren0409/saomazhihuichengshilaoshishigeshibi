@@ -1,0 +1,23 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Exact coverage of all actual r2 cold B2/B3 PREP instances by the two final independent all-option/all-accepted-seam reports",
+  "APP_solver_calls": 0,
+  "actual_cold_delta_PREP_instances": 20,
+  "audited_unique_cold_delta_PREP_instances": 20,
+  "accepted_directional_records_across_cold_instances": 213,
+  "unique_physical_site_success_count_claimed": false,
+  "missing": [],
+  "extras": [],
+  "changed_PREP": [],
+  "report_bindings": [
+    {
+      "path": "audits/independent_formal_overlays_r2_final_primary.json",
+      "sha256": "4d5e8cdb594a69876086934827fafbb8b8e543a95e44a8d180b0349627ef2549"
+    },
+    {
+      "path": "audits/independent_formal_overlays_r2_final_replay.json",
+      "sha256": "99fbee2481895d7f11bf763f35c09dc09537406ab57106245fcf5ee82ea293ad"
+    }
+  ],
+  "status": "PASS_FOR_ALL_ACTUAL_R2_COLD_OVERLAY_INSTANCES"
+}

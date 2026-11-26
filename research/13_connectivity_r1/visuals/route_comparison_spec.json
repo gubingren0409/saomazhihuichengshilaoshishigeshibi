@@ -1,0 +1,125 @@
+{
+  "role": "POST_RESULT_DISPLAY_SELECTION_OF_PRELOCKED_MECHANISMS_NOT_QUERY_SELECTION",
+  "cases": [
+    {
+      "id": "mechanism_M02_source_complete",
+      "scene_id": "sh-exhibition",
+      "title": "M02：补齐面内原生步行面，完整路线缩短",
+      "old_result": "runs/mechanisms/RUN-20261112T005345-d12c501226.json",
+      "new_result": "runs/mechanisms/RUN-20261112T005350-3d75512963.json",
+      "note": "同一原生端点：完整路线 33.34 m → 27.14 m。",
+      "attempt_ids": [
+        "FORMAL-065",
+        "FORMAL-066"
+      ],
+      "epoch_note": "B0/B1 保留未变数学核的原运行；如实保留原代码 SHA，见图旁绑定记录。"
+    },
+    {
+      "id": "mechanism_M04_exact_stitch",
+      "scene_id": "sh-exhibition",
+      "title": "M04：共边面精确接图，恢复完整路线",
+      "old_result": "runs/mechanisms/RUN-20261112T005400-1775ce2387.json",
+      "new_result": "runs/mechanisms/RUN-20261112T030817-af47b79523.json",
+      "note": "机制终点是原生节点，不是建筑入口；源 P 与 Ω 均没有扩张。",
+      "attempt_ids": [
+        "FORMAL-074",
+        "REPLAY-FORMAL-075"
+      ],
+      "original_attempt_ids": [
+        "FORMAL-074",
+        "FORMAL-075"
+      ],
+      "result_registries": [
+        "results/formal_registry.jsonl",
+        "results/formal_replay_registry.jsonl"
+      ],
+      "epoch_note": "B1 保留未变数学核的原运行；B2 绑定最终 replay，各自原始代码 SHA 见图旁记录。"
+    },
+    {
+      "id": "mechanism_M06_no_route_change",
+      "scene_id": "sh-exhibition",
+      "title": "M06：条件接缝分支保留了路线未变的结果",
+      "old_result": "runs/mechanisms/RUN-20261112T030823-722f561fa0.json",
+      "new_result": "runs/mechanisms/RUN-20261112T030825-0e6f5df2f4.json",
+      "note": "本次路线使用接缝长度为 0 m；比较前后均为 171.37 m。",
+      "attempt_ids": [
+        "REPLAY-FORMAL-083",
+        "REPLAY-FORMAL-084"
+      ],
+      "source_label_offsets": {
+        "way/331207147": [
+          7,
+          42
+        ]
+      },
+      "seam_detail": {
+        "source_area_id": "way/331207147",
+        "source_id": "way/1117800969"
+      },
+      "original_attempt_ids": [
+        "FORMAL-083",
+        "FORMAL-084"
+      ],
+      "result_registries": [
+        "results/formal_replay_registry.jsonl",
+        "results/formal_replay_registry.jsonl"
+      ]
+    },
+    {
+      "id": "business_south_no_route_change",
+      "scene_id": "sh-huangpu-01",
+      "title": "博物馆南门：完整路线未变，新增边未被使用",
+      "old_result": "runs/app/RUN-20261112T014120-854cf312f0.json",
+      "new_result": "runs/app/RUN-20261112T015521-bb55088ddb.json",
+      "note": "同一原生起点与登记南门；两模式均 148.86 m，新增精确接口与条件接缝使用长度均为 0 m。",
+      "attempt_ids": [
+        "FORMAL-001",
+        "FORMAL-004"
+      ],
+      "source_interface_detail": {
+        "source_area_id": "relation/2385771",
+        "source_line_id": "way/178737605",
+        "native_node_id": "node/1890935454",
+        "title": "原有共享节点接边\n两条路线均使用（P/Ω 距离 0 m）"
+      }
+    },
+    {
+      "id": "business_north_same_route",
+      "scene_id": "sh-huangpu-01",
+      "title": "博物馆北门到门外：使用精确接口，路线仍未变",
+      "old_result": "runs/app/RUN-20261112T015659-017ffc002e.json",
+      "new_result": "runs/app/RUN-20261112T021014-c0606583a4.json",
+      "note": "B3计入精确接口 0.099 m；路线坐标相同，长度均 299.53 m；原门前假设段 12.53 m 未变。",
+      "attempt_ids": [
+        "FORMAL-009",
+        "FORMAL-012"
+      ],
+      "assumed_detail": {
+        "rect": [
+          0.61,
+          0.21,
+          0.36,
+          0.32
+        ]
+      }
+    },
+    {
+      "id": "historical_F1_same_route",
+      "scene_id": "sh-huangpu-01",
+      "title": "历史长查询 F1：完整路线仍未变化",
+      "old_result": "runs/app/RUN-20261112T030435-8babb2bbc1.json",
+      "new_result": "runs/app/RUN-20261112T030454-3c8a8ed835.json",
+      "note": "历史请求尚未绑定截图；两模式 L、C 均 682.44 m，坐标相同。B3 精确接口 4.20 m，条件接缝 0 m。",
+      "attempt_ids": [
+        "FORMAL-057",
+        "FORMAL-060"
+      ],
+      "endpoint_label_offsets": {
+        "node/1890885411": [
+          3,
+          -46
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Actual Edge regression of raw eligible and restricted source-line inspector after UI-only repair; previous GET race/loader checks unaffected",
+  "served_app": {
+    "app_js_sha256": "2135c746c1ec0e6f28141f7e7272eb065cb4f9e3541b90b45bdba2417f396355"
+  },
+  "checks": [
+    {
+      "source_id": "way/564255372",
+      "passed": true,
+      "length_line": "本段 287.99 m；原生线源几何；是否进入当前路由图另查",
+      "inspector_text": "独立原生线（保留源身份） · way/564255372\n原生标签：footway=sidewalk · highway=footway · surface=paving_stones\n本段 287.99 m；原生线源几何；是否进入当前路由图另查\n记录状态：ELIGIBLE_NATIVE_LINEAR_TAGS\n相关直接源关系 / 本次接口：1 项。对象正距离不等于全网络断开。",
+      "raw_machine_record_source_id": "way/564255372"
+    },
+    {
+      "source_id": "way/178725446",
+      "passed": true,
+      "length_line": "本段 143.26 m；原始地图线几何；不据此宣告准入或可通行",
+      "inspector_text": "独立原生线（保留源身份） · way/178725446\n原生标签：access=private · buses=yes · highway=service · oneway=yes · psv=yes\n本段 143.26 m；原始地图线几何；不据此宣告准入或可通行\n记录状态：RESTRICTED_OR_CONDITIONAL_LINE\n相关直接源关系 / 本次接口：0 项。对象正距离不等于全网络断开。",
+      "raw_machine_record_source_id": "way/178725446"
+    }
+  ],
+  "APP_solver_calls": 0,
+  "blocked_plan_POST_attempts": [],
+  "page_errors": [],
+  "elapsed_s": 31.46799160000228,
+  "status": "PASS_FOR_RAW_SOURCE_INSPECTOR_REGRESSION",
+  "reviewer_read_method_correction": "Closed details hides inner_text; text_content independently reads the actual existing JSON without opening/replacing it. Original GET checker alarm retained.",
+  "limits": [
+    "No route POST or solver",
+    "No user or field acceptance"
+  ]
+}

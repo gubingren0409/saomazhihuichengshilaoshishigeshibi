@@ -1,0 +1,106 @@
+{
+  "frozen_at": "2026-11-12T00:51:58.230475+08:00",
+  "files": [
+    {
+      "path": "src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/common_constraints.py",
+      "sha256": "aa31d3ace09dd6ebcf513978abd70986fb58142c109880e891710fad1e06dba8"
+    },
+    {
+      "path": "src/connectivity.py",
+      "sha256": "7b4b5eff6aae0343932eedb4c5f02634f8c1914c1efa9329de128f0196abc1c6"
+    },
+    {
+      "path": "src/connectivity_inventory.py",
+      "sha256": "83478aadeb48dff6aac51d312c59351cd3b2fe0e20ef3d26744044af3dacb624"
+    },
+    {
+      "path": "src/connectivity_view.py",
+      "sha256": "b2043f206c54f44d54482e8e537048eebe5ac630e27ed67a4c131805414572e7"
+    },
+    {
+      "path": "src/context_policy.py",
+      "sha256": "73360280dd9fd14b3d75c3852fabab03254b8c14d3af430e1305f27daa2e3f25"
+    },
+    {
+      "path": "src/face_geometry.py",
+      "sha256": "827cdaae8d85bfc16c6d9134e1e1aacd864f15db385bc623abd79a99d6cdb175"
+    },
+    {
+      "path": "src/face_visibility.py",
+      "sha256": "fc3c6220f8ac8f97847f01a355deba6c29680850ad44ec1f9a139c60cac5d56c"
+    },
+    {
+      "path": "src/free_routing.py",
+      "sha256": "0ab1db2a0bfa56ae672ad8d4329ce09334d295dbb7533cc8649b9a2b4eeb0561"
+    },
+    {
+      "path": "src/free_surface.py",
+      "sha256": "de0759ca1ec1d2554c9ebd87f72ba3a4906a21016caa1c029d68a16911216ba8"
+    },
+    {
+      "path": "src/frozen_scene/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/frozen_scene/local_route.py",
+      "sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f"
+    },
+    {
+      "path": "src/frozen_scene/native_adapter.py",
+      "sha256": "1c54e2de55fd365df056f982c148ef1e9ad798599273b29da3ddbd5394f5baa9"
+    },
+    {
+      "path": "src/frozen_scene/route_measure.py",
+      "sha256": "895bc7171ce98c2e68cb5c6cba954101bfcdfeb06a31e69d4fc7c41610bd5af9"
+    },
+    {
+      "path": "src/frozen_scene/semantics.py",
+      "sha256": "b31a7bcdfb6cc202577b25315847686cf0d15190a6b60ba0de224d6af4e2458f"
+    },
+    {
+      "path": "src/mechanism.py",
+      "sha256": "ab3a156584efc7bc56e5015f8b58c10472d6178468be4cf6cd3f799806911092"
+    },
+    {
+      "path": "src/planner.py",
+      "sha256": "87b860c6388bd8e5a537d57a60bcf87bbb04d3a3c2b316b2ae39d363337bc411"
+    },
+    {
+      "path": "src/region.py",
+      "sha256": "74d579de368df4f60623ee26e1c804134ea0e142b89ff56b554678f8fdb268e8"
+    },
+    {
+      "path": "src/region_routing.py",
+      "sha256": "8a0863972877eebb67407443ec41fef5504c91c3510d25b621f5820b14d5100f"
+    },
+    {
+      "path": "src/scene_data.py",
+      "sha256": "0fe12256f280e20bd47a53e7421a3563056d1bc1b16d28dbac1665b45ff05dd2"
+    },
+    {
+      "path": "config/app_policy.json",
+      "sha256": "607cd0058d424dec827b71716673562b2ada6c1ef4460c69582570f47f4f6ec8"
+    },
+    {
+      "path": "config/area_policy.json",
+      "sha256": "a43a91c8677740d35fbb53ec9f93bf908fa1c7bac04e8c56d0f2538d20141c00"
+    },
+    {
+      "path": "config/connectivity_policy.json",
+      "sha256": "5dc3d9053b3cc7fe49b746bdac792075f1982b3b2db4b5b5caa821ee447aa57f"
+    },
+    {
+      "path": "config/frozen_region.json",
+      "sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026"
+    },
+    {
+      "path": "config/historical_methods.json",
+      "sha256": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f"
+    }
+  ],
+  "scope": "post boundary provenance fix, freeze2barrier, sourceview allscene; no future hotcore edits"
+}

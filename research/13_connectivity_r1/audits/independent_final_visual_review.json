@@ -1,0 +1,282 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "scope": "Actually viewed all eight final root PNGs after source freeze; exact SVG/PDF/PNG hashes and twelve representative canonical result bindings checked",
+  "APP_solver_calls": 0,
+  "script_sha256": "d1cd4912b1c66b375533aec72c64a13cebbf9c4f9599d64e47662a4b9b55f701",
+  "rows": [
+    {
+      "figure": "museum_source_overview",
+      "metadata_sha256": "9adedcf4b14288c9da1a4ac1d8e65257c8ad2048ff0efb6c79598a533df9458f",
+      "actually_viewed_final_PNG": true,
+      "outputs": [
+        {
+          "path": "visuals\\museum_source_overview.svg",
+          "sha256": "630c59798bfb68ce993356667b9a555dfaac9d984ef89721645be223c33eb6e5",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\museum_source_overview.pdf",
+          "sha256": "13d267a5ca9cb6df6c7b3942d2703d17253e36335520e97a6e75674a97ac2c0f",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\museum_source_overview.png",
+          "sha256": "91143a19776aeb875a7f24715f71fe463d81948405eb573b084dc0c805e74447",
+          "matches_metadata": true
+        }
+      ],
+      "actual_canonical_result_bindings": []
+    },
+    {
+      "figure": "six_scene_source_inventory",
+      "metadata_sha256": "98bef5af7e075abd1f5f49fb21ff8d18832c85b1b7cc2a0237f7774fe1820143",
+      "actually_viewed_final_PNG": true,
+      "outputs": [
+        {
+          "path": "visuals\\six_scene_source_inventory.svg",
+          "sha256": "6c7d5912d4200a4970a6e66aec2efe1a843eabbc3771d091ef275341e953d3fc",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\six_scene_source_inventory.pdf",
+          "sha256": "7ee8cb72d0f9438ea65a85d9a8493b6f6f0076e5d7b65dbe2ef3ffbe2cd98786",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\six_scene_source_inventory.png",
+          "sha256": "1a189045b82cc4fac30f2f70453470ae9d2c813f8b0bdfe5e174204d5f34b019",
+          "matches_metadata": true
+        }
+      ],
+      "actual_canonical_result_bindings": []
+    },
+    {
+      "figure": "mechanism_M02_source_complete",
+      "metadata_sha256": "f1de175de0c532fc69d5d90a075b815c2402522eb12097566ffde14c7051c439",
+      "actually_viewed_final_PNG": true,
+      "outputs": [
+        {
+          "path": "visuals\\mechanism_M02_source_complete.svg",
+          "sha256": "b7fff386e8860acabc264a6110337410964ff456fb95d7f9fa7b46f98f92d22c",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\mechanism_M02_source_complete.pdf",
+          "sha256": "229dc9df2e4915ae90710f374f7173619d6f013a8d5cc4788a837ede89839f38",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\mechanism_M02_source_complete.png",
+          "sha256": "9220221fc8d890734c2cbec77fc8a71a5deb04f303f7f14eb4dc4b06155f8561",
+          "matches_metadata": true
+        }
+      ],
+      "actual_canonical_result_bindings": [
+        {
+          "path": "runs/mechanisms/RUN-20261112T005345-d12c501226.json",
+          "run_id": "RUN-20261112T005345-d12c501226",
+          "sha256": "f6bca9ee02e5fbd16e362184268affdc02067227a6cf15d9faac43a6310c0adb",
+          "matches_canonical": true
+        },
+        {
+          "path": "runs/mechanisms/RUN-20261112T005350-3d75512963.json",
+          "run_id": "RUN-20261112T005350-3d75512963",
+          "sha256": "941922b4e6f20ea550fdd8fd7f3c2a24e31034d128843997a0e3f7871913050e",
+          "matches_canonical": true
+        }
+      ]
+    },
+    {
+      "figure": "mechanism_M04_exact_stitch",
+      "metadata_sha256": "d9556e45d5264307511f207f5b95cad59ffbf301fa30ffbcbe7dffad7ab2c8ef",
+      "actually_viewed_final_PNG": true,
+      "outputs": [
+        {
+          "path": "visuals\\mechanism_M04_exact_stitch.svg",
+          "sha256": "09902a2b7603c937fe957e01bc603d12cd99e7430894b088014b3ad541fa34cd",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\mechanism_M04_exact_stitch.pdf",
+          "sha256": "d91b08ca8d3166351556a4208f2ed46a7baace324466dcca4f2d62cff7bd1fb4",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\mechanism_M04_exact_stitch.png",
+          "sha256": "30f6ef340995d559869cb2cec5c344a8f90c8bd437b45fa5c212ccb8ba471087",
+          "matches_metadata": true
+        }
+      ],
+      "actual_canonical_result_bindings": [
+        {
+          "path": "runs/mechanisms/RUN-20261112T005400-1775ce2387.json",
+          "run_id": "RUN-20261112T005400-1775ce2387",
+          "sha256": "bbaf3100a4934842b137846ecc9af10d7657c6729d01ed5d4710a508894aa278",
+          "matches_canonical": true
+        },
+        {
+          "path": "runs/mechanisms/RUN-20261112T030817-af47b79523.json",
+          "run_id": "RUN-20261112T030817-af47b79523",
+          "sha256": "c6017c4c185ade4cc1a2567d27fe30bdfe2b50b457d60015f3107d9f0d3ea8a4",
+          "matches_canonical": true
+        }
+      ]
+    },
+    {
+      "figure": "mechanism_M06_no_route_change",
+      "metadata_sha256": "0ef3a26382b807a11a6ab6e8f5e8d99607928f9d5884bfa2641c9c2440249d66",
+      "actually_viewed_final_PNG": true,
+      "outputs": [
+        {
+          "path": "visuals\\mechanism_M06_no_route_change.svg",
+          "sha256": "6a88270305c57428069d3363a01e3041d2961e2d5768d6d7f1f89fcf4bb02f0e",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\mechanism_M06_no_route_change.pdf",
+          "sha256": "3b766eb1928b9eb40d8614d88387ceef12088fa7416dc37d113bdcbb5793ab55",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\mechanism_M06_no_route_change.png",
+          "sha256": "57dd01491f64e7024ae4b65744463652cd61307f78b467b8212778ed9495cc4e",
+          "matches_metadata": true
+        }
+      ],
+      "actual_canonical_result_bindings": [
+        {
+          "path": "runs/mechanisms/RUN-20261112T030823-722f561fa0.json",
+          "run_id": "RUN-20261112T030823-722f561fa0",
+          "sha256": "f858e8e4b91b8ece4e8e535292effc039b6a358e9b8cba6abdb61d785afa7e43",
+          "matches_canonical": true
+        },
+        {
+          "path": "runs/mechanisms/RUN-20261112T030825-0e6f5df2f4.json",
+          "run_id": "RUN-20261112T030825-0e6f5df2f4",
+          "sha256": "8a4d7331038ea1aa940b188d0271ef91d5f41c92fa6c9fe13225f3e0603eee2d",
+          "matches_canonical": true
+        }
+      ]
+    },
+    {
+      "figure": "business_south_no_route_change",
+      "metadata_sha256": "163af68286f2c757c21ab3601ac9b03137e71c45fe1cdc2b0a0d6821fc9c83f0",
+      "actually_viewed_final_PNG": true,
+      "outputs": [
+        {
+          "path": "visuals\\business_south_no_route_change.svg",
+          "sha256": "3a9e5da2f83523824e690644eb43c87d4da7eb811415cce2bc08372a4fbc8696",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\business_south_no_route_change.pdf",
+          "sha256": "a38004161322645684c7750d38e3e66d17d8c3ce037478ace8d037ccc4557db8",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\business_south_no_route_change.png",
+          "sha256": "071dfe368c07626aa489077d0aa0569c1e3c7cf94dcec896a2ae817cd194f3b1",
+          "matches_metadata": true
+        }
+      ],
+      "actual_canonical_result_bindings": [
+        {
+          "path": "runs/app/RUN-20261112T014120-854cf312f0.json",
+          "run_id": "RUN-20261112T014120-854cf312f0",
+          "sha256": "d9a4a87a88a6029096db776a7740f0d60212134642baca027af9bdfa79752160",
+          "matches_canonical": true
+        },
+        {
+          "path": "runs/app/RUN-20261112T015521-bb55088ddb.json",
+          "run_id": "RUN-20261112T015521-bb55088ddb",
+          "sha256": "e3bb0ec35680aec65011beb26a791f1dc3bc0bc0e38b282a65d129c5859bce3e",
+          "matches_canonical": true
+        }
+      ]
+    },
+    {
+      "figure": "business_north_same_route",
+      "metadata_sha256": "8b154f275a483cdf54659268cd044d9424f6c2448c27d33c4d8ee7113246db2a",
+      "actually_viewed_final_PNG": true,
+      "outputs": [
+        {
+          "path": "visuals\\business_north_same_route.svg",
+          "sha256": "163825bfd84e7b00efca59f6d3571adeff7872f220b0c7d8773eeb664930a575",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\business_north_same_route.pdf",
+          "sha256": "f662711d9ab33dacb8dc4969c50cae4a70471c835287e306291d321cf3f6923a",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\business_north_same_route.png",
+          "sha256": "e9b218bc5269bbedf035ceb85baf9e5f63caf4189f792049ecb1e2101e9dc608",
+          "matches_metadata": true
+        }
+      ],
+      "actual_canonical_result_bindings": [
+        {
+          "path": "runs/app/RUN-20261112T015659-017ffc002e.json",
+          "run_id": "RUN-20261112T015659-017ffc002e",
+          "sha256": "0275a9b6d0b78a97c23f30be67a08f493f7279973f5be8145567f20008ff114c",
+          "matches_canonical": true
+        },
+        {
+          "path": "runs/app/RUN-20261112T021014-c0606583a4.json",
+          "run_id": "RUN-20261112T021014-c0606583a4",
+          "sha256": "ba59af704e4f2baae6dfd0057dbe754dc92a8e808303e9b80b74c098089a4c34",
+          "matches_canonical": true
+        }
+      ]
+    },
+    {
+      "figure": "historical_F1_same_route",
+      "metadata_sha256": "c1dd33dc2563b83e03b13dc1e978a76d6584f74b6db391d43a9410ec650403ae",
+      "actually_viewed_final_PNG": true,
+      "outputs": [
+        {
+          "path": "visuals\\historical_F1_same_route.svg",
+          "sha256": "6dece4205327e654a341a78940ebbdccbf161e651264fceeef7732ae5ccc2e2f",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\historical_F1_same_route.pdf",
+          "sha256": "3884c7588c9b828839c93af8883b5bb6caef25d91ad88eb5cab859bc33a54a6f",
+          "matches_metadata": true
+        },
+        {
+          "path": "visuals\\historical_F1_same_route.png",
+          "sha256": "9458a50535f2ec3bf24242fdd45f404fc3c055904679573f8ec9c2c8426537ce",
+          "matches_metadata": true
+        }
+      ],
+      "actual_canonical_result_bindings": [
+        {
+          "path": "runs/app/RUN-20261112T030435-8babb2bbc1.json",
+          "run_id": "RUN-20261112T030435-8babb2bbc1",
+          "sha256": "c0395a10f1271560deeabb30f05f9fda0ec42cdd7364fe33c2670ed87c613064",
+          "matches_canonical": true
+        },
+        {
+          "path": "runs/app/RUN-20261112T030454-3c8a8ed835.json",
+          "run_id": "RUN-20261112T030454-3c8a8ed835",
+          "sha256": "92e3a764be467e934b2940e4a0a1127f4d21e969e8d35a391366c83d64031d40",
+          "matches_canonical": true
+        }
+      ]
+    }
+  ],
+  "status": "PASS_FOR_FINAL_EIGHT_PNG_AND_FILE_HASH_BINDINGS",
+  "visual_notes": [
+    "Source-only overview separates raw shared-node chain from current graph admission; direct7.07m and10.30m gaps are not whole-network no-path claims",
+    "130 scene-qualified objects/88 unique sources and129 nonempty Omega; Tower empty Omega and19 explicit rejected objects remain visible",
+    "M02 old unchanged B0/B1 kernel is retained; M04 target is a raw source point, not a door, B1 no route versus actual replay B2 158.20m",
+    "M06 accepted1.004m seam is unused; main south148.86 and north299.53 are unchanged; original north hypothesis12.53m is not a new seam",
+    "Historical F1 682.44m coordinates unchanged and4.20m interface classification is not a geometric gain; screenshot remains unbound"
+  ],
+  "limits": [
+    "Independent visual inspection was of PNGs; SVG/PDF hashes are verified and their native rendering is author QA",
+    "No user observation, public-access or field-passability acceptance"
+  ]
+}

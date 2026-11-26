@@ -1,0 +1,663 @@
+{
+  "formal_attempts": 121,
+  "formal_completed": 104,
+  "formal_replays": 16,
+  "formal_interrupted": [
+    {
+      "at": "2026-11-12T01:16:19.100142+08:00",
+      "attempt_id": "FORMAL-071",
+      "status": "INTERRUPTED_CONFIRMED_REDUNDANT_QUADRATIC_REBUILD",
+      "service_pid": 264980,
+      "client_pid_previously_stopped": 266864,
+      "cpu_s": [
+        1356.765625,
+        68.21875
+      ],
+      "rss_bytes": 2024062976,
+      "input": {
+        "attempt_id": "FORMAL-071",
+        "request": {
+          "mechanism_id": "M03",
+          "method": "F0",
+          "connectivity_mode": "EXACT_STITCH",
+          "seam_max_m": 2.0,
+          "request_id": "M03-F0",
+          "run_purpose": "FORMAL_PRELOCKED_MATRIX"
+        },
+        "started_at": "2026-11-12T01:01:38.601571+08:00",
+        "code_sha256": "ee3c1f2e301781432cec1ff1fc689bb65a69bf7e02da1f288fa3eacc5499b60f"
+      },
+      "source_freeze": "audits/backend_freeze_r1.json",
+      "no_result_claimed": true,
+      "counts_as_actual_formal_attempt": true,
+      "restart_must_not_reset_cap": 128,
+      "reason": "Exact source geometry diagnostics confirmed unchanged1774 reflex coordinates lost reuse after numeric singleton subtraction. Reproduce+minimal performance fix approved scope; keep first inputs/logs/source and rerun affected under versioned record."
+    }
+  ],
+  "formal_cap": 128,
+  "solver_invocations_primary": 78,
+  "solver_invocations": 92,
+  "engineering_exceptions": 0,
+  "by_role_and_mode": {
+    "BASELINE_POSITIVE": {
+      "FROZEN_FULL_FACE": {
+        "attempted": 8,
+        "routed": 8,
+        "solver_invocations": 8,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 4,
+          "ROUTED_CONDITIONAL": 4
+        }
+      },
+      "SOURCE_COMPLETE": {
+        "attempted": 8,
+        "routed": 8,
+        "solver_invocations": 8,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 4,
+          "ROUTED_CONDITIONAL": 4
+        }
+      },
+      "EXACT_STITCH": {
+        "attempted": 8,
+        "routed": 8,
+        "solver_invocations": 8,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 4,
+          "ROUTED_CONDITIONAL": 4
+        }
+      },
+      "CONDITIONAL_SEAMS": {
+        "attempted": 8,
+        "routed": 8,
+        "solver_invocations": 8,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 4,
+          "ROUTED_CONDITIONAL": 4
+        }
+      }
+    },
+    "BASELINE_REJECTION": {
+      "FROZEN_FULL_FACE": {
+        "attempted": 5,
+        "routed": 0,
+        "solver_invocations": 0,
+        "statuses": {
+          "INVALID_REQUEST": 2,
+          "REJECTED_ENTRANCE_ROLE": 1,
+          "INVALID_START": 1,
+          "NO_ELIGIBLE_REGISTERED_ENTRANCE": 1
+        }
+      },
+      "SOURCE_COMPLETE": {
+        "attempted": 5,
+        "routed": 0,
+        "solver_invocations": 0,
+        "statuses": {
+          "INVALID_REQUEST": 2,
+          "REJECTED_ENTRANCE_ROLE": 1,
+          "INVALID_START": 1,
+          "NO_ELIGIBLE_REGISTERED_ENTRANCE": 1
+        }
+      },
+      "EXACT_STITCH": {
+        "attempted": 5,
+        "routed": 0,
+        "solver_invocations": 0,
+        "statuses": {
+          "INVALID_REQUEST": 2,
+          "REJECTED_ENTRANCE_ROLE": 1,
+          "INVALID_START": 1,
+          "NO_ELIGIBLE_REGISTERED_ENTRANCE": 1
+        }
+      },
+      "CONDITIONAL_SEAMS": {
+        "attempted": 5,
+        "routed": 0,
+        "solver_invocations": 0,
+        "statuses": {
+          "INVALID_REQUEST": 2,
+          "REJECTED_ENTRANCE_ROLE": 1,
+          "INVALID_START": 1,
+          "NO_ELIGIBLE_REGISTERED_ENTRANCE": 1
+        }
+      }
+    },
+    "GAP_COST_PAIR": {
+      "FROZEN_FULL_FACE": {
+        "attempted": 1,
+        "routed": 1,
+        "solver_invocations": 1,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 1
+        }
+      },
+      "SOURCE_COMPLETE": {
+        "attempted": 1,
+        "routed": 1,
+        "solver_invocations": 1,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 1
+        }
+      },
+      "EXACT_STITCH": {
+        "attempted": 1,
+        "routed": 1,
+        "solver_invocations": 1,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 1
+        }
+      },
+      "CONDITIONAL_SEAMS": {
+        "attempted": 1,
+        "routed": 1,
+        "solver_invocations": 1,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 1
+        }
+      }
+    },
+    "HISTORICAL_LONG_QUERY_NOT_SCREENSHOT_BOUND": {
+      "FROZEN_FULL_FACE": {
+        "attempted": 2,
+        "routed": 2,
+        "solver_invocations": 2,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 2
+        }
+      },
+      "SOURCE_COMPLETE": {
+        "attempted": 2,
+        "routed": 2,
+        "solver_invocations": 2,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 2
+        }
+      },
+      "EXACT_STITCH": {
+        "attempted": 2,
+        "routed": 2,
+        "solver_invocations": 2,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 2
+        }
+      },
+      "CONDITIONAL_SEAMS": {
+        "attempted": 2,
+        "routed": 2,
+        "solver_invocations": 2,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 2
+        }
+      }
+    },
+    "PRELOCKED_THRESHOLD_SENSITIVITY": {
+      "FROZEN_FULL_FACE": {
+        "attempted": 0,
+        "routed": 0,
+        "solver_invocations": 0,
+        "statuses": {}
+      },
+      "SOURCE_COMPLETE": {
+        "attempted": 0,
+        "routed": 0,
+        "solver_invocations": 0,
+        "statuses": {}
+      },
+      "EXACT_STITCH": {
+        "attempted": 0,
+        "routed": 0,
+        "solver_invocations": 0,
+        "statuses": {}
+      },
+      "CONDITIONAL_SEAMS": {
+        "attempted": 8,
+        "routed": 8,
+        "solver_invocations": 8,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 8
+        }
+      }
+    },
+    "SOURCE_INTERFACE_MECHANISM": {
+      "FROZEN_FULL_FACE": {
+        "attempted": 8,
+        "routed": 3,
+        "solver_invocations": 5,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 3,
+          "MECHANISM_ENDPOINT_UNBOUND": 3,
+          "NO_VALID_ROUTE": 2
+        }
+      },
+      "SOURCE_COMPLETE": {
+        "attempted": 8,
+        "routed": 4,
+        "solver_invocations": 7,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 4,
+          "NO_VALID_ROUTE": 3,
+          "MECHANISM_ENDPOINT_UNBOUND": 1
+        }
+      },
+      "EXACT_STITCH": {
+        "attempted": 8,
+        "routed": 5,
+        "solver_invocations": 7,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 5,
+          "MECHANISM_ENDPOINT_UNBOUND": 1,
+          "NO_VALID_ROUTE": 2
+        }
+      },
+      "CONDITIONAL_SEAMS": {
+        "attempted": 8,
+        "routed": 5,
+        "solver_invocations": 7,
+        "statuses": {
+          "ROUTED_NATIVE_OR_MAPPED": 5,
+          "MECHANISM_ENDPOINT_UNBOUND": 1,
+          "NO_VALID_ROUTE": 2
+        }
+      }
+    }
+  },
+  "F0_F1_graph_pairs": [
+    {
+      "group": [
+        "sh-exhibition",
+        "node/3382616037",
+        "node/9775005120",
+        "NETWORK_MECHANISM_NOT_ENTRANCE",
+        "FROZEN_FULL_FACE",
+        2.0
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "61ab5c0aea14e35637b1c094c1666de890a36f8ce22776bdbef0271e6f0a332e"
+      ]
+    },
+    {
+      "group": [
+        "sh-exhibition",
+        "node/3382616037",
+        "node/9775005120",
+        "NETWORK_MECHANISM_NOT_ENTRANCE",
+        "SOURCE_COMPLETE",
+        2.0
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "6df3a82322ae356907e502f8fa01b5eba20705f4968d1ef2890821664f5a37b3"
+      ]
+    },
+    {
+      "group": [
+        "sh-exhibition",
+        "node/3382616037",
+        "node/9775005120",
+        "NETWORK_MECHANISM_NOT_ENTRANCE",
+        "EXACT_STITCH",
+        2.0
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "b03f18166d9a8f5a06c31628b4b2111a415907cc3397735ad908d81e324964b1"
+      ]
+    },
+    {
+      "group": [
+        "sh-exhibition",
+        "node/3382616037",
+        "node/9775005120",
+        "NETWORK_MECHANISM_NOT_ENTRANCE",
+        "CONDITIONAL_SEAMS",
+        2.0
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "b7d4df604747135c7e418af0f9041a213efcaa84b9a8aee8773c0d0010e70837"
+      ]
+    },
+    {
+      "group": [
+        "sh-exhibition",
+        "node/3382616037",
+        "node/9775005120",
+        "NETWORK_MECHANISM_NOT_ENTRANCE",
+        "CONDITIONAL_SEAMS",
+        0.5
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "b03f18166d9a8f5a06c31628b4b2111a415907cc3397735ad908d81e324964b1"
+      ]
+    },
+    {
+      "group": [
+        "sh-exhibition",
+        "node/3382616037",
+        "node/9775005120",
+        "NETWORK_MECHANISM_NOT_ENTRANCE",
+        "CONDITIONAL_SEAMS",
+        5.0
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "ff9c4618c82d4acec90a7487cbc03aa03339975757a46c3a5e45e11ea82baf0b"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/10073042336",
+        "node/6897141353",
+        "ENTER_BUILDING",
+        "FROZEN_FULL_FACE",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/10073042336",
+        "node/6897141353",
+        "ENTER_BUILDING",
+        "SOURCE_COMPLETE",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "31f5afc8da7a44e6e7fcb9947d8fa140504cfa67a3a3c0dbd69fc45af63f5522"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/10073042336",
+        "node/6897141353",
+        "ENTER_BUILDING",
+        "EXACT_STITCH",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "2f4c41477d88ce3094c3956ac2423ec2473409fcfdf9bb44b6d3762922eea831"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/10073042336",
+        "node/6897141353",
+        "ENTER_BUILDING",
+        "CONDITIONAL_SEAMS",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "db8202683f6d327d8d04eeff4b62b63de9f418a537a62fae5bf500077db25d6d"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/10073042336",
+        "node/6897145227",
+        "APPROACH_OUTSIDE",
+        "FROZEN_FULL_FACE",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "cbf4cc23378f0e89545565deead8f43a37d07bb147f44fd781c087700eaaf5d4"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/10073042336",
+        "node/6897145227",
+        "APPROACH_OUTSIDE",
+        "SOURCE_COMPLETE",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "dae6b5b328fc07bb817da144ce3bf10e5c843a71e0664b2afd761c88b9bb8486"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/10073042336",
+        "node/6897145227",
+        "APPROACH_OUTSIDE",
+        "EXACT_STITCH",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "7aafe4a68f232e1b983b6067d63bcc2fc15e0eca4fb35d2ef29e19a2f94a5041"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/10073042336",
+        "node/6897145227",
+        "APPROACH_OUTSIDE",
+        "CONDITIONAL_SEAMS",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "b042d27e2aef4b98d24715bae6aaa2b6781a830372da45ebc1d7b3a54d9ddba8"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/11667615960",
+        "node/6897145227",
+        "APPROACH_OUTSIDE",
+        "FROZEN_FULL_FACE",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "cbf4cc23378f0e89545565deead8f43a37d07bb147f44fd781c087700eaaf5d4"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/11667615960",
+        "node/6897145227",
+        "APPROACH_OUTSIDE",
+        "SOURCE_COMPLETE",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "dae6b5b328fc07bb817da144ce3bf10e5c843a71e0664b2afd761c88b9bb8486"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/11667615960",
+        "node/6897145227",
+        "APPROACH_OUTSIDE",
+        "EXACT_STITCH",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "7aafe4a68f232e1b983b6067d63bcc2fc15e0eca4fb35d2ef29e19a2f94a5041"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/11667615960",
+        "node/6897145227",
+        "APPROACH_OUTSIDE",
+        "CONDITIONAL_SEAMS",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "b042d27e2aef4b98d24715bae6aaa2b6781a830372da45ebc1d7b3a54d9ddba8"
+      ]
+    },
+    {
+      "group": [
+        "sh-library",
+        "node/105253317",
+        "node/11300000483",
+        "ENTER_BUILDING",
+        "FROZEN_FULL_FACE",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+      ]
+    },
+    {
+      "group": [
+        "sh-library",
+        "node/105253317",
+        "node/11300000483",
+        "ENTER_BUILDING",
+        "SOURCE_COMPLETE",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "14307ef870ce08273868e50ce7152cb7069aa451321955a154bbc9c89762e179"
+      ]
+    },
+    {
+      "group": [
+        "sh-library",
+        "node/105253317",
+        "node/11300000483",
+        "ENTER_BUILDING",
+        "EXACT_STITCH",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "b7c8901b35bad674ddc609d75ae756835f395519464043e4276734a66a4a8152"
+      ]
+    },
+    {
+      "group": [
+        "sh-library",
+        "node/105253317",
+        "node/11300000483",
+        "ENTER_BUILDING",
+        "CONDITIONAL_SEAMS",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "ffc403e13ba9f7083861fe6b8d17315aa21075e4dd3d72d434d3d1be23c1db5b"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/1890732783",
+        "node/1890761671",
+        "NETWORK_MECHANISM_NOT_ENTRANCE",
+        "CONDITIONAL_SEAMS",
+        0.5
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "49238fa1fb00613d14632019b5f459bacfbf47ccf8352e6400bed0dc85e86287"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/1890732783",
+        "node/1890761671",
+        "NETWORK_MECHANISM_NOT_ENTRANCE",
+        "CONDITIONAL_SEAMS",
+        5.0
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "03650bb912fdcb11cb97c6202d78b9f00dc7d62ca695bf1106cca1925ae2cc89"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/1890885411",
+        "node/6897141353",
+        "APPROACH_OUTSIDE",
+        "FROZEN_FULL_FACE",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "1efb15382f0a3a3ed4ad13939c92ae8c8d21ef0a1abc1c4bb569206e3aad0986"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/1890885411",
+        "node/6897141353",
+        "APPROACH_OUTSIDE",
+        "SOURCE_COMPLETE",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "31f5afc8da7a44e6e7fcb9947d8fa140504cfa67a3a3c0dbd69fc45af63f5522"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/1890885411",
+        "node/6897141353",
+        "APPROACH_OUTSIDE",
+        "EXACT_STITCH",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "2f4c41477d88ce3094c3956ac2423ec2473409fcfdf9bb44b6d3762922eea831"
+      ]
+    },
+    {
+      "group": [
+        "sh-huangpu-01",
+        "node/1890885411",
+        "node/6897141353",
+        "APPROACH_OUTSIDE",
+        "CONDITIONAL_SEAMS",
+        2
+      ],
+      "same_unweighted_graph": true,
+      "hashes": [
+        "db8202683f6d327d8d04eeff4b62b63de9f418a537a62fae5bf500077db25d6d"
+      ]
+    }
+  ],
+  "all_paired_graphs_equal": true,
+  "response_geometry_only": "No new route was computed by this aggregation. No route accuracy/IoU claimed without independent reference.",
+  "registry_sha256": "e4404246ee498120c3199723053c1a5c028076807ef90205c8c2a11a21b476f7",
+  "replay_registry_sha256": "ef76855a7e6ceb6dd8aaab71fa7cb9bb2a723079c04660102e1af3e0fb90c242"
+}

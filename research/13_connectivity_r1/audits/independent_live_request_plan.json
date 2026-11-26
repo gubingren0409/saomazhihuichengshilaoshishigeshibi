@@ -1,0 +1,32 @@
+{
+  "reviewer": "/root/connectivity_review",
+  "role": "PRE_SOLVER_INDEPENDENT_LIVE_REQUEST_DECLARATION",
+  "authorization": "Root authorized at most six independent live APP solver calls after formal completion and at most two final clean-package fresh calls; not part of the 104 formal request matrix",
+  "selection_uses_route_answers": false,
+  "GET_catalog_confirmed": "Both proposed novel IDs occur in the actual Edge-loaded current native start catalog. Native IDs and coordinates remain unchanged. Neither is a frozen baseline start, historical EXTRA start or locked mechanism endpoint.",
+  "fixed_fields": {
+    "scene_id": "sh-huangpu-01",
+    "door_id": "node/6897145227",
+    "purpose": "APPROACH_OUTSIDE",
+    "area_routing": "FULL_FACE",
+    "seam_max_m": 2.0
+  },
+  "ui_calls": [
+    {"case_id": "INDEPENDENT_UI_COMPARE_B0", "start_id": "node/10073042336", "method": "F0", "connectivity_mode": "FROZEN_FULL_FACE", "trigger": "Actual UI compare button, first request"},
+    {"case_id": "INDEPENDENT_UI_COMPARE_B3", "start_id": "node/10073042336", "method": "F0", "connectivity_mode": "CONDITIONAL_SEAMS", "trigger": "Same actual UI compare button, second request"},
+    {"case_id": "INDEPENDENT_UI_NOVEL_B1", "start_id": "node/1890877354", "method": "F0", "connectivity_mode": "SOURCE_COMPLETE", "trigger": "Actual compute button, new original native start"},
+    {"case_id": "INDEPENDENT_UI_LATE_B2", "start_id": "node/1890877354", "method": "F1", "connectivity_mode": "EXACT_STITCH", "trigger": "Actual compute button; real backend response held while scene/door/purpose/method/mode controls change, then released without substitution"},
+    {"case_id": "INDEPENDENT_UI_PARALLEL_F0", "start_id": "node/1890877354", "method": "F0", "connectivity_mode": "CONDITIONAL_SEAMS", "trigger": "Actual compute button in first page of the same Edge browser"},
+    {"case_id": "INDEPENDENT_UI_PARALLEL_F1", "start_id": "node/1890877354", "method": "F1", "connectivity_mode": "CONDITIONAL_SEAMS", "trigger": "Concurrent actual compute button in second page of the same Edge browser"}
+  ],
+  "final_clean_calls": [
+    {"case_id": "INDEPENDENT_CLEAN_NOVEL_F0", "start_id": "node/1890877364", "method": "F0", "connectivity_mode": "CONDITIONAL_SEAMS", "trigger": "Fresh final ZIP unpack, new temporary loopback PID, first cold actual request"},
+    {"case_id": "INDEPENDENT_CLEAN_NOVEL_F1", "start_id": "node/1890877364", "method": "F1", "connectivity_mode": "CONDITIONAL_SEAMS", "trigger": "Same clean temporary service and graph, second actual request"}
+  ],
+  "request_id_policy": "Actual UI uses its native UI-UUID request identity; all routing fields above are fixed before solver calls and each actual nonce is recorded. Clean replay uses new INDEPENDENT-CLEAN UUIDs. No request_id is reused to supply an answer.",
+  "maximum_new_UI_solver_calls": 6,
+  "maximum_new_final_clean_solver_calls": 2,
+  "current_actual_new_independent_solver_calls": 0,
+  "preconditions": ["Wait for root formal-completion notification before UI POST", "Wait for root final-archive notification before clean replay", "Check all current selected routing fields against this declaration before every POST", "Stop and report if an undeclared routing request would be sent"],
+  "user_observation": "PENDING_USER_OBSERVATION"
+}
