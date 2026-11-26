@@ -1,0 +1,12 @@
+# 图件与数字来源
+
+原阶段：FREE-SPACE-R1-FINAL；材料角色：CORE_RESEARCH。
+
+- 包内文件：`08_free_space_inference/free_space_numbers.csv`；本轮派生表（非原ZIP成员）；父来源见表内source_member/source_table_member及其SHA；父固定包SHA256：`1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a`；文件SHA256：`92117712ba5535b320b154530f83d4063d973c37f89b6ee3d1acd2ee349e142d`；版本：FINAL_OR_EXPLICIT_HISTORICAL
+- 包内文件：`sources/FREE_SPACE_FINAL/selected/runs/decision_numbers.json`；原成员：`runs/decision_numbers.json`；固定包SHA256：`1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a`；文件SHA256：`8576b819bbfae0e613778dff48772bb9fd5931f45e28ca4759642b5ac30831ed`；版本：FINAL_OR_EXPLICIT_HISTORICAL
+- 包内文件：`sources/FREE_SPACE_FINAL/selected/visuals/figures/01-north-full-route.png`；原成员：`visuals/figures/01-north-full-route.png`；固定包SHA256：`1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a`；文件SHA256：`dd742e5478249d75c529d947e8fa69d22016e7b2fa4306961eabab02ce5195a1`；版本：FINAL_OR_EXPLICIT_HISTORICAL
+- 包内文件：`sources/FREE_SPACE_FINAL/selected/visuals/figures/02-north-three-methods.png`；原成员：`visuals/figures/02-north-three-methods.png`；固定包SHA256：`1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a`；文件SHA256：`3d13bf381ebb62c0a60f5dcfeb862f36bf0dba4fed084b0201e514e70a99b4e9`；版本：FINAL_OR_EXPLICIT_HISTORICAL
+- 包内文件：`sources/FREE_SPACE_FINAL/selected/visuals/figures/04-new-reachability.png`；原成员：`visuals/figures/04-new-reachability.png`；固定包SHA256：`1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a`；文件SHA256：`6acb39a19efd3ab834b4b1dbde5e5ba27fcab132a94dae17558c16a85b58128a`；版本：FINAL_OR_EXPLICIT_HISTORICAL
+- 包内文件：`sources/FREE_SPACE_FINAL/selected/visuals/figures/05-still-no-path.png`；原成员：`visuals/figures/05-still-no-path.png`；固定包SHA256：`1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a`；文件SHA256：`7b3eaeb8584f523c5743abb1277bcd4b419eaf2eeff19c374340f05237821ace`；版本：FINAL_OR_EXPLICIT_HISTORICAL
+- 包内文件：`sources/FREE_SPACE_FINAL/selected/visuals/figures/06-water-and-policy.png`；原成员：`visuals/figures/06-water-and-policy.png`；固定包SHA256：`1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a`；文件SHA256：`8cb413637a1f5b9550c257944a30e4622f4fadc76326eae32bf567dd788b092f`；版本：FINAL_OR_EXPLICIT_HISTORICAL
+- 包内文件：`sources/FREE_SPACE_FINAL/selected/visuals/figures/08-private-before-after.png`；原成员：`visuals/figures/08-private-before-after.png`；固定包SHA256：`1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a`；文件SHA256：`cfda854616188be9ad1fc9b74f3e943a53da08bf3ca872856bd2090a0192f09f`；版本：FINAL_OR_EXPLICIT_HISTORICAL

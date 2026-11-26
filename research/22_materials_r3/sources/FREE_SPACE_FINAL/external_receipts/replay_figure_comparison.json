@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "file": "08-private-before-after.png",
+      "packaged_sha256": "cfda854616188be9ad1fc9b74f3e943a53da08bf3ca872856bd2090a0192f09f",
+      "replay_sha256": "cfda854616188be9ad1fc9b74f3e943a53da08bf3ca872856bd2090a0192f09f",
+      "byte_exact": true
+    },
+    {
+      "file": "08-private-before-after.svg",
+      "packaged_sha256": "b30147e9216ba9e84fb78f1665cb26081d21b9909fb722c4507c48f92083bb74",
+      "replay_sha256": "b30147e9216ba9e84fb78f1665cb26081d21b9909fb722c4507c48f92083bb74",
+      "byte_exact": true
+    }
+  ],
+  "scope": "actual unpacked Edge re-export 08 only; other seven originals independently checked against stage record",
+  "browser_navigation_log_note": "A server-side WinError10053 client-disconnect occurred while changing pages; all file/HTTP views, page checks and exports passed, no browser page errors"
+}

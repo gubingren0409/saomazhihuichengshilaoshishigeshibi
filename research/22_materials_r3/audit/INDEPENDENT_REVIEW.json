@@ -1,0 +1,44 @@
+{
+  "reviewer": "/root/r3_independent",
+  "status": "PASS_FOR_FROZEN_MATERIALS_HANDOFF",
+  "review_time": "2026-11-19T01:43:15.899707+08:00",
+  "independent_of_main_generation": true,
+  "original_fixed_archives_sha_checked": 8,
+  "source_records": 675,
+  "source_original_member_exact_matches": 663,
+  "external_postseal_receipts_checked": 5,
+  "derived_tables_separate": 7,
+  "number_records": 107,
+  "JSON_value_rechecks": 83,
+  "latency_distribution_rows_recomputed": 165,
+  "formal_latency_observations": 420,
+  "primary_freespace_rows_compared": 123,
+  "unique_freespace_observations_preserved": 21,
+  "unique_freespace_predictions_preserved": 63,
+  "main_F0_F1_saved_structure_pairs_checked": 21,
+  "browser_sections": 11,
+  "browser_images": 30,
+  "new_solver_calls": 0,
+  "new_external_requests": 0,
+  "issues_corrected": [
+    "E05 explicit metric denominator",
+    "Derived table not original member",
+    "R0/R1/R2 identity semantics",
+    "REV1config evidence inclusion",
+    "E01/E02 legend clarity"
+  ],
+  "package_bindings": {
+    "04_MASTER_NUMBERS_TABLE.csv": "bae99f1fdb612735d2b91360decda4e3bed6b83ad6e18238716492f3a38dc875",
+    "figures/FIGURE_CATALOG.csv": "a080dde3ffb69383946ca492af44dc09d6e61d2b0e6ae2724e0fa0dc01bb4537",
+    "evidence/SOURCE_INDEX.csv": "187447b80cd783abf7d8847cd6fe6e9c535f8070f2dc0439c37f48072bc92b6c",
+    "index.html": "9e04c3f8d3bf281c1c29fdca577c204a8eb8c147b8c28774eac3ef7c34d8079d",
+    "01_CORRECTION_LOG.md": "ad91977499260f38646a49b842525ad27f917f8d7eac9c1026a11205d465a07c"
+  },
+  "postseal_zip_verification": "PENDING_ACTUAL_SEALED_ZIP",
+  "limitations": [
+    "Notfield/publicaccess/layercertification",
+    "Norebuildingallhistoricgraphsorsolvers",
+    "NoHTTPdynamicorperformancererun",
+    "Materialreadabilitynotfullhistoricalruntimecontainment"
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "status": "FAIL",
+  "raw_observations": 453,
+  "warmups_excluded": 33,
+  "formal_observations": 420,
+  "formal_outcomes": {
+    "PASS": 380,
+    "NO_PATH": 40
+  },
+  "configurations": [
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "EDGE_BAND",
+      "method": "F0",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 30,
+      "PASS_count": 30,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6098
+      ],
+      "graph_arcs": [
+        22366
+      ],
+      "input_graph_sha256": [
+        "b17b2b31af10759947ed0a84157cc8f8571b7875722562c584d0d93e5d380ce1"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "EDGE_BAND",
+      "method": "F0",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6098
+      ],
+      "graph_arcs": [
+        22366
+      ],
+      "input_graph_sha256": [
+        "b17b2b31af10759947ed0a84157cc8f8571b7875722562c584d0d93e5d380ce1"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "EDGE_BAND",
+      "method": "F1",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 30,
+      "PASS_count": 30,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6098
+      ],
+      "graph_arcs": [
+        22366
+      ],
+      "input_graph_sha256": [
+        "b17b2b31af10759947ed0a84157cc8f8571b7875722562c584d0d93e5d380ce1"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "EDGE_BAND",
+      "method": "F1",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6098
+      ],
+      "graph_arcs": [
+        22366
+      ],
+      "input_graph_sha256": [
+        "b17b2b31af10759947ed0a84157cc8f8571b7875722562c584d0d93e5d380ce1"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "FULL_FACE",
+      "method": "F0",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 30,
+      "PASS_count": 30,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6101
+      ],
+      "graph_arcs": [
+        22394
+      ],
+      "input_graph_sha256": [
+        "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "FULL_FACE",
+      "method": "F0",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6101
+      ],
+      "graph_arcs": [
+        22394
+      ],
+      "input_graph_sha256": [
+        "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "FULL_FACE",
+      "method": "F1",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 30,
+      "PASS_count": 30,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6101
+      ],
+      "graph_arcs": [
+        22394
+      ],
+      "input_graph_sha256": [
+        "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "FULL_FACE",
+      "method": "F1",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6101
+      ],
+      "graph_arcs": [
+        22394
+      ],
+      "input_graph_sha256": [
+        "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "MEDIUM_TWO_OVERLAPPING_FROZEN_CROPS",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "EDGE_BAND",
+      "method": "F0",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 30,
+      "PASS_count": 30,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6804
+      ],
+      "graph_arcs": [
+        23644
+      ],
+      "input_graph_sha256": [
+        "cda51d3104a4e94ab5e591eb832ad90018458e5e2c08c290f1ef07122d395430"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "MEDIUM_TWO_OVERLAPPING_FROZEN_CROPS",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "EDGE_BAND",
+      "method": "F0",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6804
+      ],
+      "graph_arcs": [
+        23644
+      ],
+      "input_graph_sha256": [
+        "cda51d3104a4e94ab5e591eb832ad90018458e5e2c08c290f1ef07122d395430"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "MEDIUM_TWO_OVERLAPPING_FROZEN_CROPS",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "EDGE_BAND",
+      "method": "F1",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 30,
+      "PASS_count": 30,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6804
+      ],
+      "graph_arcs": [
+        23644
+      ],
+      "input_graph_sha256": [
+        "cda51d3104a4e94ab5e591eb832ad90018458e5e2c08c290f1ef07122d395430"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "MEDIUM_TWO_OVERLAPPING_FROZEN_CROPS",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "EDGE_BAND",
+      "method": "F1",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6804
+      ],
+      "graph_arcs": [
+        23644
+      ],
+      "input_graph_sha256": [
+        "cda51d3104a4e94ab5e591eb832ad90018458e5e2c08c290f1ef07122d395430"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "MEDIUM_TWO_OVERLAPPING_FROZEN_CROPS",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "FULL_FACE",
+      "method": "F0",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 30,
+      "PASS_count": 30,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6807
+      ],
+      "graph_arcs": [
+        23672
+      ],
+      "input_graph_sha256": [
+        "dbd06b62feb1e7f72931c06b7a66b5ee98c504f50f2ff17b955a348c45de84d6"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "MEDIUM_TWO_OVERLAPPING_FROZEN_CROPS",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "FULL_FACE",
+      "method": "F0",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6807
+      ],
+      "graph_arcs": [
+        23672
+      ],
+      "input_graph_sha256": [
+        "dbd06b62feb1e7f72931c06b7a66b5ee98c504f50f2ff17b955a348c45de84d6"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "MEDIUM_TWO_OVERLAPPING_FROZEN_CROPS",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "FULL_FACE",
+      "method": "F1",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 30,
+      "PASS_count": 30,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6807
+      ],
+      "graph_arcs": [
+        23672
+      ],
+      "input_graph_sha256": [
+        "dbd06b62feb1e7f72931c06b7a66b5ee98c504f50f2ff17b955a348c45de84d6"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "MEDIUM_TWO_OVERLAPPING_FROZEN_CROPS",
+      "query_type": "SINGLE_SHORTEST_PATH",
+      "mode": "FULL_FACE",
+      "method": "F1",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6807
+      ],
+      "graph_arcs": [
+        23672
+      ],
+      "input_graph_sha256": [
+        "dbd06b62feb1e7f72931c06b7a66b5ee98c504f50f2ff17b955a348c45de84d6"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "REPLAN_AFTER_FIXED_NATIVE_EDGE_REMOVAL",
+      "mode": "FULL_FACE",
+      "method": "F1",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 30,
+      "PASS_count": 0,
+      "NO_PATH_count": 30,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 0.0,
+      "no_path_ratio": 1.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [],
+      "graph_nodes": [
+        6101
+      ],
+      "graph_arcs": [
+        22393
+      ],
+      "input_graph_sha256": [
+        "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "REPLAN_AFTER_FIXED_NATIVE_EDGE_REMOVAL",
+      "mode": "FULL_FACE",
+      "method": "F1",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 0,
+      "NO_PATH_count": 10,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 0.0,
+      "no_path_ratio": 1.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [],
+      "graph_nodes": [
+        6101
+      ],
+      "graph_arcs": [
+        22393
+      ],
+      "input_graph_sha256": [
+        "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "TOP3_EXPERIMENTAL_ADAPTER",
+      "mode": "FULL_FACE",
+      "method": "F1",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 30,
+      "PASS_count": 30,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6101
+      ],
+      "graph_arcs": [
+        22394
+      ],
+      "input_graph_sha256": [
+        "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_LIBRARY_ONLY",
+      "query_type": "TOP3_EXPERIMENTAL_ADAPTER",
+      "mode": "FULL_FACE",
+      "method": "F1",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        180.58111866323975
+      ],
+      "graph_nodes": [
+        6101
+      ],
+      "graph_arcs": [
+        22394
+      ],
+      "input_graph_sha256": [
+        "773ed14e38c411e481c8724b1f6a3dc789fa7fdca78bd817f548676b3403f8fb"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_MUSEUM_TWO_DOORS",
+      "query_type": "MULTI_ENTRANCE_K2_SEQUENTIAL_COST_SELECTION_ADAPTER",
+      "mode": "FULL_FACE",
+      "method": "F1",
+      "temperature": "HOT_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        148.86312206979613
+      ],
+      "graph_nodes": [
+        38420
+      ],
+      "graph_arcs": [
+        290942
+      ],
+      "input_graph_sha256": [
+        "9e6af98a015554a340f8a30c17e42f934012475df94527de1abf3ee9a2ca4821"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    },
+    {
+      "scale": "SMALL_FROZEN_MUSEUM_TWO_DOORS",
+      "query_type": "MULTI_ENTRANCE_K2_SEQUENTIAL_COST_SELECTION_ADAPTER",
+      "mode": "FULL_FACE",
+      "method": "F1",
+      "temperature": "COLD_PROCESS",
+      "formal_n": 10,
+      "PASS_count": 10,
+      "NO_PATH_count": 0,
+      "RUNTIME_ERROR_count": 0,
+      "FAIL_count": 0,
+      "success_ratio": 1.0,
+      "no_path_ratio": 0.0,
+      "runtime_error_ratio": 0.0,
+      "route_lengths_m": [
+        148.86312206979613
+      ],
+      "graph_nodes": [
+        38420
+      ],
+      "graph_arcs": [
+        290942
+      ],
+      "input_graph_sha256": [
+        "9e6af98a015554a340f8a30c17e42f934012475df94527de1abf3ee9a2ca4821"
+      ],
+      "independent_sites": 1,
+      "independent_requests": 1
+    }
+  ],
+  "large_tested": false,
+  "joint_candidate_selector_tested": true,
+  "joint_selector_is_new_experiment_adapter_not_original_APP": true,
+  "candidate_counts_tested": [
+    1,
+    2
+  ],
+  "field_validation": false,
+  "independent_latency_test_sites": 2,
+  "primary_A0_excluded": true,
+  "current_API_changed": false,
+  "draft_while_workers_running": false
+}

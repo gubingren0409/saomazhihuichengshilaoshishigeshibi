@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-11-12T19:44:42.247309+00:00",
+  "reviewer": "/root/resume_review",
+  "status": "PASS_HISTORICAL_BUSINESS_AXIS_USAGE_RECOUNT",
+  "historical_records_checked": 8,
+  "checks": [
+    {
+      "request_id": "APP-01",
+      "historical_result_sha256": "e3bb0ec35680aec65011beb26a791f1dc3bc0bc0e38b282a65d129c5859bce3e",
+      "road_axis_segments": 4,
+      "road_axis_geometric_length_m": 52.17089760169881,
+      "axis_fraction": 0.3504622022990886
+    },
+    {
+      "request_id": "APP-02",
+      "historical_result_sha256": "27023b80a751e8d13b38d0a31f6f714905918164e348d41f7b459dcb382635e8",
+      "road_axis_segments": 4,
+      "road_axis_geometric_length_m": 52.17089760169881,
+      "axis_fraction": 0.3504622022990886
+    },
+    {
+      "request_id": "APP-03",
+      "historical_result_sha256": "ba59af704e4f2baae6dfd0057dbe754dc92a8e808303e9b80b74c098089a4c34",
+      "road_axis_segments": 12,
+      "road_axis_geometric_length_m": 125.56547183888841,
+      "axis_fraction": 0.4192063032644131
+    },
+    {
+      "request_id": "APP-04",
+      "historical_result_sha256": "d575926cfd8586908a7e68cb92da98bb7877f8eeccfac6f13cb587601be3d74f",
+      "road_axis_segments": 12,
+      "road_axis_geometric_length_m": 125.56547183888841,
+      "axis_fraction": 0.417460351739042
+    },
+    {
+      "request_id": "APP-05",
+      "historical_result_sha256": "d8372506b520bc0e9b986c05d69c8236ee3cbbb09f8b6a2803668487195cd0a4",
+      "road_axis_segments": 13,
+      "road_axis_geometric_length_m": 116.81027691937564,
+      "axis_fraction": 0.1752162213902393
+    },
+    {
+      "request_id": "APP-06",
+      "historical_result_sha256": "b4f72ac023944a8975ac0da47f50df8aa1dc33d06b137639daa8b2d2fb1df105",
+      "road_axis_segments": 13,
+      "road_axis_geometric_length_m": 116.81027691937564,
+      "axis_fraction": 0.17488758805003782
+    },
+    {
+      "request_id": "APP-07",
+      "historical_result_sha256": "09b49e3aff31e4c680894e8cded45db1110d7ad40909d56d9fec0d0ba0cf5c2e",
+      "road_axis_segments": 2,
+      "road_axis_geometric_length_m": 116.91684945301432,
+      "axis_fraction": 0.6474478080460284
+    },
+    {
+      "request_id": "APP-08",
+      "historical_result_sha256": "7a6b68c1e113a11d3eebbb7797ecf1550797ee69cd4541c84777e38941b95e33",
+      "road_axis_segments": 2,
+      "road_axis_geometric_length_m": 116.91684945301432,
+      "axis_fraction": 0.6474478080460284
+    }
+  ],
+  "failures": [],
+  "new_solver_calls": 0,
+  "new_network_requests": 0,
+  "limits": [
+    "Historical saved route source tags and lengths recounted; native is source line provenance, not a dedicated sidewalk/public safety guarantee.",
+    "No current side graph full business solve or physical walk was performed."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "status": "SUPPORTED_WITHIN_EXISTING_CAP",
+  "reviewer": "/root/free_evaluation",
+  "R0_archive_sha256": "2b5154e9e80afccd8a04901e7d3e81630dddbe7f50964c6f2ba005a5ce8b595b",
+  "static_fixture_calls_by_test": {
+    "test_01_unlabelled_frontage_really_routes": 1,
+    "test_02_no_positive_context_gate": 1,
+    "test_03_lawn_native_line_survives_no_area_opening": 1,
+    "test_04_building_interior_and_exact_terminal": 1,
+    "test_05_wall_open_locked_gate": 3,
+    "test_06_water_native_bridge_exact_exception": 1,
+    "test_07_explicit_level_vs_missing": 1,
+    "test_08_no_new_road_crossing_existing_native_kept": 1,
+    "test_09_enclosed_free_component_not_connected": 1,
+    "test_10_missing_data_is_not_default_free": 1,
+    "test_11_thin_wall_and_corner_cut": 1,
+    "test_12_cost_only_graph_identity_and_finite_connectivity": 1
+  },
+  "actual_cold_test_receipt": {
+    "status": "PASS",
+    "tests": 12,
+    "fixture_calls": 14,
+    "synthetic_region_builds": 28,
+    "role": "SYNTHETIC_ONLY_NOT_REAL_RECOVERY"
+  },
+  "test_source_sha256": "69decf9c7de9e7c6e89bafb98dd484134c09cf91cc8137686fb51fb55208ad99",
+  "budget": {
+    "execution_receipts_upper": 170,
+    "existing_interrupted_stage_adjustment": -2,
+    "correct_initial_suite_builds": 28,
+    "separate_targeted_single_fixture_builds": 2,
+    "correct_synthetic_research_builds": 30,
+    "prior_synthetic_estimate": 32,
+    "research_upper_before_W7_source_guard_repair": 198,
+    "remaining_before_cap": 2,
+    "cap": 200,
+    "new_W7_MC_F0_builds_supported": 2,
+    "replay_role": "Separate per prompt; actual cold replay50, not counted as new research selection"
+  },
+  "cache_qualification": {
+    "case": "W7a6b5a10076_G_080",
+    "observed_sha256": "23e340a99c013cc5ff10819fb8eb382481ebe2a0d9a8a9fed814134d38c7edf4",
+    "M0_surface_sha256": "67ea69cc3ea1dbf69df75d1103cb59503c79fb51eea7a04d9d280c9ff104832e",
+    "M1_surface_sha256": "67ea69cc3ea1dbf69df75d1103cb59503c79fb51eea7a04d9d280c9ff104832e",
+    "classification_frozen_before_query": true,
+    "pure_cache_only": "Strip calibration to observed SHA, classifier/config bindings and M0/M1 surfaces. No routes/query/reference/readlog. Current masked observation only.",
+    "source_new_guard": "Independent closed private parking original source identity; not target reference, member, or removed-mask geometry. Keep observed/query/reference bytes and old R0 outputs."
+  },
+  "limitation": "Earlier32 was a hand estimate. This verifies frozen suite source and actual cold counter; it does not claim a missing original per-fixture event log exists. New run must only build MC/F0=2 and share the F0 graph across finite costs; original receipts remain."
+}

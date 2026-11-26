@@ -1,0 +1,514 @@
+[
+  {
+    "candidate_id": "nyc_grand_central",
+    "name": "Grand Central周边街区（站房对象待核）",
+    "module": "A",
+    "module_name": "地图显示保真",
+    "status": "TESTABLE_GEOMETRY_RENDER_ONLY",
+    "retained_counts": {
+      "buildings": 362,
+      "sidewalk": 81
+    },
+    "available": "建筑轮廓与内环可核对；NYC另有登记人行面。",
+    "missing_input_or_reference": "独立时相图面/实地边界参考未取得；图层完整性、目标名称与建筑ID关联待核。",
+    "supported_scope": "可做源几何到渲染一致性检查；不能据此证明地图完整或现实精度。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "NEW_YORK_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/nyc_grand_central_buildings.json",
+        "sha256": "4f7d2659f9e372190db4eaaf028106aafdecf0c95ed114c5ac3b49637964b083"
+      },
+      {
+        "file": "phase2/samples/nyc_grand_central_sidewalk.json",
+        "sha256": "804e212893af2504fbf3fc911d92ff3e03695c09570e0d9ab6fc325945f7949a"
+      }
+    ],
+    "license": "NYC OpenData Terms; agency restrictions review",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "nyc_grand_central",
+    "name": "Grand Central周边街区（站房对象待核）",
+    "module": "B",
+    "module_name": "道路侧别/人行道关系",
+    "status": "PARTIAL_INPUT_MISSING_ROAD_RELATION_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 362,
+      "sidewalk": 81
+    },
+    "available": "已有原生人行道面，可作侧向几何输入。",
+    "missing_input_or_reference": "缺道路轴/车行范围、方向、侧别绑定、过街及层级；缺独立道路侧别参考。",
+    "supported_scope": "缺入口不阻止本模块研究；NYC可准备几何输入，但当前不能完整评价道路—侧别关系。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "NEW_YORK_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/nyc_grand_central_buildings.json",
+        "sha256": "4f7d2659f9e372190db4eaaf028106aafdecf0c95ed114c5ac3b49637964b083"
+      },
+      {
+        "file": "phase2/samples/nyc_grand_central_sidewalk.json",
+        "sha256": "804e212893af2504fbf3fc911d92ff3e03695c09570e0d9ab6fc325945f7949a"
+      }
+    ],
+    "license": "NYC OpenData Terms; agency restrictions review",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "nyc_grand_central",
+    "name": "Grand Central周边街区（站房对象待核）",
+    "module": "C",
+    "module_name": "步行面—步道接口",
+    "status": "PARTIAL_FACE_INPUT_MISSING_LINE_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 362,
+      "sidewalk": 81
+    },
+    "available": "已有登记人行面及内环；面并非已核验的线网。",
+    "missing_input_or_reference": "缺步道线、原生接点/接口、连接方向/层级及独立接通参考；人行面采集规范存在范围限制。",
+    "supported_scope": "无需先取得门坐标即可研究面线衔接；当前仅NYC具部分面输入。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "NEW_YORK_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/nyc_grand_central_buildings.json",
+        "sha256": "4f7d2659f9e372190db4eaaf028106aafdecf0c95ed114c5ac3b49637964b083"
+      },
+      {
+        "file": "phase2/samples/nyc_grand_central_sidewalk.json",
+        "sha256": "804e212893af2504fbf3fc911d92ff3e03695c09570e0d9ab6fc325945f7949a"
+      }
+    ],
+    "license": "NYC OpenData Terms; agency restrictions review",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "nyc_grand_central",
+    "name": "Grand Central周边街区（站房对象待核）",
+    "module": "D",
+    "module_name": "已登记门末段整链",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 362,
+      "sidewalk": 81
+    },
+    "available": "当前没有可空间匹配的原生门坐标/角色及完整外部网络。",
+    "missing_input_or_reference": "缺稳定门ID/坐标/角色、合法起点、步网、门前连接及独立连续通路参考。",
+    "supported_scope": "建筑轮廓、人行面均不能替代登记门或真实可通行证据。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "NEW_YORK_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/nyc_grand_central_buildings.json",
+        "sha256": "4f7d2659f9e372190db4eaaf028106aafdecf0c95ed114c5ac3b49637964b083"
+      },
+      {
+        "file": "phase2/samples/nyc_grand_central_sidewalk.json",
+        "sha256": "804e212893af2504fbf3fc911d92ff3e03695c09570e0d9ab6fc325945f7949a"
+      }
+    ],
+    "license": "NYC OpenData Terms; agency restrictions review",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "nyc_lincoln_center",
+    "name": "Lincoln Center周边街区（文化/商业/住宅语义待核）",
+    "module": "A",
+    "module_name": "地图显示保真",
+    "status": "TESTABLE_GEOMETRY_RENDER_ONLY",
+    "retained_counts": {
+      "buildings": 330,
+      "sidewalk": 91
+    },
+    "available": "建筑轮廓与内环可核对；NYC另有登记人行面。",
+    "missing_input_or_reference": "独立时相图面/实地边界参考未取得；图层完整性、目标名称与建筑ID关联待核。",
+    "supported_scope": "可做源几何到渲染一致性检查；不能据此证明地图完整或现实精度。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "NEW_YORK_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/nyc_lincoln_center_buildings.json",
+        "sha256": "cf36c554ba3d53e3155dd98a227b9f8eb87b6b0167ef571ea53aaf8e3f952fef"
+      },
+      {
+        "file": "phase2/samples/nyc_lincoln_center_sidewalk.json",
+        "sha256": "880827871c56e671fa44dbc6f015fc0cc690775162734b03deb5becad2a320e3"
+      }
+    ],
+    "license": "NYC OpenData Terms; agency restrictions review",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "nyc_lincoln_center",
+    "name": "Lincoln Center周边街区（文化/商业/住宅语义待核）",
+    "module": "B",
+    "module_name": "道路侧别/人行道关系",
+    "status": "PARTIAL_INPUT_MISSING_ROAD_RELATION_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 330,
+      "sidewalk": 91
+    },
+    "available": "已有原生人行道面，可作侧向几何输入。",
+    "missing_input_or_reference": "缺道路轴/车行范围、方向、侧别绑定、过街及层级；缺独立道路侧别参考。",
+    "supported_scope": "缺入口不阻止本模块研究；NYC可准备几何输入，但当前不能完整评价道路—侧别关系。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "NEW_YORK_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/nyc_lincoln_center_buildings.json",
+        "sha256": "cf36c554ba3d53e3155dd98a227b9f8eb87b6b0167ef571ea53aaf8e3f952fef"
+      },
+      {
+        "file": "phase2/samples/nyc_lincoln_center_sidewalk.json",
+        "sha256": "880827871c56e671fa44dbc6f015fc0cc690775162734b03deb5becad2a320e3"
+      }
+    ],
+    "license": "NYC OpenData Terms; agency restrictions review",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "nyc_lincoln_center",
+    "name": "Lincoln Center周边街区（文化/商业/住宅语义待核）",
+    "module": "C",
+    "module_name": "步行面—步道接口",
+    "status": "PARTIAL_FACE_INPUT_MISSING_LINE_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 330,
+      "sidewalk": 91
+    },
+    "available": "已有登记人行面及内环；面并非已核验的线网。",
+    "missing_input_or_reference": "缺步道线、原生接点/接口、连接方向/层级及独立接通参考；人行面采集规范存在范围限制。",
+    "supported_scope": "无需先取得门坐标即可研究面线衔接；当前仅NYC具部分面输入。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "NEW_YORK_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/nyc_lincoln_center_buildings.json",
+        "sha256": "cf36c554ba3d53e3155dd98a227b9f8eb87b6b0167ef571ea53aaf8e3f952fef"
+      },
+      {
+        "file": "phase2/samples/nyc_lincoln_center_sidewalk.json",
+        "sha256": "880827871c56e671fa44dbc6f015fc0cc690775162734b03deb5becad2a320e3"
+      }
+    ],
+    "license": "NYC OpenData Terms; agency restrictions review",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "nyc_lincoln_center",
+    "name": "Lincoln Center周边街区（文化/商业/住宅语义待核）",
+    "module": "D",
+    "module_name": "已登记门末段整链",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 330,
+      "sidewalk": 91
+    },
+    "available": "当前没有可空间匹配的原生门坐标/角色及完整外部网络。",
+    "missing_input_or_reference": "缺稳定门ID/坐标/角色、合法起点、步网、门前连接及独立连续通路参考。",
+    "supported_scope": "建筑轮廓、人行面均不能替代登记门或真实可通行证据。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "NEW_YORK_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/nyc_lincoln_center_buildings.json",
+        "sha256": "cf36c554ba3d53e3155dd98a227b9f8eb87b6b0167ef571ea53aaf8e3f952fef"
+      },
+      {
+        "file": "phase2/samples/nyc_lincoln_center_sidewalk.json",
+        "sha256": "880827871c56e671fa44dbc6f015fc0cc690775162734b03deb5becad2a320e3"
+      }
+    ],
+    "license": "NYC OpenData Terms; agency restrictions review",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_oodi",
+    "name": "Oodi / Kansalaistori周边街区",
+    "module": "A",
+    "module_name": "地图显示保真",
+    "status": "TESTABLE_GEOMETRY_RENDER_ONLY",
+    "retained_counts": {
+      "buildings": 112
+    },
+    "available": "建筑轮廓与内环可核对；NYC另有登记人行面。",
+    "missing_input_or_reference": "独立时相图面/实地边界参考未取得；图层完整性、目标名称与建筑ID关联待核。",
+    "supported_scope": "可做源几何到渲染一致性检查；不能据此证明地图完整或现实精度。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/hel_oodi_buildings_crsfix.json",
+        "sha256": "375d3b9afb606d25b3555039bd6941bc7820571c7e93d9ec955c4d500e87baec"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_oodi",
+    "name": "Oodi / Kansalaistori周边街区",
+    "module": "B",
+    "module_name": "道路侧别/人行道关系",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 112
+    },
+    "available": "没有保留可用道路轴、人行道或过街几何。",
+    "missing_input_or_reference": "缺道路轴/车行范围、方向、侧别绑定、过街及层级；缺独立道路侧别参考。",
+    "supported_scope": "缺入口不阻止本模块研究；NYC可准备几何输入，但当前不能完整评价道路—侧别关系。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/hel_oodi_buildings_crsfix.json",
+        "sha256": "375d3b9afb606d25b3555039bd6941bc7820571c7e93d9ec955c4d500e87baec"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_oodi",
+    "name": "Oodi / Kansalaistori周边街区",
+    "module": "C",
+    "module_name": "步行面—步道接口",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 112
+    },
+    "available": "YLRE步行/道路/绿地请求没有保留成功几何，不能把UNKNOWN当空图层。",
+    "missing_input_or_reference": "缺步道线、原生接点/接口、连接方向/层级及独立接通参考；人行面采集规范存在范围限制。",
+    "supported_scope": "无需先取得门坐标即可研究面线衔接；当前仅NYC具部分面输入。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/hel_oodi_buildings_crsfix.json",
+        "sha256": "375d3b9afb606d25b3555039bd6941bc7820571c7e93d9ec955c4d500e87baec"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_oodi",
+    "name": "Oodi / Kansalaistori周边街区",
+    "module": "D",
+    "module_name": "已登记门末段整链",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 112
+    },
+    "available": "当前没有可空间匹配的原生门坐标/角色及完整外部网络。",
+    "missing_input_or_reference": "缺稳定门ID/坐标/角色、合法起点、步网、门前连接及独立连续通路参考。",
+    "supported_scope": "Oodi官方文字说明三个朝向入口及开放时间，仅建筑级文字证据，不是门坐标标签；建筑多边形不能替代入口。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/hel_oodi_buildings_crsfix.json",
+        "sha256": "375d3b9afb606d25b3555039bd6941bc7820571c7e93d9ec955c4d500e87baec"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_meilahti",
+    "name": "Meilahti医院周边街区（目标对象待核）",
+    "module": "A",
+    "module_name": "地图显示保真",
+    "status": "TESTABLE_GEOMETRY_RENDER_ONLY",
+    "retained_counts": {
+      "buildings": 259
+    },
+    "available": "建筑轮廓与内环可核对；NYC另有登记人行面。",
+    "missing_input_or_reference": "独立时相图面/实地边界参考未取得；图层完整性、目标名称与建筑ID关联待核。",
+    "supported_scope": "可做源几何到渲染一致性检查；不能据此证明地图完整或现实精度。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/hel_meilahti_buildings_crsfix.json",
+        "sha256": "3043ac3c4792889c2f54aaca0bf2543e8d0f9f0be80b81de54e076a7bd5c2ce2"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_meilahti",
+    "name": "Meilahti医院周边街区（目标对象待核）",
+    "module": "B",
+    "module_name": "道路侧别/人行道关系",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 259
+    },
+    "available": "没有保留可用道路轴、人行道或过街几何。",
+    "missing_input_or_reference": "缺道路轴/车行范围、方向、侧别绑定、过街及层级；缺独立道路侧别参考。",
+    "supported_scope": "缺入口不阻止本模块研究；NYC可准备几何输入，但当前不能完整评价道路—侧别关系。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/hel_meilahti_buildings_crsfix.json",
+        "sha256": "3043ac3c4792889c2f54aaca0bf2543e8d0f9f0be80b81de54e076a7bd5c2ce2"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_meilahti",
+    "name": "Meilahti医院周边街区（目标对象待核）",
+    "module": "C",
+    "module_name": "步行面—步道接口",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 259
+    },
+    "available": "YLRE步行/道路/绿地请求没有保留成功几何，不能把UNKNOWN当空图层。",
+    "missing_input_or_reference": "缺步道线、原生接点/接口、连接方向/层级及独立接通参考；人行面采集规范存在范围限制。",
+    "supported_scope": "无需先取得门坐标即可研究面线衔接；当前仅NYC具部分面输入。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/hel_meilahti_buildings_crsfix.json",
+        "sha256": "3043ac3c4792889c2f54aaca0bf2543e8d0f9f0be80b81de54e076a7bd5c2ce2"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_meilahti",
+    "name": "Meilahti医院周边街区（目标对象待核）",
+    "module": "D",
+    "module_name": "已登记门末段整链",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {
+      "buildings": 259
+    },
+    "available": "当前没有可空间匹配的原生门坐标/角色及完整外部网络。",
+    "missing_input_or_reference": "缺稳定门ID/坐标/角色、合法起点、步网、门前连接及独立连续通路参考。",
+    "supported_scope": "建筑轮廓、人行面均不能替代登记门或真实可通行证据。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [
+      {
+        "file": "phase2/samples/hel_meilahti_buildings_crsfix.json",
+        "sha256": "3043ac3c4792889c2f54aaca0bf2543e8d0f9f0be80b81de54e076a7bd5c2ce2"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_kallio",
+    "name": "Kallio住宅混合街区（用途依字段逐对象待核）",
+    "module": "A",
+    "module_name": "地图显示保真",
+    "status": "MISSING_INPUT_METADATA_ONLY",
+    "retained_counts": {},
+    "available": "仅保留检索窗口和元数据，未保留几何。",
+    "missing_input_or_reference": "独立时相图面/实地边界参考未取得；图层完整性、目标名称与建筑ID关联待核。",
+    "supported_scope": "可做源几何到渲染一致性检查；不能据此证明地图完整或现实精度。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_kallio",
+    "name": "Kallio住宅混合街区（用途依字段逐对象待核）",
+    "module": "B",
+    "module_name": "道路侧别/人行道关系",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {},
+    "available": "没有保留可用道路轴、人行道或过街几何。",
+    "missing_input_or_reference": "缺道路轴/车行范围、方向、侧别绑定、过街及层级；缺独立道路侧别参考。",
+    "supported_scope": "缺入口不阻止本模块研究；NYC可准备几何输入，但当前不能完整评价道路—侧别关系。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_kallio",
+    "name": "Kallio住宅混合街区（用途依字段逐对象待核）",
+    "module": "C",
+    "module_name": "步行面—步道接口",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {},
+    "available": "YLRE步行/道路/绿地请求没有保留成功几何，不能把UNKNOWN当空图层。",
+    "missing_input_or_reference": "缺步道线、原生接点/接口、连接方向/层级及独立接通参考；人行面采集规范存在范围限制。",
+    "supported_scope": "无需先取得门坐标即可研究面线衔接；当前仅NYC具部分面输入。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  },
+  {
+    "candidate_id": "hel_kallio",
+    "name": "Kallio住宅混合街区（用途依字段逐对象待核）",
+    "module": "D",
+    "module_name": "已登记门末段整链",
+    "status": "MISSING_INPUT_AND_REFERENCE",
+    "retained_counts": {},
+    "available": "当前没有可空间匹配的原生门坐标/角色及完整外部网络。",
+    "missing_input_or_reference": "缺稳定门ID/坐标/角色、合法起点、步网、门前连接及独立连续通路参考。",
+    "supported_scope": "建筑轮廓、人行面均不能替代登记门或真实可通行证据。",
+    "input_exposure": "EXPOSED_AUTHOR_AND_REVIEWER",
+    "reference_exposure": "NO_COORDINATE_GOLD_ACQUIRED; historical source observations exposed",
+    "group": "HELSINKI_NETWORK_UNKNOWN",
+    "split": "UNASSIGNED_NOT_FROZEN",
+    "source_files": [],
+    "license": "CC BY 4.0",
+    "public_release": "NOT_APPROVED"
+  }
+]

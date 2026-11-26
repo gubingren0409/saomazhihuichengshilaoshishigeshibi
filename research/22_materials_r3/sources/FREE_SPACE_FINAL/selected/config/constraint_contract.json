@@ -1,0 +1,56 @@
+{
+  "common_to": [
+    "M1-C",
+    "F0",
+    "F1"
+  ],
+  "coverage": "ACQUIRED_PARSEABLE_SOURCE_CLIP_FOOTPRINT; REAL_MAP_OMISSIONS_REMAIN_UNKNOWN",
+  "crs": "EPSG:32651",
+  "gates_buffer_radius_m": 0.3,
+  "hard_line_clearance_m": 0.15,
+  "native_exception": "UNCHANGED_VALID_SOURCE_LINE_ONLY; NO_AREA_DILATION",
+  "positive_admission_gate_used_for_F0": false,
+  "reference_geometry_used": false,
+  "road_policy": "NO_NEW_FREE_CROSSING_ZERO_WIDTH_SOURCE_CENTERLINE",
+  "road_width_m": null,
+  "source_policy": "FROZEN_INDEPENDENT_MOTOR_CENTERLINES_ONLY; NO_NEW_SOURCE_REQUEST",
+  "version": "COMMON_GUARDS_V1",
+  "active_export_revision": "V3_FOR_W7_SOURCE_ACCESS_REPAIR; V2_FOR_OTHER_INPUTS",
+  "active_guard_directory": "data/common_guards_v2 (default); see active_guard_overrides",
+  "active_policy_contract": "config/constraint_contract_v2.json",
+  "active_policy_contract_sha256": "4ced230fd7ac7ec21fb9a3e293ee2f6ae6589c08d2b436332ad03b7de3f78b10",
+  "active_evidence_index": "data/constraint_evidence.jsonl",
+  "active_evidence_index_sha256": "008537315a8a4c2d2dd7336cca0057f40fd466db51ecf6e6afd1199e748f20e9",
+  "initial_version_preserved": {
+    "policy": "config/constraint_contract_v1_initial.json",
+    "evidence": "data/constraint_evidence_v1_initial.jsonl",
+    "guards": "data/common_guards"
+  },
+  "explanation": "V2 retains independent motor roads sharing target-node identities without serializing node/member arrays. V1 over-omissions were retained for diagnostics and are inactive. Schema COMMON_GUARDS_V1 is distinct from export revision V2.",
+  "default_guard_directory": "data/common_guards_v2",
+  "active_guard_overrides": {
+    "W7a6b5a10076_G_080": {
+      "path": "data/common_guards_v3/W7a6b5a10076_G_080.json",
+      "sha256": "ce13b144101dce47e94041da7ca5a1c1d744ba94c6d4280e3ce3110deea54b7e",
+      "new_negative_source_ids": [
+        "way/178730989"
+      ],
+      "positive_boundary_exception_imported": false
+    }
+  },
+  "R0_gap_preserved": "audits/common_constraint_gap_W7a6b5a10076.json",
+  "R1_access_repair_audit": "audits/access_policy_FINAL_R1.json",
+  "R1_access_repair_audit_sha256": "3cb690b170fc7d0befaedfa78a4c6b0cfb6a91d190bec1a32f5e187044701485",
+  "R1_source_active_index_updated_at": "2026-11-11T15:24:34.293569+08:00",
+  "active_policy_contract_role": "DEFAULT_LEGACY_V2_ONLY; W7_R1_EFFECTIVE_OVERRIDE_BELOW",
+  "effective_contract_overrides": {
+    "W7a6b5a10076_G_080": {
+      "path": "data/constraints/W7a6b5a10076_G_080.json",
+      "sha256": "073d6c5945adf1707c8b166351f00742fbc0fa4c19effd2ebb225fef41f028ca",
+      "helper": "src/common_constraints.py",
+      "helper_sha256": "bc8e8645a257e7c8f78ab694cd9eccb0aeedd1c6341bc10f28b4cc55e5c6938f",
+      "permission_geometry_scope": "FIXED_D30",
+      "positive_boundary_exception_count": 0
+    }
+  }
+}

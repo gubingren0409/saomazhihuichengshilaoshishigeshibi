@@ -1,0 +1,607 @@
+{
+  "status": "PASS_NO_KNOWN_AREA_DEFAULT_OVERLAP",
+  "reviewer": "/root/free_evaluation",
+  "scope": "POST_PREDICTION_SOURCE_COMPLETENESS_DIAGNOSTIC; NO_REFERENCE_READ_OR_PREDICTION_CHANGE",
+  "fixed_domains": 26,
+  "closed_restricted_source_inventory": [
+    {
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "source_id": "way/178730989",
+      "tags": {
+        "access": "private",
+        "amenity": "parking"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 416.81230849592936
+    },
+    {
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "source_id": "way/178731809",
+      "tags": {
+        "access": "private",
+        "amenity": "parking"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 309.2326880966908
+    },
+    {
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "source_id": "way/182517178",
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 315.43238564179865
+    },
+    {
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "source_id": "way/182517180",
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 230.9255246515002
+    },
+    {
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "source_id": "way/182517183",
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 514.1207700218542
+    },
+    {
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "source_id": "way/292718778",
+      "tags": {
+        "access": "no",
+        "addr:housenumber": "219",
+        "addr:street": "九江路",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:levels": "7",
+        "denomination": "anglican",
+        "heritage": "yes",
+        "heritage:operator": "上海市优秀历史建筑",
+        "heritage:ref": "1989年47号",
+        "name": "圣三一堂",
+        "name:en": "Holy Trinity Cathedral",
+        "religion": "christian",
+        "start_date": "1869",
+        "wikidata": "Q10927926",
+        "wikimedia_commons": "Category:Holy Trinity Cathedral (Shanghai)",
+        "wikipedia": "en:Holy Trinity Church, Shanghai"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 1154.5694481734138
+    },
+    {
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "source_id": "way/446937294",
+      "tags": {
+        "access": "no",
+        "addr:housenumber": "190",
+        "addr:street": "北京东路",
+        "building": "yes",
+        "building:levels": "5",
+        "heritage": "4",
+        "heritage:operator": "上海市优秀历史建筑",
+        "heritage:ref": "4A006",
+        "name": "沙美大楼",
+        "name:en": "Shanghai Trust Building",
+        "old_name": "信托大楼;上海信托公司",
+        "source": "Bing",
+        "start_date": "1918"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 742.5882340538118
+    },
+    {
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "source_id": "way/762453292",
+      "tags": {
+        "access": "private",
+        "amenity": "parking"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 826.330253402753
+    },
+    {
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "source_id": "way/1012295706",
+      "tags": {
+        "access": "private",
+        "highway": "living_street",
+        "surface": "paved"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 12312.824715921697
+    },
+    {
+      "source_clip": "sh-library.osm.json",
+      "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "source_id": "way/436117082",
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "operator": "Gascogne Apartments",
+        "parking": "surface"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 328.3299422258189
+    },
+    {
+      "source_clip": "sh-library.osm.json",
+      "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "source_id": "way/577512466",
+      "tags": {
+        "access": "private",
+        "highway": "service",
+        "service": "alley"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 2771.7812479379904
+    },
+    {
+      "source_clip": "sh-library.osm.json",
+      "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "source_id": "way/762453292",
+      "tags": {
+        "access": "private",
+        "amenity": "parking"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 826.330253402753
+    },
+    {
+      "source_clip": "sh-newworld.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "source_id": "way/12107064",
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "foot": "no",
+        "highway": "trunk_link",
+        "lanes": "3",
+        "layer": "2",
+        "oneway": "yes"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 12737.337599651899
+    },
+    {
+      "source_clip": "sh-newworld.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "source_id": "way/178730989",
+      "tags": {
+        "access": "private",
+        "amenity": "parking"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 416.81230849592936
+    },
+    {
+      "source_clip": "sh-newworld.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "source_id": "way/178731809",
+      "tags": {
+        "access": "private",
+        "amenity": "parking"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 309.2326880966908
+    },
+    {
+      "source_clip": "sh-newworld.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "source_id": "way/182517178",
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 315.43238564179865
+    },
+    {
+      "source_clip": "sh-newworld.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "source_id": "way/182517180",
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 230.9255246515002
+    },
+    {
+      "source_clip": "sh-newworld.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "source_id": "way/182517183",
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 514.1207700218542
+    },
+    {
+      "source_clip": "sh-newworld.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "source_id": "way/292718778",
+      "tags": {
+        "access": "no",
+        "addr:housenumber": "219",
+        "addr:street": "九江路",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:levels": "7",
+        "denomination": "anglican",
+        "heritage": "yes",
+        "heritage:operator": "上海市优秀历史建筑",
+        "heritage:ref": "1989年47号",
+        "name": "圣三一堂",
+        "name:en": "Holy Trinity Cathedral",
+        "religion": "christian",
+        "start_date": "1869",
+        "wikidata": "Q10927926",
+        "wikimedia_commons": "Category:Holy Trinity Cathedral (Shanghai)",
+        "wikipedia": "en:Holy Trinity Church, Shanghai"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 1154.5694481734138
+    },
+    {
+      "source_clip": "sh-newworld.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "source_id": "way/446937294",
+      "tags": {
+        "access": "no",
+        "addr:housenumber": "190",
+        "addr:street": "北京东路",
+        "building": "yes",
+        "building:levels": "5",
+        "heritage": "4",
+        "heritage:operator": "上海市优秀历史建筑",
+        "heritage:ref": "4A006",
+        "name": "沙美大楼",
+        "name:en": "Shanghai Trust Building",
+        "old_name": "信托大楼;上海信托公司",
+        "source": "Bing",
+        "start_date": "1918"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 742.5882340538118
+    },
+    {
+      "source_clip": "sh-newworld.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "source_id": "way/1012295706",
+      "tags": {
+        "access": "private",
+        "highway": "living_street",
+        "surface": "paved"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 12312.824715921697
+    },
+    {
+      "source_clip": "sh-newworld.osm.json",
+      "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "source_id": "way/1574085322",
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "railway": "turntable"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 747.4623116370988
+    },
+    {
+      "source_clip": "sh-tower.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "source_id": "way/959064118",
+      "tags": {
+        "access": "private",
+        "amenity": "parking"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 1573.754804559681
+    },
+    {
+      "source_clip": "sh-tower.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "source_id": "way/964405403",
+      "tags": {
+        "access": "private",
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 148.80520730372697
+    },
+    {
+      "source_clip": "sh-tower.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "source_id": "way/964452005",
+      "tags": {
+        "access": "private",
+        "highway": "service"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 33609.96559463058
+    },
+    {
+      "source_clip": "sh-tower.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "source_id": "way/967274342",
+      "tags": {
+        "access": "private",
+        "highway": "footway"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 780.1442748284896
+    },
+    {
+      "source_clip": "sh-tower.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "source_id": "way/969466787",
+      "tags": {
+        "access": "private",
+        "highway": "service"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 287.39529317179904
+    },
+    {
+      "source_clip": "sh-tower.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "source_id": "way/969466792",
+      "tags": {
+        "access": "private",
+        "highway": "footway"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 246.98115322088978
+    },
+    {
+      "source_clip": "sh-tower.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "source_id": "way/969466803",
+      "tags": {
+        "access": "private",
+        "amenity": "parking"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 746.9330959109752
+    },
+    {
+      "source_clip": "sh-tower.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "source_id": "way/1198910503",
+      "tags": {
+        "access": "private",
+        "highway": "service"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 115.03633280347879
+    },
+    {
+      "source_clip": "sh-tower.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "source_id": "way/1198910505",
+      "tags": {
+        "access": "private",
+        "highway": "service"
+      },
+      "role": "CLOSED_LINEAR_OBJECT_NOT_INFERRED_AS_AREA",
+      "area_m2": 164.44352500162535
+    },
+    {
+      "source_clip": "sh-tower.osm.json",
+      "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "source_id": "way/1533181378",
+      "tags": {
+        "access": "private",
+        "building": "yes",
+        "name": "上海海洋水族馆管理楼",
+        "office": "company",
+        "operator": "上海海洋水族馆"
+      },
+      "role": "IMPLICIT_AREA_TAGS",
+      "area_m2": 1162.7272203411917
+    }
+  ],
+  "rows": [
+    {
+      "id": "W0440b97497a_N_080",
+      "prediction_sha256": "e26e70e3fbe5457a96bfd2895b7e4a2bf9f34aa23b7d7a3458a479f401118c03",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W0caca58bc41_G_080",
+      "prediction_sha256": "e57543176e3ae23aec4214e9f9f23e5a9b297917959215d0eef1b71f6552e917",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W2b809bbe6b8_G_080",
+      "prediction_sha256": "a11fa23ee8f456e316cc066f35e9dc4d9c3183b641b797cfaeeb42d955e22803",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W363939afb45_G_080",
+      "prediction_sha256": "528c7589ad570fd64a447fe515e68ed95582c54e9e6e48433a5dce989f8470b6",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W7a6b5a10076_G_080",
+      "prediction_sha256": "0c8a49e391438d77384f23034bddf6a482dfbe1d2893075623f69c0bf46632b1",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "closed_restriction_hits": [
+        {
+          "source_id": "way/178730989",
+          "tags": {
+            "access": "private",
+            "amenity": "parking"
+          },
+          "area_role": "IMPLICIT_AREA_TAGS",
+          "inside_D30_m2": 128.3885591605168,
+          "assumed_overlap_m2": 0.0,
+          "native_area_overlap_m2": 0.0,
+          "source_present_in_original_observed_context": false,
+          "masked_or_removed_source_identity": false
+        }
+      ]
+    },
+    {
+      "id": "W87f642a7b21_N_080",
+      "prediction_sha256": "eb5a27c38a55957e3354822c0ba0ab3f7adedffbfb1e81edfb50bc834aba7273",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "Wacc0185d756_G_080",
+      "prediction_sha256": "3fe420575e95a7027879021806576b5ef436349e5abf8c542dc518495cf1de62",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "Wae8bd8566f9_G_080",
+      "prediction_sha256": "c56e9baff44dc8d36a20cf2a5c5e9571b41ae858d77bdb5922129b7f24d0d461",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "We43ad3502c7_G_080",
+      "prediction_sha256": "5dfad6fa963c9a7d734d786222de4b6a0db669f7c0bbd2848ac50ae1d1bdba2b",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "NORTH_160",
+      "prediction_sha256": "f42aef6af3dc578780d13543d5493bcfe19558a7b0eb63593c9fa8435d45a7d7",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W71107d26ecd_G_080",
+      "prediction_sha256": "81da152c83eb2552d4b3d6dc67449f6f99f20df5046332b24195de06d213a06b",
+      "source_clip": "sh-library.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W9ec65a55fde_G_080",
+      "prediction_sha256": "80e18cb2b72272d387fb56d67af4f920cc28f6fc50a280d0f77ebe3503b85dd7",
+      "source_clip": "sh-library.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "Wc4183046a70_G_080",
+      "prediction_sha256": "a877809d99c682f8b880a634439a7d2f65c47147d353927da4cceba103034c21",
+      "source_clip": "sh-library.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W384c2d89f5c_G_080",
+      "prediction_sha256": "d341d32920064e65904214aecdeb04830804d3b3253e87d949263b8cd442a622",
+      "source_clip": "sh-newworld.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W4d1eccec240_N_080",
+      "prediction_sha256": "bcc44bd6d36675e966797fb4d1345be88d36b3bc4f8b880571335341df0b67a5",
+      "source_clip": "sh-newworld.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W6daddd19fdb_G_080",
+      "prediction_sha256": "fa088b16df2263371c6f0b7965a953198d0750145e6472ee7aaa80a9b69df29e",
+      "source_clip": "sh-newworld.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W745941f0f92_G_080",
+      "prediction_sha256": "e749be0aea88cfec6c3eea96e6f8e27e00134d9254eb3e60d81bf47fef3ce0e5",
+      "source_clip": "sh-newworld.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W85f439ac693_G_080",
+      "prediction_sha256": "cba638e859ad4c43d0c341c3fe9c794d08afe884397348dd6b7e857215f49ec4",
+      "source_clip": "sh-newworld.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "Wa426c5c4d49_N_080",
+      "prediction_sha256": "e0f23146b0e4b3f05ddcfb1f22fa3beab756d78291613716a85b9fc28200e5d1",
+      "source_clip": "sh-newworld.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "Wdb2b99d1247_G_080",
+      "prediction_sha256": "79cb2d51a1832f865846b274363dff027e7867cb0600ddd3d7917d2daecbfd58",
+      "source_clip": "sh-newworld.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "Wf405b19d925_G_080",
+      "prediction_sha256": "926204b04d1cb72c326aacfaa85c591069e1f02b4a64a17dd5bed92d6f585b77",
+      "source_clip": "sh-newworld.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W6bccdf122cb_G_080",
+      "prediction_sha256": "02a9650fc08b8ebef84d61dc7df7b20a06e3c0a77a09b0e1060e065af91cd896",
+      "source_clip": "sh-tower.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W902d9fe8127_G_080",
+      "prediction_sha256": "c0931070dcf7e5523bfb80366ef56d3403acb121d9f93d793f4463a73aa2c413",
+      "source_clip": "sh-tower.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "W97b65e9a893_G_080",
+      "prediction_sha256": "f550686c011494137a707a250de030048ea636887a9d19a4275e1e72d4e77391",
+      "source_clip": "sh-tower.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "Wa273f228558_G_080",
+      "prediction_sha256": "2f7ea425a884791f20545f79e7df6bd59945e5885943240b5993b544f5d26952",
+      "source_clip": "sh-tower.osm.json",
+      "closed_restriction_hits": []
+    },
+    {
+      "id": "Wce5a4f14276_G_080",
+      "prediction_sha256": "71b25bea1f0dd85b11eb0326660c44a00a697082ec0aeaf11fe11763aed8c5b6",
+      "source_clip": "sh-tower.osm.json",
+      "closed_restriction_hits": []
+    }
+  ],
+  "eligible_independent_area_assumed_overlaps": [],
+  "limitations": "Closed highway/barrier loops are retained as linear objects, not silently filled. Uncertain closed semantics are diagnostic flags. Hidden/removed source identities do not become legal new predictor constraints."
+}

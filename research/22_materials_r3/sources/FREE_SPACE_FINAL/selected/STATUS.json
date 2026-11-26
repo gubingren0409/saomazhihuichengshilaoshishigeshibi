@@ -1,0 +1,97 @@
+{
+  "task": "OSM-GEOAPIFY-R4-FREE-SPACE-R1",
+  "started_at": "2026-11-11T13:39:29+08:00",
+  "updated_at": "2026-11-11T15:34:39.483504+08:00",
+  "status": "READY_FOR_GPT_AND_USER_REVIEW",
+  "phase": "EXPERIMENTS_STOPPED_FINAL_R1_PACKAGE_REPLAY_PENDING",
+  "active_compute_budget_s": 14400,
+  "max_region_builds": 200,
+  "external_requests": 0,
+  "training_runs": 0,
+  "entrance_generation": "DEFERRED_PENDING_USER_DESIGN",
+  "pending": [
+    "post-seal pure-input six-case replay",
+    "independent package/replay proof",
+    "unpacked browser check"
+  ],
+  "completed_inputs": 26,
+  "region_builds": 200,
+  "active_worker_wall_s": 1245.200393599982,
+  "primary_parents": 25,
+  "primary_queries": 41,
+  "primary_positive_queries": 33,
+  "primary_raw_positive_reached": {
+    "M1-C": 20,
+    "F0": 26,
+    "F1": 26
+  },
+  "region_build_accounting_upper": 200,
+  "region_build_limit": 200,
+  "known_unresolved": null,
+  "new_map_or_provider_api_requests": 0,
+  "documentation_web_tool_calls": 3,
+  "whole_goal_wall_s_at_seal": 6910.483504,
+  "natural_queries": 8,
+  "prediction_files": 150,
+  "independent_review": "PASS_SCOPED_R1_KNOWN_SOURCE_CONSTRAINTS_STRUCTURES_COSTS_ISOLATION",
+  "author_review": "PARTIAL_WITH_EVIDENCE_INTEGRITY_PASS",
+  "known_constraint_gap_fixed": true,
+  "experiment_processes_stopped": true,
+  "read_only_demo_service": "http://127.0.0.1:53378/visuals/index.html",
+  "recorded_worker_wall_s": 1221.057176399976,
+  "memory_end_snapshot_max_MiB": 880.42578125,
+  "memory_measurement_note": "Legacy prediction field named peak_working_set_bytes stores method-end RSS snapshots; not measured system peak",
+  "disk_free_C_GiB_at_seal": 3.115192413330078,
+  "packaging_note": "Fixed ZIP followed by external delivery/replay_receipt.json, independent_package_check.json and FINAL_STATUS.json; receipt creation occurs after immutable manifest",
+  "optional_diagnostics_not_run": [
+    "21 H80 positive instances",
+    "8 named 40/160 radius instances"
+  ],
+  "next_goal_started": false,
+  "historical_R0_policy_gap": {
+    "input_id": "W7a6b5a10076_G_080",
+    "source_id": "way/178730989",
+    "private_area_m2": 128.38855916051673,
+    "R0_assumed_overlap_m2": {
+      "M1-C": 0.0,
+      "F0": 128.38855916051605,
+      "F1": 128.38855916051605
+    },
+    "R0_actual_private_route_crossing_m": {
+      "M1-C": 0,
+      "F0": 0,
+      "F1": 0
+    },
+    "current_actual_private_route_crossing_m": {
+      "M1-C": 0,
+      "F0": 0.0,
+      "F1": 0.0
+    },
+    "remaining_unverified_area_expansion_m2": {
+      "M1-C": 66.85938348054503,
+      "F0": 10278.986186267939,
+      "F1": 10278.986186267939
+    },
+    "resolution": "REPAIRED_WITHIN_ORIGINAL_CAP_AFTER_VERIFIED_COUNT_CORRECTION",
+    "current_region_overlaps_m2": {
+      "M1-C": {
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 128.38855916082926
+      },
+      "F0": {
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 128.38855916082926
+      },
+      "F1": {
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 128.38855916082926
+      }
+    },
+    "fixed": true,
+    "R0_archive": "delivery/OPEN_REVIEW_R0_PARTIAL.zip",
+    "R0_sha256": "2b5154e9e80afccd8a04901e7d3e81630dddbe7f50964c6f2ba005a5ce8b595b"
+  },
+  "scientific_synthetic_region_builds": 30,
+  "first_partial_archive_preserved": "delivery/OPEN_REVIEW_R0_PARTIAL.zip",
+  "first_partial_sha256": "2b5154e9e80afccd8a04901e7d3e81630dddbe7f50964c6f2ba005a5ce8b595b"
+}

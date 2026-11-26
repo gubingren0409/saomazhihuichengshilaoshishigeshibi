@@ -1,0 +1,92 @@
+{
+  "at": "2026-11-13T03:40:51.438674+08:00",
+  "cases": [
+    {
+      "name": "sides_do_not_cross_without_source_crossing",
+      "pass": true,
+      "result": {
+        "status": "DISCONNECTED",
+        "solver_invoked": true,
+        "edge_ids": [],
+        "node_path": [],
+        "popped_nodes": 3,
+        "distance_labels": {
+          "way/1:left:node/1:layer=0;level=0;bridge=no;tunnel=no": 0.0,
+          "way/1:left:node/2:layer=0;level=0;bridge=no;tunnel=no": 20.0,
+          "way/1:left:node/3:layer=0;level=0;bridge=no;tunnel=no": 40.0
+        }
+      }
+    },
+    {
+      "name": "explicit_source_crossing_connects_corresponding_road_sides_only",
+      "pass": true,
+      "result": {
+        "status": "CONNECTED",
+        "solver_invoked": true,
+        "edge_ids": [
+          "R2:crossing:way/1:left:node/1",
+          "R2:crossing:way/1:right:node/1"
+        ],
+        "node_path": [
+          "way/1:left:node/1:layer=0;level=0;bridge=no;tunnel=no",
+          "native:1:layer=0;level=0;bridge=no;tunnel=no",
+          "way/1:right:node/1:layer=0;level=0;bridge=no;tunnel=no"
+        ],
+        "cost_f1_proxy": 2.0,
+        "cost_f0_proxy": 2.0,
+        "source_line_reference_length_m": 0,
+        "hypothesis_edges": 0,
+        "schematic_edges": 2,
+        "physical_route_length_m": null,
+        "popped_nodes": 9,
+        "distance_labels": {
+          "way/1:left:node/1:layer=0;level=0;bridge=no;tunnel=no": 0.0,
+          "way/1:left:node/2:layer=0;level=0;bridge=no;tunnel=no": 20.0,
+          "native:1:layer=0;level=0;bridge=no;tunnel=no": 1.0,
+          "way/1:right:node/1:layer=0;level=0;bridge=no;tunnel=no": 2.0,
+          "way/1:right:node/2:layer=0;level=0;bridge=no;tunnel=no": 22.0,
+          "native:2:layer=0;level=0;bridge=no;tunnel=no": 21.0,
+          "way/1:left:node/3:layer=0;level=0;bridge=no;tunnel=no": 40.0,
+          "way/1:right:node/3:layer=0;level=0;bridge=no;tunnel=no": 42.0,
+          "native:3:layer=0;level=0;bridge=no;tunnel=no": 41.0
+        }
+      }
+    },
+    {
+      "name": "explicit_restriction",
+      "pass": true
+    },
+    {
+      "name": "crosslevel",
+      "pass": true
+    },
+    {
+      "name": "no_sidewalk_tag_is_not_missing",
+      "pass": true
+    },
+    {
+      "name": "native_sidewalk_not_duplicated",
+      "pass": true
+    },
+    {
+      "name": "way_reverse_left_becomes_right_same_physical_schematic_side",
+      "pass": true
+    },
+    {
+      "name": "no_forced_ring_at_open_clip_ends",
+      "pass": true
+    },
+    {
+      "name": "F1_hypothesis_cost_not_relabelled",
+      "pass": true
+    },
+    {
+      "name": "multi_road_shared_crossing_node_does_not_merge_all_sides",
+      "pass": true
+    }
+  ],
+  "pass_count": 10,
+  "cases_count": 10,
+  "synthetic_shortest_path_calls": 2,
+  "formal_queries": 0
+}

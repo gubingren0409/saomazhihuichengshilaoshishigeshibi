@@ -1,0 +1,163 @@
+{
+  "at": "2026-11-13T03:44:47.563383+08:00",
+  "trigger": "Author exactsourcepolicycheck foundthreeomitted DENIEDvalues innewinventoryhelper; frozen KEEP_NATIVE admission already preventedformalroutesusingthem",
+  "changes": [
+    {
+      "scene_id": "sh-exhibition",
+      "source_id": "way/449511929",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "source_id": "way/477138724",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/325226780",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/325226781",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/325226782",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/326191796",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/449511929",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "source_id": "way/1417984069",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-library",
+      "source_id": "way/449511929",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-library",
+      "source_id": "way/477138724",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_id": "way/325226780",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_id": "way/325226781",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_id": "way/325226782",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_id": "way/326191796",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "source_id": "way/1417984069",
+      "before": "SHARED_STREET_OR_CONDITIONAL_SIDE_HYPOTHESIS",
+      "after": "EXPLICIT_RESTRICTION_OR_NON_GROUND"
+    }
+  ],
+  "corrected_inventory_records": 15,
+  "source_policy_path_original": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\src\\scene_data.py",
+  "source_policy_sha256": "0fe12256f280e20bd47a53e7421a3563056d1bc1b16d28dbac1665b45ff05dd2",
+  "frozen_DENIED_sorted": [
+    "agricultural",
+    "customers",
+    "delivery",
+    "destination",
+    "forestry",
+    "no",
+    "permit",
+    "private",
+    "restricted"
+  ],
+  "final_code_sha256": "fcf09e894da882d28f81d98eef18a9736dfead44f11eb2f3c393e186e3ad9c22",
+  "actual_graph_equivalence_builds": [
+    {
+      "window": "missing",
+      "variant": "R0",
+      "unchanged": true
+    },
+    {
+      "window": "missing",
+      "variant": "R1",
+      "unchanged": true
+    },
+    {
+      "window": "missing",
+      "variant": "R2",
+      "unchanged": true
+    },
+    {
+      "window": "native",
+      "variant": "R0",
+      "unchanged": true
+    },
+    {
+      "window": "native",
+      "variant": "R1",
+      "unchanged": true
+    },
+    {
+      "window": "native",
+      "variant": "R2",
+      "unchanged": true
+    },
+    {
+      "window": "tagged",
+      "variant": "R0",
+      "unchanged": true
+    },
+    {
+      "window": "tagged",
+      "variant": "R1",
+      "unchanged": true
+    },
+    {
+      "window": "tagged",
+      "variant": "R2",
+      "unchanged": true
+    }
+  ],
+  "affected_formal_requests": 0,
+  "extra_formal_or_synthetic_solver_calls": 0,
+  "original_inventory_preserved": "results/pre_fix/initial_road_information_inventory.csv",
+  "final_inventory_sha256": "5148eb977dda869dd3ed618ec33ef77d379bbdecea37c90ec59a78abc49c23de",
+  "no_change_to_window_lock": true
+}

@@ -1,0 +1,497 @@
+{
+  "archive": "OPEN_REVIEW.zip",
+  "members": 1213,
+  "uncompressed_bytes": 1186153769,
+  "manifest_entries": 1212,
+  "crc": "PASS",
+  "paths": "PASS",
+  "member_sha256": "PASS",
+  "credential_assignment_heuristic_scanned_files": 570,
+  "nested": [
+    {
+      "archive": "input_contract/frozen/R4_CONTEXT_OPEN_REVIEW.zip",
+      "members": 587,
+      "uncompressed_bytes": 617549637,
+      "manifest_entries": 586,
+      "crc": "PASS",
+      "paths": "PASS",
+      "member_sha256": "PASS",
+      "credential_assignment_heuristic_scanned_files": 569,
+      "nested": [
+        {
+          "archive": "input_contract/frozen/WALKABILITY_R3_OPEN_REVIEW.zip",
+          "members": 249,
+          "uncompressed_bytes": 148599315,
+          "manifest_entries": 248,
+          "crc": "PASS",
+          "paths": "PASS",
+          "member_sha256": "PASS",
+          "credential_assignment_heuristic_scanned_files": 169,
+          "nested": [
+            {
+              "archive": "references/R2_OPEN_REVIEW.zip",
+              "members": 116,
+              "uncompressed_bytes": 31985437,
+              "manifest_entries": 115,
+              "crc": "PASS",
+              "paths": "PASS",
+              "member_sha256": "PASS",
+              "credential_assignment_heuristic_scanned_files": 99,
+              "nested": [
+                {
+                  "archive": "references/frozen_archives/NORTH_ACCESS_R1_OPEN_REVIEW.zip",
+                  "members": 61,
+                  "uncompressed_bytes": 16425782,
+                  "manifest_entries": 60,
+                  "crc": "PASS",
+                  "paths": "PASS",
+                  "member_sha256": "PASS",
+                  "credential_assignment_heuristic_scanned_files": 53,
+                  "nested": [],
+                  "unpacked_members_differing_after_replay": []
+                },
+                {
+                  "archive": "references/frozen_archives/R4_REV1_OPEN_REVIEW.zip",
+                  "members": 106,
+                  "uncompressed_bytes": 407229225,
+                  "manifest_entries": 105,
+                  "crc": "PASS",
+                  "paths": "PASS",
+                  "member_sha256": "PASS",
+                  "credential_assignment_heuristic_scanned_files": 76,
+                  "nested": [],
+                  "unpacked_members_differing_after_replay": []
+                }
+              ],
+              "unpacked_members_differing_after_replay": []
+            },
+            {
+              "archive": "references/contract/evidence/R4_WALKABILITY_R2_GPT_REVIEW.zip",
+              "members": 17,
+              "uncompressed_bytes": 754237,
+              "manifest_entries": 16,
+              "crc": "PASS",
+              "paths": "PASS",
+              "member_sha256": "PASS",
+              "credential_assignment_heuristic_scanned_files": 12,
+              "nested": [],
+              "unpacked_members_differing_after_replay": []
+            }
+          ],
+          "unpacked_members_differing_after_replay": []
+        }
+      ],
+      "unpacked_members_differing_after_replay": []
+    }
+  ],
+  "unpacked_members_differing_after_replay": [],
+  "actual_replay_check": {
+    "status": "PASS",
+    "actual_tests": 12,
+    "actual_case_count": 6,
+    "actual_method_runs": 34,
+    "checks": [
+      {
+        "id": "Wc4183046a70_G_080",
+        "method": "F1",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "Wc4183046a70_G_080",
+        "method": "M1-C",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "Wc4183046a70_G_080",
+        "method": "F0",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "Wc4183046a70_G_080",
+        "method": "F1-L3",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "Wc4183046a70_G_080",
+        "method": "F1-L5",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "Wc4183046a70_G_080",
+        "method": "F1-L1",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "Wc4183046a70_G_080",
+        "method": "F1-L1p5",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W6daddd19fdb_G_080",
+        "method": "F1",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W6daddd19fdb_G_080",
+        "method": "M1-C",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W6daddd19fdb_G_080",
+        "method": "F0",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W745941f0f92_G_080",
+        "method": "F1",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W745941f0f92_G_080",
+        "method": "M1-C",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W745941f0f92_G_080",
+        "method": "F0",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W0440b97497a_N_080",
+        "method": "F1",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W0440b97497a_N_080",
+        "method": "M1-C",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W0440b97497a_N_080",
+        "method": "F0",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W0440b97497a_N_080",
+        "method": "F1-L3",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W0440b97497a_N_080",
+        "method": "F1-L5",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W0440b97497a_N_080",
+        "method": "F1-L1",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W0440b97497a_N_080",
+        "method": "F1-L1p5",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W7a6b5a10076_G_080",
+        "method": "F1",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W7a6b5a10076_G_080",
+        "method": "M1-C",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W7a6b5a10076_G_080",
+        "method": "F0",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W7a6b5a10076_G_080",
+        "method": "F1-L3",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W7a6b5a10076_G_080",
+        "method": "F1-L5",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W7a6b5a10076_G_080",
+        "method": "F1-L1",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "W7a6b5a10076_G_080",
+        "method": "F1-L1p5",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "NORTH_160",
+        "method": "F1",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "NORTH_160",
+        "method": "M1-C",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "NORTH_160",
+        "method": "F0",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "NORTH_160",
+        "method": "F1-L3",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "NORTH_160",
+        "method": "F1-L5",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "NORTH_160",
+        "method": "F1-L1",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      },
+      {
+        "id": "NORTH_160",
+        "method": "F1-L1p5",
+        "canonical_checks": {
+          "surface": true,
+          "routes": true,
+          "base_routes": true,
+          "unweighted_graph": true,
+          "terminal_graph": true
+        }
+      }
+    ],
+    "scope": "FIXED_SIX_REPLAY_CASES; NOT_WHOLE_25_PARENT_MATRIX_REEXECUTION",
+    "private_area_replay_checks": [
+      {
+        "method": "F0",
+        "source_id": "way/178730989",
+        "private_area_overlap_m2": 0.0,
+        "private_area_in_fixed_domain_m2": 128.3885591605168,
+        "source_private_area_restricted_m2": 128.38855916082926
+      },
+      {
+        "method": "F1",
+        "source_id": "way/178730989",
+        "private_area_overlap_m2": 0.0,
+        "private_area_in_fixed_domain_m2": 128.3885591605168,
+        "source_private_area_restricted_m2": 128.38855916082926
+      }
+    ],
+    "policy_check": "W7_SOURCE_ACCESS_GAP_REPAIR_CONFIRMED_IN_FIXED_SCOPE_USER_REVIEW_PENDING",
+    "comparison": "CANONICAL_GEOMETRY_GRAPH_ROUTES_EXACT; WHOLE_JSON_VOLATILE_METADATA_NOT_BYTE_CLAIMED"
+  },
+  "status": "PASS_SCOPED",
+  "reviewer": "/root/free_evaluation",
+  "archive_sha256": "1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a",
+  "limits": [
+    "Credential content scan is heuristic, not a general privacy proof",
+    "Only the frozen six representative cases were rerun; full matrix was independently geometrically scored separately",
+    "No external field walkability/public access evidence was acquired"
+  ]
+}

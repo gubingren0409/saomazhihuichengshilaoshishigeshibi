@@ -1,0 +1,74 @@
+{
+  "status": "PASS_BOUND_NOT_EXACT_COMPLETION_COUNT",
+  "reviewer": "/root/free_evaluation",
+  "original_R0_proof_sha256": "2b15f958ffde5248f87a6900c67f494c8fb3dd64fa987fff368381ea2e1ca9e4",
+  "execution_receipts_upper_sum": 172,
+  "existing_interrupted_stage_adjustment": -2,
+  "measured_synthetic_initial28_plus_targeted2": 30,
+  "current_research_upper_bound": 200,
+  "cap": 200,
+  "W7_current_execution": {
+    "input_id": "W7a6b5a10076_G_080",
+    "elapsed_s": 19.986690799996722,
+    "region_builds": 2,
+    "runs": [
+      {
+        "method": "M1-C",
+        "surface_sha256": "faa9d2626b79a3bb8f10ed8dd8a7304981715df9b850d3998fca32343d6a2f1e",
+        "graph_sha256": "57501e5c6808b3e14852a4ea21dc7873abf9409032a06f9b740c973e83f62cf7",
+        "reached": 0
+      },
+      {
+        "method": "F0",
+        "surface_sha256": "033197367c5ba35c46d61def4008b3f152841722ef1b4a73669ef6eed763aad4",
+        "graph_sha256": "02144d364fa514cfc33e746629a1573baf4c4f45339efdb7f195660c7f8229f4",
+        "reached": 2
+      },
+      {
+        "method": "F1",
+        "surface_sha256": "033197367c5ba35c46d61def4008b3f152841722ef1b4a73669ef6eed763aad4",
+        "graph_sha256": "02144d364fa514cfc33e746629a1573baf4c4f45339efdb7f195660c7f8229f4",
+        "reached": 2
+      },
+      {
+        "method": "F1-L1",
+        "surface_sha256": "033197367c5ba35c46d61def4008b3f152841722ef1b4a73669ef6eed763aad4",
+        "graph_sha256": "02144d364fa514cfc33e746629a1573baf4c4f45339efdb7f195660c7f8229f4",
+        "reached": 2
+      },
+      {
+        "method": "F1-L1p5",
+        "surface_sha256": "033197367c5ba35c46d61def4008b3f152841722ef1b4a73669ef6eed763aad4",
+        "graph_sha256": "02144d364fa514cfc33e746629a1573baf4c4f45339efdb7f195660c7f8229f4",
+        "reached": 2
+      },
+      {
+        "method": "F1-L3",
+        "surface_sha256": "033197367c5ba35c46d61def4008b3f152841722ef1b4a73669ef6eed763aad4",
+        "graph_sha256": "02144d364fa514cfc33e746629a1573baf4c4f45339efdb7f195660c7f8229f4",
+        "reached": 2
+      },
+      {
+        "method": "F1-L5",
+        "surface_sha256": "033197367c5ba35c46d61def4008b3f152841722ef1b4a73669ef6eed763aad4",
+        "graph_sha256": "02144d364fa514cfc33e746629a1573baf4c4f45339efdb7f195660c7f8229f4",
+        "reached": 2
+      }
+    ],
+    "classifier_origin": "REUSED_PREVIOUS_SAME_OBSERVED_CLASSIFIER_SURFACE_NO_CLASSIFIER_RERUN",
+    "code_sha256": "e1b8817914abb1aa7a94140d073f912eb5da9e90ba3fdd415edaf07133723d27",
+    "config_sha256": "f23ee464ca98243951a65474543f89e25b935bb847b8da37308e4b645a8f9d12",
+    "wall_s": 24.143217200005893,
+    "outputs": {
+      "F0.json": "0c8a49e391438d77384f23034bddf6a482dfbe1d2893075623f69c0bf46632b1",
+      "F1-L1.json": "b91984d99c341f66932c2ca2eccc8567bdeb6fdab87494a34d997e4efed0ac00",
+      "F1-L1p5.json": "16113a40a97400fe31a8f7495171f3d6f766e560b2cdd2d1ef641c66688c50a4",
+      "F1-L3.json": "e5882b0afeeb0dbea390ae2f76c51108353feef873ca8a107bc0c90d9bb07ed3",
+      "F1-L5.json": "8b70ebbb458118f5a55ebcd080599a01d833657262510c0b50cd852566a1b760",
+      "F1.json": "3b73ed8a48913b595c9a51de5b3a9dd9e6333ef88f64908d6ae8a26c583d354c",
+      "M1-C.json": "9ba0f98402955bc22aca9376ae9c35b7048ee27b524053b5f53d556f501ef31e"
+    },
+    "panel": "MAIN"
+  },
+  "replay": "Separate from research cap; actual R0 cold50; new final cold must use actual mode/counter."
+}

@@ -1,0 +1,207 @@
+{
+  "archive_sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+  "archive_bytes": 72108383,
+  "receipt_sha256": "c2071680f2f9e535d9e18a6d22b4d7f29cd05641f8b8a2c9c6b05547d4bdc934",
+  "historical_receipt_time": "2026-11-12T08:42:55.744725+00:00",
+  "members": 344,
+  "CRC": null,
+  "manifest_count": 343,
+  "original_root_manifest_files_checked": 343,
+  "original_root_warnings": [
+    {
+      "path": "phase1/maps/sh-exhibition.png",
+      "exists": false,
+      "expected_sha256": "9c6b727f017d640ba9326c1a839a50c8083fdf8f1f5ceb5a449562d25bb5a276",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-huangpu-01.png",
+      "exists": false,
+      "expected_sha256": "6e439695961fb1fe141a8a33272025747a597e953572d7161bd2c5173bbe600d",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-huangpu-01.svg",
+      "exists": false,
+      "expected_sha256": "3c870f57f1ad6111c66069c6110227c5c76b300d05516aaa25310aadf1551e87",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-library.png",
+      "exists": false,
+      "expected_sha256": "17ac7b954d3c8495856251dd527a7896604ddf050e4e58f592d1547255a4a17c",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-library.svg",
+      "exists": false,
+      "expected_sha256": "1f059d77ffbee4b2011db61704666cda1871040db4b536c294a925bd0833fe8c",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-newworld.png",
+      "exists": false,
+      "expected_sha256": "16df6549e073e7005a46fa8a7ad383a0dce06f84850494cf4064f3702fe8ac16",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-newworld.svg",
+      "exists": false,
+      "expected_sha256": "02eecd0ccc60b993317dd7b3edaf12e5d10ee0902055ea8b476a7d8688453f25",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-tower.png",
+      "exists": false,
+      "expected_sha256": "35080dad1c5c65ca124895175256f252d7c5d40444c4d9a501b4a76ce14fe872",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-tower.svg",
+      "exists": false,
+      "expected_sha256": "9dc04c94fc48fa51ea45c912e2dc7fe500e837d4eeeccf05d97f199b4be0d487",
+      "actual_sha256": null
+    },
+    {
+      "path": "phase1/maps/sh-wukang.png",
+      "exists": false,
+      "expected_sha256": "0ff82f89839f3a42cd63f345d5131f744372c654c29de8049dba6df425984336",
+      "actual_sha256": null
+    },
+    {
+      "path": "reviews/browser/foundation-overview.png",
+      "exists": false,
+      "expected_sha256": "7776cea4649a1aae051c7fe9408d9f9ec458fb8c917acecbcea24ed94816e453",
+      "actual_sha256": null
+    }
+  ],
+  "working_root_scope_note": "Historical receipt bound the sealed archive and prior actual replay. Current missing working-map files are recorded separately; no claim that all343 mutable working files exist now. Sealed copies remain present and verified.",
+  "referenced_evidence": [
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\final_unpack_receipt.json",
+      "exists": true,
+      "bytes": 855,
+      "sha256": "e9ee238ee3f21c86a47cdb8a8bcdf003c9007bda84dde7249c8ad2eda467a7a7",
+      "pass": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\INDEPENDENT_MACHINE_REPLAY_RECEIPT.json",
+      "exists": true,
+      "bytes": 4137,
+      "sha256": "ea57ff108fb1abab41bfd4f3d4bec1f06e14efe033388f183a65f51252f7572f",
+      "pass": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\independent_browser\\receipt.json",
+      "exists": true,
+      "bytes": 18942,
+      "sha256": "4781161fc91d6007ac0e43da91f807616e329ead96e993b1810df24b712bed0c",
+      "pass": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\independent_binding.txt",
+      "exists": true,
+      "bytes": 147,
+      "sha256": "5bfb19f3afc627b2cc5fa1c0a80c514f4f44df13af0f513b672885df74a640fb",
+      "pass": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\independent_current_graph.txt",
+      "exists": true,
+      "bytes": 133,
+      "sha256": "19879f16ca8d0c173061f83da3989a2c7c431f48eed441bffcd04e866985c6fe",
+      "pass": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\independent_phase1.txt",
+      "exists": true,
+      "bytes": 66,
+      "sha256": "28af3c3633dc6e011bc1b53b9dba79ef8ab86ce3343f51acb8e90236b05d9105",
+      "pass": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\independent_phase2.txt",
+      "exists": true,
+      "bytes": 113,
+      "sha256": "672af8e7b4ddce4d9c29a6fb52fc32e54a81ab79b90e1f420999e787201daf7d",
+      "pass": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\independent_track_a.txt",
+      "exists": true,
+      "bytes": 85,
+      "sha256": "f77904360af979e0de40a8f467a8bd97411bc150a46cf03c7e2a42da66b4248c",
+      "pass": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\postseal_logs\\unittest.txt",
+      "exists": true,
+      "bytes": 782,
+      "sha256": "315c945273f50b84eb009c4a68780f70dc7d80383ce1734fc25040f5d9702301",
+      "pass": true
+    }
+  ],
+  "replay_actual_files": [
+    {
+      "name": "independent_binding",
+      "output_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\independent_binding.json",
+      "source_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\src\\independent_binding.py",
+      "output_exists": true,
+      "source_exists": true,
+      "output_sha256": "8846b516b9ca04ceaf6756936e84a44c6711dbd94e8270f31f4808d48c796a4c",
+      "source_sha256": "3df09931c9ce3bb6cbff0abb864cad92c2ccec3322d57e5d2d164fa5a2fb5b47",
+      "pass": true
+    },
+    {
+      "name": "independent_phase1",
+      "output_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\independent_phase1.json",
+      "source_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\src\\independent_phase1.py",
+      "output_exists": true,
+      "source_exists": true,
+      "output_sha256": "5f334334e4e52be06c96487f272ed7cdfbd937ba2314851b38b739b312354d45",
+      "source_sha256": "f104b86d073fe0451cf837f2d8af48b50840e1d2edfcc3a310a528654cc3c40b",
+      "pass": true
+    },
+    {
+      "name": "independent_current_graph",
+      "output_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\independent_current_graph.json",
+      "source_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\src\\independent_current_graph.py",
+      "output_exists": true,
+      "source_exists": true,
+      "output_sha256": "40987ad53ecf3b0ce8d84faccf5223cde569f4cf0b3f81877a2154fe5bfcb445",
+      "source_sha256": "50b18b40469cdae98ca33c22a802be039033ddfffd6bcd4f1c80c4b7177797c7",
+      "pass": true
+    },
+    {
+      "name": "independent_phase2",
+      "output_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\independent_phase2.json",
+      "source_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\src\\independent_phase2.py",
+      "output_exists": true,
+      "source_exists": true,
+      "output_sha256": "17c0415b8b04c04bb4adc6e203e0360878720183a209731005a86f3e5248f17a",
+      "source_sha256": "2ac94495ec266e81e1ea6db25601a0ea945fc83b98920bb81d3d4e01b42e31a8",
+      "pass": true
+    },
+    {
+      "name": "independent_track_a",
+      "output_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\independent_track_a.json",
+      "source_path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\reviews\\clean_7c9ed5876617\\reviews\\src\\independent_track_a.py",
+      "output_exists": true,
+      "source_exists": true,
+      "output_sha256": "892661b6eeb46513b796498bab35fd9f40bbb1d0e7fee357a761b596e9273078",
+      "source_sha256": "2d31143742e9dd212592052607353a1d941cd99f926791c3d35fc5a4afa26c4b",
+      "pass": true
+    }
+  ],
+  "public_inventory_count": 38,
+  "old_local_head": "3134c0ea68e00871ed6dc86ca7bc905071449dae",
+  "checked_at": "2026-11-12T19:37:21.392806+00:00",
+  "reviewer": "/root/resume_review",
+  "scope": "Fresh archive bytes/CRC/all343 manifest rows; nine receipt dependencies; five actual replay outputs and five reviewer sources; original38 files and local HEAD. No new historical scientific runs.",
+  "new_solver_calls": 0,
+  "new_sssp_calls": 0,
+  "new_network_requests": 0,
+  "bad_request_cause": "UNKNOWN",
+  "failures": [],
+  "status": "PASS_FOR_OLD_FIXED_DELIVERY_EVIDENCE"
+}

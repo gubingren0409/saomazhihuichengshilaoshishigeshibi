@@ -1,0 +1,11 @@
+# 图件与数字来源
+
+原阶段：R4-REV1；材料角色：CORE_RESEARCH。
+
+- 包内文件：`prior/R2_selected/06_south_plaza_connection/optional_figure.png`；原成员：`06_south_plaza_connection/optional_figure.png`；固定包SHA256：`5fecb3c0f3f65dbf371967deaf6d7d3aa3885b09a3d160bf07b00813a3e682da`；文件SHA256：`4b5984cb212d5a5197effa07eb17a04c00f89c5dd0db62f5e0c8a236109f4669`；版本：FROZEN_FINAL
+- 包内文件：`prior/R2_selected/sources/source_materials/experiment_reports/OSM_GEOAPIFY_R4_REV1/RESULTS_7836a324.md`；原成员：`sources/source_materials/experiment_reports/OSM_GEOAPIFY_R4_REV1/RESULTS_7836a324.md`；固定包SHA256：`5fecb3c0f3f65dbf371967deaf6d7d3aa3885b09a3d160bf07b00813a3e682da`；文件SHA256：`7836a324bddfb2e6ff8a150ca37dffce2001c5b4bcdd98731b031519ef8def94`；版本：ORIGIN=OSM_GEOAPIFY_R4_REV1; ARCHIVE=f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0; MEMBER=RESULTS.md
+- 包内文件：`prior/R2_selected/sources/source_materials/metrics/OSM_GEOAPIFY_R4_REV1/summary_b8344583.json`；原成员：`sources/source_materials/metrics/OSM_GEOAPIFY_R4_REV1/summary_b8344583.json`；固定包SHA256：`5fecb3c0f3f65dbf371967deaf6d7d3aa3885b09a3d160bf07b00813a3e682da`；文件SHA256：`b8344583b25e259dd335a60f96ce243cc627640a6763bd8cfe49bc83c89bc3d0`；版本：ORIGIN=OSM_GEOAPIFY_R4_REV1; ARCHIVE=f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0; MEMBER=runs/summary.json
+- 包内文件：`sources/R4/data/ir/sh-huangpu-01.local.json`；原成员：`data/ir/sh-huangpu-01.local.json`；固定包SHA256：`36d83fb2d792b33457968f1c649099380cc5cffa1e7b561c1dd6463fd82ce2f3`；文件SHA256：`b431162524a2273498c025b5c8ac6b0b4651f4c172ab8f359fb04a871113ccaf`；版本：FINAL_OR_EXPLICIT_HISTORICAL
+- 包内文件：`sources/R4/runs/geometry/sh-huangpu-01.geojson`；原成员：`runs/geometry/sh-huangpu-01.geojson`；固定包SHA256：`36d83fb2d792b33457968f1c649099380cc5cffa1e7b561c1dd6463fd82ce2f3`；文件SHA256：`04a1fdfa9e3146c84d42d6142a586cfc3cd19668f2e7fc1299856baeb8fa3bbc`；版本：FINAL_OR_EXPLICIT_HISTORICAL
+- 包内文件：`sources/REV1/data/routes.geojson`；原成员：`data/routes.geojson`；固定包SHA256：`f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0`；文件SHA256：`1f47282643e5d45d3304be9cea86d3380422ee9793904f5cbe60f5fea13b0e5a`；版本：FINAL_OR_EXPLICIT_HISTORICAL
+- 包内文件：`sources/REV1/runs/summary.json`；原成员：`runs/summary.json`；固定包SHA256：`f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0`；文件SHA256：`b8344583b25e259dd335a60f96ce243cc627640a6763bd8cfe49bc83c89bc3d0`；版本：FINAL_OR_EXPLICIT_HISTORICAL

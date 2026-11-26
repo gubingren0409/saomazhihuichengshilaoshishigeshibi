@@ -1,0 +1,8 @@
+# 图件与数字来源
+
+原阶段：PEDESTRIAN-AREA-SHORTEST-R1-FINAL；材料角色：CORE_RESEARCH。
+
+- 包内文件：`prior/R2_selected/09_full_face_routing/main_figure.png`；原成员：`09_full_face_routing/main_figure.png`；固定包SHA256：`5fecb3c0f3f65dbf371967deaf6d7d3aa3885b09a3d160bf07b00813a3e682da`；文件SHA256：`2fefe578827f8f9d21e65006d95f81a52c2201f92d6f4b4007c3043d090b1812`；版本：FROZEN_FINAL
+- 包内文件：`prior/R2_selected/09_full_face_routing/optional_figure.png`；原成员：`09_full_face_routing/optional_figure.png`；固定包SHA256：`5fecb3c0f3f65dbf371967deaf6d7d3aa3885b09a3d160bf07b00813a3e682da`；文件SHA256：`4848acc3d033a11f30afde473d3f6165d8d4ffd2f21415b7800926885b2a91ea`；版本：FROZEN_FINAL
+- 包内文件：`prior/R2_selected/sources/source_materials/experiment_reports/PEDESTRIAN-AREA-SHORTEST-R1-FINAL-FIXED/RESULTS_9febf86d.md`；原成员：`sources/source_materials/experiment_reports/PEDESTRIAN-AREA-SHORTEST-R1-FINAL-FIXED/RESULTS_9febf86d.md`；固定包SHA256：`5fecb3c0f3f65dbf371967deaf6d7d3aa3885b09a3d160bf07b00813a3e682da`；文件SHA256：`9febf86d9add7094ebe73bbe0b08b3862361f6b9e9eda8fe4b082c0d35ad3a88`；版本：ORIGIN=PEDESTRIAN-AREA-SHORTEST-R1-FINAL-FIXED; ARCHIVE=c5472838de6320d983d80e4defd448e08c017777f23bc7aa083d38e7ce10b08a; MEMBER=RESULTS.md
+- 包内文件：`prior/R2_selected/sources/source_materials/metrics/PEDESTRIAN-AREA-SHORTEST-R1-FINAL-FIXED/independent_main_matrix_R2_4332ab83.json`；原成员：`sources/source_materials/metrics/PEDESTRIAN-AREA-SHORTEST-R1-FINAL-FIXED/independent_main_matrix_R2_4332ab83.json`；固定包SHA256：`5fecb3c0f3f65dbf371967deaf6d7d3aa3885b09a3d160bf07b00813a3e682da`；文件SHA256：`4332ab8364494ea110abcc560aa169f18405d1f5b3a8e2ca5a44a20e54bf2281`；版本：ORIGIN=PEDESTRIAN-AREA-SHORTEST-R1-FINAL-FIXED; ARCHIVE=c5472838de6320d983d80e4defd448e08c017777f23bc7aa083d38e7ce10b08a; MEMBER=audits/independent_main_matrix_R2.json

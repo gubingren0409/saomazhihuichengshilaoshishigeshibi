@@ -1,0 +1,7 @@
+# 图件与数字来源
+
+原阶段：NORTH-ACCESS-R1；材料角色：CORE_RESEARCH。
+
+- 包内文件：`prior/R2_selected/08_north_exit_conditional_access/main_figure.png`；原成员：`08_north_exit_conditional_access/main_figure.png`；固定包SHA256：`5fecb3c0f3f65dbf371967deaf6d7d3aa3885b09a3d160bf07b00813a3e682da`；文件SHA256：`bcd63fcc97bf0d84163fb07102e419905304c0712f153916b667126cdcab1c95`；版本：FROZEN_FINAL
+- 包内文件：`prior/R2_selected/08_north_exit_conditional_access/optional_figure.png`；原成员：`08_north_exit_conditional_access/optional_figure.png`；固定包SHA256：`5fecb3c0f3f65dbf371967deaf6d7d3aa3885b09a3d160bf07b00813a3e682da`；文件SHA256：`678141c348ed8d6d30d49360a2f00999cb017afa5b509e6e7170681334d14c5b`；版本：FROZEN_FINAL
+- 包内文件：`prior/R2_selected/sources/source_materials/metrics/OSM_GEOAPIFY_R4_NORTH_ACCESS_R1/experiment_024551aa.json`；原成员：`sources/source_materials/metrics/OSM_GEOAPIFY_R4_NORTH_ACCESS_R1/experiment_024551aa.json`；固定包SHA256：`5fecb3c0f3f65dbf371967deaf6d7d3aa3885b09a3d160bf07b00813a3e682da`；文件SHA256：`024551aa0c2a2f348065c0be2f674ba81104532daa3ad3b7fd78d580a048f41d`；版本：ORIGIN=OSM_GEOAPIFY_R4_NORTH_ACCESS_R1; ARCHIVE=ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147; MEMBER=runs/experiment.json

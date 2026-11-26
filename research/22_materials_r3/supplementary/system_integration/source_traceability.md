@@ -1,0 +1,10 @@
+# 图件与数字来源
+
+原阶段：E2E-R1-FIXED + SUPPLEMENTARY-20261115；材料角色：SUPPLEMENTARY_SYSTEM_INTEGRATION。
+
+- 包内文件：`sources/KNOWN_ENTRANCE_E2E_R1_FIXED/AUDIT/independent_browser_exports.computed-door.png`；原成员：`AUDIT/independent_browser_exports.computed-door.png`；固定包SHA256：`4fc46d467a25aa19db46a8d721f523b1f3a5aed43ae7645d107a52a08682e6da`；文件SHA256：`5de78b69a0e43f8cde82b6cecefae6b1fb4f0b1fe786cd2dd5e39c249eef3979`；版本：FROZEN_FINAL
+- 包内文件：`sources/KNOWN_ENTRANCE_E2E_R1_FIXED/AUDIT/independent_browser_exports.computed-full.png`；原成员：`AUDIT/independent_browser_exports.computed-full.png`；固定包SHA256：`4fc46d467a25aa19db46a8d721f523b1f3a5aed43ae7645d107a52a08682e6da`；文件SHA256：`6f08cd73536733f52086596081bc5f668f5afa7e0643746e04110d5d13c05403`；版本：FROZEN_FINAL
+- 包内文件：`sources/KNOWN_ENTRANCE_E2E_R1_FIXED/runs/acceptance/summary.json`；原成员：`runs/acceptance/summary.json`；固定包SHA256：`4fc46d467a25aa19db46a8d721f523b1f3a5aed43ae7645d107a52a08682e6da`；文件SHA256：`d1a53fcb66c9768cb04518aadc62282354c24e028129acb8b95a46aa218dc29a`；版本：FROZEN_FINAL
+- 包内文件：`sources/SUPPLEMENTARY_20261115/Q7-DYNAMIC-CLOSURE-SIMULATION-R1/outputs/primary_result_ids.json`；原成员：`Q7-DYNAMIC-CLOSURE-SIMULATION-R1/outputs/primary_result_ids.json`；固定包SHA256：`bebdd6cb52c3afc156fc62a3b373ea29a2f4f38d68b28976ef771c5df6728103`；文件SHA256：`2fed19cd44cfc0dce6f17ef73177ec9515e0ef3572ecc50b3f46c88226c9c505`；版本：FROZEN_FINAL
+- 包内文件：`sources/SUPPLEMENTARY_20261115/Q7-DYNAMIC-CLOSURE-SIMULATION-R1/summary.json`；原成员：`Q7-DYNAMIC-CLOSURE-SIMULATION-R1/summary.json`；固定包SHA256：`bebdd6cb52c3afc156fc62a3b373ea29a2f4f38d68b28976ef771c5df6728103`；文件SHA256：`c0249dd80951f98f37b135ac7d7ec5a2e7c409a8b2a5092d673f0b244320ddf0`；版本：FROZEN_FINAL
+- 包内文件：`sources/SUPPLEMENTARY_20261115/Q8-SCALE-LATENCY-BENCHMARK-R1/latency_distribution.csv`；原成员：`Q8-SCALE-LATENCY-BENCHMARK-R1/latency_distribution.csv`；固定包SHA256：`bebdd6cb52c3afc156fc62a3b373ea29a2f4f38d68b28976ef771c5df6728103`；文件SHA256：`6bf4db9926b648f579ab23fd89ffb4704e5d00cf1cddbb93ccce248075c1675e`；版本：FROZEN_FINAL

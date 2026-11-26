@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "scope": "INPUT_INTEGRITY_ONLY",
+  "network_requests": 0,
+  "experiments_executed": 0,
+  "package_files": 18,
+  "manifest_entries": 17,
+  "frozen_archive": {
+    "label": "frozen/R4_CONTEXT_OPEN_REVIEW.zip",
+    "sha256": "40f8e18d76d04819d66a3bd526ecb2b74fc83201b3b58452881a6576b6651cbf",
+    "members": 587,
+    "manifest_entries": 586,
+    "crc": "PASS",
+    "paths": "PASS",
+    "content_hashes": "PASS",
+    "nested": [
+      {
+        "label": "input_contract/frozen/WALKABILITY_R3_OPEN_REVIEW.zip",
+        "sha256": "d623af231c6eabeace1d3c8e284787a51b7d83782c6c8f7990d16b27f5c0cd0e",
+        "members": 249,
+        "manifest_entries": 248,
+        "crc": "PASS",
+        "paths": "PASS",
+        "content_hashes": "PASS",
+        "nested": [
+          {
+            "label": "references/R2_OPEN_REVIEW.zip",
+            "sha256": "277f1cfac82ec04335262444dcfc3ef1080c2c93d8e481dd8dac42db65ecbf72",
+            "members": 116,
+            "manifest_entries": 115,
+            "crc": "PASS",
+            "paths": "PASS",
+            "content_hashes": "PASS",
+            "nested": [
+              {
+                "label": "references/frozen_archives/NORTH_ACCESS_R1_OPEN_REVIEW.zip",
+                "sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+                "members": 61,
+                "manifest_entries": 60,
+                "crc": "PASS",
+                "paths": "PASS",
+                "content_hashes": "PASS",
+                "nested": []
+              },
+              {
+                "label": "references/frozen_archives/R4_REV1_OPEN_REVIEW.zip",
+                "sha256": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0",
+                "members": 106,
+                "manifest_entries": 105,
+                "crc": "PASS",
+                "paths": "PASS",
+                "content_hashes": "PASS",
+                "nested": []
+              }
+            ]
+          },
+          {
+            "label": "references/contract/evidence/R4_WALKABILITY_R2_GPT_REVIEW.zip",
+            "sha256": "51bd40d820598fc220f7b58cbfc073ae8d398f6c541206ac6fc2d94e3668fa31",
+            "members": 17,
+            "manifest_entries": 16,
+            "crc": "PASS",
+            "paths": "PASS",
+            "content_hashes": "PASS",
+            "nested": []
+          }
+        ]
+      }
+    ]
+  },
+  "note": "Integrity only; not an audit of research correctness or a new experiment."
+}

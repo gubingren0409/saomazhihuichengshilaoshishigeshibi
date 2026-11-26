@@ -1,0 +1,48 @@
+{
+  "at": "2026-11-13T03:43:26.897909+08:00",
+  "repair_type": "METRIC_QUALIFICATION_NO_SOLVER",
+  "trigger": "Author noticed physical_route_length_m field emitted for SOURCE_GEOMETRY road axes; scope already topologyonly. Correct nomenclature beforedelivery.",
+  "source_registry_path": "audit/experiment_registry.jsonl",
+  "source_registry_sha256_unchanged": "20a12b4735e6fe794c6b12cd335b6802eb5f6e1abfca5df85051b256734b95db",
+  "changes": [
+    {
+      "query_id": "tagged-along",
+      "variant": "R0",
+      "old_misnamed_physical_route_length_m": 158.8126080465067,
+      "corrected_physical_route_length_m": null,
+      "reason": "R0road-axis/referencegeometry or collapsedsidealias is not physicalsidewalk route length"
+    },
+    {
+      "query_id": "tagged-cross-side",
+      "variant": "R0",
+      "old_misnamed_physical_route_length_m": 0,
+      "corrected_physical_route_length_m": null,
+      "reason": "R0road-axis/referencegeometry or collapsedsidealias is not physicalsidewalk route length"
+    },
+    {
+      "query_id": "missing-along",
+      "variant": "R0",
+      "old_misnamed_physical_route_length_m": 265.3087222794089,
+      "corrected_physical_route_length_m": null,
+      "reason": "R0road-axis/referencegeometry or collapsedsidealias is not physicalsidewalk route length"
+    },
+    {
+      "query_id": "missing-cross-side",
+      "variant": "R0",
+      "old_misnamed_physical_route_length_m": 0,
+      "corrected_physical_route_length_m": null,
+      "reason": "R0road-axis/referencegeometry or collapsedsidealias is not physicalsidewalk route length"
+    }
+  ],
+  "map_before_sha256": "6774c4c099c2781a3cbd37086731574afb99bb41b51435f0c551398377e0d1dc",
+  "map_after_sha256": "98f9bc888d6fadce4898ad38cee9d45037c3a1b83d2ca28c59805df4ce928a7d",
+  "csv_before_sha256": "ceb699d16ebd25ec014d2abaed14220a62126e3e871ef272364ff0495b264009",
+  "csv_after_sha256": "31135ff40729315fccaff30f884143f2bb32b58ea5cafe8399e02e62602e157d",
+  "original_executed_source": "results/pre_fix/executed_street_side.py",
+  "parent_source_before_metric_fix": "results/pre_fix/source_before_metric_qualification.py",
+  "final_source_sha256": "0659159ff27c72f0917a1d95d2fe128fba3da8bdcfa429bf95195c639b1da5a3",
+  "graph_or_cost_changes": 0,
+  "extra_route_requests": 0,
+  "extra_sssp_calls": 0,
+  "meaning": "Only source-native pedestrian controlmaplinelength is reported; sourceaxes/SCHEMATIC/zeroaliases have walkinglengthunknown. No estimate is real-world walkingtruth."
+}

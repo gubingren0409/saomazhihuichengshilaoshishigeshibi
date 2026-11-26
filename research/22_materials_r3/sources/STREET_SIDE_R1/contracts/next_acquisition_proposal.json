@@ -1,0 +1,65 @@
+{
+  "status": "PROPOSED_NOT_EXECUTED_REQUIRES_NEW_USER_AUTHORIZATION",
+  "new_requests_this_round": 0,
+  "new_bytes_this_round": 0,
+  "purpose": "Only fill B/C road-side and face-line input/reference gaps; do not grow building counts",
+  "sites": [
+    {
+      "candidate": "nyc_lincoln_center",
+      "window": "One 200m×200m subwindow inside existing candidate, fixed from source geometry before method results",
+      "modules": [
+        "B",
+        "C"
+      ],
+      "source": "NYC official OpenData sidewalk dataset52n9-sdep already retained; identify official road/curb and crossing layer from dataset metadata before retrieval",
+      "fields": [
+        "native_id",
+        "road/curb full geometry",
+        "coordinate system and units",
+        "capture date",
+        "side relation",
+        "crossing endpoints",
+        "level/access if available"
+      ],
+      "requests_max": 4,
+      "read_bytes_max": 2000000,
+      "reference": "Separate manually reviewed source-native road/side and exact line/face interface table, reviewed without proposed-route outputs; not inferred door labels",
+      "license_gate": "NYC OpenData Terms plus actual road-layer agency/additional conditions must permit local research copy; no public redistribution assumption"
+    },
+    {
+      "candidate": "hel_oodi",
+      "window": "One200m×200m subwindow inside existing Oodi bbox; retain full intersecting polygons with holes",
+      "modules": [
+        "B",
+        "C"
+      ],
+      "source": "Existing Helsinki WFS metadata: avoindata:YLRE_Katu_ja_viherosat_kevytliikenne_alue and ajorata_alue, explicit srsName/bbox CRS",
+      "fields": [
+        "native_id",
+        "area geometry with holes",
+        "road/sidewalk type",
+        "date",
+        "source CRS",
+        "connecting line/node if schema actually supplies it",
+        "access/level if present"
+      ],
+      "requests_max": 4,
+      "read_bytes_max": 2000000,
+      "reference": "Independent schema/geometry/interface audit; no connectivity truth unless original line/node evidence is available",
+      "license_gate": "Retain City of Helsinki/HRI attribution, CC BY4.0 evidence and modification notice; verify actual layer coverage/conditions"
+    }
+  ],
+  "total_requests_max": 8,
+  "total_read_bytes_max": 4000000,
+  "request_accounting": "Count failed/timeouts/redirects and retries; read strict remaining cap without cap+1 sentinel; unknown transport bytes separately",
+  "stop_conditions": [
+    "No applicable source license",
+    "CRS/schema unresolved",
+    "first response empty/capped: report exact blocker and stop branch rather than whole-city expansion",
+    "8requests or4MB total read reached",
+    "No native line/connectivity reference: keep C partial, no fabricated interfaces",
+    "No independent reference: no accuracy claim or blind freeze"
+  ],
+  "D_known_door": "Not included in this small proposal; requires separate registered coordinate/role and continuous-path reference acquisition approval",
+  "split": "All existing sites remain EXPOSED; group/network independence reviewed before any later split freeze"
+}
