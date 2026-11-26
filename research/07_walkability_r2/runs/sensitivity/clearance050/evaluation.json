@@ -1,0 +1,340 @@
+{
+  "status": "INDEPENDENT_MASKING_RECOMPUTED",
+  "roles": "REFERENCE_CURATOR_AND_INDEPENDENT_GEOMETRY_EVALUATOR",
+  "input_inventory_sha256": "c6e2b9090b751af6a8cb9ab7282464fc13729d940b4e3c179f9b5491a598ed4d",
+  "prediction_sha256": "7db7d9394f180b3b062526ea4018d5542e9f30643c5e19ac56fbca4bebe8f0e6",
+  "reviewed_tasks": 8,
+  "reviewed_groups": 2,
+  "read_scope": "OBSERVED_ONLY_APP_LOG",
+  "hidden_reference_scoring": "ENDPOINTS_COVERAGE_LENGTH_KNOWN_CONFLICTS",
+  "independent_field_checks": 0,
+  "outcomes": [
+    {
+      "task_id": "P-library-01",
+      "kind": "REGISTERED_DOOR_TASK",
+      "label": "POSITIVE",
+      "group": "sh-library",
+      "split": "development",
+      "method": "I2",
+      "route_status": "APPROACH_WITH_GAP",
+      "observed_support_stratum": "NO_MAPPED_AREA_SUPPORT",
+      "observed_support_kinds": [],
+      "reached": false,
+      "route_length_m": 0.0,
+      "residual_m": 15.384175645985245,
+      "selected_inferred_m": 0.0,
+      "admitted_candidates": 0,
+      "accepted_conflicting_edges": {},
+      "selected_conflicts": [],
+      "exposed_control_conflicts": 0,
+      "negative_false_connection": false,
+      "controlled_recovery": false,
+      "reference_coverage": 0.0,
+      "reference_endpoint_max_distance_m": null,
+      "reason_counts": {
+        "INSUFFICIENT_WALKABILITY_CONTEXT": 1
+      }
+    },
+    {
+      "task_id": "P-library-02",
+      "kind": "NETWORK_GAP_TASK",
+      "label": "POSITIVE",
+      "group": "sh-library",
+      "split": "development",
+      "method": "I2",
+      "route_status": "INFERRED_CONDITIONAL_EXTERIOR_REACH",
+      "observed_support_stratum": "TAGGED_PEDESTRIAN_FACE",
+      "observed_support_kinds": [
+        "PEDESTRIAN_AREA"
+      ],
+      "reached": true,
+      "route_length_m": 10.680882713012556,
+      "residual_m": 0.0,
+      "selected_inferred_m": 10.680882713012556,
+      "admitted_candidates": 4,
+      "accepted_conflicting_edges": {},
+      "selected_conflicts": [],
+      "exposed_control_conflicts": 0,
+      "negative_false_connection": false,
+      "controlled_recovery": true,
+      "reference_coverage": 1.0,
+      "reference_endpoint_max_distance_m": 0.0,
+      "reason_counts": {
+        "CONTEXT_AND_HARD_RULES": 4,
+        "INSUFFICIENT_WALKABILITY_CONTEXT": 4
+      }
+    },
+    {
+      "task_id": "P-huangpu-01-01",
+      "kind": "NETWORK_GAP_TASK",
+      "label": "POSITIVE",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "method": "I2",
+      "route_status": "STRICT_REACH",
+      "observed_support_stratum": "PAVING_OR_PARK_CONTEXT",
+      "observed_support_kinds": [
+        "PARK"
+      ],
+      "reached": true,
+      "route_length_m": 75.46782768054138,
+      "residual_m": 0.0,
+      "selected_inferred_m": 0.0,
+      "admitted_candidates": 0,
+      "accepted_conflicting_edges": {},
+      "selected_conflicts": [],
+      "exposed_control_conflicts": 0,
+      "negative_false_connection": false,
+      "controlled_recovery": false,
+      "reference_coverage": 0.0,
+      "reference_endpoint_max_distance_m": null,
+      "reason_counts": {
+        "MAPPED_OBSTACLE_OR_LEVEL_CONFLICT": 8
+      }
+    },
+    {
+      "task_id": "P-huangpu-01-02",
+      "kind": "NETWORK_GAP_TASK",
+      "label": "POSITIVE",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "method": "I2",
+      "route_status": "STRICT_REACH",
+      "observed_support_stratum": "PAVING_OR_PARK_CONTEXT",
+      "observed_support_kinds": [
+        "PARK"
+      ],
+      "reached": true,
+      "route_length_m": 44.477388729946135,
+      "residual_m": 0.0,
+      "selected_inferred_m": 0.0,
+      "admitted_candidates": 0,
+      "accepted_conflicting_edges": {},
+      "selected_conflicts": [],
+      "exposed_control_conflicts": 0,
+      "negative_false_connection": false,
+      "controlled_recovery": false,
+      "reference_coverage": 0.0,
+      "reference_endpoint_max_distance_m": null,
+      "reason_counts": {
+        "MAPPED_OBSTACLE_OR_LEVEL_CONFLICT": 8
+      }
+    },
+    {
+      "task_id": "P-huangpu-01-03",
+      "kind": "NETWORK_GAP_TASK",
+      "label": "POSITIVE",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "method": "I2",
+      "route_status": "STRICT_REACH",
+      "observed_support_stratum": "PAVING_OR_PARK_CONTEXT",
+      "observed_support_kinds": [
+        "PARK"
+      ],
+      "reached": true,
+      "route_length_m": 14.54675521107665,
+      "residual_m": 0.0,
+      "selected_inferred_m": 0.0,
+      "admitted_candidates": 8,
+      "accepted_conflicting_edges": {},
+      "selected_conflicts": [],
+      "exposed_control_conflicts": 0,
+      "negative_false_connection": false,
+      "controlled_recovery": false,
+      "reference_coverage": 0.0,
+      "reference_endpoint_max_distance_m": null,
+      "reason_counts": {
+        "CONTEXT_AND_HARD_RULES": 8
+      }
+    },
+    {
+      "task_id": "P-huangpu-01-04",
+      "kind": "NETWORK_GAP_TASK",
+      "label": "POSITIVE",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "method": "I2",
+      "route_status": "STRICT_REACH",
+      "observed_support_stratum": "NO_MAPPED_AREA_SUPPORT",
+      "observed_support_kinds": [],
+      "reached": true,
+      "route_length_m": 92.78503524256153,
+      "residual_m": 0.0,
+      "selected_inferred_m": 0.0,
+      "admitted_candidates": 3,
+      "accepted_conflicting_edges": {},
+      "selected_conflicts": [],
+      "exposed_control_conflicts": 0,
+      "negative_false_connection": false,
+      "controlled_recovery": false,
+      "reference_coverage": 0.0,
+      "reference_endpoint_max_distance_m": null,
+      "reason_counts": {
+        "INSUFFICIENT_WALKABILITY_CONTEXT": 4,
+        "CONTEXT_AND_HARD_RULES": 3
+      }
+    },
+    {
+      "task_id": "N-huangpu-01-01",
+      "kind": "NETWORK_GAP_TASK",
+      "label": "NEGATIVE",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "method": "I2",
+      "route_status": "STRICT_REACH",
+      "observed_support_stratum": "PAVING_OR_PARK_CONTEXT",
+      "observed_support_kinds": [
+        "PARK"
+      ],
+      "reached": true,
+      "route_length_m": 43.54006837782683,
+      "residual_m": 0.0,
+      "selected_inferred_m": 0.0,
+      "admitted_candidates": 5,
+      "accepted_conflicting_edges": {},
+      "selected_conflicts": [],
+      "exposed_control_conflicts": 0,
+      "negative_false_connection": false,
+      "controlled_recovery": false,
+      "reference_coverage": 0.0,
+      "reference_endpoint_max_distance_m": null,
+      "reason_counts": {
+        "CONTEXT_AND_HARD_RULES": 5,
+        "MAPPED_OBSTACLE_OR_LEVEL_CONFLICT": 3
+      }
+    },
+    {
+      "task_id": "N-huangpu-01-02",
+      "kind": "NETWORK_GAP_TASK",
+      "label": "NEGATIVE",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "method": "I2",
+      "route_status": "STRICT_REACH",
+      "observed_support_stratum": "PAVING_OR_PARK_CONTEXT",
+      "observed_support_kinds": [
+        "PARK"
+      ],
+      "reached": true,
+      "route_length_m": 62.48455728576897,
+      "residual_m": 0.0,
+      "selected_inferred_m": 0.0,
+      "admitted_candidates": 0,
+      "accepted_conflicting_edges": {},
+      "selected_conflicts": [],
+      "exposed_control_conflicts": 3,
+      "negative_false_connection": false,
+      "controlled_recovery": false,
+      "reference_coverage": 0.0,
+      "reference_endpoint_max_distance_m": null,
+      "reason_counts": {
+        "MAPPED_OBSTACLE_OR_LEVEL_CONFLICT": 8
+      }
+    }
+  ],
+  "aggregate": [
+    {
+      "split": "all",
+      "kind": "ALL_TASKS",
+      "method": "I2",
+      "positive": 6,
+      "recovered": 1,
+      "negative": 2,
+      "false_connections": 0,
+      "exposed_control_conflicts": 1,
+      "accepted_conflicting_edges": 0,
+      "with_conditional_route": 1
+    },
+    {
+      "split": "all",
+      "kind": "NETWORK_GAP_TASK",
+      "method": "I2",
+      "positive": 5,
+      "recovered": 1,
+      "negative": 2,
+      "false_connections": 0,
+      "exposed_control_conflicts": 1,
+      "accepted_conflicting_edges": 0,
+      "with_conditional_route": 1
+    },
+    {
+      "split": "all",
+      "kind": "REGISTERED_DOOR_TASK",
+      "method": "I2",
+      "positive": 1,
+      "recovered": 0,
+      "negative": 0,
+      "false_connections": 0,
+      "exposed_control_conflicts": 0,
+      "accepted_conflicting_edges": 0,
+      "with_conditional_route": 0
+    },
+    {
+      "split": "development",
+      "kind": "ALL_TASKS",
+      "method": "I2",
+      "positive": 6,
+      "recovered": 1,
+      "negative": 2,
+      "false_connections": 0,
+      "exposed_control_conflicts": 1,
+      "accepted_conflicting_edges": 0,
+      "with_conditional_route": 1
+    },
+    {
+      "split": "development",
+      "kind": "NETWORK_GAP_TASK",
+      "method": "I2",
+      "positive": 5,
+      "recovered": 1,
+      "negative": 2,
+      "false_connections": 0,
+      "exposed_control_conflicts": 1,
+      "accepted_conflicting_edges": 0,
+      "with_conditional_route": 1
+    },
+    {
+      "split": "development",
+      "kind": "REGISTERED_DOOR_TASK",
+      "method": "I2",
+      "positive": 1,
+      "recovered": 0,
+      "negative": 0,
+      "false_connections": 0,
+      "exposed_control_conflicts": 0,
+      "accepted_conflicting_edges": 0,
+      "with_conditional_route": 0
+    }
+  ],
+  "support_strata": [
+    {
+      "method": "I2",
+      "kind": "NETWORK_GAP_TASK",
+      "observed_support_stratum": "NO_MAPPED_AREA_SUPPORT",
+      "positive": 1,
+      "recovered": 0
+    },
+    {
+      "method": "I2",
+      "kind": "NETWORK_GAP_TASK",
+      "observed_support_stratum": "PAVING_OR_PARK_CONTEXT",
+      "positive": 3,
+      "recovered": 0
+    },
+    {
+      "method": "I2",
+      "kind": "NETWORK_GAP_TASK",
+      "observed_support_stratum": "TAGGED_PEDESTRIAN_FACE",
+      "positive": 1,
+      "recovered": 1
+    },
+    {
+      "method": "I2",
+      "kind": "REGISTERED_DOOR_TASK",
+      "observed_support_stratum": "NO_MAPPED_AREA_SUPPORT",
+      "positive": 1,
+      "recovered": 0
+    }
+  ]
+}

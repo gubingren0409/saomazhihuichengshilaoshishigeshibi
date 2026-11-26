@@ -1,0 +1,24 @@
+{
+  "status": "LOCKED_BEFORE_PREDICTION",
+  "group_rule": "Frozen building scene plus pairwise source-way/endpoints/spatial checks",
+  "splits": {
+    "sh-huangpu-01": "development",
+    "sh-library": "development",
+    "sh-tower": "selection",
+    "sh-wukang": "selection",
+    "sh-newworld": "confirmation",
+    "sh-exhibition": "confirmation"
+  },
+  "crop_m": 65,
+  "site_range_m": 500,
+  "spacing_m": 27,
+  "shadow_m": 0.05,
+  "max_positive": 24,
+  "max_negative": 12,
+  "endpoint_tolerance_m": 2,
+  "reference_buffer_m": 2,
+  "minimum_reference_coverage": 0.7,
+  "max_inferred_ratio": 1.5,
+  "field_truth": false,
+  "no_external_requests": true
+}

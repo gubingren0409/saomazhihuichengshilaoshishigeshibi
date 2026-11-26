@@ -1,0 +1,32 @@
+{
+  "status": "LOCKED_BEFORE_NATURAL_AND_CONTROLLED_PREDICTIONS",
+  "schema_version": 1,
+  "crs": "EPSG:32651",
+  "main": {
+    "radius_m": 30,
+    "max_length_m": 40,
+    "max_candidates": 8,
+    "clearance_m": 0.25,
+    "anchor_separation_m": 2,
+    "min_length_m": 0.5,
+    "context_overlap_fraction": 0.5,
+    "alignment_dot": 0.6,
+    "level_assumption_penalty_m": 4,
+    "inference_penalty_m": 8,
+    "visibility_vertex_limit": 220
+  },
+  "variants": [
+    "I0",
+    "I1",
+    "I2",
+    "ABL-S",
+    "ABL-I",
+    "ABL-C"
+  ],
+  "confirmation": "I1 and I2 frozen; no post-confirmation parameter changes",
+  "domain": "door/query-centered disk, subtract mapped physical/restricted/landcover masks independently of anchors",
+  "topology": "reachable explicit pedestrian/area-derived edges only; preserve directed exact segment splits",
+  "length_cost": "geometry metres plus finite separate inferred and unknown level penalties",
+  "numerical_tolerance_m": 0.00001,
+  "observable_only": true
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>R4-WALKABILITY-R2 · 步道保留与缺标连接</title>
+<style>
+:root{--paper:#fcfaf7;--ink:#243139;--muted:#55646d;--line:#d9e1e4;--blue:#d3eaf5;--sand:#f5d9b8;--lav:#d7d3ea;--route:#17506b;--infer:#ac571e;--green:#315e4d}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 "Microsoft YaHei",Arial,sans-serif}
+.wrap{width:min(1450px,95%);margin:auto}header{background:var(--blue);padding:26px 0 24px;border-bottom:1px solid #a9c8d3}h1,h2,h3,p{margin:0}h1{font-size:clamp(29px,4vw,49px);line-height:1.14;margin:4px 0 9px}h2{font-size:24px}h3{font-size:17px}.eyebrow{font-size:12px;letter-spacing:.09em;font-weight:700;color:#4c5e6a}.sub{font-size:13px;color:var(--muted)}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}.tabs a{padding:10px 12px;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:white;border-radius:5px;font-weight:650}.tabs a[aria-current=page]{background:var(--lav);border-color:#8c84ad}
+.panel{background:#fffefa;border:1px solid var(--line);border-radius:7px;margin:13px 0;padding:13px}.controls,.legend,.layers,.links{display:flex;flex-wrap:wrap;align-items:center;gap:7px 12px;margin:8px 0}.controls button,.controls select{font:inherit;border:1px solid #aab8bd;border-radius:4px;background:white;color:var(--ink);padding:4px 9px}.controls button{cursor:pointer}.controls button[aria-pressed=true]{background:#d9ebf4;border-color:#7199a7;font-weight:700}
+.layers{font-size:12px;background:#f0f4ef;border-radius:4px;padding:5px 8px}.layers label{white-space:nowrap}.legend{font-size:12px;color:var(--muted)}.swatch{display:inline-block;width:17px;height:7px;margin-right:4px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}.map{border:1px solid var(--line);border-radius:4px;overflow:hidden;min-width:0;background:#f7f5ee}.map h3{padding:6px 9px;background:white}.map p{padding:0 9px 6px;background:white;font-size:12px}.map svg{display:block;width:100%;height:auto;aspect-ratio:1.5;background:#f2f2e9}.map [tabindex]{cursor:pointer}.map [tabindex]:focus{outline:none;filter:drop-shadow(0 0 2px #20283f)}
+.inspector{min-height:56px;border-left:3px solid #7ba1b0;padding:6px 10px;background:#edf4f6;margin-top:8px;font-size:13px;overflow-wrap:anywhere}
+table{border-collapse:collapse;width:100%;font-size:12px}th,td{text-align:left;padding:4px 7px;border-bottom:1px solid #e0e6e7;vertical-align:top}th{background:#edf2ef}.table{overflow-x:auto;max-height:440px;margin-top:7px}details{margin-top:8px}summary{cursor:pointer;font-weight:650}a{color:#205976}.note{color:#52636b;font-size:13px}footer{color:#55646d;font-size:12px;padding:8px 0 22px}
+@media(max-width:730px){.tabs{grid-template-columns:1fr}.pair{grid-template-columns:1fr}}
+</style></head>
+<body><header><div class="wrap"><div class="eyebrow">OSM · R4-WALKABILITY-R2</div><h1>保留已标步道，检验缺标连接</h1><p class="sub">上海博物馆与冻结受控样本 · 真实路线、受控隐藏、合成测试分开标识</p></div></header>
+<main class="wrap">
+<nav class="tabs" aria-label="三组对照"><a href="#grass" data-tab="grass">01 草地内的已标步道</a><a href="#north" data-tab="north">02 北门候选与完整路线</a><a href="#cases" data-tab="cases">03 受控恢复与拒绝反例</a></nav>
+<section class="panel"><h2 id="title"></h2><p id="intro" class="sub"></p>
+<div class="controls"><div id="compare-controls"></div><button data-view="near" aria-pressed="true">门前／局部</button><button data-view="full" aria-pressed="false">完整路线</button><button id="zoom-plus" aria-label="同步放大">＋</button><button id="zoom-minus" aria-label="同步缩小">－</button><button id="reset">重置</button><button id="export">导出当前 SVG</button></div>
+<div class="layers" id="layers" aria-label="图层"></div>
+<div class="legend" id="legend"></div>
+<div class="pair"><article class="map"><h3 id="left-head"></h3><p id="left-summary"></p><svg id="map-left" xmlns="http://www.w3.org/2000/svg"></svg></article><article class="map"><h3 id="right-head"></h3><p id="right-summary"></p><svg id="map-right" xmlns="http://www.w3.org/2000/svg"></svg></article></div>
+<div id="inspector" class="inspector" aria-live="polite">点击地图对象查看原生 ID、标签、状态和坐标。</div>
+<div id="details"></div>
+</section><section class="panel"><h3>自然语言验收</h3><p>请直接指出你认为合理或需要复核的步道、接点、路线或拒绝样例。</p><div class="links"><a href="../RESULTS.md">实测结果</a><a href="../SCOPE_AND_METHOD.md">方法与边界</a><a href="../audits/INDEPENDENT_REVIEW.md">独立审核</a></div></section>
+</main><footer class="wrap">© OpenStreetMap contributors · 冻结源几何 · EPSG:32651 · 托管结果仅为历史引用</footer>
+<script type="application/json" id="payload">__PAYLOAD__</script><script>__SCRIPT__</script></body></html>

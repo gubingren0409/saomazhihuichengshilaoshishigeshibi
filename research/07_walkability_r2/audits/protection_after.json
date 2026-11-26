@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "archives": [
+    {
+      "path": "C:\\Users\\28489\\Downloads\\OSM_GEOAPIFY_R4_WALKABILITY_R2_CODEX_INPUTS.zip",
+      "actual": {
+        "bytes": 21735475,
+        "sha256": "b725c9c108936e29dc302e20e8f1ddfc9cbb8b0d6ba163a841599bfb9aeacec7"
+      },
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\delivery\\OPEN_REVIEW.zip",
+      "actual": {
+        "bytes": 19579824,
+        "sha256": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0"
+      },
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_NORTH_ACCESS_R1\\delivery\\OPEN_REVIEW.zip",
+      "actual": {
+        "bytes": 2012470,
+        "sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147"
+      },
+      "unchanged": true
+    }
+  ],
+  "git": [
+    {
+      "path": "E:\\智慧城市和位置服务",
+      "actual": {
+        "head": "2c878cc69aec54cf1f9e5e6803eeb1cb9b06bfdc",
+        "index_sha256": "4216b12478e717dcb367733fbbb430911edf77b785c1d3fc9ebd9cd8a80e2bd4",
+        "tracked_status_sha256": "623dbc38d2e4cc6a57459b5850ed57c3442634b858ec3b85479e8309075bced2"
+      },
+      "unchanged": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services",
+      "actual": {
+        "head": "677003de184b73a503f830a47186ee7688e13507",
+        "index_sha256": "67f47e86c92bc814144043bdb235f62149b9e0d95aad58cbec356fa68e7f2f0f",
+        "tracked_status_sha256": "d5d41c2760d3aa1f5543964e85015425aa1d322664227cbb52f41d8e9ab90325"
+      },
+      "unchanged": true
+    }
+  ],
+  "scope": "original archives and two Git indexes, HEADs, tracked porcelain"
+}

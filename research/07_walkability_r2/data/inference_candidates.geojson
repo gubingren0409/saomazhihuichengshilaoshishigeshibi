@@ -1,0 +1,2157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.470610971602,
+            31.23062514364944
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 7.9522175893136655,
+        "graph_distance_m": 1166.0987072821401,
+        "source_id": "way/178719573",
+        "source_tags": {
+          "foot": "yes",
+          "highway": "footway",
+          "surface": "paving_stones"
+        },
+        "source_segment_index": 110,
+        "source_kind": "NATIVE_LINEAR",
+        "id": "anchor/1",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": true,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 7.9522175893136655,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 7.9522175893136655
+            }
+          ],
+          "combined_coverage_m": 7.9522175893136655,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 6.9760224063812616e-12,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 19.952217589313666,
+        "variant": "I1",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.470610971602,
+          31.23062514364944
+        ]
+      },
+      "properties": {
+        "variant": "I1",
+        "role": "candidate_anchor",
+        "source_id": "way/178719573",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/1",
+        "route_selected": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.470610971602,
+            31.23062514364944
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 7.9522175893136655,
+        "graph_distance_m": 1166.0987072821401,
+        "source_id": "way/178719573",
+        "source_tags": {
+          "foot": "yes",
+          "highway": "footway",
+          "surface": "paving_stones"
+        },
+        "source_segment_index": 110,
+        "source_kind": "NATIVE_LINEAR",
+        "id": "anchor/1",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 7.9522175893136655,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 7.9522175893136655
+            }
+          ],
+          "combined_coverage_m": 7.9522175893136655,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 6.9760224063812616e-12,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 19.952217589313666,
+        "variant": "I2",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.470610971602,
+          31.23062514364944
+        ]
+      },
+      "properties": {
+        "variant": "I2",
+        "role": "candidate_anchor",
+        "source_id": "way/178719573",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/1",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47059265345432,
+            31.23061540597325
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 8.372198521183844,
+        "graph_distance_m": 1162.3441164724397,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/2",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 8.372198521183844,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 8.372198521183844
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.17154124886771066
+            }
+          ],
+          "combined_coverage_m": 8.372198521183844,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9965826286944237,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 20.372198521183844,
+        "variant": "I2",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47059265345432,
+          31.23061540597325
+        ]
+      },
+      "properties": {
+        "variant": "I2",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/2",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47062902804134,
+            31.230638392176598
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 8.421758753640853,
+        "graph_distance_m": 1166.879650378372,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/3",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 8.421758753640853,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 8.421758753640853
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.1678852187975277
+            }
+          ],
+          "combined_coverage_m": 8.421758753640853,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9393288910274131,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 20.42175875364085,
+        "variant": "I2",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47062902804134,
+          31.230638392176598
+        ]
+      },
+      "properties": {
+        "variant": "I2",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/3",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47057187836322,
+            31.230601626732927
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 9.255623044017073,
+        "graph_distance_m": 1159.7227961288804,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/4",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": true,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 9.255623044017073,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 9.255623044017073
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.12729107998323266
+            }
+          ],
+          "combined_coverage_m": 9.255623044017073,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9396602432299956,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 21.25562304401707,
+        "variant": "I2",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47057187836322,
+          31.230601626732927
+        ]
+      },
+      "properties": {
+        "variant": "I2",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/4",
+        "route_selected": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47064980314899,
+            31.23065217140813
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 9.452680606563378,
+        "graph_distance_m": 1169.5009707219313,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/5",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 9.452680606563378,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 9.452680606563378
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.2513217349280535
+            }
+          ],
+          "combined_coverage_m": 9.452680606563378,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.995569585205658,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 21.452680606563376,
+        "variant": "I2",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47064980314899,
+          31.23065217140813
+        ]
+      },
+      "properties": {
+        "variant": "I2",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/5",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47060271406393,
+            31.230642589863635
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 9.989038444625683,
+        "graph_distance_m": 1164.5867571595584,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/6",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 9.989038444625683,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 9.989038444625683
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 2.0262606595576282
+            }
+          ],
+          "combined_coverage_m": 9.989038444625683,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9768508977774496,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 21.989038444625685,
+        "variant": "I2",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47060271406393,
+          31.230642589863635
+        ]
+      },
+      "properties": {
+        "variant": "I2",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/6",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4705715877458,
+            31.230619666085097
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 10.262054529925834,
+        "graph_distance_m": 1160.5512232536262,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/7",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 10.262054529925834,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 10.262054529925834
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 1.8397930618986216
+            }
+          ],
+          "combined_coverage_m": 10.262054529925834,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9853148347314818,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 22.262054529925834,
+        "variant": "I2",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4705715877458,
+          31.230619666085097
+        ]
+      },
+      "properties": {
+        "variant": "I2",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/7",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47062873743437,
+            31.230656431529138
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 10.323237173811219,
+        "graph_distance_m": 1167.7080775031177,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/8",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 10.323237173811219,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 10.323237173811219
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 1.895001385822243
+            }
+          ],
+          "combined_coverage_m": 10.323237173811219,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9600478167546469,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 22.32323717381122,
+        "variant": "I2",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47062873743437,
+          31.230656431529138
+        ]
+      },
+      "properties": {
+        "variant": "I2",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/8",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.470610971602,
+            31.23062514364944
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 7.9522175893136655,
+        "graph_distance_m": 1166.0987072821401,
+        "source_id": "way/178719573",
+        "source_tags": {
+          "foot": "yes",
+          "highway": "footway",
+          "surface": "paving_stones"
+        },
+        "source_segment_index": 110,
+        "source_kind": "NATIVE_LINEAR",
+        "id": "anchor/1",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_ABLATION",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 7.9522175893136655,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 7.9522175893136655
+            }
+          ],
+          "combined_coverage_m": 7.9522175893136655,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 6.9760224063812616e-12,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 19.952217589313666,
+        "variant": "ABL-C",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.470610971602,
+          31.23062514364944
+        ]
+      },
+      "properties": {
+        "variant": "ABL-C",
+        "role": "candidate_anchor",
+        "source_id": "way/178719573",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/1",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47059265345432,
+            31.23061540597325
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 8.372198521183844,
+        "graph_distance_m": 1162.3441164724397,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/2",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_ABLATION",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 8.372198521183844,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 8.372198521183844
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.17154124886771066
+            }
+          ],
+          "combined_coverage_m": 8.372198521183844,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9965826286944237,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 20.372198521183844,
+        "variant": "ABL-C",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47059265345432,
+          31.23061540597325
+        ]
+      },
+      "properties": {
+        "variant": "ABL-C",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/2",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47062902804134,
+            31.230638392176598
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 8.421758753640853,
+        "graph_distance_m": 1166.879650378372,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/3",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_ABLATION",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 8.421758753640853,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 8.421758753640853
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.1678852187975277
+            }
+          ],
+          "combined_coverage_m": 8.421758753640853,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9393288910274131,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 20.42175875364085,
+        "variant": "ABL-C",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47062902804134,
+          31.230638392176598
+        ]
+      },
+      "properties": {
+        "variant": "ABL-C",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/3",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47057187836322,
+            31.230601626732927
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 9.255623044017073,
+        "graph_distance_m": 1159.7227961288804,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/4",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_ABLATION",
+        "direct_conflicts": [],
+        "route_selected": true,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 9.255623044017073,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 9.255623044017073
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.12729107998323266
+            }
+          ],
+          "combined_coverage_m": 9.255623044017073,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9396602432299956,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 21.25562304401707,
+        "variant": "ABL-C",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47057187836322,
+          31.230601626732927
+        ]
+      },
+      "properties": {
+        "variant": "ABL-C",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/4",
+        "route_selected": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47064980314899,
+            31.23065217140813
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 9.452680606563378,
+        "graph_distance_m": 1169.5009707219313,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/5",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_ABLATION",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 9.452680606563378,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 9.452680606563378
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.2513217349280535
+            }
+          ],
+          "combined_coverage_m": 9.452680606563378,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.995569585205658,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 21.452680606563376,
+        "variant": "ABL-C",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47064980314899,
+          31.23065217140813
+        ]
+      },
+      "properties": {
+        "variant": "ABL-C",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/5",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47060271406393,
+            31.230642589863635
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 9.989038444625683,
+        "graph_distance_m": 1164.5867571595584,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/6",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_ABLATION",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 9.989038444625683,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 9.989038444625683
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 2.0262606595576282
+            }
+          ],
+          "combined_coverage_m": 9.989038444625683,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9768508977774496,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 21.989038444625685,
+        "variant": "ABL-C",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47060271406393,
+          31.230642589863635
+        ]
+      },
+      "properties": {
+        "variant": "ABL-C",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/6",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4705715877458,
+            31.230619666085097
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 10.262054529925834,
+        "graph_distance_m": 1160.5512232536262,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/7",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_ABLATION",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 10.262054529925834,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 10.262054529925834
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 1.8397930618986216
+            }
+          ],
+          "combined_coverage_m": 10.262054529925834,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9853148347314818,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 22.262054529925834,
+        "variant": "ABL-C",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4705715877458,
+          31.230619666085097
+        ]
+      },
+      "properties": {
+        "variant": "ABL-C",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/7",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47062873743437,
+            31.230656431529138
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 10.323237173811219,
+        "graph_distance_m": 1167.7080775031177,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/8",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_ABLATION",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 10.323237173811219,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 10.323237173811219
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 1.895001385822243
+            }
+          ],
+          "combined_coverage_m": 10.323237173811219,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9600478167546469,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 22.32323717381122,
+        "variant": "ABL-C",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47062873743437,
+          31.230656431529138
+        ]
+      },
+      "properties": {
+        "variant": "ABL-C",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/8",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.470610971602,
+            31.23062514364944
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 7.9522175893136655,
+        "graph_distance_m": 1237.8147184953468,
+        "source_id": "way/178719573",
+        "source_tags": {
+          "foot": "yes",
+          "highway": "footway",
+          "surface": "paving_stones"
+        },
+        "source_segment_index": 110,
+        "source_kind": "NATIVE_LINEAR",
+        "id": "anchor/1",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 7.9522175893136655,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 7.9522175893136655
+            }
+          ],
+          "combined_coverage_m": 7.9522175893136655,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 6.9760224063812616e-12,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 19.952217589313666,
+        "variant": "ABL-S",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.470610971602,
+          31.23062514364944
+        ]
+      },
+      "properties": {
+        "variant": "ABL-S",
+        "role": "candidate_anchor",
+        "source_id": "way/178719573",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/1",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47059265345432,
+            31.23061540597325
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 8.372198521183844,
+        "graph_distance_m": 1235.5326609030678,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/2",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 8.372198521183844,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 8.372198521183844
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.17154124886771066
+            }
+          ],
+          "combined_coverage_m": 8.372198521183844,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9965826286944237,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 20.372198521183844,
+        "variant": "ABL-S",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47059265345432,
+          31.23061540597325
+        ]
+      },
+      "properties": {
+        "variant": "ABL-S",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/2",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47062902804134,
+            31.230638392176598
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 8.421758753640853,
+        "graph_distance_m": 1240.068194809,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/3",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 8.421758753640853,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 8.421758753640853
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.1678852187975277
+            }
+          ],
+          "combined_coverage_m": 8.421758753640853,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9393288910274131,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 20.42175875364085,
+        "variant": "ABL-S",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47062902804134,
+          31.230638392176598
+        ]
+      },
+      "properties": {
+        "variant": "ABL-S",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/3",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47057187836322,
+            31.230601626732927
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 9.255623044017073,
+        "graph_distance_m": 1232.9113405595085,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/4",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": true,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 9.255623044017073,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 9.255623044017073
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.12729107998323266
+            }
+          ],
+          "combined_coverage_m": 9.255623044017073,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9396602432299956,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 21.25562304401707,
+        "variant": "ABL-S",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47057187836322,
+          31.230601626732927
+        ]
+      },
+      "properties": {
+        "variant": "ABL-S",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/4",
+        "route_selected": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47064980314899,
+            31.23065217140813
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 9.452680606563378,
+        "graph_distance_m": 1242.6895151525594,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/5",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 9.452680606563378,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 9.452680606563378
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 0.2513217349280535
+            }
+          ],
+          "combined_coverage_m": 9.452680606563378,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.995569585205658,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 21.452680606563376,
+        "variant": "ABL-S",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47064980314899,
+          31.23065217140813
+        ]
+      },
+      "properties": {
+        "variant": "ABL-S",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/5",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47060271406393,
+            31.230642589863635
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 9.989038444625683,
+        "graph_distance_m": 1237.7753015901865,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/6",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 9.989038444625683,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 9.989038444625683
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 2.0262606595576282
+            }
+          ],
+          "combined_coverage_m": 9.989038444625683,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9768508977774496,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 21.989038444625685,
+        "variant": "ABL-S",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47060271406393,
+          31.230642589863635
+        ]
+      },
+      "properties": {
+        "variant": "ABL-S",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/6",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4705715877458,
+            31.230619666085097
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 10.262054529925834,
+        "graph_distance_m": 1233.7397676842543,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/7",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 10.262054529925834,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 10.262054529925834
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 1.8397930618986216
+            }
+          ],
+          "combined_coverage_m": 10.262054529925834,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9853148347314818,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 22.262054529925834,
+        "variant": "ABL-S",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4705715877458,
+          31.230619666085097
+        ]
+      },
+      "properties": {
+        "variant": "ABL-S",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/7",
+        "route_selected": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.47062873743437,
+            31.230656431529138
+          ],
+          [
+            121.47066050000001,
+            31.230567400000012
+          ]
+        ]
+      },
+      "properties": {
+        "gap_m": 10.323237173811219,
+        "graph_distance_m": 1240.8966219337458,
+        "source_id": "relation/2153738",
+        "source_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "source_segment_index": null,
+        "source_kind": "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA",
+        "id": "anchor/8",
+        "status": "INFERRED_ALLOWED",
+        "reason": "CONTEXT_AND_HARD_RULES",
+        "direct_conflicts": [],
+        "route_selected": false,
+        "grade_status": "UNOBSERVED_CONTINUOUS_LEVEL",
+        "length_m": 10.323237173811219,
+        "context": {
+          "support": [
+            {
+              "source_id": "way/404709025",
+              "kind": "PARK",
+              "coverage_m": 10.323237173811219
+            },
+            {
+              "source_id": "relation/2153738",
+              "kind": "PEDESTRIAN_AREA",
+              "coverage_m": 1.895001385822243
+            }
+          ],
+          "combined_coverage_m": 10.323237173811219,
+          "coverage_ratio": 1.0,
+          "source_continuation_dot": 0.9600478167546469,
+          "target_continuation_dot": null,
+          "cues": [
+            "MAPPED_PEDESTRIAN_OR_PARK_CONTEXT"
+          ]
+        },
+        "geometry_status": "NO_MAPPED_CONFLICT",
+        "same_level_assumption": "UNOBSERVED_LEVEL_LOCAL_OUTDOOR_SURFACE",
+        "level_penalty_m": 4,
+        "inference_penalty_m": 8,
+        "cost_m": 22.32323717381122,
+        "variant": "ABL-S",
+        "role": "candidate_connector"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.47062873743437,
+          31.230656431529138
+        ]
+      },
+      "properties": {
+        "variant": "ABL-S",
+        "role": "candidate_anchor",
+        "source_id": "relation/2153738",
+        "status": "INFERRED_ALLOWED",
+        "id": "anchor/8",
+        "route_selected": false
+      }
+    }
+  ]
+}

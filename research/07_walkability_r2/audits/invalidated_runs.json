@@ -1,0 +1,49 @@
+[
+  {
+    "run": "inference_initial_01",
+    "note": "# First inference run retained for diagnosis\n\nThe initial observed-only run finished all 18 controlled tasks. An independent synthetic regression showed an exactly equal generalized cost could prefer a fully inferred connection to an equally short path that reused mapped walking geometry. Before any controlled references were scored, the implementation was corrected to prefer less inferred length at equal cost. Arbitrary midpoint anchoring on stairs/elevators was also rejected because it does not establish a level. The locked scientific thresholds and raw inputs did not change. These artifacts are superseded by the corrected replay.\n",
+    "files": [
+      {
+        "path": "data/inference_candidates.csv",
+        "bytes": 25021,
+        "sha256": "744df6b6dd7bb158d9d68ea81657e21b74f0f7a24ffacda9986925a75f5b8e85"
+      },
+      {
+        "path": "data/inference_candidates.geojson",
+        "bytes": 62981,
+        "sha256": "859286a75e896330a6d947e8c319e39f72c28e6ea265201f2cb98e953bc095ad"
+      },
+      {
+        "path": "data/inference_context.geojson",
+        "bytes": 44274,
+        "sha256": "83faf7f0a8ba524b099017398c18b2d808fffad65fa29151fb18718c5990680d"
+      },
+      {
+        "path": "data/inference_routes.geojson",
+        "bytes": 1248963,
+        "sha256": "8344ea3f5de3aaa42fc5cb6f18f3647710fd345a18121b44be3994bd6c201611"
+      },
+      {
+        "path": "runs/inference.json",
+        "bytes": 1766890,
+        "sha256": "536bf4dae87ad7ddb4232b12fd9cc1238900271885eb9c450a2d95aef5a4fbc3"
+      },
+      {
+        "path": "runs/masked_predictions.json",
+        "bytes": 1186208,
+        "sha256": "6f0e6b32c28fe72b839e0d072b46790265448c25a2c0b22259d22a629b15b50d"
+      }
+    ]
+  },
+  {
+    "run": "inference_initial_02",
+    "note": "# Superseded observed-input receipt\n\nPrediction completed, but the independent scorer rejected the bare basename in its application read receipt. Before independent scoring, the receipt was corrected to include the observed-root role and confirmation execution was limited to the two frozen predictive methods plus the I0 no-inference baseline. Scientific parameters and observations were unchanged.\n",
+    "files": [
+      {
+        "path": "runs/masked_predictions.json",
+        "bytes": 1169794,
+        "sha256": "bfc8f86f0b03d7ef65f22a3b75b9fd9af0f08dcb0aa73afc1def0473e260dc11"
+      }
+    ]
+  }
+]

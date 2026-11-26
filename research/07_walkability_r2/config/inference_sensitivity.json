@@ -1,0 +1,41 @@
+{
+  "status": "LOCKED_BEFORE_INDEPENDENT_REFERENCE_REVEAL",
+  "scope_note": "Fixed group IDs are orchestration metadata copied from the non-implementation curator's frozen split config; no reference paths, labels, geometries or answers enter the predictor. Contrasts run only the eight development observations.",
+  "development_task_ids": [
+    "P-library-01",
+    "P-library-02",
+    "P-huangpu-01-01",
+    "P-huangpu-01-02",
+    "P-huangpu-01-03",
+    "P-huangpu-01-04",
+    "N-huangpu-01-01",
+    "N-huangpu-01-02"
+  ],
+  "confirmation_task_prefixes": [
+    "P-newworld-",
+    "N-newworld-",
+    "P-exhibition-",
+    "N-exhibition-"
+  ],
+  "main_config_selection": "Use fixed primary configuration from inference.json for the confirmatory I1 vs I2 contrast. Development sensitivity assesses mechanism only. Do not select or retune against confirmation.",
+  "contrasts": {
+    "radius20": {
+      "overrides": {
+        "radius_m": 20
+      },
+      "trigger": "Wider candidate windows may introduce avoidable alternatives and search cost."
+    },
+    "clearance050": {
+      "overrides": {
+        "clearance_m": 0.5
+      },
+      "trigger": "Unknown horizontal uncertainty near obstacles may change which connectors remain admissible."
+    },
+    "penalty16": {
+      "overrides": {
+        "inference_penalty_m": 16
+      },
+      "trigger": "A higher finite penalty may favor an available mapped detour over a short inferred edge."
+    }
+  }
+}

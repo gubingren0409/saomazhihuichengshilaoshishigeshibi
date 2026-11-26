@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_BEFORE_PREDICTION",
+  "tasks": 18,
+  "counts": {
+    "POSITIVE": 14,
+    "NEGATIVE": 4
+  },
+  "group_counts": {
+    "sh-huangpu-01": 6,
+    "sh-library": 2,
+    "sh-newworld": 6,
+    "sh-tower": 4
+  },
+  "split_counts": {
+    "development": 8,
+    "selection": 4,
+    "confirmation": 6
+  },
+  "registered_door_count": 1,
+  "inventory_sha256": "c6e2b9090b751af6a8cb9ab7282464fc13729d940b4e3c179f9b5491a598ed4d",
+  "config_sha256": "c4649d8d3b263cae1296d488eeb03450563d68184855ee4befb5e5739c65d7ba",
+  "checks": [
+    "RAW_WAY_AND_BOTH_DIRECTIONS_REMOVED",
+    "GEOMETRIC_SHADOWS_REMOVED",
+    "HIDDEN_INTERMEDIATE_NODES_REMOVED",
+    "REFERENCE_AND_OBSERVED_SEPARATE"
+  ],
+  "selection": "First pre-prediction deterministic inventory; short eligible ways and definite geometric controls from the frozen clips; no outcomes viewed."
+}

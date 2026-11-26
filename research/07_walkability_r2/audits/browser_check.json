@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "browser": "Chromium",
+  "version": "147.0.3912.72",
+  "checks": [
+    [
+      "file",
+      "草地内的已标步道"
+    ],
+    [
+      "loopback",
+      "grass",
+      "草地内的已标步道"
+    ],
+    [
+      "loopback",
+      "north",
+      "北门多接点、取舍和完整路线"
+    ],
+    [
+      "loopback",
+      "cases",
+      "P-newworld-02 · 遮蔽原生步道"
+    ],
+    "synthetic_layer_conflict",
+    "zoom_lockstep",
+    "layer_toggle",
+    "keyboard_id",
+    "north_exit_xy_and_role",
+    "variant_change",
+    "actual_svg_download",
+    "case_positive:P-newworld-02",
+    "case_negative:N-newworld-02"
+  ],
+  "export": "Six SVGs regenerated from the page",
+  "page_errors": [],
+  "unexpected_requests": []
+}

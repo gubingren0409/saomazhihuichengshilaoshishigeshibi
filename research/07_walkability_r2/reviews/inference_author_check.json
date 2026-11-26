@@ -1,0 +1,108 @@
+{
+  "status": "AUTHOR_CHECK_REPRODUCED",
+  "fixed_north_route_checks": {
+    "I0": {
+      "route_edges": 78,
+      "selected_inferred_edges": [],
+      "edge_length_metres_by_kind": {
+        "NATIVE_LINEAR": 1166.0987072821401
+      },
+      "graph": {
+        "nodes": 29634,
+        "directed_edges": 172960,
+        "weak_components": 148
+      }
+    },
+    "I1": {
+      "route_edges": 79,
+      "selected_inferred_edges": [
+        "inferred/anchor/1"
+      ],
+      "edge_length_metres_by_kind": {
+        "NATIVE_LINEAR": 1166.0987072821401,
+        "INFERRED_ALLOWED": 7.9522175893136655
+      },
+      "graph": {
+        "nodes": 29635,
+        "directed_edges": 172961,
+        "weak_components": 148
+      }
+    },
+    "I2": {
+      "route_edges": 382,
+      "selected_inferred_edges": [
+        "inferred/anchor/4"
+      ],
+      "edge_length_metres_by_kind": {
+        "NATIVE_LINEAR": 960.5686968013391,
+        "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA": 199.15409932755765,
+        "INFERRED_ALLOWED": 9.255623044017073
+      },
+      "graph": {
+        "nodes": 29635,
+        "directed_edges": 172968,
+        "weak_components": 148
+      }
+    },
+    "ABL-I": {
+      "route_edges": 78,
+      "selected_inferred_edges": [],
+      "edge_length_metres_by_kind": {
+        "NATIVE_LINEAR": 1166.0987072821401
+      },
+      "graph": {
+        "nodes": 29634,
+        "directed_edges": 172960,
+        "weak_components": 148
+      }
+    },
+    "ABL-C": {
+      "route_edges": 382,
+      "selected_inferred_edges": [
+        "inferred/anchor/4"
+      ],
+      "edge_length_metres_by_kind": {
+        "NATIVE_LINEAR": 960.5686968013391,
+        "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA": 199.15409932755765,
+        "INFERRED_ALLOWED": 9.255623044017073
+      },
+      "graph": {
+        "nodes": 29635,
+        "directed_edges": 172968,
+        "weak_components": 148
+      }
+    },
+    "ABL-S": {
+      "route_edges": 363,
+      "selected_inferred_edges": [
+        "inferred/anchor/4"
+      ],
+      "edge_length_metres_by_kind": {
+        "NATIVE_LINEAR": 1033.7412620581904,
+        "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA": 199.17007850134073,
+        "INFERRED_ALLOWED": 9.255623044017073
+      },
+      "graph": {
+        "nodes": 29392,
+        "directed_edges": 172386,
+        "weak_components": 153
+      }
+    }
+  },
+  "opaque_id_invariant_observations": 18,
+  "opaque_id_note": "P/N roles in the frozen filenames do not alter any of the computed outcomes",
+  "field_validation": "NOT_VERIFIED",
+  "external_requests": 0,
+  "profile": {
+    "natural": {
+      "elapsed_seconds": 49.057,
+      "sampled_peak_working_set_bytes": 666255360,
+      "sample_interval_seconds": 0.1
+    },
+    "masked": {
+      "elapsed_seconds": 8.0,
+      "sampled_peak_working_set_bytes": 67715072,
+      "sample_interval_seconds": 0.1
+    }
+  }
+}

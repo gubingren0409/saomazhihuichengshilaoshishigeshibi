@@ -1,0 +1,203 @@
+{
+  "status": "FROZEN_BEFORE_PREDICTION",
+  "tasks": [
+    {
+      "task_id": "P-library-01",
+      "group": "sh-library",
+      "split": "development",
+      "label": "POSITIVE",
+      "kind": "REGISTERED_DOOR_TASK",
+      "observed": "observed/P-library-01.json",
+      "observed_sha256": "797466a2a668f2b0aa447240bbf82fb3793afd8fab8834cbf7a54c33eb282450",
+      "reference": "reference/P-library-01.json",
+      "reference_sha256": "a0ecf27c0d9dd058190510404dc245a04f7b070815ef5940195bcfb0e3a14583"
+    },
+    {
+      "task_id": "P-library-02",
+      "group": "sh-library",
+      "split": "development",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-library-02.json",
+      "observed_sha256": "997e3e63ce154aab66b7f6583eed8bba529a782fece0049ab614238d279058fd",
+      "reference": "reference/P-library-02.json",
+      "reference_sha256": "c8a549cdf3c5fefdcf94bee733032fe4034dab6db977297ac63add6152d4388c"
+    },
+    {
+      "task_id": "P-huangpu-01-01",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-huangpu-01-01.json",
+      "observed_sha256": "5fbcdf77b97134fdde7a955880fb3c8031e0cb0203e1401ffc4e7cfbb0346030",
+      "reference": "reference/P-huangpu-01-01.json",
+      "reference_sha256": "949aa2d61924b9f0ef6ca0631174304f46a8a7afa8025114da7ccab53280b705"
+    },
+    {
+      "task_id": "P-huangpu-01-02",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-huangpu-01-02.json",
+      "observed_sha256": "631063e005bce49a5bfed451dd74b3c9413ccdf07bcd1d7b23a217bfa8df67c4",
+      "reference": "reference/P-huangpu-01-02.json",
+      "reference_sha256": "894f16525f38997bf7fe2f5e99510c661eae12dbe22282a5879cf62271c4297b"
+    },
+    {
+      "task_id": "P-huangpu-01-03",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-huangpu-01-03.json",
+      "observed_sha256": "d60b68895c75b46688a5365808959df1a3c2c02e7a51a85f8708248ec40a7bec",
+      "reference": "reference/P-huangpu-01-03.json",
+      "reference_sha256": "44c7cac6df71ffc0a63f12e9de94ad55c38c1e171f5b9ecdf890d0850074f34e"
+    },
+    {
+      "task_id": "P-huangpu-01-04",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-huangpu-01-04.json",
+      "observed_sha256": "7008cefa3068399e4d87cd9f2f51124e8bb31d3a31dc37012754f1dd6d0e4229",
+      "reference": "reference/P-huangpu-01-04.json",
+      "reference_sha256": "3dd8d87762714f10ba11816e65b345244b8e8800d1c9dd09d8b4ce85f36ab9db"
+    },
+    {
+      "task_id": "N-huangpu-01-01",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "label": "NEGATIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/N-huangpu-01-01.json",
+      "observed_sha256": "777cf3f41abf00a51f03c58d9bd712c6dcda4a3955896cc84ca1e144ef1cc30e",
+      "reference": "reference/N-huangpu-01-01.json",
+      "reference_sha256": "30359a97bb955d21813cff15d630bf1cade6f6b5989f5d9d15cd4dbef4e3c180"
+    },
+    {
+      "task_id": "N-huangpu-01-02",
+      "group": "sh-huangpu-01",
+      "split": "development",
+      "label": "NEGATIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/N-huangpu-01-02.json",
+      "observed_sha256": "1db2e122caafaeb50c28e9cb487b295a399bc257979860b089c22423ad39cdcb",
+      "reference": "reference/N-huangpu-01-02.json",
+      "reference_sha256": "b8076972726fe25465665bd5d135f04d11463f6ad1ff60bd00c31a87842cdc2a"
+    },
+    {
+      "task_id": "P-newworld-01",
+      "group": "sh-newworld",
+      "split": "confirmation",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-newworld-01.json",
+      "observed_sha256": "ef1f1555e374a75c70bb54f088e0b8b8d38a9fba6983f6a0063f69f2ebea5960",
+      "reference": "reference/P-newworld-01.json",
+      "reference_sha256": "6b72d1fea5dad77bb6609f3431d9942b3e382d26b822097f823a09496335cb86"
+    },
+    {
+      "task_id": "P-newworld-02",
+      "group": "sh-newworld",
+      "split": "confirmation",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-newworld-02.json",
+      "observed_sha256": "589c2190e2ccce43940f9dcdd91d74f40638c0f2c9fa81fa9f0fe79b3da70826",
+      "reference": "reference/P-newworld-02.json",
+      "reference_sha256": "c3f43eb958d0001a3630f995ff2385244a472511cb01145ba803d9cfe9d9f957"
+    },
+    {
+      "task_id": "P-newworld-03",
+      "group": "sh-newworld",
+      "split": "confirmation",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-newworld-03.json",
+      "observed_sha256": "e31612e78378217c0a83a896439db2015b64308f85f48eb04d2939222482c3a9",
+      "reference": "reference/P-newworld-03.json",
+      "reference_sha256": "9a20618e66eb12710b6d98b9e4a3b45bcdb128dd3e59970a9df143212907d665"
+    },
+    {
+      "task_id": "P-newworld-04",
+      "group": "sh-newworld",
+      "split": "confirmation",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-newworld-04.json",
+      "observed_sha256": "50e0d0e83296362a73b7888d311e7e58a9f8cc4513bcfef50f780ccfdd8ba7eb",
+      "reference": "reference/P-newworld-04.json",
+      "reference_sha256": "7d0d64425aae93e51789cf04e814471dae767bdca6b631351424f04c4fcefe18"
+    },
+    {
+      "task_id": "N-newworld-01",
+      "group": "sh-newworld",
+      "split": "confirmation",
+      "label": "NEGATIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/N-newworld-01.json",
+      "observed_sha256": "da02cea7a22d7e1aa9a80aaa1b39e1d86170b12f8f7980fa827e7bc9cfba5e54",
+      "reference": "reference/N-newworld-01.json",
+      "reference_sha256": "58ca1f28fbb8fb16063105064d57bb5e184cefbb5be553873fc9c938d45ee945"
+    },
+    {
+      "task_id": "N-newworld-02",
+      "group": "sh-newworld",
+      "split": "confirmation",
+      "label": "NEGATIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/N-newworld-02.json",
+      "observed_sha256": "9ea1ebf1a2885a365fc5891be17665500c186f50f7ce4627d89bc0ea782c0dbe",
+      "reference": "reference/N-newworld-02.json",
+      "reference_sha256": "daf6a323d8f34f3fe80e61cc44931d7816522f690ab0b7a6aff2d119a0a73e4f"
+    },
+    {
+      "task_id": "P-tower-01",
+      "group": "sh-tower",
+      "split": "selection",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-tower-01.json",
+      "observed_sha256": "e17bcfb1223dd9a44ba34af267047c29be976efd12bffd7ffe9b016ffdedc50d",
+      "reference": "reference/P-tower-01.json",
+      "reference_sha256": "9591d4dba1642aec5d4eecb02cc294208077a114b532f7975371a92b225381cd"
+    },
+    {
+      "task_id": "P-tower-02",
+      "group": "sh-tower",
+      "split": "selection",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-tower-02.json",
+      "observed_sha256": "03f22bd275553c0adf092ff337cedf5d7a411aa258dd6d55b9c2b7d9ca4756c5",
+      "reference": "reference/P-tower-02.json",
+      "reference_sha256": "05f309588ab6ade2a1894805b8c088e4acd61ae97de8613d1f0498700992d2be"
+    },
+    {
+      "task_id": "P-tower-03",
+      "group": "sh-tower",
+      "split": "selection",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-tower-03.json",
+      "observed_sha256": "efb4502d4151638027e853dd1966a738605139f6c81baf7824c9c10b43de32ca",
+      "reference": "reference/P-tower-03.json",
+      "reference_sha256": "bd95b3b383fa5f93ecca7718fb4bb872889c1db917ad5db33ea7029eb23f3488"
+    },
+    {
+      "task_id": "P-tower-04",
+      "group": "sh-tower",
+      "split": "selection",
+      "label": "POSITIVE",
+      "kind": "NETWORK_GAP_TASK",
+      "observed": "observed/P-tower-04.json",
+      "observed_sha256": "f0d6e4b6505d2021f8b4e7c39db6333a68e880cc5bf84b773d20acf9bff287c5",
+      "reference": "reference/P-tower-04.json",
+      "reference_sha256": "d7d6683859ae373bb69c624ef649acee22e72d9f07916fe8e2ba5cfa314d003d"
+    }
+  ]
+}
