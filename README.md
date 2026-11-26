@@ -1,28 +1,22 @@
-# Smart City Walkability Foundation
+# 复杂建筑入口接入与末段步行规划
 
-Project: 面向复杂建筑的目的地接入关系补全与可靠到达点选择。
+本仓库保存确定OSM作为基底地图后的研究实现和可公开证据，按22个主轮次及1个北门前导小试递进归档。之前42文件是工程初始化；现在的主体成果在[research/](research/README.md)，不是仅src/下的基础代价工具。
 
-Canonical repository: https://github.com/gubingren0409/saomazhihuichengshilaoshishigeshibi
+## 研究渐进层次
 
-PG1 is a staged parent goal. This bootstrap covers historical handover, six-scene source-to-render map fidelity, a bounded non-campus dataset discovery, and development-only algorithm continuity. G0/G1/G2 are awaiting GPT and user review. No blind split is frozen, no blind experiment is authorized, and the initial public push requires the user's approval of the exact file inventory.
+1. OSM/Geoapify小试、路线诊断与六场景比较（01–03）。
+2. 已标步行面接入、3米边缘派生与北出口条件连接（04–06）。
+3. 草地原生步道修复、区域恢复、上下文与F0/F1条件可行域（07–10）。
+4. 已知门APP、完整步行面最短路、面线接口与完整业务路线收益诊断（11–14）。
+5. PG1、街区侧探索、地图纠错及端点/动态/性能补证（15–19）。
+6. 交接与中期材料R1→R2→R3纠错（20–22）。
 
-The known-entrance scope preserves registered identities and distinguishes approaching an exit from entering a building. Native, mapped-face-derived and conditional path segments have different evidence. A finite-graph route is not proof of present physical/public access.
+[最新中期成果图册](research/22_materials_r3/index.html) · [每轮原包SHA和导入commit](research/ARTIFACTS.csv) · [逐文件SHA](research/SOURCE_FILES.csv) · [公开例外](research/EXCLUSIONS.csv)
 
-Code is versioned here; raw inputs and local review maps remain external, SHA-bound dependencies. No credentials, raw map extracts, private coordinates, imagery, large caches or historical archives belong in this bootstrap. See `docs/round_delivery_protocol.md`, `docs/public_release_audit.md`, and `docs/project_status.md`.
+## 代码与证据边界
 
-Run the synthetic checks from this directory:
+每轮保留其原src/scripts/tests/app等实现、配置和可公开指标/图件，不把所有版本混成一份当前算法。提交是2026-11-26迁入历史快照，不伪造实验当日commit。原文件中的本机路径、历史待验收与NO_PUSH描述不倒写；本轮用户已授权公开同步。
 
-```powershell
-python -X utf8 -B -m unittest discover -s tests -v
-```
+条件路线不是当前公众通行认证，exit不当入口，跨域数据指标不可拼成全链路成功率。状态实验适配器不等于原APP已部署动态导航。场景共享道路/裁片不得冒充独立泛化样本。
 
-The development probe uses an explicitly supplied, SHA-checked historical archive. It does not download maps, fit a model, generate entrances, change constraints or consult blind data. Actual local commands and private output manifests are delivered in the round review packet.
-
-## 渐进层次与当前公开范围
-
-- [1. 早期问题与跨域证据边界](docs/progress/01_historical_scope.md)
-- [2. 可步行空间机制逐步改进](docs/progress/02_walkable_space.md)
-- [3. 探索、系统集成与材料交接](docs/progress/03_exploration_and_handoff.md)
-- [4. 固定审核证据SHA索引](docs/progress/04_frozen_evidence_index.md)
-
-提交记录区分工程基础与后补历史文档；这些新提交不是历史实验发生时的原始commit。全部历史算法尚未迁入，原始数据/私有包和凭据不公开。未代选新的开源许可证。
+原始数据、大型缓存、模型、个人评分/截图、未获再分发确认的托管服务导出和重复上游包未公开，其成员、原因和固定包SHA见例外表。代码可能依赖这些输入，因此不声称所有历史阶段在此仓库一键复现。未为原研究代码代选新开源许可证；地图归属/ODbL及原第三方许可保留，见research/README.md。
