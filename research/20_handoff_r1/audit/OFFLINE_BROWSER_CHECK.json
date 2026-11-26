@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-11-13T17:08:11.215921+08:00",
+  "browser": "chrome.exe",
+  "checks": [
+    {
+      "page": "index.html",
+      "offline": true,
+      "latest_OSM_figure_loaded": true,
+      "chapter_details": 10
+    },
+    {
+      "page": "figures/index.html",
+      "default_latest_count": 14,
+      "Geoapify_pixels_not_captured_for_AI": true
+    },
+    {
+      "page": "north_N0_N1_N2_original_HTML",
+      "offline": true,
+      "svg_elements": 4
+    },
+    {
+      "page": "evidence/index.html",
+      "search_works": true,
+      "matched_source_records": 3
+    },
+    {
+      "page": "evidence/claims.html",
+      "claim_cards": 84
+    }
+  ],
+  "page_errors": [],
+  "attempted_external_requests": [],
+  "new_solver_calls": 0,
+  "note": "Only offline reading UI exercised. Screenshots show latest OSM maps; no Geoapify image pixels analysed by AI."
+}

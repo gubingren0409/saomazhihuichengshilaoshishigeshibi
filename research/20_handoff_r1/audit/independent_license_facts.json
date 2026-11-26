@@ -1,0 +1,110 @@
+{
+  "reviewer": "/root/handoff_independent",
+  "checked_at": "2026-11-13T16:42:33.637077+08:00",
+  "sources": [
+    {
+      "archive": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R1\\delivery\\OPEN_REVIEW_AB_COMPLETION.zip",
+      "member": "01_SOURCE_AND_PERMISSION_AUDIT.md",
+      "sha256": "6ad04e8108eb0e39c1a55a8667f0517f2c9aaf0735e4e44472a64968f4cc4fa4",
+      "scope": "历史来源说明核对，未访问外网、未检查Geoapify像素",
+      "supports": "原StaticMaps PNG和正常路由结果在保留所需署名条件下可供课堂/人工图册/审核包；CV/VLM/训练/派生数据库未获确认"
+    },
+    {
+      "archive": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R1\\delivery\\OPEN_REVIEW_AB_COMPLETION.zip",
+      "member": "data/LICENSE_NOTICE.md",
+      "sha256": "d334a3b0b4444e10893e4bbe2cd50c004cd56dbc12f430dd2af49e491d1ca2d8",
+      "scope": "历史来源说明核对，未访问外网、未检查Geoapify像素",
+      "supports": "OSM produced work与原矢量数据ODbL/署名独立于自有软件许可"
+    },
+    {
+      "archive": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R3\\delivery\\OPEN_REVIEW.zip",
+      "member": "01_SOURCE_AND_PERMISSION_AUDIT.md",
+      "sha256": "71beb9c29b35f1a5227ba23e59795e19b9fda0a1155d8d3bcab704e6c132939e",
+      "scope": "历史来源说明核对，未访问外网、未检查Geoapify像素",
+      "supports": "原StaticMaps PNG和正常路由结果在保留所需署名条件下可供课堂/人工图册/审核包；CV/VLM/训练/派生数据库未获确认"
+    },
+    {
+      "archive": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R3\\delivery\\OPEN_REVIEW.zip",
+      "member": "data/LICENSE_NOTICE.md",
+      "sha256": "0744e19ef20a51c9cdd0556cc80d21e9c593fe2e836e09376a2a9d9fd1d0957e",
+      "scope": "历史来源说明核对，未访问外网、未检查Geoapify像素",
+      "supports": "OSM produced work与原矢量数据ODbL/署名独立于自有软件许可"
+    },
+    {
+      "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+      "member": "phase2/evidence/hri_web_license_observation.json",
+      "sha256": "ac94523b33dfe3ef3758c173695829d5127d1892305d898fd114e006d217b4b4",
+      "scope": "既有许可观察与转交状态，不是本轮新查或法律结论"
+    },
+    {
+      "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+      "member": "phase2/candidate_registry.json",
+      "sha256": "f673126d59ff655fcf30a5506333f143a35a0f49d2a62ac6d00e8fc1adb5f716",
+      "scope": "既有许可观察与转交状态，不是本轮新查或法律结论"
+    },
+    {
+      "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+      "member": "phase2/sources.json",
+      "sha256": "d60463b4f79c660e7f1b4dce8c3f29a9d9917860a307b04215447cd6aa9f1c71",
+      "scope": "既有许可观察与转交状态，不是本轮新查或法律结论"
+    }
+  ],
+  "decisions": [
+    {
+      "source": "Geoapify",
+      "permitted_scope": "按2026-11-09历史审计，原带署名PNG与正常路线输出可作人工课堂/同学交接/审核；不做CV/VLM图像内容分析",
+      "conditions": [
+        "原PNG不裁去署名",
+        "保留OSM/OpenMapTiles/Geoapify必要版权",
+        "本轮无API调用",
+        "不得把托管OSM渲染当独立地图真值"
+      ]
+    },
+    {
+      "source": "Local OSM",
+      "permitted_scope": "原ProducedWork图件保留OSM署名和ODbL链接",
+      "conditions": [
+        "源矢量/衍生数据库与图像ProducedWork分别记录",
+        "不把原道路轴线宽画法当真实宽度"
+      ]
+    },
+    {
+      "source": "Helsinki",
+      "permitted_scope": "沿用历史CC BY4.0官方网页观察，在署名/来源/日期可追溯条件下转交",
+      "conditions": [
+        "原网页403，没有本轮重新取数/新法律核验",
+        "许可观察JSON的SHA不是官网原页SHA"
+      ]
+    },
+    {
+      "source": "NYC candidates",
+      "permitted_scope": "NOT_INCLUDED_LICENSE_OR_PRIVACY",
+      "conditions": [
+        "原审计LOCAL_REVIEW_ONLY，未证同学转交权限",
+        "保留精确来源/SHA/申请ApprovedCopy方式索引"
+      ]
+    },
+    {
+      "source": "AMAP/private user images",
+      "permitted_scope": "NOT_INCLUDED_LICENSE_OR_PRIVACY",
+      "conditions": [
+        "不自动转交高德图面/私有原图",
+        "不读env、不转交凭据"
+      ]
+    },
+    {
+      "source": "Self authored code/reports",
+      "permitted_scope": "仅用户批准私人研究材料交接；软件许可证未代选",
+      "conditions": [
+        "不作GitHub公共发布",
+        "报告含不必要个人信息时整件排除并索引，不改原内容冒充原件"
+      ]
+    }
+  ],
+  "not_covered": [
+    "未取得新的供应商法务意见",
+    "未重新抓取当前条款",
+    "未检查Geoapify图像内容或将其送入VLM",
+    "最终实际入包成员尚待完整审核"
+  ]
+}

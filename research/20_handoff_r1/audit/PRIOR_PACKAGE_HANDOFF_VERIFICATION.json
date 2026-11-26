@@ -1,0 +1,90 @@
+{
+  "task": "PG1-HANDOFF-DELIVERY-REPAIR",
+  "reviewer": "/root/handoff_independent",
+  "started_at": "2026-11-13T18:06:33.568014+08:00",
+  "completed_at": "2026-11-13T18:06:45.029228+08:00",
+  "status": "ORIGINAL_ZIP_INTEGRITY_PASS_READING_UI_PASS_WITH_KNOWN_LINK_FAILURES",
+  "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESEARCH_MATERIALS_HANDOFF_R1\\delivery\\HANDOFF_PACKAGE.zip",
+  "archive_sha256": "e685cef0ae3a54abf003a6e3dfbf2d30264a67e0d9990784a320f583065b8e2c",
+  "archive_bytes": 111848887,
+  "member_count": 595,
+  "CRC": "PASS_ALL_595",
+  "internal_SHA_records_checked": 594,
+  "external_SHA_records_checked": 595,
+  "extracted_member_SHA256": "PASS_ALL_595",
+  "safe_unique_paths_no_symlink": "PASS",
+  "clean_extraction": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESEARCH_MATERIALS_HANDOFF_R1\\delivery\\original_zip_recheck_clean_20261113T180633",
+  "browser_checks": [
+    {
+      "page": "index.html",
+      "offline": true,
+      "chapters": 10,
+      "latest_OSM_image_loaded": true
+    },
+    {
+      "page": "figures/index.html",
+      "offline": true,
+      "keyword_search_count": 8,
+      "Geoapify_pixels_analysed": false
+    },
+    {
+      "page": "figures/routes/OSM_GEOAPIFY_R4_NORTH_ACCESS_R1/index_796e79fd.html",
+      "offline": true,
+      "inlined_svg_views": 4,
+      "page_rendering": "PASS",
+      "all_relative_links": "FAIL_5_MISSING_DEPENDENCIES"
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "north_original_HTML_sha256": "796e79fd29d8a671a49de83f72143a36f551d791ed9f79385c3c7b895a46ad17",
+  "north_relative_link_audit": [
+    {
+      "tag": "a",
+      "attribute": "href",
+      "value": "../data/route_variants.geojson",
+      "resolved_package_path": "figures/routes/data/route_variants.geojson",
+      "exists_in_original_ZIP": false
+    },
+    {
+      "tag": "a",
+      "attribute": "href",
+      "value": "../data/constraints.geojson",
+      "resolved_package_path": "figures/routes/data/constraints.geojson",
+      "exists_in_original_ZIP": false
+    },
+    {
+      "tag": "a",
+      "attribute": "href",
+      "value": "../data/segment_evidence.csv",
+      "resolved_package_path": "figures/routes/data/segment_evidence.csv",
+      "exists_in_original_ZIP": false
+    },
+    {
+      "tag": "a",
+      "attribute": "href",
+      "value": "../runs/experiment.json",
+      "resolved_package_path": "figures/routes/runs/experiment.json",
+      "exists_in_original_ZIP": false
+    },
+    {
+      "tag": "a",
+      "attribute": "href",
+      "value": "../04_RESULTS.md",
+      "resolved_package_path": "figures/routes/04_RESULTS.md",
+      "exists_in_original_ZIP": false
+    }
+  ],
+  "north_missing_relative_link_count": 5,
+  "previous_check_limitation": "旧离线检查确认北门HTML可渲染、四个内嵌SVG及图内阅读控件可用；并未检查此原HTML的全部五个资料下载/报告相对链接。旧门户和目录链接通过不能扩展为所有原HTML依赖完整。原HTML保持原字节不代表其原依赖已自动转交。",
+  "prior_receipts_or_ZIP_overwritten": false,
+  "new_solver_calls": 0,
+  "new_experiments": 0,
+  "new_downloads": 0,
+  "Geoapify_pixel_analysis": false,
+  "limits": [
+    "只核验原ZIP完整性与阅读功能并追加缺失链接事实，未修复原ZIP",
+    "未重跑算法/求路或现场核验",
+    "新修整包仍需独立解包复核"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "reviewer": "/root/handoff_independent",
+  "at": "2026-11-13T17:02:59.678191+08:00",
+  "status": "PASS_OFFLINE_READING_UI",
+  "checks": [
+    {
+      "page": "index.html",
+      "chapters": 10,
+      "latest_OSM_image_loaded": true
+    },
+    {
+      "page": "figures/index.html",
+      "default_latest_R2": true,
+      "OSM_keyword_search_count": 8,
+      "no_Geoapify_round_opened": true
+    },
+    {
+      "page": "NorthN0N1N2_HTML",
+      "offline": true,
+      "svg_views": 4
+    },
+    {
+      "page": "evidence/index.html",
+      "source_filename_search_records": 1
+    },
+    {
+      "page": "evidence/claims.html",
+      "claims": 84
+    }
+  ],
+  "page_errors": [],
+  "external_requests": [],
+  "Geoapify_pixel_analysis": false,
+  "new_solver_calls": 0,
+  "first_check_correction": "最初使用仅在JSON正文存在的native ID搜索来源目录，断言不适用于不读取原文件正文的目录索引；改为源文件名target_objects检查，作者页面未变更。",
+  "scope": "纯阅读门户和既有自包含OSM交互地图，非新的路径验收/算法实验"
+}

@@ -1,0 +1,88 @@
+{
+  "scope": "只读生成脚本、公开HTML/JS与截图收据，不读取任何图像像素",
+  "public_gallery_cases": [
+    {
+      "round": "NAV_END_V1",
+      "cases_file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V1\\app\\cases.js",
+      "cases_sha256": "42145476a3bb6631385d296b3710e49cdfef1fdb49e3e9ce39ad39f7b3c5c329",
+      "case_count": 240,
+      "private_image_paths": [],
+      "all_image_roots": [
+        "../data/images/014461c7514fcc69.png",
+        "../data/images/018aa7c1da053576.png",
+        "../data/images/03865436705a7cce.png",
+        "../data/images/03bdf47dd70e9f43.png",
+        "../data/images/047af51f101f68c3.png",
+        "../data/images/0567d968ffd3ef99.png",
+        "../data/images/0669598830b2bf22.png",
+        "../data/images/0830b7bd900cf0a1.png",
+        "../data/images/08d608221a8d2c09.png",
+        "../data/images/093a14ff7207388d.png",
+        "../data/images/0af80b055c43f301.png",
+        "../data/images/0cd31849128f87f7.png"
+      ]
+    },
+    {
+      "round": "NAV_END_V2",
+      "cases_file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2\\app\\cases.js",
+      "cases_sha256": "beefe11b8cc380cf6c3efffff5e01ef350767164005381d0ad80ed5b937eeaf9",
+      "case_count": 384,
+      "private_image_paths": [],
+      "all_image_roots": [
+        "../data/captured/new",
+        "../data/captured/style_confirmation",
+        "../data/captured/style_development",
+        "../data/old/images"
+      ]
+    }
+  ],
+  "previews": [
+    {
+      "round": "NAV_END_V1",
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V1\\outputs\\figures\\gallery_preview.png",
+      "sha256": "427539566aca3959281f514c2ce8b87d37f2727dc66efbbdcc397bf15198ce74",
+      "decision": "INCLUDE_OPEN_SOURCE_SCRIPT_AND_NAMED_RECEIPT_BOUND",
+      "evidence": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V1\\scripts\\browser_qa.py",
+          "sha256": "95c840580c505704b382807428244a16a3eb0ed12d8bc46ff331605974327107",
+          "pointer": "L24 first=representative_index first; L55 app/index.html#first; L66-71 screenshot exact outputs/figures/gallery_preview.png"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V1\\audits\\browser_qa.json",
+          "sha256": "a59fd103ad990c636f76ba238175bcdd3bdc295df5624e3e11fd971644b2c172",
+          "pointer": "screenshot=outputs/figures/gallery_preview.png;case_dropdown_count=240"
+        }
+      ],
+      "selected_case": "2a07eb3456d37cb0",
+      "private_pixels_expected": false,
+      "caveat": "来源脚本和具名收据支持公开图库；本轮没有重新查看像素或重截图。"
+    },
+    {
+      "round": "NAV_END_V2",
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2\\outputs\\gallery_preview.png",
+      "sha256": "fd7953e480591728cd83d86bcd82036d12c61a30ec6181bc30e83b249410b3d6",
+      "decision": "NOT_INCLUDED_PROVENANCE_INCOMPLETE",
+      "evidence": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2\\scripts\\qa_gallery.py",
+          "sha256": "9ee340b3a568b5ff1f4fb81105c68dce2498c3cc9a97036fc2b9ea32d58c49be",
+          "pointer": "SID=5da6e4a1a2c9ef7b;qa():先app/index.html公开反例、c0/B2再page.screenshot(path=preview)，后才进行其他页面/上传测试；main --preview为外部参数"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2\\audits\\browser_final_local.json",
+          "sha256": "57cd52d3c10f234daead974386b161f3bc60fa55476d626b899bb5cde822a1c9",
+          "pointer": "offline_cases=384，private_server_rejection=404，但未记录preview绝对/相对文件名或PNG SHA"
+        }
+      ],
+      "selected_case_in_script": "5da6e4a1a2c9ef7b",
+      "private_pixels_expected": false,
+      "caveat": "脚本显示截图应为公开示例，但既有收据未把此PNG文件名/SHA与调用绑定；不能仅凭文件名保证实际生成调用，保守不转交该预览。",
+      "recommended_alternatives": [
+        "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2\\outputs\\contact_new_buildings.png",
+        "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2\\outputs\\contact_styles.png",
+        "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2\\outputs\\contact_v1_regression.png"
+      ]
+    }
+  ]
+}

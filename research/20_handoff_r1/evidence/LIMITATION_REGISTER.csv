@@ -1,0 +1,16 @@
+﻿id,issue,status,impact,claim_ids
+L01,真实物理门、公众权限、时效、同层与漏标障碍,NOT_INDEPENDENTLY_VALIDATED,条件图路径不能证明现实通行,PG1-I08|PG1-I11
+L02,相邻裁片/共享原生道路依赖,VERIFIED_SOURCE,六上海场景已暴露且共享源对象，不独立盲测,PG1-I01|PG1-I05
+L03,缺少宽度、路缘与道路面,VERIFIED_SOURCE,侧线偏移只能拓扑/示意，不能精确几何收益,PG1-I07
+L04,区域恢复覆盖很低,VERIFIED_SOURCE,0.47%不包装成功；未知与扩张分别报告,M-R3AREA
+L05,默认可行域的参考外扩张,VERIFIED_SOURCE,100%参考覆盖依赖假设；未证实扩张不全是错或真,M-FREE-AREA
+L06,7个stairs-only固定查询,VERIFIED_SOURCE,保留NO_PATH，平面近不说明同层,M-E2E-FAIL
+L07,对象更多不等于业务收益,VERIFIED_SOURCE,82面与接口提升不能改称四路线改善,M-CONNECT-MECH|M-DIAG-82
+L08,历史Museum/native绑定错误,VERIFIED_SOURCE,旧320m窗不含馆体，当前R2正式纠正,PG1-I10
+L09,现实地理精度未独立核验,NOT_INDEPENDENTLY_VALIDATED,源与图一致不能替代独立配准或现场验证,PG1-I11
+L10,NAV原固定ZIP未定位,NOT_VERIFIED,仅单文件SHA已核验，不写原封包已检查,R-NAV-END-V1|R-NAV-END-V2
+L11,Geoapify像素研究用途,UNKNOWN,本包仅原图正常人工阅读；不作CV/VLM/训练,R-OSM-GEOAPIFY-PILOT-R3
+L12,NYC候选转交许可,UNKNOWN,原LOCAL_REVIEW_ONLY，图件排除并可索引,PG1-I04
+L13,原受控任务与独立泛化不同,VERIFIED_SOURCE,受控隐藏同源，不把确认已暴露当新盲测,M-CONTEXT
+L14,已知门原型覆盖少，预处理成本高,VERIFIED_SOURCE,8请求是功能验收，冷预处理与求解成本分开,M-E2E-APP
+L15,跨域历史分母,VERIFIED_SOURCE,NYC、Southampton、Shanghai不能拼端到端率,L-NYC-CHAIN

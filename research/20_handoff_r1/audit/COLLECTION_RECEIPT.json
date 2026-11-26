@@ -1,0 +1,68 @@
+{
+  "candidate_rows": 561,
+  "included_provenance_rows": 554,
+  "unique_included_files": 549,
+  "figure_rows": 244,
+  "unique_figure_files": 241,
+  "excluded_or_missing": [
+    {
+      "source_id": "S-6d546dd4434f2c",
+      "round": "SMART_CITY_WALKABILITY_FOUNDATION_PG1",
+      "title": "phase2/visual_check/nyc_grand_central.png",
+      "status": "NOT_INCLUDED_LICENSE_OR_PRIVACY",
+      "caveat": "Original audit limits transfer to local review; extra agency/redistribution approval absent.",
+      "sha256": "6d546dd4434f2ce94153593df617b92099f52b2e11372c58f7f12f10e1013469"
+    },
+    {
+      "source_id": "S-4226c39a6ef05b",
+      "round": "SMART_CITY_WALKABILITY_FOUNDATION_PG1",
+      "title": "phase2/visual_check/nyc_lincoln_center.png",
+      "status": "NOT_INCLUDED_LICENSE_OR_PRIVACY",
+      "caveat": "Original audit limits transfer to local review; extra agency/redistribution approval absent.",
+      "sha256": "4226c39a6ef05b54dcf2717d4015d619e49af7ee55375329af2ae7166e6def86"
+    },
+    {
+      "source_id": "S-3219eccb7a7d37",
+      "round": "PG1_MAP_CONTEXT_RECONSTRUCTION_R2",
+      "title": "data/source/sh-huangpu-01.osm.json",
+      "status": "NOT_INCLUDED_RAW_DATA_BUNDLE",
+      "caveat": "Full raw snapshot referenced by SHA; recipient reads selected maps and object audit without raw parsing.",
+      "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+    },
+    {
+      "source_id": "",
+      "round": "NAV_END_V1/V2",
+      "title": "用户商业客户端私有截图及人工派生；不向同学自动再分发",
+      "status": "NOT_INCLUDED_LICENSE_OR_PRIVACY",
+      "caveat": "Excluded directory; not read or hashed this round; individual image identities not enumerated to avoid private content collection. Retrieval owner: user.",
+      "sha256": ""
+    },
+    {
+      "source_id": "S-fd7953e4805917",
+      "round": "NAV_END_V2",
+      "title": "outputs/gallery_preview.png",
+      "status": "NOT_INCLUDED_PROVENANCE_INCOMPLETE",
+      "caveat": "生成脚本预期公开案例，但收据未绑定此PNG文件名/SHA；本轮不查看像素，保守排除，已有纯开放联系表可用。",
+      "sha256": "fd7953e480591728cd83d86bcd82036d12c61a30ec6181bc30e83b249410b3d6"
+    },
+    {
+      "source_id": "S-17e192068e0914",
+      "round": "NAV_END_V1 / NAV_END_V2",
+      "title": "用户私有高德2D原始截图（仅定位与哈希，不包含）",
+      "status": "NOT_INCLUDED_LICENSE_OR_PRIVACY",
+      "caveat": "不复制、不解码、不视觉分析；原始绝对来源路径未记录，不能依据原文件名补造；仅源输入包与当前副本字节SHA已核验。",
+      "sha256": "17e192068e09142c1d9ce3ca7c2022dc8c7b8d92a75f7c695f2090fc5c1ffdf4"
+    },
+    {
+      "source_id": "S-318321dd4402fa",
+      "round": "NAV_END_V1 / NAV_END_V2",
+      "title": "用户私有高德3D原始截图（仅定位与哈希，不包含）",
+      "status": "NOT_INCLUDED_LICENSE_OR_PRIVACY",
+      "caveat": "不复制、不解码、不视觉分析；原始绝对来源路径未记录，不能依据原文件名补造；仅源输入包与当前副本字节SHA已核验。",
+      "sha256": "318321dd4402fac0f0630b1ca382658016ae1db8d6cddd6e4785c92a9ae04c2c"
+    }
+  ],
+  "credential_pattern_events": [],
+  "experiments_run": 0,
+  "historical_code_executed": false
+}

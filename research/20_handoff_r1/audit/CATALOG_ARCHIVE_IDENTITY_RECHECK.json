@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "review_feedback": "An associated archive is not necessarily a container for an outside post-seal receipt.",
+  "checks": [
+    {
+      "source_id": "S-efbded8336df58",
+      "round": "OSM_GEOAPIFY_PILOT_R1",
+      "title": "delivery/OPEN_REVIEW_AB_COMPLETION_VERIFICATION.json",
+      "package_path": "source_materials/review_reports/OSM_GEOAPIFY_PILOT_R1/OPEN_REVIEW_AB_COMPLETION_VERIFICATION_efbded83.json",
+      "member": "",
+      "sha256": "efbded8336df58986dd7df8e2af71399a21d2ddf136273d07a149b39a95f1096",
+      "associated_archive_sha256": "a4b902b530163477bdfd1092d7a88441c11e76950ee394cfb440213eb4453c12",
+      "result": "OUTSIDE_SAVED_ARTIFACT_NOT_CLAIMED_AS_ZIP_MEMBER"
+    },
+    {
+      "source_id": "S-58eb37374e7d70",
+      "round": "OSM_GEOAPIFY_PILOT_R3",
+      "title": "delivery/OPEN_REVIEW_VERIFICATION.json",
+      "package_path": "source_materials/review_reports/OSM_GEOAPIFY_PILOT_R3/OPEN_REVIEW_VERIFICATION_58eb3737.json",
+      "member": "",
+      "sha256": "58eb37374e7d70dab7bc61d9e2c5c271b0b637cdf81b741baba47b2b756844c3",
+      "associated_archive_sha256": "13ffb6be75ca0b26710dd3d68bba2951e99539fa06eb51ab4d8195ea487e8c30",
+      "result": "OUTSIDE_SAVED_ARTIFACT_NOT_CLAIMED_AS_ZIP_MEMBER"
+    },
+    {
+      "source_id": "S-71beb9c29b35f1",
+      "round": "OSM_GEOAPIFY_PILOT_R3",
+      "title": "01_SOURCE_AND_PERMISSION_AUDIT.md",
+      "package_path": "source_materials/method_docs/OSM_GEOAPIFY_PILOT_R3/01_SOURCE_AND_PERMISSION_AUDIT_71beb9c2.md",
+      "member": "01_SOURCE_AND_PERMISSION_AUDIT.md",
+      "sha256": "71beb9c29b35f1a5227ba23e59795e19b9fda0a1155d8d3bcab704e6c132939e",
+      "associated_archive_sha256": "13ffb6be75ca0b26710dd3d68bba2951e99539fa06eb51ab4d8195ea487e8c30",
+      "result": "ACTUAL_CONTAINED_MEMBER_VERIFIED"
+    },
+    {
+      "source_id": "S-9f708078aa938e",
+      "round": "OSM_GEOAPIFY_PILOT_R3",
+      "title": "02_SAMPLE_AND_VIEWPORT_CONTRACT.md",
+      "package_path": "source_materials/method_docs/OSM_GEOAPIFY_PILOT_R3/02_SAMPLE_AND_VIEWPORT_CONTRACT_9f708078.md",
+      "member": "02_SAMPLE_AND_VIEWPORT_CONTRACT.md",
+      "sha256": "9f708078aa938eefcfd148a2f62b4709d90b019eb8a4d3e39a09f500afc9a55f",
+      "associated_archive_sha256": "13ffb6be75ca0b26710dd3d68bba2951e99539fa06eb51ab4d8195ea487e8c30",
+      "result": "ACTUAL_CONTAINED_MEMBER_VERIFIED"
+    },
+    {
+      "source_id": "S-eabcfa20859016",
+      "round": "OSM_GEOAPIFY_R4",
+      "title": "delivery/OPEN_REVIEW_VERIFICATION.json",
+      "package_path": "source_materials/review_reports/OSM_GEOAPIFY_R4/OPEN_REVIEW_VERIFICATION_eabcfa20.json",
+      "member": "",
+      "sha256": "eabcfa2085901646170a18285810896c9d21c9d925b6b0588000b84a353583fb",
+      "associated_archive_sha256": "36d83fb2d792b33457968f1c649099380cc5cffa1e7b561c1dd6463fd82ce2f3",
+      "result": "OUTSIDE_SAVED_ARTIFACT_NOT_CLAIMED_AS_ZIP_MEMBER"
+    },
+    {
+      "source_id": "S-962e34d2b9b770",
+      "round": "OSM_GEOAPIFY_R4_REV1",
+      "title": "delivery/INDEPENDENT_ARCHIVE_VERIFICATION.json",
+      "package_path": "source_materials/review_reports/OSM_GEOAPIFY_R4_REV1/INDEPENDENT_ARCHIVE_VERIFICATION_962e34d2.json",
+      "member": "",
+      "sha256": "962e34d2b9b7707a7f783bfd0a72eae83070a61e10cf8d88b622916a4a20f85b",
+      "associated_archive_sha256": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0",
+      "result": "OUTSIDE_SAVED_ARTIFACT_NOT_CLAIMED_AS_ZIP_MEMBER"
+    },
+    {
+      "source_id": "S-dd5b9af3401e8d",
+      "round": "OSM_GEOAPIFY_R4_REV1",
+      "title": "delivery/OPEN_REVIEW_REPLAY.json",
+      "package_path": "source_materials/review_reports/OSM_GEOAPIFY_R4_REV1/OPEN_REVIEW_REPLAY_dd5b9af3.json",
+      "member": "",
+      "sha256": "dd5b9af3401e8d52bbc040bd00b3657d94111faf39626f4fec52ed0643f25948",
+      "associated_archive_sha256": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0",
+      "result": "OUTSIDE_SAVED_ARTIFACT_NOT_CLAIMED_AS_ZIP_MEMBER"
+    },
+    {
+      "source_id": "S-024551aa0c2a2f",
+      "round": "OSM_GEOAPIFY_R4_NORTH_ACCESS_R1",
+      "title": "runs/experiment.json",
+      "package_path": "source_materials/metrics/OSM_GEOAPIFY_R4_NORTH_ACCESS_R1/experiment_024551aa.json",
+      "member": "runs/experiment.json",
+      "sha256": "024551aa0c2a2f348065c0be2f674ba81104532daa3ad3b7fd78d580a048f41d",
+      "associated_archive_sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+      "result": "ACTUAL_CONTAINED_MEMBER_VERIFIED"
+    },
+    {
+      "source_id": "S-8cd6b2d7711880",
+      "round": "OSM_GEOAPIFY_R4_NORTH_ACCESS_R1",
+      "title": "delivery/OPEN_REVIEW_VERIFICATION.json",
+      "package_path": "source_materials/review_reports/OSM_GEOAPIFY_R4_NORTH_ACCESS_R1/OPEN_REVIEW_VERIFICATION_8cd6b2d7.json",
+      "member": "",
+      "sha256": "8cd6b2d7711880ab5717100533e20d69012f0b009d670bcbe01b577e9cb8bf72",
+      "associated_archive_sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+      "result": "OUTSIDE_SAVED_ARTIFACT_NOT_CLAIMED_AS_ZIP_MEMBER"
+    },
+    {
+      "source_id": "S-779387d9b25b80",
+      "round": "OSM_GEOAPIFY_R4_NORTH_ACCESS_R1",
+      "title": "delivery/OPEN_REVIEW_REPLAY.json",
+      "package_path": "source_materials/review_reports/OSM_GEOAPIFY_R4_NORTH_ACCESS_R1/OPEN_REVIEW_REPLAY_779387d9.json",
+      "member": "",
+      "sha256": "779387d9b25b807d3266e04b0722513f59d477f78c2ae488c3577d6633d570b4",
+      "associated_archive_sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+      "result": "OUTSIDE_SAVED_ARTIFACT_NOT_CLAIMED_AS_ZIP_MEMBER"
+    },
+    {
+      "source_id": "S-024551aa0c2a2f",
+      "round": "OSM_GEOAPIFY_R4_NORTH_ACCESS_R1",
+      "title": "runs/experiment.json",
+      "package_path": "figures/routes/runs/experiment.json",
+      "member": "runs/experiment.json",
+      "sha256": "024551aa0c2a2f348065c0be2f674ba81104532daa3ad3b7fd78d580a048f41d",
+      "associated_archive_sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+      "result": "ACTUAL_CONTAINED_MEMBER_VERIFIED"
+    }
+  ],
+  "all_original_artifact_SHA_unchanged": true,
+  "new_experiments": 0
+}

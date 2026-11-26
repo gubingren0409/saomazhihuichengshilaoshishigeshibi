@@ -1,0 +1,194 @@
+[
+  {
+    "round": "OSM_GEOAPIFY_PILOT_R1",
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R1\\delivery\\OPEN_REVIEW_AB_COMPLETION.zip",
+    "sha256": "a4b902b530163477bdfd1092d7a88441c11e76950ee394cfb440213eb4453c12",
+    "bytes": 11838676,
+    "members": 97,
+    "crc": "PASS",
+    "scope": "EXISTING_ARCHIVE_READ_ONLY"
+  },
+  {
+    "round": "OSM_GEOAPIFY_PILOT_R2",
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R2\\delivery\\OPEN_REVIEW.zip",
+    "sha256": "50e147fba6cec20db02bf2aed8a00c679ad1d8ca2ca5f45c2a5a0db1c89518a2",
+    "bytes": 10505269,
+    "members": 89,
+    "crc": "PASS",
+    "scope": "EXISTING_ARCHIVE_READ_ONLY"
+  },
+  {
+    "round": "OSM_GEOAPIFY_PILOT_R3",
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R3\\delivery\\OPEN_REVIEW.zip",
+    "sha256": "13ffb6be75ca0b26710dd3d68bba2951e99539fa06eb51ab4d8195ea487e8c30",
+    "bytes": 66433423,
+    "members": 238,
+    "crc": "PASS",
+    "scope": "EXISTING_ARCHIVE_READ_ONLY"
+  },
+  {
+    "round": "OSM_GEOAPIFY_R4_NORTH_ACCESS_R1",
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_NORTH_ACCESS_R1\\delivery\\OPEN_REVIEW.zip",
+    "sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+    "bytes": 2012470,
+    "members": 61,
+    "crc": "PASS",
+    "scope": "EXISTING_ARCHIVE_READ_ONLY"
+  },
+  {
+    "round": "OSM_GEOAPIFY_R4",
+    "archive_chain": [
+      "C:\\Users\\28489\\Downloads\\OSM_GEOAPIFY_R4_REV1_CODEX_INPUTS.zip",
+      "OSM_GEOAPIFY_R4_REV1_CODEX_INPUTS/references/frozen/OSM_GEOAPIFY_R4_OPEN_REVIEW.zip"
+    ],
+    "sha256": "36d83fb2d792b33457968f1c649099380cc5cffa1e7b561c1dd6463fd82ce2f3",
+    "outer_sha256": "79deb9fe9dee1296e2622b73549a27a16efa4d5ed1cfc55e63f81f87b5a663c4",
+    "bytes": 9457831,
+    "members": 141,
+    "crc": "PASS",
+    "scope": "EXISTING_NESTED_FIXED_ARCHIVE_READ_ONLY"
+  },
+  {
+    "round": "OSM_GEOAPIFY_R4_REV1",
+    "archive_chain": [
+      "C:\\Users\\28489\\Downloads\\OSM_GEOAPIFY_R4_WALKABILITY_R2_CODEX_INPUTS.zip",
+      "OSM_GEOAPIFY_R4_WALKABILITY_R2_CODEX_INPUTS/frozen_inputs/R4_REV1_OPEN_REVIEW.zip"
+    ],
+    "sha256": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0",
+    "outer_sha256": "b725c9c108936e29dc302e20e8f1ddfc9cbb8b0d6ba163a841599bfb9aeacec7",
+    "bytes": 19579824,
+    "members": 106,
+    "crc": "PASS",
+    "scope": "EXISTING_NESTED_FIXED_ARCHIVE_READ_ONLY"
+  },
+  {
+    "round": "WALKABILITY-R2",
+    "archive_chain": [
+      "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\OPEN_REVIEW.zip",
+      "input_contract/frozen/R4_CONTEXT_OPEN_REVIEW.zip",
+      "input_contract/frozen/WALKABILITY_R3_OPEN_REVIEW.zip",
+      "references/R2_OPEN_REVIEW.zip"
+    ],
+    "sha256": "277f1cfac82ec04335262444dcfc3ef1080c2c93d8e481dd8dac42db65ecbf72",
+    "members": 116,
+    "crc": "PASS",
+    "root": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R2"
+  },
+  {
+    "round": "WALKABILITY-R3",
+    "archive_chain": [
+      "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\OPEN_REVIEW.zip",
+      "input_contract/frozen/R4_CONTEXT_OPEN_REVIEW.zip",
+      "input_contract/frozen/WALKABILITY_R3_OPEN_REVIEW.zip"
+    ],
+    "sha256": "d623af231c6eabeace1d3c8e284787a51b7d83782c6c8f7990d16b27f5c0cd0e",
+    "members": 249,
+    "crc": "PASS",
+    "root": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R3"
+  },
+  {
+    "round": "WALKABILITY-R4-CONTEXT",
+    "archive_chain": [
+      "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\OPEN_REVIEW.zip",
+      "input_contract/frozen/R4_CONTEXT_OPEN_REVIEW.zip"
+    ],
+    "sha256": "40f8e18d76d04819d66a3bd526ecb2b74fc83201b3b58452881a6576b6651cbf",
+    "members": 587,
+    "crc": "PASS",
+    "root": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R4_CONTEXT"
+  },
+  {
+    "round": "FREE-SPACE-R1-FINAL",
+    "archive_chain": [
+      "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\OPEN_REVIEW.zip"
+    ],
+    "sha256": "1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a",
+    "members": 1213,
+    "crc": "PASS",
+    "root": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1"
+  },
+  {
+    "round": "KNOWN-ENTRANCE-E2E-R1-FIXED",
+    "archive_chain": [
+      "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\input_contract\\baseline\\OPEN_REVIEW_R1_FIXED.zip"
+    ],
+    "sha256": "4fc46d467a25aa19db46a8d721f523b1f3a5aed43ae7645d107a52a08682e6da",
+    "members": 778,
+    "crc": "PASS",
+    "root": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1"
+  },
+  {
+    "round": "PEDESTRIAN-AREA-SHORTEST-R1-FINAL-FIXED",
+    "archive_chain": [
+      "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\delivery\\OPEN_REVIEW_R1_FINAL_FIXED.zip"
+    ],
+    "sha256": "c5472838de6320d983d80e4defd448e08c017777f23bc7aa083d38e7ce10b08a",
+    "members": 404,
+    "crc": "PASS",
+    "root": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1"
+  },
+  {
+    "round": "PED-AREA-CONNECTIVITY-R1",
+    "archive_chain": [
+      "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\PED_AREA_CONNECTIVITY_R1_OPEN_REVIEW.zip"
+    ],
+    "sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+    "members": 764,
+    "crc": "PASS",
+    "root": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1"
+  },
+  {
+    "round": "PED-AREA-CONNECTIVITY-R2",
+    "archive_chain": [
+      "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\delivery\\OPEN_REVIEW.zip"
+    ],
+    "sha256": "3988e9fba95da70dc03b8191a177740a3ccd13602019afe3765e566648b55711",
+    "members": 265,
+    "crc": "PASS",
+    "root": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS"
+  },
+  {
+    "round": "FOUNDATION",
+    "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+    "sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+    "members": 344,
+    "CRC": "PASS",
+    "manifest_records_checked": 343,
+    "receipt": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\INDEPENDENT_DELIVERY_RECEIPT.json",
+    "receipt_sha256": "c2071680f2f9e535d9e18a6d22b4d7f29cd05641f8b8a2c9c6b05547d4bdc934",
+    "receipt_status": "PASS_FOR_FIXED_INITIAL_FOUNDATION_PACKAGE_INDEPENDENT_TECHNICAL_REPLAY"
+  },
+  {
+    "round": "STREET_SIDE",
+    "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\PG1_RESUME_STREET_SIDE_R1_REVIEW_FIXED.zip",
+    "sha256": "6b2db66e8347603c2aa346810846f4d6c5cf39e2e830f12a162b0e6c6e9485ab",
+    "members": 130,
+    "CRC": "PASS",
+    "manifest_records_checked": 129,
+    "receipt": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\INDEPENDENT_RESUME_DELIVERY_RECEIPT.json",
+    "receipt_sha256": "647cb92896b23d5724a7c63423071051ff1bf570138e0ec6e54e866520660438",
+    "receipt_status": "PASS_FIXED_INCREMENTAL_PACKAGE_TECHNICAL_REPLAY"
+  },
+  {
+    "round": "VISUAL_R1",
+    "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\delivery\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1_REVIEW.zip",
+    "sha256": "04100802bf631379177bc96991e442c5e108ee4d4d926022835217b8211ce110",
+    "members": 107,
+    "CRC": "PASS",
+    "manifest_records_checked": 106,
+    "receipt": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\delivery\\INDEPENDENT_VISUAL_DELIVERY_RECEIPT.json",
+    "receipt_sha256": "a92134a58a01fb63fa4dba65a4e39a12ab8c075119eea03da27acb5c137d3dfb",
+    "receipt_status": "PASS_CLEAN_VISUAL_REBUILD"
+  },
+  {
+    "round": "RECONSTRUCTION_R2",
+    "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+    "sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+    "members": 92,
+    "CRC": "PASS",
+    "manifest_records_checked": 91,
+    "receipt": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\INDEPENDENT_REPLAY_RECEIPT.json",
+    "receipt_sha256": "8aa132e1f108e413c45024017b32cb4f72eb88628c8bc8936389b13188332798",
+    "receipt_status": "PASS_INDEPENDENT_CLEAN_MAP_REPLAY"
+  }
+]

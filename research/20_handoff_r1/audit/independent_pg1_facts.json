@@ -1,0 +1,684 @@
+{
+  "reviewer": "/root/handoff_independent",
+  "checked_at": "2026-11-13T16:40:52.806667+08:00",
+  "scope": "四个PG1固定包CRC/SHA/内部manifest、包外回执SHA绑定、主要保存表格与OSM身份独立只读核对。不是全项目实验复算，不重新求路。",
+  "archive_checks": [
+    {
+      "round": "FOUNDATION",
+      "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+      "sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+      "members": 344,
+      "CRC": "PASS",
+      "manifest_records_checked": 343,
+      "receipt": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\INDEPENDENT_DELIVERY_RECEIPT.json",
+      "receipt_sha256": "c2071680f2f9e535d9e18a6d22b4d7f29cd05641f8b8a2c9c6b05547d4bdc934",
+      "receipt_status": "PASS_FOR_FIXED_INITIAL_FOUNDATION_PACKAGE_INDEPENDENT_TECHNICAL_REPLAY"
+    },
+    {
+      "round": "STREET_SIDE",
+      "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\PG1_RESUME_STREET_SIDE_R1_REVIEW_FIXED.zip",
+      "sha256": "6b2db66e8347603c2aa346810846f4d6c5cf39e2e830f12a162b0e6c6e9485ab",
+      "members": 130,
+      "CRC": "PASS",
+      "manifest_records_checked": 129,
+      "receipt": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\INDEPENDENT_RESUME_DELIVERY_RECEIPT.json",
+      "receipt_sha256": "647cb92896b23d5724a7c63423071051ff1bf570138e0ec6e54e866520660438",
+      "receipt_status": "PASS_FIXED_INCREMENTAL_PACKAGE_TECHNICAL_REPLAY"
+    },
+    {
+      "round": "VISUAL_R1",
+      "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\delivery\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1_REVIEW.zip",
+      "sha256": "04100802bf631379177bc96991e442c5e108ee4d4d926022835217b8211ce110",
+      "members": 107,
+      "CRC": "PASS",
+      "manifest_records_checked": 106,
+      "receipt": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\delivery\\INDEPENDENT_VISUAL_DELIVERY_RECEIPT.json",
+      "receipt_sha256": "a92134a58a01fb63fa4dba65a4e39a12ab8c075119eea03da27acb5c137d3dfb",
+      "receipt_status": "PASS_CLEAN_VISUAL_REBUILD"
+    },
+    {
+      "round": "RECONSTRUCTION_R2",
+      "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+      "sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+      "members": 92,
+      "CRC": "PASS",
+      "manifest_records_checked": 91,
+      "receipt": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\INDEPENDENT_REPLAY_RECEIPT.json",
+      "receipt_sha256": "8aa132e1f108e413c45024017b32cb4f72eb88628c8bc8936389b13188332798",
+      "receipt_status": "PASS_INDEPENDENT_CLEAN_MAP_REPLAY"
+    }
+  ],
+  "facts": [
+    {
+      "id": "PG1-I01",
+      "claim": "六个已暴露上海开发场景",
+      "value": [
+        {
+          "id": "sh-exhibition",
+          "label": "上海展览中心"
+        },
+        {
+          "id": "sh-huangpu-01",
+          "label": "上海博物馆人民广场馆"
+        },
+        {
+          "id": "sh-library",
+          "label": "上海图书馆淮海路馆"
+        },
+        {
+          "id": "sh-newworld",
+          "label": "新世界城"
+        },
+        {
+          "id": "sh-tower",
+          "label": "上海中心大厦"
+        },
+        {
+          "id": "sh-wukang",
+          "label": "武康大楼"
+        }
+      ],
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+          "archive_sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+          "member": "phase1/scene_index.json",
+          "member_sha256": "c79c95c12c4a8a7a299b56df606d065f38e819e5659d4393cb13da9aa9269598",
+          "pointer": "array[*].scene_id,label"
+        }
+      ],
+      "scope_and_limit": "6个开发场景不是独立盲测集，裁片共享道路与原生对象。原场景标签仍需与后续地图身份修正关系同时阅读。"
+    },
+    {
+      "id": "PG1-I02",
+      "claim": "四个业务端点×F0/F1的8次成本构建工程探针",
+      "value": {
+        "calls": 8,
+        "batch_slower_than_scalar": 7,
+        "max_absolute_historical_cost_error_m": 2.2737367544323206e-13,
+        "rows": [
+          {
+            "invocation_id": "TA-PG1-01-df1448c2bea74705874a960d31f92cff",
+            "case": "south",
+            "method": "F0",
+            "length_m": "148.86312206979613",
+            "hypothesis_m": "0.0",
+            "cost_m": "148.8631220697961",
+            "historical_cost_error_m": "-2.842170943040401e-14",
+            "load_s": "3.3393074999999044",
+            "scalar_weight_s": "0.20181310000043595",
+            "batch_weight_s": "0.631582200000139",
+            "solver_s": "0.006672799999705603",
+            "topology_sha256": "19b185b71266ca29510cedd14446168665d625f13749137e198cb6940b984d17"
+          },
+          {
+            "invocation_id": "TA-PG1-01-ea03e043b55a4baeb91d5dd46f058aa9",
+            "case": "south",
+            "method": "F1",
+            "length_m": "148.86312206979613",
+            "hypothesis_m": "0.0",
+            "cost_m": "148.8631220697961",
+            "historical_cost_error_m": "-2.842170943040401e-14",
+            "load_s": "3.3393074999999044",
+            "scalar_weight_s": "0.2025152999999591",
+            "batch_weight_s": "0.26503839999986667",
+            "solver_s": "0.007621199999903183",
+            "topology_sha256": "19b185b71266ca29510cedd14446168665d625f13749137e198cb6940b984d17"
+          },
+          {
+            "invocation_id": "TA-PG1-01-afe67aed70a54964b1817470191ae0c2",
+            "case": "north_near",
+            "method": "F0",
+            "length_m": "299.53144993549483",
+            "hypothesis_m": "12.534189979232387",
+            "cost_m": "299.5314499354948",
+            "historical_cost_error_m": "-5.684341886080802e-14",
+            "load_s": "2.9261458999999377",
+            "scalar_weight_s": "0.19424350000008417",
+            "batch_weight_s": "0.6109003999999914",
+            "solver_s": "0.007091800000125659",
+            "topology_sha256": "e7bb27e47536d6576ff121346ab8465520536f319ad7d30ea44201e21c460041"
+          },
+          {
+            "invocation_id": "TA-PG1-01-a4117662ccde4db0818271d0cccbeae7",
+            "case": "north_near",
+            "method": "F1",
+            "length_m": "300.7841854102122",
+            "hypothesis_m": "9.6815800976874",
+            "cost_m": "310.46576550789956",
+            "historical_cost_error_m": "-5.684341886080802e-14",
+            "load_s": "2.9261458999999377",
+            "scalar_weight_s": "0.16696439999986978",
+            "batch_weight_s": "0.19882109999980457",
+            "solver_s": "0.007558300000255258",
+            "topology_sha256": "e7bb27e47536d6576ff121346ab8465520536f319ad7d30ea44201e21c460041"
+          },
+          {
+            "invocation_id": "TA-PG1-01-6bafbb0c40bb4310a24f9b96210172dc",
+            "case": "north_far",
+            "method": "F0",
+            "length_m": "666.6635999370019",
+            "hypothesis_m": "12.534189979232387",
+            "cost_m": "666.6635999370017",
+            "historical_cost_error_m": "-2.2737367544323206e-13",
+            "load_s": "2.933219100000315",
+            "scalar_weight_s": "0.24052089999986492",
+            "batch_weight_s": "0.6261247000002186",
+            "solver_s": "0.006339000000025408",
+            "topology_sha256": "e7bb27e47536d6576ff121346ab8465520536f319ad7d30ea44201e21c460041"
+          },
+          {
+            "invocation_id": "TA-PG1-01-40ba748740e94adaaa554c4425353ce3",
+            "case": "north_far",
+            "method": "F1",
+            "length_m": "667.9163354117193",
+            "hypothesis_m": "9.6815800976874",
+            "cost_m": "677.5979155094066",
+            "historical_cost_error_m": "-1.1368683772161603e-13",
+            "load_s": "2.933219100000315",
+            "scalar_weight_s": "0.16449670000019978",
+            "batch_weight_s": "0.23459120000006806",
+            "solver_s": "0.006488200000148936",
+            "topology_sha256": "e7bb27e47536d6576ff121346ab8465520536f319ad7d30ea44201e21c460041"
+          },
+          {
+            "invocation_id": "TA-PG1-01-6daabccdb62c430baf864f5ae0c160e7",
+            "case": "library",
+            "method": "F0",
+            "length_m": "180.58111866323975",
+            "hypothesis_m": "0.0",
+            "cost_m": "180.58111866323975",
+            "historical_cost_error_m": "0.0",
+            "load_s": "0.21355190000031143",
+            "scalar_weight_s": "0.023672700000133773",
+            "batch_weight_s": "0.03566259999979593",
+            "solver_s": "0.0009494000000813685",
+            "topology_sha256": "c1841cc53a0ae151b593c787d0fd217eed2f6dccaf71b3553986cb5e4290068c"
+          },
+          {
+            "invocation_id": "TA-PG1-01-00d4e1ae44684b3497be2e089b86b24b",
+            "case": "library",
+            "method": "F1",
+            "length_m": "180.58111866323975",
+            "hypothesis_m": "0.0",
+            "cost_m": "180.58111866323975",
+            "historical_cost_error_m": "0.0",
+            "load_s": "0.21355190000031143",
+            "scalar_weight_s": "0.02109829999972135",
+            "batch_weight_s": "0.020520900000065012",
+            "solver_s": "0.000813799999832554",
+            "topology_sha256": "c1841cc53a0ae151b593c787d0fd217eed2f6dccaf71b3553986cb5e4290068c"
+          }
+        ]
+      },
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+          "archive_sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+          "member": "track_a/TA-PG1-01/results.csv",
+          "member_sha256": "0141e1478264264354caa176096bff87b75199f121a9894c8912d72c39fc1a1e",
+          "pointer": "all8rows;scalar_weight_s,batch_weight_s,historical_cost_error_m"
+        },
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+          "archive_sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+          "member": "track_a/TA-PG1-01/registry.json",
+          "member_sha256": "7ca115caca6604f148f10e10bf8ccdb38083ee87aebb224ef014255ea7e21f08",
+          "pointer": "formal_calls,SSSP_calls,business_improvement"
+        }
+      ],
+      "scope_and_limit": "只证明相同固定图上代价延续和批处理无稳定加速；未选择批处理，不是新路线收益，更不是8栋建筑。未重新运行任何探针。"
+    },
+    {
+      "id": "PG1-I03",
+      "claim": "地图信息审计的源记录/显示对象/准入线段分母不同",
+      "value": {
+        "scenes": 6,
+        "raw_scene_object_records": 306927,
+        "renderable_source_objects": 53624,
+        "native_admission_kept_segments": 30420,
+        "unknown_adapter_boxes": 54,
+        "fresh_solver_calls": 0,
+        "full_vg_rebuilds": 0
+      },
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+          "archive_sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+          "member": "phase1/execution_receipt.json",
+          "member_sha256": "720a12926189499da438ca7e69f379e1b6141b1a2f2937edbfb7699a382a443d",
+          "pointer": "scenes,raw_scene_object_records,renderable_source_objects,native_admission_kept_segments,unknown_adapter_boxes"
+        }
+      ],
+      "scope_and_limit": "这些为保存的原审计产物字段核对，本轮未重新运行原适配器或审图算法。306927为裁片记录合计，含跨裁片重复；30420含旧准入的道路轴，不全是人行道。"
+    },
+    {
+      "id": "PG1-I04",
+      "claim": "候选发现5个场地/街区，4个有矢量样本、1个仅元数据",
+      "value": {
+        "sites": 5,
+        "geometry_sites": 4,
+        "metadata_only_sites": 1,
+        "known_feature_records": 1235,
+        "candidates": [
+          {
+            "scene_id": "nyc_grand_central",
+            "status": "EXPOSED_DISCOVERY_CANDIDATE",
+            "object_counts": {
+              "buildings": 362,
+              "sidewalk": 81
+            },
+            "target_building_object_id": "UNKNOWN"
+          },
+          {
+            "scene_id": "nyc_lincoln_center",
+            "status": "EXPOSED_DISCOVERY_CANDIDATE",
+            "object_counts": {
+              "buildings": 330,
+              "sidewalk": 91
+            },
+            "target_building_object_id": "UNKNOWN"
+          },
+          {
+            "scene_id": "hel_oodi",
+            "status": "EXPOSED_DISCOVERY_CANDIDATE",
+            "object_counts": {
+              "buildings": 112,
+              "pedestrian": "UNKNOWN",
+              "roads": "UNKNOWN",
+              "green": "UNKNOWN"
+            },
+            "target_building_object_id": "UNKNOWN"
+          },
+          {
+            "scene_id": "hel_meilahti",
+            "status": "EXPOSED_DISCOVERY_CANDIDATE",
+            "object_counts": {
+              "buildings": 259,
+              "pedestrian": "UNKNOWN",
+              "roads": "UNKNOWN",
+              "green": "UNKNOWN"
+            },
+            "target_building_object_id": "UNKNOWN"
+          },
+          {
+            "scene_id": "hel_kallio",
+            "status": "EXPOSED_METADATA_EXTENT_ONLY",
+            "object_counts": {
+              "buildings": "UNKNOWN",
+              "pedestrian": "UNKNOWN",
+              "roads": "UNKNOWN",
+              "green": "UNKNOWN"
+            },
+            "target_building_object_id": "UNKNOWN"
+          }
+        ]
+      },
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+          "archive_sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+          "member": "phase2/candidate_registry.json",
+          "member_sha256": "f673126d59ff655fcf30a5506333f143a35a0f49d2a62ac6d00e8fc1adb5f716",
+          "pointer": "all5rows;status,object_counts,target_building_object_id"
+        }
+      ],
+      "scope_and_limit": "1235是所读feature记录数（1063建筑+172人行道面），不是1235个独立研究建筑。目标身份及完整到门标签未齐，不代表完整评价集。"
+    },
+    {
+      "id": "PG1-I05",
+      "claim": "G2未冻结验证/盲测，候选仍已暴露",
+      "value": {
+        "groups": 3,
+        "pair_count": 55,
+        "independence_pass_count": 0,
+        "freeze_performed": false
+      },
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+          "archive_sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+          "member": "phase2/spatial_groups.json",
+          "member_sha256": "5b99f438f93ebdc98d9050889b2feffe04ad9d03c9beab987648a3135ddc4157",
+          "pointer": "groups,pair_count,independence_pass_count,freeze_performed"
+        }
+      ],
+      "scope_and_limit": "同城共享网络保守分组不等于已证独立性；不得拆邻接裁片造盲测。"
+    },
+    {
+      "id": "PG1-I06",
+      "claim": "街区侧小试24次正式尝试、22次实际求解，最终矩阵18条",
+      "value": {
+        "attempts": 24,
+        "solver_calls": 22,
+        "endpoint_unavailable_without_search": 2,
+        "final_matrix_rows": 18,
+        "final_matrix_solver_calls": 16,
+        "status_by_variant": {
+          "R0": {
+            "CONNECTED": 4,
+            "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS": 2
+          },
+          "R1": {
+            "CONNECTED": 3,
+            "DISCONNECTED": 1,
+            "ENDPOINT_UNAVAILABLE": 2
+          },
+          "R2": {
+            "CONNECTED": 4,
+            "DISCONNECTED": 2
+          }
+        }
+      },
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\PG1_RESUME_STREET_SIDE_R1_REVIEW_FIXED.zip",
+          "archive_sha256": "6b2db66e8347603c2aa346810846f4d6c5cf39e2e830f12a162b0e6c6e9485ab",
+          "member": "audit/experiment_registry.jsonl",
+          "member_sha256": "6a2a575f015acfa0e5380e6da194ab4d40829efa11d2df1a98c106705624b715",
+          "pointer": "all24lines;result.solver_invoked"
+        },
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\PG1_RESUME_STREET_SIDE_R1_REVIEW_FIXED.zip",
+          "archive_sha256": "6b2db66e8347603c2aa346810846f4d6c5cf39e2e830f12a162b0e6c6e9485ab",
+          "member": "results/query_results.csv",
+          "member_sha256": "fbbb52587030434256d3a6576d53d8fced9dd2f04b146966734d28bd9f03c01d",
+          "pointer": "all18rows;variant,status,solver_invoked"
+        },
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\PG1_RESUME_STREET_SIDE_R1_REVIEW_FIXED.zip",
+          "archive_sha256": "6b2db66e8347603c2aa346810846f4d6c5cf39e2e830f12a162b0e6c6e9485ab",
+          "member": "results/trial_summary.json",
+          "member_sha256": "f8bfc5c09295f931fda3f103c03a84ef6b2e4bf6688ca3c915909f5eab76d992",
+          "pointer": "formal_attempts,actual_formal_dijkstra_calls,current_matrix_requests,superseded_initial_R0_requests"
+        }
+      ],
+      "scope_and_limit": "24=18条初次比较+6条R0修复重测；两个ENDPOINT_UNAVAILABLE未进入solver。不能把零长度侧别合并算物理步行成功，不能把24当24条独立业务路线。"
+    },
+    {
+      "id": "PG1-I07",
+      "claim": "R0道路轴/示意侧线不应报告实测步行长度",
+      "value": {
+        "metric_correction": "METRIC_QUALIFICATION_NO_SOLVER",
+        "corrected_rows": 4,
+        "graph_or_cost_changes": 0,
+        "extra_sssp_calls": 0
+      },
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\PG1_RESUME_STREET_SIDE_R1_REVIEW_FIXED.zip",
+          "archive_sha256": "6b2db66e8347603c2aa346810846f4d6c5cf39e2e830f12a162b0e6c6e9485ab",
+          "member": "results/metric_qualification_receipt.json",
+          "member_sha256": "f048f66ebf671bdb2caf3e94539fdb89aa586edbcd33db4f92f15b348cf54862",
+          "pointer": "changes,graph_or_cost_changes,extra_sssp_calls"
+        },
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\PG1_RESUME_STREET_SIDE_R1_REVIEW_FIXED.zip",
+          "archive_sha256": "6b2db66e8347603c2aa346810846f4d6c5cf39e2e830f12a162b0e6c6e9485ab",
+          "member": "results/query_results.csv",
+          "member_sha256": "fbbb52587030434256d3a6576d53d8fced9dd2f04b146966734d28bd9f03c01d",
+          "pointer": "scope,length_interpretation,physical_route_length_m"
+        }
+      ],
+      "scope_and_limit": "原生步道对照6条记录保留地图线长；其余12条只给拓扑代理代价，不能宣称精确步程收益。"
+    },
+    {
+      "id": "PG1-I08",
+      "claim": "最新纠正目标为上海博物馆人民广场馆，保留南main北exit",
+      "value": {
+        "building": "way/161090899",
+        "building_address": {
+          "addr:housenumber": "201",
+          "addr:street": "人民大道"
+        },
+        "doors": [
+          {
+            "id": "node/6897141353",
+            "wgs84": [
+              121.4712158,
+              31.2299607
+            ],
+            "tags": {
+              "entrance": "main"
+            }
+          },
+          {
+            "id": "node/6897145227",
+            "wgs84": [
+              121.4706605,
+              31.2305674
+            ],
+            "tags": {
+              "entrance": "exit"
+            }
+          }
+        ]
+      },
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+          "archive_sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+          "member": "audit/target_objects.json",
+          "member_sha256": "ea3ae0c8850e0de0fd254f7c2f8088edc5ec0216d274927073517878b5eab3b7",
+          "pointer": "building_id,doors"
+        },
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+          "archive_sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+          "member": "data/source/sh-huangpu-01.osm.json",
+          "member_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "pointer": "way/161090899;node/6897141353;node/6897145227"
+        }
+      ],
+      "scope_and_limit": "本轮独立对照原生OSM记录，门原坐标/标签/建筑外环成员吻合；不代表物理真门、当前开放及公众权限已现场确认。北exit只作门外接近目标。"
+    },
+    {
+      "id": "PG1-I09",
+      "claim": "黄陂北路为7个tertiary源路段，同名站台排除",
+      "value": {
+        "road_way_ids": [
+          "way/10628430",
+          "way/24576913",
+          "way/513272949",
+          "way/654297629",
+          "way/1074409256",
+          "way/1074771160",
+          "way/1125986386"
+        ],
+        "same_name_platform": "way/478271881",
+        "source_total_centerline_length_m": 638.1262668407056
+      },
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+          "archive_sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+          "member": "audit/huangpi_north_road_objects.json",
+          "member_sha256": "f384ec3aa22281fdf44c1ca312bec26b43c7d3f5f27ed359109b89f83af9e0d7",
+          "pointer": "road_way_ids,excluded_same_name_objects,source_total_centerline_length_m"
+        },
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+          "archive_sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+          "member": "data/source/sh-huangpu-01.osm.json",
+          "member_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "pointer": "7roadwayIDs+way/478271881"
+        }
+      ],
+      "scope_and_limit": "道路源线总长约638.126m不是人行道长度；无真实道路面/可靠宽度/路缘几何时不得伪造。"
+    },
+    {
+      "id": "PG1-I10",
+      "claim": "原native窗口是西北侧步道诊断，不是博物馆门口路线",
+      "value": {
+        "old_way": "way/39764359",
+        "old_tags": {
+          "footway": "sidewalk",
+          "highway": "footway"
+        },
+        "old_window_bounds": [
+          353729.5267431182,
+          3456270.902233435,
+          354049.5267431182,
+          3456590.902233435
+        ],
+        "old_query_ids": [
+          "native-along",
+          "native-reverse"
+        ]
+      },
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\PG1_RESUME_STREET_SIDE_R1_REVIEW_FIXED.zip",
+          "archive_sha256": "6b2db66e8347603c2aa346810846f4d6c5cf39e2e830f12a162b0e6c6e9485ab",
+          "member": "audit/window_lock.json",
+          "member_sha256": "58177c3e74e5e3bddbdf2b252f8da51077f78b48419e2e0bdc77b994b327a590",
+          "pointer": "windows[0].selected_road_id,bounds_xy,queries"
+        },
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+          "archive_sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+          "member": "TARGET_SCENE_CORRECTION.md",
+          "member_sha256": "e3ea42c0caa5095dd482bc0768df24ad70bc0ec347ff83d6b7fd41c30119dcd9",
+          "pointer": "formal previouswrongwindowcorrection"
+        },
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+          "archive_sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+          "member": "data/source/sh-huangpu-01.osm.json",
+          "member_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "pointer": "way/39764359.tags"
+        }
+      ],
+      "scope_and_limit": "Visual-R1源到图保真审核不能证明其场景标签正确。R2仅修地图身份/范围/展示，未把旧诊断端点换成Museum南北门。旧R0/R1/R2结果只在原西北侧范围有效。"
+    },
+    {
+      "id": "PG1-I11",
+      "claim": "最新5个视野包含实际建筑与两门，世界几何仍未独立验证",
+      "value": {
+        "views": [
+          {
+            "id": "block_context",
+            "source_count": 914
+          },
+          {
+            "id": "target_overview",
+            "source_count": 407
+          },
+          {
+            "id": "huangpi_detail",
+            "source_count": 727
+          },
+          {
+            "id": "south_detail",
+            "source_count": 127
+          },
+          {
+            "id": "north_detail",
+            "source_count": 107
+          }
+        ],
+        "real_world_geometry_status": "REAL_WORLD_GEOMETRY_UNVERIFIED"
+      },
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+          "archive_sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+          "member": "audit/target_coverage_checks.json",
+          "member_sha256": "69ca65ed877a697a8ab56c82bbbc69c764ee257ff8b0d837b4dc5b4d0b06e669",
+          "pointer": "views,world_geometry_status"
+        },
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+          "archive_sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+          "member": "audit/REAL_SCENE_VALIDATION.md",
+          "member_sha256": "7aa91ef8cd8c13eace7c2005ce52586fa3feee7011f37e4a392bbf922c7f1850",
+          "pointer": "原生源并不自动等于现实真值"
+        }
+      ],
+      "scope_and_limit": "0源对象遗漏/源图一致不等于现实地理准确；没有适用独立当前配准真值。"
+    },
+    {
+      "id": "PG1-I12",
+      "claim": "封包技术复验完成不能自动通过G0/G1/G2或整个父Goal",
+      "value": [
+        {
+          "stage": "SMART_CITY_WALKABILITY_FOUNDATION_PG1",
+          "status": null,
+          "G0": "PENDING_USER_APPROVAL",
+          "G1": "PENDING_USER_REVIEW",
+          "G2": "NOT_APPROVED",
+          "parent_complete": false,
+          "file": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\FINAL_STATUS.json",
+          "sha256": "00a4d81def71a37157d62dabb08fad5659ff8788fcd8d8994a873ceec72db900"
+        },
+        {
+          "stage": "PG1_RESUME_STREET_SIDE_R1",
+          "status": "PARTIAL_WITH_EVIDENCE",
+          "G0": "PENDING_USER_APPROVAL",
+          "G1": "PENDING_USER_REVIEW",
+          "G2": "NOT_APPROVED",
+          "parent_complete": false,
+          "file": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\FINAL_STATUS.json",
+          "sha256": "2a10583a1a4c096eaf222abc59d74c4c2475874e697247eecb4519093f0d3fdf"
+        },
+        {
+          "stage": "PG1_MAP_CONTEXT_VISUAL_REPAIR_R1",
+          "status": "READY_FOR_GPT_REVIEW",
+          "G0": "PENDING_USER_APPROVAL",
+          "G1": "PENDING_USER_REVIEW",
+          "G2": "NOT_APPROVED",
+          "parent_complete": false,
+          "file": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\delivery\\FINAL_STATUS.json",
+          "sha256": "802d8b2d8e088957e4e666603becb165638b829efd4cd9deca088fb82ab2dab0"
+        },
+        {
+          "stage": "PG1_MAP_CONTEXT_RECONSTRUCTION_R2",
+          "status": "READY_FOR_GPT_REVIEW",
+          "G0": "PENDING_USER_APPROVAL",
+          "G1": "PENDING",
+          "G2": "NOT_APPROVED",
+          "parent_complete": false,
+          "file": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\FINAL_STATUS.json",
+          "sha256": "137f712f6d6e17bdfa9568862883931bcfbeaafcc4dcb94b83b4fbf6ee841887"
+        }
+      ],
+      "grading": "VERIFIED_SOURCE",
+      "sources": [
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\delivery\\PG1_FOUNDATION_REVIEW.zip",
+          "archive_sha256": "7c9ed58766177e8906defc257555b0d7ba0d92c8e97129a691f9f6e72dffef7c",
+          "member": "STATUS.json",
+          "member_sha256": "e08dcfb23063f04e6e7fcea8310ec185002811230dd93032a4ef4f6eeab0de7a",
+          "pointer": "first_public_push,G0,G1,G2,parent_goal_complete"
+        },
+        {
+          "archive": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_RECONSTRUCTION_R2\\delivery\\OPEN_REVIEW.zip",
+          "archive_sha256": "8a14afa8e2d39436c5a4365b35897e5c523e0e5a49785d1663373b7a7d2a1b98",
+          "member": "STATUS.json",
+          "member_sha256": "7e821242ca48c8dcde20e888e3d633d19f4b8969c765545d017015bc2113608c",
+          "pointer": "separate frozen/preseal pending and outsidepostsealcompletion"
+        }
+      ],
+      "scope_and_limit": "包外FINAL_STATUS和独立回执绑定真实封存SHA。保留旧包封包前PENDING，不回写历史；用户地图验收仍待完成，未Push/未选择许可证/未冻盲测。"
+    }
+  ],
+  "new_solver_calls": 0,
+  "new_experiments": 0,
+  "not_covered": [
+    "没有重新执行任何历史算法、路径或图构建",
+    "没有现场或独立配准影像验证地图现实精度",
+    "没有对全历史每个报告数字逐条独立重算",
+    "待作者完成后继续核验本轮最终交接材料、图文关系、隐私/许可及最终ZIP干净解包"
+  ]
+}

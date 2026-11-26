@@ -1,0 +1,67 @@
+{
+  "status": "COMPLETE_5_OF_5",
+  "original_HTML": "figures/routes/OSM_GEOAPIFY_R4_NORTH_ACCESS_R1/index_796e79fd.html",
+  "original_HTML_sha256": "796e79fd29d8a671a49de83f72143a36f551d791ed9f79385c3c7b895a46ad17",
+  "HTML_bytes_unchanged": true,
+  "links": [
+    {
+      "href": "../data/route_variants.geojson",
+      "package_path": "figures/routes/data/route_variants.geojson",
+      "original_archive": "OPEN_REVIEW.zip",
+      "original_archive_sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+      "member": "data/route_variants.geojson",
+      "sha256": "47498bef55bc9cedda3aef5c41d2a75963ab234b07ab74625e308a50e2a320a6",
+      "bytes": 32302,
+      "retrieval": "EXISTING_INCLUDED_FILE_BYTE_IDENTICAL",
+      "evidence_scope": "Original historical data/report; not new computation"
+    },
+    {
+      "href": "../data/constraints.geojson",
+      "package_path": "figures/routes/data/constraints.geojson",
+      "original_archive": "OPEN_REVIEW.zip",
+      "original_archive_sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+      "member": "data/constraints.geojson",
+      "sha256": "197cc7e60d2143ef8d866fc0eba50925a1088883e5ff15618432e3ee7ec2bc34",
+      "bytes": 34069,
+      "retrieval": "EXISTING_REFERENCED_FROZEN_ARCHIVE_MEMBER",
+      "evidence_scope": "Original historical data/report; not new computation"
+    },
+    {
+      "href": "../data/segment_evidence.csv",
+      "package_path": "figures/routes/data/segment_evidence.csv",
+      "original_archive": "OPEN_REVIEW.zip",
+      "original_archive_sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+      "member": "data/segment_evidence.csv",
+      "sha256": "71978000709e8c40dc11221a65599a9bf625ca729bd2f55f6d795f1091a4db92",
+      "bytes": 67563,
+      "retrieval": "EXISTING_INCLUDED_FILE_BYTE_IDENTICAL",
+      "evidence_scope": "Original historical data/report; not new computation"
+    },
+    {
+      "href": "../runs/experiment.json",
+      "package_path": "figures/routes/runs/experiment.json",
+      "original_archive": "OPEN_REVIEW.zip",
+      "original_archive_sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+      "member": "runs/experiment.json",
+      "sha256": "024551aa0c2a2f348065c0be2f674ba81104532daa3ad3b7fd78d580a048f41d",
+      "bytes": 9068,
+      "retrieval": "EXISTING_INCLUDED_FILE_BYTE_IDENTICAL",
+      "evidence_scope": "Original historical data/report; not new computation"
+    },
+    {
+      "href": "../04_RESULTS.md",
+      "package_path": "figures/routes/04_RESULTS.md",
+      "original_archive": "OPEN_REVIEW.zip",
+      "original_archive_sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+      "member": "04_RESULTS.md",
+      "sha256": "03dd8ce5ed7234ed016d6cff4543fead8b97676803f6659f1e818c08e6c2749f",
+      "bytes": 1853,
+      "retrieval": "EXISTING_INCLUDED_FILE_BYTE_IDENTICAL",
+      "evidence_scope": "Original historical data/report; not new computation"
+    }
+  ],
+  "new_experiments": 0,
+  "new_routes": 0,
+  "new_map_data_acquisition": 0,
+  "limitation": "Completes data/report links only; does not upgrade historical conditional routes or level/access evidence."
+}
