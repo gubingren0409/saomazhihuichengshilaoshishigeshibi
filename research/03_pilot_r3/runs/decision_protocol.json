@@ -1,0 +1,25 @@
+{
+  "state": "LOCKED_BEFORE_ROUTE_RESULT_INSPECTION",
+  "scope": "R3 paired comparison",
+  "old_case": "historical, report separately",
+  "new_max_buildings": 5,
+  "views_per_building": 2,
+  "geographic_source_shared": "OSM",
+  "request_budget": {
+    "max_hosted_per_scene": 5,
+    "max_new_hosted": 25,
+    "no_upgrade": true,
+    "stop_on_auth_payment_quota": true
+  },
+  "design": {
+    "same_start_target": true,
+    "preserve_all_frozen_ids": true,
+    "physical_validation": 0,
+    "explicit_entrance_strata": true,
+    "scale_rule": "WGS84 bounds matched; 1200×900; geometry controls for hosted where possible",
+    "path_metric": "route returned, geometry support, and end-to-reference offsets separately; independent truth needed",
+    "visual": "PENDING_USER_REVIEW no model/CV judgement",
+    "engineering": "service latency, source sizes, API credits estimated vs actual, license and offline reproduction"
+  },
+  "judgment": "CLEAR_PRACTICAL_ADVANTAGE only if repeated material difference with common task/independent evidence or practical service blocker; INCONCLUSIVE if material input truth or evidence unresolved; otherwise NO_DECISIVE_DIFFERENCE; keep both in latter two"
+}

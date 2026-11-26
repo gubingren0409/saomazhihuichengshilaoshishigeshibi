@@ -1,0 +1,274 @@
+{
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "label": "上海博物馆人民广场馆",
+      "category": "历史首例 · 公共文化",
+      "historical": true,
+      "views": {
+        "detail": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 0.511 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "inputs/r1/visuals/osm/sh-huangpu-01_detail_base.png",
+              "overlay": "inputs/r1/visuals/osm/sh-huangpu-01_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "只到路网的诊断折线"
+            },
+            "geoapify": {
+              "base": "inputs/r1/visuals/geoapify/sh-huangpu-01_detail_base.png",
+              "overlay": "inputs/r1/visuals/geoapify/sh-huangpu-01_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        },
+        "context": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 2.044 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "inputs/r1/visuals/osm/sh-huangpu-01_context_base.png",
+              "overlay": "inputs/r1/visuals/osm/sh-huangpu-01_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "只到路网的诊断折线"
+            },
+            "geoapify": {
+              "base": "inputs/r1/visuals/geoapify/sh-huangpu-01_context_base.png",
+              "overlay": "inputs/r1/visuals/geoapify/sh-huangpu-01_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        }
+      },
+      "status_label": "历史样本 · 原评分保留"
+    },
+    {
+      "scene_id": "sh-wukang",
+      "label": "武康大楼",
+      "category": "STREET_FRONT_RESIDENTIAL_MIXED",
+      "historical": false,
+      "views": {
+        "detail": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 0.511 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "visuals/osm/sh-wukang_detail_base.png",
+              "overlay": "visuals/osm/sh-wukang_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "冻结请求路线或真实失败标记"
+            },
+            "geoapify": {
+              "base": "visuals/geoapify/sh-wukang_detail_base.png",
+              "overlay": "visuals/geoapify/sh-wukang_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        },
+        "context": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 2.045 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "visuals/osm/sh-wukang_context_base.png",
+              "overlay": "visuals/osm/sh-wukang_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "冻结请求路线或真实失败标记"
+            },
+            "geoapify": {
+              "base": "visuals/geoapify/sh-wukang_context_base.png",
+              "overlay": "visuals/geoapify/sh-wukang_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        }
+      },
+      "status_label": "2/2 档同尺度"
+    },
+    {
+      "scene_id": "sh-tower",
+      "label": "上海中心大厦",
+      "category": "OFFICE_MIXED_HIGHRISE",
+      "historical": false,
+      "views": {
+        "detail": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 0.511 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "visuals/osm/sh-tower_detail_base.png",
+              "overlay": "visuals/osm/sh-tower_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "冻结请求路线或真实失败标记"
+            },
+            "geoapify": {
+              "base": "visuals/geoapify/sh-tower_detail_base.png",
+              "overlay": "visuals/geoapify/sh-tower_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        },
+        "context": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 2.044 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "visuals/osm/sh-tower_context_base.png",
+              "overlay": "visuals/osm/sh-tower_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "冻结请求路线或真实失败标记"
+            },
+            "geoapify": {
+              "base": "visuals/geoapify/sh-tower_context_base.png",
+              "overlay": "visuals/geoapify/sh-tower_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        }
+      },
+      "status_label": "2/2 档同尺度"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "label": "新世界城",
+      "category": "STREET_FRONT_RETAIL",
+      "historical": false,
+      "views": {
+        "detail": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 0.511 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "visuals/osm/sh-newworld_detail_base.png",
+              "overlay": "visuals/osm/sh-newworld_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "冻结请求路线或真实失败标记"
+            },
+            "geoapify": {
+              "base": "visuals/geoapify/sh-newworld_detail_base.png",
+              "overlay": "visuals/geoapify/sh-newworld_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        },
+        "context": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 2.044 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "visuals/osm/sh-newworld_context_base.png",
+              "overlay": "visuals/osm/sh-newworld_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "冻结请求路线或真实失败标记"
+            },
+            "geoapify": {
+              "base": "visuals/geoapify/sh-newworld_context_base.png",
+              "overlay": "visuals/geoapify/sh-newworld_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        }
+      },
+      "status_label": "2/2 档同尺度"
+    },
+    {
+      "scene_id": "sh-library",
+      "label": "上海图书馆淮海路馆",
+      "category": "PUBLIC_LIBRARY",
+      "historical": false,
+      "views": {
+        "detail": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 0.511 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "visuals/osm/sh-library_detail_base.png",
+              "overlay": "visuals/osm/sh-library_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "冻结请求路线或真实失败标记"
+            },
+            "geoapify": {
+              "base": "visuals/geoapify/sh-library_detail_base.png",
+              "overlay": "visuals/geoapify/sh-library_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        },
+        "context": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 2.045 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "visuals/osm/sh-library_context_base.png",
+              "overlay": "visuals/osm/sh-library_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "冻结请求路线或真实失败标记"
+            },
+            "geoapify": {
+              "base": "visuals/geoapify/sh-library_context_base.png",
+              "overlay": "visuals/geoapify/sh-library_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        }
+      },
+      "status_label": "2/2 档同尺度"
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "label": "上海展览中心",
+      "category": "OPEN_SPACE_EXHIBITION_COMPLEX",
+      "historical": false,
+      "views": {
+        "detail": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 0.511 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "visuals/osm/sh-exhibition_detail_base.png",
+              "overlay": "visuals/osm/sh-exhibition_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "冻结请求路线或真实失败标记"
+            },
+            "geoapify": {
+              "base": "visuals/geoapify/sh-exhibition_detail_base.png",
+              "overlay": "visuals/geoapify/sh-exhibition_detail_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        },
+        "context": {
+          "comparison_status": "同尺度核验通过",
+          "scale_caption": "锁定视野 · 1200×900 · 约 2.044 m/px · 同尺度核验通过",
+          "assets": {
+            "osm": {
+              "base": "visuals/osm/sh-exhibition_context_base.png",
+              "overlay": "visuals/osm/sh-exhibition_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "冻结请求路线或真实失败标记"
+            },
+            "geoapify": {
+              "base": "visuals/geoapify/sh-exhibition_context_base.png",
+              "overlay": "visuals/geoapify/sh-exhibition_context_route.png",
+              "base_caption": "无路线真实底图",
+              "overlay_caption": "已返回路线；终点身份单独检查"
+            }
+          }
+        }
+      },
+      "status_label": "2/2 档同尺度"
+    }
+  ]
+}

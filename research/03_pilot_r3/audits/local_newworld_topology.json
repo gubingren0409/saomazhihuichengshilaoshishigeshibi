@@ -1,0 +1,48 @@
+{
+  "scene_id": "sh-newworld",
+  "scope": "AUTHOR_RECHECK_OF_FROZEN_LOCAL_PROFILE",
+  "start_snap": {
+    "way_id": 1047377660,
+    "source_node_ids": [
+      9630984946,
+      9630984952
+    ],
+    "segment_index": 0,
+    "fraction": 1.0,
+    "position": [
+      121.4650294,
+      31.2387326
+    ],
+    "distance_m": 0.0,
+    "evidence": "SHARED_STREET_ASSUMPTION"
+  },
+  "target_snap": {
+    "way_id": 85796883,
+    "source_node_ids": [
+      1490098832,
+      11104555718
+    ],
+    "segment_index": 3,
+    "fraction": 1.0,
+    "position": [
+      121.4683438,
+      31.2372066
+    ],
+    "distance_m": 8.451166376278174,
+    "evidence": "SHARED_STREET_ASSUMPTION"
+  },
+  "forward_path": false,
+  "reverse_path": false,
+  "undirected_path": false,
+  "start_weak_component_nodes": 4741,
+  "target_weak_component_nodes": 34,
+  "start_snap_way_tags": {
+    "highway": "living_street"
+  },
+  "target_snap_way_tags": {
+    "highway": "residential",
+    "name": "长沙路",
+    "name:en": "Changsha Road"
+  },
+  "interpretation": "Component gap under this snapshot, clip and profile. Physical accessibility and missing-edge causes remain unverified."
+}

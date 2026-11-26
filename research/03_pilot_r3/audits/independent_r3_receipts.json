@@ -1,0 +1,262 @@
+{
+  "audit_scope": "R3 artifact hash, request identity, WGS84 geodesic and PNG shape",
+  "r3_scene_contract_sha256": "7e81ea652bc94f0a65e161666fda6f2bc2db7447227a2ca6fbbd09213ce8dbcd",
+  "scenes": [
+    {
+      "scene_id": "sh-wukang",
+      "contract_status": "READY",
+      "target_grade": "PROXY_OR_UNCERTAIN",
+      "local_status": "PASS",
+      "hosted_status": "LIVE_SCENE_PROCESSED",
+      "local_failure_reason": null,
+      "hosted_raw_features": 1,
+      "local_target_route": {
+        "parts": 1,
+        "length_m": 326.69306963130293,
+        "start_wgs84": [
+          121.4344902,
+          31.2085978
+        ],
+        "end_wgs84": [
+          121.43334631611643,
+          31.206036182447612
+        ],
+        "start_offset_m": 0.0,
+        "target_gap_m": 6.711114789914088,
+        "between_parts_gap_m": []
+      },
+      "local_native_edge_evidence_counts": {
+        "MAPPED_PEDESTRIAN_WAY": 1,
+        "SHARED_STREET_ASSUMPTION": 5
+      },
+      "local_approach_diagnostic": null,
+      "hosted_feature_waypoint_offset_to_request_m": [
+        0.09072301306076885,
+        0.062374399336438485
+      ],
+      "hosted_explicit_snap_available": false,
+      "hosted_verified_static_requests": 4,
+      "hosted_returned_route": {
+        "parts": 1,
+        "length_m": 326.72494183914114,
+        "start_wgs84": [
+          121.43449,
+          31.208598
+        ],
+        "end_wgs84": [
+          121.433346,
+          31.206036
+        ],
+        "start_offset_m": 0.029239775918454083,
+        "target_gap_m": 6.73358628498096,
+        "between_parts_gap_m": []
+      },
+      "local_verified_png": 4,
+      "hosted_verified_png": 4
+    },
+    {
+      "scene_id": "sh-tower",
+      "contract_status": "READY",
+      "target_grade": "PROXY_OR_UNCERTAIN",
+      "local_status": "PASS",
+      "hosted_status": "LIVE_SCENE_PROCESSED",
+      "local_failure_reason": null,
+      "hosted_raw_features": 1,
+      "local_target_route": {
+        "parts": 1,
+        "length_m": 256.45502273519344,
+        "start_wgs84": [
+          121.4989962,
+          31.2367947
+        ],
+        "end_wgs84": [
+          121.50050240685164,
+          31.235444748923324
+        ],
+        "start_offset_m": 0.0,
+        "target_gap_m": 22.280971814219242,
+        "between_parts_gap_m": []
+      },
+      "local_native_edge_evidence_counts": {
+        "MAPPED_PEDESTRIAN_WAY": 21,
+        "NATIVE_SHARED_WAY_ENDPOINT": 3,
+        "SHARED_STREET_ASSUMPTION": 7
+      },
+      "local_approach_diagnostic": null,
+      "hosted_feature_waypoint_offset_to_request_m": [
+        0.0799160642058391,
+        0.05809817565866222
+      ],
+      "hosted_explicit_snap_available": false,
+      "hosted_verified_static_requests": 4,
+      "hosted_returned_route": {
+        "parts": 1,
+        "length_m": 270.5838348652199,
+        "start_wgs84": [
+          121.498996,
+          31.236795
+        ],
+        "end_wgs84": [
+          121.500503,
+          31.235444
+        ],
+        "start_offset_m": 0.038332757250980495,
+        "target_gap_m": 22.24932954653573,
+        "between_parts_gap_m": []
+      },
+      "local_verified_png": 4,
+      "hosted_verified_png": 4
+    },
+    {
+      "scene_id": "sh-newworld",
+      "contract_status": "READY",
+      "target_grade": "PROXY_OR_UNCERTAIN",
+      "local_status": "NO_ROUTE",
+      "hosted_status": "LIVE_SCENE_PROCESSED",
+      "local_failure_reason": "NO_DIRECTED_PATH_BETWEEN_NEAREST_SNAPS",
+      "hosted_raw_features": 1,
+      "local_target_route": null,
+      "local_native_edge_evidence_counts": {},
+      "local_approach_diagnostic": null,
+      "hosted_feature_waypoint_offset_to_request_m": [
+        0.07666514704037104,
+        0.06668696775091641
+      ],
+      "hosted_explicit_snap_available": false,
+      "hosted_verified_static_requests": 4,
+      "hosted_returned_route": {
+        "parts": 1,
+        "length_m": 510.6959808192974,
+        "start_wgs84": [
+          121.465029,
+          31.238733
+        ],
+        "end_wgs84": [
+          121.46835,
+          31.237211
+        ],
+        "start_offset_m": 0.058471827802214084,
+        "target_gap_m": 8.42314427057583,
+        "between_parts_gap_m": []
+      },
+      "local_verified_png": 4,
+      "hosted_verified_png": 4
+    },
+    {
+      "scene_id": "sh-library",
+      "contract_status": "READY",
+      "target_grade": "OSM_TAGGED",
+      "local_status": "PASS",
+      "hosted_status": "LIVE_SCENE_PROCESSED",
+      "local_failure_reason": null,
+      "hosted_raw_features": 1,
+      "local_target_route": {
+        "parts": 1,
+        "length_m": 478.8266523380431,
+        "start_wgs84": [
+          121.4378012,
+          31.2078318
+        ],
+        "end_wgs84": [
+          121.4402357,
+          31.2096329
+        ],
+        "start_offset_m": 0.0,
+        "target_gap_m": 0.0,
+        "between_parts_gap_m": []
+      },
+      "local_native_edge_evidence_counts": {
+        "MAPPED_PEDESTRIAN_WAY": 8,
+        "SHARED_STREET_ASSUMPTION": 1,
+        "EXPLICIT_FOOT_ON_WAY_AXIS": 3
+      },
+      "local_approach_diagnostic": null,
+      "hosted_feature_waypoint_offset_to_request_m": [
+        0.09072303705120405,
+        0.12002886535004807
+      ],
+      "hosted_explicit_snap_available": false,
+      "hosted_verified_static_requests": 4,
+      "hosted_returned_route": {
+        "parts": 1,
+        "length_m": 496.0468358916206,
+        "start_wgs84": [
+          121.437801,
+          31.207832
+        ],
+        "end_wgs84": [
+          121.440236,
+          31.209633
+        ],
+        "start_offset_m": 0.029239873501541336,
+        "target_gap_m": 0.030663097229121396,
+        "between_parts_gap_m": []
+      },
+      "local_verified_png": 4,
+      "hosted_verified_png": 4
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "contract_status": "READY",
+      "target_grade": "PROXY_OR_UNCERTAIN",
+      "local_status": "PASS",
+      "hosted_status": "LIVE_SCENE_PROCESSED",
+      "local_failure_reason": null,
+      "hosted_raw_features": 1,
+      "local_target_route": {
+        "parts": 1,
+        "length_m": 508.0598382853115,
+        "start_wgs84": [
+          121.4449644,
+          31.2268704
+        ],
+        "end_wgs84": [
+          121.4469324,
+          31.2262007
+        ],
+        "start_offset_m": 0.0,
+        "target_gap_m": 19.736346184675053,
+        "between_parts_gap_m": []
+      },
+      "local_native_edge_evidence_counts": {
+        "MAPPED_PEDESTRIAN_WAY": 1,
+        "EXPLICIT_FOOT_ON_WAY_AXIS": 7,
+        "SIDEWALK_TAG_WAY_AXIS": 5,
+        "SHARED_STREET_ASSUMPTION": 2
+      },
+      "local_approach_diagnostic": null,
+      "hosted_feature_waypoint_offset_to_request_m": [
+        0.058474869846186786,
+        0.08869868856768337
+      ],
+      "hosted_explicit_snap_available": false,
+      "hosted_verified_static_requests": 4,
+      "hosted_returned_route": {
+        "parts": 1,
+        "length_m": 295.3810257326473,
+        "start_wgs84": [
+          121.444964,
+          31.22687
+        ],
+        "end_wgs84": [
+          121.446932,
+          31.226201
+        ],
+        "start_offset_m": 0.058474869846186786,
+        "target_gap_m": 19.776791019004378,
+        "between_parts_gap_m": []
+      },
+      "local_verified_png": 4,
+      "hosted_verified_png": 4
+    }
+  ],
+  "hosted_attempt_count": 25,
+  "hosted_http_status_counts": {
+    "200": 25
+  },
+  "local_results_retained": true,
+  "hosted_results_retained": true,
+  "visual_ratings_filled": 0,
+  "site_validations": 0,
+  "review_context": "Adapter author independently verified local and hosted evidence; does not audit own CIR."
+}

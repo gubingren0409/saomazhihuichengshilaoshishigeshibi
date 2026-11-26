@@ -1,0 +1,721 @@
+{
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "label": "上海博物馆人民广场馆",
+      "category": "历史首例 · 公共文化",
+      "historical": true,
+      "contract_status": "HISTORICAL_LOCKED",
+      "building_native_id": "way/161090899",
+      "target_role": "OSM_TAGGED_BUILDING_ENTRANCE_REFERENCE",
+      "entrance_count": 1,
+      "entrance_reference": "node/6897141353",
+      "frozen_start": [
+        121.4671613,
+        31.2309408
+      ],
+      "frozen_target": [
+        121.4712158,
+        31.2299607
+      ],
+      "local_status": "NO_ROUTE",
+      "local_failure_reason": "TARGET_SNAP_OUTSIDE_LIMIT",
+      "local": {
+        "length_m": null,
+        "start_offset_m": null,
+        "target_gap_m": null,
+        "end": null,
+        "parts": 0
+      },
+      "local_snap_distance_m": 55.02217444013307,
+      "local_diagnostic": {
+        "length_m": 1416.7193428331866,
+        "start_offset_m": 0.0,
+        "target_gap_m": 55.02217444013307,
+        "end": [
+          121.4713292,
+          31.2304473
+        ],
+        "parts": 1
+      },
+      "hosted_status": "HISTORICAL_LIVE_ROUTE_RETURNED",
+      "hosted": {
+        "length_m": 961.8193148263103,
+        "start_offset_m": 0.03617523242292412,
+        "target_gap_m": 54.98581971942229,
+        "end": [
+          121.471329,
+          31.230447
+        ],
+        "parts": 1
+      },
+      "hosted_provider_distance_m": 964,
+      "views": {
+        "detail": {
+          "status": "同尺度核验通过",
+          "local_png": "inputs/r1/visuals/osm/sh-huangpu-01_detail_base.png",
+          "hosted_png": "inputs/r1/visuals/geoapify/sh-huangpu-01_detail_base.png",
+          "hosted_overlay": "inputs/r1/visuals/geoapify/sh-huangpu-01_detail_route.png",
+          "local_mpp": 0.5110899908233082,
+          "hosted_mpp": 0.5110899908233082,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 29,
+            "pedestrian_area": 4,
+            "road": 80,
+            "building": 32,
+            "foot": 90
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        },
+        "context": {
+          "status": "同尺度核验通过",
+          "local_png": "inputs/r1/visuals/osm/sh-huangpu-01_context_base.png",
+          "hosted_png": "inputs/r1/visuals/geoapify/sh-huangpu-01_context_base.png",
+          "hosted_overlay": "inputs/r1/visuals/geoapify/sh-huangpu-01_context_route.png",
+          "local_mpp": 2.044359958945651,
+          "hosted_mpp": 2.044359958945651,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 85,
+            "water": 7,
+            "pedestrian_area": 17,
+            "stream": 2,
+            "road": 984,
+            "building": 1736,
+            "foot": 385
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        }
+      },
+      "verified_paired_views": 2,
+      "native_open_space_objects_in_context": 85,
+      "native_pedestrian_tagged_ways_in_context": 399,
+      "native_road_centerlines_in_context": 986,
+      "native_crossings_in_context": 167,
+      "local_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 1.0,
+        "osm_footprint_intersections": 0,
+        "osm_footprint_intersection_way_ids": [],
+        "near_native_way_ids": [
+          39764174,
+          39764359,
+          39764601,
+          39764607,
+          39764609,
+          165953415,
+          178719573,
+          178722057,
+          178723091,
+          178723096,
+          178723098,
+          178723100,
+          178725147,
+          178725152,
+          178725157,
+          178725158,
+          178730986,
+          178730988,
+          513764740,
+          761403176,
+          1303211752
+        ]
+      },
+      "hosted_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 0.9564556750364734,
+        "osm_footprint_intersections": 0,
+        "osm_footprint_intersection_way_ids": [],
+        "near_native_way_ids": [
+          39764174,
+          39764359,
+          39764601,
+          178719573,
+          178722057,
+          178723091,
+          178723096,
+          178723098,
+          178723100,
+          178725152,
+          178725157,
+          178725158,
+          178730986,
+          178730988,
+          178732702,
+          513764740,
+          761403176,
+          1303211746,
+          1303211752
+        ]
+      }
+    },
+    {
+      "scene_id": "sh-wukang",
+      "label": "武康大楼",
+      "category": "STREET_FRONT_RESIDENTIAL_MIXED",
+      "historical": false,
+      "contract_status": "READY",
+      "building_native_id": "way/293434151",
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "entrance_count": 0,
+      "entrance_reference": null,
+      "frozen_start": [
+        121.4344902,
+        31.2085978
+      ],
+      "frozen_target": [
+        121.43341330000001,
+        31.20601750000001
+      ],
+      "local_status": "PASS",
+      "local_failure_reason": null,
+      "local": {
+        "length_m": 326.69306963059694,
+        "start_offset_m": 0.0,
+        "target_gap_m": 6.711114790620279,
+        "end": [
+          121.43334631611643,
+          31.206036182447612
+        ],
+        "parts": 1
+      },
+      "local_snap_distance_m": 6.711114790620279,
+      "local_diagnostic": {
+        "length_m": null,
+        "start_offset_m": null,
+        "target_gap_m": null,
+        "end": null,
+        "parts": 0
+      },
+      "hosted_status": "LIVE_ROUTE_RETURNED",
+      "hosted": {
+        "length_m": 326.7249418387878,
+        "start_offset_m": 0.029239775918454083,
+        "target_gap_m": 6.733586286040405,
+        "end": [
+          121.433346,
+          31.206036
+        ],
+        "parts": 1
+      },
+      "hosted_provider_distance_m": 327,
+      "views": {
+        "detail": {
+          "status": "同尺度核验通过",
+          "local_png": "visuals/osm/sh-wukang_detail_base.png",
+          "hosted_png": "visuals/geoapify/sh-wukang_detail_base.png",
+          "hosted_overlay": "visuals/geoapify/sh-wukang_detail_route.png",
+          "local_mpp": 0.5112186762365618,
+          "hosted_mpp": 0.5112186762365618,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 1,
+            "road": 28,
+            "building": 136,
+            "foot": 8
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        },
+        "context": {
+          "status": "同尺度核验通过",
+          "local_png": "visuals/osm/sh-wukang_context_base.png",
+          "hosted_png": "visuals/geoapify/sh-wukang_context_base.png",
+          "hosted_overlay": "visuals/geoapify/sh-wukang_context_route.png",
+          "local_mpp": 2.0448747006035437,
+          "hosted_mpp": 2.0448747006035437,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 81,
+            "water": 1,
+            "pedestrian_area": 1,
+            "road": 426,
+            "building": 2311,
+            "foot": 144
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        }
+      },
+      "verified_paired_views": 2,
+      "native_open_space_objects_in_context": 69,
+      "native_pedestrian_tagged_ways_in_context": 170,
+      "native_road_centerlines_in_context": 427,
+      "native_crossings_in_context": 14,
+      "local_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 0.15425422653137968,
+        "osm_footprint_intersections": 0,
+        "osm_footprint_intersection_way_ids": [],
+        "near_native_way_ids": [
+          677199591
+        ]
+      },
+      "hosted_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 0.1542349466622618,
+        "osm_footprint_intersections": 0,
+        "osm_footprint_intersection_way_ids": [],
+        "near_native_way_ids": [
+          677199591
+        ]
+      }
+    },
+    {
+      "scene_id": "sh-tower",
+      "label": "上海中心大厦",
+      "category": "OFFICE_MIXED_HIGHRISE",
+      "historical": false,
+      "contract_status": "READY",
+      "building_native_id": "way/165792123",
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "entrance_count": 0,
+      "entrance_reference": null,
+      "frozen_start": [
+        121.4989962,
+        31.2367947
+      ],
+      "frozen_target": [
+        121.50072749999998,
+        31.235499299999994
+      ],
+      "local_status": "PASS",
+      "local_failure_reason": null,
+      "local": {
+        "length_m": 256.45502273622617,
+        "start_offset_m": 0.0,
+        "target_gap_m": 22.280971814572304,
+        "end": [
+          121.50050240685164,
+          31.235444748923324
+        ],
+        "parts": 1
+      },
+      "local_snap_distance_m": 22.280971814572304,
+      "local_diagnostic": {
+        "length_m": null,
+        "start_offset_m": null,
+        "target_gap_m": null,
+        "end": null,
+        "parts": 0
+      },
+      "hosted_status": "LIVE_ROUTE_RETURNED",
+      "hosted": {
+        "length_m": 270.58383486670925,
+        "start_offset_m": 0.038332757250980495,
+        "target_gap_m": 22.24932954653573,
+        "end": [
+          121.500503,
+          31.235444
+        ],
+        "parts": 1
+      },
+      "hosted_provider_distance_m": 269,
+      "views": {
+        "detail": {
+          "status": "同尺度核验通过",
+          "local_png": "visuals/osm/sh-tower_detail_base.png",
+          "hosted_png": "visuals/geoapify/sh-tower_detail_base.png",
+          "hosted_overlay": "visuals/geoapify/sh-tower_detail_route.png",
+          "local_mpp": 0.5110607722222532,
+          "hosted_mpp": 0.5110607722222532,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 17,
+            "water": 1,
+            "pedestrian_area": 1,
+            "road": 90,
+            "building": 32,
+            "foot": 41
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        },
+        "context": {
+          "status": "同尺度核验通过",
+          "local_png": "visuals/osm/sh-tower_context_base.png",
+          "hosted_png": "visuals/geoapify/sh-tower_context_base.png",
+          "hosted_overlay": "visuals/geoapify/sh-tower_context_route.png",
+          "local_mpp": 2.0442430845493513,
+          "hosted_mpp": 2.0442430845493513,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 132,
+            "water": 22,
+            "pedestrian_area": 28,
+            "stream": 3,
+            "road": 903,
+            "building": 802,
+            "foot": 543
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        }
+      },
+      "verified_paired_views": 2,
+      "native_open_space_objects_in_context": 115,
+      "native_pedestrian_tagged_ways_in_context": 551,
+      "native_road_centerlines_in_context": 904,
+      "native_crossings_in_context": 207,
+      "local_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 0.8211755555550506,
+        "osm_footprint_intersections": 1,
+        "osm_footprint_intersection_way_ids": [
+          "way/967281057"
+        ],
+        "near_native_way_ids": [
+          961634159,
+          961638126,
+          965077206,
+          1300193604,
+          1307696470,
+          1307696471,
+          1307696472,
+          1307696473
+        ]
+      },
+      "hosted_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 0.7748243457341534,
+        "osm_footprint_intersections": 1,
+        "osm_footprint_intersection_way_ids": [
+          "way/967281057"
+        ],
+        "near_native_way_ids": [
+          961634159,
+          1307696470,
+          1307696471,
+          1307696472,
+          1307696473
+        ]
+      }
+    },
+    {
+      "scene_id": "sh-newworld",
+      "label": "新世界城",
+      "category": "STREET_FRONT_RETAIL",
+      "historical": false,
+      "contract_status": "READY",
+      "building_native_id": "way/51317339",
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "entrance_count": 0,
+      "entrance_reference": null,
+      "frozen_start": [
+        121.4650294,
+        31.2387326
+      ],
+      "frozen_target": [
+        121.46840570000002,
+        31.237151999999995
+      ],
+      "local_status": "NO_ROUTE",
+      "local_failure_reason": "NO_DIRECTED_PATH_BETWEEN_NEAREST_SNAPS",
+      "local": {
+        "length_m": null,
+        "start_offset_m": null,
+        "target_gap_m": null,
+        "end": null,
+        "parts": 0
+      },
+      "local_snap_distance_m": 8.451166376278174,
+      "local_diagnostic": {
+        "length_m": null,
+        "start_offset_m": null,
+        "target_gap_m": null,
+        "end": null,
+        "parts": 0
+      },
+      "hosted_status": "LIVE_ROUTE_RETURNED",
+      "hosted": {
+        "length_m": 510.69598081965347,
+        "start_offset_m": 0.058471827802214084,
+        "target_gap_m": 8.423144270577211,
+        "end": [
+          121.46835,
+          31.237211
+        ],
+        "parts": 1
+      },
+      "hosted_provider_distance_m": 511,
+      "views": {
+        "detail": {
+          "status": "同尺度核验通过",
+          "local_png": "visuals/osm/sh-newworld_detail_base.png",
+          "hosted_png": "visuals/geoapify/sh-newworld_detail_base.png",
+          "hosted_overlay": "visuals/geoapify/sh-newworld_detail_route.png",
+          "local_mpp": 0.5110529860576997,
+          "hosted_mpp": 0.5110529860576997,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 7,
+            "pedestrian_area": 3,
+            "road": 46,
+            "building": 146,
+            "foot": 61
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        },
+        "context": {
+          "status": "同尺度核验通过",
+          "local_png": "visuals/osm/sh-newworld_context_base.png",
+          "hosted_png": "visuals/geoapify/sh-newworld_context_base.png",
+          "hosted_overlay": "visuals/geoapify/sh-newworld_context_route.png",
+          "local_mpp": 2.0442119398852,
+          "hosted_mpp": 2.0442119398852,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 94,
+            "water": 4,
+            "pedestrian_area": 14,
+            "stream": 1,
+            "road": 819,
+            "building": 2254,
+            "foot": 396
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        }
+      },
+      "verified_paired_views": 2,
+      "native_open_space_objects_in_context": 93,
+      "native_pedestrian_tagged_ways_in_context": 410,
+      "native_road_centerlines_in_context": 819,
+      "native_crossings_in_context": 130,
+      "local_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": null,
+        "osm_footprint_intersections": null,
+        "near_native_way_ids": null
+      },
+      "hosted_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 0.004025915533375679,
+        "osm_footprint_intersections": 0,
+        "osm_footprint_intersection_way_ids": [],
+        "near_native_way_ids": [
+          1047377660
+        ]
+      }
+    },
+    {
+      "scene_id": "sh-library",
+      "label": "上海图书馆淮海路馆",
+      "category": "PUBLIC_LIBRARY",
+      "historical": false,
+      "contract_status": "READY",
+      "building_native_id": "way/293434188",
+      "target_role": "OSM_TAGGED",
+      "entrance_count": 1,
+      "entrance_reference": "node/11300000483",
+      "frozen_start": [
+        121.4378012,
+        31.2078318
+      ],
+      "frozen_target": [
+        121.4402357,
+        31.2096329
+      ],
+      "local_status": "PASS",
+      "local_failure_reason": null,
+      "local": {
+        "length_m": 478.82665233627716,
+        "start_offset_m": 0.0,
+        "target_gap_m": 0.0,
+        "end": [
+          121.4402357,
+          31.2096329
+        ],
+        "parts": 1
+      },
+      "local_snap_distance_m": 0.0,
+      "local_diagnostic": {
+        "length_m": null,
+        "start_offset_m": null,
+        "target_gap_m": null,
+        "end": null,
+        "parts": 0
+      },
+      "hosted_status": "LIVE_ROUTE_RETURNED",
+      "hosted": {
+        "length_m": 496.046835891268,
+        "start_offset_m": 0.029239873501541336,
+        "target_gap_m": 0.03066309722912139,
+        "end": [
+          121.440236,
+          31.209633
+        ],
+        "parts": 1
+      },
+      "hosted_provider_distance_m": 497,
+      "views": {
+        "detail": {
+          "status": "同尺度核验通过",
+          "local_png": "visuals/osm/sh-library_detail_base.png",
+          "hosted_png": "visuals/geoapify/sh-library_detail_base.png",
+          "hosted_overlay": "visuals/geoapify/sh-library_detail_route.png",
+          "local_mpp": 0.5112014490703889,
+          "hosted_mpp": 0.5112014490703889,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 3,
+            "pedestrian_area": 1,
+            "road": 21,
+            "building": 187,
+            "foot": 15
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        },
+        "context": {
+          "status": "同尺度核验通过",
+          "local_png": "visuals/osm/sh-library_context_base.png",
+          "hosted_png": "visuals/geoapify/sh-library_context_base.png",
+          "hosted_overlay": "visuals/geoapify/sh-library_context_route.png",
+          "local_mpp": 2.044805791947226,
+          "hosted_mpp": 2.044805791947226,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 75,
+            "pedestrian_area": 3,
+            "road": 412,
+            "building": 3091,
+            "foot": 107
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        }
+      },
+      "verified_paired_views": 2,
+      "native_open_space_objects_in_context": 75,
+      "native_pedestrian_tagged_ways_in_context": 132,
+      "native_road_centerlines_in_context": 412,
+      "native_crossings_in_context": 9,
+      "local_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 0.7160214127090698,
+        "osm_footprint_intersections": 0,
+        "osm_footprint_intersection_way_ids": [],
+        "near_native_way_ids": [
+          277743619,
+          451728953,
+          1219527812,
+          1219527813,
+          1219527814,
+          1272480699
+        ]
+      },
+      "hosted_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 0.8585978749248201,
+        "osm_footprint_intersections": 0,
+        "osm_footprint_intersection_way_ids": [],
+        "near_native_way_ids": [
+          277743619,
+          451728953,
+          1219527812,
+          1219527813,
+          1219527814,
+          1272480699,
+          1272480700
+        ]
+      }
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "label": "上海展览中心",
+      "category": "OPEN_SPACE_EXHIBITION_COMPLEX",
+      "historical": false,
+      "contract_status": "READY",
+      "building_native_id": "relation/7469147",
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "entrance_count": 0,
+      "entrance_reference": null,
+      "frozen_start": [
+        121.4449644,
+        31.2268704
+      ],
+      "frozen_target": [
+        121.447139,
+        31.226187800000005
+      ],
+      "local_status": "PASS",
+      "local_failure_reason": null,
+      "local": {
+        "length_m": 508.05983828667433,
+        "start_offset_m": 0.0,
+        "target_gap_m": 19.736346184586882,
+        "end": [
+          121.4469324,
+          31.2262007
+        ],
+        "parts": 1
+      },
+      "local_snap_distance_m": 19.736346184586882,
+      "local_diagnostic": {
+        "length_m": null,
+        "start_offset_m": null,
+        "target_gap_m": null,
+        "end": null,
+        "parts": 0
+      },
+      "hosted_status": "LIVE_ROUTE_RETURNED",
+      "hosted": {
+        "length_m": 295.3810257333531,
+        "start_offset_m": 0.058474869846186786,
+        "target_gap_m": 19.776791019092354,
+        "end": [
+          121.446932,
+          31.226201
+        ],
+        "parts": 1
+      },
+      "hosted_provider_distance_m": 296,
+      "views": {
+        "detail": {
+          "status": "同尺度核验通过",
+          "local_png": "visuals/osm/sh-exhibition_detail_base.png",
+          "hosted_png": "visuals/geoapify/sh-exhibition_detail_base.png",
+          "hosted_overlay": "visuals/geoapify/sh-exhibition_detail_route.png",
+          "local_mpp": 0.511112117483092,
+          "hosted_mpp": 0.511112117483092,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "water": 1,
+            "road": 55,
+            "building": 75,
+            "foot": 16
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        },
+        "context": {
+          "status": "同尺度核验通过",
+          "local_png": "visuals/osm/sh-exhibition_context_base.png",
+          "hosted_png": "visuals/geoapify/sh-exhibition_context_base.png",
+          "hosted_overlay": "visuals/geoapify/sh-exhibition_context_route.png",
+          "local_mpp": 2.0444484655856248,
+          "hosted_mpp": 2.0444484655856248,
+          "hosted_bounds_match": true,
+          "local_source_counts": {
+            "land": 42,
+            "water": 6,
+            "pedestrian_area": 14,
+            "road": 518,
+            "building": 1941,
+            "foot": 178
+          },
+          "hosted_vector_coverage": "UNKNOWN_IMAGE_ONLY"
+        }
+      },
+      "verified_paired_views": 2,
+      "native_open_space_objects_in_context": 48,
+      "native_pedestrian_tagged_ways_in_context": 190,
+      "native_road_centerlines_in_context": 523,
+      "native_crossings_in_context": 84,
+      "local_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 0.3972991233178483,
+        "osm_footprint_intersections": 0,
+        "osm_footprint_intersection_way_ids": [],
+        "near_native_way_ids": [
+          177700518,
+          441869385
+        ]
+      },
+      "hosted_geometry_support": {
+        "line_near_tagged_osm_pedestrian_fraction": 0.006948162111461444,
+        "osm_footprint_intersections": 0,
+        "osm_footprint_intersection_way_ids": [],
+        "near_native_way_ids": [
+          441869385
+        ]
+      }
+    }
+  ],
+  "field_checks": 0,
+  "human": "PENDING_USER_REVIEW",
+  "overlay_geometry_support_scope": "Nearest raw OSM pedestrian-tagged geometry within 2 m; no topological or independent truth implication."
+}

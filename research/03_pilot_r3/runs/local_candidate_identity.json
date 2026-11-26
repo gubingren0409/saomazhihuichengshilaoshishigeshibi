@@ -1,0 +1,108 @@
+{
+  "scope": "PRE_ROUTE_IDENTITY_DISCOVERY",
+  "pbf_sha256": "e4b83f15cc358d347c47708239f8c556d9819a69f43ff32f42a23c405733e8f6",
+  "router_sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+  "renderer_sha256": "bf1832decb3ea7716b7af4736b0643d28f4e38df353065e2ea53794f8e5ea029",
+  "scenes": [
+    {
+      "scene_id": "sh-wukang",
+      "name": "武康大楼",
+      "category": "STREET_FRONT_RESIDENTIAL_MIXED",
+      "native_id": "way/293434151",
+      "native_link": "https://www.openstreetmap.org/way/293434151",
+      "discovery_bounds_wsen": [
+        121.4334133,
+        31.2059766,
+        121.4339882,
+        31.2065692
+      ],
+      "clip_bounds_wsen": [
+        121.4161549072511,
+        31.194017950952123,
+        121.4512465927489,
+        31.21852626140535
+      ],
+      "evidence_note": "沿街住宅/混合类型；单门属性未独立核验"
+    },
+    {
+      "scene_id": "sh-tower",
+      "name": "上海中心大厦",
+      "category": "OFFICE_MIXED_HIGHRISE",
+      "native_id": "way/165792123",
+      "native_link": "https://www.openstreetmap.org/way/165792123",
+      "discovery_bounds_wsen": [
+        121.5007275,
+        31.235189,
+        121.501806,
+        31.2360492
+      ],
+      "clip_bounds_wsen": [
+        121.48372090725108,
+        31.22336795421446,
+        121.51881259274889,
+        31.247868657294042
+      ],
+      "evidence_note": "办公主导的混合用途高层；原生 building=commercial"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "name": "新世界城",
+      "category": "STREET_FRONT_RETAIL",
+      "native_id": "way/51317339",
+      "native_link": "https://www.openstreetmap.org/way/51317339",
+      "discovery_bounds_wsen": [
+        121.4684057,
+        31.2363964,
+        121.4697643,
+        31.2377346
+      ],
+      "clip_bounds_wsen": [
+        121.45153915725106,
+        31.224814541750792,
+        121.48663084274887,
+        31.24931486971595
+      ],
+      "evidence_note": "沿街商业；原生 building=retail、shop=mall；实体多入口状态未核验"
+    },
+    {
+      "scene_id": "sh-library",
+      "name": "上海图书馆淮海路馆",
+      "category": "PUBLIC_LIBRARY",
+      "native_id": "way/293434188",
+      "native_link": "https://www.openstreetmap.org/way/293434188",
+      "discovery_bounds_wsen": [
+        121.4391702,
+        31.2087726,
+        121.4408607,
+        31.2101789
+      ],
+      "clip_bounds_wsen": [
+        121.42246960725109,
+        31.19722121588461,
+        121.45756129274889,
+        31.221728696380126
+      ],
+      "evidence_note": "公共服务；目标为淮海中路1555号原生馆舍轮廓"
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "name": "上海展览中心",
+      "category": "OPEN_SPACE_EXHIBITION_COMPLEX",
+      "native_id": "relation/7469147",
+      "native_link": "https://www.openstreetmap.org/relation/7469147",
+      "discovery_bounds_wsen": [
+        121.4466448,
+        31.2248504,
+        121.4500003,
+        31.2286203
+      ],
+      "clip_bounds_wsen": [
+        121.43077670725108,
+        31.21448305254272,
+        121.46586839274889,
+        31.238986059222622
+      ],
+      "evidence_note": "退线场馆复合体；采用含内环的馆舍建筑关系，区别于外部场地 way/438483942"
+    }
+  ]
+}

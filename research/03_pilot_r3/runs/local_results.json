@@ -1,0 +1,3036 @@
+{
+  "scene_contracts_sha256": "7e81ea652bc94f0a65e161666fda6f2bc2db7447227a2ca6fbbd09213ce8dbcd",
+  "profile": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+  "engine_identity": "FROZEN_R1_IMPLEMENTATION",
+  "scenes": [
+    {
+      "scene_id": "sh-wukang",
+      "status": "PASS",
+      "route": {
+        "status": "PASS",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              121.4344902,
+              31.2085978
+            ],
+            [
+              121.4347633,
+              31.2082298
+            ],
+            [
+              121.4346195,
+              31.2080179
+            ],
+            [
+              121.4338096,
+              31.2068178
+            ],
+            [
+              121.4335105,
+              31.2063221
+            ],
+            [
+              121.4333504,
+              31.206047
+            ],
+            [
+              121.43334631611643,
+              31.206036182447612
+            ]
+          ]
+        },
+        "failure_reason": null,
+        "requested_start": [
+          121.4344902,
+          31.2085978
+        ],
+        "requested_target": [
+          121.43341330000001,
+          31.20601750000001
+        ],
+        "route_start": [
+          121.4344902,
+          31.2085978
+        ],
+        "route_end": [
+          121.43334631611643,
+          31.206036182447612
+        ],
+        "snap_start_m": 0.0,
+        "snap_end_m": 6.711114790620279,
+        "length_m": 326.69306963059694,
+        "node_ids": [
+          6340981043,
+          6340981045,
+          994212309,
+          603891419,
+          2970332729,
+          2970332722
+        ],
+        "way_ids": [
+          677199591,
+          47451483
+        ],
+        "segments": [
+          {
+            "length_m": 48.39485332853396,
+            "osm_way_id": 677199591,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              6340981045,
+              6340981043
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4344902,
+              31.2085978
+            ],
+            "end": [
+              121.4347633,
+              31.2082298
+            ]
+          },
+          {
+            "length_m": 27.198465237800953,
+            "osm_way_id": 47451483,
+            "segment_index": 4,
+            "osm_source_node_ids": [
+              6340981045,
+              994212309
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4347633,
+              31.2082298
+            ],
+            "end": [
+              121.4346195,
+              31.2080179
+            ]
+          },
+          {
+            "length_m": 153.8230438347159,
+            "osm_way_id": 47451483,
+            "segment_index": 5,
+            "osm_source_node_ids": [
+              994212309,
+              603891419
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4346195,
+              31.2080179
+            ],
+            "end": [
+              121.4338096,
+              31.2068178
+            ]
+          },
+          {
+            "length_m": 61.91145267645961,
+            "osm_way_id": 47451483,
+            "segment_index": 6,
+            "osm_source_node_ids": [
+              603891419,
+              2970332729
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4338096,
+              31.2068178
+            ],
+            "end": [
+              121.4335105,
+              31.2063221
+            ]
+          },
+          {
+            "length_m": 34.10431596388724,
+            "osm_way_id": 47451483,
+            "segment_index": 7,
+            "osm_source_node_ids": [
+              2970332729,
+              2970332722
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4335105,
+              31.2063221
+            ],
+            "end": [
+              121.4333504,
+              31.206047
+            ]
+          },
+          {
+            "length_m": 1.2609385891992566,
+            "osm_way_id": 47451483,
+            "segment_index": 8,
+            "osm_source_node_ids": [
+              2970332722,
+              105253431
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4333504,
+              31.206047
+            ],
+            "end": [
+              121.43334631611643,
+              31.206036182447612
+            ]
+          }
+        ],
+        "profile": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "engine": "NetworkX 3.6.1 Dijkstra",
+        "graph_stats": {
+          "eligible_ways": 651,
+          "eligible_segments": 2639,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 34,
+          "outside_snapshot_segments": 252,
+          "graph_nodes": 2614,
+          "graph_directed_edges": 5318
+        },
+        "max_snap_m": 35,
+        "snap_start": {
+          "way_id": 677199591,
+          "source_node_ids": [
+            6340981045,
+            6340981043
+          ],
+          "segment_index": 0,
+          "fraction": 1.0,
+          "position": [
+            121.4344902,
+            31.2085978
+          ],
+          "distance_m": 0.0,
+          "evidence": "MAPPED_PEDESTRIAN_WAY"
+        },
+        "snap_end": {
+          "way_id": 47451483,
+          "source_node_ids": [
+            2970332722,
+            105253431
+          ],
+          "segment_index": 8,
+          "fraction": 0.04962180642131501,
+          "position": [
+            121.43334631611643,
+            31.206036182447612
+          ],
+          "distance_m": 6.711114790620279,
+          "evidence": "SHARED_STREET_ASSUMPTION"
+        },
+        "scene_id": "sh-wukang",
+        "identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+        "target_identity": "PROXY_OR_UNCERTAIN",
+        "snapshot_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45"
+      },
+      "diagnostic": null,
+      "views": {
+        "detail": {
+          "center": [
+            121.43370075000001,
+            31.20627290046411
+          ],
+          "bounds": [
+            121.43048209918211,
+            31.204208175693825,
+            121.43691940081789,
+            31.208337580163
+          ],
+          "extent_3857": [
+            13517579.434062677,
+            3659297.9561872985,
+            13518296.03120285,
+            3659835.4040424284
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.5112186762365618,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326",
+          "feature_counts": {
+            "land": 1,
+            "road": 28,
+            "building": 136,
+            "foot": 8
+          },
+          "render_stroke_css_pixels": {
+            "road": [
+              5,
+              8,
+              12,
+              14
+            ],
+            "foot": [
+              3
+            ]
+          },
+          "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+          "visible_unique_labels": 29,
+          "decluttered_labels": 31,
+          "scale": {
+            "visible": true,
+            "bar_meters": 100,
+            "bar_css_pixels": 195.6110068907692
+          },
+          "attribution": "© OpenStreetMap contributors · ODbL",
+          "status": "PASS_LOCAL_GEOMETRY_RENDER",
+          "actual_bounds": [
+            121.43048209918211,
+            31.204208175693825,
+            121.43691940081789,
+            31.208337580163
+          ],
+          "pixel_size": [
+            1200,
+            900
+          ],
+          "target_pixel_size": [
+            107.16912753440113,
+            129.1566384227944
+          ],
+          "target_area_ratio": 0.004273565298705216,
+          "building_fully_inside": true,
+          "overlay_drawn": true,
+          "route_identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+          "route_status": "PASS",
+          "route_target_offset_m": 6.711114790620279,
+          "target_building_inner_overlap_projected_m": 0.0,
+          "unmatched_renderable_relations": 0,
+          "base": "visuals/osm/sh-wukang_detail_base.png",
+          "route": "visuals/osm/sh-wukang_detail_route.png",
+          "base_sha256": "fe7087edf583bd4178b9067636b49874dde1edf14dd107d927b4f826ce42f40a",
+          "route_sha256": "492593d587f9b11e3716dd51b90c7324c4247634705cd2bc308438f9014937fa"
+        },
+        "context": {
+          "center": [
+            121.43370075000001,
+            31.20627290046411
+          ],
+          "bounds": [
+            121.42082614672852,
+            31.1980137309717,
+            121.44657535327148,
+            31.21453134881448
+          ],
+          "extent_3857": [
+            13516504.538352417,
+            3658491.7844046033,
+            13519370.92691311,
+            3660641.5758251236
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.0448747006035437,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326",
+          "feature_counts": {
+            "land": 81,
+            "water": 1,
+            "pedestrian_area": 1,
+            "road": 426,
+            "building": 2311,
+            "foot": 144
+          },
+          "render_stroke_css_pixels": {
+            "road": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10
+            ],
+            "foot": [
+              2
+            ]
+          },
+          "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+          "visible_unique_labels": 133,
+          "decluttered_labels": 549,
+          "scale": {
+            "visible": true,
+            "bar_meters": 250,
+            "bar_css_pixels": 122.25687956636787
+          },
+          "attribution": "© OpenStreetMap contributors · ODbL",
+          "status": "PASS_LOCAL_GEOMETRY_RENDER",
+          "actual_bounds": [
+            121.42082614672852,
+            31.1980137309717,
+            121.44657535327148,
+            31.21453134881448
+          ],
+          "pixel_size": [
+            1200,
+            900
+          ],
+          "target_pixel_size": [
+            26.792281883635155,
+            32.28915960568463
+          ],
+          "target_area_ratio": 0.0002670978311693074,
+          "building_fully_inside": true,
+          "overlay_drawn": true,
+          "route_identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+          "route_status": "PASS",
+          "route_target_offset_m": 6.711114790620279,
+          "target_building_inner_overlap_projected_m": 0.0,
+          "unmatched_renderable_relations": 0,
+          "base": "visuals/osm/sh-wukang_context_base.png",
+          "route": "visuals/osm/sh-wukang_context_route.png",
+          "base_sha256": "4151908c5cb44cf90d4a04916850f5465754c6375f86b580e4bb7e75f018ef89",
+          "route_sha256": "0f86152627dd24f1ba7157f9c9d6e10361da0b92fa386d6ebbc2990b7dedcc6d"
+        }
+      },
+      "route_artifact": "runs/local/sh-wukang_route.geojson",
+      "diagnostic_artifact": null,
+      "route_elapsed_s": 0.4229570000024978,
+      "elapsed_s": 3.4006143000005977
+    },
+    {
+      "scene_id": "sh-tower",
+      "status": "PASS",
+      "route": {
+        "status": "PASS",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              121.4989962,
+              31.2367947
+            ],
+            [
+              121.4991308,
+              31.2367905
+            ],
+            [
+              121.499181,
+              31.2368177
+            ],
+            [
+              121.4992178,
+              31.2366664
+            ],
+            [
+              121.4992358,
+              31.2365647
+            ],
+            [
+              121.4992517,
+              31.2364314
+            ],
+            [
+              121.4992873,
+              31.2364112
+            ],
+            [
+              121.4993465,
+              31.236335
+            ],
+            [
+              121.4994614,
+              31.2363408
+            ],
+            [
+              121.4996603,
+              31.2363559
+            ],
+            [
+              121.4998059,
+              31.2363546
+            ],
+            [
+              121.4998629,
+              31.2363876
+            ],
+            [
+              121.4999204,
+              31.2363944
+            ],
+            [
+              121.4999429,
+              31.2363903
+            ],
+            [
+              121.4999604,
+              31.2363761
+            ],
+            [
+              121.5000951,
+              31.2362253
+            ],
+            [
+              121.5001496,
+              31.2361566
+            ],
+            [
+              121.5002021,
+              31.2360863
+            ],
+            [
+              121.5002378,
+              31.2360219
+            ],
+            [
+              121.5002715,
+              31.2359423
+            ],
+            [
+              121.5002888,
+              31.2358733
+            ],
+            [
+              121.5003022,
+              31.2358077
+            ],
+            [
+              121.5003595,
+              31.2357923
+            ],
+            [
+              121.500421,
+              31.2357469
+            ],
+            [
+              121.5004384,
+              31.2356929
+            ],
+            [
+              121.5004423,
+              31.235673
+            ],
+            [
+              121.5004519,
+              31.2356235
+            ],
+            [
+              121.5004824,
+              31.2355057
+            ],
+            [
+              121.50050240685164,
+              31.235444748923324
+            ]
+          ]
+        },
+        "failure_reason": null,
+        "requested_start": [
+          121.4989962,
+          31.2367947
+        ],
+        "requested_target": [
+          121.50072749999998,
+          31.235499299999994
+        ],
+        "route_start": [
+          121.4989962,
+          31.2367947
+        ],
+        "route_end": [
+          121.50050240685164,
+          31.235444748923324
+        ],
+        "snap_start_m": 0.0,
+        "snap_end_m": 22.280971814572304,
+        "length_m": 256.45502273622617,
+        "node_ids": [
+          12110067788,
+          12110067787,
+          12110067775,
+          12110067776,
+          12110067777,
+          12110067778,
+          12110067783,
+          12110067781,
+          12110067780,
+          12110067779,
+          8895331965,
+          8895321581,
+          8895331966,
+          8895331967,
+          8895331961,
+          8895331960,
+          8895331962,
+          8895331959,
+          8895331963,
+          8895331958,
+          8895331964,
+          8895305880,
+          8895305875,
+          8895305879,
+          8895305868,
+          8895321588,
+          8895305870,
+          8895305867
+        ],
+        "way_ids": [
+          1307696473,
+          1307696470,
+          1307696472,
+          1307696471,
+          961634159,
+          961638126,
+          965077206,
+          961634153,
+          965077205,
+          961634152
+        ],
+        "segments": [
+          {
+            "length_m": 12.831452120085448,
+            "osm_way_id": 1307696473,
+            "segment_index": 4,
+            "osm_source_node_ids": [
+              12110067787,
+              12110067788
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4989962,
+              31.2367947
+            ],
+            "end": [
+              121.4991308,
+              31.2367905
+            ]
+          },
+          {
+            "length_m": 5.6538841536098765,
+            "osm_way_id": 1307696473,
+            "segment_index": 3,
+            "osm_source_node_ids": [
+              12110067775,
+              12110067787
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4991308,
+              31.2367905
+            ],
+            "end": [
+              121.499181,
+              31.2368177
+            ]
+          },
+          {
+            "length_m": 17.137595195882234,
+            "osm_way_id": 1307696470,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              12110067775,
+              12110067776
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.499181,
+              31.2368177
+            ],
+            "end": [
+              121.4992178,
+              31.2366664
+            ]
+          },
+          {
+            "length_m": 11.405487457525734,
+            "osm_way_id": 1307696470,
+            "segment_index": 1,
+            "osm_source_node_ids": [
+              12110067776,
+              12110067777
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4992178,
+              31.2366664
+            ],
+            "end": [
+              121.4992358,
+              31.2365647
+            ]
+          },
+          {
+            "length_m": 14.856864178863862,
+            "osm_way_id": 1307696470,
+            "segment_index": 2,
+            "osm_source_node_ids": [
+              12110067777,
+              12110067778
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4992358,
+              31.2365647
+            ],
+            "end": [
+              121.4992517,
+              31.2364314
+            ]
+          },
+          {
+            "length_m": 4.064298113487112,
+            "osm_way_id": 1307696472,
+            "segment_index": 2,
+            "osm_source_node_ids": [
+              12110067783,
+              12110067778
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4992517,
+              31.2364314
+            ],
+            "end": [
+              121.4992873,
+              31.2364112
+            ]
+          },
+          {
+            "length_m": 10.158062087354368,
+            "osm_way_id": 1307696472,
+            "segment_index": 1,
+            "osm_source_node_ids": [
+              12110067781,
+              12110067783
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4992873,
+              31.2364112
+            ],
+            "end": [
+              121.4993465,
+              31.236335
+            ]
+          },
+          {
+            "length_m": 10.965156046441509,
+            "osm_way_id": 1307696471,
+            "segment_index": 2,
+            "osm_source_node_ids": [
+              12110067780,
+              12110067781
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4993465,
+              31.236335
+            ],
+            "end": [
+              121.4994614,
+              31.2363408
+            ]
+          },
+          {
+            "length_m": 19.02260200334792,
+            "osm_way_id": 1307696471,
+            "segment_index": 1,
+            "osm_source_node_ids": [
+              12110067779,
+              12110067780
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4994614,
+              31.2363408
+            ],
+            "end": [
+              121.4996603,
+              31.2363559
+            ]
+          },
+          {
+            "length_m": 13.871754248297705,
+            "osm_way_id": 1307696471,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              8895331965,
+              12110067779
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4996603,
+              31.2363559
+            ],
+            "end": [
+              121.4998059,
+              31.2363546
+            ]
+          },
+          {
+            "length_m": 6.547887811970471,
+            "osm_way_id": 961634159,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              8895321581,
+              8895331965
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4998059,
+              31.2363546
+            ],
+            "end": [
+              121.4998629,
+              31.2363876
+            ]
+          },
+          {
+            "length_m": 0.0,
+            "osm_way_id": null,
+            "source_node_transition": 8895321581,
+            "evidence": "NATIVE_SHARED_WAY_ENDPOINT",
+            "start": [
+              121.4998629,
+              31.2363876
+            ],
+            "end": [
+              121.4998629,
+              31.2363876
+            ]
+          },
+          {
+            "length_m": 5.529541965332352,
+            "osm_way_id": 961638126,
+            "segment_index": 6,
+            "osm_source_node_ids": [
+              8895331966,
+              8895321581
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "-2",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4998629,
+              31.2363876
+            ],
+            "end": [
+              121.4999204,
+              31.2363944
+            ]
+          },
+          {
+            "length_m": 2.1911986230463647,
+            "osm_way_id": 961638126,
+            "segment_index": 5,
+            "osm_source_node_ids": [
+              8895331967,
+              8895331966
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "-2",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4999204,
+              31.2363944
+            ],
+            "end": [
+              121.4999429,
+              31.2363903
+            ]
+          },
+          {
+            "length_m": 2.293090339955159,
+            "osm_way_id": 961638126,
+            "segment_index": 4,
+            "osm_source_node_ids": [
+              8895331961,
+              8895331967
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "-2",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4999429,
+              31.2363903
+            ],
+            "end": [
+              121.4999604,
+              31.2363761
+            ]
+          },
+          {
+            "length_m": 21.07664048460621,
+            "osm_way_id": 961638126,
+            "segment_index": 3,
+            "osm_source_node_ids": [
+              8895331960,
+              8895331961
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "-2",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4999604,
+              31.2363761
+            ],
+            "end": [
+              121.5000951,
+              31.2362253
+            ]
+          },
+          {
+            "length_m": 9.218289716094318,
+            "osm_way_id": 961638126,
+            "segment_index": 2,
+            "osm_source_node_ids": [
+              8895331962,
+              8895331960
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "-2",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.5000951,
+              31.2362253
+            ],
+            "end": [
+              121.5001496,
+              31.2361566
+            ]
+          },
+          {
+            "length_m": 9.261133075331959,
+            "osm_way_id": 961638126,
+            "segment_index": 1,
+            "osm_source_node_ids": [
+              8895331959,
+              8895331962
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "-2",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.5001496,
+              31.2361566
+            ],
+            "end": [
+              121.5002021,
+              31.2360863
+            ]
+          },
+          {
+            "length_m": 7.908890880675706,
+            "osm_way_id": 961638126,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              8895331963,
+              8895331959
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "-2",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.5002021,
+              31.2360863
+            ],
+            "end": [
+              121.5002378,
+              31.2360219
+            ]
+          },
+          {
+            "length_m": 0.0,
+            "osm_way_id": null,
+            "source_node_transition": 8895331963,
+            "evidence": "NATIVE_SHARED_WAY_ENDPOINT",
+            "start": [
+              121.5002378,
+              31.2360219
+            ],
+            "end": [
+              121.5002378,
+              31.2360219
+            ]
+          },
+          {
+            "length_m": 9.391357860481323,
+            "osm_way_id": 965077206,
+            "segment_index": 2,
+            "osm_source_node_ids": [
+              8895331958,
+              8895331963
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "-1",
+            "level": "0",
+            "bridge": null,
+            "tunnel": "yes",
+            "start": [
+              121.5002378,
+              31.2360219
+            ],
+            "end": [
+              121.5002715,
+              31.2359423
+            ]
+          },
+          {
+            "length_m": 7.825794302967758,
+            "osm_way_id": 965077206,
+            "segment_index": 1,
+            "osm_source_node_ids": [
+              8895331964,
+              8895331958
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "-1",
+            "level": "0",
+            "bridge": null,
+            "tunnel": "yes",
+            "start": [
+              121.5002715,
+              31.2359423
+            ],
+            "end": [
+              121.5002888,
+              31.2358733
+            ]
+          },
+          {
+            "length_m": 7.38448648689878,
+            "osm_way_id": 965077206,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              8895305880,
+              8895331964
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "-1",
+            "level": "0",
+            "bridge": null,
+            "tunnel": "yes",
+            "start": [
+              121.5002888,
+              31.2358733
+            ],
+            "end": [
+              121.5003022,
+              31.2358077
+            ]
+          },
+          {
+            "length_m": 5.719684341885087,
+            "osm_way_id": 961634153,
+            "segment_index": 4,
+            "osm_source_node_ids": [
+              8895305875,
+              8895305880
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "-1",
+            "level": "0",
+            "bridge": null,
+            "tunnel": "yes",
+            "start": [
+              121.5003022,
+              31.2358077
+            ],
+            "end": [
+              121.5003595,
+              31.2357923
+            ]
+          },
+          {
+            "length_m": 7.724359567821681,
+            "osm_way_id": 961634153,
+            "segment_index": 3,
+            "osm_source_node_ids": [
+              8895305879,
+              8895305875
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "-1",
+            "level": "0",
+            "bridge": null,
+            "tunnel": "yes",
+            "start": [
+              121.5003595,
+              31.2357923
+            ],
+            "end": [
+              121.500421,
+              31.2357469
+            ]
+          },
+          {
+            "length_m": 6.212413898058217,
+            "osm_way_id": 961634153,
+            "segment_index": 2,
+            "osm_source_node_ids": [
+              8895305868,
+              8895305879
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "-1",
+            "level": "0",
+            "bridge": null,
+            "tunnel": "yes",
+            "start": [
+              121.500421,
+              31.2357469
+            ],
+            "end": [
+              121.5004384,
+              31.2356929
+            ]
+          },
+          {
+            "length_m": 2.237448095029972,
+            "osm_way_id": 961634153,
+            "segment_index": 1,
+            "osm_source_node_ids": [
+              8895321588,
+              8895305868
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "-1",
+            "level": "0",
+            "bridge": null,
+            "tunnel": "yes",
+            "start": [
+              121.5004384,
+              31.2356929
+            ],
+            "end": [
+              121.5004423,
+              31.235673
+            ]
+          },
+          {
+            "length_m": 5.563921794597137,
+            "osm_way_id": 961634153,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              8895305870,
+              8895321588
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "-1",
+            "level": "0",
+            "bridge": null,
+            "tunnel": "yes",
+            "start": [
+              121.5004423,
+              31.235673
+            ],
+            "end": [
+              121.5004519,
+              31.2356235
+            ]
+          },
+          {
+            "length_m": 13.380216546329757,
+            "osm_way_id": 965077205,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              8895305870,
+              8895305867
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "-1",
+            "level": "0",
+            "bridge": null,
+            "tunnel": "yes",
+            "start": [
+              121.5004519,
+              31.2356235
+            ],
+            "end": [
+              121.5004824,
+              31.2355057
+            ]
+          },
+          {
+            "length_m": 0.0,
+            "osm_way_id": null,
+            "source_node_transition": 8895305867,
+            "evidence": "NATIVE_SHARED_WAY_ENDPOINT",
+            "start": [
+              121.5004824,
+              31.2355057
+            ],
+            "end": [
+              121.5004824,
+              31.2355057
+            ]
+          },
+          {
+            "length_m": 7.021511340248108,
+            "osm_way_id": 961634152,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              8895305867,
+              8895305891
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "-2",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.5004824,
+              31.2355057
+            ],
+            "end": [
+              121.50050240685164,
+              31.235444748923324
+            ]
+          }
+        ],
+        "profile": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "engine": "NetworkX 3.6.1 Dijkstra",
+        "graph_stats": {
+          "eligible_ways": 1839,
+          "eligible_segments": 8747,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 56,
+          "outside_snapshot_segments": 522,
+          "graph_nodes": 8415,
+          "graph_directed_edges": 17756
+        },
+        "max_snap_m": 35,
+        "snap_start": {
+          "way_id": 1307696473,
+          "source_node_ids": [
+            12110067787,
+            12110067788
+          ],
+          "segment_index": 4,
+          "fraction": 1.0,
+          "position": [
+            121.4989962,
+            31.2367947
+          ],
+          "distance_m": 0.0,
+          "evidence": "MAPPED_PEDESTRIAN_WAY"
+        },
+        "snap_end": {
+          "way_id": 961634152,
+          "source_node_ids": [
+            8895305867,
+            8895305891
+          ],
+          "segment_index": 0,
+          "fraction": 0.5815942557665057,
+          "position": [
+            121.50050240685164,
+            31.235444748923324
+          ],
+          "distance_m": 22.280971814572304,
+          "evidence": "SHARED_STREET_ASSUMPTION"
+        },
+        "scene_id": "sh-tower",
+        "identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+        "target_identity": "PROXY_OR_UNCERTAIN",
+        "snapshot_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999"
+      },
+      "diagnostic": null,
+      "views": {
+        "detail": {
+          "center": [
+            121.50126675,
+            31.235619100979026
+          ],
+          "bounds": [
+            121.49804809918213,
+            31.233555017079798,
+            121.50448540081787,
+            31.237683139782767
+          ],
+          "extent_3857": [
+            13525100.846777614,
+            3663117.9986706865,
+            13525817.443917789,
+            3663655.4465258163
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.5110607722222532,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326",
+          "feature_counts": {
+            "land": 17,
+            "water": 1,
+            "pedestrian_area": 1,
+            "road": 90,
+            "building": 32,
+            "foot": 41
+          },
+          "render_stroke_css_pixels": {
+            "road": [
+              5,
+              8,
+              10,
+              12,
+              14
+            ],
+            "foot": [
+              3
+            ]
+          },
+          "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+          "visible_unique_labels": 35,
+          "decluttered_labels": 16,
+          "scale": {
+            "visible": true,
+            "bar_meters": 100,
+            "bar_css_pixels": 195.6714454235423
+          },
+          "attribution": "© OpenStreetMap contributors · ODbL",
+          "status": "PASS_LOCAL_GEOMETRY_RENDER",
+          "actual_bounds": [
+            121.49804809918213,
+            31.233555017079798,
+            121.50448540081787,
+            31.237683139782767
+          ],
+          "pixel_size": [
+            1200,
+            900
+          ],
+          "target_pixel_size": [
+            201.04697173813156,
+            187.53803014298268
+          ],
+          "target_area_ratio": 0.02327908873520274,
+          "building_fully_inside": true,
+          "overlay_drawn": true,
+          "route_identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+          "route_status": "PASS",
+          "route_target_offset_m": 22.280971814572304,
+          "target_building_inner_overlap_projected_m": 0.0,
+          "unmatched_renderable_relations": 0,
+          "base": "visuals/osm/sh-tower_detail_base.png",
+          "route": "visuals/osm/sh-tower_detail_route.png",
+          "base_sha256": "3ec334423d53de6c6f9f531456c903b2a924f833a9a3239a6fd84f5151c08332",
+          "route_sha256": "c97ef37e05d1b6a6c74f66dada4c99acaff6b5a859e3462f5afe99273bbc68a0"
+        },
+        "context": {
+          "center": [
+            121.50126675,
+            31.235619100979026
+          ],
+          "bounds": [
+            121.4883921467285,
+            31.2273624948262,
+            121.51414135327147,
+            31.243874985604208
+          ],
+          "extent_3857": [
+            13524025.951067355,
+            3662311.8268879913,
+            13526892.339628048,
+            3664461.6183085116
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.0442430845493513,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326",
+          "feature_counts": {
+            "land": 132,
+            "water": 22,
+            "pedestrian_area": 28,
+            "stream": 3,
+            "road": 903,
+            "building": 802,
+            "foot": 543
+          },
+          "render_stroke_css_pixels": {
+            "stream": [
+              2
+            ],
+            "road": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10
+            ],
+            "foot": [
+              2
+            ]
+          },
+          "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+          "visible_unique_labels": 126,
+          "decluttered_labels": 622,
+          "scale": {
+            "visible": true,
+            "bar_meters": 250,
+            "bar_css_pixels": 122.29465364932953
+          },
+          "attribution": "© OpenStreetMap contributors · ODbL",
+          "status": "PASS_LOCAL_GEOMETRY_RENDER",
+          "actual_bounds": [
+            121.4883921467285,
+            31.2273624948262,
+            121.51414135327147,
+            31.243874985604208
+          ],
+          "pixel_size": [
+            1200,
+            900
+          ],
+          "target_pixel_size": [
+            50.26174293459826,
+            46.884507535725334
+          ],
+          "target_area_ratio": 0.0014549430459514319,
+          "building_fully_inside": true,
+          "overlay_drawn": true,
+          "route_identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+          "route_status": "PASS",
+          "route_target_offset_m": 22.280971814572304,
+          "target_building_inner_overlap_projected_m": 0.0,
+          "unmatched_renderable_relations": 0,
+          "base": "visuals/osm/sh-tower_context_base.png",
+          "route": "visuals/osm/sh-tower_context_route.png",
+          "base_sha256": "0584d89ec03555db678d7c36fdae849cd6fc2538676859608a715bf83206319f",
+          "route_sha256": "319d5bb6af0e6138cf02d8b20f86145473b5ccb3a7694c863bd0b73c4ddd8ff5"
+        }
+      },
+      "route_artifact": "runs/local/sh-tower_route.geojson",
+      "diagnostic_artifact": null,
+      "route_elapsed_s": 0.9022344999975758,
+      "elapsed_s": 3.578682799998205
+    },
+    {
+      "scene_id": "sh-newworld",
+      "status": "NO_ROUTE",
+      "route": {
+        "status": "NO_ROUTE",
+        "geometry": null,
+        "failure_reason": "NO_DIRECTED_PATH_BETWEEN_NEAREST_SNAPS",
+        "requested_start": [
+          121.4650294,
+          31.2387326
+        ],
+        "requested_target": [
+          121.46840570000002,
+          31.237151999999995
+        ],
+        "route_start": null,
+        "route_end": null,
+        "snap_start_m": 0.0,
+        "snap_end_m": 8.451166376278174,
+        "length_m": null,
+        "node_ids": [],
+        "way_ids": [],
+        "segments": [],
+        "profile": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "engine": "NetworkX 3.6.1 Dijkstra",
+        "graph_stats": {
+          "eligible_ways": 1407,
+          "eligible_segments": 5854,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 46,
+          "outside_snapshot_segments": 369,
+          "graph_nodes": 5621,
+          "graph_directed_edges": 11846
+        },
+        "max_snap_m": 35,
+        "snap_start": {
+          "way_id": 1047377660,
+          "source_node_ids": [
+            9630984946,
+            9630984952
+          ],
+          "segment_index": 0,
+          "fraction": 1.0,
+          "position": [
+            121.4650294,
+            31.2387326
+          ],
+          "distance_m": 0.0,
+          "evidence": "SHARED_STREET_ASSUMPTION"
+        },
+        "snap_end": {
+          "way_id": 85796883,
+          "source_node_ids": [
+            1490098832,
+            11104555718
+          ],
+          "segment_index": 3,
+          "fraction": 1.0,
+          "position": [
+            121.4683438,
+            31.2372066
+          ],
+          "distance_m": 8.451166376278174,
+          "evidence": "SHARED_STREET_ASSUMPTION"
+        },
+        "scene_id": "sh-newworld",
+        "identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+        "target_identity": "PROXY_OR_UNCERTAIN",
+        "snapshot_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9"
+      },
+      "diagnostic": null,
+      "views": {
+        "detail": {
+          "center": [
+            121.46908499999999,
+            31.237065502369543
+          ],
+          "bounds": [
+            121.4658663491821,
+            31.235001450071262,
+            121.47230365081785,
+            31.23912950957115
+          ],
+          "extent_3857": [
+            13521518.390754776,
+            3663306.309758247,
+            13522234.98789495,
+            3663843.7576133767
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.5110529860576997,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326",
+          "feature_counts": {
+            "land": 7,
+            "pedestrian_area": 3,
+            "road": 46,
+            "building": 146,
+            "foot": 61
+          },
+          "render_stroke_css_pixels": {
+            "road": [
+              5,
+              8,
+              10,
+              12
+            ],
+            "foot": [
+              3
+            ]
+          },
+          "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+          "visible_unique_labels": 68,
+          "decluttered_labels": 87,
+          "scale": {
+            "visible": true,
+            "bar_meters": 100,
+            "bar_css_pixels": 195.67442658227546
+          },
+          "attribution": "© OpenStreetMap contributors · ODbL",
+          "status": "PASS_LOCAL_GEOMETRY_RENDER",
+          "actual_bounds": [
+            121.4658663491821,
+            31.235001450071262,
+            121.47230365081785,
+            31.23912950957115
+          ],
+          "pixel_size": [
+            1200,
+            900
+          ],
+          "target_pixel_size": [
+            253.26139619277137,
+            291.7545156240192
+          ],
+          "target_area_ratio": 0.042425775434699435,
+          "building_fully_inside": true,
+          "overlay_drawn": false,
+          "route_identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+          "route_status": "NO_ROUTE",
+          "route_target_offset_m": 8.451166376278174,
+          "target_building_inner_overlap_projected_m": null,
+          "unmatched_renderable_relations": 0,
+          "base": "visuals/osm/sh-newworld_detail_base.png",
+          "route": "visuals/osm/sh-newworld_detail_route.png",
+          "base_sha256": "6b0f1ec04cc2e463718bc9252ca310dd43fb6efcfe31071f40ce0c70d5acded3",
+          "route_sha256": "b4fc049c0876d87bf4b173b279bae757f798589924dfa0f50a996f8f8f5d8cd8"
+        },
+        "context": {
+          "center": [
+            121.46908499999999,
+            31.237065502369543
+          ],
+          "bounds": [
+            121.45621039672851,
+            31.228809022613383,
+            121.48195960327146,
+            31.24532126057907
+          ],
+          "extent_3857": [
+            13520443.495044516,
+            3662500.1379755517,
+            13523309.88360521,
+            3664649.929396072
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.0442119398852,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326",
+          "feature_counts": {
+            "land": 94,
+            "water": 4,
+            "pedestrian_area": 14,
+            "stream": 1,
+            "road": 819,
+            "building": 2254,
+            "foot": 396
+          },
+          "render_stroke_css_pixels": {
+            "stream": [
+              2
+            ],
+            "road": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10
+            ],
+            "foot": [
+              2
+            ]
+          },
+          "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+          "visible_unique_labels": 165,
+          "decluttered_labels": 1080,
+          "scale": {
+            "visible": true,
+            "bar_meters": 250,
+            "bar_css_pixels": 122.29651687390087
+          },
+          "attribution": "© OpenStreetMap contributors · ODbL",
+          "status": "PASS_LOCAL_GEOMETRY_RENDER",
+          "actual_bounds": [
+            121.45621039672851,
+            31.228809022613383,
+            121.48195960327146,
+            31.24532126057907
+          ],
+          "pixel_size": [
+            1200,
+            900
+          ],
+          "target_pixel_size": [
+            63.31534904827504,
+            72.93862890597319
+          ],
+          "target_area_ratio": 0.002651610964671012,
+          "building_fully_inside": true,
+          "overlay_drawn": false,
+          "route_identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+          "route_status": "NO_ROUTE",
+          "route_target_offset_m": 8.451166376278174,
+          "target_building_inner_overlap_projected_m": null,
+          "unmatched_renderable_relations": 0,
+          "base": "visuals/osm/sh-newworld_context_base.png",
+          "route": "visuals/osm/sh-newworld_context_route.png",
+          "base_sha256": "c302ee4bbebe4beb8c08eef8b2a1f1e41a7b5bb57709597fff2059600c412d16",
+          "route_sha256": "dc0a309ac0ce7afd427752d5fc529f8f6e6c33d09c24b0042bca9f4199ca81ef"
+        }
+      },
+      "route_artifact": "runs/local/sh-newworld_route.geojson",
+      "diagnostic_artifact": null,
+      "route_elapsed_s": 0.617392900006962,
+      "elapsed_s": 3.717290199987474
+    },
+    {
+      "scene_id": "sh-library",
+      "status": "PASS",
+      "route": {
+        "status": "PASS",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              121.4378012,
+              31.2078318
+            ],
+            [
+              121.4380858,
+              31.2079153
+            ],
+            [
+              121.4383866,
+              31.2079639
+            ],
+            [
+              121.4386387,
+              31.2079014
+            ],
+            [
+              121.4390208,
+              31.2079779
+            ],
+            [
+              121.439412,
+              31.2081969
+            ],
+            [
+              121.4388024,
+              31.2093459
+            ],
+            [
+              121.4392705,
+              31.2096349
+            ],
+            [
+              121.4396357,
+              31.2098701
+            ],
+            [
+              121.4397367,
+              31.2099351
+            ],
+            [
+              121.4399154,
+              31.2097518
+            ],
+            [
+              121.4401438,
+              31.209747
+            ],
+            [
+              121.4402357,
+              31.2096329
+            ]
+          ]
+        },
+        "failure_reason": null,
+        "requested_start": [
+          121.4378012,
+          31.2078318
+        ],
+        "requested_target": [
+          121.4402357,
+          31.2096329
+        ],
+        "route_start": [
+          121.4378012,
+          31.2078318
+        ],
+        "route_end": [
+          121.4402357,
+          31.2096329
+        ],
+        "snap_start_m": 0.0,
+        "snap_end_m": 0.0,
+        "length_m": 478.82665233627716,
+        "node_ids": [
+          2822041111,
+          2822041112,
+          2822041113,
+          2822041114,
+          2822041115,
+          2822041116,
+          804464960,
+          105253353,
+          4855757198,
+          11300000486,
+          11300000485,
+          11300000484,
+          11300000483
+        ],
+        "way_ids": [
+          277743619,
+          1327579140,
+          451728953,
+          1219527813,
+          1219527812
+        ],
+        "segments": [
+          {
+            "length_m": 28.65794128237441,
+            "osm_way_id": 277743619,
+            "segment_index": 1,
+            "osm_source_node_ids": [
+              2822041111,
+              2822041112
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4378012,
+              31.2078318
+            ],
+            "end": [
+              121.4380858,
+              31.2079153
+            ]
+          },
+          {
+            "length_m": 29.167213852931173,
+            "osm_way_id": 277743619,
+            "segment_index": 2,
+            "osm_source_node_ids": [
+              2822041112,
+              2822041113
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4380858,
+              31.2079153
+            ],
+            "end": [
+              121.4383866,
+              31.2079639
+            ]
+          },
+          {
+            "length_m": 25.003643552383767,
+            "osm_way_id": 277743619,
+            "segment_index": 3,
+            "osm_source_node_ids": [
+              2822041113,
+              2822041114
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4383866,
+              31.2079639
+            ],
+            "end": [
+              121.4386387,
+              31.2079014
+            ]
+          },
+          {
+            "length_m": 37.387555898521825,
+            "osm_way_id": 277743619,
+            "segment_index": 4,
+            "osm_source_node_ids": [
+              2822041114,
+              2822041115
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4386387,
+              31.2079014
+            ],
+            "end": [
+              121.4390208,
+              31.2079779
+            ]
+          },
+          {
+            "length_m": 44.49007692134463,
+            "osm_way_id": 277743619,
+            "segment_index": 5,
+            "osm_source_node_ids": [
+              2822041115,
+              2822041116
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4390208,
+              31.2079779
+            ],
+            "end": [
+              121.439412,
+              31.2081969
+            ]
+          },
+          {
+            "length_m": 140.0132647217544,
+            "osm_way_id": 1327579140,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              804464960,
+              2822041116
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.439412,
+              31.2081969
+            ],
+            "end": [
+              121.4388024,
+              31.2093459
+            ]
+          },
+          {
+            "length_m": 54.92304237433849,
+            "osm_way_id": 451728953,
+            "segment_index": 11,
+            "osm_source_node_ids": [
+              105253353,
+              804464960
+            ],
+            "evidence": "EXPLICIT_FOOT_ON_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4388024,
+              31.2093459
+            ],
+            "end": [
+              121.4392705,
+              31.2096349
+            ]
+          },
+          {
+            "length_m": 43.48767706584954,
+            "osm_way_id": 451728953,
+            "segment_index": 10,
+            "osm_source_node_ids": [
+              4855757198,
+              105253353
+            ],
+            "evidence": "EXPLICIT_FOOT_ON_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4392705,
+              31.2096349
+            ],
+            "end": [
+              121.4396357,
+              31.2098701
+            ]
+          },
+          {
+            "length_m": 12.023843649928441,
+            "osm_way_id": 451728953,
+            "segment_index": 9,
+            "osm_source_node_ids": [
+              11300000486,
+              4855757198
+            ],
+            "evidence": "EXPLICIT_FOOT_ON_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4396357,
+              31.2098701
+            ],
+            "end": [
+              121.4397367,
+              31.2099351
+            ]
+          },
+          {
+            "length_m": 26.514465096872694,
+            "osm_way_id": 1219527813,
+            "segment_index": 1,
+            "osm_source_node_ids": [
+              11300000485,
+              11300000486
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4397367,
+              31.2099351
+            ],
+            "end": [
+              121.4399154,
+              31.2097518
+            ]
+          },
+          {
+            "length_m": 21.771788094269876,
+            "osm_way_id": 1219527813,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              11300000484,
+              11300000485
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4399154,
+              31.2097518
+            ],
+            "end": [
+              121.4401438,
+              31.209747
+            ]
+          },
+          {
+            "length_m": 15.38613982570792,
+            "osm_way_id": 1219527812,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              11300000483,
+              11300000484
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4401438,
+              31.209747
+            ],
+            "end": [
+              121.4402357,
+              31.2096329
+            ]
+          }
+        ],
+        "profile": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "engine": "NetworkX 3.6.1 Dijkstra",
+        "graph_stats": {
+          "eligible_ways": 812,
+          "eligible_segments": 3251,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 53,
+          "outside_snapshot_segments": 367,
+          "graph_nodes": 3191,
+          "graph_directed_edges": 6546
+        },
+        "max_snap_m": 35,
+        "snap_start": {
+          "way_id": 277743619,
+          "source_node_ids": [
+            2822041110,
+            2822041111
+          ],
+          "segment_index": 0,
+          "fraction": 1.0,
+          "position": [
+            121.4378012,
+            31.2078318
+          ],
+          "distance_m": 0.0,
+          "evidence": "MAPPED_PEDESTRIAN_WAY"
+        },
+        "snap_end": {
+          "way_id": 1219527812,
+          "source_node_ids": [
+            11300000483,
+            11300000484
+          ],
+          "segment_index": 0,
+          "fraction": 0.0,
+          "position": [
+            121.4402357,
+            31.2096329
+          ],
+          "distance_m": 0.0,
+          "evidence": "MAPPED_PEDESTRIAN_WAY"
+        },
+        "scene_id": "sh-library",
+        "identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+        "target_identity": "OSM_TAGGED",
+        "snapshot_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8"
+      },
+      "diagnostic": null,
+      "views": {
+        "detail": {
+          "center": [
+            121.44001545,
+            31.209475752614
+          ],
+          "bounds": [
+            121.43679679918213,
+            31.207411097762233,
+            121.44323410081788,
+            31.211540362391766
+          ],
+          "extent_3857": [
+            13518282.383251188,
+            3659714.819000705,
+            13518998.980391363,
+            3660252.266855835
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.5112014490703889,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326",
+          "feature_counts": {
+            "land": 3,
+            "pedestrian_area": 1,
+            "road": 21,
+            "building": 187,
+            "foot": 15
+          },
+          "render_stroke_css_pixels": {
+            "road": [
+              5,
+              8,
+              10,
+              12
+            ],
+            "foot": [
+              3
+            ]
+          },
+          "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+          "visible_unique_labels": 28,
+          "decluttered_labels": 17,
+          "scale": {
+            "visible": true,
+            "bar_meters": 100,
+            "bar_css_pixels": 195.61759885823543
+          },
+          "attribution": "© OpenStreetMap contributors · ODbL",
+          "status": "PASS_LOCAL_GEOMETRY_RENDER",
+          "actual_bounds": [
+            121.43679679918213,
+            31.207411097762233,
+            121.44323410081788,
+            31.211540362391766
+          ],
+          "pixel_size": [
+            1200,
+            900
+          ],
+          "target_pixel_size": [
+            315.132040532126,
+            306.51220335897943
+          ],
+          "target_area_ratio": 0.03604881831360767,
+          "building_fully_inside": true,
+          "overlay_drawn": true,
+          "route_identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+          "route_status": "PASS",
+          "route_target_offset_m": 0.0,
+          "target_building_inner_overlap_projected_m": 0.0,
+          "unmatched_renderable_relations": 0,
+          "base": "visuals/osm/sh-library_detail_base.png",
+          "route": "visuals/osm/sh-library_detail_route.png",
+          "base_sha256": "86e9dab30574cace6f7526d237f167ba04fa4a0db42832a9f7850184137711d6",
+          "route_sha256": "3dbcab2c06489a9723733b1071cccce41177c8065351f00d4cc09d4c4d81cdcc"
+        },
+        "context": {
+          "center": [
+            121.44001545,
+            31.209475752614
+          ],
+          "bounds": [
+            121.4271408467285,
+            31.20121686277983,
+            121.45289005327147,
+            31.21773392126402
+          ],
+          "extent_3857": [
+            13517207.487540929,
+            3658908.64721801,
+            13520073.876101622,
+            3661058.43863853
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.044805791947226,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326",
+          "feature_counts": {
+            "land": 75,
+            "pedestrian_area": 3,
+            "road": 412,
+            "building": 3091,
+            "foot": 107
+          },
+          "render_stroke_css_pixels": {
+            "road": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10
+            ],
+            "foot": [
+              2
+            ]
+          },
+          "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+          "visible_unique_labels": 131,
+          "decluttered_labels": 657,
+          "scale": {
+            "visible": true,
+            "bar_meters": 250,
+            "bar_css_pixels": 122.26099954555109
+          },
+          "attribution": "© OpenStreetMap contributors · ODbL",
+          "status": "PASS_LOCAL_GEOMETRY_RENDER",
+          "actual_bounds": [
+            121.4271408467285,
+            31.20121686277983,
+            121.45289005327147,
+            31.21773392126402
+          ],
+          "pixel_size": [
+            1200,
+            900
+          ],
+          "target_pixel_size": [
+            78.78301013313398,
+            76.6280508397117
+          ],
+          "target_area_ratio": 0.0022530511446024314,
+          "building_fully_inside": true,
+          "overlay_drawn": true,
+          "route_identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+          "route_status": "PASS",
+          "route_target_offset_m": 0.0,
+          "target_building_inner_overlap_projected_m": 0.0,
+          "unmatched_renderable_relations": 0,
+          "base": "visuals/osm/sh-library_context_base.png",
+          "route": "visuals/osm/sh-library_context_route.png",
+          "base_sha256": "ec8348803582c31a4360d4ff6c4547ad0b932b5367fa6d1bc1548d78972f2305",
+          "route_sha256": "2482470b0a0850bf0416b8915800dbf603eed7e8b5cc4ac013e4a92e8ee001af"
+        }
+      },
+      "route_artifact": "runs/local/sh-library_route.geojson",
+      "diagnostic_artifact": null,
+      "route_elapsed_s": 0.5553712000109954,
+      "elapsed_s": 3.5688519999966957
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "status": "PASS",
+      "route": {
+        "status": "PASS",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              121.4449644,
+              31.2268704
+            ],
+            [
+              121.4445628,
+              31.2279037
+            ],
+            [
+              121.4446633,
+              31.2279029
+            ],
+            [
+              121.4447908,
+              31.2279
+            ],
+            [
+              121.4449271,
+              31.2278982
+            ],
+            [
+              121.4450417,
+              31.2279112
+            ],
+            [
+              121.4452391,
+              31.2279537
+            ],
+            [
+              121.4453451,
+              31.2279807
+            ],
+            [
+              121.4453794,
+              31.2279896
+            ],
+            [
+              121.445385,
+              31.2279739
+            ],
+            [
+              121.4454332,
+              31.2278103
+            ],
+            [
+              121.445611,
+              31.2275164
+            ],
+            [
+              121.4457341,
+              31.227275
+            ],
+            [
+              121.4457887,
+              31.2271774
+            ],
+            [
+              121.4463056,
+              31.2259558
+            ],
+            [
+              121.4469324,
+              31.2262007
+            ]
+          ]
+        },
+        "failure_reason": null,
+        "requested_start": [
+          121.4449644,
+          31.2268704
+        ],
+        "requested_target": [
+          121.447139,
+          31.226187800000005
+        ],
+        "route_start": [
+          121.4449644,
+          31.2268704
+        ],
+        "route_end": [
+          121.4469324,
+          31.2262007
+        ],
+        "snap_start_m": 0.0,
+        "snap_end_m": 19.736346184586882,
+        "length_m": 508.05983828667433,
+        "node_ids": [
+          4395647242,
+          4395647241,
+          1881273228,
+          1881273220,
+          1881273221,
+          1881273231,
+          857765004,
+          4506506190,
+          618745491,
+          4506506189,
+          4506506191,
+          4506506194,
+          4506506196,
+          618746983,
+          4508546841,
+          4508546842
+        ],
+        "way_ids": [
+          441869385,
+          177700518,
+          13976528,
+          255636962,
+          454282316
+        ],
+        "segments": [
+          {
+            "length_m": 120.7862495206392,
+            "osm_way_id": 441869385,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              4395647241,
+              4395647242
+            ],
+            "evidence": "MAPPED_PEDESTRIAN_WAY",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4449644,
+              31.2268704
+            ],
+            "end": [
+              121.4445628,
+              31.2279037
+            ]
+          },
+          {
+            "length_m": 9.575686464565473,
+            "osm_way_id": 177700518,
+            "segment_index": 7,
+            "osm_source_node_ids": [
+              4395647241,
+              1881273228
+            ],
+            "evidence": "EXPLICIT_FOOT_ON_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4445628,
+              31.2279037
+            ],
+            "end": [
+              121.4446633,
+              31.2279029
+            ]
+          },
+          {
+            "length_m": 12.151992510400156,
+            "osm_way_id": 177700518,
+            "segment_index": 8,
+            "osm_source_node_ids": [
+              1881273228,
+              1881273220
+            ],
+            "evidence": "EXPLICIT_FOOT_ON_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4446633,
+              31.2279029
+            ],
+            "end": [
+              121.4447908,
+              31.2279
+            ]
+          },
+          {
+            "length_m": 12.987703863820181,
+            "osm_way_id": 177700518,
+            "segment_index": 9,
+            "osm_source_node_ids": [
+              1881273220,
+              1881273221
+            ],
+            "evidence": "EXPLICIT_FOOT_ON_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4447908,
+              31.2279
+            ],
+            "end": [
+              121.4449271,
+              31.2278982
+            ]
+          },
+          {
+            "length_m": 11.013396748470505,
+            "osm_way_id": 177700518,
+            "segment_index": 10,
+            "osm_source_node_ids": [
+              1881273221,
+              1881273231
+            ],
+            "evidence": "EXPLICIT_FOOT_ON_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4449271,
+              31.2278982
+            ],
+            "end": [
+              121.4450417,
+              31.2279112
+            ]
+          },
+          {
+            "length_m": 19.388863426782986,
+            "osm_way_id": 177700518,
+            "segment_index": 11,
+            "osm_source_node_ids": [
+              1881273231,
+              857765004
+            ],
+            "evidence": "EXPLICIT_FOOT_ON_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4450417,
+              31.2279112
+            ],
+            "end": [
+              121.4452391,
+              31.2279537
+            ]
+          },
+          {
+            "length_m": 10.53362079760781,
+            "osm_way_id": 177700518,
+            "segment_index": 12,
+            "osm_source_node_ids": [
+              857765004,
+              4506506190
+            ],
+            "evidence": "EXPLICIT_FOOT_ON_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4452391,
+              31.2279537
+            ],
+            "end": [
+              121.4453451,
+              31.2279807
+            ]
+          },
+          {
+            "length_m": 3.413706767087767,
+            "osm_way_id": 177700518,
+            "segment_index": 13,
+            "osm_source_node_ids": [
+              4506506190,
+              618745491
+            ],
+            "evidence": "EXPLICIT_FOOT_ON_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4453451,
+              31.2279807
+            ],
+            "end": [
+              121.4453794,
+              31.2279896
+            ]
+          },
+          {
+            "length_m": 1.8206459774385326,
+            "osm_way_id": 13976528,
+            "segment_index": 2,
+            "osm_source_node_ids": [
+              618745491,
+              4506506189
+            ],
+            "evidence": "SIDEWALK_TAG_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4453794,
+              31.2279896
+            ],
+            "end": [
+              121.445385,
+              31.2279739
+            ]
+          },
+          {
+            "length_m": 18.711189780900042,
+            "osm_way_id": 13976528,
+            "segment_index": 3,
+            "osm_source_node_ids": [
+              4506506189,
+              4506506191
+            ],
+            "evidence": "SIDEWALK_TAG_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.445385,
+              31.2279739
+            ],
+            "end": [
+              121.4454332,
+              31.2278103
+            ]
+          },
+          {
+            "length_m": 36.72596948207553,
+            "osm_way_id": 13976528,
+            "segment_index": 4,
+            "osm_source_node_ids": [
+              4506506191,
+              4506506194
+            ],
+            "evidence": "SIDEWALK_TAG_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4454332,
+              31.2278103
+            ],
+            "end": [
+              121.445611,
+              31.2275164
+            ]
+          },
+          {
+            "length_m": 29.22184179663313,
+            "osm_way_id": 13976528,
+            "segment_index": 5,
+            "osm_source_node_ids": [
+              4506506194,
+              4506506196
+            ],
+            "evidence": "SIDEWALK_TAG_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.445611,
+              31.2275164
+            ],
+            "end": [
+              121.4457341,
+              31.227275
+            ]
+          },
+          {
+            "length_m": 12.006723048244435,
+            "osm_way_id": 13976528,
+            "segment_index": 6,
+            "osm_source_node_ids": [
+              4506506196,
+              618746983
+            ],
+            "evidence": "SIDEWALK_TAG_WAY_AXIS",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4457341,
+              31.227275
+            ],
+            "end": [
+              121.4457887,
+              31.2271774
+            ]
+          },
+          {
+            "length_m": 144.11887256122844,
+            "osm_way_id": 255636962,
+            "segment_index": 5,
+            "osm_source_node_ids": [
+              4508546841,
+              618746983
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4457887,
+              31.2271774
+            ],
+            "end": [
+              121.4463056,
+              31.2259558
+            ]
+          },
+          {
+            "length_m": 65.60337554078006,
+            "osm_way_id": 454282316,
+            "segment_index": 0,
+            "osm_source_node_ids": [
+              4508546841,
+              4508546842
+            ],
+            "evidence": "SHARED_STREET_ASSUMPTION",
+            "layer": "0",
+            "level": "0",
+            "bridge": null,
+            "tunnel": null,
+            "start": [
+              121.4463056,
+              31.2259558
+            ],
+            "end": [
+              121.4469324,
+              31.2262007
+            ]
+          }
+        ],
+        "profile": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "engine": "NetworkX 3.6.1 Dijkstra",
+        "graph_stats": {
+          "eligible_ways": 914,
+          "eligible_segments": 3473,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 86,
+          "outside_snapshot_segments": 416,
+          "graph_nodes": 3448,
+          "graph_directed_edges": 7002
+        },
+        "max_snap_m": 35,
+        "snap_start": {
+          "way_id": 441869385,
+          "source_node_ids": [
+            4395647241,
+            4395647242
+          ],
+          "segment_index": 0,
+          "fraction": 1.0,
+          "position": [
+            121.4449644,
+            31.2268704
+          ],
+          "distance_m": 0.0,
+          "evidence": "MAPPED_PEDESTRIAN_WAY"
+        },
+        "snap_end": {
+          "way_id": 454282316,
+          "source_node_ids": [
+            4508546841,
+            4508546842
+          ],
+          "segment_index": 0,
+          "fraction": 1.0,
+          "position": [
+            121.4469324,
+            31.2262007
+          ],
+          "distance_m": 19.736346184586882,
+          "evidence": "SHARED_STREET_ASSUMPTION"
+        },
+        "scene_id": "sh-exhibition",
+        "identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+        "target_identity": "PROXY_OR_UNCERTAIN",
+        "snapshot_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61"
+      },
+      "diagnostic": null,
+      "views": {
+        "detail": {
+          "center": [
+            121.4484905,
+            31.226079404297675
+          ],
+          "bounds": [
+            121.4452718491821,
+            31.224015112008306,
+            121.45170915081788,
+            31.22814365149939
+          ],
+          "extent_3857": [
+            13519225.821501635,
+            3661876.070784747,
+            13519942.41864181,
+            3662413.518639877
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.511112117483092,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326",
+          "feature_counts": {
+            "water": 1,
+            "road": 55,
+            "building": 75,
+            "foot": 16
+          },
+          "render_stroke_css_pixels": {
+            "road": [
+              5,
+              8,
+              12,
+              14,
+              16
+            ],
+            "foot": [
+              3
+            ]
+          },
+          "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+          "visible_unique_labels": 27,
+          "decluttered_labels": 31,
+          "scale": {
+            "visible": true,
+            "bar_meters": 100,
+            "bar_css_pixels": 195.6517886768906
+          },
+          "attribution": "© OpenStreetMap contributors · ODbL",
+          "status": "PASS_LOCAL_GEOMETRY_RENDER",
+          "actual_bounds": [
+            121.4452718491821,
+            31.224015112008306,
+            121.45170915081788,
+            31.22814365149939
+          ],
+          "pixel_size": [
+            1200,
+            900
+          ],
+          "target_pixel_size": [
+            503.8757205307219,
+            392.95736502590273
+          ],
+          "target_area_ratio": 0.05603858756936251,
+          "building_fully_inside": true,
+          "overlay_drawn": true,
+          "route_identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+          "route_status": "PASS",
+          "route_target_offset_m": 19.736346184586882,
+          "target_building_inner_overlap_projected_m": 0.0,
+          "unmatched_renderable_relations": 0,
+          "base": "visuals/osm/sh-exhibition_detail_base.png",
+          "route": "visuals/osm/sh-exhibition_detail_route.png",
+          "base_sha256": "1fa8ba877a8674164c0d3b2c901152c0a8954abca51889f71e98f70fd6be4f26",
+          "route_sha256": "fcb60c53f036a9f33ca0650d00119342f235debf7008ddd8762fba55a0ba07af"
+        },
+        "context": {
+          "center": [
+            121.4484905,
+            31.226079404297675
+          ],
+          "bounds": [
+            121.4356158967285,
+            31.21782196463126,
+            121.46136510327148,
+            31.234336122561714
+          ],
+          "extent_3857": [
+            13518150.925791375,
+            3661069.899002052,
+            13521017.314352069,
+            3663219.690422572
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.0444484655856248,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326",
+          "feature_counts": {
+            "land": 42,
+            "water": 6,
+            "pedestrian_area": 14,
+            "road": 518,
+            "building": 1941,
+            "foot": 178
+          },
+          "render_stroke_css_pixels": {
+            "road": [
+              3,
+              4,
+              5,
+              6,
+              8,
+              9,
+              10
+            ],
+            "foot": [
+              2
+            ]
+          },
+          "physical_road_width": "UNKNOWN_NOT_INFERRED_FROM_STYLE",
+          "visible_unique_labels": 171,
+          "decluttered_labels": 1111,
+          "scale": {
+            "visible": true,
+            "bar_meters": 250,
+            "bar_css_pixels": 122.28236818304364
+          },
+          "attribution": "© OpenStreetMap contributors · ODbL",
+          "status": "PASS_LOCAL_GEOMETRY_RENDER",
+          "actual_bounds": [
+            121.4356158967285,
+            31.21782196463126,
+            121.46136510327148,
+            31.234336122561714
+          ],
+          "pixel_size": [
+            1200,
+            900
+          ],
+          "target_pixel_size": [
+            125.9689301328442,
+            98.23934125643319
+          ],
+          "target_area_ratio": 0.0035024117230881917,
+          "building_fully_inside": true,
+          "overlay_drawn": true,
+          "route_identity": "LOCAL_OSM_R1_LOCKED_REQUEST",
+          "route_status": "PASS",
+          "route_target_offset_m": 19.736346184586882,
+          "target_building_inner_overlap_projected_m": 0.0,
+          "unmatched_renderable_relations": 0,
+          "base": "visuals/osm/sh-exhibition_context_base.png",
+          "route": "visuals/osm/sh-exhibition_context_route.png",
+          "base_sha256": "4c517edb1de95085b8fb9f4739ae7e48952f55f72e844138168b6a9531c88481",
+          "route_sha256": "81b0a5277ff2aeac39b495bd21f74f14361d68c970953671fea8f680af449c11"
+        }
+      },
+      "route_artifact": "runs/local/sh-exhibition_route.geojson",
+      "diagnostic_artifact": null,
+      "route_elapsed_s": 0.6017496999993455,
+      "elapsed_s": 3.412336299996241
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "status": "PASS_AUTHOR_FORMULA_CHECK",
+  "length_formula": "GeographicLib WGS84",
+  "scenes": [
+    {
+      "scene_id": "sh-wukang",
+      "status": "PASS",
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "route": {
+        "status": "PASS",
+        "length_recomputed_m": 326.69306963130293,
+        "vertices": 7,
+        "source_ways": 2,
+        "gap_to_own_request_target_m": 6.711114789914088
+      },
+      "diagnostic": null,
+      "scene_clip_sha_verified": true,
+      "views": {
+        "detail": {
+          "shape": [
+            1200,
+            900
+          ],
+          "bounds_verified": true,
+          "both_image_hashes_verified": true,
+          "route_pixels_present": true
+        },
+        "context": {
+          "shape": [
+            1200,
+            900
+          ],
+          "bounds_verified": true,
+          "both_image_hashes_verified": true,
+          "route_pixels_present": true
+        }
+      }
+    },
+    {
+      "scene_id": "sh-tower",
+      "status": "PASS",
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "route": {
+        "status": "PASS",
+        "length_recomputed_m": 256.45502273519344,
+        "vertices": 29,
+        "source_ways": 10,
+        "gap_to_own_request_target_m": 22.280971814219242
+      },
+      "diagnostic": null,
+      "scene_clip_sha_verified": true,
+      "views": {
+        "detail": {
+          "shape": [
+            1200,
+            900
+          ],
+          "bounds_verified": true,
+          "both_image_hashes_verified": true,
+          "route_pixels_present": true
+        },
+        "context": {
+          "shape": [
+            1200,
+            900
+          ],
+          "bounds_verified": true,
+          "both_image_hashes_verified": true,
+          "route_pixels_present": true
+        }
+      }
+    },
+    {
+      "scene_id": "sh-newworld",
+      "status": "NO_ROUTE",
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "route": {
+        "status": "NO_ROUTE",
+        "failure": "NO_DIRECTED_PATH_BETWEEN_NEAREST_SNAPS",
+        "has_geometry": false
+      },
+      "diagnostic": null,
+      "scene_clip_sha_verified": true,
+      "views": {
+        "detail": {
+          "shape": [
+            1200,
+            900
+          ],
+          "bounds_verified": true,
+          "both_image_hashes_verified": true,
+          "route_pixels_present": false
+        },
+        "context": {
+          "shape": [
+            1200,
+            900
+          ],
+          "bounds_verified": true,
+          "both_image_hashes_verified": true,
+          "route_pixels_present": false
+        }
+      }
+    },
+    {
+      "scene_id": "sh-library",
+      "status": "PASS",
+      "target_role": "OSM_TAGGED",
+      "route": {
+        "status": "PASS",
+        "length_recomputed_m": 478.8266523380431,
+        "vertices": 13,
+        "source_ways": 5,
+        "gap_to_own_request_target_m": 0.0
+      },
+      "diagnostic": null,
+      "scene_clip_sha_verified": true,
+      "views": {
+        "detail": {
+          "shape": [
+            1200,
+            900
+          ],
+          "bounds_verified": true,
+          "both_image_hashes_verified": true,
+          "route_pixels_present": true
+        },
+        "context": {
+          "shape": [
+            1200,
+            900
+          ],
+          "bounds_verified": true,
+          "both_image_hashes_verified": true,
+          "route_pixels_present": true
+        }
+      }
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "status": "PASS",
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "route": {
+        "status": "PASS",
+        "length_recomputed_m": 508.0598382853115,
+        "vertices": 16,
+        "source_ways": 5,
+        "gap_to_own_request_target_m": 19.736346184675053
+      },
+      "diagnostic": null,
+      "scene_clip_sha_verified": true,
+      "views": {
+        "detail": {
+          "shape": [
+            1200,
+            900
+          ],
+          "bounds_verified": true,
+          "both_image_hashes_verified": true,
+          "route_pixels_present": true
+        },
+        "context": {
+          "shape": [
+            1200,
+            900
+          ],
+          "bounds_verified": true,
+          "both_image_hashes_verified": true,
+          "route_pixels_present": true
+        }
+      }
+    }
+  ],
+  "independent_review": "SEPARATE_ROLE_REQUIRED"
+}
