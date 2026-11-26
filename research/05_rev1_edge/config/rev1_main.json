@@ -1,0 +1,39 @@
+{
+  "contract": "R4-REV1-AREA-BAND-GRID-v1",
+  "analysis_crs": "EPSG:32651",
+  "input_crs": "EPSG:4326",
+  "grid_step_m": 0.5,
+  "neighbors": 8,
+  "widths_m": [
+    3,
+    1,
+    5
+  ],
+  "main_width_m": 3,
+  "clearance_m": 0.25,
+  "tolerance_m": 0.001,
+  "port_max_m": 1,
+  "baseline_snap_m": 35,
+  "origins": "EXACT_FROZEN_NATIVE_NODE",
+  "metric_weights": "EPSG:32651_EUCLIDEAN_METRES",
+  "native_profile": "FROZEN_R4_BASELINE_UNCHANGED",
+  "focus_additions": {
+    "sh-huangpu-01": [
+      "relation/2153738"
+    ]
+  },
+  "museum": {
+    "scene_id": "sh-huangpu-01",
+    "south_area": "relation/2385771",
+    "north_area": "relation/2153738",
+    "south_entrance": "node/6897141353",
+    "north_entrance": "node/6897145227",
+    "expected_south_contacts": [
+      "node/1890745480",
+      "node/1890935415",
+      "node/1890935454"
+    ]
+  },
+  "phase": "LOCKED_BEFORE_REAL_ROUTE_EVALUATION",
+  "geometry_config_count": 3
+}

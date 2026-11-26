@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "INPUT_INTEGRITY_ONLY_NOT_EXPERIMENT_ACCEPTANCE",
+  "bundle_files": 21,
+  "manifest_entries": 20,
+  "nested": [
+    {
+      "archive": "references/frozen/OSM_GEOAPIFY_R4_OPEN_REVIEW.zip",
+      "members": 141,
+      "manifest_entries": 140,
+      "status": "PASS"
+    },
+    {
+      "archive": "references/frozen/R4_MAP_INFORMATION_REVIEW.zip",
+      "members": 10,
+      "manifest_entries": 9,
+      "status": "PASS"
+    }
+  ],
+  "experiments_run": 0,
+  "network_requests": 0
+}

@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "method_identity": "INDEPENDENT_RAW_SOURCE_NO_AUTHOR_GEOMETRY_IMPORTS",
+  "frozen_source_members": 36,
+  "raw_graphs": 6,
+  "evidence_and_geojson_edges": 155226,
+  "edge_counts": {
+    "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA": 155222,
+    "DERIVED_TERMINAL_CONNECTOR": 4
+  },
+  "exact_cross_area_duplicate_geometries": [],
+  "edge_area_counts": {
+    "sh-huangpu-01/relation/2385771": 18740,
+    "sh-huangpu-01/relation/2153738": 79362,
+    "sh-tower/way/965081081": 3957,
+    "sh-newworld/way/160023915": 32310,
+    "sh-newworld/relation/8055906": 15422,
+    "sh-library/way/1160136226": 5435
+  },
+  "south": {
+    "node/1890745480": {
+      "status": "EXTERIOR_REACHED_CONDITIONAL",
+      "projection_m": 1115.5380082598622,
+      "ellipsoid_m": 1115.6913902545498,
+      "segments": 237,
+      "conflicts": {},
+      "endpoint": [
+        121.4712158,
+        31.2299607
+      ]
+    },
+    "node/1890935415": {
+      "status": "PLANAR_CONFLICT_ROUTE_REQUIRES_REVIEW",
+      "projection_m": 1497.8912544975483,
+      "ellipsoid_m": 1498.0982129723334,
+      "segments": 219,
+      "conflicts": {
+        "NATIVE_LINEAR": [
+          "way/178733289"
+        ]
+      },
+      "endpoint": [
+        121.4712158,
+        31.2299607
+      ]
+    },
+    "node/1890935454": {
+      "status": "EXTERIOR_REACHED_CONDITIONAL",
+      "projection_m": 1067.3713904008064,
+      "ellipsoid_m": 1067.518110765927,
+      "segments": 204,
+      "conflicts": {},
+      "endpoint": [
+        121.4712158,
+        31.2299607
+      ]
+    }
+  },
+  "selected_contact": "node/1890935454",
+  "north": {
+    "raw_face_distance_m": 7.952217589215138,
+    "reachable_projected_gap_m": 7.952217589215138,
+    "nearest_native_way": "way/178719573",
+    "nearest_segment_index": 110,
+    "supported_length_m": 5.820766091346741e-11,
+    "strict_reaches_door": false,
+    "inbound": "NOT_ELIGIBLE_EXIT",
+    "route": {
+      "status": "APPROACH_WITH_GAP",
+      "projection_m": 1166.0987072809223,
+      "ellipsoid_m": 1166.2590538951556,
+      "segments": 78,
+      "conflicts": {
+        "NATIVE_LINEAR": [
+          "way/178732700"
+        ]
+      },
+      "endpoint": [
+        121.470610971602,
+        31.23062514364944
+      ]
+    }
+  },
+  "library": {
+    "status": "EXTERIOR_REACHED_CONDITIONAL",
+    "projection_m": 478.7657110801198,
+    "ellipsoid_m": 478.8266523380431,
+    "segments": 12,
+    "conflicts": {},
+    "endpoint": [
+      121.4402357,
+      31.2096329
+    ]
+  },
+  "alternate_south": {
+    "method": "CONSTRAINED_DELAUNAY_TRIANGLE_DUAL_WITH_CHECKED_INTERIOR_POLYLINE",
+    "contact_id": "node/1890935454",
+    "triangle_count": 232,
+    "triangles_along_witness": 52,
+    "in_band_witness_m": 137.85988681975826,
+    "geometry_scope": "Between actual validated port interior ends; separate edge audit checks both ports."
+  },
+  "sensitivity": {
+    "1": {
+      "raw_derived_edges": 30403,
+      "south_statuses": {
+        "node/1890745480": "EXTERIOR_REACHED_CONDITIONAL",
+        "node/1890935415": "PLANAR_CONFLICT_ROUTE_REQUIRES_REVIEW",
+        "node/1890935454": "EXTERIOR_REACHED_CONDITIONAL"
+      },
+      "north_gap_m": 7.952217589612692
+    },
+    "3": {
+      "raw_derived_edges": 155226,
+      "south_statuses": {
+        "node/1890745480": "EXTERIOR_REACHED_CONDITIONAL",
+        "node/1890935415": "PLANAR_CONFLICT_ROUTE_REQUIRES_REVIEW",
+        "node/1890935454": "EXTERIOR_REACHED_CONDITIONAL"
+      },
+      "north_gap_m": 7.952217589612692
+    },
+    "5": {
+      "raw_derived_edges": 267729,
+      "south_statuses": {
+        "node/1890745480": "EXTERIOR_REACHED_CONDITIONAL",
+        "node/1890935415": "PLANAR_CONFLICT_ROUTE_REQUIRES_REVIEW",
+        "node/1890935454": "EXTERIOR_REACHED_CONDITIONAL"
+      },
+      "north_gap_m": 7.952217589612692
+    }
+  },
+  "experiment_sha256": "52a4e45adfb7505686f9c7a18984fb2b92d23cde18cb7c9fca250b188558823e",
+  "main_edge_evidence_sha256": "b15a9edc0933749218c5cb233b157c66a31142c8e194ff52114db8cf63929688",
+  "field_checks": 0,
+  "user_review": "PENDING",
+  "gpt_review": "PENDING"
+}

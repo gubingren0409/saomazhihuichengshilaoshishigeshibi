@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "SEPARATE_NATIVE_OBSTACLE_VIEW_ROUTE_EVIDENCE",
+  "routes": {
+    "SOUTH_CONTACT": {
+      "status": "EXTERIOR_REACHED_CONDITIONAL",
+      "projection_m": 1526.652010714373,
+      "ellipsoid_m": 1526.8624936201272,
+      "segments": 59,
+      "conflicts": {},
+      "endpoint": [
+        121.4720217,
+        31.2301485
+      ],
+      "whole_route_to_same_door_m": 1630.6384002002796
+    },
+    "NORTH_APPROACH": {
+      "status": "APPROACH_WITH_GAP",
+      "projection_m": 1237.814718494129,
+      "ellipsoid_m": 1237.9849724150808,
+      "segments": 59,
+      "conflicts": {},
+      "endpoint": [
+        121.470610971602,
+        31.23062514364944
+      ],
+      "gap_m": 7.952217589612692
+    }
+  },
+  "sha256": "005eeaf3c95048097b7b7c8a0f6f2c03a695173a9d036ceac4718638ad24fa89"
+}

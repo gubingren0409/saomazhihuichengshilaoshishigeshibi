@@ -1,0 +1,4 @@
+﻿scene_id,native_id,coordinate,tags,entrance_grade,eligible,reason,original_coordinate,entrance_type,target_building_native_id,boundary_distance_m,physical_access,public_access,entrance_field_verified
+sh-huangpu-01,node/6897141353,"[121.4712158, 31.2299607]",{'entrance': 'main'},OSM_TAGGED,True,NATIVE_OUTER_RING_OSM_TAGGED_INBOUND_REFERENCE,"[121.4712158, 31.2299607]",main,way/161090899,0.0,UNKNOWN,UNKNOWN,False
+sh-huangpu-01,node/6897145227,"[121.4706605, 31.2305674]",{'entrance': 'exit'},OSM_TAGGED,False,EXIT_INBOUND_APPLICABILITY_UNKNOWN,"[121.4706605, 31.2305674]",exit,way/161090899,0.0,UNKNOWN,UNKNOWN,False
+sh-library,node/11300000483,"[121.4402357, 31.2096329]","{'door': 'yes/manual/main_entrance', 'entrance': 'yes'}",OSM_TAGGED,True,NATIVE_OUTER_RING_OSM_TAGGED_INBOUND_REFERENCE,"[121.4402357, 31.2096329]",yes,way/293434188,0.0,UNKNOWN,UNKNOWN,False

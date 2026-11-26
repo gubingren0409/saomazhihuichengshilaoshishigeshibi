@@ -1,0 +1,1637 @@
+{
+  "execution": "R4_PROTECTED_NATIVE_INPUTS",
+  "selection_phase": "NATIVE_GEOMETRY_BEFORE_R4_ROUTE",
+  "source_crs": "EPSG:4326",
+  "analysis_crs": "EPSG:32651",
+  "focus_footprint_distance_m": 150,
+  "museum_focus_native_id": "relation/2385771",
+  "source_scene_policy": "R1 frozen museum + every R3 frozen scene; no routing-based exclusion",
+  "entrance_policy": "Native tagged exact target outer-ring nodes, inbound known label, excludes exit and access restriction",
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "label": "上海博物馆人民广场馆",
+      "role": "CALIBRATION_ONLY",
+      "use": "公共文化场馆",
+      "building_native_id": "way/161090899",
+      "building_name_evidence": "上海博物馆/Shanghai Museum/上海博物馆",
+      "building_footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.4706447,
+              31.2295968
+            ],
+            [
+              121.4711411,
+              31.2299126
+            ],
+            [
+              121.4712158,
+              31.2299607
+            ],
+            [
+              121.4712905,
+              31.2300089
+            ],
+            [
+              121.471752,
+              31.2303065
+            ],
+            [
+              121.4715326,
+              31.2305468
+            ],
+            [
+              121.4713228,
+              31.2304116
+            ],
+            [
+              121.4710014,
+              31.2307847
+            ],
+            [
+              121.4706605,
+              31.2305674
+            ],
+            [
+              121.4703157,
+              31.2303463
+            ],
+            [
+              121.4706453,
+              31.229964
+            ],
+            [
+              121.4704398,
+              31.2298316
+            ],
+            [
+              121.4706447,
+              31.2295968
+            ]
+          ]
+        ]
+      },
+      "institution_source": "https://www.shanghaimuseum.cn/mu/frontend/pg/service/visit-west",
+      "start": [
+        121.4671613,
+        31.2309408
+      ],
+      "start_native_id": "node/476682043",
+      "start_role": "DECLARED_MAP_QUERY_ORIGIN",
+      "target": [
+        121.4712158,
+        31.2299607
+      ],
+      "target_role": "OSM_TAGGED_BUILDING_ENTRANCE_REFERENCE",
+      "entry_native_id": "node/6897141353",
+      "entry_scope": "Building entrance map reference; on-site state unverified",
+      "poi_search_location": null,
+      "poi_search_status": "NOT_REQUESTED_FIXED_GEOMETRY",
+      "access_reference_status": "SOURCE_REFERENCE_ONLY",
+      "endpoint_rule": "Among south-third nodes on target exterior with usable entrance tag, pick nearest to south facade midpoint; if absent freeze southern facade diagnostic map point, label physical door coordinate unconfirmed.",
+      "path_snap_max_m": 35,
+      "frozen_before_route": true,
+      "views": {
+        "detail": {
+          "center": [
+            121.47103385,
+            31.230190751866655
+          ],
+          "bounds": [
+            121.4678151991821,
+            31.2281265493807,
+            121.47425250081787,
+            31.232254909261577
+          ],
+          "extent_3857": [
+            13521735.335744409,
+            3662411.2922600727,
+            13522451.932884583,
+            3662948.7401152025
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.5110899908233082,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        },
+        "context": {
+          "center": [
+            121.47103385,
+            31.230190751866655
+          ],
+          "bounds": [
+            121.4581592467285,
+            31.22193367139365,
+            121.48390845327147,
+            31.23844711088328
+          ],
+          "extent_3857": [
+            13520660.44003415,
+            3661605.1204773774,
+            13523526.828594843,
+            3663754.9118978977
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.044359958945651,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        }
+      },
+      "snapshot_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "osm_clip": "data/source/sh-huangpu-01.osm.json",
+      "r4_focus_space_ids": [
+        "relation/2385771"
+      ],
+      "r4_entrances": [
+        {
+          "native_id": "node/6897141353",
+          "coordinate": [
+            121.4712158,
+            31.2299607
+          ],
+          "tags": {
+            "entrance": "main"
+          },
+          "entrance_grade": "OSM_TAGGED",
+          "eligible": true,
+          "reason": "NATIVE_OUTER_RING_OSM_TAGGED_INBOUND_REFERENCE",
+          "original_coordinate": [
+            121.4712158,
+            31.2299607
+          ],
+          "entrance_type": "main",
+          "target_building_native_id": "way/161090899",
+          "boundary_distance_m": 0.0,
+          "physical_access": "UNKNOWN",
+          "public_access": "UNKNOWN",
+          "entrance_field_verified": false
+        },
+        {
+          "native_id": "node/6897145227",
+          "coordinate": [
+            121.4706605,
+            31.2305674
+          ],
+          "tags": {
+            "entrance": "exit"
+          },
+          "entrance_grade": "OSM_TAGGED",
+          "eligible": false,
+          "reason": "EXIT_INBOUND_APPLICABILITY_UNKNOWN",
+          "original_coordinate": [
+            121.4706605,
+            31.2305674
+          ],
+          "entrance_type": "exit",
+          "target_building_native_id": "way/161090899",
+          "boundary_distance_m": 0.0,
+          "physical_access": "UNKNOWN",
+          "public_access": "UNKNOWN",
+          "entrance_field_verified": false
+        }
+      ],
+      "snapshot_time": "2026-11-08T21:21:00Z",
+      "snapshot_bounds_wsen": [
+        121.453,
+        31.216,
+        121.488,
+        31.244
+      ],
+      "historical_local_route": "data/source/historical/sh-huangpu-01_local_route.json",
+      "historical_hosted_route": "data/source/historical/sh-huangpu-01_hosted_route.geojson",
+      "historical_local_diagnostic": "data/source/historical/sh-huangpu-01_local_approach_diagnostic.json"
+    },
+    {
+      "scene_id": "sh-wukang",
+      "label": "武康大楼",
+      "category": "STREET_FRONT_RESIDENTIAL_MIXED",
+      "category_evidence_note": "沿街住宅/混合类型；单门属性未独立核验",
+      "role": "NEW_LOCKED_SCENE",
+      "use": "STREET_FRONT_RESIDENTIAL_MIXED",
+      "group": "STREET_FRONT_RESIDENTIAL_MIXED",
+      "building_native_id": "way/293434151",
+      "building_tags": {
+        "addr:housenumber": "1850",
+        "architect": "László Hudec",
+        "building": "yes",
+        "building:levels": "8",
+        "heritage": "yes",
+        "heritage:operator": "上海市优秀历史建筑",
+        "heritage:ref": "D-Ⅲ-012",
+        "historic": "yes",
+        "name": "武康大楼",
+        "name:en": "Wukang Mansion",
+        "old_name": "Normandie Apartments",
+        "start_date": "1924",
+        "wikidata": "Q11124219",
+        "wikipedia": "zh:武康大楼"
+      },
+      "building_source_url": "https://www.openstreetmap.org/way/293434151",
+      "building_footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.4334133,
+              31.2060175
+            ],
+            [
+              121.4334935,
+              31.2061614
+            ],
+            [
+              121.4335068,
+              31.2061484
+            ],
+            [
+              121.4335886,
+              31.2062001
+            ],
+            [
+              121.4335377,
+              31.2062299
+            ],
+            [
+              121.4336076,
+              31.2063532
+            ],
+            [
+              121.4337149,
+              31.2062822
+            ],
+            [
+              121.4338106,
+              31.2063429
+            ],
+            [
+              121.4337697,
+              31.2063844
+            ],
+            [
+              121.433752,
+              31.206362
+            ],
+            [
+              121.4336586,
+              31.2064135
+            ],
+            [
+              121.4337589,
+              31.2065692
+            ],
+            [
+              121.4338239,
+              31.2065141
+            ],
+            [
+              121.4338115,
+              31.2064864
+            ],
+            [
+              121.4339111,
+              31.2063689
+            ],
+            [
+              121.4339278,
+              31.2063792
+            ],
+            [
+              121.4339882,
+              31.2063083
+            ],
+            [
+              121.4334657,
+              31.2059766
+            ],
+            [
+              121.433438,
+              31.2059776
+            ],
+            [
+              121.4334175,
+              31.2059931
+            ],
+            [
+              121.4334133,
+              31.2060175
+            ]
+          ]
+        ]
+      },
+      "start": [
+        121.4344902,
+        31.2085978
+      ],
+      "start_native_id": "node/6340981043",
+      "start_role": "DECLARED_MAP_QUERY_ORIGIN",
+      "target": [
+        121.43341330000001,
+        31.20601750000001
+      ],
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "entry_native_id": null,
+      "entry_scope": "朝西外轮廓接近代理点，仅用于双方同坐标请求，未当作真实门或 POI",
+      "entrance_references": [],
+      "access_reference_status": "SOURCE_REFERENCE_ONLY",
+      "poi_search_location": null,
+      "poi_search_status": "NOT_REQUESTED_FIXED_GEOMETRY",
+      "path_snap_max_m": 35,
+      "frozen_before_route": true,
+      "contract_status": "READY",
+      "views": {
+        "detail": {
+          "center": [
+            121.43370075000001,
+            31.20627290046411
+          ],
+          "bounds": [
+            121.43048209918211,
+            31.204208175693825,
+            121.43691940081789,
+            31.208337580163
+          ],
+          "extent_3857": [
+            13517579.434062677,
+            3659297.9561872985,
+            13518296.03120285,
+            3659835.4040424284
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.5112186762365618,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        },
+        "context": {
+          "center": [
+            121.43370075000001,
+            31.20627290046411
+          ],
+          "bounds": [
+            121.42082614672852,
+            31.1980137309717,
+            121.44657535327148,
+            31.21453134881448
+          ],
+          "extent_3857": [
+            13516504.538352417,
+            3658491.7844046033,
+            13519370.92691311,
+            3660641.5758251236
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.0448747006035437,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        }
+      },
+      "osm_clip": "data/source/sh-wukang.osm.json",
+      "snapshot_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "snapshot_time": "2026-11-08T21:21:00Z",
+      "snapshot_bounds_wsen": [
+        121.4161549072511,
+        31.194017950952123,
+        121.4512465927489,
+        31.21852626140535
+      ],
+      "geoapify_request_contract": {
+        "route": {
+          "mode": "walk",
+          "type": "balanced",
+          "units": "metric",
+          "format": "geojson"
+        },
+        "static": {
+          "style": "osm-bright-smooth",
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "scaleFactor": 1,
+          "format": "png"
+        }
+      },
+      "clip_elapsed_s": 216.26218089999747,
+      "r4_focus_space_ids": [],
+      "r4_entrances": [],
+      "historical_local_route": "data/source/historical/sh-wukang_local_route.json",
+      "historical_hosted_route": "data/source/historical/sh-wukang_hosted_route.geojson",
+      "historical_local_diagnostic": null
+    },
+    {
+      "scene_id": "sh-tower",
+      "label": "上海中心大厦",
+      "category": "OFFICE_MIXED_HIGHRISE",
+      "category_evidence_note": "办公主导的混合用途高层；原生 building=commercial",
+      "role": "NEW_LOCKED_SCENE",
+      "use": "OFFICE_MIXED_HIGHRISE",
+      "group": "OFFICE_MIXED_HIGHRISE",
+      "building_native_id": "way/165792123",
+      "building_tags": {
+        "addr:city": "上海市",
+        "addr:country": "CN",
+        "addr:district": "浦东新区",
+        "addr:housenumber": "501",
+        "addr:street": "银城中路",
+        "building": "commercial",
+        "building:levels": "128",
+        "building:material": "glass",
+        "check_date": "2021-03-10",
+        "height": "632",
+        "image": "https://commons.wikimedia.org/wiki/File:Shanghai_tower_dec_26,_2014.jpg",
+        "name": "上海中心大厦",
+        "name:ar": "برج شانغهاي",
+        "name:bn": "সাংহাই টাওয়ার",
+        "name:en": "Shanghai Tower",
+        "name:es": "Torre de Shanghái",
+        "name:fr": "Tour Shanghaï",
+        "name:hi": "शंघाई टवर",
+        "name:id": "Menara Shanghai",
+        "name:ja": "上海中心",
+        "name:ja-Hira": "しゃんはい ちゅうしん",
+        "name:ko": "상하이 타워",
+        "name:ml": "ഷാങ്ഹായ് ടവർ",
+        "name:ru": "Шанхайская башня",
+        "name:th": "เซี่ยงไฮ้ทาวเวอร์",
+        "name:tr": "Şanghay Kulesi",
+        "name:vi": "Tháp Thượng Hải",
+        "name:yue": "上海中心大廈",
+        "name:zh": "上海中心大厦",
+        "name:zh-Latn-pinyin": "Shànghǎi Zhōngxīn Dàshà",
+        "note": "Building attributes (e.g., address, name, overall height, operator, etc.) must be tagged on the building outline. https://wiki.openstreetmap.org/wiki/Simple_3D_buildings#Building_outlines",
+        "start_date": "2016",
+        "tourism": "attraction",
+        "website": "https://www.shanghaitower.com/",
+        "wikidata": "Q18547",
+        "wikimedia_commons": "Category:Shanghai Tower",
+        "wikipedia": "en:Shanghai Tower"
+      },
+      "building_source_url": "https://www.openstreetmap.org/way/165792123",
+      "building_footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5007275,
+              31.2354993
+            ],
+            [
+              121.5007601,
+              31.2354319
+            ],
+            [
+              121.500802,
+              31.2353455
+            ],
+            [
+              121.5008716,
+              31.2353243
+            ],
+            [
+              121.500846,
+              31.2352592
+            ],
+            [
+              121.5009721,
+              31.2352198
+            ],
+            [
+              121.5011559,
+              31.235189
+            ],
+            [
+              121.5013239,
+              31.2351902
+            ],
+            [
+              121.501398,
+              31.2351991
+            ],
+            [
+              121.5014697,
+              31.2352127
+            ],
+            [
+              121.5016027,
+              31.2352433
+            ],
+            [
+              121.501674,
+              31.2352732
+            ],
+            [
+              121.5017446,
+              31.2353027
+            ],
+            [
+              121.5017848,
+              31.2353453
+            ],
+            [
+              121.501806,
+              31.2353988
+            ],
+            [
+              121.5017965,
+              31.2354427
+            ],
+            [
+              121.5017866,
+              31.235488
+            ],
+            [
+              121.5017632,
+              31.2355247
+            ],
+            [
+              121.5017289,
+              31.2355784
+            ],
+            [
+              121.5016592,
+              31.2356876
+            ],
+            [
+              121.5015721,
+              31.2358244
+            ],
+            [
+              121.5014693,
+              31.2359357
+            ],
+            [
+              121.5013968,
+              31.2360115
+            ],
+            [
+              121.5013308,
+              31.2360492
+            ],
+            [
+              121.5012621,
+              31.2360316
+            ],
+            [
+              121.5012357,
+              31.2360155
+            ],
+            [
+              121.5011838,
+              31.2359839
+            ],
+            [
+              121.5010465,
+              31.2358859
+            ],
+            [
+              121.5008579,
+              31.235698
+            ],
+            [
+              121.5007998,
+              31.2356117
+            ],
+            [
+              121.5007275,
+              31.2354993
+            ]
+          ]
+        ]
+      },
+      "start": [
+        121.4989962,
+        31.2367947
+      ],
+      "start_native_id": "node/12110067788",
+      "start_role": "DECLARED_MAP_QUERY_ORIGIN",
+      "target": [
+        121.50072749999998,
+        31.235499299999994
+      ],
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "entry_native_id": null,
+      "entry_scope": "朝西外轮廓接近代理点，仅用于双方同坐标请求，未当作真实门或 POI",
+      "entrance_references": [],
+      "access_reference_status": "SOURCE_REFERENCE_ONLY",
+      "poi_search_location": null,
+      "poi_search_status": "NOT_REQUESTED_FIXED_GEOMETRY",
+      "path_snap_max_m": 35,
+      "frozen_before_route": true,
+      "contract_status": "READY",
+      "views": {
+        "detail": {
+          "center": [
+            121.50126675,
+            31.235619100979026
+          ],
+          "bounds": [
+            121.49804809918213,
+            31.233555017079798,
+            121.50448540081787,
+            31.237683139782767
+          ],
+          "extent_3857": [
+            13525100.846777614,
+            3663117.9986706865,
+            13525817.443917789,
+            3663655.4465258163
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.5110607722222532,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        },
+        "context": {
+          "center": [
+            121.50126675,
+            31.235619100979026
+          ],
+          "bounds": [
+            121.4883921467285,
+            31.2273624948262,
+            121.51414135327147,
+            31.243874985604208
+          ],
+          "extent_3857": [
+            13524025.951067355,
+            3662311.8268879913,
+            13526892.339628048,
+            3664461.6183085116
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.0442430845493513,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        }
+      },
+      "osm_clip": "data/source/sh-tower.osm.json",
+      "snapshot_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "snapshot_time": "2026-11-08T21:21:00Z",
+      "snapshot_bounds_wsen": [
+        121.48372090725108,
+        31.22336795421446,
+        121.51881259274889,
+        31.247868657294042
+      ],
+      "geoapify_request_contract": {
+        "route": {
+          "mode": "walk",
+          "type": "balanced",
+          "units": "metric",
+          "format": "geojson"
+        },
+        "static": {
+          "style": "osm-bright-smooth",
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "scaleFactor": 1,
+          "format": "png"
+        }
+      },
+      "clip_elapsed_s": 236.48463039999478,
+      "r4_focus_space_ids": [
+        "way/965081081"
+      ],
+      "r4_entrances": [],
+      "historical_local_route": "data/source/historical/sh-tower_local_route.json",
+      "historical_hosted_route": "data/source/historical/sh-tower_hosted_route.geojson",
+      "historical_local_diagnostic": null
+    },
+    {
+      "scene_id": "sh-newworld",
+      "label": "新世界城",
+      "category": "STREET_FRONT_RETAIL",
+      "category_evidence_note": "沿街商业；原生 building=retail、shop=mall；实体多入口状态未核验",
+      "role": "NEW_LOCKED_SCENE",
+      "use": "STREET_FRONT_RETAIL",
+      "group": "STREET_FRONT_RETAIL",
+      "building_native_id": "way/51317339",
+      "building_tags": {
+        "building": "retail",
+        "building:levels": "9",
+        "internet_access": "wlan",
+        "name": "新世界城",
+        "name:en": "New World City",
+        "name:ko": "신세계백화점",
+        "name:zh": "新世界城",
+        "name:zh-Hans": "新世界城",
+        "name:zh-Hant": "新世界城",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "shop": "mall",
+        "wheelchair": "no"
+      },
+      "building_source_url": "https://www.openstreetmap.org/way/51317339",
+      "building_footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.4684057,
+              31.237152
+            ],
+            [
+              121.4687772,
+              31.2363964
+            ],
+            [
+              121.469138,
+              31.2364698
+            ],
+            [
+              121.4696784,
+              31.23662
+            ],
+            [
+              121.4697441,
+              31.2366693
+            ],
+            [
+              121.4697643,
+              31.2367531
+            ],
+            [
+              121.4694317,
+              31.2376566
+            ],
+            [
+              121.4693646,
+              31.2377163
+            ],
+            [
+              121.4693096,
+              31.2377346
+            ],
+            [
+              121.4692238,
+              31.2377289
+            ],
+            [
+              121.4685318,
+              31.2372083
+            ],
+            [
+              121.4684057,
+              31.237152
+            ]
+          ]
+        ]
+      },
+      "start": [
+        121.4650294,
+        31.2387326
+      ],
+      "start_native_id": "node/9630984952",
+      "start_role": "DECLARED_MAP_QUERY_ORIGIN",
+      "target": [
+        121.46840570000002,
+        31.237151999999995
+      ],
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "entry_native_id": null,
+      "entry_scope": "朝西外轮廓接近代理点，仅用于双方同坐标请求，未当作真实门或 POI",
+      "entrance_references": [],
+      "access_reference_status": "SOURCE_REFERENCE_ONLY",
+      "poi_search_location": null,
+      "poi_search_status": "NOT_REQUESTED_FIXED_GEOMETRY",
+      "path_snap_max_m": 35,
+      "frozen_before_route": true,
+      "contract_status": "READY",
+      "views": {
+        "detail": {
+          "center": [
+            121.46908499999999,
+            31.237065502369543
+          ],
+          "bounds": [
+            121.4658663491821,
+            31.235001450071262,
+            121.47230365081785,
+            31.23912950957115
+          ],
+          "extent_3857": [
+            13521518.390754776,
+            3663306.309758247,
+            13522234.98789495,
+            3663843.7576133767
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.5110529860576997,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        },
+        "context": {
+          "center": [
+            121.46908499999999,
+            31.237065502369543
+          ],
+          "bounds": [
+            121.45621039672851,
+            31.228809022613383,
+            121.48195960327146,
+            31.24532126057907
+          ],
+          "extent_3857": [
+            13520443.495044516,
+            3662500.1379755517,
+            13523309.88360521,
+            3664649.929396072
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.0442119398852,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        }
+      },
+      "osm_clip": "data/source/sh-newworld.osm.json",
+      "snapshot_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "snapshot_time": "2026-11-08T21:21:00Z",
+      "snapshot_bounds_wsen": [
+        121.45153915725106,
+        31.224814541750792,
+        121.48663084274887,
+        31.24931486971595
+      ],
+      "geoapify_request_contract": {
+        "route": {
+          "mode": "walk",
+          "type": "balanced",
+          "units": "metric",
+          "format": "geojson"
+        },
+        "static": {
+          "style": "osm-bright-smooth",
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "scaleFactor": 1,
+          "format": "png"
+        }
+      },
+      "clip_elapsed_s": 219.9286407000036,
+      "r4_focus_space_ids": [
+        "way/160023915",
+        "relation/8055906",
+        "way/182520941"
+      ],
+      "r4_entrances": [],
+      "historical_local_route": "data/source/historical/sh-newworld_local_route.json",
+      "historical_hosted_route": "data/source/historical/sh-newworld_hosted_route.geojson",
+      "historical_local_diagnostic": null
+    },
+    {
+      "scene_id": "sh-library",
+      "label": "上海图书馆淮海路馆",
+      "category": "PUBLIC_LIBRARY",
+      "category_evidence_note": "公共服务；目标为淮海中路1555号原生馆舍轮廓",
+      "role": "NEW_LOCKED_SCENE",
+      "use": "PUBLIC_LIBRARY",
+      "group": "PUBLIC_LIBRARY",
+      "building_native_id": "way/293434188",
+      "building_tags": {
+        "addr:city": "上海",
+        "addr:district": "徐汇区",
+        "addr:housenumber": "1555号",
+        "addr:province": "上海",
+        "addr:street": "淮海中路",
+        "amenity": "library",
+        "building": "yes",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "shlibrary",
+        "name": "上海图书馆 & 上海科学技术情报研究所",
+        "name:en": "Shanghai Library & Institute of Scientific and Technical Information of Shanghai",
+        "website": "https://www.library.sh.cn/",
+        "wheelchair": "yes",
+        "wikidata": "Q616272"
+      },
+      "building_source_url": "https://www.openstreetmap.org/way/293434188",
+      "building_footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.4406146,
+              31.2101789
+            ],
+            [
+              121.4402925,
+              31.2099733
+            ],
+            [
+              121.4403835,
+              31.209869
+            ],
+            [
+              121.4403257,
+              31.2098321
+            ],
+            [
+              121.4403721,
+              31.2097788
+            ],
+            [
+              121.4403062,
+              31.2097368
+            ],
+            [
+              121.4403391,
+              31.209699
+            ],
+            [
+              121.4402357,
+              31.2096329
+            ],
+            [
+              121.4400823,
+              31.2095351
+            ],
+            [
+              121.4400483,
+              31.2095741
+            ],
+            [
+              121.4399823,
+              31.209532
+            ],
+            [
+              121.4399383,
+              31.2095824
+            ],
+            [
+              121.4398773,
+              31.2095434
+            ],
+            [
+              121.4398262,
+              31.209602
+            ],
+            [
+              121.4396366,
+              31.209481
+            ],
+            [
+              121.4395899,
+              31.2095346
+            ],
+            [
+              121.4392684,
+              31.2093223
+            ],
+            [
+              121.4392443,
+              31.2091862
+            ],
+            [
+              121.4391957,
+              31.209159
+            ],
+            [
+              121.4391935,
+              31.2091082
+            ],
+            [
+              121.4391702,
+              31.209089
+            ],
+            [
+              121.439215,
+              31.2090327
+            ],
+            [
+              121.4391925,
+              31.2090183
+            ],
+            [
+              121.4392407,
+              31.2089631
+            ],
+            [
+              121.4393077,
+              31.2090059
+            ],
+            [
+              121.4395113,
+              31.2087726
+            ],
+            [
+              121.4396363,
+              31.2088525
+            ],
+            [
+              121.4396642,
+              31.2088205
+            ],
+            [
+              121.4397213,
+              31.2088569
+            ],
+            [
+              121.439776,
+              31.2087942
+            ],
+            [
+              121.439825,
+              31.2088256
+            ],
+            [
+              121.4398681,
+              31.2087762
+            ],
+            [
+              121.4402797,
+              31.2090389
+            ],
+            [
+              121.4402332,
+              31.2090922
+            ],
+            [
+              121.4403224,
+              31.2091491
+            ],
+            [
+              121.4402742,
+              31.2092043
+            ],
+            [
+              121.440335,
+              31.2092432
+            ],
+            [
+              121.4402501,
+              31.2093405
+            ],
+            [
+              121.440511,
+              31.209507
+            ],
+            [
+              121.4406475,
+              31.209355
+            ],
+            [
+              121.4408568,
+              31.2094857
+            ],
+            [
+              121.4408607,
+              31.2095442
+            ],
+            [
+              121.4407063,
+              31.2097273
+            ],
+            [
+              121.4407997,
+              31.209787
+            ],
+            [
+              121.4406515,
+              31.2099568
+            ],
+            [
+              121.4405725,
+              31.2099063
+            ],
+            [
+              121.4405368,
+              31.2099472
+            ],
+            [
+              121.4407166,
+              31.210062
+            ],
+            [
+              121.4406146,
+              31.2101789
+            ]
+          ]
+        ]
+      },
+      "start": [
+        121.4378012,
+        31.2078318
+      ],
+      "start_native_id": "node/2822041111",
+      "start_role": "DECLARED_MAP_QUERY_ORIGIN",
+      "target": [
+        121.4402357,
+        31.2096329
+      ],
+      "target_role": "OSM_TAGGED",
+      "entry_native_id": "node/11300000483",
+      "entry_scope": "OSM 原生外轮廓入口点；现实门及通行未独立核验",
+      "entrance_references": [
+        {
+          "native_id": "node/11300000483",
+          "coordinate": [
+            121.4402357,
+            31.2096329
+          ],
+          "tags": {
+            "door": "yes/manual/main_entrance",
+            "entrance": "yes"
+          },
+          "on_exterior_ring": true,
+          "request_eligible": true,
+          "classification": "OSM_TAGGED",
+          "physical_access": "UNKNOWN"
+        }
+      ],
+      "access_reference_status": "SOURCE_REFERENCE_ONLY",
+      "poi_search_location": null,
+      "poi_search_status": "NOT_REQUESTED_FIXED_GEOMETRY",
+      "path_snap_max_m": 35,
+      "frozen_before_route": true,
+      "contract_status": "READY",
+      "views": {
+        "detail": {
+          "center": [
+            121.44001545,
+            31.209475752614
+          ],
+          "bounds": [
+            121.43679679918213,
+            31.207411097762233,
+            121.44323410081788,
+            31.211540362391766
+          ],
+          "extent_3857": [
+            13518282.383251188,
+            3659714.819000705,
+            13518998.980391363,
+            3660252.266855835
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.5112014490703889,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        },
+        "context": {
+          "center": [
+            121.44001545,
+            31.209475752614
+          ],
+          "bounds": [
+            121.4271408467285,
+            31.20121686277983,
+            121.45289005327147,
+            31.21773392126402
+          ],
+          "extent_3857": [
+            13517207.487540929,
+            3658908.64721801,
+            13520073.876101622,
+            3661058.43863853
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.044805791947226,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        }
+      },
+      "osm_clip": "data/source/sh-library.osm.json",
+      "snapshot_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "snapshot_time": "2026-11-08T21:21:00Z",
+      "snapshot_bounds_wsen": [
+        121.42246960725109,
+        31.19722121588461,
+        121.45756129274889,
+        31.221728696380126
+      ],
+      "geoapify_request_contract": {
+        "route": {
+          "mode": "walk",
+          "type": "balanced",
+          "units": "metric",
+          "format": "geojson"
+        },
+        "static": {
+          "style": "osm-bright-smooth",
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "scaleFactor": 1,
+          "format": "png"
+        }
+      },
+      "clip_elapsed_s": 129.1992074000009,
+      "r4_focus_space_ids": [
+        "way/1160136226"
+      ],
+      "r4_entrances": [
+        {
+          "native_id": "node/11300000483",
+          "coordinate": [
+            121.4402357,
+            31.2096329
+          ],
+          "tags": {
+            "door": "yes/manual/main_entrance",
+            "entrance": "yes"
+          },
+          "entrance_grade": "OSM_TAGGED",
+          "eligible": true,
+          "reason": "NATIVE_OUTER_RING_OSM_TAGGED_INBOUND_REFERENCE",
+          "original_coordinate": [
+            121.4402357,
+            31.2096329
+          ],
+          "entrance_type": "yes",
+          "target_building_native_id": "way/293434188",
+          "boundary_distance_m": 0.0,
+          "physical_access": "UNKNOWN",
+          "public_access": "UNKNOWN",
+          "entrance_field_verified": false
+        }
+      ],
+      "historical_local_route": "data/source/historical/sh-library_local_route.json",
+      "historical_hosted_route": "data/source/historical/sh-library_hosted_route.geojson",
+      "historical_local_diagnostic": null
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "label": "上海展览中心",
+      "category": "OPEN_SPACE_EXHIBITION_COMPLEX",
+      "category_evidence_note": "退线场馆复合体；采用含内环的馆舍建筑关系，区别于外部场地 way/438483942",
+      "role": "NEW_LOCKED_SCENE",
+      "use": "OPEN_SPACE_EXHIBITION_COMPLEX",
+      "group": "OPEN_SPACE_EXHIBITION_COMPLEX",
+      "building_native_id": "relation/7469147",
+      "building_tags": {
+        "addr:city": "上海市",
+        "addr:housenumber": "1000",
+        "addr:postcode": "200040",
+        "addr:street": "延安中路",
+        "amenity": "exhibition_centre",
+        "building": "yes",
+        "name": "上海展览中心",
+        "name:en": "Shanghai Exhibition Center",
+        "name:fr": "Centre d'exposition de Shanghai",
+        "name:ja": "上海展覧中心",
+        "name:zh": "上海展览中心",
+        "name:zh-Latn-pinyin": "Shànghǎi Zhǎnlǎn Zhōngxīn",
+        "phone": "+86-21-62475328",
+        "type": "multipolygon",
+        "website": "https://www.shzlzx.com.cn/",
+        "wikidata": "Q3481394",
+        "wikipedia": "zh:上海展览中心"
+      },
+      "building_source_url": "https://www.openstreetmap.org/relation/7469147",
+      "building_footprint": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.4493532,
+              31.2269807
+            ],
+            [
+              121.449842,
+              31.2260002
+            ],
+            [
+              121.4491846,
+              31.2257605
+            ],
+            [
+              121.4491741,
+              31.2257813
+            ],
+            [
+              121.4491047,
+              31.2257559
+            ],
+            [
+              121.4490483,
+              31.2258682
+            ],
+            [
+              121.4491069,
+              31.2258898
+            ],
+            [
+              121.4488786,
+              31.2263436
+            ],
+            [
+              121.4480009,
+              31.2260206
+            ],
+            [
+              121.448233,
+              31.2255595
+            ],
+            [
+              121.4482961,
+              31.2255828
+            ],
+            [
+              121.4483487,
+              31.2254784
+            ],
+            [
+              121.4482836,
+              31.2254544
+            ],
+            [
+              121.448301,
+              31.22542
+            ],
+            [
+              121.4476441,
+              31.2251781
+            ],
+            [
+              121.447139,
+              31.2261878
+            ],
+            [
+              121.4479976,
+              31.2265005
+            ],
+            [
+              121.447942,
+              31.2266092
+            ],
+            [
+              121.448424,
+              31.2267839
+            ],
+            [
+              121.4484861,
+              31.2266646
+            ],
+            [
+              121.4493532,
+              31.2269807
+            ]
+          ],
+          [
+            [
+              121.4474176,
+              31.2260746
+            ],
+            [
+              121.447523,
+              31.2258597
+            ],
+            [
+              121.4475554,
+              31.2258713
+            ],
+            [
+              121.4476365,
+              31.2257061
+            ],
+            [
+              121.4476014,
+              31.2256935
+            ],
+            [
+              121.44772,
+              31.2254519
+            ],
+            [
+              121.44812,
+              31.2255955
+            ],
+            [
+              121.4478149,
+              31.2262172
+            ],
+            [
+              121.4474176,
+              31.2260746
+            ]
+          ],
+          [
+            [
+              121.4488542,
+              31.2266205
+            ],
+            [
+              121.4491636,
+              31.2259935
+            ],
+            [
+              121.4495528,
+              31.226134
+            ],
+            [
+              121.44943,
+              31.2263827
+            ],
+            [
+              121.4493946,
+              31.22637
+            ],
+            [
+              121.4493247,
+              31.2265118
+            ],
+            [
+              121.4493663,
+              31.2265268
+            ],
+            [
+              121.4492496,
+              31.2267632
+            ],
+            [
+              121.4488542,
+              31.2266205
+            ]
+          ]
+        ]
+      },
+      "start": [
+        121.4449644,
+        31.2268704
+      ],
+      "start_native_id": "node/4395647242",
+      "start_role": "DECLARED_MAP_QUERY_ORIGIN",
+      "target": [
+        121.447139,
+        31.226187800000005
+      ],
+      "target_role": "PROXY_OR_UNCERTAIN",
+      "entry_native_id": null,
+      "entry_scope": "朝西外轮廓接近代理点，仅用于双方同坐标请求，未当作真实门或 POI",
+      "entrance_references": [],
+      "access_reference_status": "SOURCE_REFERENCE_ONLY",
+      "poi_search_location": null,
+      "poi_search_status": "NOT_REQUESTED_FIXED_GEOMETRY",
+      "path_snap_max_m": 35,
+      "frozen_before_route": true,
+      "contract_status": "READY",
+      "views": {
+        "detail": {
+          "center": [
+            121.4484905,
+            31.226079404297675
+          ],
+          "bounds": [
+            121.4452718491821,
+            31.224015112008306,
+            121.45170915081788,
+            31.22814365149939
+          ],
+          "extent_3857": [
+            13519225.821501635,
+            3661876.070784747,
+            13519942.41864181,
+            3662413.518639877
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 18,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 0.511112117483092,
+          "projected_units_per_pixel": 0.5971642834779395,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        },
+        "context": {
+          "center": [
+            121.4484905,
+            31.226079404297675
+          ],
+          "bounds": [
+            121.4356158967285,
+            31.21782196463126,
+            121.46136510327148,
+            31.234336122561714
+          ],
+          "extent_3857": [
+            13518150.925791375,
+            3661069.899002052,
+            13521017.314352069,
+            3663219.690422572
+          ],
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "zoom": 16,
+          "tile_css_size": 256,
+          "dpr": 1,
+          "meters_per_pixel": 2.0444484655856248,
+          "projected_units_per_pixel": 2.388657133911758,
+          "crs": "EPSG:3857",
+          "bounds_crs": "EPSG:4326"
+        }
+      },
+      "osm_clip": "data/source/sh-exhibition.osm.json",
+      "snapshot_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "snapshot_time": "2026-11-08T21:21:00Z",
+      "snapshot_bounds_wsen": [
+        121.43077670725108,
+        31.21448305254272,
+        121.46586839274889,
+        31.238986059222622
+      ],
+      "geoapify_request_contract": {
+        "route": {
+          "mode": "walk",
+          "type": "balanced",
+          "units": "metric",
+          "format": "geojson"
+        },
+        "static": {
+          "style": "osm-bright-smooth",
+          "width": 1200,
+          "height": 900,
+          "bearing": 0,
+          "pitch": 0,
+          "scaleFactor": 1,
+          "format": "png"
+        }
+      },
+      "clip_elapsed_s": 128.5883041000052,
+      "r4_focus_space_ids": [],
+      "r4_entrances": [],
+      "historical_local_route": "data/source/historical/sh-exhibition_local_route.json",
+      "historical_hosted_route": "data/source/historical/sh-exhibition_hosted_route.geojson",
+      "historical_local_diagnostic": null
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "task_id": "OSM-GEOAPIFY-R4-REV1",
+  "prepared_date": "2026-11-10",
+  "artifact_role": "EXECUTION_INSTRUCTIONS_WITH_FROZEN_INPUTS_NOT_NEW_RESULTS",
+  "distribution": "USER_CODEX_HANDOFF_NOT_AUTOMATIC_PUBLIC_RELEASE",
+  "sources": [
+    {
+      "path": "references/frozen/OSM_GEOAPIFY_R4_OPEN_REVIEW.zip",
+      "original_runtime_filename": "OPEN_REVIEW(2).zip",
+      "role": "R4_FROZEN_BASELINE",
+      "bytes": 9457831,
+      "sha256": "36d83fb2d792b33457968f1c649099380cc5cffa1e7b561c1dd6463fd82ce2f3",
+      "zip_members": 141,
+      "manifest_entries": 140,
+      "required_members": [
+        "src/frozen_r1/local_route.py",
+        "runs/source_scene_contracts.json",
+        "runs/source_open_spaces.json",
+        "src/core.py",
+        "src/run_experiment.py",
+        "src/prepare_sources.py",
+        "data/source/sh-huangpu-01.osm.json",
+        "data/source/sh-wukang.osm.json",
+        "data/source/sh-tower.osm.json",
+        "data/source/sh-newworld.osm.json",
+        "data/source/sh-library.osm.json",
+        "data/source/sh-exhibition.osm.json"
+      ]
+    },
+    {
+      "path": "references/frozen/R4_MAP_INFORMATION_REVIEW.zip",
+      "original_runtime_filename": "R4_MAP_INFORMATION_REVIEW.zip",
+      "role": "GPT_REVIEW_EVIDENCE",
+      "bytes": 400051,
+      "sha256": "a50ca7a6296da0b9bd1862b0808d4460c0913e876bf3bb17b10762fa3e527d4a",
+      "zip_members": 10,
+      "manifest_entries": 9,
+      "required_members": []
+    }
+  ],
+  "readable_evidence_copies": [
+    {
+      "path": "references/review/00_R4_QUESTIONS_REVIEW.md",
+      "source_archive": "references/frozen/R4_MAP_INFORMATION_REVIEW.zip",
+      "source_member": "00_R4_QUESTIONS_REVIEW.md",
+      "bytes": 4436,
+      "sha256": "d736ff868e23d8368dd531439c8bc784dca5a2dce9e6d4185238d77d851bce6c"
+    },
+    {
+      "path": "references/review/question_checks.json",
+      "source_archive": "references/frozen/R4_MAP_INFORMATION_REVIEW.zip",
+      "source_member": "question_checks.json",
+      "bytes": 8673,
+      "sha256": "87fa997b0b2372a4a41f34fa854c2003b85205166fe7c6bd55341a477edce943"
+    },
+    {
+      "path": "references/review/source_code_evidence.md",
+      "source_archive": "references/frozen/R4_MAP_INFORMATION_REVIEW.zip",
+      "source_member": "source_code_evidence.md",
+      "bytes": 10448,
+      "sha256": "beafa059df50ea13b2f7dd31b1589d2531493b10345bc8aab11a3dc1aa35c91d"
+    },
+    {
+      "path": "references/review/museum_source_geometry.png",
+      "source_archive": "references/frozen/R4_MAP_INFORMATION_REVIEW.zip",
+      "source_member": "museum_source_geometry.png",
+      "bytes": 365202,
+      "sha256": "82834d165a9f353aeb366d9ed8bad04cbb5c9eb39c24675bb69184f7a77d0cd4"
+    },
+    {
+      "path": "references/review/museum_source_geometry.svg",
+      "source_archive": "references/frozen/R4_MAP_INFORMATION_REVIEW.zip",
+      "source_member": "museum_source_geometry.svg",
+      "bytes": 152285,
+      "sha256": "9439af3e821cc3d8edf0b83c295b692837d38c7718d395f010fb7290d5353f12"
+    }
+  ],
+  "rules": [
+    {
+      "path": "project_rules/AGENTS.md",
+      "source": "USER_PROJECT_FILE_DISTRIBUTION_COPY",
+      "bytes": 46788,
+      "sha256": "98b6b7063042b3b3e3e6b8b49d8460a514bd0ed1af0965fdb739c54d6c0694d7"
+    },
+    {
+      "path": "project_rules/SMART_CITIES_RESEARCH_PROTOCOL.md",
+      "source": "USER_PROJECT_FILE_DISTRIBUTION_COPY",
+      "bytes": 17183,
+      "sha256": "ec43f4ceab061ff6d4f1cccdec401f2f7a514aa5a5ba5963a1bcc7254c1d1b98"
+    },
+    {
+      "path": "project_rules/SMART_CITIES_VISUAL_SYSTEM.md",
+      "source": "USER_PROJECT_FILE_DISTRIBUTION_COPY",
+      "bytes": 54413,
+      "sha256": "d109b1072cb05a5309c96e3f5aa1337d0e2a67614a1e7cbc0a62fa50253b45a8"
+    },
+    {
+      "path": "project_rules/SMART_CITIES_REPORT_WRITING_GUIDE.md",
+      "source": "USER_PROJECT_FILE_DISTRIBUTION_COPY",
+      "bytes": 31207,
+      "sha256": "4aef6e48c79efe87e49d2173f9975d65d8bf6716a3f2f0dd04308b2daee90f18"
+    },
+    {
+      "path": "project_rules/WORKFLOW_INTERACTION_EVIDENCE_PROTOCOL.md",
+      "source": "USER_PROJECT_FILE_DISTRIBUTION_COPY",
+      "bytes": 58332,
+      "sha256": "bec2a66770da9dc80991e84aebc67e2284310f9980671129200f706576db01fc"
+    }
+  ],
+  "not_included_and_not_required_for_core": [
+    "Full city PBF",
+    "R3 full archive",
+    "API credentials",
+    "New API responses",
+    "New R4-REV1 experiment results"
+  ]
+}

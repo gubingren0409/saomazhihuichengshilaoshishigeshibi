@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "browser": "Microsoft Edge",
+  "phase": "SOURCE_BACKDROP_DEVELOPMENT",
+  "panels": [
+    "overview",
+    "compare",
+    "south-route",
+    "south-terminal",
+    "north",
+    "matrix"
+  ],
+  "same_viewport_compare": true,
+  "cases": 6,
+  "options_tested": [
+    1,
+    3,
+    5
+  ],
+  "layer_toggle": true,
+  "exact_coordinates_from_source": true,
+  "svg_download": true,
+  "external_requests": 0,
+  "derived_edge_inspection": false,
+  "north_gap_visible": false,
+  "source_payload_sha256": "9920802fe8984c5f310c56a64ed7be70c645d5e9c312c70c161326fbe65ae259",
+  "static_svg": [
+    {
+      "path": "figures/01_map_information.svg",
+      "panel": "overview",
+      "bytes": 92072,
+      "sha256": "3aed307e91a38dec5ccc8157712a90b000e0f6f621444052fc6cdcc69dcd9058"
+    },
+    {
+      "path": "figures/02_old_new_same_camera.svg",
+      "panel": "compare",
+      "bytes": 182183,
+      "sha256": "c3be215a78cfb5054976ff6d0364703e220317982b922a664dcf7a74a485ef64"
+    },
+    {
+      "path": "figures/03_south_full_route.svg",
+      "panel": "south-route",
+      "bytes": 92117,
+      "sha256": "3e83a3275842bbfdfdc36cc9b1c76f81908b3d2af6be0768006298f80a4778c2"
+    },
+    {
+      "path": "figures/04_south_terminal.svg",
+      "panel": "south-terminal",
+      "bytes": 92069,
+      "sha256": "b7a7596569e7efc96565cd52db192f67e2f540a8c0d709841e77dc6a87348903"
+    },
+    {
+      "path": "figures/05_north_unsupported_gap.svg",
+      "panel": "north",
+      "bytes": 92096,
+      "sha256": "cd223b5b5a3900ab8fac6b60c9a3ca6c5365be0bb47c71bdce0b002c9cf322c3"
+    },
+    {
+      "path": "figures/06_parameter_cases.svg",
+      "panel": "matrix",
+      "bytes": 4817,
+      "sha256": "b21aabb607c7e1005e36569cd910d80f4799335bbd0c2bb28553b0cb7d37cee2"
+    }
+  ]
+}

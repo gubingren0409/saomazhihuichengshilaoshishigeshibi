@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>开放空间边缘接入 · R4-REV1</title><link rel="stylesheet" href="style.css"><script defer src="scene_data.js"></script><script defer src="review.js"></script></head>
+<body>
+<header class="mast"><div class="wrap"><span class="eyebrow">OSM · GEOAPIFY　/　R4-REV1</span><h1>开放空间边缘接入</h1><p>在同一张冻结地图上对照旧 R4、修订机制和移除派生层后的结果。沿着三处原生接点、南门与西北出口逐段检查。</p><div class="chips"><span>离线审查</span><span>六个冻结病例</span><span>接受自然语言反馈</span></div></div></header>
+<main class="wrap">
+  <section class="findings" aria-label="实验快览"><div><span>01 / 南门原坐标</span><strong id="south-metric">—</strong><small id="south-caption">来自保存的路线结果</small></div><div><span>02 / 西北出口</span><strong id="north-metric">—</strong><small id="north-caption">门外接近与入馆角色分列</small></div><div><span>03 / 冻结基线</span><strong id="b0-metric">—</strong><small id="b0-caption">原始地图几何与坐标保留</small></div></section>
+  <section class="workbench" aria-labelledby="panel-title">
+    <div class="panel-header"><div><span class="eyebrow">地图审查工作台</span><h2 id="panel-title"></h2><p id="panel-note"></p></div><label>冻结病例<select id="scene-select" aria-label="冻结病例"></select></label></div>
+    <nav class="panel-tabs" id="panel-tabs" aria-label="六项地图复核"></nav>
+    <div id="map-tools" class="tools"><div class="selectors"><label>比较机制<select id="variant" aria-label="比较机制"></select></label><label>边缘带宽<select id="width" aria-label="边缘带宽"><option value="3">3 米 · 主设置</option><option value="1">1 米 · 对照</option><option value="5">5 米 · 对照</option></select></label><label>南侧接点<select id="contact" aria-label="南侧接点"><option value="">全部已测接点</option></select></label></div><div class="zoom-group"><button type="button" id="zoom-in" aria-label="放大地图">＋</button><button type="button" id="zoom-out" aria-label="缩小地图">−</button><button type="button" id="zoom-reset">同视野复位</button><button type="button" id="export" class="primary">导出 SVG</button></div></div>
+    <div class="work-grid"><div id="map-grid" class="map-grid" aria-live="polite"></div><aside class="sidebar" aria-label="证据检查">
+      <div class="inspector" id="inspector"><span class="eyebrow">对象证据</span><h3>点选门、接点或派生边</h3><p>使用 Tab 定位，按 Enter 打开。保留原生 ID、原始坐标、假设、长度和检查字段。</p></div>
+      <fieldset><legend>图层</legend><div class="layers" id="layers"></div></fieldset>
+    </aside></div>
+    <div class="legend" id="legend" aria-label="地图图例"></div><p class="layer-note">派生边图层展示主设置的真实线段抽样及全部端口；完整逐边结果见 GeoJSON。各带宽的实际路线和允许域按保存结果显示。</p>
+  </section>
+  <section class="readout"><span class="eyebrow">逐段结果</span><h2 id="detail-title">当前病例</h2><div id="detail" class="table-scroll"></div></section>
+  <section class="feedback"><span class="eyebrow">用户验收</span><h2>看图后，可以直接告诉我</h2><ol><li>南侧新路线有没有利用你认为合理的广场边缘？</li><li>哪些新线或端点看起来仍不合理？</li><li>北侧的“已到附近但仍缺一段”与出口角色是否讲清楚？</li><li>你认为可以接受为地图条件原型的部分是什么？</li></ol><p>现场核验、技术复查和你的验收各自记录。</p></section>
+  <section class="resources"><h2>可下载证据</h2><div class="file-links" id="figure-links"></div><p><a href="../data/derived_edges.geojson">派生边 GeoJSON</a> · <a href="../data/routes.geojson">路线和诊断 GeoJSON</a> · <a href="../data/entrance_approach.json">南北门结果</a> · <a href="../RESULTS.md">实验报告</a></p></section>
+</main>
+<footer><div class="wrap">© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> · <a href="https://www.geoapify.com/">Geoapify</a> 仅保留历史路线 · 地图局部坐标 EPSG:32651</div></footer>
+</body></html>

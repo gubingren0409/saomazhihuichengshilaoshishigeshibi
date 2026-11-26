@@ -1,0 +1,503 @@
+{
+  "case_count": 6,
+  "baseline_matches": 6,
+  "ablation_matches": 6,
+  "main_unique_edge_records": 155226,
+  "main_directed_edge_arcs": 310448,
+  "main_edge_kinds": {
+    "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA": 155222,
+    "DERIVED_TERMINAL_CONNECTOR": 4
+  },
+  "deduplicated_native_candidates": 0,
+  "rejected_candidate_events": {
+    "SEGMENT_NOT_COVERED_BY_EDGE_DOMAIN": 47,
+    "AREA_CLEARANCE": 607,
+    "NO_LOCAL_PORT_WITHIN_MAX_LENGTH": 133,
+    "NON_GROUND_OR_UNRESOLVED_LAYER": 1
+  },
+  "south_trials": 3,
+  "south_trial_statuses": {
+    "EXTERIOR_REACHED_CONDITIONAL": 2,
+    "PLANAR_CONFLICT_ROUTE_REQUIRES_REVIEW": 1
+  },
+  "south_selected": {
+    "status": "EXTERIOR_REACHED_CONDITIONAL",
+    "route_id": "R1_AREA_EDGE_MAIN:sh-huangpu-01:node/6897141353:node/1890935454",
+    "entrance_id": "node/6897141353",
+    "contact_id": "node/1890935454",
+    "original_coordinate": [
+      121.4712158,
+      31.2299607
+    ],
+    "endpoint": [
+      121.4712158,
+      31.2299607
+    ],
+    "origin": [
+      121.4671613,
+      31.2309408
+    ],
+    "gap_m": 0.0,
+    "gap_geodesic_m": 0.0,
+    "length_m": 1067.371390401112,
+    "length_geodesic_m": 1067.5181107668327,
+    "section_lengths_m": {
+      "NATIVE_LINEAR": 966.4782755545701,
+      "DERIVED_FROM_TAGGED_PEDESTRIAN_AREA": 100.19264676716632,
+      "DERIVED_TERMINAL_CONNECTOR": 0.7004680793754601
+    },
+    "route_sections": [
+      "R1_AREA_EDGE_MAIN:sh-huangpu-01:node/6897141353:node/1890935454/0",
+      "R1_AREA_EDGE_MAIN:sh-huangpu-01:node/6897141353:node/1890935454/1",
+      "R1_AREA_EDGE_MAIN:sh-huangpu-01:node/6897141353:node/1890935454/2"
+    ],
+    "obstacle_conflicts": {},
+    "continuous": true,
+    "exterior_approach": "EXTERIOR_REACHED_CONDITIONAL",
+    "entrance_role": "main",
+    "inbound_eligibility": "ELIGIBLE_CONDITIONAL",
+    "original_source": "node/6897141353",
+    "source_tags": {
+      "entrance": "main"
+    },
+    "entrance_coordinate_unchanged": true,
+    "physical_access": "UNKNOWN",
+    "native_origin_contact_reachable": true,
+    "contact_coordinate": [
+      121.4705485,
+      31.2293894
+    ],
+    "contact_source_way_ids": [
+      "way/178737605"
+    ],
+    "derived_contact_to_door_connected": true,
+    "contact_port_status": {
+      "id": "node/1890935454",
+      "xy": [
+        354331.91300043056,
+        3456032.6585559454
+      ],
+      "kind": "NATIVE_CONTACT",
+      "source_node_id": "node/1890935454",
+      "source_way_ids": [
+        "way/178737605"
+      ],
+      "tags": {},
+      "layer": null,
+      "layer_compatible": true,
+      "status": "ATTACHED",
+      "edge_ids": [
+        "relation/2385771:edge/018731",
+        "relation/2385771:edge/018732",
+        "relation/2385771:edge/018733",
+        "relation/2385771:edge/018734",
+        "relation/2385771:edge/018735",
+        "relation/2385771:edge/018736"
+      ],
+      "source_outer_distance_m": 0.0,
+      "local_rejections": {},
+      "reason": "FULL_SEGMENT_VALIDATED"
+    },
+    "terminal_port_status": {
+      "id": "node/6897141353",
+      "xy": [
+        354396.35132172017,
+        3456095.105993877
+      ],
+      "kind": "REGISTERED_ENTRANCE",
+      "source_node_id": "node/6897141353",
+      "source_way_ids": [],
+      "tags": {
+        "entrance": "main"
+      },
+      "building_id": "way/161090899",
+      "layer": null,
+      "layer_compatible": true,
+      "status": "ATTACHED",
+      "edge_ids": [
+        "relation/2385771:edge/018737",
+        "relation/2385771:edge/018738",
+        "relation/2385771:edge/018739",
+        "relation/2385771:edge/018740"
+      ],
+      "source_outer_distance_m": 0.0,
+      "local_rejections": {},
+      "reason": "FULL_SEGMENT_VALIDATED"
+    },
+    "failure_reason": null
+  },
+  "north": {
+    "status": "APPROACH_WITH_GAP",
+    "route_id": "R1_AREA_EDGE_MAIN:sh-huangpu-01:node/6897145227:approach",
+    "entrance_id": "node/6897145227",
+    "contact_id": null,
+    "original_coordinate": [
+      121.4706605,
+      31.2305674
+    ],
+    "endpoint": [
+      121.470610971602,
+      31.23062514364944
+    ],
+    "gap_m": 7.952217589612692,
+    "gap_geodesic_m": 7.953317573664923,
+    "length_m": 1166.0987072821401,
+    "length_geodesic_m": 1166.259053898684,
+    "section_lengths_m": {
+      "NATIVE_LINEAR": 1166.0987072821401
+    },
+    "route_sections": [
+      "R1_AREA_EDGE_MAIN:sh-huangpu-01:node/6897145227:approach/0"
+    ],
+    "obstacle_conflicts": {
+      "NATIVE_LINEAR": [
+        "way/178732700"
+      ]
+    },
+    "continuous": true,
+    "exterior_approach": "APPROACH_WITH_GAP",
+    "entrance_role": "exit",
+    "inbound_eligibility": "NOT_ELIGIBLE_EXIT",
+    "original_source": "node/6897145227",
+    "source_tags": {
+      "entrance": "exit"
+    },
+    "entrance_coordinate_unchanged": true,
+    "physical_access": "UNKNOWN",
+    "north_source_area_id": "relation/2153738",
+    "source_face_gap_m": 7.952217589215138,
+    "origin": [
+      121.4671613,
+      31.2309408
+    ],
+    "support_status": "GAP_UNSUPPORTED",
+    "reachable_network_position": [
+      121.470610971602,
+      31.23062514364944
+    ],
+    "reachable_edge": "way/178719573",
+    "gap_evidence": {
+      "kind": "GAP_DIAGNOSTIC_NOT_ROUTABLE",
+      "status": "GAP_UNSUPPORTED",
+      "routable": false,
+      "geometry_metric": [
+        [
+          354339.75977058057,
+          3456169.555242823
+        ],
+        [
+          354344.3888134466,
+          3456163.0891986894
+        ]
+      ],
+      "source_area_id": "relation/2153738",
+      "length_m": 7.952217589612693,
+      "supported_length_m": 5.206251464550825e-10,
+      "unsupported_length_m": 7.952217589092068,
+      "supported_source_ids": [
+        "relation/2153738",
+        "way/178719573/110"
+      ],
+      "intersected_obstacles": [
+        {
+          "native_id": "way/161090899",
+          "kind": "BUILDING",
+          "inside_length_m": 0.0,
+          "source_tags": {
+            "addr:housenumber": "201",
+            "addr:street": "人民大道",
+            "building": "yes",
+            "contact:bilibili": "586852858",
+            "contact:instagram": "theshanghaimuseum",
+            "contact:phone": "+86-21-63723500-132",
+            "contact:tiktok": "MS4wLjABAAAAvgW-hMLuZNKCgJaueieZXzqQrEeaAace1q-NmJlZ_oE",
+            "contact:twitter": "ShanghaiMuseum",
+            "contact:weibo": "6584156654",
+            "contact:youtube": "@theshanghaimuseum3655",
+            "fee": "no",
+            "name": "上海博物馆",
+            "name:en": "Shanghai Museum",
+            "name:fr": "Musée de Shanghaï",
+            "name:hi": "शंघाई संग्रहालय",
+            "name:pt": "Museu de Shanghai (People Square)",
+            "name:ru": "Шанхайский музей",
+            "name:zh": "上海博物馆",
+            "name:zh-Hans": "上海博物馆",
+            "name:zh-Hant": "上海博物館",
+            "opening_hours": "Mo-Su 09:00-17:00",
+            "toilets:wheelchair": "no",
+            "tourism": "museum",
+            "website": "https://www.shanghaimuseum.net/",
+            "website:en": "https://www.shanghaimuseum.net/mu/frontend/pg/en/index",
+            "wheelchair": "yes",
+            "wikidata": "Q1051293",
+            "wikipedia": "zh:上海博物馆"
+          },
+          "building_boundary_contact_only": true
+        }
+      ],
+      "level_status": "UNKNOWN_OUTSIDE_MAPPED_SUPPORT"
+    }
+  },
+  "library": {
+    "old": {
+      "status": "EXTERIOR_REACHED_CONDITIONAL",
+      "route_id": "H0_FROZEN_B0:sh-library:node/11300000483",
+      "entrance_id": "node/11300000483",
+      "contact_id": null,
+      "original_coordinate": [
+        121.4402357,
+        31.2096329
+      ],
+      "endpoint": [
+        121.4402357,
+        31.2096329
+      ],
+      "origin": [
+        121.4378012,
+        31.2078318
+      ],
+      "gap_m": 0.0,
+      "gap_geodesic_m": 0.0,
+      "length_m": 478.7657110801198,
+      "length_geodesic_m": 478.82665233627716,
+      "section_lengths_m": {
+        "NATIVE_LINEAR": 478.7657110801198
+      },
+      "route_sections": [
+        "H0_FROZEN_B0:sh-library:node/11300000483/0"
+      ],
+      "obstacle_conflicts": {},
+      "continuous": true,
+      "exterior_approach": "EXTERIOR_REACHED_CONDITIONAL",
+      "entrance_role": "yes",
+      "inbound_eligibility": "ELIGIBLE_CONDITIONAL",
+      "original_source": "node/11300000483",
+      "source_tags": {
+        "door": "yes/manual/main_entrance",
+        "entrance": "yes"
+      },
+      "entrance_coordinate_unchanged": true,
+      "physical_access": "UNKNOWN"
+    },
+    "main": {
+      "status": "EXTERIOR_REACHED_CONDITIONAL",
+      "route_id": "R1_AREA_EDGE_MAIN:sh-library:node/11300000483",
+      "entrance_id": "node/11300000483",
+      "contact_id": null,
+      "original_coordinate": [
+        121.4402357,
+        31.2096329
+      ],
+      "endpoint": [
+        121.4402357,
+        31.2096329
+      ],
+      "origin": [
+        121.4378012,
+        31.2078318
+      ],
+      "gap_m": 0.0,
+      "gap_geodesic_m": 0.0,
+      "length_m": 478.7657110801198,
+      "length_geodesic_m": 478.82665233627716,
+      "section_lengths_m": {
+        "NATIVE_LINEAR": 478.7657110801198
+      },
+      "route_sections": [
+        "R1_AREA_EDGE_MAIN:sh-library:node/11300000483/0"
+      ],
+      "obstacle_conflicts": {},
+      "continuous": true,
+      "exterior_approach": "EXTERIOR_REACHED_CONDITIONAL",
+      "entrance_role": "yes",
+      "inbound_eligibility": "ELIGIBLE_CONDITIONAL",
+      "original_source": "node/11300000483",
+      "source_tags": {
+        "door": "yes/manual/main_entrance",
+        "entrance": "yes"
+      },
+      "entrance_coordinate_unchanged": true,
+      "physical_access": "UNKNOWN"
+    }
+  },
+  "exact_geometry_duplicates": 0,
+  "prefix_diagnostic": [
+    {
+      "subject": "SOUTH_CONTACT",
+      "contact_id": "node/1890935415",
+      "first_run_route": "R1_AREA_EDGE_MAIN:sh-huangpu-01:node/6897141353:node/1890935415",
+      "first_run_full_length_m": 1497.8912545006963,
+      "first_run_obstacle_ids": {
+        "NATIVE_LINEAR": [
+          "way/178733289"
+        ]
+      },
+      "first_run_obstacle_tags": {
+        "way/178733289": {
+          "barrier": "fence"
+        }
+      },
+      "alternate_native_prefix": {
+        "status": "EXTERIOR_REACHED_CONDITIONAL",
+        "route_id": "DIAGNOSTIC_B0_OBSTACLE_VIEW:node/1890935415",
+        "entrance_id": "node/1890935415",
+        "contact_id": "node/1890935415",
+        "original_coordinate": [
+          121.4720217,
+          31.2301485
+        ],
+        "endpoint": [
+          121.4720217,
+          31.2301485
+        ],
+        "origin": [
+          121.4671613,
+          31.2309408
+        ],
+        "gap_m": 0.0,
+        "gap_geodesic_m": 0.0,
+        "length_m": 1526.652010714373,
+        "length_geodesic_m": 1526.86249362048,
+        "section_lengths_m": {
+          "NATIVE_LINEAR": 1526.652010714373
+        },
+        "route_sections": [
+          "DIAGNOSTIC_B0_OBSTACLE_VIEW:node/1890935415/0"
+        ],
+        "obstacle_conflicts": {},
+        "continuous": true
+      },
+      "unchanged_derived_suffix_m": 103.98638948905436,
+      "total_m": 1630.6384002034274,
+      "original_registered_entrance": [
+        121.4712158,
+        31.2299607
+      ],
+      "comparison": "DIAGNOSTIC_ONLY_NATIVE_FILTER_RETAINS_FIRST_RUN_SELECTION"
+    },
+    {
+      "subject": "NORTH_APPROACH",
+      "first_run_route": "R1_AREA_EDGE_MAIN:sh-huangpu-01:node/6897145227:approach",
+      "first_run_obstacle_ids": {
+        "NATIVE_LINEAR": [
+          "way/178732700"
+        ]
+      },
+      "first_run_obstacle_tags": {
+        "way/178732700": {
+          "landuse": "grass"
+        }
+      },
+      "alternate": {
+        "status": "APPROACH_WITH_GAP",
+        "route_id": "DIAGNOSTIC_B0_OBSTACLE_VIEW:NORTH",
+        "entrance_id": "node/6897145227",
+        "contact_id": null,
+        "original_coordinate": [
+          121.4706605,
+          31.2305674
+        ],
+        "endpoint": [
+          121.470610971602,
+          31.23062514364944
+        ],
+        "origin": [
+          121.4671613,
+          31.2309408
+        ],
+        "gap_m": 7.952217589612692,
+        "gap_geodesic_m": 7.953317573664923,
+        "length_m": 1237.8147184953468,
+        "length_geodesic_m": 1237.9849724147296,
+        "section_lengths_m": {
+          "NATIVE_LINEAR": 1237.8147184953468
+        },
+        "route_sections": [
+          "DIAGNOSTIC_B0_OBSTACLE_VIEW:NORTH/0"
+        ],
+        "obstacle_conflicts": {},
+        "continuous": true,
+        "gap_evidence": {
+          "kind": "GAP_DIAGNOSTIC_NOT_ROUTABLE",
+          "status": "GAP_UNSUPPORTED",
+          "routable": false,
+          "geometry_metric": [
+            [
+              354339.75977058057,
+              3456169.555242823
+            ],
+            [
+              354344.3888134466,
+              3456163.0891986894
+            ]
+          ],
+          "source_area_id": "relation/2153738",
+          "length_m": 7.952217589612693,
+          "supported_length_m": 5.206251464550825e-10,
+          "unsupported_length_m": 7.952217589092068,
+          "supported_source_ids": [
+            "relation/2153738",
+            "way/178719573/110"
+          ],
+          "intersected_obstacles": [
+            {
+              "native_id": "way/161090899",
+              "kind": "BUILDING",
+              "inside_length_m": 0.0,
+              "source_tags": {
+                "addr:housenumber": "201",
+                "addr:street": "人民大道",
+                "building": "yes",
+                "contact:bilibili": "586852858",
+                "contact:instagram": "theshanghaimuseum",
+                "contact:phone": "+86-21-63723500-132",
+                "contact:tiktok": "MS4wLjABAAAAvgW-hMLuZNKCgJaueieZXzqQrEeaAace1q-NmJlZ_oE",
+                "contact:twitter": "ShanghaiMuseum",
+                "contact:weibo": "6584156654",
+                "contact:youtube": "@theshanghaimuseum3655",
+                "fee": "no",
+                "name": "上海博物馆",
+                "name:en": "Shanghai Museum",
+                "name:fr": "Musée de Shanghaï",
+                "name:hi": "शंघाई संग्रहालय",
+                "name:pt": "Museu de Shanghai (People Square)",
+                "name:ru": "Шанхайский музей",
+                "name:zh": "上海博物馆",
+                "name:zh-Hans": "上海博物馆",
+                "name:zh-Hant": "上海博物館",
+                "opening_hours": "Mo-Su 09:00-17:00",
+                "toilets:wheelchair": "no",
+                "tourism": "museum",
+                "website": "https://www.shanghaimuseum.net/",
+                "website:en": "https://www.shanghaimuseum.net/mu/frontend/pg/en/index",
+                "wheelchair": "yes",
+                "wikidata": "Q1051293",
+                "wikipedia": "zh:上海博物馆"
+              },
+              "building_boundary_contact_only": true
+            }
+          ],
+          "level_status": "UNKNOWN_OUTSIDE_MAPPED_SUPPORT"
+        },
+        "reachable_edge": "way/178719573",
+        "inbound_eligibility": "NOT_ELIGIBLE_EXIT",
+        "same_nearest_point_within_1mm": true
+      },
+      "source_area_semantics": [
+        {
+          "source_area_id": "relation/2385771",
+          "passes_source_semantics": true,
+          "reason": null
+        },
+        {
+          "source_area_id": "relation/2153738",
+          "passes_source_semantics": true,
+          "reason": null
+        }
+      ]
+    }
+  ],
+  "provider_requests": 0,
+  "field_checks": 0
+}

@@ -1,0 +1,723 @@
+{
+  "original_r4_sealed_sha256": "36d83fb2d792b33457968f1c649099380cc5cffa1e7b561c1dd6463fd82ce2f3",
+  "input_zip_sha256": "79deb9fe9dee1296e2622b73549a27a16efa4d5ed1cfc55e63f81f87b5a663c4",
+  "gpt_review_archive_sha256": "a50ca7a6296da0b9bd1862b0808d4460c0913e876bf3bb17b10762fa3e527d4a",
+  "installed_r4_member_checks": [
+    {
+      "path": "01_RESEARCH_CONTRACT_AND_SCOPE.md",
+      "sha256": "fcaaced8acb97b3abb76b73e6359147803b78d24fa672012fc31e04c042c353a",
+      "status": "PASS"
+    },
+    {
+      "path": "02_OPEN_SPACE_FEATURE_AUDIT.md",
+      "sha256": "af67ca8a1f3b75e0a72b8f8ddad5df1e2ac1e355575b8d8174919bb53e011e4a",
+      "status": "PASS"
+    },
+    {
+      "path": "03_EDGE_CONNECTION_METHOD.md",
+      "sha256": "6ea0bd18a9c0a95b7e808b2d63628d1be07a89d31d4c72aef835f5c06724a46d",
+      "status": "PASS"
+    },
+    {
+      "path": "04_EXPERIMENT_RESULTS.md",
+      "sha256": "f382104ac14f38804622af48c84ebabe097596c54abb707ef6b706144a3b28e9",
+      "status": "PASS"
+    },
+    {
+      "path": "05_DUAL_PATH_INPUT_CAPABILITY.md",
+      "sha256": "950a3fe108c6944f138a74184d2bbfd3e88f14da09915e46f758fa23974deb93",
+      "status": "PASS"
+    },
+    {
+      "path": "06_LIMITATIONS_AND_NEXT_DECISIONS.md",
+      "sha256": "f9855977f26a57159ffdf3e248eb1443be6ae7bde7882b6e2de5008c41cff2ec",
+      "status": "PASS"
+    },
+    {
+      "path": "audits/AUTHOR_REVIEW.md",
+      "sha256": "16a89258cab511cd75d3ed9c9e72387747f02cfd8e283eeeab4c4148c1754697",
+      "status": "PASS"
+    },
+    {
+      "path": "audits/independent_check.json",
+      "sha256": "b8c66ccd308f7b9136c67b4071d105e0915324618cb3dc1b5becf7bcb7376489",
+      "status": "PASS"
+    },
+    {
+      "path": "audits/independent_check.py",
+      "sha256": "c9a3f398199ca313107b60cb40708a0dd884ae53d4d1f29757ec98ebd1ab23b2",
+      "status": "PASS"
+    },
+    {
+      "path": "audits/INDEPENDENT_REVIEW.md",
+      "sha256": "086055f80475d0b65d5c4d07800e9f93efe6c0b44ba364bdadffafcd6e00ce2f",
+      "status": "PASS"
+    },
+    {
+      "path": "audits/ir_evidence.csv",
+      "sha256": "c23090f374721d3e67d7ef2bd39a2680fab62d3b2dc43dfe4807f7f804b37c57",
+      "status": "PASS"
+    },
+    {
+      "path": "audits/old_git_before.json",
+      "sha256": "a5e8744257903cd0baf2eb4ba9f4b56d84ed6424b8b2ea308b5db224824ed659",
+      "status": "PASS"
+    },
+    {
+      "path": "audits/r3_score_availability.json",
+      "sha256": "2b482aea036ea0aa93679b5eb5abd0e2d80380138497911b47b971438747a00c",
+      "status": "PASS"
+    },
+    {
+      "path": "audits/source_protection_final.json",
+      "sha256": "147951b4c166d13854ece054510b69a6b4e8e0c4295a5a1b48cf10274b1f91a3",
+      "status": "PASS"
+    },
+    {
+      "path": "audits/visual_browser_qa.json",
+      "sha256": "400527b52600a45bdeaedcf2e04b9d47ee899eff1d44a12b01ed6acaf4e7284d",
+      "status": "PASS"
+    },
+    {
+      "path": "data/added_edges.csv",
+      "sha256": "004a313fa8bdbba874b48023aaef8a23b3f6c27c9cf38c004ba8a61a80e9ea8c",
+      "status": "PASS"
+    },
+    {
+      "path": "data/boundary_candidates.csv",
+      "sha256": "df4d15224eade837f9f0568296c1ce4bc4f8e3ca0be05b4350b69392268cfdbd",
+      "status": "PASS"
+    },
+    {
+      "path": "data/connectivity_changes.csv",
+      "sha256": "f7e9b7338ec0e8b1b2c6dc319acd1119ac5e9f080a8fb55eb9896485c43202b9",
+      "status": "PASS"
+    },
+    {
+      "path": "data/dual_path_results.csv",
+      "sha256": "d1e0ed4433e87cc2b51b46268da4f6cc0d6f6378b808880374b0010bf4a24f9f",
+      "status": "PASS"
+    },
+    {
+      "path": "data/edge_candidate_evidence.csv",
+      "sha256": "e9afe0ed2054f8837b0e20714824b610dd9f2b2d2f692875797b5bbbfd4666f0",
+      "status": "PASS"
+    },
+    {
+      "path": "data/entrance_access.csv",
+      "sha256": "ccda535e32fdec0ed7b5a365f9ec06710b81cbf71b51111c0519fc0ba5e713c7",
+      "status": "PASS"
+    },
+    {
+      "path": "data/historical_b0_recomputed.csv",
+      "sha256": "acccb966eb5409a7c6a840b37078dd86a69fdbe466737c376c37c3a3a07f3f3c",
+      "status": "PASS"
+    },
+    {
+      "path": "data/hosted_evidence/geoapify_static_completion.json",
+      "sha256": "7e05fe04bc6e4a78ca173af80c4c86e6765c32966ac1c59cf5b420a62ded07f6",
+      "status": "PASS"
+    },
+    {
+      "path": "data/hosted_evidence/geoapify_static_requests.json",
+      "sha256": "9a81707fc4e859ae84eb3fb88a46afb23d619029d09249dfcce057e2cfe8b2b9",
+      "status": "PASS"
+    },
+    {
+      "path": "data/hosted_evidence/geoapify_walk_probe_proxy.json",
+      "sha256": "5e3e7c22ee108f6cdead569aa251822a3bd00dd8863b9e28da0d7d5fd383c041",
+      "status": "PASS"
+    },
+    {
+      "path": "data/hosted_evidence/hosted_results.json",
+      "sha256": "817a3bb1758872b1313c9e9df99c553ecd5631fab9d3b56c67eb7eecb891cb05",
+      "status": "PASS"
+    },
+    {
+      "path": "data/hosted_evidence/sh-exhibition_routing_response.json",
+      "sha256": "32342ecb92350c36ddab750c5f2339ddcfe1135a598678c633a12b22ef17ce00",
+      "status": "PASS"
+    },
+    {
+      "path": "data/hosted_evidence/sh-library_routing_response.json",
+      "sha256": "67417622acbc9f92c60717a6959a7b80648e1d11b788ffeaa5e1727fdf5d7090",
+      "status": "PASS"
+    },
+    {
+      "path": "data/hosted_evidence/sh-newworld_routing_response.json",
+      "sha256": "622a2f61dd566ac4b74d40960bb82d23ccca50c896585deb3f0e781fac5ae615",
+      "status": "PASS"
+    },
+    {
+      "path": "data/hosted_evidence/sh-tower_routing_response.json",
+      "sha256": "a719939b79005780353154a4d3a69d969c74891b13d9f5b959d42fb567b4a9a5",
+      "status": "PASS"
+    },
+    {
+      "path": "data/hosted_evidence/sh-wukang_routing_response.json",
+      "sha256": "8b084a284981b8c996de24178eb33400634352eec52ab79052dd233ed05094f6",
+      "status": "PASS"
+    },
+    {
+      "path": "data/huangpi_crossing_diagnostic.csv",
+      "sha256": "9ccf60ab6fb62c004f4709be7771fd5cdf03eb7114f0b12913eb77f073876388",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/r3_summary.json",
+      "sha256": "3efdd90f0d8be5a3529a764ae90714c69806e2034dc2713da1367bd0bff329db",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-exhibition.hosted.json",
+      "sha256": "c1fa0f02b22692305d2fb5a5d2832b2dbaa210952e267161aea806db0bd6a851",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-exhibition.local.json",
+      "sha256": "49c86ac9f275d067a31f0380f6c01ef4e040be00aa7174478ab0c9be25116d24",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-huangpu-01.hosted.json",
+      "sha256": "726fc6d12fb5d57c431f7b2af070a288195ca02dec14376e0aa992bc3f3bebf3",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-huangpu-01.local.json",
+      "sha256": "b431162524a2273498c025b5c8ac6b0b4651f4c172ab8f359fb04a871113ccaf",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-library.hosted.json",
+      "sha256": "8a830cbc56976186124fdd6164b18ec2b3e33482b45e707e81b4c3c32580f0b8",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-library.local.json",
+      "sha256": "b77723a0e098aa07e62f65e17a4c7414b5183ae3759e56c76c5f578f1013bd6e",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-newworld.hosted.json",
+      "sha256": "05fdbdce371cac098d09f20412bde4c49456497b04711a9bde2895ae26f71791",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-newworld.local.json",
+      "sha256": "1d91533640d44c683042fa9ce648dde2b62050686c6a1088a167097b1b9d271d",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-tower.hosted.json",
+      "sha256": "5f7b516886ee1cad1ab83bfcd791586a81e86afab9a97222abfb7e35cd9df8a0",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-tower.local.json",
+      "sha256": "23e439b89d957a5194bda3d61f45e48a366ff0e83b01ab5401072e122225366c",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-wukang.hosted.json",
+      "sha256": "1b58c925b7e8f54440fe65fdbc382525920456d149d0947a1d2f3689f6f4b547",
+      "status": "PASS"
+    },
+    {
+      "path": "data/ir/sh-wukang.local.json",
+      "sha256": "fd4b012e7c00f36752b4128f8cd01f58bbf98bcf29ac55b87d9a714143f5e48d",
+      "status": "PASS"
+    },
+    {
+      "path": "data/manifest.csv",
+      "sha256": "04ffb5cd2d8f377ff72164460be918d7384d8d1ee67bd6c5a231ac1dd668f34e",
+      "status": "PASS"
+    },
+    {
+      "path": "data/open_space_inventory.csv",
+      "sha256": "d649ed65dfad4b8bcca5a64281a373d782c96d87e12a1cdef6a52e759d3be1c1",
+      "status": "PASS"
+    },
+    {
+      "path": "data/registered_entrances.csv",
+      "sha256": "310f4f410665514f16f471aabc60aa2436792556faeeed9edaaf8e68deb8d2af",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r1_scene_contract.json",
+      "sha256": "12f457f66fe107f44c47fd57bf884087562d3aef5d30278a65b0d2e8b2cba01b",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r2_01_ROUTE_DIFFERENCE_DIAGNOSIS.md",
+      "sha256": "3d1c56c1e930890f8e5875d8136ac6ad5d1bb6a7493c691f84ab7af4f1e8076e",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r2_endpoint_metrics.json",
+      "sha256": "c5268c2020203cf966896c16509699cf7136dcf8e6a8141f75fa0968b498d294",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r2_plaza_connectivity_audit.csv",
+      "sha256": "eb80865554310cba5c85760b54ce8fd60ed11ddc027437f79972cc2efea122a9",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r2_route_segment_differences.csv",
+      "sha256": "402fd8fab9491726e261761412b334ff52de94f6ea1cf117bb08841e399c4d54",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r2_topology.json",
+      "sha256": "4ccbfbc12166d43c9868b6ad94750349e7cf9c741d0d7d1d9345a3ba328d6e68",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r3_05_DECISION_ON_TWO_PATHS.md",
+      "sha256": "6e8ffa21efe8e03b4ac5e0524375d7ac6f15525d23b431809d9a106bd55081bc",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r3_08_COMMON_INTERMEDIATE_REPRESENTATION.md",
+      "sha256": "8cb15d12302c78c22609934f1efe31d89459d4448e6d1ce688afd074e9538ac3",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r3_09_DUAL_PATH_ALGORITHM_ROADMAP.md",
+      "sha256": "11953017a05011d5dc9521589fe665be41dc396fff9acb3ab4326bae06a162de",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r3_comparison.json",
+      "sha256": "9fdd926a62d2c91746b45a6e71c00631629921f45821788ac3422aee75b60474",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r3_local_results.json",
+      "sha256": "a781a44adde675196a5466905a481d35441d9f72d37acfefa55fe33dc34941b5",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/r3_scene_contracts.json",
+      "sha256": "7e81ea652bc94f0a65e161666fda6f2bc2db7447227a2ca6fbbd09213ce8dbcd",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-exhibition_hosted_route.geojson",
+      "sha256": "1214786a250083e7e9244d21b77902e2dbb698a0f3c4f848d2da226d175a633e",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-exhibition_local_route.geojson",
+      "sha256": "29a913e6369bb54c01bb014ff0bb3c15ead50ec34a119a725c435bed5f3a8248",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-exhibition_local_route.json",
+      "sha256": "d922da44c2837a96d628c359fc90c46cc3867b4f048aedaf4d227519a320dcbe",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-huangpu-01_hosted_route.geojson",
+      "sha256": "b93240608e78a0082def54e401466d7be45ea4827899c51bf8a603eceaad79d2",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-huangpu-01_local_approach_diagnostic.json",
+      "sha256": "975953c032fe62ea920b0beaf86427975cc7a1fc4316cd260c7a140e861e081b",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-huangpu-01_local_route.json",
+      "sha256": "b8bda13a310911c2436fc76b364ff7587ab4bc358791e723c8f14310a14c8922",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-library_hosted_route.geojson",
+      "sha256": "1a3922a6e529f3c9d29f2d489916b26e9adb00fa402c568d34b51f19e1829ba4",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-library_local_route.geojson",
+      "sha256": "d6268d5e57a819d6c0cd75474a75c0f2961cd70863bd9c83e711f30d45227095",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-library_local_route.json",
+      "sha256": "ec9c3bccfe8465cbeb5a28f61a116ee5d4bf06410344f4ab81cb22e3e1b48d76",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-newworld_hosted_route.geojson",
+      "sha256": "554d2f621c65b2b248837ce27ee75735155358f84431d63652fbc7dc0eda6287",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-newworld_local_route.geojson",
+      "sha256": "55979bd80bea39a370a78159f763c0ca53c9a67704df447fb0bc804f250770ae",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-newworld_local_route.json",
+      "sha256": "5cc934400f9cc3bdc676deba56dbc8c993f3de3ccbe736a5d2ac7cce408734a0",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-tower_hosted_route.geojson",
+      "sha256": "7570eb9c2f888f5d076c9729f3f9985e4c45c6085e169e6d625c0d78d2804a72",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-tower_local_route.geojson",
+      "sha256": "e51862b0eb99aceb19e8d95199d5328af54be69c2d992eb1aaf7d1b00d21767e",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-tower_local_route.json",
+      "sha256": "48989a36f22f9893b433dc87d30650f4558aeca0362b1b70749af8d56b50b46b",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-wukang_hosted_route.geojson",
+      "sha256": "440859e330dc0693dbd241ddeaecc080cebfbedd982ed996ea4d8f18ccefe8c9",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-wukang_local_route.geojson",
+      "sha256": "29e89e9284341391a73802cf0608166bf0059f9ddced57ae38ddb2fc0fb5fa01",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/historical/sh-wukang_local_route.json",
+      "sha256": "af873b98572669f1f8c3426a1d2ce3de956608d2faa42816efb467f80b7f032b",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/LICENSE_NOTICE.md",
+      "sha256": "1c599d2338f7724bbae69aacde9fbec9e3acc75bb4cc92781356ffb4ec4aa599",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/sh-exhibition.osm.json",
+      "sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/sh-huangpu-01.osm.json",
+      "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/sh-library.osm.json",
+      "sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/sh-newworld.osm.json",
+      "sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/sh-tower.osm.json",
+      "sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source/sh-wukang.osm.json",
+      "sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source_focus_contacts.csv",
+      "sha256": "f2f20500b8088bb815a565aa09e50da8bbebc766e845b58667270f9ff75087f6",
+      "status": "PASS"
+    },
+    {
+      "path": "data/source_scene_inventory.csv",
+      "sha256": "4afb9dc12e9a9b054f0d2027cf293fc3ddc9c628cead2594f091976952a4c9d1",
+      "status": "PASS"
+    },
+    {
+      "path": "inputs/prompt/00_README_FIRST.md",
+      "sha256": "55e85e468f6c9f3c5723ec20721d41469f5a54c831332b1bfd1e017ce37775d3",
+      "status": "PASS"
+    },
+    {
+      "path": "inputs/prompt/OSM_GEOAPIFY_R4_CODEX_PROMPT.md",
+      "sha256": "2adc82e624b0a2e34a8c38e46ab09795568a1916f1b788517602232032708714",
+      "status": "PASS"
+    },
+    {
+      "path": "inputs/prompt/references/INPUT_MATERIALS_AND_PROTECTION.md",
+      "sha256": "3bf8af7ef338543196b0313f6ceae9701ac51394f922ad518bb8c4e2f4eddd81",
+      "status": "PASS"
+    },
+    {
+      "path": "inputs/r3/01_SOURCE_AND_PERMISSION_AUDIT.md",
+      "sha256": "71beb9c29b35f1a5227ba23e59795e19b9fda0a1155d8d3bcab704e6c132939e",
+      "status": "PASS"
+    },
+    {
+      "path": "inputs/r3/05_DECISION_ON_TWO_PATHS.md",
+      "sha256": "6e8ffa21efe8e03b4ac5e0524375d7ac6f15525d23b431809d9a106bd55081bc",
+      "status": "PASS"
+    },
+    {
+      "path": "inputs/r3/08_COMMON_INTERMEDIATE_REPRESENTATION.md",
+      "sha256": "8cb15d12302c78c22609934f1efe31d89459d4448e6d1ce688afd074e9538ac3",
+      "status": "PASS"
+    },
+    {
+      "path": "inputs/r3/09_DUAL_PATH_ALGORITHM_ROADMAP.md",
+      "sha256": "11953017a05011d5dc9521589fe665be41dc396fff9acb3ab4326bae06a162de",
+      "status": "PASS"
+    },
+    {
+      "path": "README.md",
+      "sha256": "0f82dd5959d9a620e8b0e7c181ab49d08ddc54012300aa7c66f00f775abcb65c",
+      "status": "PASS"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "5b823380730f519e0f42172a03f9fbf51e55156a160c47fb0cfeeb234067f12e",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/dual_paths.json",
+      "sha256": "5e4580a887638f10fd2a7ca24f59cc71e965fe5191fbdc1c15260eab0926662f",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/experiment.json",
+      "sha256": "2fc674a90008b7d95641086ca088742e7b6042cb6b8361a74798fa6d70dd956b",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/geometry/sh-exhibition.geojson",
+      "sha256": "14e13277a8cf8c3aa7fd1184ee6ba836f0e3a7dfa0b4d3eb16dc4c4a8279f45a",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/geometry/sh-huangpu-01.geojson",
+      "sha256": "04a1fdfa9e3146c84d42d6142a586cfc3cd19668f2e7fc1299856baeb8fa3bbc",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/geometry/sh-library.geojson",
+      "sha256": "a97643987e8c5c9915158780b0e7c9b00d45c2f299e67efa55679a052e4ded6a",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/geometry/sh-newworld.geojson",
+      "sha256": "bbc940424fab2514da9e893ac0226aead39656b333dd570138ccda00a066d7fa",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/geometry/sh-tower.geojson",
+      "sha256": "39dec8244194d6e4f3a53067026dacb24c334504f9e07e2e6a94cfcd912b06bf",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/geometry/sh-wukang.geojson",
+      "sha256": "77b8e80f27de30ae6901a808efbcf3bd3d9f6c6fee83da822131252bb6ef3c0c",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/huangpi_crossing_diagnostic.json",
+      "sha256": "d3db0d3daa48565853b75a7e007872ba3a01e449fc251cfae1813b4e0bbfa818",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/protocol_core.json",
+      "sha256": "8056bde37509bd26f2e7c779c04c1c4e8554a9f9613ee5b832b52a24fe145a17",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/source_focus_contact_audit.json",
+      "sha256": "42f02f55583d5ef88d516ad3da98560b707a000cd5a3b2d3c9b918a09e779fe4",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/source_open_spaces.json",
+      "sha256": "88c63baf65eb874259771ad09e0df4dc40c0c803aa1df17a1f068ca04a279cb3",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/source_scene_contracts.json",
+      "sha256": "47727aab1f2b36880c36052abdcdc200eb6121a80f2c6123c0f98872b0278191",
+      "status": "PASS"
+    },
+    {
+      "path": "runs/summary.json",
+      "sha256": "7f44e771f3394b8902ed7c0f2b5c4b864818e110017d9463c3354ce7245572df",
+      "status": "PASS"
+    },
+    {
+      "path": "src/audit_source_topology.py",
+      "sha256": "bb1105c914ad88f89823dc4f8172dbe9e0c90a51315ab546e688ea2f7a22e8d5",
+      "status": "PASS"
+    },
+    {
+      "path": "src/build_reports.py",
+      "sha256": "90b70edb2ec027876a8b6493fa688fc1002c0d0d034737160fa8cd0d91fc93ed",
+      "status": "PASS"
+    },
+    {
+      "path": "src/build_visuals.py",
+      "sha256": "933860403fadf122a51d1a130d42de5c79380ec32aa9c0c089cff6b7064b8df1",
+      "status": "PASS"
+    },
+    {
+      "path": "src/check_source_protection.py",
+      "sha256": "4cae16ef776f3a4455c4a1b77c9cff65561147f0a3efa35207243ac7777bdd32",
+      "status": "PASS"
+    },
+    {
+      "path": "src/core.py",
+      "sha256": "fec25ba3e5a41e2e22c5a4e3f5e43157f9afbb81887b6c04dc4bdbf8029741a0",
+      "status": "PASS"
+    },
+    {
+      "path": "src/frozen_r1/local_route.py",
+      "sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+      "status": "PASS"
+    },
+    {
+      "path": "src/prepare_ir.py",
+      "sha256": "3d65f7f89fa41bf64a7d1859ce45b58e9b51e182dcf9fa328da4a618425172e8",
+      "status": "PASS"
+    },
+    {
+      "path": "src/prepare_sources.py",
+      "sha256": "50e7b522d08b6914d71cbac2dcd9cfb177eb5bca7a273e2dab529d9f3b1c1471",
+      "status": "PASS"
+    },
+    {
+      "path": "src/run_dual_paths.py",
+      "sha256": "be82cc8750c6a97ec22dec9fb39d40f66ab28fc770c155f6c4c3a4f72a896e38",
+      "status": "PASS"
+    },
+    {
+      "path": "src/run_experiment.py",
+      "sha256": "995fbc60d7748d6ef968b3449b903e3ff36d3e23af62f8d11733630d4913316a",
+      "status": "PASS"
+    },
+    {
+      "path": "src/seal_review.py",
+      "sha256": "9b612610a2599bded62b15e82d44386585c2bb909834210dfb325c0abc3140ad",
+      "status": "PASS"
+    },
+    {
+      "path": "STATUS.json",
+      "sha256": "f9669e0b2a9e10aa9a90b1db94477d0597b368147034708f7acf7ed6efd56206",
+      "status": "PASS"
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "3161f8925e1301e927f2d45b9d61c164f89dc3757da6dac8fd4a81b1be82bfde",
+      "status": "PASS"
+    },
+    {
+      "path": "tests/test_dual_paths.py",
+      "sha256": "68cbfe89c026075a3fddf172541ec84997716e0b0b22d663588f2423c484518c",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/01_museum_overview.svg",
+      "sha256": "6d677cece6b26c00bab6037347aa85491e01926ecf30ca91ca5a6d4e0d026ab2",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/02_museum_boundary.svg",
+      "sha256": "6f550aae85ef9490f530c1bc5f4268787cd6cd803f17681fc9c5389e59f4e4d0",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/03_museum_internal.svg",
+      "sha256": "e93b7aa4a869e10efb63ac30f148029555f5a78f6a90d5655fedb995e4006a70",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/04_museum_entrances.svg",
+      "sha256": "6a8a8a815fc5c586eb3e25a379865f1b7efadf8894a2527c4568c3b491395f29",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/05_museum_route_comparison.svg",
+      "sha256": "1240f6215fb413e129e67ed5fbf5a149fbb2e4bfad98686ef3b52a77dec2f06b",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/06_library_topology.svg",
+      "sha256": "8085428902edd61620a9033f7b56587c9b1d6ba3021bf3ff490491cb7496e063",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/07_failed_boundary.svg",
+      "sha256": "6f550aae85ef9490f530c1bc5f4268787cd6cd803f17681fc9c5389e59f4e4d0",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/08_cross_scene.svg",
+      "sha256": "8ce4cd31f1de1823d3bb70989d678f7353ba6ca20da77dbc20cd6d48219da5f5",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/09_connectivity_and_lengths.svg",
+      "sha256": "20e054dfb7a7b4bbbac10e6e0f441bf370d49a63d34b8342832264886ec11b27",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/10_interactive_preview.png",
+      "sha256": "54e7ed69c3b79c72229d88cf6bbc9fab77d5ae4d0021981f4590b701da2c6bbd",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/figures/11_newworld_layer_refusal.svg",
+      "sha256": "b8ce8f12103c58b60bbb993e9d8fcdd7c7315fd8dd8adc861d89ddfcf2a19fa7",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/index.html",
+      "sha256": "602371e317a82471fab137230e4cef5a367b82a2e2e062b75f40256db8e4bb80",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/README.md",
+      "sha256": "06e72a0ca68f5124f663dec72c8ed5854591bab5dca69c9116492f604c132eef",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/review.js",
+      "sha256": "8a2af52745c0cdb6174a9d62464ddb10a26121a6b3685979cb489b79872cbdec",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/scene_data.js",
+      "sha256": "e9aca4b3fcf9b4db7174681aa8c9394297ca61ac7cac6cf95fb1fd8c981380da",
+      "status": "PASS"
+    },
+    {
+      "path": "visuals/style.css",
+      "sha256": "f1a3e3a1c959d317aa6a6b0f1ee14eaf8d1a7be522a3065fa5e946cd60304648",
+      "status": "PASS"
+    }
+  ],
+  "git": [
+    {
+      "repo": "E:\\智慧城市和位置服务",
+      "head": "2c878cc69aec54cf1f9e5e6803eeb1cb9b06bfdc",
+      "index_sha256": "4216b12478e717dcb367733fbbb430911edf77b785c1d3fc9ebd9cd8a80e2bd4",
+      "tracked_status_sha256": "623dbc38d2e4cc6a57459b5850ed57c3442634b858ec3b85479e8309075bced2",
+      "tracked_status_bytes": 30440
+    },
+    {
+      "repo": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services",
+      "head": "677003de184b73a503f830a47186ee7688e13507",
+      "index_sha256": "67f47e86c92bc814144043bdb235f62149b9e0d95aad58cbec356fa68e7f2f0f",
+      "tracked_status_sha256": "d5d41c2760d3aa1f5543964e85015425aa1d322664227cbb52f41d8e9ab90325",
+      "tracked_status_bytes": 22492
+    }
+  ]
+}
