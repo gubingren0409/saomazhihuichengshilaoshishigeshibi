@@ -1,0 +1,43 @@
+{
+  "status": "PASS_NEGATIVE_SOURCE_EXPORT_ONLY",
+  "input_id": "W7a6b5a10076_G_080",
+  "guard_path": "data/common_guards_v3/W7a6b5a10076_G_080.json",
+  "guard_sha256": "ce13b144101dce47e94041da7ca5a1c1d744ba94c6d4280e3ce3110deea54b7e",
+  "parent_guard_sha256": "e543eeb0f36cd048bd2f1f0a85ae077f59512f50db7cec7821c7ce882f8af6bb",
+  "observed_sha256": "23e340a99c013cc5ff10819fb8eb382481ebe2a0d9a8a9fed814134d38c7edf4",
+  "raw_source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "parser_sha256": "5bcefd9a7fddfbea67c778825fdc783d3a39d304ae8729673a620faad5349b83",
+  "source_checks": [
+    {
+      "source_id": "way/178730989",
+      "tags_match_raw": true,
+      "source_ring_closed": true,
+      "source_area_m2": 416.8123084959293,
+      "source_geometry_sha256": "13b08fc96186b38cb46bef24f0adf8064216549f3ae09204d4e04780dbe77781",
+      "source_id_not_hidden_target_or_member": true,
+      "selected_by": "ORIGINAL_ANCHOR_80M_WINDOW_ONLY",
+      "full_geometry_preserved": true
+    }
+  ],
+  "new_payload_allowlist": [
+    "explicit_area_tag",
+    "geometry",
+    "geometry_role",
+    "source_clip_sha256",
+    "source_id",
+    "source_node_ring_closed",
+    "source_tag_area_basis",
+    "tags"
+  ],
+  "hidden_dependency_ids_checked": true,
+  "hidden_geometry_used": false,
+  "reference_files_read": [],
+  "query_files_read": [],
+  "prediction_files_read": [],
+  "positive_boundary_or_footway_data_added_to_guard": false,
+  "raw_node_or_member_arrays_added": false,
+  "domain_geometry_source": "ORIGINAL_OBSERVED_ANCHOR; ACTUAL_SURFACE_DOMAIN_PASSED_TO_BUILD_CONTRACT",
+  "native_boundary_exceptions": "ONLY_FROM_SAME_OBSERVED_NATIVE_FOOT_ALLOWED_EXACT_LINE_IF_ANY; NEVER_RAW_HIDDEN_WAY",
+  "regions_built_by_this_script": 0,
+  "production_old_version_backup": "runs/production_versions/BEFORE_PRIVATE_FIX"
+}

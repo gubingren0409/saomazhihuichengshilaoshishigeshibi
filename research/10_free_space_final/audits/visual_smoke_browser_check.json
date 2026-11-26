@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "browser": "147.0.3912.72",
+  "page_sha256": "f69fae8c4a289ec8701bd558226c75ae18a9d3047d832e70a15c097845660c32",
+  "views": [
+    "file:north",
+    "file:compare",
+    "file:risk",
+    "http:north",
+    "http:compare",
+    "http:risk"
+  ],
+  "checks": [
+    "method_switch_preserves_fixed_local_view",
+    "linked_focus_zoom_and_reset",
+    "three_same_view_same_input_f0_f1_same_surface",
+    "cell_factual_and_planning_axes",
+    "reference_opt_in_only",
+    "region_and_interface_layer_toggles"
+  ],
+  "figures": [
+    {
+      "png": "06-water-and-policy.png",
+      "svg": "06-water-and-policy.svg",
+      "title": "C · 排除了什么，还假设了什么",
+      "case": "W0440b97497a",
+      "tab": "risk",
+      "method": "F1",
+      "mode": "N",
+      "radius": "80",
+      "ref": false,
+      "summary": "预测／评分 30 m · 1 m\n观察 80 m\n可见节点／弧 38 / 80\nM1-C 条件区域 57.81 m²\nF0 条件区域 644.32 m²\nF1 条件区域 644.32 m²\nF0/F1 区域哈希 一致",
+      "query": "Q1",
+      "anchor": [
+        354320,
+        3455800
+      ],
+      "visibleMethods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ],
+      "f0Surface": "d29500873c1ddc137490abf58d72366cadd8589b6ad63fee8f98b2efd62362e3",
+      "f1Surface": "d29500873c1ddc137490abf58d72366cadd8589b6ad63fee8f98b2efd62362e3",
+      "methods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ]
+    }
+  ],
+  "blocked_external": [],
+  "page_errors": []
+}

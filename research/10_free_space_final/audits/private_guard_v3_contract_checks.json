@@ -1,0 +1,18 @@
+{
+  "status": "PASS_COMMON_CONSTRAINT_GEOMETRY_ONLY",
+  "input_id": "W7a6b5a10076_G_080",
+  "v2_contract_serialized_exactly_unchanged_under_new_helper": true,
+  "v3_permission_area_m2": 128.3885591605168,
+  "v3_blocked_increment_m2": 128.38855916051673,
+  "visible_boundary_exception_count": 0,
+  "no_positive_or_hidden_boundary_exception_transferred": true,
+  "private_interior_rejects_native_foot_yes": true,
+  "private_interior_not_bypassed_by_bridge_tag": true,
+  "common_constraints_code_sha256": "bc8e8645a257e7c8f78ab694cd9eccb0aeedd1c6341bc10f28b4cc55e5c6938f",
+  "regions_classified": 0,
+  "routes_computed": 0,
+  "old_outputs_modified": false,
+  "source_guard_path": "data/common_guards_v3/W7a6b5a10076_G_080.json",
+  "R0_contract_read_from_fixed_zip": "delivery/OPEN_REVIEW_R0_PARTIAL.zip",
+  "precheck_note": "Python Shapely mapping tuples are JSON normalized before comparing serialized fixed contracts."
+}

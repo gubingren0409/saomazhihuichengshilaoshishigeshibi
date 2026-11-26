@@ -1,0 +1,14 @@
+{
+  "current_final_modules": {
+    "region.py": "74d579de368df4f60623ee26e1c804134ea0e142b89ff56b554678f8fdb268e8",
+    "context_policy.py": "73360280dd9fd14b3d75c3852fabab03254b8c14d3af430e1305f27daa2e3f25",
+    "region_routing.py": "8a0863972877eebb67407443ec41fef5504c91c3510d25b621f5820b14d5100f",
+    "common_constraints.py": "bc8e8645a257e7c8f78ab694cd9eccb0aeedd1c6341bc10f28b4cc55e5c6938f",
+    "free_surface.py": "de0759ca1ec1d2554c9ebd87f72ba3a4906a21016caa1c029d68a16911216ba8",
+    "free_routing.py": "4488e8715638926af37565c0a0b414b64efbeb639994d6043d3afa86d39b75f5",
+    "predict_free.py": "9acdeffb3a44f78a9358375ec61c8773e959c07defe2119c50100e8101c26eb4"
+  },
+  "main_batch_binding": "runs/production_versions/MAIN_R4/predictor_binding.json",
+  "version_note": "After main batch ended: explicit observed-only north surface cache and post-freeze visible-source terminal repair added. Main FULL_NETWORK semantics unchanged; per-run code_sha includes contemporaneous independent score/visual code.",
+  "private_repair_note": "V3 only for manifest-bound W7 negative source area, previous same-masked-observed classifier cache; first sealed R0 versions and actual source/budget evidence retained."
+}

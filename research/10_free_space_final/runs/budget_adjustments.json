@@ -1,0 +1,35 @@
+{
+  "adjustments": [
+    {
+      "original_receipt": "runs/superseded/R1_partition_defect/runs/executions/W71107d26ecd_G_080_7p_zah9i_INTERRUPTED.json",
+      "original_receipt_sha256": "774978eed1404fdeba29322e6cf413c87925571b4c655bb567bec3599848953d",
+      "original_conservative_upper": 4,
+      "revised_stage_upper": 2,
+      "adjustment": -2,
+      "basis": "Frozen R1 source writes constraints.json after M0/M1 and before MC/F0; stopped complete preserved worker has only five inputs, no constraints or freeze. Independent source-stage review confirms upper bound, not exact count.",
+      "preserved_worker_inputs": {
+        "config.json": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026",
+        "guards.json": "c57820852c4213bbcf2485eef98a6cac3db2f257900926e3a6c6f7e0d8035c6f",
+        "historical_methods.json": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f",
+        "observed.json": "ace9057c20b3dc3b3e217cc0a86d73be8e400fc1aaa5550fa4d8f58031c4995d",
+        "query.json": "c2350aeef9d82733abcbd854f58c6807dc0327d5ea95078ebce92cceaad0b85d"
+      },
+      "historical_cache": "data/classifier_cache/NORTH_160.json",
+      "cache_sha256": "159fb5b76a78608b4e29e650144cb1698f20c82a377ff65b0bf0fd3a6de29abd",
+      "cache_role": "NATURAL_UNMASKED_OBSERVED_ONLY_CLASSIFIER_SURFACE_NOT_QUERY_OR_REFERENCE",
+      "classifier_executed_anew_for_north": false,
+      "new_north_region_builds": 2
+    },
+    {
+      "category": "CORRECT_STATIC_SYNTHETIC_ARITHMETIC",
+      "adjustment": -2,
+      "old_estimate": 32,
+      "corrected_scientific_synthetic_builds": 30,
+      "basis": "Initial 12 scenario contracts: fence open/closed/locked gives 3 invocations, others 11 x1 =>14 fixture invocations x2=28; targeted test11 adds2. Later assertions add no fixture. Cold trace validates current cardinality, not a fabricated original event log.",
+      "actual_cold_trace_sha256": "6b8332e7ce369802895d5df8be9e20864b603cc03dfdffefa6bad378f4ef591b",
+      "independent_proof_sha256": "2b15f958ffde5248f87a6900c67f494c8fb3dd64fa987fff368381ea2e1ca9e4",
+      "early_initial_test_file_sha": "NOT_SEPARATELY_SNAPSHOTTED; original execution history and unchanged call structure reviewed"
+    }
+  ],
+  "total_adjustment": -4
+}

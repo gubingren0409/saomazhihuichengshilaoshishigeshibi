@@ -1,0 +1,77 @@
+{
+  "status": "PASS_SCOPED",
+  "reviewer": "/root/free_evaluation",
+  "review_identity": "Separate actual execution context; did not write main classifier, solver or common constraint extraction; identified defects then independently recomputed repaired outputs",
+  "timestamp_local": "2026-11-11T15:30:10.613907+08:00",
+  "checks": [
+    {
+      "check": "R1_final_metrics",
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "receipt_record": "R1_final_metrics"
+    },
+    {
+      "check": "R1_all_graphs_solver_input_isolation",
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "receipt_record": "R1_all_graphs_solver_input_isolation"
+    },
+    {
+      "check": "R1_historical_common_bridge",
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "receipt_record": "R1_historical_common_bridge"
+    },
+    {
+      "check": "R1_source_access_D30_scope",
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "receipt_record": "R1_source_access_D30_scope"
+    },
+    {
+      "check": "R1_private_graph_574_to_zero",
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "receipt_record": "R1_private_graph_574_to_zero"
+    },
+    {
+      "check": "R1_source_negative_guard_input",
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "receipt_record": "R1_source_negative_guard_input"
+    },
+    {
+      "check": "R1_budget_upper",
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "receipt_record": "R1_budget_upper"
+    },
+    {
+      "check": "R1_source_all_inputs_routes",
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "receipt_record": "R1_source_all_inputs_routes"
+    },
+    {
+      "check": "R1_source_bridge_read_scope",
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "receipt_record": "R1_source_bridge_read_scope"
+    }
+  ],
+  "numerical_and_structure_checks_passed": true,
+  "unresolved_common_constraint_gaps": [],
+  "scored_prediction_files": 150,
+  "independently_checked_inputs": 26,
+  "metrics_sha256": "4df10a71b17a1c274d932c9378fb1f3231d28d2f1e20c26ec98f1ed7aa702690",
+  "execution_records_sha256": "e676ca6089f798888a7bf6290a089f1f19c747d6dc0831352f626b1d2d34b9f8",
+  "R0_history": "audits/R0_review_history/",
+  "limits": [
+    "Same-source exposed paired diagnostic, not new blind confirmation",
+    "Original mapped exit and reference targets are not independently surveyed physical entrances",
+    "Unknown obstacles, level facts, opening time and public access are unverified",
+    "Road centerlines constrain new crossing but do not provide full carriageway widths",
+    "Final fixed ZIP replay and privacy/manifest audit have separate external receipts",
+    "Internal technical checks do not replace GPT review or user natural-language acceptance"
+  ]
+}

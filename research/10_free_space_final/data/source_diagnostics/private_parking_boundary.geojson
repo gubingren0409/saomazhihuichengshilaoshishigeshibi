@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:32651"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              354308.7074087827,
+              3456102.328209247
+            ],
+            [
+              354321.03002671245,
+              3456036.567666433
+            ],
+            [
+              354314.0867397429,
+              3456036.0207549883
+            ],
+            [
+              354303.23013257165,
+              3456101.007101768
+            ],
+            [
+              354308.7074087827,
+              3456102.328209247
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "way/178730989",
+        "source_tags": {
+          "access": "private",
+          "amenity": "parking"
+        },
+        "role": "PRIVATE_PARKING_INTERIOR_FORBIDDEN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            354308.7074087827,
+            3456102.328209247
+          ],
+          [
+            354303.23013257165,
+            3456101.007101768
+          ]
+        ]
+      },
+      "properties": {
+        "source_id": "way/178719573",
+        "area_source_id": "way/178730989",
+        "role": "EXACT_EXISTING_FOOT_ALLOWED_NATIVE_BOUNDARY_LINE_ONLY",
+        "buffer_m": 0
+      }
+    }
+  ]
+}

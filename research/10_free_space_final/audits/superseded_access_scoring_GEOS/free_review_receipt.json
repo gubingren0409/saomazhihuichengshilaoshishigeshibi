@@ -1,0 +1,127 @@
+{
+  "status": "REQUIRES_REPAIR",
+  "reviewer": "/root/free_evaluation",
+  "review_identity": "Separate actual agent execution context; did not author classifier, graph builder, solver or common constraints",
+  "timestamp_local": "2026-11-11T14:53:22.323720+08:00",
+  "checks": [
+    {
+      "check": "raw_guard_sources",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "src/audit_free.py",
+        "--guards-only",
+        "--source-dir",
+        "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R4_CONTEXT\\frozen_r3\\inputs\\rev1\\frozen_r4\\data\\source"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/independent_raw_guard_sources.log"
+    },
+    {
+      "check": "closed_access_source_scope",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "scripts/audit_closed_access_domain.py",
+        "--source-dir",
+        "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R4_CONTEXT\\frozen_r3\\inputs\\rev1\\frozen_r4\\data\\source"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/independent_closed_access_source_scope.log"
+    },
+    {
+      "check": "metrics",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "src/score_free.py",
+        "--require-main"
+      ],
+      "exit_code": 1,
+      "receipt": "audits/independent_metrics.log"
+    },
+    {
+      "check": "geometry_graph_isolation",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "src/audit_free.py",
+        "--graphs",
+        "--require-main"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/independent_geometry_graph_isolation.log"
+    },
+    {
+      "check": "historical_common_bridge",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "scripts/review_historical_bridge.py",
+        "--require-main"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/independent_historical_common_bridge.log"
+    },
+    {
+      "check": "budget_surface_cache",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "scripts/review_budget_cache.py",
+        "--cache",
+        "data/classifier_cache/NORTH_160.json"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/independent_budget_surface_cache.log"
+    },
+    {
+      "check": "source_known_access_graph_impact",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "scripts/review_known_access_graphs.py"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/independent_source_known_access_graph_impact.log"
+    }
+  ],
+  "unresolved_common_constraint_gaps": [
+    {
+      "id": "W7a6b5a10076_G_080",
+      "source_id": "way/178730989",
+      "tags": {
+        "access": "private",
+        "amenity": "parking"
+      },
+      "area_role": "IMPLICIT_AREA_TAGS",
+      "inside_D30_m2": 128.3885591605168,
+      "assumed_overlap_m2": 128.38855916051605,
+      "native_area_overlap_m2": 0.0,
+      "source_present_in_original_observed_context": false,
+      "masked_or_removed_source_identity": false
+    }
+  ],
+  "numerical_and_structure_checks_passed": false,
+  "limits": [
+    "Same-source exposed diagnostic, not blind or field navigation validation",
+    "Whole new local graph and actual route segments; old full natural graph is verified through input hashes and used-edge provenance, not rerun independently as a city network",
+    "Only explicit mapped constraints can be checked; unmapped barriers, current public access and levels remain unverified",
+    "Application input audit is not an OS sandbox",
+    "Human natural-language acceptance is pending; this review does not substitute for it"
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "source_id": "way/178730989",
+  "source_tags": {
+    "access": "private",
+    "amenity": "parking"
+  },
+  "source_geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          354308.7074087827,
+          3456102.328209247
+        ],
+        [
+          354321.03002671245,
+          3456036.567666433
+        ],
+        [
+          354314.0867397429,
+          3456036.0207549883
+        ],
+        [
+          354303.23013257165,
+          3456101.007101768
+        ],
+        [
+          354308.7074087827,
+          3456102.328209247
+        ]
+      ]
+    ]
+  },
+  "rule": "AREA_INTERIOR_RESTRICTED; ONLY_ENUMERATED_NATIVE_FOOT_YES_EXACT_BOUNDARY_EXCEPTION",
+  "results": [
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "M1-C",
+      "domain_private_overlap_m2": 128.38855916051673,
+      "state_area_overlaps_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 128.38855916051605
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "F0",
+      "domain_private_overlap_m2": 128.38855916051673,
+      "state_area_overlaps_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 128.38855916051605,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 0.0
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "F1",
+      "domain_private_overlap_m2": 128.38855916051673,
+      "state_area_overlaps_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 128.38855916051605,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 0.0
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "M1-C",
+      "domain_private_overlap_m2": 0.0,
+      "state_area_overlaps_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 0.0
+      },
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F0",
+      "domain_private_overlap_m2": 0.0,
+      "state_area_overlaps_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 0.0
+      },
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1",
+      "domain_private_overlap_m2": 0.0,
+      "state_area_overlaps_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 0.0
+      },
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        }
+      ]
+    }
+  ],
+  "new_region_builds": 0,
+  "predictions_modified": false
+}

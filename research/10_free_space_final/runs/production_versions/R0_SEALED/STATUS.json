@@ -1,0 +1,56 @@
+{
+  "task": "OSM-GEOAPIFY-R4-FREE-SPACE-R1",
+  "started_at": "2026-11-11T13:39:29+08:00",
+  "updated_at": "2026-11-11T14:58:38.248560+08:00",
+  "status": "PARTIAL_WITH_EVIDENCE",
+  "phase": "EXPERIMENTS_STOPPED_REVIEW_PACKAGE_SEALING",
+  "active_compute_budget_s": 14400,
+  "max_region_builds": 200,
+  "external_requests": 0,
+  "training_runs": 0,
+  "entrance_generation": "DEFERRED_PENDING_USER_DESIGN",
+  "pending": [
+    "final fixed ZIP clean replay and independent member check only"
+  ],
+  "completed_inputs": 26,
+  "region_builds": 200,
+  "active_worker_wall_s": 1196.6404469999688,
+  "primary_parents": 25,
+  "primary_queries": 41,
+  "primary_positive_queries": 33,
+  "primary_raw_positive_reached": {
+    "M1-C": 20,
+    "F0": 26,
+    "F1": 26
+  },
+  "region_build_accounting_upper": 200,
+  "region_build_limit": 200,
+  "known_unresolved": {
+    "input_id": "W7a6b5a10076_G_080",
+    "source_id": "way/178730989",
+    "known_private_area_assumed_m2": 128.38855916051605,
+    "affected_primary_parents": 1,
+    "route_private_interior_m": 0,
+    "reason": "SOURCE_CONSTRAINT_EXPORT_OMISSION_NOT_FIXED_AT_REGION_BUILD_CAP"
+  },
+  "new_map_or_provider_api_requests": 0,
+  "documentation_web_tool_calls": 3,
+  "whole_goal_wall_s_at_seal": 4749.24856,
+  "natural_queries": 8,
+  "prediction_files": 150,
+  "independent_review": "PARTIAL_WITH_EVIDENCE_NUMERICAL_AND_STRUCTURE_CHECKS_PASSED_POLICY_GATE_NOT_PASSED",
+  "author_review": "PARTIAL_WITH_EVIDENCE_INTEGRITY_PASS",
+  "known_constraint_gap_fixed": false,
+  "experiment_processes_stopped": true,
+  "read_only_demo_service": "http://127.0.0.1:53378/visuals/index.html",
+  "recorded_worker_wall_s": 1221.057176399976,
+  "memory_end_snapshot_max_MiB": 880.42578125,
+  "memory_measurement_note": "Legacy prediction field named peak_working_set_bytes stores method-end RSS snapshots; not measured system peak",
+  "disk_free_C_GiB_at_seal": 3.3754959106445312,
+  "packaging_note": "Fixed ZIP followed by external delivery/replay_receipt.json, independent_package_check.json and FINAL_STATUS.json; receipt creation occurs after immutable manifest",
+  "optional_diagnostics_not_run": [
+    "21 H80 positive instances",
+    "8 named 40/160 radius instances"
+  ],
+  "next_goal_started": false
+}

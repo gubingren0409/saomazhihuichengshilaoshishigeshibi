@@ -1,0 +1,4311 @@
+{
+  "status": "PASS_SOURCE_ACCESS_REPAIR_WITH_LIMITS",
+  "reviewer": "/root/free_constraints source role, independent from primary classifier/router; author of shared constraint helper",
+  "scope": "READ_ONLY_SOURCE_POLYGON_AND_EXACT_BOUNDARY_RECOMPUTE_FOR_ALL_25_PRIMARY_PLUS_NORTH; NO_CLASSIFIER_OR_SOLVER_CALL",
+  "R0_fixed_archive_sha256": "2b5154e9e80afccd8a04901e7d3e81630dddbe7f50964c6f2ba005a5ce8b595b",
+  "source_registry_sha256": "a540f7738372e6287ebc515b1432f7eea0d14bec82e91f777d4986cc320f7acb",
+  "script_sha256": "24b88f514f57079b351295725a035a4903da45c4a6da32876f9e6c4d2af1641c",
+  "input_count": 26,
+  "prediction_branch_count": 150,
+  "area_tolerance_m2": 1e-06,
+  "line_tolerance_m": 1e-06,
+  "guard_and_cache_checks": {
+    "exact_negative_area_id_only": true,
+    "negative_payload_no_positive_keys": true,
+    "same_observed_hash_as_fixed_R0": true,
+    "pure_M0_M1_cache_exact_R0_classification": true,
+    "only_four_pure_cache_keys": true,
+    "actual_cache_hash": true,
+    "actual_v3_guard_hash": true,
+    "cache_then_surface_freeze_then_query": true,
+    "private_boundary_positive_exception_count_is_zero": true,
+    "no_other_fixed_prediction_changed": true
+  },
+  "unchanged_other_predictions": [
+    {
+      "path": "data/predictions/W0440b97497a_N_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0440b97497a_N_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0440b97497a_N_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0440b97497a_N_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0440b97497a_N_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0440b97497a_N_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0440b97497a_N_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0caca58bc41_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0caca58bc41_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0caca58bc41_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0caca58bc41_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0caca58bc41_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0caca58bc41_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W0caca58bc41_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W2b809bbe6b8_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W2b809bbe6b8_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W2b809bbe6b8_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W2b809bbe6b8_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W2b809bbe6b8_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W2b809bbe6b8_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W2b809bbe6b8_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W363939afb45_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W363939afb45_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W363939afb45_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W363939afb45_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W363939afb45_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W363939afb45_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W363939afb45_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W87f642a7b21_N_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W87f642a7b21_N_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W87f642a7b21_N_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W87f642a7b21_N_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W87f642a7b21_N_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W87f642a7b21_N_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W87f642a7b21_N_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wacc0185d756_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wacc0185d756_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wacc0185d756_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wacc0185d756_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wacc0185d756_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wacc0185d756_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wacc0185d756_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wae8bd8566f9_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wae8bd8566f9_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wae8bd8566f9_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wae8bd8566f9_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wae8bd8566f9_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wae8bd8566f9_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wae8bd8566f9_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/We43ad3502c7_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/We43ad3502c7_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/We43ad3502c7_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/We43ad3502c7_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/We43ad3502c7_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/We43ad3502c7_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/We43ad3502c7_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W71107d26ecd_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W71107d26ecd_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W71107d26ecd_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W71107d26ecd_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W71107d26ecd_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W71107d26ecd_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W71107d26ecd_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W9ec65a55fde_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W9ec65a55fde_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W9ec65a55fde_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W9ec65a55fde_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W9ec65a55fde_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W9ec65a55fde_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W9ec65a55fde_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wc4183046a70_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wc4183046a70_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wc4183046a70_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wc4183046a70_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wc4183046a70_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wc4183046a70_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wc4183046a70_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W384c2d89f5c_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W384c2d89f5c_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W384c2d89f5c_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W4d1eccec240_N_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W4d1eccec240_N_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W4d1eccec240_N_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W6daddd19fdb_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W6daddd19fdb_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W6daddd19fdb_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W745941f0f92_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W745941f0f92_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W745941f0f92_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W85f439ac693_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W85f439ac693_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W85f439ac693_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wa426c5c4d49_N_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wa426c5c4d49_N_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wa426c5c4d49_N_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wdb2b99d1247_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wdb2b99d1247_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wdb2b99d1247_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wf405b19d925_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wf405b19d925_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wf405b19d925_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W6bccdf122cb_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W6bccdf122cb_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W6bccdf122cb_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W6bccdf122cb_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W6bccdf122cb_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W6bccdf122cb_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W6bccdf122cb_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W902d9fe8127_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W902d9fe8127_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W902d9fe8127_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W902d9fe8127_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W902d9fe8127_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W902d9fe8127_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W902d9fe8127_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W97b65e9a893_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W97b65e9a893_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W97b65e9a893_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W97b65e9a893_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W97b65e9a893_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W97b65e9a893_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/W97b65e9a893_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wa273f228558_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wa273f228558_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wa273f228558_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wa273f228558_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wa273f228558_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wa273f228558_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wa273f228558_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wce5a4f14276_G_080/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wce5a4f14276_G_080/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wce5a4f14276_G_080/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wce5a4f14276_G_080/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wce5a4f14276_G_080/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wce5a4f14276_G_080/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/Wce5a4f14276_G_080/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    }
+  ],
+  "cases": [
+    {
+      "input_id": "W0440b97497a_N_080",
+      "method": "F0",
+      "prediction_sha256": "e26e70e3fbe5457a96bfd2895b7e4a2bf9f34aa23b7d7a3458a479f401118c03",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "method": "F1-L1",
+      "prediction_sha256": "23405443d1ffb8d49fadb42f436dc6c16e1d17f2d3d0ca0951a6ec3106b9775b",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "717354923819398adfd5fe8f915fdf0d39e0f9621cc29d927219546990397232",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "method": "F1-L3",
+      "prediction_sha256": "1f85c68749af8021fe9313782046ede3053c7152e674e7ad70c50ce9911a47ec",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "method": "F1-L5",
+      "prediction_sha256": "11b0e33c89743ae58f0db8fc7654a0a30137011c39c63e1f5ef9360df3de63ee",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "method": "F1",
+      "prediction_sha256": "dcd676f43a474d5fa2efdf251bd3f25877b76fcdd5fb3827e5cc764837d5763e",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0440b97497a_N_080",
+      "method": "M1-C",
+      "prediction_sha256": "2cc1930b3ca53cedd6f0118e4ab73d665f8470eebbcd9472af823c291c2cb9da",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "method": "F0",
+      "prediction_sha256": "e57543176e3ae23aec4214e9f9f23e5a9b297917959215d0eef1b71f6552e917",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q3",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "b6ebded028e43a63d9c33506a2f609ee5ec17959fb5dfd656c2617c81d80b1b6",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q3",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "30f15efe035dd22ef431ed2a8d8f988418a443fa428e4409d0ba9aea12ddcc64",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q3",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "555afcc3c5461195b448b24e5a6f71880d5626d2beb2af172ccd167369909353",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q3",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "8e914572051e852d54bc766dd390b5759f11823e5cbd51268bcf6c3d61384cc2",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q3",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "method": "F1",
+      "prediction_sha256": "bbc75366c334563f1c700722e4a46379588f9016ce54274978c1c117886b0813",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q3",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W0caca58bc41_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "989693b7d8e914bf7d5b1acab6a779361a0ae5215278a8ae60fea19aaae0560e",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q3",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "method": "F0",
+      "prediction_sha256": "a11fa23ee8f456e316cc066f35e9dc4d9c3183b641b797cfaeeb42d955e22803",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "1db4232f9b97a66b6c80dc30a7c57951c5a7b80391244db72a9ee1de48019387",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "64a3441240630e64214b2af79dfcca6575968e734f756efc662a284c1a77a779",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "86b4a14a7ec05c3d95599162c8ca356aaa083b69e255db3cea1d43680b7b7a50",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "a6d18a5e2dcff03f21b297adb0df3aeca608adb516a39d0155b79714f07d9ad4",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "method": "F1",
+      "prediction_sha256": "716d70152ffc456202add2c0549c1d3da0261612ad3446cbbd89796dea41fa27",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W2b809bbe6b8_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "42f393ff355363df1060e25514fc433499257f7be84fabb93840779205e134f7",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "method": "F0",
+      "prediction_sha256": "528c7589ad570fd64a447fe515e68ed95582c54e9e6e48433a5dce989f8470b6",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "993dbcec99cf40fcca28dfb418722e9af02911638cf0760609b33791a45055c2",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "e188454440ef205d53122af430774fb933cf90b858f89b533c813e53fcad149c",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "57a055d2b032f38ec2399306eca5a36a1d52a01f31c30501fb3eaf90c0e0adac",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "71f9d676c1c69224ec633130c4137cfb2cd94ddd1bc558dd921a97c006f0ddd4",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "method": "F1",
+      "prediction_sha256": "c721b8c8675e76f33db134a63b1232485212f305e388f4473bb09256ccee820a",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W363939afb45_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "b64b14e3de81ed7eb91823e73cf70d65bda09d58f100c9512882e93f55426ec6",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "F0",
+      "prediction_sha256": "0c8a49e391438d77384f23034bddf6a482dfbe1d2893075623f69c0bf46632b1",
+      "source_area_domain_intersections": [
+        {
+          "source_id": "way/178730989",
+          "source_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "actual_private_area_within_D_m2": 128.3885591605168,
+          "actual_state_overlaps_m2": {
+            "NATIVE_WALKABLE": 0.0,
+            "INFERRED_WALKABLE": 0.0,
+            "RESTRICTED": 128.38855916090986,
+            "UNKNOWN": 0.0
+          },
+          "passable_conflict_m2": 0.0,
+          "restricted_shortfall_m2": 0,
+          "status": "PASS_WITH_NUMERICAL_TOLERANCE"
+        }
+      ],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "b91984d99c341f66932c2ca2eccc8567bdeb6fdab87494a34d997e4efed0ac00",
+      "source_area_domain_intersections": [
+        {
+          "source_id": "way/178730989",
+          "source_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "actual_private_area_within_D_m2": 128.3885591605168,
+          "actual_state_overlaps_m2": {
+            "NATIVE_WALKABLE": 0.0,
+            "INFERRED_WALKABLE": 0.0,
+            "RESTRICTED": 128.38855916090986,
+            "UNKNOWN": 0.0
+          },
+          "passable_conflict_m2": 0.0,
+          "restricted_shortfall_m2": 0,
+          "status": "PASS_WITH_NUMERICAL_TOLERANCE"
+        }
+      ],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "16113a40a97400fe31a8f7495171f3d6f766e560b2cdd2d1ef641c66688c50a4",
+      "source_area_domain_intersections": [
+        {
+          "source_id": "way/178730989",
+          "source_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "actual_private_area_within_D_m2": 128.3885591605168,
+          "actual_state_overlaps_m2": {
+            "NATIVE_WALKABLE": 0.0,
+            "INFERRED_WALKABLE": 0.0,
+            "RESTRICTED": 128.38855916090986,
+            "UNKNOWN": 0.0
+          },
+          "passable_conflict_m2": 0.0,
+          "restricted_shortfall_m2": 0,
+          "status": "PASS_WITH_NUMERICAL_TOLERANCE"
+        }
+      ],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "e5882b0afeeb0dbea390ae2f76c51108353feef873ca8a107bc0c90d9bb07ed3",
+      "source_area_domain_intersections": [
+        {
+          "source_id": "way/178730989",
+          "source_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "actual_private_area_within_D_m2": 128.3885591605168,
+          "actual_state_overlaps_m2": {
+            "NATIVE_WALKABLE": 0.0,
+            "INFERRED_WALKABLE": 0.0,
+            "RESTRICTED": 128.38855916090986,
+            "UNKNOWN": 0.0
+          },
+          "passable_conflict_m2": 0.0,
+          "restricted_shortfall_m2": 0,
+          "status": "PASS_WITH_NUMERICAL_TOLERANCE"
+        }
+      ],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "8b70ebbb458118f5a55ebcd080599a01d833657262510c0b50cd852566a1b760",
+      "source_area_domain_intersections": [
+        {
+          "source_id": "way/178730989",
+          "source_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "actual_private_area_within_D_m2": 128.3885591605168,
+          "actual_state_overlaps_m2": {
+            "NATIVE_WALKABLE": 0.0,
+            "INFERRED_WALKABLE": 0.0,
+            "RESTRICTED": 128.38855916090986,
+            "UNKNOWN": 0.0
+          },
+          "passable_conflict_m2": 0.0,
+          "restricted_shortfall_m2": 0,
+          "status": "PASS_WITH_NUMERICAL_TOLERANCE"
+        }
+      ],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "F1",
+      "prediction_sha256": "3b73ed8a48913b595c9a51de5b3a9dd9e6333ef88f64908d6ae8a26c583d354c",
+      "source_area_domain_intersections": [
+        {
+          "source_id": "way/178730989",
+          "source_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "actual_private_area_within_D_m2": 128.3885591605168,
+          "actual_state_overlaps_m2": {
+            "NATIVE_WALKABLE": 0.0,
+            "INFERRED_WALKABLE": 0.0,
+            "RESTRICTED": 128.38855916090986,
+            "UNKNOWN": 0.0
+          },
+          "passable_conflict_m2": 0.0,
+          "restricted_shortfall_m2": 0,
+          "status": "PASS_WITH_NUMERICAL_TOLERANCE"
+        }
+      ],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "9ba0f98402955bc22aca9376ae9c35b7048ee27b524053b5f53d556f501ef31e",
+      "source_area_domain_intersections": [
+        {
+          "source_id": "way/178730989",
+          "source_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+          "actual_private_area_within_D_m2": 128.3885591605168,
+          "actual_state_overlaps_m2": {
+            "NATIVE_WALKABLE": 0.0,
+            "INFERRED_WALKABLE": 0.0,
+            "RESTRICTED": 128.38855916090986,
+            "UNKNOWN": 0.0
+          },
+          "passable_conflict_m2": 0.0,
+          "restricted_shortfall_m2": 0,
+          "status": "PASS_WITH_NUMERICAL_TOLERANCE"
+        }
+      ],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "method": "F0",
+      "prediction_sha256": "eb5a27c38a55957e3354822c0ba0ab3f7adedffbfb1e81edfb50bc834aba7273",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "method": "F1-L1",
+      "prediction_sha256": "08f49fa161c140d80debabe4742f27d5e8c25cf75c515720755b27a396ca83da",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "c15b7ecefcb527089490c3bb4678f0af621a021a80cba2b652c075731486a35f",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "method": "F1-L3",
+      "prediction_sha256": "d7a47d913e55332a17a999bea2eedcd5e25aac5edb96afd6411e42b5bc4fc329",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "method": "F1-L5",
+      "prediction_sha256": "36035e95ef4d0e77755133265768d11376035b5420b2f8479c4d3b15dc88bfdb",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "method": "F1",
+      "prediction_sha256": "9e96c3f2140f594c39d8012dbec667af111a65fc2521d0487011876c4a069eb1",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W87f642a7b21_N_080",
+      "method": "M1-C",
+      "prediction_sha256": "d40e211a2fad65e3c36b643f7ee625cb59dace9f6bb4818b40bfcfbfd806441b",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "method": "F0",
+      "prediction_sha256": "3fe420575e95a7027879021806576b5ef436349e5abf8c542dc518495cf1de62",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "fa2958513f58e93860275adfe99f5d4e6032e5a6d4c3b1610f2a207a913828b1",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "dffa5f4597df483db53568a2cd3217435acf6dfb514d565a498e89b791926703",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "ed8e7fa76a05636f9a99277e87e04d8c451b42becf4dfed874078438a6234b84",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "402230df8791ab66b9009b562bd0a5eadf8c8c3493874d70198847d0e941557e",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "method": "F1",
+      "prediction_sha256": "04d1b10c77d5984cebd2f1fcc630e27ade63af9caa62ce08fbb504bd5111b66b",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wacc0185d756_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "027e3a27ed987698b3d3fa47feb25fc2992adde0dfcf6df15829ff2c2325d100",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "method": "F0",
+      "prediction_sha256": "c56e9baff44dc8d36a20cf2a5c5e9571b41ae858d77bdb5922129b7f24d0d461",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "74b11bdf52a2b25c9a90748f4999b99f705d47cbe6a686e3824dad48f421e01a",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "d2cef8c9e463bceeaead7a1b252ecc9bb7959655c98e1b22945dbd761078cbcf",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "f6319a587d11b57a06564fcbbfc7e90b61aad03185d3da31149ee6cff7ce2697",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "07d824a9b619e2c3fb52044e99316a8fd6c0093315f13b0423343dcb746ef18f",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "method": "F1",
+      "prediction_sha256": "f97d336b180ce16df8cfd37de4a5cef7e0532a41b52fdb48850a4524f7ac649f",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wae8bd8566f9_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "c3dc2fec766fe426c0a58bd26d5185b0650e70751203038df58d549568a81c72",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "method": "F0",
+      "prediction_sha256": "5dfad6fa963c9a7d734d786222de4b6a0db669f7c0bbd2848ac50ae1d1bdba2b",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "0f2db3f7245b4e57e48bf63a1dfcd2c92eb0020a2f9d413e3d581f63a23455bb",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "54dbc6b9f71107a22dd38414b64a0c94db94cae5ee36e1d147ef87591f4198ff",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "d37be976a972d7f6b9f20e1026af97c8d9af351b37f7441eeccab16794a6132d",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "eab092bc3659cddef0df1dec780d21648f0dc73f868e839c5b6a8f6faf8b4be7",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "method": "F1",
+      "prediction_sha256": "3c62b7e9c22e839f4c3a785ee2eda62063659441ed2edb0ba5a8f0fcb9643a69",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "We43ad3502c7_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "1daec4c6e40aac08801c48e5fc805d4037c4a2b0b1e8b585ee69a8a2c13b08d1",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W71107d26ecd_G_080",
+      "method": "F0",
+      "prediction_sha256": "81da152c83eb2552d4b3d6dc67449f6f99f20df5046332b24195de06d213a06b",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W71107d26ecd_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "f0ff2db5a26d1350615ac1d03fa1951b6ee3e97a829c5704131de676c1a8053b",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W71107d26ecd_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "4ce3563b5312b99caf9ddc8a38aef660cabc01d9a9f17d3affc7f932eafcbb22",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W71107d26ecd_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "87bb039a290ffbbec900b487182c44366ec8b7a38d52ce22dfd5a7dae297f9f7",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W71107d26ecd_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "b72a8448fb18806f4df3121120b60fb49ce76010769557ce42ece07198a2d9fa",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W71107d26ecd_G_080",
+      "method": "F1",
+      "prediction_sha256": "491996adb2053c444ef75e41763f7be2f1bb5e42a5fecb15cc69e8aa115e33ea",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W71107d26ecd_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "1102ef5fb947ddba7a30ffd791fb5ab5854b74e9177e5cf1e29404780b3d8e57",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "method": "F0",
+      "prediction_sha256": "80e18cb2b72272d387fb56d67af4f920cc28f6fc50a280d0f77ebe3503b85dd7",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "2b9e988c3b52e0f1809dd8ee126715db21a1d4a78f2cebeff9bfaea8330258e7",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "beeab0d32d78ebbe09eef3e39dcac5b57dc4b03faec10729769e6bf100cf03cf",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "c3672e686b75a2872f0ff64b2fa714e3264d13696c7f496c442df7c4c36c330e",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "502a5fc2dc307baf274f59d4f2df3c5d19a8aa737231f5e9f74253efa691d118",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "method": "F1",
+      "prediction_sha256": "b3f1e6834c1ffa4e14304ecc26940fd8aad92d5e1a89de86c580ade7c0c7296f",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W9ec65a55fde_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "11a27e84d32511104de096382aad58ebc1d270d0350ea0b7c9656133b5638455",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wc4183046a70_G_080",
+      "method": "F0",
+      "prediction_sha256": "a877809d99c682f8b880a634439a7d2f65c47147d353927da4cceba103034c21",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "Wc4183046a70_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "b75cb04793b245d37348f3273c63d6d567313f5a4e3373de27cb041db3c6b06a",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "Wc4183046a70_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "441d7f61c3184a3e5917381c2146c079fa23dbd51d2bf5dd0f208692bd5dd375",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "Wc4183046a70_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "1ef245e4a38026b8f1979e7152b9186585dd9a00a642ad0a90f17b1a9d896a93",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "Wc4183046a70_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "9b1d2aeb3d16c08bd0156646aacc92ca4024d9132825fb404a4ed870a9451227",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "Wc4183046a70_G_080",
+      "method": "F1",
+      "prediction_sha256": "1352e6b132b197fc038354154e322aab9b3480fd8ed107687ff862058a9addbe",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "Wc4183046a70_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "3dccbd825d1a7168ac6de4059102abecc19a9fd825cd08f048116b28dd166a99",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W384c2d89f5c_G_080",
+      "method": "F0",
+      "prediction_sha256": "d341d32920064e65904214aecdeb04830804d3b3253e87d949263b8cd442a622",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W384c2d89f5c_G_080",
+      "method": "F1",
+      "prediction_sha256": "05f5e66d515d4266af37102dfb48a22e7704ce218dc2a519719a0d67dc716a6c",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W384c2d89f5c_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "1c0306028e585ec13102bad0c8c479edccef7dd3bc01c34c1928065fad8908ec",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W4d1eccec240_N_080",
+      "method": "F0",
+      "prediction_sha256": "bcc44bd6d36675e966797fb4d1345be88d36b3bc4f8b880571335341df0b67a5",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W4d1eccec240_N_080",
+      "method": "F1",
+      "prediction_sha256": "87b1a399398b993b71bb6aa44fd5f072b00b5b414d51786b31e184e52b093ebb",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W4d1eccec240_N_080",
+      "method": "M1-C",
+      "prediction_sha256": "94ddb88ecf847d5431ec59c16c64dd8d8d377e25aa3fdd0d32606f991144cdd7",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W6daddd19fdb_G_080",
+      "method": "F0",
+      "prediction_sha256": "fa088b16df2263371c6f0b7965a953198d0750145e6472ee7aaa80a9b69df29e",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W6daddd19fdb_G_080",
+      "method": "F1",
+      "prediction_sha256": "fadf62d421098c7a27ca1c98a196f0e35f15b28e0ce342063b81be275de64ab0",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W6daddd19fdb_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "7c249eabbe3237f27536deba07453a55bde8b4b0933f1b8f93dabd9d9e4a64f8",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W745941f0f92_G_080",
+      "method": "F0",
+      "prediction_sha256": "e749be0aea88cfec6c3eea96e6f8e27e00134d9254eb3e60d81bf47fef3ce0e5",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W745941f0f92_G_080",
+      "method": "F1",
+      "prediction_sha256": "2d74725c92f675f2d5b4e53f8907f23efe83d1f16e1bd79034c791aef0f870e3",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W745941f0f92_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "08801370889e7c260632b7cb4f818be49e7f460e0eeb371f951b9079c26a3db6",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W85f439ac693_G_080",
+      "method": "F0",
+      "prediction_sha256": "cba638e859ad4c43d0c341c3fe9c794d08afe884397348dd6b7e857215f49ec4",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W85f439ac693_G_080",
+      "method": "F1",
+      "prediction_sha256": "9f9d11a864a51dcd8c02ea2539e7b424420638c6cea1575397b69efae7caf85a",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W85f439ac693_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "a175990f7359b69b3146d7cb54c901100ada69d6cc4fb7d894491cd121ce64ff",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wa426c5c4d49_N_080",
+      "method": "F0",
+      "prediction_sha256": "e0f23146b0e4b3f05ddcfb1f22fa3beab756d78291613716a85b9fc28200e5d1",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wa426c5c4d49_N_080",
+      "method": "F1",
+      "prediction_sha256": "84b85c7cc86788f092d00f6971db2ed0781ff539dfaec32ee86b9c05eedb20d7",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wa426c5c4d49_N_080",
+      "method": "M1-C",
+      "prediction_sha256": "244e6c5b038785ae37a01b89ddd95c4cacbba2dfd118540be9831935c94ac4d9",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wdb2b99d1247_G_080",
+      "method": "F0",
+      "prediction_sha256": "79cb2d51a1832f865846b274363dff027e7867cb0600ddd3d7917d2daecbfd58",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wdb2b99d1247_G_080",
+      "method": "F1",
+      "prediction_sha256": "d7627e26a508ef6cbf1170d65c3c10706fb53862a7ba56c0657c0c2134254312",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wdb2b99d1247_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "e39676dc859b2ccc3752266ba750461a406577bf0a46133864e1c6e3ba99e1de",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wf405b19d925_G_080",
+      "method": "F0",
+      "prediction_sha256": "926204b04d1cb72c326aacfaa85c591069e1f02b4a64a17dd5bed92d6f585b77",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "Wf405b19d925_G_080",
+      "method": "F1",
+      "prediction_sha256": "e703cb235ee775eb3706ed21a56e7d2a213778c332dd88a1b5b31e74aa92f001",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "Wf405b19d925_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "5d2ad7215357c01e5fef8e57a0decc2012210cc920b580e694da5600937c827a",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W6bccdf122cb_G_080",
+      "method": "F0",
+      "prediction_sha256": "02a9650fc08b8ebef84d61dc7df7b20a06e3c0a77a09b0e1060e065af91cd896",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W6bccdf122cb_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "489169c9625168f5214015f2124006d05039921c6e01d365cb85186380b20346",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W6bccdf122cb_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "8cdaec512450506ddb25430f017dbe4e1063809f648a33805c75738b5acd3baa",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W6bccdf122cb_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "21bd60814a6b0aef79e85f892cedc447ce53c37b2d9d04e855b941afee22d883",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W6bccdf122cb_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "6442f6871150df14a242cb7a3cc418b1c3a0469b4691effc1a0cd7036b83ed62",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W6bccdf122cb_G_080",
+      "method": "F1",
+      "prediction_sha256": "adc567a7bc0d54338e4947d4f0a7c1b7a8281f2f7bedfec9cc7d0f3a8426c6de",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W6bccdf122cb_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "788fd005d404a55db193972c431b01008552e944e2978c9afcbdf74a95baa06f",
+      "source_area_domain_intersections": [],
+      "routes": []
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "method": "F0",
+      "prediction_sha256": "c0931070dcf7e5523bfb80366ef56d3403acb121d9f93d793f4463a73aa2c413",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "67068439a7d353d3fe57b025cae84a9decb5d5f7731252c471ef2518f621951f",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "cf38245734a58b45ee74f9dc13d6a0359c71d934b7161d4a3c3a9c7b033bcf2c",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "7c7c8d147e18c2bd8da52afe51abfaafa2a3e55ddb35dd0cc57966e7294eddda",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "e3aa4d2ba4f948b356dc0ba7595191c02d9fae7133710b8bc0e37adfbc36c8f2",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "method": "F1",
+      "prediction_sha256": "ad9d8cc75ad0c6082a887ae6a54e9233bf6c9542d3606f15f42fc1896ecf0688",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W902d9fe8127_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "3764eb6d18943348669ed4a60af1168e33dca65b432a9cbaedf7679d53877736",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "method": "F0",
+      "prediction_sha256": "f550686c011494137a707a250de030048ea636887a9d19a4275e1e72d4e77391",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "ad39ac0ceef99552c99f394a6af4ba3f8b8860756f5db8708a361d9afd536f5f",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "3c2bd38155454c41c120a9a96a0fddd8b0eb7ea71e4edd56a49366df2dd515fe",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "fee4ea186c7c269d2eebfe9c90187043a1523a9cb06c821139b7c4dd7f52ac1b",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "6031765a72116881bb72787a225f7e900d35958af78997075220fb9e4cd72da3",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "method": "F1",
+      "prediction_sha256": "3e2b2c7144c297584a22febd56cdbd041fc8803e438ceb3a4bf0b1132a77d870",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "W97b65e9a893_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "7195a87c085cb665785b7f6483260413da86b6a7dd55aa33090a45258ae8f4d4",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "method": "F0",
+      "prediction_sha256": "2f7ea425a884791f20545f79e7df6bd59945e5885943240b5993b544f5d26952",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "c0b41f8e48ca549f1c24f7c08edd22404b60e04b578681cbe0f6454ef0ac6922",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "6a06eaee7fbde242b88f69c86f06b9bb3ecfd94bdccf83fb618bb3cf9ea670b4",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "4a38dd50369d65930b47835c176b491df6799991a49b7c4e32fa48054fb3016f",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "1144145d396f007798f79e2953661c5eaaab3433d1c813f088225d0f7af4cc70",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "method": "F1",
+      "prediction_sha256": "da65fc98d9844c23e5f35af370fdc2ca37356f0bdada74dfe45af9c5be3469d0",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wa273f228558_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "d2b19f7e12f313cf6e13ce9c55dc587e7a8b63e171d5f143aab8d6850d14f1af",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wce5a4f14276_G_080",
+      "method": "F0",
+      "prediction_sha256": "71b25bea1f0dd85b11eb0326660c44a00a697082ec0aeaf11fe11763aed8c5b6",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wce5a4f14276_G_080",
+      "method": "F1-L1",
+      "prediction_sha256": "f13b67d27755be6faf72569396d8dd05561d8583e8abcc9ab89d7c5a28f0eeea",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wce5a4f14276_G_080",
+      "method": "F1-L1p5",
+      "prediction_sha256": "1a9f69ec6cd8fac7c069e305d4fd6504212332d6253d4986a71f9d9f8326ca4d",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wce5a4f14276_G_080",
+      "method": "F1-L3",
+      "prediction_sha256": "7507346e56c20a63c62a7aac5af00f51a53f01840fd7120c4f194dfb97e388eb",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wce5a4f14276_G_080",
+      "method": "F1-L5",
+      "prediction_sha256": "03398e43c05406daa29bb62842e192ecfc93d8996694d8e34756118ae31f6376",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wce5a4f14276_G_080",
+      "method": "F1",
+      "prediction_sha256": "82650baaec3986b7688f8e88eb7dde4be48ef996298978fdb835ddb33cfa7b77",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "Wce5a4f14276_G_080",
+      "method": "M1-C",
+      "prediction_sha256": "ed4f0419983582ac5e622d45eb90e4f0a1a002fab14b142fbceee4a99471b639",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F0",
+      "prediction_sha256": "f42aef6af3dc578780d13543d5493bcfe19558a7b0eb63593c9fa8435d45a7d7",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1-L1",
+      "prediction_sha256": "26f9eb0a01f9f25bb419bdb36d52c5575a453e683fc0a9e48c2f11840467d691",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1-L1p5",
+      "prediction_sha256": "7ef96f6eedfb3697220707462ff63817a233e0f46ab8d00b32331228eaab3fa2",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1-L3",
+      "prediction_sha256": "e3965b6d34a464ca3cedab37d5ed9ff3304b79c80eca0591cc0dd85a1ca5b047",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1-L5",
+      "prediction_sha256": "a9e44818f274443d66db60762babecb8f5967bc033db8cff95e4662ea3292fbc",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1",
+      "prediction_sha256": "c934ef04ccaae84f3e8a93a0e7d42c5421c9372c97f51d9839f12d3819c1142c",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "M1-C",
+      "prediction_sha256": "c6987d8daceabf30a719464c4d265e523e8975eafcd1586fb836d2e4acfe1dcb",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    }
+  ],
+  "area_failures": [],
+  "route_failures": [],
+  "guard_sha256": "ce13b144101dce47e94041da7ca5a1c1d744ba94c6d4280e3ce3110deea54b7e",
+  "actual_permission_geometry_area_m2": 128.3885591605168,
+  "old_R0_gap_records_preserved": [
+    "audits/common_constraint_gap_W7a6b5a10076.json",
+    "audits/access_area_prediction_impact.json",
+    "audits/access_scope_26.json"
+  ],
+  "new_region_builds_by_this_audit": 0,
+  "new_routes_by_this_audit": 0,
+  "limitations": [
+    "Only frozen mapped permissions, not current field access",
+    "Absent level remains unknown",
+    "One repaired source export task; not new blind confirmation",
+    "R0 gap remains a real recorded defect, not erased by corrected result"
+  ]
+}

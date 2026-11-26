@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "browser": "147.0.3912.72",
+  "page_sha256": "6db6b96d2468ec3fe4660c1be23ffba537ca197f9770e9648a3f9ad8c2e6be43",
+  "views": [
+    "file:north",
+    "file:compare",
+    "file:risk",
+    "file:privatefix",
+    "http:north",
+    "http:compare",
+    "http:risk",
+    "http:privatefix"
+  ],
+  "checks": [
+    "method_switch_preserves_fixed_local_view",
+    "linked_focus_zoom_and_reset",
+    "three_same_view_same_input_f0_f1_same_surface",
+    "cell_factual_and_planning_axes",
+    "reference_opt_in_only",
+    "region_and_interface_layer_toggles",
+    "original_exit_identity_and_full_route",
+    "post_audit_restriction_separate_from_predictor_and_toggle_keeps_surface",
+    "sealed_r0_switch_and_four_panel_current_fix_same_view"
+  ],
+  "figures": [
+    {
+      "png": "08-private-before-after.png",
+      "svg": "08-private-before-after.svg",
+      "title": "D · 原权限遗漏与实际修复",
+      "case": "W7a6b5a10076",
+      "tab": "privatefix",
+      "method": "F1",
+      "mode": "G",
+      "radius": "80",
+      "full": false,
+      "ref": false,
+      "summary": "预测／评分 30 m · 1 m\n观察 80 m\n可见节点／弧 37 / 68\nR0-F0 条件区域 2,431.29 m²\nM1-C 条件区域 0.00 m²\nF0 条件区域 2,302.90 m²\nF1 条件区域 2,302.90 m²\nF0/F1 区域哈希 一致",
+      "auditNote": "R1当前：V3已将128.39m²原生private停车面加入共同负约束，M1-C/F0/F1均为RESTRICTED。原R0误放保留作历史；本例2条查询仍可达且均不进入其内部。此项修复不证明未标障碍不存在。",
+      "stage": "CURRENT_R1",
+      "query": "Q1",
+      "anchor": [
+        354340,
+        3456040
+      ],
+      "visibleMethods": [
+        "R0-F0",
+        "M1-C",
+        "F0",
+        "F1"
+      ],
+      "f0Surface": "033197367c5ba35c46d61def4008b3f152841722ef1b4a73669ef6eed763aad4",
+      "f1Surface": "033197367c5ba35c46d61def4008b3f152841722ef1b4a73669ef6eed763aad4",
+      "methods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ],
+      "privateFixed": true
+    }
+  ],
+  "blocked_external": [],
+  "page_errors": []
+}

@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "browser": "147.0.3912.72",
+  "page_sha256": "8663acdc78fdb24dff1a7db2dc65707a72e8e8f7fee060e041b9407bb635ff9e",
+  "views": [
+    "file:north",
+    "file:compare",
+    "file:risk",
+    "http:north",
+    "http:compare",
+    "http:risk"
+  ],
+  "checks": [
+    "method_switch_preserves_fixed_local_view",
+    "linked_focus_zoom_and_reset",
+    "three_same_view_same_input_f0_f1_same_surface",
+    "cell_factual_and_planning_axes",
+    "reference_opt_in_only",
+    "region_and_interface_layer_toggles",
+    "original_exit_identity_and_full_route"
+  ],
+  "figures": [
+    {
+      "png": "01-north-full-route.png",
+      "svg": "01-north-full-route.svg",
+      "title": "A · 街区与固定局部",
+      "case": "NORTH",
+      "tab": "north",
+      "method": "F1",
+      "mode": "NATURAL",
+      "radius": "160",
+      "full": true,
+      "ref": false,
+      "summary": "预测／评分 30 m · 1 m\n观察 160 m\n可见节点／弧 16,588 / 113,244\nM1-C 条件区域 180.96 m²\nF0 条件区域 197.47 m²\nF1 条件区域 197.47 m²\nF0/F1 区域哈希 一致",
+      "query": "NORTH-DOOR",
+      "anchor": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "visibleMethods": [
+        "F1",
+        "F1"
+      ],
+      "f0Surface": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "f1Surface": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "methods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ]
+    },
+    {
+      "png": "02-north-three-methods.png",
+      "svg": "02-north-three-methods.svg",
+      "title": "B · 相同输入，三种规划规则",
+      "case": "NORTH",
+      "tab": "compare",
+      "method": "F1",
+      "mode": "NATURAL",
+      "radius": "160",
+      "full": false,
+      "ref": false,
+      "summary": "预测／评分 30 m · 1 m\n观察 160 m\n可见节点／弧 16,588 / 113,244\nM1-C 条件区域 180.96 m²\nF0 条件区域 197.47 m²\nF1 条件区域 197.47 m²\nF0/F1 区域哈希 一致",
+      "query": "NORTH-DOOR",
+      "anchor": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "visibleMethods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ],
+      "f0Surface": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "f1Surface": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "methods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ]
+    },
+    {
+      "png": "03-library-expansion.png",
+      "svg": "03-library-expansion.svg",
+      "title": "B · 相同输入，三种规划规则",
+      "case": "Wc4183046a70",
+      "tab": "compare",
+      "method": "F1",
+      "mode": "G",
+      "radius": "80",
+      "full": false,
+      "ref": true,
+      "summary": "预测／评分 30 m · 1 m\n观察 80 m\n可见节点／弧 17 / 28\nM1-C 条件区域 0.00 m²\nF0 条件区域 2,826.30 m²\nF1 条件区域 2,826.30 m²\nF0/F1 区域哈希 一致",
+      "query": "",
+      "anchor": [
+        351540,
+        3453820
+      ],
+      "visibleMethods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ],
+      "f0Surface": "ff6d51c680470cee7ee772e3590890a0c070bdb8283b3440dfb6d18d3d41a152",
+      "f1Surface": "ff6d51c680470cee7ee772e3590890a0c070bdb8283b3440dfb6d18d3d41a152",
+      "methods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ]
+    },
+    {
+      "png": "04-new-reachability.png",
+      "svg": "04-new-reachability.svg",
+      "title": "B · 相同输入，三种规划规则",
+      "case": "W2b809bbe6b8",
+      "tab": "compare",
+      "method": "F1",
+      "mode": "G",
+      "radius": "80",
+      "full": false,
+      "ref": true,
+      "summary": "预测／评分 30 m · 1 m\n观察 80 m\n可见节点／弧 69 / 132\nM1-C 条件区域 24.88 m²\nF0 条件区域 960.42 m²\nF1 条件区域 960.42 m²\nF0/F1 区域哈希 一致",
+      "query": "Q1",
+      "anchor": [
+        354400,
+        3456260
+      ],
+      "visibleMethods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ],
+      "f0Surface": "f1f62679e9214787142bcc22432489e3b7c15553ebd4d6929fa4fe434356b475",
+      "f1Surface": "f1f62679e9214787142bcc22432489e3b7c15553ebd4d6929fa4fe434356b475",
+      "methods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ]
+    },
+    {
+      "png": "05-still-no-path.png",
+      "svg": "05-still-no-path.svg",
+      "title": "B · 相同输入，三种规划规则",
+      "case": "W0caca58bc41",
+      "tab": "compare",
+      "method": "F1",
+      "mode": "G",
+      "radius": "80",
+      "full": false,
+      "ref": true,
+      "summary": "预测／评分 30 m · 1 m\n观察 80 m\n可见节点／弧 77 / 138\nM1-C 条件区域 78.62 m²\nF0 条件区域 1,264.61 m²\nF1 条件区域 1,264.61 m²\nF0/F1 区域哈希 一致",
+      "query": "Q1",
+      "anchor": [
+        354200,
+        3456180
+      ],
+      "visibleMethods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ],
+      "f0Surface": "60f27916031c49ed158e4dc80d0db9cf8a501699bbd5f37181f3bbab6d0d6485",
+      "f1Surface": "60f27916031c49ed158e4dc80d0db9cf8a501699bbd5f37181f3bbab6d0d6485",
+      "methods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ]
+    },
+    {
+      "png": "06-water-and-policy.png",
+      "svg": "06-water-and-policy.svg",
+      "title": "C · 排除了什么，还假设了什么",
+      "case": "W0440b97497a",
+      "tab": "risk",
+      "method": "F1",
+      "mode": "N",
+      "radius": "80",
+      "full": false,
+      "ref": false,
+      "summary": "预测／评分 30 m · 1 m\n观察 80 m\n可见节点／弧 38 / 80\nM1-C 条件区域 57.81 m²\nF0 条件区域 644.32 m²\nF1 条件区域 644.32 m²\nF0/F1 区域哈希 一致",
+      "query": "Q1",
+      "anchor": [
+        354320,
+        3455800
+      ],
+      "visibleMethods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ],
+      "f0Surface": "6d81317d3d38c081ec6a6dce172df0809f9daa41482cef71174dfeca5d50c526",
+      "f1Surface": "6d81317d3d38c081ec6a6dce172df0809f9daa41482cef71174dfeca5d50c526",
+      "methods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ]
+    }
+  ],
+  "blocked_external": [],
+  "page_errors": []
+}

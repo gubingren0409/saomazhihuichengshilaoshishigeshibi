@@ -1,0 +1,37 @@
+{
+  "task": "OSM-GEOAPIFY-R4-FREE-SPACE-R1",
+  "locked_at": "2026-11-11T13:50:13.051068+08:00",
+  "timestamp_role": "Configuration identity; file time records actual creation, not a result timestamp",
+  "crs": "EPSG:32651",
+  "prediction_radius_m": 30,
+  "score_radius_m": 30,
+  "cell_m": 1,
+  "main": "25 G80/N80 parents; 41 original queries; same-source exposed diagnostic",
+  "methods": {
+    "M1-C": "Frozen M1 classifier, common constraints, geometry cost",
+    "F0": "valid minus blocked; native and assumed unit cost",
+    "F1": "exact same F0 graph; lambda 2"
+  },
+  "lambda_main": 2,
+  "lambda_sensitivity": [
+    1,
+    1.5,
+    3,
+    5
+  ],
+  "common_other_cost": 0,
+  "interface_reach_m": 1.6,
+  "interface_separation_m": 3,
+  "max_interfaces": 16,
+  "unknown_stitch_budget_M1_C_m": 0.65,
+  "unknown_stitch_budget_F0_F1_m": 0,
+  "geometry_policy": "Actual 1m fragments; orthogonal shared-boundary adjacency and full-segment collision test; no arbitrary smoothing or diagonal corner cut",
+  "region_build_cap": 200,
+  "active_computation_budget_s": 14400,
+  "supplement_order": "Main and natural first. If total build cap permits, fixed four named parents at40 then160; H80 omitted if remaining cap cannot cover whole21 positive panel.",
+  "new_external_requests": 0,
+  "entrance_generation": "DEFERRED_PENDING_USER_DESIGN",
+  "guard_dataset": "OBSERVED_COMMON_GUARDS_V2",
+  "synthetic_region_builds_before_replay": 32,
+  "synthetic_budget_basis": "12 initial tests:15 fixtures x2=30; targeted numerical/thinwall regression one fixture x2=2; final ZIP replay separately counted"
+}

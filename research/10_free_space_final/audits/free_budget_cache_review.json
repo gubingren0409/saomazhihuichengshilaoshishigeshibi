@@ -1,0 +1,60 @@
+{
+  "status": "PASS_SCOPED",
+  "reviewer": "/root/free_evaluation",
+  "budget_stage_review": {
+    "original_interrupted_receipt": "runs/superseded/R1_partition_defect/runs/executions/W71107d26ecd_G_080_7p_zah9i_INTERRUPTED.json",
+    "original_receipt_sha256": "774978eed1404fdeba29322e6cf413c87925571b4c655bb567bec3599848953d",
+    "original_upper_bound": 4,
+    "supported_upper_bound": 2,
+    "adjustment_delta": -2,
+    "reason": "Full preserved worker has only inputs; constraints write occurs after M0/M1 and before both new surfaces",
+    "preserved_code_sha256": "c8a4289f290a0d88f9525010829c61b05cf43d9e689acd8d103b11e327d19dc5",
+    "preserved_worker_inputs": [
+      {
+        "name": "config.json",
+        "sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026"
+      },
+      {
+        "name": "guards.json",
+        "sha256": "c57820852c4213bbcf2485eef98a6cac3db2f257900926e3a6c6f7e0d8035c6f"
+      },
+      {
+        "name": "historical_methods.json",
+        "sha256": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f"
+      },
+      {
+        "name": "observed.json",
+        "sha256": "ace9057c20b3dc3b3e217cc0a86d73be8e400fc1aaa5550fa4d8f58031c4995d"
+      },
+      {
+        "name": "query.json",
+        "sha256": "c2350aeef9d82733abcbd854f58c6807dc0327d5ea95078ebce92cceaad0b85d"
+      }
+    ],
+    "condition": "Affected process is stopped and preserved worker directory is complete; absence alone cannot identify how much of M0/M1 completed"
+  },
+  "historical_cache_candidates": {
+    "M0": {
+      "source_path": "frozen_context/data/predictions/NORTH_160/M0.json",
+      "source_file_sha256": "e2f5d4b0056a5db20c188cd4350d17df99cb3d2304e682ac65948c7653cc43ea",
+      "observed_sha256": "52630dc0929cbf4e0e4052d8bb4f08cedf3082630eaeec6eeac12b4949a897b7",
+      "surface_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+      "historical_freeze_precedes_query": true
+    },
+    "M1": {
+      "source_path": "frozen_context/data/predictions/NORTH_160/M1.json",
+      "source_file_sha256": "a7e13aceab62fe81c54f4a0f2201716ec2768658f4c8e33d0635429e58d6c087",
+      "observed_sha256": "52630dc0929cbf4e0e4052d8bb4f08cedf3082630eaeec6eeac12b4949a897b7",
+      "surface_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+      "historical_freeze_precedes_query": true
+    }
+  },
+  "actual_staged_cache_review": {
+    "path": "data\\classifier_cache\\NORTH_160.json",
+    "sha256": "159fb5b76a78608b4e29e650144cb1698f20c82a377ff65b0bf0fd3a6de29abd",
+    "surface_only": true,
+    "source": "EXACT_SAME_UNMASKED_NATURAL_OBSERVATION; NOT_CONTROLLED_HIDDEN_REFERENCE"
+  },
+  "accounting_rule": "Keep original upper-bound receipt. Append -2 supported bound correction. North builds only M1-C/F0=2, F1 costs reuse graph.",
+  "limits": "Does not claim interrupted M0/M1 completed; does not authorize reading historical routes or controlled answers before query"
+}

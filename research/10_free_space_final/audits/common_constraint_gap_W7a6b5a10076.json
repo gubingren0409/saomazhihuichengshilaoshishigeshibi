@@ -1,0 +1,280 @@
+{
+  "status": "CONFIRMED_COMMON_CONSTRAINT_EXPORT_GAP; ORIGINAL_PREDICTIONS_PRESERVED",
+  "affected_primary_input_id": "W7a6b5a10076_G_080",
+  "affected_primary_count": 1,
+  "primary_fixed_denominator": 25,
+  "source_area": {
+    "source_clip": "sh-huangpu-01.osm.json",
+    "source_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "source_id": "way/178730989",
+    "source_tags": {
+      "access": "private",
+      "amenity": "parking"
+    },
+    "native_nodes_closed": true,
+    "native_node_ids": [
+      "node/1890732771",
+      "node/1890842759",
+      "node/1890842751",
+      "node/1890842752",
+      "node/1890732771"
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            354308.7074087827,
+            3456102.328209247
+          ],
+          [
+            354321.03002671245,
+            3456036.567666433
+          ],
+          [
+            354314.0867397429,
+            3456036.0207549883
+          ],
+          [
+            354303.23013257165,
+            3456101.007101768
+          ],
+          [
+            354308.7074087827,
+            3456102.328209247
+          ]
+        ]
+      ]
+    },
+    "geometry_role": "CLOSED_RESTRICTED_SOURCE_AREA_INTERIOR",
+    "explicit_area_tag": null,
+    "implicit_area_tag_basis": [
+      "amenity"
+    ],
+    "area_m2": 416.8123084959293,
+    "boundary_length_m": 145.39122530819708,
+    "boundary_exceptions": [
+      {
+        "area_source_id": "way/178730989",
+        "allowed_source_footway_id": "way/178719573",
+        "allowed_source_tags": {
+          "foot": "yes",
+          "highway": "footway",
+          "surface": "paving_stones"
+        },
+        "shared_original_node_ids": [
+          "node/1890732771",
+          "node/1890842752"
+        ],
+        "original_shared_node_pairs": [
+          [
+            "node/1890842752",
+            "node/1890732771"
+          ]
+        ],
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              354308.7074087827,
+              3456102.328209247
+            ],
+            [
+              354303.23013257165,
+              3456101.007101768
+            ]
+          ]
+        },
+        "length_m": 5.634348202090973,
+        "buffer_m": 0,
+        "role": "EXACT_EXISTING_FOOT_ALLOWED_NATIVE_BOUNDARY_LINE_ONLY",
+        "does_not_allow": [
+          "PRIVATE_AREA_INTERIOR",
+          "NEW_FREE_EDGE",
+          "OTHER_SOURCE_WAY",
+          "BARRIER_OVERRIDE",
+          "PUBLIC_ENTRY_GUARANTEE"
+        ],
+        "adjacent_pedestrian_sources": [
+          {
+            "source_id": "relation/2153738",
+            "tags": {
+              "area": "yes",
+              "highway": "pedestrian",
+              "name": "人民广场",
+              "name:en": "People's Square",
+              "name:ru": "Народная площадь",
+              "name:zh": "人民广场",
+              "name:zh-Hans": "人民广场",
+              "name:zh-Hant": "人民廣場",
+              "tourism": "attraction",
+              "type": "multipolygon"
+            },
+            "role": "REGISTERED_PEDESTRIAN_AREA_ADJACENCY",
+            "private_area_overlap_m2": 0.0,
+            "shared_boundary_m": 5.634348202090973
+          }
+        ],
+        "permission_level": "MAP_TAG_SUPPORT_NOT_FIELD_AUTHORIZATION"
+      }
+    ],
+    "private_interior_remains_forbidden": true,
+    "source_layer_facts": "UNKNOWN_IF_ABSENT"
+  },
+  "input_bindings": {
+    "observed": "data/observed/W7a6b5a10076_G_080.json",
+    "observed_sha256": "23e340a99c013cc5ff10819fb8eb382481ebe2a0d9a8a9fed814134d38c7edf4",
+    "guard_sha256": "e543eeb0f36cd048bd2f1f0a85ae077f59512f50db7cec7821c7ce882f8af6bb",
+    "common_constraints_sha256": "ed7eaab3dd3b2f952aa452854ea14d032518b8656e84e7a76fb131220afe306a"
+  },
+  "source_present_in_observed": false,
+  "source_present_in_guard_objects": false,
+  "source_present_in_common_constraints": false,
+  "private_polygon_within_fixed_D_geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          354321.03002671245,
+          3456036.567666433
+        ],
+        [
+          354314.0867397429,
+          3456036.0207549883
+        ],
+        [
+          354311.74030685984,
+          3456050.066220448
+        ],
+        [
+          354311.75367804454,
+          3456050.1066956017
+        ],
+        [
+          354312.28361402464,
+          3456051.480502971
+        ],
+        [
+          354312.8803212063,
+          3456052.826652803
+        ],
+        [
+          354313.54236206954,
+          3456054.141902105
+        ],
+        [
+          354314.2681417,
+          3456055.4230823256
+        ],
+        [
+          354315.0559116309,
+          3456056.6671069907
+        ],
+        [
+          354315.9037740556,
+          3456057.870979135
+        ],
+        [
+          354316.8096863991,
+          3456059.031798525
+        ],
+        [
+          354316.8186181887,
+          3456059.042152951
+        ],
+        [
+          354321.03002671245,
+          3456036.567666433
+        ]
+      ]
+    ]
+  },
+  "private_polygon_within_fixed_D_m2": 128.3885591605168,
+  "hidden_positive_reference_private_overlap_m2": 0.0,
+  "reference_read_role": "POST_PREDICTION_IMPACT_EVALUATION_ONLY; REGISTRY_GENERATION_DID_NOT_READ_REFERENCE",
+  "prediction_impacts": [
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "M1-C",
+      "domain_private_overlap_m2": 128.38855916051673,
+      "state_area_overlaps_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 128.38855916051605
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": false,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "Q2",
+          "reached": false,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "F0",
+      "domain_private_overlap_m2": 128.38855916051673,
+      "state_area_overlaps_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 128.38855916051605,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 0.0
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        }
+      ]
+    },
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "method": "F1",
+      "domain_private_overlap_m2": 128.38855916051673,
+      "state_area_overlaps_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 128.38855916051605,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 0.0
+      },
+      "routes": [
+        {
+          "query_id": "Q1",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        },
+        {
+          "query_id": "Q2",
+          "reached": true,
+          "private_interior_m": 0,
+          "conflicting_segments": []
+        }
+      ]
+    }
+  ],
+  "required_repair_scope": [
+    "Correct implicit closed private-area parsing/export",
+    "Provide all three methods the same repaired common guard",
+    "Rebuild affected M1-C/F0 region surfaces and route graphs then re-evaluate; cannot patch just F0 or edit old predictions"
+  ],
+  "current_action": "NO_REBUILD_DUE_TO_200_REGION_CAP; RETAIN_ALL_25_RAW_RESULTS_AND_FLAG_THIS_DOMAIN",
+  "all_old_data_and_predictions_preserved": true,
+  "new_region_builds": 0
+}

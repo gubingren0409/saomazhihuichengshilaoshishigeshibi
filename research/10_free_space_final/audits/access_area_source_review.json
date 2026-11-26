@@ -1,0 +1,221 @@
+{
+  "status": "SOURCE_ROLE_CONFIRMED",
+  "source_registry_sha256": "a540f7738372e6287ebc515b1432f7eea0d14bec82e91f777d4986cc320f7acb",
+  "source_area_records": 21,
+  "unique_area_ids": 13,
+  "boundary_exception_records": 2,
+  "linear_access_source_records": 581,
+  "unparseable_candidates": [],
+  "main_task_count": 25,
+  "main_domain_area_intersections": [
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "source_id": "way/178730989",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_area_within_D_m2": 128.3885591605168,
+      "old_kind": "OMITTED_FROM_OBSERVED",
+      "old_geometry_type": null,
+      "area_missing_or_mistyped": true,
+      "reference_read": false
+    }
+  ],
+  "main_missing_or_mistyped_intersections": [
+    {
+      "input_id": "W7a6b5a10076_G_080",
+      "source_id": "way/178730989",
+      "source_clip": "sh-huangpu-01.osm.json",
+      "source_area_within_D_m2": 128.3885591605168,
+      "old_kind": "OMITTED_FROM_OBSERVED",
+      "old_geometry_type": null,
+      "area_missing_or_mistyped": true,
+      "reference_read": false
+    }
+  ],
+  "north_parking": {
+    "source_clip": "sh-huangpu-01.osm.json",
+    "source_clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "source_id": "way/178730989",
+    "source_tags": {
+      "access": "private",
+      "amenity": "parking"
+    },
+    "native_nodes_closed": true,
+    "native_node_ids": [
+      "node/1890732771",
+      "node/1890842759",
+      "node/1890842751",
+      "node/1890842752",
+      "node/1890732771"
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            354308.7074087827,
+            3456102.328209247
+          ],
+          [
+            354321.03002671245,
+            3456036.567666433
+          ],
+          [
+            354314.0867397429,
+            3456036.0207549883
+          ],
+          [
+            354303.23013257165,
+            3456101.007101768
+          ],
+          [
+            354308.7074087827,
+            3456102.328209247
+          ]
+        ]
+      ]
+    },
+    "geometry_role": "CLOSED_RESTRICTED_SOURCE_AREA_INTERIOR",
+    "explicit_area_tag": null,
+    "implicit_area_tag_basis": [
+      "amenity"
+    ],
+    "area_m2": 416.8123084959293,
+    "boundary_length_m": 145.39122530819708,
+    "boundary_exceptions": [
+      {
+        "area_source_id": "way/178730989",
+        "allowed_source_footway_id": "way/178719573",
+        "allowed_source_tags": {
+          "foot": "yes",
+          "highway": "footway",
+          "surface": "paving_stones"
+        },
+        "shared_original_node_ids": [
+          "node/1890732771",
+          "node/1890842752"
+        ],
+        "original_shared_node_pairs": [
+          [
+            "node/1890842752",
+            "node/1890732771"
+          ]
+        ],
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              354308.7074087827,
+              3456102.328209247
+            ],
+            [
+              354303.23013257165,
+              3456101.007101768
+            ]
+          ]
+        },
+        "length_m": 5.634348202090973,
+        "buffer_m": 0,
+        "role": "EXACT_EXISTING_FOOT_ALLOWED_NATIVE_BOUNDARY_LINE_ONLY",
+        "does_not_allow": [
+          "PRIVATE_AREA_INTERIOR",
+          "NEW_FREE_EDGE",
+          "OTHER_SOURCE_WAY",
+          "BARRIER_OVERRIDE",
+          "PUBLIC_ENTRY_GUARANTEE"
+        ],
+        "adjacent_pedestrian_sources": [
+          {
+            "source_id": "relation/2153738",
+            "tags": {
+              "area": "yes",
+              "highway": "pedestrian",
+              "name": "人民广场",
+              "name:en": "People's Square",
+              "name:ru": "Народная площадь",
+              "name:zh": "人民广场",
+              "name:zh-Hans": "人民广场",
+              "name:zh-Hant": "人民廣場",
+              "tourism": "attraction",
+              "type": "multipolygon"
+            },
+            "role": "REGISTERED_PEDESTRIAN_AREA_ADJACENCY",
+            "private_area_overlap_m2": 0.0,
+            "shared_boundary_m": 5.634348202090973
+          }
+        ],
+        "permission_level": "MAP_TAG_SUPPORT_NOT_FIELD_AUTHORIZATION"
+      }
+    ],
+    "private_interior_remains_forbidden": true,
+    "source_layer_facts": "UNKNOWN_IF_ABSENT"
+  },
+  "north_door_routes": [
+    {
+      "method": "F0",
+      "prediction_sha256": "f42aef6af3dc578780d13543d5493bcfe19558a7b0eb63593c9fa8435d45a7d7",
+      "private_interior_m": 0.0,
+      "shared_boundary_m": 5.634348202090973,
+      "boundary_source_way_ids": [
+        "way/178719573"
+      ]
+    },
+    {
+      "method": "F1-L1",
+      "prediction_sha256": "26f9eb0a01f9f25bb419bdb36d52c5575a453e683fc0a9e48c2f11840467d691",
+      "private_interior_m": 0.0,
+      "shared_boundary_m": 5.634348202090973,
+      "boundary_source_way_ids": [
+        "way/178719573"
+      ]
+    },
+    {
+      "method": "F1-L1p5",
+      "prediction_sha256": "7ef96f6eedfb3697220707462ff63817a233e0f46ab8d00b32331228eaab3fa2",
+      "private_interior_m": 0.0,
+      "shared_boundary_m": 5.634348202090973,
+      "boundary_source_way_ids": [
+        "way/178719573"
+      ]
+    },
+    {
+      "method": "F1-L3",
+      "prediction_sha256": "e3965b6d34a464ca3cedab37d5ed9ff3304b79c80eca0591cc0dd85a1ca5b047",
+      "private_interior_m": 0.0,
+      "shared_boundary_m": 5.634348202090973,
+      "boundary_source_way_ids": [
+        "way/178719573"
+      ]
+    },
+    {
+      "method": "F1-L5",
+      "prediction_sha256": "a9e44818f274443d66db60762babecb8f5967bc033db8cff95e4662ea3292fbc",
+      "private_interior_m": 0.0,
+      "shared_boundary_m": 5.634348202090973,
+      "boundary_source_way_ids": [
+        "way/178719573"
+      ]
+    },
+    {
+      "method": "F1",
+      "prediction_sha256": "c934ef04ccaae84f3e8a93a0e7d42c5421c9372c97f51d9839f12d3819c1142c",
+      "private_interior_m": 0.0,
+      "shared_boundary_m": 5.634348202090973,
+      "boundary_source_way_ids": [
+        "way/178719573"
+      ]
+    },
+    {
+      "method": "M1-C",
+      "prediction_sha256": "c6987d8daceabf30a719464c4d265e523e8975eafcd1586fb836d2e4acfe1dcb",
+      "private_interior_m": 0.0,
+      "shared_boundary_m": 5.634348202090973,
+      "boundary_source_way_ids": [
+        "way/178719573"
+      ]
+    }
+  ],
+  "old_audit_limitation": "Original Source.obstacles omitted closed amenity=parking/private rings without explicit area=yes and open linear access ways. Prior zero-conflict reports did not cover those classes; preserved, superseded for permissions.",
+  "region_or_route_modified": false,
+  "new_region_builds": 0,
+  "no_new_map_requests": true
+}

@@ -1,0 +1,2024 @@
+{
+  "status": "PASS_WITH_FACTUAL_LEVEL_UNCERTAINTY",
+  "reviewer": "/root/free_constraints source data context independent from main route implementation",
+  "scope": "POST_FREEZE_TERMINAL_ID_XY_SOURCE_TAG_INCIDENT_EDGE_AND_IDENTITY_CHECK; NO_CLASSIFIER_OR_BIND_FUNCTION_CALL",
+  "observed_sha256": "52630dc0929cbf4e0e4052d8bb4f08cedf3082630eaeec6eeac12b4949a897b7",
+  "query_sha256": "e84d977f6711cdd3b28cafb07012bfceaa634999b4a0ac222ddd0672e8195f06",
+  "script_sha256": "436393ca89bf18172ec2386a1ba333a4d8b9f759195df61efb0bb08c96551f2d",
+  "method_count": 7,
+  "terminal_rows": 91,
+  "methods": [
+    {
+      "method": "F0",
+      "prediction_sha256": "f42aef6af3dc578780d13543d5493bcfe19558a7b0eb63593c9fa8435d45a7d7",
+      "route_count": 8,
+      "reached": 8,
+      "terminal_count": 13,
+      "region_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "terminal_graph_sha256": "f672c8621679e4e210f5a3d43629b1a528406a8b570800e801e95b29aba169ca"
+    },
+    {
+      "method": "F1-L1",
+      "prediction_sha256": "26f9eb0a01f9f25bb419bdb36d52c5575a453e683fc0a9e48c2f11840467d691",
+      "route_count": 8,
+      "reached": 8,
+      "terminal_count": 13,
+      "region_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "terminal_graph_sha256": "f672c8621679e4e210f5a3d43629b1a528406a8b570800e801e95b29aba169ca"
+    },
+    {
+      "method": "F1-L1p5",
+      "prediction_sha256": "7ef96f6eedfb3697220707462ff63817a233e0f46ab8d00b32331228eaab3fa2",
+      "route_count": 8,
+      "reached": 8,
+      "terminal_count": 13,
+      "region_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "terminal_graph_sha256": "f672c8621679e4e210f5a3d43629b1a528406a8b570800e801e95b29aba169ca"
+    },
+    {
+      "method": "F1-L3",
+      "prediction_sha256": "e3965b6d34a464ca3cedab37d5ed9ff3304b79c80eca0591cc0dd85a1ca5b047",
+      "route_count": 8,
+      "reached": 8,
+      "terminal_count": 13,
+      "region_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "terminal_graph_sha256": "f672c8621679e4e210f5a3d43629b1a528406a8b570800e801e95b29aba169ca"
+    },
+    {
+      "method": "F1-L5",
+      "prediction_sha256": "a9e44818f274443d66db60762babecb8f5967bc033db8cff95e4662ea3292fbc",
+      "route_count": 8,
+      "reached": 8,
+      "terminal_count": 13,
+      "region_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "terminal_graph_sha256": "f672c8621679e4e210f5a3d43629b1a528406a8b570800e801e95b29aba169ca"
+    },
+    {
+      "method": "F1",
+      "prediction_sha256": "c934ef04ccaae84f3e8a93a0e7d42c5421c9372c97f51d9839f12d3819c1142c",
+      "route_count": 8,
+      "reached": 8,
+      "terminal_count": 13,
+      "region_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "terminal_graph_sha256": "f672c8621679e4e210f5a3d43629b1a528406a8b570800e801e95b29aba169ca"
+    },
+    {
+      "method": "M1-C",
+      "prediction_sha256": "c6987d8daceabf30a719464c4d265e523e8975eafcd1586fb836d2e4acfe1dcb",
+      "route_count": 8,
+      "reached": 8,
+      "terminal_count": 13,
+      "region_sha256": "9654427e8b22d3776048cd4febf0ed0faef934c0b2611349f32ba0f767419398",
+      "graph_sha256": "03dd6833dfdab88a7c8cebf2a4e4853ebb2ab24616a89b55620949a197f2390c",
+      "terminal_graph_sha256": "f672c8621679e4e210f5a3d43629b1a528406a8b570800e801e95b29aba169ca"
+    }
+  ],
+  "checks": [
+    {
+      "method": "F0",
+      "query_id": "NORTH-DOOR",
+      "id": "node/6897145227",
+      "xy": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.2240958596835673,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890862817",
+      "xy": [
+        354328.1002420535,
+        3456161.208182979
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 4,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.3664554598415633,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890877346",
+      "xy": [
+        354354.18634582916,
+        3456179.883232214
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 6,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573",
+        "way/178730986"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.1548609300497007,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-PAIR-2",
+      "id": "grid/relation/2153738/708703/6912356",
+      "xy": [
+        354351.5,
+        3456178.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.412236516122148,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708696/6912351",
+      "xy": [
+        354348.0,
+        3456175.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2965192404375962,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708668/6912331",
+      "xy": [
+        354334.0,
+        3456165.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2932329299401777,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708675/6912336",
+      "xy": [
+        354337.5,
+        3456168.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.41100570159357575,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-CONTROL-1",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F0",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-DOOR",
+      "id": "node/6897145227",
+      "xy": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.2240958596835673,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890862817",
+      "xy": [
+        354328.1002420535,
+        3456161.208182979
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 4,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.3664554598415633,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890877346",
+      "xy": [
+        354354.18634582916,
+        3456179.883232214
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 6,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573",
+        "way/178730986"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.1548609300497007,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-PAIR-2",
+      "id": "grid/relation/2153738/708703/6912356",
+      "xy": [
+        354351.5,
+        3456178.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.412236516122148,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708696/6912351",
+      "xy": [
+        354348.0,
+        3456175.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2965192404375962,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708668/6912331",
+      "xy": [
+        354334.0,
+        3456165.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2932329299401777,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708675/6912336",
+      "xy": [
+        354337.5,
+        3456168.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.41100570159357575,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-CONTROL-1",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-DOOR",
+      "id": "node/6897145227",
+      "xy": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.2240958596835673,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890862817",
+      "xy": [
+        354328.1002420535,
+        3456161.208182979
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 4,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.3664554598415633,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890877346",
+      "xy": [
+        354354.18634582916,
+        3456179.883232214
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 6,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573",
+        "way/178730986"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.1548609300497007,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-PAIR-2",
+      "id": "grid/relation/2153738/708703/6912356",
+      "xy": [
+        354351.5,
+        3456178.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.412236516122148,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708696/6912351",
+      "xy": [
+        354348.0,
+        3456175.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2965192404375962,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708668/6912331",
+      "xy": [
+        354334.0,
+        3456165.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2932329299401777,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708675/6912336",
+      "xy": [
+        354337.5,
+        3456168.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.41100570159357575,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-CONTROL-1",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L1p5",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-DOOR",
+      "id": "node/6897145227",
+      "xy": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.2240958596835673,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890862817",
+      "xy": [
+        354328.1002420535,
+        3456161.208182979
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 4,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.3664554598415633,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890877346",
+      "xy": [
+        354354.18634582916,
+        3456179.883232214
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 6,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573",
+        "way/178730986"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.1548609300497007,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-PAIR-2",
+      "id": "grid/relation/2153738/708703/6912356",
+      "xy": [
+        354351.5,
+        3456178.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.412236516122148,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708696/6912351",
+      "xy": [
+        354348.0,
+        3456175.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2965192404375962,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708668/6912331",
+      "xy": [
+        354334.0,
+        3456165.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2932329299401777,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708675/6912336",
+      "xy": [
+        354337.5,
+        3456168.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.41100570159357575,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-CONTROL-1",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L3",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-DOOR",
+      "id": "node/6897145227",
+      "xy": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.2240958596835673,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890862817",
+      "xy": [
+        354328.1002420535,
+        3456161.208182979
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 4,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.3664554598415633,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890877346",
+      "xy": [
+        354354.18634582916,
+        3456179.883232214
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 6,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573",
+        "way/178730986"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.1548609300497007,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-PAIR-2",
+      "id": "grid/relation/2153738/708703/6912356",
+      "xy": [
+        354351.5,
+        3456178.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.412236516122148,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708696/6912351",
+      "xy": [
+        354348.0,
+        3456175.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2965192404375962,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708668/6912331",
+      "xy": [
+        354334.0,
+        3456165.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2932329299401777,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708675/6912336",
+      "xy": [
+        354337.5,
+        3456168.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.41100570159357575,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-CONTROL-1",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1-L5",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-DOOR",
+      "id": "node/6897145227",
+      "xy": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.2240958596835673,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890862817",
+      "xy": [
+        354328.1002420535,
+        3456161.208182979
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 4,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.3664554598415633,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890877346",
+      "xy": [
+        354354.18634582916,
+        3456179.883232214
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 6,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573",
+        "way/178730986"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.1548609300497007,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-PAIR-2",
+      "id": "grid/relation/2153738/708703/6912356",
+      "xy": [
+        354351.5,
+        3456178.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.412236516122148,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708696/6912351",
+      "xy": [
+        354348.0,
+        3456175.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2965192404375962,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708668/6912331",
+      "xy": [
+        354334.0,
+        3456165.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2932329299401777,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708675/6912336",
+      "xy": [
+        354337.5,
+        3456168.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.41100570159357575,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-CONTROL-1",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "F1",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-DOOR",
+      "id": "node/6897145227",
+      "xy": [
+        354344.3888134466,
+        3456163.0891986894
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.2240958596835673,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890862817",
+      "xy": [
+        354328.1002420535,
+        3456161.208182979
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 4,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.3664554598415633,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-PAIR-1",
+      "id": "node/1890877346",
+      "xy": [
+        354354.18634582916,
+        3456179.883232214
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "NATIVE_OSM_NODE",
+      "source_node_tags": {},
+      "source_endpoint_kind": "NATIVE_ENDPOINT",
+      "incident_edge_count": 6,
+      "compatible_incident_edges": 4,
+      "incident_source_ids": [
+        "way/178719573",
+        "way/178730986"
+      ],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.1548609300497007,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-PAIR-2",
+      "id": "grid/relation/2153738/708703/6912356",
+      "xy": [
+        354351.5,
+        3456178.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.412236516122148,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708696/6912351",
+      "xy": [
+        354348.0,
+        3456175.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2965192404375962,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-PAIR-3",
+      "id": "grid/relation/2153738/708668/6912331",
+      "xy": [
+        354334.0,
+        3456165.5
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.2932329299401777,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-PAIR-4",
+      "id": "grid/relation/2153738/708675/6912336",
+      "xy": [
+        354337.5,
+        3456168.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.41100570159357575,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-CONTROL-1",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "grid/relation/2153738/708689/6912346",
+      "xy": [
+        354344.5,
+        3456173.0
+      ],
+      "binding_evidence": "EXACT_VISIBLE_OBSERVED_GRAPH_ID_AND_COORDINATE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": {},
+      "source_endpoint_kind": "FROZEN_FACE_NODE",
+      "incident_edge_count": 8,
+      "compatible_incident_edges": 8,
+      "incident_source_ids": [
+        "relation/2153738"
+      ],
+      "mapped_area_derived_point_not_native_door": true,
+      "actual_stitch_m": 0.4115638529526559,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-CONTROL-2",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/A",
+      "xy": [
+        354330.5,
+        3456161.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    },
+    {
+      "method": "M1-C",
+      "query_id": "NORTH-CONTROL-3",
+      "id": "control/interior/B",
+      "xy": [
+        354349.5,
+        3456169.5
+      ],
+      "binding_evidence": "ORIGINAL_AUTHORIZED_QUERY_ROLE",
+      "endpoint_identity": "MAPPED_AREA_DERIVED_OR_EXPLICIT_CONTROL_POINT",
+      "source_node_tags": null,
+      "source_endpoint_kind": null,
+      "incident_edge_count": 0,
+      "compatible_incident_edges": 0,
+      "incident_source_ids": [],
+      "mapped_area_derived_point_not_native_door": false,
+      "actual_stitch_m": 0.0,
+      "reasons": [],
+      "status": "PASS"
+    }
+  ],
+  "interpretation": "Absent level tags are UNKNOWN compatible assumptions, not measured same-level facts. Grid-derived mapped-face nodes and controls are not physical entrances. The original exit identity is unchanged."
+}

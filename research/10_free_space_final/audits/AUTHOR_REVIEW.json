@@ -1,0 +1,190 @@
+{
+  "status": "READY_FOR_GPT_AND_USER_REVIEW",
+  "author": "/root",
+  "integrity_checks": "PASS",
+  "main_parents": 25,
+  "main_queries": 41,
+  "natural_parents": 1,
+  "prediction_files_matched_to_actual_run_receipts": 150,
+  "checks": [
+    {
+      "id": "W0440b97497a_N_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W0caca58bc41_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W2b809bbe6b8_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W363939afb45_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W7a6b5a10076_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W87f642a7b21_N_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "Wacc0185d756_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "Wae8bd8566f9_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "We43ad3502c7_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W71107d26ecd_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W9ec65a55fde_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "Wc4183046a70_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W384c2d89f5c_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W4d1eccec240_N_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W6daddd19fdb_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W745941f0f92_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W85f439ac693_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "Wa426c5c4d49_N_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "Wdb2b99d1247_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "Wf405b19d925_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W6bccdf122cb_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W902d9fe8127_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "W97b65e9a893_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "Wa273f228558_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "Wce5a4f14276_G_080",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    },
+    {
+      "id": "NORTH_160",
+      "paired_region_graph_terminal": "PASS",
+      "unchanged_recorded_prediction_hashes": "PASS"
+    }
+  ],
+  "regional_policy_gate": "KNOWN_SOURCE_PERMISSION_REPAIRED_NOT_FIELD_SAFETY_PROOF",
+  "permission_repair_history": {
+    "input_id": "W7a6b5a10076_G_080",
+    "source_id": "way/178730989",
+    "private_area_m2": 128.38855916051673,
+    "R0_assumed_overlap_m2": {
+      "M1-C": 0.0,
+      "F0": 128.38855916051605,
+      "F1": 128.38855916051605
+    },
+    "R0_actual_private_route_crossing_m": {
+      "M1-C": 0,
+      "F0": 0,
+      "F1": 0
+    },
+    "current_actual_private_route_crossing_m": {
+      "M1-C": 0,
+      "F0": 0.0,
+      "F1": 0.0
+    },
+    "remaining_unverified_area_expansion_m2": {
+      "M1-C": 66.85938348054503,
+      "F0": 10278.986186267939,
+      "F1": 10278.986186267939
+    },
+    "resolution": "REPAIRED_WITHIN_ORIGINAL_CAP_AFTER_VERIFIED_COUNT_CORRECTION",
+    "current_region_overlaps_m2": {
+      "M1-C": {
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 128.38855916082926
+      },
+      "F0": {
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 128.38855916082926
+      },
+      "F1": {
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 128.38855916082926
+      }
+    },
+    "fixed": true,
+    "R0_archive": "delivery/OPEN_REVIEW_R0_PARTIAL.zip",
+    "R0_sha256": "2b5154e9e80afccd8a04901e7d3e81630dddbe7f50964c6f2ba005a5ce8b595b"
+  },
+  "budget_accounting_upper": 200,
+  "reviewer_role": "AUTHOR_CHECK_ONLY; separate independent reviewer records apply",
+  "map_or_provider_requests": 0,
+  "documentation_web_tool_calls": 3,
+  "timestamp": "2026-11-11T15:31:42.458465+08:00"
+}

@@ -1,0 +1,158 @@
+{
+  "status": "PARTIAL_WITH_EVIDENCE",
+  "reviewer": "/root/free_evaluation",
+  "review_identity": "Separate actual agent execution context; did not author classifier, graph builder, solver or common constraints",
+  "timestamp_local": "2026-11-11T14:55:39.259886+08:00",
+  "checks": [
+    {
+      "check": "raw_guard_sources",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "src/audit_free.py",
+        "--guards-only",
+        "--source-dir",
+        "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R4_CONTEXT\\frozen_r3\\inputs\\rev1\\frozen_r4\\data\\source"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "source_log_path": "audits/independent_raw_guard_sources.log",
+      "source_log_sha256": "ed2360524424f1fbdc8e93640a6a42e3ac0fb0c98430bf4fb03f5f0c1d7e7bf5",
+      "receipt_record": "raw_guard_sources"
+    },
+    {
+      "check": "closed_access_source_scope",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "scripts/audit_closed_access_domain.py",
+        "--source-dir",
+        "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R4_CONTEXT\\frozen_r3\\inputs\\rev1\\frozen_r4\\data\\source"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "source_log_path": "audits/independent_closed_access_source_scope.log",
+      "source_log_sha256": "07fc23d8f61cde9524fb04b6d1579fb8d65cf45949868da23af39feb6edca8ab",
+      "receipt_record": "closed_access_source_scope"
+    },
+    {
+      "check": "metrics",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "-B",
+        "src/score_free.py",
+        "--require-main"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "previous_attempt": {
+        "exit_code": 1,
+        "receipt": "audits/review_execution_records.json",
+        "source_log_path": "audits/superseded_access_scoring_GEOS/independent_metrics.log",
+        "receipt_record": "metrics_original_GEOS_failure"
+      },
+      "source_log_path": "audits/final_source_access_metrics_retry.log",
+      "source_log_sha256": "735bb5f28672a3903d0d8479f8d5fda3c15c71cae509e1c7282c26008ca67dca",
+      "receipt_record": "metrics"
+    },
+    {
+      "check": "geometry_graph_isolation",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "src/audit_free.py",
+        "--graphs",
+        "--require-main"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "source_log_path": "audits/independent_geometry_graph_isolation.log",
+      "source_log_sha256": "f21ef02e0a3b6b8a3af0fab3064a3d4c4cd2eaf9327652e065850775d1644b46",
+      "receipt_record": "geometry_graph_isolation"
+    },
+    {
+      "check": "historical_common_bridge",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "scripts/review_historical_bridge.py",
+        "--require-main"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "source_log_path": "audits/independent_historical_common_bridge.log",
+      "source_log_sha256": "db101bd3672274cf5fad64ea8e6ea4b79de222849ac9729dd87903d46cb70473",
+      "receipt_record": "historical_common_bridge"
+    },
+    {
+      "check": "budget_surface_cache",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "scripts/review_budget_cache.py",
+        "--cache",
+        "data/classifier_cache/NORTH_160.json"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "source_log_path": "audits/independent_budget_surface_cache.log",
+      "source_log_sha256": "149b68b01f04ff606c72df1f25994949d3382a46a9d9942ca739213698e9f8c3",
+      "receipt_record": "budget_surface_cache"
+    },
+    {
+      "check": "source_known_access_graph_impact",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "scripts/review_known_access_graphs.py"
+      ],
+      "exit_code": 0,
+      "receipt": "audits/review_execution_records.json",
+      "source_log_path": "audits/independent_source_known_access_graph_impact.log",
+      "source_log_sha256": "cd65874f94f0f6b589f80a470e691820c042806d262c5aa5e6a69c63109ef8c9",
+      "receipt_record": "source_known_access_graph_impact"
+    }
+  ],
+  "unresolved_common_constraint_gaps": [
+    {
+      "id": "W7a6b5a10076_G_080",
+      "source_id": "way/178730989",
+      "tags": {
+        "access": "private",
+        "amenity": "parking"
+      },
+      "area_role": "IMPLICIT_AREA_TAGS",
+      "inside_D30_m2": 128.3885591605168,
+      "assumed_overlap_m2": 128.38855916051605,
+      "native_area_overlap_m2": 0.0,
+      "source_present_in_original_observed_context": false,
+      "masked_or_removed_source_identity": false
+    }
+  ],
+  "numerical_and_structure_checks_passed": true,
+  "limits": [
+    "Same-source exposed diagnostic, not blind or field navigation validation",
+    "Whole new local graph and actual route segments; old full natural graph is verified through input hashes and used-edge provenance, not rerun independently as a city network",
+    "Only explicit mapped constraints can be checked; unmapped barriers, current public access and levels remain unverified",
+    "Application input audit is not an OS sandbox",
+    "Human natural-language acceptance is pending; this review does not substitute for it"
+  ],
+  "scored_prediction_files": 150,
+  "metrics_sha256": "db54f59f26f14985c7521e73d25d4b46e35102468faa3c14ab2dd1eebcec5aae",
+  "evaluation_repair": "Empty access mask now short-circuits the mathematically zero overlay; original predictions, thresholds, constraints and source permission facts unchanged. Actual retry exit0. Original failure receipt/log preserved.",
+  "execution_records_sha256": "7cc2601d9dc82ec7b0012fbc983a5543feb5f62393ba42987c2b5e757dacba27"
+}

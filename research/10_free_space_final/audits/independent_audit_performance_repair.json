@@ -1,0 +1,10 @@
+{
+  "status": "AUDIT_INTERRUPTED_FOR_PERFORMANCE_REPAIR",
+  "at": "2026-11-11T14:20:05.463326+08:00",
+  "owned_exec_session": 40700,
+  "actual_interruption_exit_code": 1,
+  "reason": "Avoid parsing/buffering identical serialized constraint geometry for every graph arc. Cache exact same Shapely geometry once per unchanged contract; predicates and tolerances unchanged.",
+  "classification_region_builds": 0,
+  "production_outputs_modified": false,
+  "partial_scope_previously_verified": "22 ordinary input formulas, two full graph/solver cases; final full review will rerun once north is complete"
+}

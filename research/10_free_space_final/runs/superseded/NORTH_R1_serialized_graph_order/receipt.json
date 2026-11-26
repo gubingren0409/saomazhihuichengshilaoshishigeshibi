@@ -1,0 +1,68 @@
+{
+  "input_id": "NORTH_160",
+  "panel": "NORTH",
+  "status": "ROUTE_ONLY_REPAIR_COMPLETED",
+  "region_builds": 0,
+  "wall_s": 21.96881900000153,
+  "runs": [
+    {
+      "method": "M1-C",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "9654427e8b22d3776048cd4febf0ed0faef934c0b2611349f32ba0f767419398",
+      "graph_sha256": "03dd6833dfdab88a7c8cebf2a4e4853ebb2ab24616a89b55620949a197f2390c",
+      "prediction_sha256": "9b99a6806f8fa2b2adc85dfb5f232e0f13c965c9b3b2fcaaf02d60ddbaf4b3d3"
+    },
+    {
+      "method": "F0",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "c381b495222ce6c0b002effaf3c204162ea2f5d43831ab91d7f28bacbb7a312b"
+    },
+    {
+      "method": "F1",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "092c56125c400f878a107bda2d2a8679cb3c04b6df7f780bff6ba09c027e6372"
+    },
+    {
+      "method": "F1-L1",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "30898e7aba61d5a0dcf6ad7c7521a4274abc2240de6fd4ff7a0b6a9f73bdb26e"
+    },
+    {
+      "method": "F1-L1p5",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "0480d7e4a6dc961a85edf5ddf52aadfc626d65810777d2ccbe5c63d5dd3d01da"
+    },
+    {
+      "method": "F1-L3",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "0f86b5161f66fceaa06ed244533e0fa4f758df71ce2602d50a08692f2194202c"
+    },
+    {
+      "method": "F1-L5",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "91cdf20f3a3f228d7cd9f10457e65118029bc66dc2eb1c8abe952acceca54b23"
+    }
+  ],
+  "parent_region_receipt": "runs/superseded/NORTH_R0_terminal_defect/executions/NORTH_160.json",
+  "surface_reclassification": false,
+  "algorithm_change": "Authorized exact visible-source query binding after freeze, same old tolerance and whole segment checks; no endpoint or source identity changes"
+}

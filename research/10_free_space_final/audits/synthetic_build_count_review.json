@@ -1,0 +1,40 @@
+{
+  "status": "SUPPORTED_WITH_EVENT_RECORD_LIMIT",
+  "reviewer": "/root/free_constraints",
+  "R0_zip_sha256": "2b5154e9e80afccd8a04901e7d3e81630dddbe7f50964c6f2ba005a5ce8b595b",
+  "R0_test_source_sha256": "69decf9c7de9e7c6e89bafb98dd484134c09cf91cc8137686fb51fb55208ad99",
+  "fixture_calls_by_case": {
+    "test_01_unlabelled_frontage_really_routes": 1,
+    "test_02_no_positive_context_gate": 1,
+    "test_03_lawn_native_line_survives_no_area_opening": 1,
+    "test_04_building_interior_and_exact_terminal": 1,
+    "test_05_wall_open_locked_gate": 3,
+    "test_06_water_native_bridge_exact_exception": 1,
+    "test_07_explicit_level_vs_missing": 1,
+    "test_08_no_new_road_crossing_existing_native_kept": 1,
+    "test_09_enclosed_free_component_not_connected": 1,
+    "test_10_missing_data_is_not_default_free": 1,
+    "test_11_thin_wall_and_corner_cut": 1,
+    "test_12_cost_only_graph_identity_and_finite_connectivity": 1
+  },
+  "suite_fixture_calls": 14,
+  "builds_per_fixture": 2,
+  "suite_builds": 28,
+  "targeted_test11_extra_builds": 2,
+  "correct_scientific_synthetic_builds": 30,
+  "cold_replay_receipt": {
+    "status": "PASS",
+    "tests": 12,
+    "fixture_calls": 14,
+    "synthetic_region_builds": 28,
+    "role": "SYNTHETIC_ONLY_NOT_REAL_RECOVERY"
+  },
+  "cold_replay_not_added_to_scientific_count": true,
+  "recorded_experiment_build_upper_sum": 170,
+  "prior_interruption_adjustment": -2,
+  "corrected_research_upper": 198,
+  "remaining_builds": 2,
+  "original_static_32_not_rewritten": true,
+  "basis": "Original helper is one M0 build_surface plus one F0 build_free_surface. test05 has three direct fixture calls; other11 have one; later geometry/terminal checks reuse them. No fixture invocation occurs in a loop or helper recursion. Current cold replay independently counts14.",
+  "limit": "Initial full-source byte snapshot is unavailable; initial code listing in this agent context has same14. Historical execution count assumes recorded one initial full suite and one targeted11; no independent OS event log."
+}

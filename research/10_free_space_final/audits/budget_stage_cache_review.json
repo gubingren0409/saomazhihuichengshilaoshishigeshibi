@@ -1,0 +1,105 @@
+{
+  "status": "SUPPORTED_WITH_LIMITS",
+  "reviewer": "/root/free_constraints different context from main implementation",
+  "stage_evidence": {
+    "archived_worker_source_sha256": "c8a4289f290a0d88f9525010829c61b05cf43d9e689acd8d103b11e327d19dc5",
+    "original_interrupted_receipt_sha256": "774978eed1404fdeba29322e6cf413c87925571b4c655bb567bec3599848953d",
+    "files": [
+      {
+        "name": "config.json",
+        "sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026"
+      },
+      {
+        "name": "guards.json",
+        "sha256": "c57820852c4213bbcf2485eef98a6cac3db2f257900926e3a6c6f7e0d8035c6f"
+      },
+      {
+        "name": "historical_methods.json",
+        "sha256": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f"
+      },
+      {
+        "name": "observed.json",
+        "sha256": "ace9057c20b3dc3b3e217cc0a86d73be8e400fc1aaa5550fa4d8f58031c4995d"
+      },
+      {
+        "name": "query.json",
+        "sha256": "c2350aeef9d82733abcbd854f58c6807dc0327d5ea95078ebce92cceaad0b85d"
+      }
+    ],
+    "checks": {
+      "source_call_order": true,
+      "preserved_directory_has_only_five_inputs": true,
+      "constraints_marker_absent": true,
+      "archived_worker_has_no_output_deletion_call": true,
+      "original_receipt_retains_four": true
+    },
+    "original_charged_upper_bound": 4,
+    "revised_charged_upper_bound": 2,
+    "append_only_adjustment": -2,
+    "actual_started_or_completed_builds": "UNKNOWN_0_TO_2; NOT_ASSERTING_TWO_COMPLETED",
+    "reason": "M1-C and F0 construction occur strictly after an unconditional constraints.json write. Preserved full worker contains no such file.",
+    "limitation": "Relies on preserved directory being the complete stopped worker and no external deletion. No independent OS event log. Worker source contains no output deletion."
+  },
+  "cache_review": {
+    "checks": {
+      "M0_M1_entire_surface_equal": true,
+      "M0_M1_observed_sha_equal": true,
+      "actual_current_observed_sha_matches": true,
+      "old_freeze_preceded_query": true,
+      "frozen_algorithm_config_exact": true
+    },
+    "bindings": [
+      {
+        "frozen": "src/region.py",
+        "current": "src/region.py",
+        "sha256": "74d579de368df4f60623ee26e1c804134ea0e142b89ff56b554678f8fdb268e8",
+        "byte_identical": true
+      },
+      {
+        "frozen": "src/context_policy.py",
+        "current": "src/context_policy.py",
+        "sha256": "73360280dd9fd14b3d75c3852fabab03254b8c14d3af430e1305f27daa2e3f25",
+        "byte_identical": true
+      },
+      {
+        "frozen": "config/frozen_region.json",
+        "current": "config/frozen_region.json",
+        "sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026",
+        "byte_identical": true
+      },
+      {
+        "frozen": "config/methods.json",
+        "current": "config/historical_methods.json",
+        "sha256": "e880b14fad0540ce4f4c2831263f265bb1c1bde122743192091e3ab1d0f60f4f",
+        "byte_identical": true
+      }
+    ],
+    "observed_sha256": "52630dc0929cbf4e0e4052d8bb4f08cedf3082630eaeec6eeac12b4949a897b7",
+    "historical_surface_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+    "source_prediction_sha256": {
+      "M0": "e2f5d4b0056a5db20c188cd4350d17df99cb3d2304e682ac65948c7653cc43ea",
+      "M1": "a7e13aceab62fe81c54f4a0f2201716ec2768658f4c8e33d0635429e58d6c087"
+    },
+    "allowed_payload": [
+      "surface",
+      "observed_sha256",
+      "algorithm_and_config_bindings"
+    ],
+    "forbidden_payload": [
+      "routes",
+      "base_routes",
+      "query",
+      "reference",
+      "features",
+      "read_log",
+      "old_route_graph"
+    ],
+    "status": "SOURCE_IDENTITY_AND_PRE_QUERY_ORIGIN_VERIFIED; ACTUAL_NEW_CACHE_PAYLOAD_NOT_YET_CHECKED",
+    "conditions": [
+      "Predictor may read only the stripped allowlisted surface cache, not complete old prediction or nested archive",
+      "Rehydrate raw contexts solely from the exact same observed with frozen context_layers",
+      "M1-C/F0 adapted region builds still count two; finite F1 route weights do not count new region builds",
+      "Final worker read log must still freeze current adapted regions before query/full route-only graph reads"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/free_constraints",
+  "scope": "APPEND_TO_BUDGET_STAGE_REVIEW_ACTUAL_STRIPPED_CACHE_AND_SEVEN_WORKER_READ_LOGS",
+  "cache_relative_path": "data/classifier_cache/NORTH_160.json",
+  "cache_sha256": "159fb5b76a78608b4e29e650144cb1698f20c82a377ff65b0bf0fd3a6de29abd",
+  "checks": {
+    "only_four_allowed_keys": true,
+    "M0_exact_historical_surface": true,
+    "M1_exact_historical_surface": true,
+    "M0_M1_same": true,
+    "same_observed": true,
+    "no_forbidden_payload": true,
+    "actual_worker_reads_hash_and_timing": true
+  },
+  "forbidden_payload_locations": [],
+  "worker_logs": [
+    {
+      "method": "F0",
+      "cache_sha_match": true,
+      "cache_then_freeze_then_query_fullgraph": true
+    },
+    {
+      "method": "F1-L1",
+      "cache_sha_match": true,
+      "cache_then_freeze_then_query_fullgraph": true
+    },
+    {
+      "method": "F1-L1p5",
+      "cache_sha_match": true,
+      "cache_then_freeze_then_query_fullgraph": true
+    },
+    {
+      "method": "F1-L3",
+      "cache_sha_match": true,
+      "cache_then_freeze_then_query_fullgraph": true
+    },
+    {
+      "method": "F1-L5",
+      "cache_sha_match": true,
+      "cache_then_freeze_then_query_fullgraph": true
+    },
+    {
+      "method": "F1",
+      "cache_sha_match": true,
+      "cache_then_freeze_then_query_fullgraph": true
+    },
+    {
+      "method": "M1-C",
+      "cache_sha_match": true,
+      "cache_then_freeze_then_query_fullgraph": true
+    }
+  ],
+  "limitation": "Application audit, not OS-level isolation. Pure historical observed-only surfaces reused; not freshly recomputed M0/M1."
+}

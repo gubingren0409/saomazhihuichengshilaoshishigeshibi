@@ -1,0 +1,66 @@
+{
+  "status": "PASS_SCOPED_SOURCE_ROUTES_AND_R1_AREA_REPAIR",
+  "reviewer": "/root/free_evaluation",
+  "source_auditor": "/root/free_constraints",
+  "source_audit_sha256": "c775534ee3981e758d48f82671f2ca165329d7f33008a02b324b1ec615bb0cc1",
+  "source_audit": "audits/north_full_source_check_ACCESS_FINAL.json",
+  "terminal_audit_sha256": "d6ef9338648b5482f671b511b82a192d66d964227964986a45e9b61545f33645",
+  "methods": [
+    {
+      "method": "F0",
+      "prediction_sha256": "f42aef6af3dc578780d13543d5493bcfe19558a7b0eb63593c9fa8435d45a7d7",
+      "full_source_and_terminal_receipts_current": true
+    },
+    {
+      "method": "F1-L1",
+      "prediction_sha256": "26f9eb0a01f9f25bb419bdb36d52c5575a453e683fc0a9e48c2f11840467d691",
+      "full_source_and_terminal_receipts_current": true
+    },
+    {
+      "method": "F1-L1p5",
+      "prediction_sha256": "7ef96f6eedfb3697220707462ff63817a233e0f46ab8d00b32331228eaab3fa2",
+      "full_source_and_terminal_receipts_current": true
+    },
+    {
+      "method": "F1-L3",
+      "prediction_sha256": "e3965b6d34a464ca3cedab37d5ed9ff3304b79c80eca0591cc0dd85a1ca5b047",
+      "full_source_and_terminal_receipts_current": true
+    },
+    {
+      "method": "F1-L5",
+      "prediction_sha256": "a9e44818f274443d66db60762babecb8f5967bc033db8cff95e4662ea3292fbc",
+      "full_source_and_terminal_receipts_current": true
+    },
+    {
+      "method": "F1",
+      "prediction_sha256": "c934ef04ccaae84f3e8a93a0e7d42c5421c9372c97f51d9839f12d3819c1142c",
+      "full_source_and_terminal_receipts_current": true
+    },
+    {
+      "method": "M1-C",
+      "prediction_sha256": "c6987d8daceabf30a719464c4d265e523e8975eafcd1586fb836d2e4acfe1dcb",
+      "full_source_and_terminal_receipts_current": true
+    }
+  ],
+  "source_conflict_count": 0,
+  "source_objects": 5009,
+  "source_kind_counts": {
+    "WATER": 21,
+    "BUILDING": 4693,
+    "BARRIER": 70,
+    "BACKGROUND_POLICY": 74,
+    "UNKNOWN_BBOX": 1,
+    "RESTRICTED_LINEAR_ACCESS": 144,
+    "RESTRICTED": 6
+  },
+  "terminal_rows": 91,
+  "limits": [
+    "Unmapped physical obstacles",
+    "Current permissions and opening hours",
+    "Unmapped steps or platform height",
+    "All absent level tags remain unknown"
+  ],
+  "source_policy_FINAL_R1_sha256": "3cb690b170fc7d0befaedfa78a4c6b0cfb6a91d190bec1a32f5e187044701485",
+  "source_policy_FINAL_R1": "audits/access_policy_FINAL_R1.json",
+  "area_repair": "Historical R0 private128.388559m2 and574 directed unsafe segments preserved. Current R1 all26 domains source-private assumed overlap0; W7 private area restricted and graph violations0. Fixed original paths unchanged in role; not real-world public-access validation."
+}

@@ -1,0 +1,63 @@
+{
+  "input_id": "NORTH_160",
+  "elapsed_s": 216.52840329999162,
+  "region_builds": 2,
+  "runs": [
+    {
+      "method": "M1-C",
+      "surface_sha256": "9654427e8b22d3776048cd4febf0ed0faef934c0b2611349f32ba0f767419398",
+      "graph_sha256": "03dd6833dfdab88a7c8cebf2a4e4853ebb2ab24616a89b55620949a197f2390c",
+      "reached": 3
+    },
+    {
+      "method": "F0",
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "reached": 3
+    },
+    {
+      "method": "F1",
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "reached": 3
+    },
+    {
+      "method": "F1-L1",
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "reached": 3
+    },
+    {
+      "method": "F1-L1p5",
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "reached": 3
+    },
+    {
+      "method": "F1-L3",
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "reached": 3
+    },
+    {
+      "method": "F1-L5",
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "reached": 3
+    }
+  ],
+  "classifier_origin": "REUSED_HISTORICAL_OBSERVED_ONLY_SURFACE_NO_CLASSIFIER_RERUN",
+  "code_sha256": "7d62d02101d220eecbc0ac8d70f9fcb9a5e3875e3b4f7c6c468cb6c8ad29ed6d",
+  "config_sha256": "f23ee464ca98243951a65474543f89e25b935bb847b8da37308e4b645a8f9d12",
+  "wall_s": 221.71899139999005,
+  "outputs": {
+    "F0.json": "32a4c01765f773d8feb79e0106d6bf3ef76f937f48b623d60e8255272f4922cc",
+    "F1-L1.json": "c4d0b8f753d83f853d6125df4742770daa46398abc136741919a71bf39bc88a2",
+    "F1-L1p5.json": "b063bd7ae7f7c9c45560c4987dbd66fd1ae7e6947344c1dd05227d9ee42ac7ef",
+    "F1-L3.json": "724936ad792cb1a8b05e74b03f8e04f9da3ad369b1c1f661001da4793bc568d8",
+    "F1-L5.json": "f9b301b663258b4060f7f66d3788c1d4d18f4740b2ff0e029b24e3063d7f3ee6",
+    "F1.json": "ef23e2285f5b5f0f7bd1d8aab0eb5bc28702b9799bb0444d109229145642119f",
+    "M1-C.json": "0c245f44981eb4e6ce2945c48389b0b6cf106644a382c5d0565fde5709a19ed9"
+  },
+  "panel": "NORTH"
+}

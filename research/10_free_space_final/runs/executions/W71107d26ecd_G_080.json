@@ -1,0 +1,62 @@
+{
+  "input_id": "W71107d26ecd_G_080",
+  "elapsed_s": 14.7854335999873,
+  "region_builds": 4,
+  "runs": [
+    {
+      "method": "M1-C",
+      "surface_sha256": "c43e4121b09f6a3d0a06f0a90155103e946ab0a51141c0113add64f211bf10d1",
+      "graph_sha256": "57501e5c6808b3e14852a4ea21dc7873abf9409032a06f9b740c973e83f62cf7",
+      "reached": 0
+    },
+    {
+      "method": "F0",
+      "surface_sha256": "36ec30b2e7aa7c7fe11c381e22d57968b8d8c1844713b4257941a61e73ece49e",
+      "graph_sha256": "f91fb5d5e4e8ed92f44414ea71f2825f514725e81b5dc5b38ceab471e1ac0cc6",
+      "reached": 1
+    },
+    {
+      "method": "F1",
+      "surface_sha256": "36ec30b2e7aa7c7fe11c381e22d57968b8d8c1844713b4257941a61e73ece49e",
+      "graph_sha256": "f91fb5d5e4e8ed92f44414ea71f2825f514725e81b5dc5b38ceab471e1ac0cc6",
+      "reached": 1
+    },
+    {
+      "method": "F1-L1",
+      "surface_sha256": "36ec30b2e7aa7c7fe11c381e22d57968b8d8c1844713b4257941a61e73ece49e",
+      "graph_sha256": "f91fb5d5e4e8ed92f44414ea71f2825f514725e81b5dc5b38ceab471e1ac0cc6",
+      "reached": 1
+    },
+    {
+      "method": "F1-L1p5",
+      "surface_sha256": "36ec30b2e7aa7c7fe11c381e22d57968b8d8c1844713b4257941a61e73ece49e",
+      "graph_sha256": "f91fb5d5e4e8ed92f44414ea71f2825f514725e81b5dc5b38ceab471e1ac0cc6",
+      "reached": 1
+    },
+    {
+      "method": "F1-L3",
+      "surface_sha256": "36ec30b2e7aa7c7fe11c381e22d57968b8d8c1844713b4257941a61e73ece49e",
+      "graph_sha256": "f91fb5d5e4e8ed92f44414ea71f2825f514725e81b5dc5b38ceab471e1ac0cc6",
+      "reached": 1
+    },
+    {
+      "method": "F1-L5",
+      "surface_sha256": "36ec30b2e7aa7c7fe11c381e22d57968b8d8c1844713b4257941a61e73ece49e",
+      "graph_sha256": "f91fb5d5e4e8ed92f44414ea71f2825f514725e81b5dc5b38ceab471e1ac0cc6",
+      "reached": 1
+    }
+  ],
+  "code_sha256": "094b0d3b8b62f52acbfd58ecf37b59b4f1c23120f851f6aa28288dfab9aa67d8",
+  "config_sha256": "f23ee464ca98243951a65474543f89e25b935bb847b8da37308e4b645a8f9d12",
+  "wall_s": 18.773067899994203,
+  "outputs": {
+    "F0.json": "81da152c83eb2552d4b3d6dc67449f6f99f20df5046332b24195de06d213a06b",
+    "F1-L1.json": "f0ff2db5a26d1350615ac1d03fa1951b6ee3e97a829c5704131de676c1a8053b",
+    "F1-L1p5.json": "4ce3563b5312b99caf9ddc8a38aef660cabc01d9a9f17d3affc7f932eafcbb22",
+    "F1-L3.json": "87bb039a290ffbbec900b487182c44366ec8b7a38d52ce22dfd5a7dae297f9f7",
+    "F1-L5.json": "b72a8448fb18806f4df3121120b60fb49ce76010769557ce42ece07198a2d9fa",
+    "F1.json": "491996adb2053c444ef75e41763f7be2f1bb5e42a5fecb15cc69e8aa115e33ea",
+    "M1-C.json": "1102ef5fb947ddba7a30ffd791fb5ab5854b74e9177e5cf1e29404780b3d8e57"
+  },
+  "panel": "MAIN"
+}

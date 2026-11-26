@@ -1,0 +1,29 @@
+{
+  "status": "REPAIR_CHECK_PASSED",
+  "rows": [
+    {
+      "id": "W7a6b5a10076_G_080",
+      "method": "M1-C",
+      "source_id": "way/178730989",
+      "prediction_sha256": "9ba0f98402955bc22aca9376ae9c35b7048ee27b524053b5f53d556f501ef31e",
+      "graph_sha256": "57501e5c6808b3e14852a4ea21dc7873abf9409032a06f9b740c973e83f62cf7",
+      "conflicting_directed_segments": 0,
+      "directed_total_private_interior_length_m": 0,
+      "historical_R0_conflicting_directed_segments": 0,
+      "segments": []
+    },
+    {
+      "id": "W7a6b5a10076_G_080",
+      "method": "F0_SHARED_F1",
+      "source_id": "way/178730989",
+      "prediction_sha256": "0c8a49e391438d77384f23034bddf6a482dfbe1d2893075623f69c0bf46632b1",
+      "graph_sha256": "02144d364fa514cfc33e746629a1573baf4c4f45339efdb7f195660c7f8229f4",
+      "conflicting_directed_segments": 0,
+      "directed_total_private_interior_length_m": 0,
+      "historical_R0_conflicting_directed_segments": 574,
+      "segments": []
+    }
+  ],
+  "scope": "POST_AUDIT_SOURCE_OVERLAY_ON_FROZEN_GRAPH; DIRECTED_ARCS_INCLUDE_BOTH_DIRECTIONS; NO_RECLASSIFICATION_OR_NEW_ROUTING",
+  "interpretation": "Actual fixed query paths can avoid these arcs; that does not validate the entire default feasible area."
+}

@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "browser": "147.0.3912.72",
+  "page_sha256": "25c53cad9cc31defeb9924420f43e7c8c08201d2adf3663d61580eda6793b4d2",
+  "views": [
+    "file:north",
+    "file:compare",
+    "file:risk",
+    "http:north",
+    "http:compare",
+    "http:risk"
+  ],
+  "checks": [
+    "method_switch_preserves_fixed_local_view",
+    "linked_focus_zoom_and_reset",
+    "three_same_view_same_input_f0_f1_same_surface",
+    "cell_factual_and_planning_axes",
+    "reference_opt_in_only",
+    "region_and_interface_layer_toggles",
+    "original_exit_identity_and_full_route",
+    "post_audit_restriction_separate_from_predictor_and_toggle_keeps_surface"
+  ],
+  "figures": [
+    {
+      "png": "07-private-parking-gap.png",
+      "svg": "07-private-parking-gap.svg",
+      "title": "C · 排除了什么，还假设了什么",
+      "case": "W7a6b5a10076",
+      "tab": "risk",
+      "method": "F1",
+      "mode": "G",
+      "radius": "80",
+      "full": false,
+      "ref": false,
+      "summary": "预测／评分 30 m · 1 m\n观察 80 m\n可见节点／弧 37 / 68\nM1-C 条件区域 0.00 m²\nF0 条件区域 2,431.29 m²\nF1 条件区域 2,431.29 m²\nF0/F1 区域哈希 一致",
+      "auditNote": "审后发现：private停车面有128.39m²落在30m域内，原导出遗漏。F0/F1放行了该区域；本例2条新增路线均未进入其内部。红斜纹是审后限制，算法未看到；原区域/图未修。",
+      "query": "Q1",
+      "anchor": [
+        354340,
+        3456040
+      ],
+      "visibleMethods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ],
+      "f0Surface": "8f7e4919382cd5c416b9afee315ae4ab3e64642c485d29c4e5f1e843ffb176a0",
+      "f1Surface": "8f7e4919382cd5c416b9afee315ae4ab3e64642c485d29c4e5f1e843ffb176a0",
+      "methods": [
+        "M1-C",
+        "F0",
+        "F1"
+      ]
+    }
+  ],
+  "blocked_external": [],
+  "page_errors": []
+}

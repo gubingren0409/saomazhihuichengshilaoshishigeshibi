@@ -1,0 +1,626 @@
+{
+  "status": "PASS_SOURCE_ACCESS_REPAIR_WITH_LIMITS",
+  "reviewer": "/root/free_constraints source role, independent from primary classifier/router; author of shared constraint helper",
+  "scope": "READ_ONLY_SOURCE_POLYGON_AND_EXACT_BOUNDARY_RECOMPUTE_FOR_ALL_25_PRIMARY_PLUS_NORTH; NO_CLASSIFIER_OR_SOLVER_CALL",
+  "R0_fixed_archive_sha256": "2b5154e9e80afccd8a04901e7d3e81630dddbe7f50964c6f2ba005a5ce8b595b",
+  "source_registry_sha256": "a540f7738372e6287ebc515b1432f7eea0d14bec82e91f777d4986cc320f7acb",
+  "script_sha256": "cc6052799990399096a7fc8bedd1205f06189c8bc97e5a63dc43936e6d844390",
+  "input_count": 1,
+  "prediction_branch_count": 7,
+  "area_tolerance_m2": 1e-06,
+  "line_tolerance_m": 1e-06,
+  "guard_and_cache_checks": {
+    "exact_negative_area_id_only": true,
+    "negative_payload_no_positive_keys": true,
+    "same_observed_hash_as_fixed_R0": true,
+    "pure_M0_M1_cache_exact_R0_classification": true,
+    "only_four_pure_cache_keys": true,
+    "actual_cache_hash": true,
+    "actual_v3_guard_hash": true,
+    "cache_then_surface_freeze_then_query": true,
+    "private_boundary_positive_exception_count_is_zero": true,
+    "no_other_fixed_prediction_changed": true
+  },
+  "unchanged_other_predictions": [
+    {
+      "path": "data/predictions/NORTH_160/F0.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F1-L1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F1-L1p5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F1-L3.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F1-L5.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/F1.json",
+      "byte_identical_to_fixed_R0_zip": true
+    },
+    {
+      "path": "data/predictions/NORTH_160/M1-C.json",
+      "byte_identical_to_fixed_R0_zip": true
+    }
+  ],
+  "cases": [
+    {
+      "input_id": "NORTH_160",
+      "method": "F0",
+      "prediction_sha256": "f42aef6af3dc578780d13543d5493bcfe19558a7b0eb63593c9fa8435d45a7d7",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1-L1",
+      "prediction_sha256": "26f9eb0a01f9f25bb419bdb36d52c5575a453e683fc0a9e48c2f11840467d691",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1-L1p5",
+      "prediction_sha256": "7ef96f6eedfb3697220707462ff63817a233e0f46ab8d00b32331228eaab3fa2",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1-L3",
+      "prediction_sha256": "e3965b6d34a464ca3cedab37d5ed9ff3304b79c80eca0591cc0dd85a1ca5b047",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1-L5",
+      "prediction_sha256": "a9e44818f274443d66db60762babecb8f5967bc033db8cff95e4662ea3292fbc",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "F1",
+      "prediction_sha256": "c934ef04ccaae84f3e8a93a0e7d42c5421c9372c97f51d9839f12d3819c1142c",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    },
+    {
+      "input_id": "NORTH_160",
+      "method": "M1-C",
+      "prediction_sha256": "c6987d8daceabf30a719464c4d265e523e8975eafcd1586fb836d2e4acfe1dcb",
+      "source_area_domain_intersections": [],
+      "routes": [
+        {
+          "query_id": "NORTH-DOOR",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [
+            {
+              "area_source_id": "way/178730989",
+              "allowed_source_footway_id": "way/178719573",
+              "exact_boundary_m": 5.634348202090973,
+              "buffer_m": 0
+            }
+          ],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-PAIR-4",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-1",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-2",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        },
+        {
+          "query_id": "NORTH-CONTROL-3",
+          "reached": true,
+          "private_interior_m": 0,
+          "unlicensed_boundary_m": 0,
+          "exact_source_boundary_exceptions": [],
+          "status": "PASS_SOURCE_PERMISSION_GEOMETRY"
+        }
+      ]
+    }
+  ],
+  "area_failures": [],
+  "route_failures": [],
+  "guard_sha256": "ce13b144101dce47e94041da7ca5a1c1d744ba94c6d4280e3ce3110deea54b7e",
+  "actual_permission_geometry_area_m2": 128.3885591605168,
+  "old_R0_gap_records_preserved": [
+    "audits/common_constraint_gap_W7a6b5a10076.json",
+    "audits/access_area_prediction_impact.json",
+    "audits/access_scope_26.json"
+  ],
+  "new_region_builds_by_this_audit": 0,
+  "new_routes_by_this_audit": 0,
+  "limitations": [
+    "Only frozen mapped permissions, not current field access",
+    "Absent level remains unknown",
+    "One repaired source export task; not new blind confirmation",
+    "R0 gap remains a real recorded defect, not erased by corrected result"
+  ]
+}

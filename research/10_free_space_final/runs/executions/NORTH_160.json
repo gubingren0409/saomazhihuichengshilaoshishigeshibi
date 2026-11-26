@@ -1,0 +1,182 @@
+{
+  "input_id": "NORTH_160",
+  "panel": "NORTH",
+  "status": "ROUTE_ONLY_REPAIR_COMPLETED",
+  "region_builds": 0,
+  "wall_s": 24.41672940000717,
+  "runs": [
+    {
+      "method": "M1-C",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "9654427e8b22d3776048cd4febf0ed0faef934c0b2611349f32ba0f767419398",
+      "graph_sha256": "03dd6833dfdab88a7c8cebf2a4e4853ebb2ab24616a89b55620949a197f2390c",
+      "prediction_sha256": "c6987d8daceabf30a719464c4d265e523e8975eafcd1586fb836d2e4acfe1dcb"
+    },
+    {
+      "method": "F0",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "f42aef6af3dc578780d13543d5493bcfe19558a7b0eb63593c9fa8435d45a7d7"
+    },
+    {
+      "method": "F1",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "c934ef04ccaae84f3e8a93a0e7d42c5421c9372c97f51d9839f12d3819c1142c"
+    },
+    {
+      "method": "F1-L1",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "26f9eb0a01f9f25bb419bdb36d52c5575a453e683fc0a9e48c2f11840467d691"
+    },
+    {
+      "method": "F1-L1p5",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "7ef96f6eedfb3697220707462ff63817a233e0f46ab8d00b32331228eaab3fa2"
+    },
+    {
+      "method": "F1-L3",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "e3965b6d34a464ca3cedab37d5ed9ff3304b79c80eca0591cc0dd85a1ca5b047"
+    },
+    {
+      "method": "F1-L5",
+      "old_reached": 3,
+      "new_reached": 8,
+      "surface_sha256": "5a46bd59562ad6d44532fa6f02926797c06971de5eb78c051db9f617fa0f40a1",
+      "graph_sha256": "4e4b22c74998f34e3503f2cbe4e5c7dc51a72b0ab4411d96b09e0b35a3a56519",
+      "prediction_sha256": "a9e44818f274443d66db60762babecb8f5967bc033db8cff95e4662ea3292fbc"
+    }
+  ],
+  "parent_region_receipt": "runs/superseded/NORTH_R0_terminal_defect/executions/NORTH_160.json",
+  "surface_reclassification": false,
+  "actual_resume_read_log": [
+    {
+      "sequence": 1,
+      "path": "config/frozen_region.json",
+      "sha256": "31a1c46f56d894f4481a8ac2a6f5309537b3183bb51f0bd37c500c72b7789026",
+      "role": "FROZEN_ROUTE_RESUME_INPUT",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 2,
+      "path": "data/e5/observed/NORTH_160.json",
+      "sha256": "52630dc0929cbf4e0e4052d8bb4f08cedf3082630eaeec6eeac12b4949a897b7",
+      "role": "FROZEN_ROUTE_RESUME_INPUT",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 3,
+      "path": "data/e5/north_route_graph.json",
+      "sha256": "de81b47d69f229c754eba82f25664d28cb1103f56c197221e0af11e58029f6c6",
+      "role": "ORIGINAL_ROUTE_ONLY_FULL_GRAPH",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 4,
+      "path": "data/constraints/NORTH_160.json",
+      "sha256": "200b40e9cc93372dbfa3f46a3d8f4c2179e57d3b9ba194f38f67ac228d32dc76",
+      "role": "FROZEN_ROUTE_RESUME_INPUT",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 5,
+      "path": "data/e5/queries/NORTH.json",
+      "sha256": "e84d977f6711cdd3b28cafb07012bfceaa634999b4a0ac222ddd0672e8195f06",
+      "role": "ORIGINAL_FIXED_QUERY_AFTER_PREEXISTING_SURFACE_FREEZE",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 6,
+      "path": "runs/superseded/NORTH_R0_terminal_defect/predictions/M1-C.json",
+      "sha256": "0c245f44981eb4e6ce2945c48389b0b6cf106644a382c5d0565fde5709a19ed9",
+      "role": "ROUTE_ONLY_RESUME_PREVIOUS_PREDICTION_WITH_OLD_ROUTES_UNUSED_BY_NEW_ROUTER",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 7,
+      "path": "data/graphs/NORTH_160/M1-C.graph.json.gz",
+      "sha256": "0c547faf4d6c0b8b5cd9bae643bcb98a10cb3758c8ef54fd2788b0322e1901c6",
+      "role": "FROZEN_UNWEIGHTED_REGION_GRAPH",
+      "event": "ACTUAL_GZIP_JSON_READ"
+    },
+    {
+      "sequence": 8,
+      "path": "runs/superseded/NORTH_R0_terminal_defect/predictions/M1-C.json",
+      "sha256": "0c245f44981eb4e6ce2945c48389b0b6cf106644a382c5d0565fde5709a19ed9",
+      "role": "ROUTE_ONLY_RESUME_PREVIOUS_PREDICTION_WITH_OLD_ROUTES_UNUSED_BY_NEW_ROUTER",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 9,
+      "path": "runs/superseded/NORTH_R0_terminal_defect/predictions/F0.json",
+      "sha256": "32a4c01765f773d8feb79e0106d6bf3ef76f937f48b623d60e8255272f4922cc",
+      "role": "ROUTE_ONLY_RESUME_PREVIOUS_PREDICTION_WITH_OLD_ROUTES_UNUSED_BY_NEW_ROUTER",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 10,
+      "path": "data/graphs/NORTH_160/F0.graph.json.gz",
+      "sha256": "c2ee62d0077d6fe0a69ec4ea54d611ba5a655080612778ce21b3a8bafb0045ad",
+      "role": "FROZEN_UNWEIGHTED_REGION_GRAPH",
+      "event": "ACTUAL_GZIP_JSON_READ"
+    },
+    {
+      "sequence": 11,
+      "path": "runs/superseded/NORTH_R0_terminal_defect/predictions/F0.json",
+      "sha256": "32a4c01765f773d8feb79e0106d6bf3ef76f937f48b623d60e8255272f4922cc",
+      "role": "ROUTE_ONLY_RESUME_PREVIOUS_PREDICTION_WITH_OLD_ROUTES_UNUSED_BY_NEW_ROUTER",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 12,
+      "path": "runs/superseded/NORTH_R0_terminal_defect/predictions/F1.json",
+      "sha256": "ef23e2285f5b5f0f7bd1d8aab0eb5bc28702b9799bb0444d109229145642119f",
+      "role": "ROUTE_ONLY_RESUME_PREVIOUS_PREDICTION_WITH_OLD_ROUTES_UNUSED_BY_NEW_ROUTER",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 13,
+      "path": "runs/superseded/NORTH_R0_terminal_defect/predictions/F1-L1.json",
+      "sha256": "c4d0b8f753d83f853d6125df4742770daa46398abc136741919a71bf39bc88a2",
+      "role": "ROUTE_ONLY_RESUME_PREVIOUS_PREDICTION_WITH_OLD_ROUTES_UNUSED_BY_NEW_ROUTER",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 14,
+      "path": "runs/superseded/NORTH_R0_terminal_defect/predictions/F1-L1p5.json",
+      "sha256": "b063bd7ae7f7c9c45560c4987dbd66fd1ae7e6947344c1dd05227d9ee42ac7ef",
+      "role": "ROUTE_ONLY_RESUME_PREVIOUS_PREDICTION_WITH_OLD_ROUTES_UNUSED_BY_NEW_ROUTER",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 15,
+      "path": "runs/superseded/NORTH_R0_terminal_defect/predictions/F1-L3.json",
+      "sha256": "724936ad792cb1a8b05e74b03f8e04f9da3ad369b1c1f661001da4793bc568d8",
+      "role": "ROUTE_ONLY_RESUME_PREVIOUS_PREDICTION_WITH_OLD_ROUTES_UNUSED_BY_NEW_ROUTER",
+      "event": "ACTUAL_READ_BYTES"
+    },
+    {
+      "sequence": 16,
+      "path": "runs/superseded/NORTH_R0_terminal_defect/predictions/F1-L5.json",
+      "sha256": "f9b301b663258b4060f7f66d3788c1d4d18f4740b2ff0e029b24e3063d7f3ee6",
+      "role": "ROUTE_ONLY_RESUME_PREVIOUS_PREDICTION_WITH_OLD_ROUTES_UNUSED_BY_NEW_ROUTER",
+      "event": "ACTUAL_READ_BYTES"
+    }
+  ],
+  "algorithm_change": "Authorized exact visible-source query binding after freeze, same old tolerance and whole segment checks; no endpoint or source identity changes"
+}

@@ -1,0 +1,21 @@
+{
+  "stage": "R1_PRIVATE_GUARD_V3",
+  "case": "W7a6b5a10076_G_080",
+  "historical_root": "runs/superseded/W7_PRIVATE_R0",
+  "historical_atlas": "runs/production_versions/R0_SEALED/visuals/index.html",
+  "R0_archive_sha256": "2b5154e9e80afccd8a04901e7d3e81630dddbe7f50964c6f2ba005a5ce8b595b",
+  "reviews": [
+    {
+      "path": "audits/access_policy_FINAL_R1.json",
+      "sha256": "3cb690b170fc7d0befaedfa78a4c6b0cfb6a91d190bec1a32f5e187044701485",
+      "scope": "READ_ONLY_SOURCE_POLYGON_AND_EXACT_BOUNDARY_RECOMPUTE_FOR_ALL_25_PRIMARY_PLUS_NORTH; NO_CLASSIFIER_OR_SOLVER_CALL"
+    },
+    {
+      "path": "audits/private_guard_v3_independent_input_review.json",
+      "sha256": "67abdad0972cb7c3a8eb04530f0e85de4d069912b05e8c0fe919f4da15c359f5",
+      "scope": "PASS_INPUT_ONLY_NO_REGION_RUN"
+    }
+  ],
+  "verification_scope": "SOURCE_OUTPUT_AND_INDEPENDENT_INPUT_REVIEW_PASS; FINAL_GOAL_EVALUATION_SEPARATE",
+  "new_region_builds_by_renderer": 0
+}

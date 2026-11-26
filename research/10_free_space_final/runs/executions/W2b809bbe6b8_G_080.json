@@ -1,0 +1,62 @@
+{
+  "input_id": "W2b809bbe6b8_G_080",
+  "elapsed_s": 13.469243500003358,
+  "region_builds": 4,
+  "runs": [
+    {
+      "method": "M1-C",
+      "surface_sha256": "decac04ebb9af63bb855450ad261a1d1e4b2ce7175046d9d70ca034333aee211",
+      "graph_sha256": "c51e562edf4c19d02fa925c47e5ae628733e285110d582ca373f505d4d2cb1bb",
+      "reached": 0
+    },
+    {
+      "method": "F0",
+      "surface_sha256": "f1f62679e9214787142bcc22432489e3b7c15553ebd4d6929fa4fe434356b475",
+      "graph_sha256": "1ff0d0c774c67a8847b18cab4912f1a76bd8ef3d3e63b9280808c811c272eef2",
+      "reached": 2
+    },
+    {
+      "method": "F1",
+      "surface_sha256": "f1f62679e9214787142bcc22432489e3b7c15553ebd4d6929fa4fe434356b475",
+      "graph_sha256": "1ff0d0c774c67a8847b18cab4912f1a76bd8ef3d3e63b9280808c811c272eef2",
+      "reached": 2
+    },
+    {
+      "method": "F1-L1",
+      "surface_sha256": "f1f62679e9214787142bcc22432489e3b7c15553ebd4d6929fa4fe434356b475",
+      "graph_sha256": "1ff0d0c774c67a8847b18cab4912f1a76bd8ef3d3e63b9280808c811c272eef2",
+      "reached": 2
+    },
+    {
+      "method": "F1-L1p5",
+      "surface_sha256": "f1f62679e9214787142bcc22432489e3b7c15553ebd4d6929fa4fe434356b475",
+      "graph_sha256": "1ff0d0c774c67a8847b18cab4912f1a76bd8ef3d3e63b9280808c811c272eef2",
+      "reached": 2
+    },
+    {
+      "method": "F1-L3",
+      "surface_sha256": "f1f62679e9214787142bcc22432489e3b7c15553ebd4d6929fa4fe434356b475",
+      "graph_sha256": "1ff0d0c774c67a8847b18cab4912f1a76bd8ef3d3e63b9280808c811c272eef2",
+      "reached": 2
+    },
+    {
+      "method": "F1-L5",
+      "surface_sha256": "f1f62679e9214787142bcc22432489e3b7c15553ebd4d6929fa4fe434356b475",
+      "graph_sha256": "1ff0d0c774c67a8847b18cab4912f1a76bd8ef3d3e63b9280808c811c272eef2",
+      "reached": 2
+    }
+  ],
+  "code_sha256": "48625cfb042758437fa8f387a7faaea0cbf84282f13e7d8a6ae7e7bf41c0e84a",
+  "config_sha256": "f23ee464ca98243951a65474543f89e25b935bb847b8da37308e4b645a8f9d12",
+  "wall_s": 17.66875829998753,
+  "outputs": {
+    "F0.json": "a11fa23ee8f456e316cc066f35e9dc4d9c3183b641b797cfaeeb42d955e22803",
+    "F1-L1.json": "1db4232f9b97a66b6c80dc30a7c57951c5a7b80391244db72a9ee1de48019387",
+    "F1-L1p5.json": "64a3441240630e64214b2af79dfcca6575968e734f756efc662a284c1a77a779",
+    "F1-L3.json": "86b4a14a7ec05c3d95599162c8ca356aaa083b69e255db3cea1d43680b7b7a50",
+    "F1-L5.json": "a6d18a5e2dcff03f21b297adb0df3aeca608adb516a39d0155b79714f07d9ad4",
+    "F1.json": "716d70152ffc456202add2c0549c1d3da0261612ad3446cbbd89796dea41fa27",
+    "M1-C.json": "42f393ff355363df1060e25514fc433499257f7be84fabb93840779205e134f7"
+  },
+  "panel": "MAIN"
+}

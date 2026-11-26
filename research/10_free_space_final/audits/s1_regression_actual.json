@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "role": "FREE_CONSTRAINTS_DATA_ROLE_ACTUAL_FROZEN_PURE_FUNCTION_REGRESSION",
+  "scope": "S0_AND_S1_REBUILT_SIX_CLIPS_AND_FIXED_SOUTH_ROUTE; NOT_A_NEW_REGION_RECOVERY_EXPERIMENT",
+  "historical_code_reused": true,
+  "main_F0_or_F1_code_called": false,
+  "actually_executed_subprocess": true,
+  "subprocess_exit_code": 0,
+  "source_bindings": [
+    {
+      "historical_relative_path": "src/run_semantics.py",
+      "member": "src/run_semantics.py",
+      "sha256": "d9747fe82f8fe81d9b6c71a451dc38ddc1cbfd5d99b618c4c78503f0340b726b",
+      "bytes": 16347
+    },
+    {
+      "historical_relative_path": "src/semantics.py",
+      "member": "src/semantics.py",
+      "sha256": "cc1ef6fbb5a7b6391361176e67ec561dbfd95002ead32d23dc95acf96c6fb11f",
+      "bytes": 10947
+    },
+    {
+      "historical_relative_path": "inputs/rev1/src/native_adapter.py",
+      "member": "src/native_adapter.py",
+      "sha256": "5bcefd9a7fddfbea67c778825fdc783d3a39d304ae8729673a620faad5349b83",
+      "bytes": 10956
+    },
+    {
+      "historical_relative_path": "inputs/rev1/src/route_measure.py",
+      "member": "src/route_measure.py",
+      "sha256": "46bdd77a1908358178988fc67b1c83493b7dbdc4d90c8d2a8c7456861bced778",
+      "bytes": 10826
+    },
+    {
+      "historical_relative_path": "inputs/rev1/data/edge_evidence.jsonl",
+      "member": "data/edge_evidence.jsonl",
+      "sha256": "b15a9edc0933749218c5cb233b157c66a31142c8e194ff52114db8cf63929688",
+      "bytes": 223498761
+    },
+    {
+      "historical_relative_path": "inputs/rev1/data/entrance_approach.json",
+      "member": "data/entrance_approach.json",
+      "sha256": "5d82fe70661663e3e9ee2cd1cd129c101634f241e95859e4acc10a6a5332356b",
+      "bytes": 84233
+    },
+    {
+      "historical_relative_path": "inputs/rev1/frozen_r4/runs/source_scene_contracts.json",
+      "member": "frozen_r4/runs/source_scene_contracts.json",
+      "sha256": "47727aab1f2b36880c36052abdcdc200eb6121a80f2c6123c0f98872b0278191",
+      "bytes": 44353
+    },
+    {
+      "historical_relative_path": "inputs/rev1/frozen_r4/src/frozen_r1/local_route.py",
+      "member": "frozen_r4/src/frozen_r1/local_route.py",
+      "sha256": "dfc2c42c3e4f228d11105ffbd170e5aa04c59834b977a8e7e212cf94dcb5b25f",
+      "bytes": 12438
+    },
+    {
+      "historical_relative_path": "inputs/rev1/frozen_r4/data/source/sh-huangpu-01.osm.json",
+      "member": "frozen_r4/data/source/sh-huangpu-01.osm.json",
+      "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "bytes": 6356390
+    },
+    {
+      "historical_relative_path": "inputs/rev1/frozen_r4/data/source/sh-wukang.osm.json",
+      "member": "frozen_r4/data/source/sh-wukang.osm.json",
+      "sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "bytes": 4696108
+    },
+    {
+      "historical_relative_path": "inputs/rev1/frozen_r4/data/source/sh-tower.osm.json",
+      "member": "frozen_r4/data/source/sh-tower.osm.json",
+      "sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "bytes": 5190923
+    },
+    {
+      "historical_relative_path": "inputs/rev1/frozen_r4/data/source/sh-newworld.osm.json",
+      "member": "frozen_r4/data/source/sh-newworld.osm.json",
+      "sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "bytes": 5472235
+    },
+    {
+      "historical_relative_path": "inputs/rev1/frozen_r4/data/source/sh-library.osm.json",
+      "member": "frozen_r4/data/source/sh-library.osm.json",
+      "sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "bytes": 5725501
+    },
+    {
+      "historical_relative_path": "inputs/rev1/frozen_r4/data/source/sh-exhibition.osm.json",
+      "member": "frozen_r4/data/source/sh-exhibition.osm.json",
+      "sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "bytes": 5229388
+    },
+    {
+      "historical_relative_path": "inputs/north/runs/experiment.json",
+      "member": "runs/experiment.json",
+      "sha256": "024551aa0c2a2f348065c0be2f674ba81104532daa3ad3b7fd78d580a048f41d",
+      "bytes": 9068
+    }
+  ],
+  "actual": {
+    "restored_unique_segments": 377,
+    "restored_directed_arcs": 754,
+    "restored_native_length_m": 4158.6023523160275,
+    "restored_grass_overlap_m": 3326.2783266807014,
+    "routes": {
+      "S0": {
+        "north_fixed": {
+          "status": "REACHED_FIXED_ENDPOINT",
+          "length_m": 1237.814718494129,
+          "target_residual_m": 0.0
+        },
+        "south": {
+          "status": "REACHED_FIXED_ENDPOINT",
+          "length_m": 1067.371390401112,
+          "target_residual_m": 0.0
+        },
+        "north_exit": {
+          "status": "NO_ROUTE",
+          "length_m": null
+        }
+      },
+      "S1": {
+        "north_fixed": {
+          "status": "REACHED_FIXED_ENDPOINT",
+          "length_m": 1166.0987072809223,
+          "target_residual_m": 0.0
+        },
+        "south": {
+          "status": "REACHED_FIXED_ENDPOINT",
+          "length_m": 1067.371390401112,
+          "target_residual_m": 0.0
+        },
+        "north_exit": {
+          "status": "NO_ROUTE",
+          "length_m": null
+        }
+      }
+    }
+  },
+  "frozen_comparison": {
+    "restored_unique_segments": 377,
+    "restored_directed_arcs": 754,
+    "restored_native_length_m": 4158.6023523160275,
+    "restored_grass_overlap_m": 3326.2783266807014,
+    "routes": {
+      "S0": {
+        "north_fixed": {
+          "status": "REACHED_FIXED_ENDPOINT",
+          "length_m": 1237.814718494129,
+          "target_residual_m": 0.0
+        },
+        "south": {
+          "status": "REACHED_FIXED_ENDPOINT",
+          "length_m": 1067.371390401112,
+          "target_residual_m": 0.0
+        },
+        "north_exit": {
+          "status": "NO_ROUTE",
+          "length_m": null
+        }
+      },
+      "S1": {
+        "north_fixed": {
+          "status": "REACHED_FIXED_ENDPOINT",
+          "length_m": 1166.0987072809223,
+          "target_residual_m": 0.0
+        },
+        "south": {
+          "status": "REACHED_FIXED_ENDPOINT",
+          "length_m": 1067.371390401112,
+          "target_residual_m": 0.0
+        },
+        "north_exit": {
+          "status": "NO_ROUTE",
+          "length_m": null
+        }
+      }
+    }
+  },
+  "artifact_checks": {
+    "data/semantics_edges.csv": {
+      "byte_identical": true,
+      "sha256": "be0d1393c5f3a6fad291b0be2030ea48315502f0cf56cb4bc17ecfb834470bfa",
+      "bytes": 1000291
+    },
+    "data/semantics_routes.geojson": {
+      "byte_identical": true,
+      "sha256": "f77b22f5329cc16722fa2feef72626550d2fc0dbc7ae886934bdc28c21dc7480",
+      "bytes": 175887
+    }
+  },
+  "output_relative_path": "runtime/s1_regression_actual",
+  "elapsed_s": 81.57882699999027,
+  "external_requests": 0,
+  "region_builds": 0,
+  "reference_recovery_or_public_access_claim": false
+}

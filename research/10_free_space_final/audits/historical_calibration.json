@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "id": "Wc4183046a70_G_080",
+      "historical_output_sha256": "0c69a068e1a88e68e9406d0fccda050f717d53342a9525b9b8a967336b81946e",
+      "current_surface_sha256": "1224aabc1b47174ccbc99fcedc6701cf8030310f4c39e742c34037cf75199a06",
+      "historical_surface_sha256": "1224aabc1b47174ccbc99fcedc6701cf8030310f4c39e742c34037cf75199a06",
+      "surface_exact": true,
+      "routes_exact": true,
+      "actual_routes_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "historical_routes_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "reached": 0,
+      "area_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 0.0,
+        "UNKNOWN": 2826.2980412584097
+      },
+      "role": "CURRENT_RECOMPUTED_CLASSIFIER_PLUS_HISTORICAL_ROUTER_CALIBRATION_NO_REGION_REBUILD"
+    },
+    {
+      "id": "W6daddd19fdb_G_080",
+      "historical_output_sha256": "75e17844c9a1d31d76f1c0cd8fe34f661bdd9afcd6dfc1671dd7deeb8c872cc7",
+      "current_surface_sha256": "4fca570545e26e2c2bc736753c048b56c20ce9add8664541cea3057722fad299",
+      "historical_surface_sha256": "4fca570545e26e2c2bc736753c048b56c20ce9add8664541cea3057722fad299",
+      "surface_exact": true,
+      "routes_exact": true,
+      "actual_routes_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "historical_routes_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "reached": 0,
+      "area_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 0.0,
+        "RESTRICTED": 1334.563630844999,
+        "UNKNOWN": 1491.7344104134709
+      },
+      "role": "CURRENT_RECOMPUTED_CLASSIFIER_PLUS_HISTORICAL_ROUTER_CALIBRATION_NO_REGION_REBUILD"
+    },
+    {
+      "id": "W745941f0f92_G_080",
+      "historical_output_sha256": "ba69d5feb4d1c76be616d3fcb95548f91c2ed8b8955e9b94205646daed49265e",
+      "current_surface_sha256": "4dc2785effee723f8303707dc4e6fbe8101fe4bf58cf8919083e19b86e4d2249",
+      "historical_surface_sha256": "4dc2785effee723f8303707dc4e6fbe8101fe4bf58cf8919083e19b86e4d2249",
+      "surface_exact": true,
+      "routes_exact": true,
+      "actual_routes_sha256": "eb6c9252002355921526d7ebd25a105973cbdfb5be69064e4f14246875a3743b",
+      "historical_routes_sha256": "eb6c9252002355921526d7ebd25a105973cbdfb5be69064e4f14246875a3743b",
+      "reached": 2,
+      "area_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 480.5899826608096,
+        "RESTRICTED": 1769.2067160413583,
+        "UNKNOWN": 576.5013425562295
+      },
+      "role": "CURRENT_RECOMPUTED_CLASSIFIER_PLUS_HISTORICAL_ROUTER_CALIBRATION_NO_REGION_REBUILD"
+    },
+    {
+      "id": "W0440b97497a_N_080",
+      "historical_output_sha256": "4d2aff345d2a4898ccafc1f8427899ce717ef08f7c10f8be3a66ea1a907a8d51",
+      "current_surface_sha256": "3c4bf6e836f51b9555ef9682637f5a149bc9da8b50e4f8bd829ed6426bb00a83",
+      "historical_surface_sha256": "3c4bf6e836f51b9555ef9682637f5a149bc9da8b50e4f8bd829ed6426bb00a83",
+      "surface_exact": true,
+      "routes_exact": true,
+      "actual_routes_sha256": "0bf7d2781ef20d9804af8298796e07b861696f8ac35624cb83bca83f94f0c90b",
+      "historical_routes_sha256": "0bf7d2781ef20d9804af8298796e07b861696f8ac35624cb83bca83f94f0c90b",
+      "reached": 2,
+      "area_m2": {
+        "NATIVE_WALKABLE": 0.0,
+        "INFERRED_WALKABLE": 57.80643989837598,
+        "RESTRICTED": 2181.9799007060674,
+        "UNKNOWN": 586.5117006539313
+      },
+      "role": "CURRENT_RECOMPUTED_CLASSIFIER_PLUS_HISTORICAL_ROUTER_CALIBRATION_NO_REGION_REBUILD"
+    },
+    {
+      "id": "NORTH_160",
+      "historical_output_sha256": "a7e13aceab62fe81c54f4a0f2201716ec2768658f4c8e33d0635429e58d6c087",
+      "current_surface_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+      "historical_surface_sha256": "faea650ae738fd6712885f1a2abee8a060a8a7638484593c146932e1278678c9",
+      "surface_exact": true,
+      "routes_exact": true,
+      "actual_routes_sha256": "2a3eed854cd07a4437baad2bcefffd5041ac37bae880f68f779a305b4af1cc66",
+      "historical_routes_sha256": "2a3eed854cd07a4437baad2bcefffd5041ac37bae880f68f779a305b4af1cc66",
+      "reached": 8,
+      "area_m2": {
+        "NATIVE_WALKABLE": 941.7135281556102,
+        "INFERRED_WALKABLE": 180.95811787285774,
+        "RESTRICTED": 1687.1117872296177,
+        "UNKNOWN": 16.5146080028114
+      },
+      "role": "FROZEN_OBSERVED_ONLY_CLASSIFIER_CACHE_IDENTITY_PLUS_ACTUAL_HISTORICAL_ROUTER_REPLAY"
+    }
+  ],
+  "region_builds": 0
+}
