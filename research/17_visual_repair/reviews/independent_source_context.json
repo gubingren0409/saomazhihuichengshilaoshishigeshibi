@@ -1,0 +1,1905 @@
+{
+  "reviewer": "actual independent /root/visual_context_review",
+  "checked_at": "2026-11-12T20:29:38.908959+00:00",
+  "scope": "Independent raw OSM projection, node/way/multipolygon geometry and exact fixed-window tagged-primitive coverage; source tag/id/old graph membership comparison. No author extraction function was called.",
+  "solver_calls_added": 0,
+  "BFS_or_graph_rebuilds_added": 0,
+  "algorithm_runs_added": 0,
+  "external_map_requests": 0,
+  "new_data_downloads": 0,
+  "status": "PASS_SOURCE_CONTEXT_INDEPENDENT_PRIMITIVE_SCOPE",
+  "windows": [
+    {
+      "window_id": "native",
+      "source_features": 154,
+      "independently_expected_tagged_primitives": 154,
+      "raw_fragment_records_checked": 1227,
+      "raw_fragment_content_mismatches": [],
+      "missing_independent_primitives": [],
+      "raw_geometry_matches_checked": 154,
+      "unsupported_raw_primitive_scope": [],
+      "displayed_unsupported_scope": [],
+      "old_payload_features": 154,
+      "new_source_IDs": [],
+      "old_IDs_not_retained": [],
+      "family_counts": {
+        "traffic_facilities": 15,
+        "poi": 72,
+        "railway": 6,
+        "crossings": 12,
+        "other_context": 1,
+        "vegetation": 2,
+        "buildings": 29,
+        "native_walkways": 29,
+        "road_centerlines": 22,
+        "pedestrian_areas": 2,
+        "water": 1
+      },
+      "native_context_not_in_any_graph": 118,
+      "geometry_checks": [
+        {
+          "source_id": "node/132491635",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/538153171",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/619220944",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/1172174599",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/3906828088",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4238991500",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4242801701",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4348434457",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4348434459",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4348434460",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4348434463",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4348434464",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4353429880",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4395666389",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4397696159",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4397696160",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4397696177",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4397696180",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4397696181",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4397696182",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4397696184",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4463715202",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4465151264",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4479117700",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5020248921",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5103313121",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5436983616",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5436983724",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5436983725",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5437083643",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5437083655",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5437083658",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5437083669",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5437083670",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5437083702",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5437083703",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5505354424",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5530017322",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5759662621",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6785556605",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7550657834",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7550662061",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7550675618",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7550685889",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7550687995",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7550690722",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7550692351",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/10738290457",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/11209357664",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/11602985411",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/12023157347",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/12025294820",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/12357674001",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/12357677501",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/12399591202",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/12404305501",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/12404305601",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/12999897349",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/13274816872",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/13337969402",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/13337971701",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/14003556507",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/14273192001",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/39763744",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/39763758",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/39764333",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/39764359",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/39764384",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/39764417",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/39764607",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/39772375",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/39838691",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/39838854",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/48872352",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/48872369",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/131671623",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/143670115",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/160895826",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/160896233",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/165953415",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/165953416",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/165953417",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/165953420",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/165953424",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/279209078",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369317487",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369317496",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369317503",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369317507",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369317516",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369317521",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369317584",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342447",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342481",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342486",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342501",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342531",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342540",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342572",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342585",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342586",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342591",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342594",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/369342602",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/376634457",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/376634458",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/387381262",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/387381528",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/407151107",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/435833211",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/437014066",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/445152065",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/445161727",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/449041506",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/449536166",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/449536168",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/449565666",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/451068215",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/451068217",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/451068219",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/451068220",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/451068221",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/451068222",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/451068223",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/451068736",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/479994215",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/513764719",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/513764727",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/513764732",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/513764755",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/551373969",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564255387",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564255391",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564255396",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564255400",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564255402",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564255405",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564273552",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564273553",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564273554",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564273562",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564273564",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/564273565",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/654297629",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1287048321",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1287048322",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1287048323",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1287048324",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1287048325",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1287048326",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1287048327",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1287048333",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1287048337",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1389669274",
+          "type": "LineString",
+          "matches_raw": true
+        }
+      ]
+    },
+    {
+      "window_id": "tagged",
+      "source_features": 122,
+      "independently_expected_tagged_primitives": 122,
+      "raw_fragment_records_checked": 655,
+      "raw_fragment_content_mismatches": [],
+      "missing_independent_primitives": [],
+      "raw_geometry_matches_checked": 122,
+      "unsupported_raw_primitive_scope": [],
+      "displayed_unsupported_scope": [],
+      "old_payload_features": 122,
+      "new_source_IDs": [],
+      "old_IDs_not_retained": [],
+      "family_counts": {
+        "traffic_facilities": 5,
+        "other_context": 2,
+        "poi": 52,
+        "barriers": 2,
+        "road_centerlines": 29,
+        "native_walkways": 3,
+        "buildings": 45,
+        "pedestrian_areas": 1
+      },
+      "native_context_not_in_any_graph": 106,
+      "geometry_checks": [
+        {
+          "source_id": "node/154072987",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/154073184",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/154073217",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4455938289",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4692171394",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4849325418",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5608708836",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5608708837",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/5845079571",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6074911005",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6074911006",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6290531285",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6290531385",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6290531386",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6290531387",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6290531388",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6290544718",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6290544723",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6298485399",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6298485401",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6324679575",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6361888984",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6361889988",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6369165302",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6417419685",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6417419686",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6533868341",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6533895143",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7093147609",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7093164656",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7383948459",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7384252811",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7384252812",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/8736184458",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/8736210187",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/8736229632",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/8736255774",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/10223449208",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/13866212",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/15478839",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/47451506",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/277743540",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/277743606",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/277743703",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/277743720",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/277743729",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/294625592",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/294625613",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/331207147",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/403344783",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/438516308",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/492977116",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/492977127",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/540244278",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/540244279",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/588536513",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/646626922",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/646634539",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/646635932",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/670935536",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/670935537",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/670935538",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/671103346",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/671103347",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/671103348",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/671760922",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/671760923",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/671760924",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/679399066",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/679985698",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/679990209",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/679990210",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/680232333",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/680232334",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/680232335",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/685337067",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/696308939",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/696308940",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/696609560",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/737361630",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/790317038",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1068486064",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1068486065",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199480588",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199689229",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199689230",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199730581",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199730584",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199730585",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199730586",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199730587",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199730588",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199730589",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199730590",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1199730591",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1201575207",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1201575336",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1202543320",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1202543321",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1202543322",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1202547840",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088723",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088724",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088725",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088727",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088728",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088731",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088732",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088733",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088734",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088735",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088736",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204088737",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204090283",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204090284",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204090285",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204090286",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204090287",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204090288",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1279898714",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1279898715",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1279898716",
+          "type": "Polygon",
+          "matches_raw": true
+        }
+      ]
+    },
+    {
+      "window_id": "missing",
+      "source_features": 85,
+      "independently_expected_tagged_primitives": 85,
+      "raw_fragment_records_checked": 631,
+      "raw_fragment_content_mismatches": [],
+      "missing_independent_primitives": [],
+      "raw_geometry_matches_checked": 85,
+      "unsupported_raw_primitive_scope": [],
+      "displayed_unsupported_scope": [],
+      "old_payload_features": 85,
+      "new_source_IDs": [],
+      "old_IDs_not_retained": [],
+      "family_counts": {
+        "other_context": 2,
+        "poi": 11,
+        "road_centerlines": 6,
+        "buildings": 64,
+        "vegetation": 3,
+        "native_walkways": 4
+      },
+      "native_context_not_in_any_graph": 78,
+      "geometry_checks": [
+        {
+          "source_id": "node/105253460",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/105259252",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4607226290",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/4756040424",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/6488228785",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "node/7651086085",
+          "type": "Point",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/11761212",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/85686604",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/154076386",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/232920699",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/293434156",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/293434159",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/293434164",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/293434171",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/293434172",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/293434176",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/293518769",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/293518771",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874111",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874112",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874113",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874114",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874115",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874116",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874117",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874118",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874121",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874124",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/297874125",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/298102064",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/494649384",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/494663000",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1150630714",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1150630715",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1150630716",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1150630718",
+          "type": "LineString",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1150630721",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1200482693",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1200482694",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1200482695",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1200482696",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1200482697",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1200482698",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1200482699",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204065010",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067132",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067133",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067134",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067135",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067136",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067137",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067138",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067139",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067140",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067141",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204067142",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204089499",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204089500",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204089501",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204089502",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204089503",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204089504",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204089505",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204089506",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204089507",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204089508",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204092487",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1204092488",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373118",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373119",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373120",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373121",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373122",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373123",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373124",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373125",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373126",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373127",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373128",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1216373129",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1343775696",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1343775704",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1343775705",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1343775706",
+          "type": "Polygon",
+          "matches_raw": true
+        },
+        {
+          "source_id": "way/1343775711",
+          "type": "Polygon",
+          "matches_raw": true
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "limits": [
+    "Independent raw-area predicate covers nodes, valid closed ways and multipolygon relations. Incomplete/nonspatial relations are separately enumerated, not declared absent.",
+    "This is map object fidelity, not physical pedestrian-access or algorithm validity review."
+  ]
+}

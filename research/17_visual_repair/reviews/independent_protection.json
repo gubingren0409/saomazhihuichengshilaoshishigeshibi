@@ -1,0 +1,28 @@
+{
+  "reviewer": "actual independent /root/visual_context_review",
+  "checked_at": "2026-11-12T20:50:49.230398+00:00",
+  "scope": "Independent end-state old index byte hashes and old isolated source HEAD/worktree status, plus fixed ZIP SHA. Only read-only Git commands with GIT_OPTIONAL_LOCKS=0.",
+  "solver_calls_added": 0,
+  "BFS_or_graph_rebuilds_added": 0,
+  "algorithm_runs_added": 0,
+  "external_map_requests": 0,
+  "new_data_downloads": 0,
+  "status": "PASS_PROTECTED_OLD_GIT_AND_ARCHIVE",
+  "old_indices": [
+    {
+      "path": "E:\\智慧城市和位置服务\\.git\\index",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services\\.git\\index",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\repository\\.git\\index",
+      "unchanged": true
+    }
+  ],
+  "old_HEAD": "1ab7fd75704d98e85fe4e69a85dc828e7df2ffb5",
+  "old_worktree_status": "",
+  "failures": []
+}

@@ -1,0 +1,2289 @@
+{
+  "scope": "Per original fixed320m window, taggedspatialobjects; familiesoverlap andmustnot sum; rawreference-node omissions not mapfeatureloss",
+  "rendered_status": "BOUND_TO_ACTUAL_STATIC_ARTIST_ID_RECEIPT",
+  "rows": [
+    {
+      "window_id": "native",
+      "source_family": "buildings",
+      "frozen_source_count": 29,
+      "source_drawable_geometry_count": 29,
+      "exported_context_count": 29,
+      "rendered_count": 29,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 29,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/39763758",
+        "way/39764333",
+        "way/143670115",
+        "way/369317487",
+        "way/369317496",
+        "way/369317503",
+        "way/369317507",
+        "way/369317516",
+        "way/369317521",
+        "way/369317584",
+        "way/369342447",
+        "way/369342481",
+        "way/369342486",
+        "way/369342501",
+        "way/369342531",
+        "way/369342540",
+        "way/369342572",
+        "way/369342585",
+        "way/369342586",
+        "way/369342591",
+        "way/369342594",
+        "way/369342602",
+        "way/387381262",
+        "way/437014066",
+        "way/445152065",
+        "way/445161727",
+        "way/449041506",
+        "way/479994215",
+        "way/1287048324"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          29
+        ],
+        "R0_context_overlay": [
+          29
+        ],
+        "R1_context_overlay": [
+          29
+        ],
+        "R2_context_overlay": [
+          29
+        ],
+        "R0_R1_R2_same_extent": [
+          29,
+          29,
+          29
+        ],
+        "local_detail": [
+          5,
+          5,
+          5
+        ]
+      },
+      "labelled_count": 4
+    },
+    {
+      "window_id": "native",
+      "source_family": "road_centerlines",
+      "frozen_source_count": 22,
+      "source_drawable_geometry_count": 22,
+      "exported_context_count": 22,
+      "rendered_count": 22,
+      "routing_graph_count": 10,
+      "routing_graph_R0_count": 10,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 10,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 22,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/39838691",
+        "way/39838854",
+        "way/48872352",
+        "way/131671623",
+        "way/279209078",
+        "way/387381528",
+        "way/435833211",
+        "way/449536166",
+        "way/449536168",
+        "way/449565666",
+        "way/451068215",
+        "way/451068217",
+        "way/451068219",
+        "way/451068220",
+        "way/451068221",
+        "way/451068222",
+        "way/451068223",
+        "way/451068736",
+        "way/564273552",
+        "way/564273553",
+        "way/564273554",
+        "way/654297629"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          22
+        ],
+        "R0_context_overlay": [
+          22
+        ],
+        "R1_context_overlay": [
+          22
+        ],
+        "R2_context_overlay": [
+          22
+        ],
+        "R0_R1_R2_same_extent": [
+          22,
+          22,
+          22
+        ],
+        "local_detail": [
+          8,
+          8,
+          8
+        ]
+      },
+      "labelled_count": 5
+    },
+    {
+      "window_id": "native",
+      "source_family": "road_areas",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "native",
+      "source_family": "native_walkways",
+      "frozen_source_count": 29,
+      "source_drawable_geometry_count": 29,
+      "exported_context_count": 29,
+      "rendered_count": 29,
+      "routing_graph_count": 26,
+      "routing_graph_R0_count": 26,
+      "routing_graph_R1_count": 26,
+      "routing_graph_R2_count": 26,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 29,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/39764359",
+        "way/39764384",
+        "way/39764417",
+        "way/39764607",
+        "way/39772375",
+        "way/165953415",
+        "way/165953416",
+        "way/165953420",
+        "way/165953424",
+        "way/513764727",
+        "way/513764732",
+        "way/513764755",
+        "way/564255387",
+        "way/564255391",
+        "way/564255396",
+        "way/564255400",
+        "way/564255402",
+        "way/564255405",
+        "way/564273562",
+        "way/564273564",
+        "way/564273565",
+        "way/1287048321",
+        "way/1287048322",
+        "way/1287048323",
+        "way/1287048325",
+        "way/1287048326",
+        "way/1287048327",
+        "way/1287048333",
+        "way/1287048337"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          29
+        ],
+        "R0_context_overlay": [
+          29
+        ],
+        "R1_context_overlay": [
+          29
+        ],
+        "R2_context_overlay": [
+          29
+        ],
+        "R0_R1_R2_same_extent": [
+          29,
+          29,
+          29
+        ],
+        "local_detail": [
+          10,
+          10,
+          10
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "native",
+      "source_family": "crossings",
+      "frozen_source_count": 12,
+      "source_drawable_geometry_count": 12,
+      "exported_context_count": 12,
+      "rendered_count": 12,
+      "routing_graph_count": 5,
+      "routing_graph_R0_count": 5,
+      "routing_graph_R1_count": 5,
+      "routing_graph_R2_count": 5,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 12,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/4353429880",
+        "node/5436983616",
+        "node/5436983724",
+        "node/5436983725",
+        "node/5437083670",
+        "node/5437083702",
+        "node/5437083703",
+        "way/564255391",
+        "way/564255396",
+        "way/564255400",
+        "way/564273562",
+        "way/564273564"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          12
+        ],
+        "R0_context_overlay": [
+          12
+        ],
+        "R1_context_overlay": [
+          12
+        ],
+        "R2_context_overlay": [
+          12
+        ],
+        "R0_R1_R2_same_extent": [
+          12,
+          12,
+          12
+        ],
+        "local_detail": [
+          5,
+          5,
+          5
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "native",
+      "source_family": "traffic_facilities",
+      "frozen_source_count": 15,
+      "source_drawable_geometry_count": 15,
+      "exported_context_count": 15,
+      "rendered_count": 15,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 15,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/132491635",
+        "node/4353429880",
+        "node/5436983616",
+        "node/5436983724",
+        "node/5436983725",
+        "node/5437083643",
+        "node/5437083655",
+        "node/5437083658",
+        "node/5437083669",
+        "node/5437083670",
+        "node/5437083702",
+        "node/5437083703",
+        "node/12023157347",
+        "node/12025294820",
+        "way/551373969"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          15
+        ],
+        "R0_context_overlay": [
+          15
+        ],
+        "R1_context_overlay": [
+          15
+        ],
+        "R2_context_overlay": [
+          15
+        ],
+        "R0_R1_R2_same_extent": [
+          15,
+          15,
+          15
+        ],
+        "local_detail": [
+          8,
+          8,
+          8
+        ]
+      },
+      "labelled_count": 2
+    },
+    {
+      "window_id": "native",
+      "source_family": "pedestrian_areas",
+      "frozen_source_count": 2,
+      "source_drawable_geometry_count": 2,
+      "exported_context_count": 2,
+      "rendered_count": 2,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 2,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/160895826",
+        "way/160896233"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          2
+        ],
+        "R0_context_overlay": [
+          2
+        ],
+        "R1_context_overlay": [
+          2
+        ],
+        "R2_context_overlay": [
+          2
+        ],
+        "R0_R1_R2_same_extent": [
+          2,
+          2,
+          2
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "native",
+      "source_family": "vegetation",
+      "frozen_source_count": 2,
+      "source_drawable_geometry_count": 2,
+      "exported_context_count": 2,
+      "rendered_count": 2,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 2,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/39763744",
+        "way/407151107"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          2
+        ],
+        "R0_context_overlay": [
+          2
+        ],
+        "R1_context_overlay": [
+          2
+        ],
+        "R2_context_overlay": [
+          2
+        ],
+        "R0_R1_R2_same_extent": [
+          2,
+          2,
+          2
+        ],
+        "local_detail": [
+          1,
+          1,
+          1
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "native",
+      "source_family": "water",
+      "frozen_source_count": 1,
+      "source_drawable_geometry_count": 1,
+      "exported_context_count": 1,
+      "rendered_count": 1,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 1,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/165953417"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          1
+        ],
+        "R0_context_overlay": [
+          1
+        ],
+        "R1_context_overlay": [
+          1
+        ],
+        "R2_context_overlay": [
+          1
+        ],
+        "R0_R1_R2_same_extent": [
+          1,
+          1,
+          1
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "native",
+      "source_family": "barriers",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "native",
+      "source_family": "railway",
+      "frozen_source_count": 6,
+      "source_drawable_geometry_count": 6,
+      "exported_context_count": 6,
+      "rendered_count": 6,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 6,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/1172174599",
+        "way/376634457",
+        "way/376634458",
+        "way/513764719",
+        "way/551373969",
+        "way/1389669274"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          6
+        ],
+        "R0_context_overlay": [
+          6
+        ],
+        "R1_context_overlay": [
+          6
+        ],
+        "R2_context_overlay": [
+          6
+        ],
+        "R0_R1_R2_same_extent": [
+          6,
+          6,
+          6
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 2
+    },
+    {
+      "window_id": "native",
+      "source_family": "poi",
+      "frozen_source_count": 72,
+      "source_drawable_geometry_count": 72,
+      "exported_context_count": 72,
+      "rendered_count": 72,
+      "routing_graph_count": 1,
+      "routing_graph_R0_count": 1,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 1,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 72,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/538153171",
+        "node/619220944",
+        "node/1172174599",
+        "node/3906828088",
+        "node/4238991500",
+        "node/4242801701",
+        "node/4348434457",
+        "node/4348434459",
+        "node/4348434460",
+        "node/4348434463",
+        "node/4348434464",
+        "node/4395666389",
+        "node/4397696159",
+        "node/4397696160",
+        "node/4397696177",
+        "node/4397696180",
+        "node/4397696181",
+        "node/4397696182",
+        "node/4397696184",
+        "node/4463715202",
+        "node/4479117700",
+        "node/5020248921",
+        "node/5103313121",
+        "node/5437083655",
+        "node/5437083658",
+        "node/5505354424",
+        "node/5530017322",
+        "node/5759662621",
+        "node/6785556605",
+        "node/7550657834",
+        "node/7550662061",
+        "node/7550675618",
+        "node/7550685889",
+        "node/7550687995",
+        "node/7550690722",
+        "node/7550692351",
+        "node/10738290457",
+        "node/11209357664",
+        "node/11602985411",
+        "node/12023157347",
+        "node/12025294820",
+        "node/12357674001",
+        "node/12357677501",
+        "node/12399591202",
+        "node/12404305501",
+        "node/12404305601",
+        "node/12999897349",
+        "node/13274816872",
+        "node/13337969402",
+        "node/13337971701",
+        "node/14003556507",
+        "node/14273192001",
+        "way/39763744",
+        "way/39763758",
+        "way/39764333",
+        "way/39838691",
+        "way/39838854",
+        "way/48872369",
+        "way/131671623",
+        "way/143670115",
+        "way/369342594",
+        "way/369342602",
+        "way/376634457",
+        "way/376634458",
+        "way/437014066",
+        "way/445161727",
+        "way/479994215",
+        "way/551373969",
+        "way/564273552",
+        "way/564273553",
+        "way/564273554",
+        "way/654297629"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          72
+        ],
+        "R0_context_overlay": [
+          72
+        ],
+        "R1_context_overlay": [
+          72
+        ],
+        "R2_context_overlay": [
+          72
+        ],
+        "R0_R1_R2_same_extent": [
+          72,
+          72,
+          72
+        ],
+        "local_detail": [
+          27,
+          27,
+          27
+        ]
+      },
+      "labelled_count": 36
+    },
+    {
+      "window_id": "native",
+      "source_family": "other_context",
+      "frozen_source_count": 1,
+      "source_drawable_geometry_count": 1,
+      "exported_context_count": 1,
+      "rendered_count": 1,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 1,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/4465151264"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          1
+        ],
+        "R0_context_overlay": [
+          1
+        ],
+        "R1_context_overlay": [
+          1
+        ],
+        "R2_context_overlay": [
+          1
+        ],
+        "R0_R1_R2_same_extent": [
+          1,
+          1,
+          1
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "buildings",
+      "frozen_source_count": 45,
+      "source_drawable_geometry_count": 45,
+      "exported_context_count": 45,
+      "rendered_count": 45,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 45,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/294625613",
+        "way/588536513",
+        "way/646634539",
+        "way/670935536",
+        "way/670935537",
+        "way/670935538",
+        "way/671103346",
+        "way/679399066",
+        "way/680232335",
+        "way/1199689229",
+        "way/1199689230",
+        "way/1199730581",
+        "way/1199730584",
+        "way/1199730585",
+        "way/1199730586",
+        "way/1199730587",
+        "way/1199730588",
+        "way/1199730589",
+        "way/1199730590",
+        "way/1199730591",
+        "way/1202543320",
+        "way/1202543321",
+        "way/1202543322",
+        "way/1202547840",
+        "way/1204088723",
+        "way/1204088724",
+        "way/1204088725",
+        "way/1204088727",
+        "way/1204088728",
+        "way/1204088731",
+        "way/1204088732",
+        "way/1204088733",
+        "way/1204088734",
+        "way/1204088735",
+        "way/1204088736",
+        "way/1204088737",
+        "way/1204090283",
+        "way/1204090284",
+        "way/1204090285",
+        "way/1204090286",
+        "way/1204090287",
+        "way/1204090288",
+        "way/1279898714",
+        "way/1279898715",
+        "way/1279898716"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          45
+        ],
+        "R0_context_overlay": [
+          45
+        ],
+        "R1_context_overlay": [
+          45
+        ],
+        "R2_context_overlay": [
+          45
+        ],
+        "R0_R1_R2_same_extent": [
+          45,
+          45,
+          45
+        ],
+        "local_detail": [
+          4,
+          4,
+          4
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "road_centerlines",
+      "frozen_source_count": 29,
+      "source_drawable_geometry_count": 29,
+      "exported_context_count": 29,
+      "rendered_count": 29,
+      "routing_graph_count": 14,
+      "routing_graph_R0_count": 14,
+      "routing_graph_R1_count": 1,
+      "routing_graph_R2_count": 14,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 29,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/13866212",
+        "way/15478839",
+        "way/47451506",
+        "way/277743540",
+        "way/277743606",
+        "way/277743703",
+        "way/277743720",
+        "way/277743729",
+        "way/438516308",
+        "way/492977116",
+        "way/492977127",
+        "way/540244278",
+        "way/540244279",
+        "way/646626922",
+        "way/671103348",
+        "way/671760922",
+        "way/671760923",
+        "way/671760924",
+        "way/679985698",
+        "way/679990209",
+        "way/679990210",
+        "way/680232333",
+        "way/685337067",
+        "way/696308939",
+        "way/696308940",
+        "way/696609560",
+        "way/737361630",
+        "way/1068486064",
+        "way/1068486065"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          29
+        ],
+        "R0_context_overlay": [
+          29
+        ],
+        "R1_context_overlay": [
+          29
+        ],
+        "R2_context_overlay": [
+          29
+        ],
+        "R0_R1_R2_same_extent": [
+          29,
+          29,
+          29
+        ],
+        "local_detail": [
+          8,
+          8,
+          8
+        ]
+      },
+      "labelled_count": 9
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "road_areas",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "native_walkways",
+      "frozen_source_count": 3,
+      "source_drawable_geometry_count": 3,
+      "exported_context_count": 3,
+      "rendered_count": 3,
+      "routing_graph_count": 2,
+      "routing_graph_R0_count": 2,
+      "routing_graph_R1_count": 2,
+      "routing_graph_R2_count": 2,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 3,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/277743606",
+        "way/646635932",
+        "way/671103347"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          3
+        ],
+        "R0_context_overlay": [
+          3
+        ],
+        "R1_context_overlay": [
+          3
+        ],
+        "R2_context_overlay": [
+          3
+        ],
+        "R0_R1_R2_same_extent": [
+          3,
+          3,
+          3
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "crossings",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "traffic_facilities",
+      "frozen_source_count": 5,
+      "source_drawable_geometry_count": 5,
+      "exported_context_count": 5,
+      "rendered_count": 5,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 5,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/154072987",
+        "node/154073217",
+        "node/4849325418",
+        "node/8736184458",
+        "node/10223449208"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          5
+        ],
+        "R0_context_overlay": [
+          5
+        ],
+        "R1_context_overlay": [
+          5
+        ],
+        "R2_context_overlay": [
+          5
+        ],
+        "R0_R1_R2_same_extent": [
+          5,
+          5,
+          5
+        ],
+        "local_detail": [
+          2,
+          2,
+          2
+        ]
+      },
+      "labelled_count": 2
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "pedestrian_areas",
+      "frozen_source_count": 1,
+      "source_drawable_geometry_count": 1,
+      "exported_context_count": 1,
+      "rendered_count": 1,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 1,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/331207147"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          1
+        ],
+        "R0_context_overlay": [
+          1
+        ],
+        "R1_context_overlay": [
+          1
+        ],
+        "R2_context_overlay": [
+          1
+        ],
+        "R0_R1_R2_same_extent": [
+          1,
+          1,
+          1
+        ],
+        "local_detail": [
+          1,
+          1,
+          1
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "vegetation",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "water",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "barriers",
+      "frozen_source_count": 2,
+      "source_drawable_geometry_count": 2,
+      "exported_context_count": 2,
+      "rendered_count": 2,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 2,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/6290544718",
+        "node/6290544723"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          2
+        ],
+        "R0_context_overlay": [
+          2
+        ],
+        "R1_context_overlay": [
+          2
+        ],
+        "R2_context_overlay": [
+          2
+        ],
+        "R0_R1_R2_same_extent": [
+          2,
+          2,
+          2
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "railway",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "poi",
+      "frozen_source_count": 52,
+      "source_drawable_geometry_count": 52,
+      "exported_context_count": 52,
+      "rendered_count": 52,
+      "routing_graph_count": 4,
+      "routing_graph_R0_count": 4,
+      "routing_graph_R1_count": 1,
+      "routing_graph_R2_count": 4,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 52,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/154073217",
+        "node/4455938289",
+        "node/4692171394",
+        "node/4849325418",
+        "node/5608708836",
+        "node/5608708837",
+        "node/5845079571",
+        "node/6074911005",
+        "node/6074911006",
+        "node/6290531285",
+        "node/6290531385",
+        "node/6290531386",
+        "node/6290531387",
+        "node/6290531388",
+        "node/6298485399",
+        "node/6298485401",
+        "node/6324679575",
+        "node/6361888984",
+        "node/6361889988",
+        "node/6369165302",
+        "node/6417419685",
+        "node/6417419686",
+        "node/6533868341",
+        "node/6533895143",
+        "node/7093147609",
+        "node/7093164656",
+        "node/7383948459",
+        "node/7384252811",
+        "node/7384252812",
+        "node/8736184458",
+        "node/8736210187",
+        "node/8736229632",
+        "node/8736255774",
+        "node/10223449208",
+        "way/13866212",
+        "way/15478839",
+        "way/47451506",
+        "way/277743606",
+        "way/294625592",
+        "way/438516308",
+        "way/492977116",
+        "way/492977127",
+        "way/646634539",
+        "way/670935536",
+        "way/680232334",
+        "way/696609560",
+        "way/790317038",
+        "way/1068486064",
+        "way/1068486065",
+        "way/1199480588",
+        "way/1201575207",
+        "way/1201575336"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          52
+        ],
+        "R0_context_overlay": [
+          52
+        ],
+        "R1_context_overlay": [
+          52
+        ],
+        "R2_context_overlay": [
+          52
+        ],
+        "R0_R1_R2_same_extent": [
+          52,
+          52,
+          52
+        ],
+        "local_detail": [
+          7,
+          7,
+          7
+        ]
+      },
+      "labelled_count": 26
+    },
+    {
+      "window_id": "tagged",
+      "source_family": "other_context",
+      "frozen_source_count": 2,
+      "source_drawable_geometry_count": 2,
+      "exported_context_count": 2,
+      "rendered_count": 2,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 2,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/154073184",
+        "way/403344783"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          2
+        ],
+        "R0_context_overlay": [
+          2
+        ],
+        "R1_context_overlay": [
+          2
+        ],
+        "R2_context_overlay": [
+          2
+        ],
+        "R0_R1_R2_same_extent": [
+          2,
+          2,
+          2
+        ],
+        "local_detail": [
+          1,
+          1,
+          1
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "buildings",
+      "frozen_source_count": 64,
+      "source_drawable_geometry_count": 64,
+      "exported_context_count": 64,
+      "rendered_count": 64,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 64,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/293434156",
+        "way/293434159",
+        "way/293434164",
+        "way/293434171",
+        "way/293434172",
+        "way/293434176",
+        "way/297874111",
+        "way/297874112",
+        "way/297874113",
+        "way/297874114",
+        "way/297874115",
+        "way/297874116",
+        "way/297874117",
+        "way/297874121",
+        "way/297874124",
+        "way/297874125",
+        "way/1200482693",
+        "way/1200482694",
+        "way/1200482695",
+        "way/1200482696",
+        "way/1200482697",
+        "way/1200482698",
+        "way/1200482699",
+        "way/1204065010",
+        "way/1204067132",
+        "way/1204067133",
+        "way/1204067134",
+        "way/1204067135",
+        "way/1204067136",
+        "way/1204067137",
+        "way/1204067138",
+        "way/1204067139",
+        "way/1204067140",
+        "way/1204067141",
+        "way/1204067142",
+        "way/1204089499",
+        "way/1204089500",
+        "way/1204089501",
+        "way/1204089502",
+        "way/1204089503",
+        "way/1204089504",
+        "way/1204089505",
+        "way/1204089506",
+        "way/1204089507",
+        "way/1204089508",
+        "way/1204092487",
+        "way/1204092488",
+        "way/1216373118",
+        "way/1216373119",
+        "way/1216373120",
+        "way/1216373121",
+        "way/1216373122",
+        "way/1216373123",
+        "way/1216373124",
+        "way/1216373125",
+        "way/1216373126",
+        "way/1216373127",
+        "way/1216373128",
+        "way/1216373129",
+        "way/1343775696",
+        "way/1343775704",
+        "way/1343775705",
+        "way/1343775706",
+        "way/1343775711"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          64
+        ],
+        "R0_context_overlay": [
+          64
+        ],
+        "R1_context_overlay": [
+          64
+        ],
+        "R2_context_overlay": [
+          64
+        ],
+        "R0_R1_R2_same_extent": [
+          64,
+          64,
+          64
+        ],
+        "local_detail": [
+          15,
+          15,
+          15
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "road_centerlines",
+      "frozen_source_count": 6,
+      "source_drawable_geometry_count": 6,
+      "exported_context_count": 6,
+      "rendered_count": 6,
+      "routing_graph_count": 3,
+      "routing_graph_R0_count": 3,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 3,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 6,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/11761212",
+        "way/85686604",
+        "way/154076386",
+        "way/232920699",
+        "way/297874118",
+        "way/298102064"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          6
+        ],
+        "R0_context_overlay": [
+          6
+        ],
+        "R1_context_overlay": [
+          6
+        ],
+        "R2_context_overlay": [
+          6
+        ],
+        "R0_R1_R2_same_extent": [
+          6,
+          6,
+          6
+        ],
+        "local_detail": [
+          3,
+          3,
+          3
+        ]
+      },
+      "labelled_count": 5
+    },
+    {
+      "window_id": "missing",
+      "source_family": "road_areas",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "native_walkways",
+      "frozen_source_count": 4,
+      "source_drawable_geometry_count": 4,
+      "exported_context_count": 4,
+      "rendered_count": 4,
+      "routing_graph_count": 4,
+      "routing_graph_R0_count": 4,
+      "routing_graph_R1_count": 4,
+      "routing_graph_R2_count": 4,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 4,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/1150630714",
+        "way/1150630715",
+        "way/1150630716",
+        "way/1150630718"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          4
+        ],
+        "R0_context_overlay": [
+          4
+        ],
+        "R1_context_overlay": [
+          4
+        ],
+        "R2_context_overlay": [
+          4
+        ],
+        "R0_R1_R2_same_extent": [
+          4,
+          4,
+          4
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "crossings",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "traffic_facilities",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "pedestrian_areas",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "vegetation",
+      "frozen_source_count": 3,
+      "source_drawable_geometry_count": 3,
+      "exported_context_count": 3,
+      "rendered_count": 3,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 3,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "way/293518769",
+        "way/293518771",
+        "way/1150630721"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          3
+        ],
+        "R0_context_overlay": [
+          3
+        ],
+        "R1_context_overlay": [
+          3
+        ],
+        "R2_context_overlay": [
+          3
+        ],
+        "R0_R1_R2_same_extent": [
+          3,
+          3,
+          3
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "water",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "barriers",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "railway",
+      "frozen_source_count": 0,
+      "source_drawable_geometry_count": 0,
+      "exported_context_count": 0,
+      "rendered_count": 0,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 0,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "NOT_PRESENT_IN_FROZEN_SOURCE",
+      "source_ids": [],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          0
+        ],
+        "R0_context_overlay": [
+          0
+        ],
+        "R1_context_overlay": [
+          0
+        ],
+        "R2_context_overlay": [
+          0
+        ],
+        "R0_R1_R2_same_extent": [
+          0,
+          0,
+          0
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    },
+    {
+      "window_id": "missing",
+      "source_family": "poi",
+      "frozen_source_count": 11,
+      "source_drawable_geometry_count": 11,
+      "exported_context_count": 11,
+      "rendered_count": 11,
+      "routing_graph_count": 2,
+      "routing_graph_R0_count": 2,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 2,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 11,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/4607226290",
+        "node/4756040424",
+        "node/6488228785",
+        "node/7651086085",
+        "way/11761212",
+        "way/85686604",
+        "way/154076386",
+        "way/232920699",
+        "way/298102064",
+        "way/494649384",
+        "way/494663000"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          11
+        ],
+        "R0_context_overlay": [
+          11
+        ],
+        "R1_context_overlay": [
+          11
+        ],
+        "R2_context_overlay": [
+          11
+        ],
+        "R0_R1_R2_same_extent": [
+          11,
+          11,
+          11
+        ],
+        "local_detail": [
+          3,
+          3,
+          3
+        ]
+      },
+      "labelled_count": 8
+    },
+    {
+      "window_id": "missing",
+      "source_family": "other_context",
+      "frozen_source_count": 2,
+      "source_drawable_geometry_count": 2,
+      "exported_context_count": 2,
+      "rendered_count": 2,
+      "routing_graph_count": 0,
+      "routing_graph_R0_count": 0,
+      "routing_graph_R1_count": 0,
+      "routing_graph_R2_count": 0,
+      "routing_graph_count_semantics": "SOURCE_ID_REFERENCE_MEMBERSHIP_IN_NATIVE_OR_DERIVED_PARENT_EDGES; NOT_RAW_GEOMETRY_ADMISSION",
+      "previous_payload_count": 2,
+      "newly_exported_count": 0,
+      "omitted_count": 0,
+      "omission_reason": "NONE_DRAWABLE_SOURCE_CONTEXT_OMITTED",
+      "absence_status": "PRESENT_EXPORTED",
+      "source_ids": [
+        "node/105253460",
+        "node/105259252"
+      ],
+      "metadata_only_source_ids": [],
+      "exported_not_rendered_source_ids": [],
+      "rendered_count_scope": "ACTUAL_SOURCE_ARTIST_IDS_IN_CONTEXT_FULL; label collision suppression is separate",
+      "rendered_per_figure": {
+        "context_full": [
+          2
+        ],
+        "R0_context_overlay": [
+          2
+        ],
+        "R1_context_overlay": [
+          2
+        ],
+        "R2_context_overlay": [
+          2
+        ],
+        "R0_R1_R2_same_extent": [
+          2,
+          2,
+          2
+        ],
+        "local_detail": [
+          0,
+          0,
+          0
+        ]
+      },
+      "labelled_count": 0
+    }
+  ],
+  "static_render_receipt": {
+    "path": "audit/static_render_membership.json",
+    "sha256": "9bb89d888a4a8803acedff2b98a5d50c1c3a9feadec907f9931494c1205fca47"
+  },
+  "note": "Rendered means a source artist emitted under figure viewport; not a subjective visibility guarantee. Labels may be collision-suppressed. Native/algorithm layers remain distinct."
+}

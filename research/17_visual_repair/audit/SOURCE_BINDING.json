@@ -1,0 +1,82 @@
+{
+  "task": "PG1-MAP-CONTEXT-VISUAL-REPAIR-R1",
+  "at": "2026-11-13T04:57:02.898144+08:00",
+  "frozen_result_commit": "1ab7fd75704d98e85fe4e69a85dc828e7df2ffb5",
+  "visual_source_commit": "ddd1927c8cac86e30c2cd8fd023304efd8b1aa34",
+  "branch": "codex/pg1-map-context-visual-repair-r1",
+  "new_source_files": [
+    {
+      "execution_path": "scripts/build_page.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_VISUAL_REPAIR_R1/scripts/build_page.py",
+      "bytes": 9951,
+      "sha256": "c93bbb7bfc84dbacfc8b302d7cfb3cef3a3c3eb053bcd1495d5f7dfa6e569c25"
+    },
+    {
+      "execution_path": "scripts/check_browser.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_VISUAL_REPAIR_R1/scripts/check_browser.py",
+      "bytes": 5198,
+      "sha256": "b67eb01b06eb5e6823827a2b11b557056e2a5cf8aa9e68e8531aa63d14171b7f"
+    },
+    {
+      "execution_path": "scripts/extract_context.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_VISUAL_REPAIR_R1/scripts/extract_context.py",
+      "bytes": 22010,
+      "sha256": "96056e4546cbfb8432a1a87aea86d43be343be810c19488d8748f026b094cca1"
+    },
+    {
+      "execution_path": "scripts/independent_visual_check.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_VISUAL_REPAIR_R1/scripts/independent_visual_check.py",
+      "bytes": 35445,
+      "sha256": "7c10f9f441b454c11493e42471e08a6a974126afbb5f5cd5ece47255c92d81cd"
+    },
+    {
+      "execution_path": "scripts/render_maps.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_VISUAL_REPAIR_R1/scripts/render_maps.py",
+      "bytes": 15117,
+      "sha256": "7f260587c8eb48f288052c89e339d58aebeffcba94beb53321f7d29c7fde30aa"
+    },
+    {
+      "execution_path": "scripts/serve_review.py",
+      "git_path": "rounds/PG1_MAP_CONTEXT_VISUAL_REPAIR_R1/scripts/serve_review.py",
+      "bytes": 1483,
+      "sha256": "59b6a69c4da25f6f27a4e586fc74992c36fcc80009ab95d62e59be8ed8ea1393"
+    },
+    {
+      "execution_path": "maps/viewer.js",
+      "git_path": "rounds/PG1_MAP_CONTEXT_VISUAL_REPAIR_R1/maps/viewer.js",
+      "bytes": 23802,
+      "sha256": "a503517c0960cd5361e2e285b669aeb00ddef00c9b411efec745901b9b8fa059"
+    },
+    {
+      "execution_path": "maps/viewer.css",
+      "git_path": "rounds/PG1_MAP_CONTEXT_VISUAL_REPAIR_R1/maps/viewer.css",
+      "bytes": 3992,
+      "sha256": "70accc2bcc9a577baf5f6f25711037f30e9f6eb12254f477d4d8ae49267c50b1"
+    },
+    {
+      "execution_path": "README_FIRST.md",
+      "git_path": "rounds/PG1_MAP_CONTEXT_VISUAL_REPAIR_R1/README_FIRST.md",
+      "bytes": 3341,
+      "sha256": "7cda04fd9c834699be22d335bf9e1042a16223e4631c8a55adb563a31b16514e"
+    },
+    {
+      "execution_path": "VISUAL_REPAIR_REPORT.md",
+      "git_path": "rounds/PG1_MAP_CONTEXT_VISUAL_REPAIR_R1/VISUAL_REPAIR_REPORT.md",
+      "bytes": 5247,
+      "sha256": "59bb26dccabfb9dc369951f3b3019fe12cb421034d264a4446a39766201780cb"
+    }
+  ],
+  "source_prepared": true,
+  "local_committed": true,
+  "public_pushes": 0,
+  "GPT_remote_readback": false,
+  "current_remote_state": "NOT_QUERIED_THIS_VISUAL_TASK",
+  "old38_public_candidates": "UNCHANGED_NOT_EXTENDED_BY_THIS_PRIVATE_COMMIT",
+  "license_selected": false,
+  "secret_scan": {
+    "scope": "selectednewtextsource-knownprefixpatterns",
+    "findings": 0
+  },
+  "algorithm_runs_added": 0,
+  "solver_calls_added": 0
+}

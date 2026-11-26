@@ -1,0 +1,842 @@
+{
+  "identity": "VISUAL_REPAIR_EXPORT_NO_SOLVER",
+  "window_id": "native",
+  "query_id": "native-along",
+  "query": {
+    "query_id": "native-along",
+    "kind": "NATIVE_ALONG",
+    "road_id": "way/39764359",
+    "start_node": 13763096983,
+    "end_node": 1728701622,
+    "start_side": "left",
+    "end_side": "left",
+    "description": "NATIVE_ALONG",
+    "bindings": {
+      "R0": {
+        "start": "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+        "end": "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+        "meaning": "exact native source nodes"
+      },
+      "R1": {
+        "start": "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+        "end": "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+        "meaning": "exact native source nodes"
+      },
+      "R2": {
+        "start": "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+        "end": "native:1728701622:layer=0;level=0;bridge=no;tunnel=no",
+        "meaning": "exact native source nodes"
+      }
+    },
+    "results": {
+      "R0": {
+        "status": "CONNECTED",
+        "solver_invoked": true,
+        "edge_ids": [
+          "R0:native:way/39764359:2",
+          "R0:native:way/39764359:3",
+          "R0:native:way/39764359:4",
+          "R0:native:way/39764359:5",
+          "R0:native:way/39764359:6",
+          "R0:native:way/39764359:7",
+          "R0:native:way/39764359:8",
+          "R0:native:way/39764359:9",
+          "R0:native:way/39764359:10",
+          "R0:native:way/39764359:11",
+          "R0:native:way/39764359:12",
+          "R0:native:way/39764359:13",
+          "R0:native:way/39764359:14"
+        ],
+        "node_path": [
+          "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083705:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083706:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083704:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083693:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083692:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083691:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083690:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083689:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5436983733:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5436983732:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5436983620:layer=0;level=0;bridge=no;tunnel=no",
+          "native:132489729:layer=0;level=0;bridge=no;tunnel=no",
+          "native:1728701622:layer=0;level=0;bridge=no;tunnel=no"
+        ],
+        "cost_f1_proxy": 266.10326541632566,
+        "cost_f0_proxy": 266.10326541632566,
+        "source_line_reference_length_m": 266.10326541632566,
+        "hypothesis_edges": 0,
+        "schematic_edges": 0,
+        "physical_route_length_m": 266.10326541632566,
+        "popped_nodes": 120,
+        "distance_labels": {
+          "native:13763096983:layer=0;level=0;bridge=no;tunnel=no": 0,
+          "native:5437083705:layer=0;level=0;bridge=no;tunnel=no": 132.85034001405262,
+          "native:479442751:layer=0;level=0;bridge=no;tunnel=no": 40.94796684361568,
+          "native:602259562:layer=0;level=0;bridge=no;tunnel=no": 7.9928724941135405,
+          "native:479442750:layer=0;level=0;bridge=no;tunnel=no": 101.67770127288475,
+          "native:1774546618:layer=0;level=0;bridge=no;tunnel=no": 127.11740199830504,
+          "native:476682050:layer=0;level=0;bridge=no;tunnel=no": 127.6958934181601,
+          "native:5437083706:layer=0;level=0;bridge=no;tunnel=no": 138.23037347261817,
+          "native:5437083704:layer=0;level=0;bridge=no;tunnel=no": 144.80395744641245,
+          "native:5437083693:layer=0;level=0;bridge=no;tunnel=no": 150.5958697224237,
+          "native:5437083692:layer=0;level=0;bridge=no;tunnel=no": 156.19242453840175,
+          "native:5437083703:layer=0;level=0;bridge=no;tunnel=no": 163.0619361052971,
+          "native:5437083691:layer=0;level=0;bridge=no;tunnel=no": 160.21361980588674,
+          "native:5437083690:layer=0;level=0;bridge=no;tunnel=no": 166.59585201776596,
+          "native:5437083694:layer=0;level=0;bridge=no;tunnel=no": 180.8156745432883,
+          "native:5437083689:layer=0;level=0;bridge=no;tunnel=no": 176.4569708953066,
+          "native:5436983733:layer=0;level=0;bridge=no;tunnel=no": 186.37103545499193,
+          "native:5437083696:layer=0;level=0;bridge=no;tunnel=no": 195.12713165795384,
+          "native:5437083695:layer=0;level=0;bridge=no;tunnel=no": 188.8591076789868,
+          "native:5436983732:layer=0;level=0;bridge=no;tunnel=no": 195.75556420143857,
+          "native:5437083702:layer=0;level=0;bridge=no;tunnel=no": 208.18397199882776,
+          "native:5437083697:layer=0;level=0;bridge=no;tunnel=no": 192.2375347588558,
+          "native:5437083698:layer=0;level=0;bridge=no;tunnel=no": 209.55887712425786,
+          "native:13763096987:layer=0;level=0;bridge=no;tunnel=no": 258.55211807158156,
+          "native:5436983620:layer=0;level=0;bridge=no;tunnel=no": 221.2214007982831,
+          "native:5436983729:layer=0;level=0;bridge=no;tunnel=no": 219.6148996248173,
+          "native:13763096988:layer=0;level=0;bridge=no;tunnel=no": 310.7227964633057,
+          "native:5436983728:layer=0;level=0;bridge=no;tunnel=no": 225.96262433309326,
+          "native:5437083701:layer=0;level=0;bridge=no;tunnel=no": 223.9235000103549,
+          "native:132489729:layer=0;level=0;bridge=no;tunnel=no": 248.2075167279731,
+          "native:476680363:layer=0;level=0;bridge=no;tunnel=no": 256.3389473267271,
+          "native:5436983730:layer=0;level=0;bridge=no;tunnel=no": 227.9559289243012,
+          "native:5436983727:layer=0;level=0;bridge=no;tunnel=no": 236.01898851367227,
+          "native:5437083700:layer=0;level=0;bridge=no;tunnel=no": 235.9349173230066,
+          "native:5437083699:layer=0;level=0;bridge=no;tunnel=no": 244.094532101115,
+          "native:5436983723:layer=0;level=0;bridge=no;tunnel=no": 249.39272828083412,
+          "native:1728701622:layer=0;level=0;bridge=no;tunnel=no": 266.10326541632566,
+          "native:5437083670:layer=0;level=0;bridge=no;tunnel=no": 256.2785167803789,
+          "native:5436983724:layer=0;level=0;bridge=no;tunnel=no": 262.542945588094,
+          "native:5436983726:layer=0;level=0;bridge=no;tunnel=no": 275.4722632120902,
+          "native:5436983616:layer=0;level=0;bridge=no;tunnel=no": 262.28291150707355,
+          "native:476680901:layer=0;level=0;bridge=no;tunnel=no": 294.1961909951098,
+          "native:1774546615:layer=0;level=0;bridge=no;tunnel=no": 278.5193181927127,
+          "native:1774546625:layer=0;level=0;bridge=no;tunnel=no": 284.60664422816205,
+          "native:4479328410:layer=0;level=0;bridge=no;tunnel=no": 295.0980156512843,
+          "native:4397696161:layer=0;level=0;bridge=no;tunnel=no": 259.6433170283514,
+          "native:13763096986:layer=0;level=0;bridge=no;tunnel=no": 270.94067884595887,
+          "native:4397696162:layer=0;level=0;bridge=no;tunnel=no": 316.90835395688566,
+          "native:5436983613:layer=0;level=0;bridge=no;tunnel=no": 273.92539762808343,
+          "native:5436983722:layer=0;level=0;bridge=no;tunnel=no": 275.49200443670793,
+          "native:4479328411:layer=0;level=0;bridge=no;tunnel=no": 305.4452744606948,
+          "native:477575777:layer=0;level=0;bridge=no;tunnel=no": 283.96079673613235,
+          "native:5436983612:layer=0;level=0;bridge=no;tunnel=no": 279.52473433453525,
+          "native:5436983615:layer=0;level=0;bridge=no;tunnel=no": 282.3915947170774,
+          "native:5436983725:layer=0;level=0;bridge=no;tunnel=no": 289.1038796542478,
+          "native:476681108:layer=0;level=0;bridge=no;tunnel=no": 302.343666027646,
+          "native:1774546585:layer=0;level=0;bridge=no;tunnel=no": 305.27473942567946,
+          "native:5436983611:layer=0;level=0;bridge=no;tunnel=no": 293.9119321680402,
+          "native:5436983731:layer=0;level=0;bridge=no;tunnel=no": 310.1389210757339,
+          "native:1774546579:layer=0;level=0;bridge=no;tunnel=no": 306.13740920320913,
+          "native:11936982404:layer=0;level=0;bridge=no;tunnel=no": 299.85837505438644,
+          "native:7116097510:layer=0;level=0;bridge=no;tunnel=no": 319.33175801573634,
+          "native:476680903:layer=0;level=0;bridge=no;tunnel=no": 327.5538010710998,
+          "native:620101575:layer=0;level=0;bridge=no;tunnel=no": 328.2259902450235,
+          "native:1774546573:layer=0;level=0;bridge=no;tunnel=no": 307.90460066263665,
+          "native:1774546587:layer=0;level=0;bridge=no;tunnel=no": 309.3538126375842,
+          "native:1774546595:layer=0;level=0;bridge=no;tunnel=no": 321.76455802329644,
+          "native:4464835965:layer=0;level=0;bridge=no;tunnel=no": 315.9601842853169,
+          "native:1774546581:layer=0;level=0;bridge=no;tunnel=no": 347.2028069251607,
+          "native:476681109:layer=0;level=0;bridge=no;tunnel=no": 325.9799079741449,
+          "native:1774546621:layer=0;level=0;bridge=no;tunnel=no": 316.132639573945,
+          "native:620101572:layer=0;level=0;bridge=no;tunnel=no": 365.1345830579993,
+          "native:477575763:layer=0;level=0;bridge=no;tunnel=no": 351.2256645437723,
+          "native:4464835970:layer=0;level=0;bridge=no;tunnel=no": 340.38682528143136,
+          "native:1774546592:layer=0;level=0;bridge=no;tunnel=no": 334.8392479729016,
+          "native:4397696163:layer=0;level=0;bridge=no;tunnel=no": 330.5556388013026,
+          "native:3906828085:layer=0;level=0;bridge=no;tunnel=no": 346.9566422316237,
+          "native:476675362:layer=0;level=0;bridge=no;tunnel=no": 327.64067075093044,
+          "native:5436983610:layer=0;level=0;bridge=no;tunnel=no": 331.853178778504,
+          "native:1774546600:layer=0;level=0;bridge=no;tunnel=no": 338.36031942848354,
+          "native:479442698:layer=0;level=0;bridge=no;tunnel=no": 342.7751251749346,
+          "native:476680905:layer=0;level=0;bridge=no;tunnel=no": 347.67468425892855,
+          "native:620101574:layer=0;level=0;bridge=no;tunnel=no": 341.77174960158874,
+          "native:11936982399:layer=0;level=0;bridge=no;tunnel=no": 348.6934212574726,
+          "native:4464835969:layer=0;level=0;bridge=no;tunnel=no": 361.39797742190046,
+          "native:4464835971:layer=0;level=0;bridge=no;tunnel=no": 362.28157068524894,
+          "native:620101573:layer=0;level=0;bridge=no;tunnel=no": 353.3599633309585,
+          "native:11936982385:layer=0;level=0;bridge=no;tunnel=no": 350.55407155087727,
+          "native:479442746:layer=0;level=0;bridge=no;tunnel=no": 359.2669955782286,
+          "native:3906828087:layer=0;level=0;bridge=no;tunnel=no": 364.6182270417353,
+          "native:476772931:layer=0;level=0;bridge=no;tunnel=no": 358.3949416220098,
+          "native:476773261:layer=0;level=0;bridge=no;tunnel=no": 356.2189129072712,
+          "native:1774546577:layer=0;level=0;bridge=no;tunnel=no": 370.6898585685961,
+          "native:11936982386:layer=0;level=0;bridge=no;tunnel=no": 366.5290790674587,
+          "native:4337268711:layer=0;level=0;bridge=no;tunnel=no": 362.5139322108852,
+          "native:476681122:layer=0;level=0;bridge=no;tunnel=no": 372.7605114137283,
+          "native:11936982370:layer=0;level=0;bridge=no;tunnel=no": 372.97098238577524,
+          "native:8941646061:layer=0;level=0;bridge=no;tunnel=no": 400.79816133610325,
+          "native:477575747:layer=0;level=0;bridge=no;tunnel=no": 366.76251239783244,
+          "native:4337268710:layer=0;level=0;bridge=no;tunnel=no": 376.0472753985627,
+          "native:11936982387:layer=0;level=0;bridge=no;tunnel=no": 382.95332555624947,
+          "native:477575732:layer=0;level=0;bridge=no;tunnel=no": 390.0593785672687,
+          "native:1774546582:layer=0;level=0;bridge=no;tunnel=no": 380.42809401916804,
+          "native:476681121:layer=0;level=0;bridge=no;tunnel=no": 390.24233688218123,
+          "native:11936982388:layer=0;level=0;bridge=no;tunnel=no": 389.3601558122006,
+          "native:11936982375:layer=0;level=0;bridge=no;tunnel=no": 393.5259466527892,
+          "native:4381580529:layer=0;level=0;bridge=no;tunnel=no": 394.11672665561554,
+          "native:1728704271:layer=0;level=0;bridge=no;tunnel=no": 401.40251939199464,
+          "native:11936982374:layer=0;level=0;bridge=no;tunnel=no": 404.41304212393277,
+          "native:477575712:layer=0;level=0;bridge=no;tunnel=no": 412.68672470030265,
+          "native:476681036:layer=0;level=0;bridge=no;tunnel=no": 403.6571601184111,
+          "native:8941646060:layer=0;level=0;bridge=no;tunnel=no": 416.34649984132517,
+          "native:11936982373:layer=0;level=0;bridge=no;tunnel=no": 417.2244934925888,
+          "native:4464834316:layer=0;level=0;bridge=no;tunnel=no": 421.1557392982072,
+          "native:11936982372:layer=0;level=0;bridge=no;tunnel=no": 428.83904338088735,
+          "native:4465151264:layer=0;level=0;bridge=no;tunnel=no": 432.2071544068775,
+          "native:11936982371:layer=0;level=0;bridge=no;tunnel=no": 437.13244655455577,
+          "native:4465151265:layer=0;level=0;bridge=no;tunnel=no": 453.7948027335471,
+          "native:4479305195:layer=0;level=0;bridge=no;tunnel=no": 473.23283895520956,
+          "native:4479305196:layer=0;level=0;bridge=no;tunnel=no": 499.4543240872925
+        },
+        "length_interpretation": "MAPPED_NATIVE_PEDESTRIAN_LINE_LENGTH_NOT_FIELD_WALKING_TRUTH",
+        "qualified_from_original_registry": false,
+        "current_formal_attempt": 19
+      },
+      "R1": {
+        "status": "CONNECTED",
+        "solver_invoked": true,
+        "edge_ids": [
+          "R1:native:way/39764359:2",
+          "R1:native:way/39764359:3",
+          "R1:native:way/39764359:4",
+          "R1:native:way/39764359:5",
+          "R1:native:way/39764359:6",
+          "R1:native:way/39764359:7",
+          "R1:native:way/39764359:8",
+          "R1:native:way/39764359:9",
+          "R1:native:way/39764359:10",
+          "R1:native:way/39764359:11",
+          "R1:native:way/39764359:12",
+          "R1:native:way/39764359:13",
+          "R1:native:way/39764359:14"
+        ],
+        "node_path": [
+          "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083705:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083706:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083704:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083693:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083692:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083691:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083690:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083689:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5436983733:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5436983732:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5436983620:layer=0;level=0;bridge=no;tunnel=no",
+          "native:132489729:layer=0;level=0;bridge=no;tunnel=no",
+          "native:1728701622:layer=0;level=0;bridge=no;tunnel=no"
+        ],
+        "cost_f1_proxy": 266.10326541632566,
+        "cost_f0_proxy": 266.10326541632566,
+        "source_line_reference_length_m": 266.10326541632566,
+        "hypothesis_edges": 0,
+        "schematic_edges": 0,
+        "physical_route_length_m": 266.10326541632566,
+        "popped_nodes": 91,
+        "distance_labels": {
+          "native:13763096983:layer=0;level=0;bridge=no;tunnel=no": 0,
+          "native:5437083705:layer=0;level=0;bridge=no;tunnel=no": 132.85034001405262,
+          "native:479442751:layer=0;level=0;bridge=no;tunnel=no": 40.94796684361568,
+          "native:602259562:layer=0;level=0;bridge=no;tunnel=no": 7.9928724941135405,
+          "native:479442750:layer=0;level=0;bridge=no;tunnel=no": 101.67770127288475,
+          "native:1774546618:layer=0;level=0;bridge=no;tunnel=no": 127.11740199830504,
+          "native:476682050:layer=0;level=0;bridge=no;tunnel=no": 127.6958934181601,
+          "native:5437083706:layer=0;level=0;bridge=no;tunnel=no": 138.23037347261817,
+          "native:5437083704:layer=0;level=0;bridge=no;tunnel=no": 144.80395744641245,
+          "native:5437083693:layer=0;level=0;bridge=no;tunnel=no": 150.5958697224237,
+          "native:5437083692:layer=0;level=0;bridge=no;tunnel=no": 156.19242453840175,
+          "native:5437083703:layer=0;level=0;bridge=no;tunnel=no": 163.0619361052971,
+          "native:5437083691:layer=0;level=0;bridge=no;tunnel=no": 160.21361980588674,
+          "native:5437083690:layer=0;level=0;bridge=no;tunnel=no": 166.59585201776596,
+          "native:5437083694:layer=0;level=0;bridge=no;tunnel=no": 180.8156745432883,
+          "native:5437083689:layer=0;level=0;bridge=no;tunnel=no": 176.4569708953066,
+          "native:5436983733:layer=0;level=0;bridge=no;tunnel=no": 186.37103545499193,
+          "native:5437083696:layer=0;level=0;bridge=no;tunnel=no": 195.12713165795384,
+          "native:5437083695:layer=0;level=0;bridge=no;tunnel=no": 188.8591076789868,
+          "native:5436983732:layer=0;level=0;bridge=no;tunnel=no": 195.75556420143857,
+          "native:5437083702:layer=0;level=0;bridge=no;tunnel=no": 208.18397199882776,
+          "native:5437083697:layer=0;level=0;bridge=no;tunnel=no": 192.2375347588558,
+          "native:5437083698:layer=0;level=0;bridge=no;tunnel=no": 209.55887712425786,
+          "native:13763096987:layer=0;level=0;bridge=no;tunnel=no": 258.55211807158156,
+          "native:5436983620:layer=0;level=0;bridge=no;tunnel=no": 221.2214007982831,
+          "native:5436983729:layer=0;level=0;bridge=no;tunnel=no": 219.6148996248173,
+          "native:13763096988:layer=0;level=0;bridge=no;tunnel=no": 310.7227964633057,
+          "native:5436983728:layer=0;level=0;bridge=no;tunnel=no": 225.96262433309326,
+          "native:5437083701:layer=0;level=0;bridge=no;tunnel=no": 223.9235000103549,
+          "native:132489729:layer=0;level=0;bridge=no;tunnel=no": 248.2075167279731,
+          "native:476680363:layer=0;level=0;bridge=no;tunnel=no": 256.3389473267271,
+          "native:5436983730:layer=0;level=0;bridge=no;tunnel=no": 227.9559289243012,
+          "native:5436983727:layer=0;level=0;bridge=no;tunnel=no": 236.01898851367227,
+          "native:5437083700:layer=0;level=0;bridge=no;tunnel=no": 235.9349173230066,
+          "native:5437083699:layer=0;level=0;bridge=no;tunnel=no": 244.094532101115,
+          "native:5436983723:layer=0;level=0;bridge=no;tunnel=no": 249.39272828083412,
+          "native:1728701622:layer=0;level=0;bridge=no;tunnel=no": 266.10326541632566,
+          "native:5437083670:layer=0;level=0;bridge=no;tunnel=no": 256.2785167803789,
+          "native:5436983724:layer=0;level=0;bridge=no;tunnel=no": 262.542945588094,
+          "native:5436983726:layer=0;level=0;bridge=no;tunnel=no": 275.4722632120902,
+          "native:5436983616:layer=0;level=0;bridge=no;tunnel=no": 262.28291150707355,
+          "native:476680901:layer=0;level=0;bridge=no;tunnel=no": 294.1961909951098,
+          "native:1774546615:layer=0;level=0;bridge=no;tunnel=no": 278.5193181927127,
+          "native:1774546625:layer=0;level=0;bridge=no;tunnel=no": 284.60664422816205,
+          "native:13763096986:layer=0;level=0;bridge=no;tunnel=no": 270.94067884595887,
+          "native:5436983613:layer=0;level=0;bridge=no;tunnel=no": 273.92539762808343,
+          "native:5436983722:layer=0;level=0;bridge=no;tunnel=no": 275.49200443670793,
+          "native:5436983612:layer=0;level=0;bridge=no;tunnel=no": 279.52473433453525,
+          "native:5436983615:layer=0;level=0;bridge=no;tunnel=no": 282.3915947170774,
+          "native:5436983725:layer=0;level=0;bridge=no;tunnel=no": 289.1038796542478,
+          "native:476681108:layer=0;level=0;bridge=no;tunnel=no": 302.343666027646,
+          "native:1774546585:layer=0;level=0;bridge=no;tunnel=no": 305.27473942567946,
+          "native:5436983611:layer=0;level=0;bridge=no;tunnel=no": 293.9119321680402,
+          "native:5436983731:layer=0;level=0;bridge=no;tunnel=no": 310.1389210757339,
+          "native:1774546579:layer=0;level=0;bridge=no;tunnel=no": 306.13740920320913,
+          "native:11936982404:layer=0;level=0;bridge=no;tunnel=no": 299.85837505438644,
+          "native:7116097510:layer=0;level=0;bridge=no;tunnel=no": 319.33175801573634,
+          "native:476680903:layer=0;level=0;bridge=no;tunnel=no": 327.5538010710998,
+          "native:1774546573:layer=0;level=0;bridge=no;tunnel=no": 307.90460066263665,
+          "native:1774546587:layer=0;level=0;bridge=no;tunnel=no": 309.3538126375842,
+          "native:1774546595:layer=0;level=0;bridge=no;tunnel=no": 321.76455802329644,
+          "native:1774546581:layer=0;level=0;bridge=no;tunnel=no": 347.2028069251607,
+          "native:476681109:layer=0;level=0;bridge=no;tunnel=no": 325.9799079741449,
+          "native:1774546621:layer=0;level=0;bridge=no;tunnel=no": 316.132639573945,
+          "native:1774546592:layer=0;level=0;bridge=no;tunnel=no": 334.8392479729016,
+          "native:5436983610:layer=0;level=0;bridge=no;tunnel=no": 331.853178778504,
+          "native:1774546600:layer=0;level=0;bridge=no;tunnel=no": 338.36031942848354,
+          "native:479442698:layer=0;level=0;bridge=no;tunnel=no": 342.7751251749346,
+          "native:476680905:layer=0;level=0;bridge=no;tunnel=no": 347.67468425892855,
+          "native:11936982399:layer=0;level=0;bridge=no;tunnel=no": 348.6934212574726,
+          "native:11936982385:layer=0;level=0;bridge=no;tunnel=no": 350.55407155087727,
+          "native:479442746:layer=0;level=0;bridge=no;tunnel=no": 359.2669955782286,
+          "native:476772931:layer=0;level=0;bridge=no;tunnel=no": 358.3949416220098,
+          "native:476773261:layer=0;level=0;bridge=no;tunnel=no": 356.2189129072712,
+          "native:1774546577:layer=0;level=0;bridge=no;tunnel=no": 370.6898585685961,
+          "native:11936982386:layer=0;level=0;bridge=no;tunnel=no": 366.5290790674587,
+          "native:476681122:layer=0;level=0;bridge=no;tunnel=no": 372.7605114137283,
+          "native:11936982370:layer=0;level=0;bridge=no;tunnel=no": 372.97098238577524,
+          "native:8941646061:layer=0;level=0;bridge=no;tunnel=no": 400.79816133610325,
+          "native:11936982387:layer=0;level=0;bridge=no;tunnel=no": 382.95332555624947,
+          "native:1774546582:layer=0;level=0;bridge=no;tunnel=no": 380.42809401916804,
+          "native:476681121:layer=0;level=0;bridge=no;tunnel=no": 390.24233688218123,
+          "native:11936982388:layer=0;level=0;bridge=no;tunnel=no": 389.3601558122006,
+          "native:11936982375:layer=0;level=0;bridge=no;tunnel=no": 393.5259466527892,
+          "native:1728704271:layer=0;level=0;bridge=no;tunnel=no": 401.40251939199464,
+          "native:11936982374:layer=0;level=0;bridge=no;tunnel=no": 404.41304212393277,
+          "native:476681036:layer=0;level=0;bridge=no;tunnel=no": 403.6571601184111,
+          "native:8941646060:layer=0;level=0;bridge=no;tunnel=no": 416.34649984132517,
+          "native:11936982373:layer=0;level=0;bridge=no;tunnel=no": 417.2244934925888,
+          "native:11936982372:layer=0;level=0;bridge=no;tunnel=no": 428.83904338088735,
+          "native:11936982371:layer=0;level=0;bridge=no;tunnel=no": 437.13244655455577
+        },
+        "length_interpretation": "MAPPED_NATIVE_PEDESTRIAN_LINE_LENGTH_NOT_FIELD_WALKING_TRUTH",
+        "qualified_from_original_registry": true
+      },
+      "R2": {
+        "status": "CONNECTED",
+        "solver_invoked": true,
+        "edge_ids": [
+          "R2:native:way/39764359:2",
+          "R2:native:way/39764359:3",
+          "R2:native:way/39764359:4",
+          "R2:native:way/39764359:5",
+          "R2:native:way/39764359:6",
+          "R2:native:way/39764359:7",
+          "R2:native:way/39764359:8",
+          "R2:native:way/39764359:9",
+          "R2:native:way/39764359:10",
+          "R2:native:way/39764359:11",
+          "R2:native:way/39764359:12",
+          "R2:native:way/39764359:13",
+          "R2:native:way/39764359:14"
+        ],
+        "node_path": [
+          "native:13763096983:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083705:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083706:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083704:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083693:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083692:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083691:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083690:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5437083689:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5436983733:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5436983732:layer=0;level=0;bridge=no;tunnel=no",
+          "native:5436983620:layer=0;level=0;bridge=no;tunnel=no",
+          "native:132489729:layer=0;level=0;bridge=no;tunnel=no",
+          "native:1728701622:layer=0;level=0;bridge=no;tunnel=no"
+        ],
+        "cost_f1_proxy": 266.10326541632566,
+        "cost_f0_proxy": 266.10326541632566,
+        "source_line_reference_length_m": 266.10326541632566,
+        "hypothesis_edges": 0,
+        "schematic_edges": 0,
+        "physical_route_length_m": 266.10326541632566,
+        "popped_nodes": 91,
+        "distance_labels": {
+          "native:13763096983:layer=0;level=0;bridge=no;tunnel=no": 0,
+          "native:5437083705:layer=0;level=0;bridge=no;tunnel=no": 132.85034001405262,
+          "native:479442751:layer=0;level=0;bridge=no;tunnel=no": 40.94796684361568,
+          "native:602259562:layer=0;level=0;bridge=no;tunnel=no": 7.9928724941135405,
+          "native:479442750:layer=0;level=0;bridge=no;tunnel=no": 101.67770127288475,
+          "native:1774546618:layer=0;level=0;bridge=no;tunnel=no": 127.11740199830504,
+          "native:476682050:layer=0;level=0;bridge=no;tunnel=no": 127.6958934181601,
+          "native:5437083706:layer=0;level=0;bridge=no;tunnel=no": 138.23037347261817,
+          "native:5437083704:layer=0;level=0;bridge=no;tunnel=no": 144.80395744641245,
+          "native:5437083693:layer=0;level=0;bridge=no;tunnel=no": 150.5958697224237,
+          "native:5437083692:layer=0;level=0;bridge=no;tunnel=no": 156.19242453840175,
+          "native:5437083703:layer=0;level=0;bridge=no;tunnel=no": 163.0619361052971,
+          "native:5437083691:layer=0;level=0;bridge=no;tunnel=no": 160.21361980588674,
+          "native:5437083690:layer=0;level=0;bridge=no;tunnel=no": 166.59585201776596,
+          "native:5437083694:layer=0;level=0;bridge=no;tunnel=no": 180.8156745432883,
+          "native:5437083689:layer=0;level=0;bridge=no;tunnel=no": 176.4569708953066,
+          "native:5436983733:layer=0;level=0;bridge=no;tunnel=no": 186.37103545499193,
+          "native:5437083696:layer=0;level=0;bridge=no;tunnel=no": 195.12713165795384,
+          "native:5437083695:layer=0;level=0;bridge=no;tunnel=no": 188.8591076789868,
+          "native:5436983732:layer=0;level=0;bridge=no;tunnel=no": 195.75556420143857,
+          "native:5437083702:layer=0;level=0;bridge=no;tunnel=no": 208.18397199882776,
+          "native:5437083697:layer=0;level=0;bridge=no;tunnel=no": 192.2375347588558,
+          "native:5437083698:layer=0;level=0;bridge=no;tunnel=no": 209.55887712425786,
+          "native:13763096987:layer=0;level=0;bridge=no;tunnel=no": 258.55211807158156,
+          "native:5436983620:layer=0;level=0;bridge=no;tunnel=no": 221.2214007982831,
+          "native:5436983729:layer=0;level=0;bridge=no;tunnel=no": 219.6148996248173,
+          "native:13763096988:layer=0;level=0;bridge=no;tunnel=no": 310.7227964633057,
+          "native:5436983728:layer=0;level=0;bridge=no;tunnel=no": 225.96262433309326,
+          "native:5437083701:layer=0;level=0;bridge=no;tunnel=no": 223.9235000103549,
+          "native:132489729:layer=0;level=0;bridge=no;tunnel=no": 248.2075167279731,
+          "native:476680363:layer=0;level=0;bridge=no;tunnel=no": 256.3389473267271,
+          "native:5436983730:layer=0;level=0;bridge=no;tunnel=no": 227.9559289243012,
+          "native:5436983727:layer=0;level=0;bridge=no;tunnel=no": 236.01898851367227,
+          "native:5437083700:layer=0;level=0;bridge=no;tunnel=no": 235.9349173230066,
+          "native:5437083699:layer=0;level=0;bridge=no;tunnel=no": 244.094532101115,
+          "native:5436983723:layer=0;level=0;bridge=no;tunnel=no": 249.39272828083412,
+          "native:1728701622:layer=0;level=0;bridge=no;tunnel=no": 266.10326541632566,
+          "native:5437083670:layer=0;level=0;bridge=no;tunnel=no": 256.2785167803789,
+          "native:5436983724:layer=0;level=0;bridge=no;tunnel=no": 262.542945588094,
+          "native:5436983726:layer=0;level=0;bridge=no;tunnel=no": 275.4722632120902,
+          "native:5436983616:layer=0;level=0;bridge=no;tunnel=no": 262.28291150707355,
+          "native:476680901:layer=0;level=0;bridge=no;tunnel=no": 294.1961909951098,
+          "native:1774546615:layer=0;level=0;bridge=no;tunnel=no": 278.5193181927127,
+          "native:1774546625:layer=0;level=0;bridge=no;tunnel=no": 284.60664422816205,
+          "native:13763096986:layer=0;level=0;bridge=no;tunnel=no": 270.94067884595887,
+          "native:5436983613:layer=0;level=0;bridge=no;tunnel=no": 273.92539762808343,
+          "native:5436983722:layer=0;level=0;bridge=no;tunnel=no": 275.49200443670793,
+          "native:5436983612:layer=0;level=0;bridge=no;tunnel=no": 279.52473433453525,
+          "native:5436983615:layer=0;level=0;bridge=no;tunnel=no": 282.3915947170774,
+          "native:5436983725:layer=0;level=0;bridge=no;tunnel=no": 289.1038796542478,
+          "native:476681108:layer=0;level=0;bridge=no;tunnel=no": 302.343666027646,
+          "native:1774546585:layer=0;level=0;bridge=no;tunnel=no": 305.27473942567946,
+          "native:5436983611:layer=0;level=0;bridge=no;tunnel=no": 293.9119321680402,
+          "native:5436983731:layer=0;level=0;bridge=no;tunnel=no": 310.1389210757339,
+          "native:1774546579:layer=0;level=0;bridge=no;tunnel=no": 306.13740920320913,
+          "native:11936982404:layer=0;level=0;bridge=no;tunnel=no": 299.85837505438644,
+          "native:7116097510:layer=0;level=0;bridge=no;tunnel=no": 319.33175801573634,
+          "native:476680903:layer=0;level=0;bridge=no;tunnel=no": 327.5538010710998,
+          "native:1774546573:layer=0;level=0;bridge=no;tunnel=no": 307.90460066263665,
+          "native:1774546587:layer=0;level=0;bridge=no;tunnel=no": 309.3538126375842,
+          "native:1774546595:layer=0;level=0;bridge=no;tunnel=no": 321.76455802329644,
+          "native:1774546581:layer=0;level=0;bridge=no;tunnel=no": 347.2028069251607,
+          "native:476681109:layer=0;level=0;bridge=no;tunnel=no": 325.9799079741449,
+          "native:1774546621:layer=0;level=0;bridge=no;tunnel=no": 316.132639573945,
+          "native:1774546592:layer=0;level=0;bridge=no;tunnel=no": 334.8392479729016,
+          "native:5436983610:layer=0;level=0;bridge=no;tunnel=no": 331.853178778504,
+          "native:1774546600:layer=0;level=0;bridge=no;tunnel=no": 338.36031942848354,
+          "native:479442698:layer=0;level=0;bridge=no;tunnel=no": 342.7751251749346,
+          "native:476680905:layer=0;level=0;bridge=no;tunnel=no": 347.67468425892855,
+          "native:11936982399:layer=0;level=0;bridge=no;tunnel=no": 348.6934212574726,
+          "native:11936982385:layer=0;level=0;bridge=no;tunnel=no": 350.55407155087727,
+          "native:479442746:layer=0;level=0;bridge=no;tunnel=no": 359.2669955782286,
+          "native:476772931:layer=0;level=0;bridge=no;tunnel=no": 358.3949416220098,
+          "native:476773261:layer=0;level=0;bridge=no;tunnel=no": 356.2189129072712,
+          "native:1774546577:layer=0;level=0;bridge=no;tunnel=no": 370.6898585685961,
+          "native:11936982386:layer=0;level=0;bridge=no;tunnel=no": 366.5290790674587,
+          "native:476681122:layer=0;level=0;bridge=no;tunnel=no": 372.7605114137283,
+          "native:11936982370:layer=0;level=0;bridge=no;tunnel=no": 372.97098238577524,
+          "native:8941646061:layer=0;level=0;bridge=no;tunnel=no": 400.79816133610325,
+          "native:11936982387:layer=0;level=0;bridge=no;tunnel=no": 382.95332555624947,
+          "native:1774546582:layer=0;level=0;bridge=no;tunnel=no": 380.42809401916804,
+          "native:476681121:layer=0;level=0;bridge=no;tunnel=no": 390.24233688218123,
+          "native:11936982388:layer=0;level=0;bridge=no;tunnel=no": 389.3601558122006,
+          "native:11936982375:layer=0;level=0;bridge=no;tunnel=no": 393.5259466527892,
+          "native:1728704271:layer=0;level=0;bridge=no;tunnel=no": 401.40251939199464,
+          "native:11936982374:layer=0;level=0;bridge=no;tunnel=no": 404.41304212393277,
+          "native:476681036:layer=0;level=0;bridge=no;tunnel=no": 403.6571601184111,
+          "native:8941646060:layer=0;level=0;bridge=no;tunnel=no": 416.34649984132517,
+          "native:11936982373:layer=0;level=0;bridge=no;tunnel=no": 417.2244934925888,
+          "native:11936982372:layer=0;level=0;bridge=no;tunnel=no": 428.83904338088735,
+          "native:11936982371:layer=0;level=0;bridge=no;tunnel=no": 437.13244655455577
+        },
+        "length_interpretation": "MAPPED_NATIVE_PEDESTRIAN_LINE_LENGTH_NOT_FIELD_WALKING_TRUTH",
+        "qualified_from_original_registry": true
+      }
+    }
+  },
+  "view": [
+    353729.5267431182,
+    3456270.902233435,
+    354049.5267431182,
+    3456590.902233435
+  ],
+  "crs": "EPSG:32651",
+  "effective_formal_attempts": {
+    "R0": 19,
+    "R1": 2,
+    "R2": 3
+  },
+  "source": {
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-huangpu-01\\source.osm.json",
+    "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "timestamp": "2026-11-08T21:21:00Z",
+    "version": "FROZEN_OSM_CLIP",
+    "full_clip_bytes": 6356390
+  },
+  "enabled_layers": [
+    "buildings",
+    "road_areas",
+    "road_names",
+    "native_walkways",
+    "crossings",
+    "traffic_facilities",
+    "pedestrian_areas",
+    "vegetation",
+    "water",
+    "barriers",
+    "railway",
+    "poi",
+    "other_context",
+    "R0",
+    "R1",
+    "R2",
+    "route_markers",
+    "rejected_unknown",
+    "road_centerlines"
+  ],
+  "selected_object": {
+    "identity": "ORIGINAL_FROZEN_OSM_CONTEXT",
+    "OSM_type_id": "way/165953417",
+    "raw_tags": {
+      "natural": "water"
+    },
+    "geometry_type": "Polygon",
+    "source": {
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-huangpu-01\\source.osm.json",
+      "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "timestamp": "2026-11-08T21:21:00Z",
+      "version": "FROZEN_OSM_CLIP",
+      "full_clip_bytes": 6356390
+    },
+    "entered_previous_visual_payload": true,
+    "entered_routing_adapter_context": true,
+    "routing_adapter_import_reason": "SOURCE_OBSTACLE_ADAPTER",
+    "import_lineage_source": {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\phase1\\data\\sh-huangpu-01\\scene.json",
+      "sha256": "929de03810663e1085c5c96e2b5ed00448f82a3f7cde1ffc7336bc1fb58523aa",
+      "basis": "ACTUAL_SAVED_FOUNDATION_ADAPTER_LINEAGE; NO_ADAPTER_OR_ROUTER_REEXECUTION"
+    },
+    "graph_membership": {
+      "R0": false,
+      "R1": false,
+      "R2": false
+    },
+    "graph_membership_semantics": "SOURCE_ID_REFERENCE_AS_NATIVE_EDGE_OR_DERIVED_PARENT; NOT_RAW_GEOMETRY_ADMISSION",
+    "frozen_graph_reference_roles": {
+      "R0": {
+        "source_geometry_edge_ids": [],
+        "derived_parent_edge_ids": [],
+        "source_node_reference_edge_ids": [],
+        "meaning": "Frozen edge-record filtering only; partial native-edge reference does not certify entire source geometry or physical access."
+      },
+      "R1": {
+        "source_geometry_edge_ids": [],
+        "derived_parent_edge_ids": [],
+        "source_node_reference_edge_ids": [],
+        "meaning": "Frozen edge-record filtering only; partial native-edge reference does not certify entire source geometry or physical access."
+      },
+      "R2": {
+        "source_geometry_edge_ids": [],
+        "derived_parent_edge_ids": [],
+        "source_node_reference_edge_ids": [],
+        "meaning": "Frozen edge-record filtering only; partial native-edge reference does not certify entire source geometry or physical access."
+      }
+    },
+    "routing_reason": "SOURCE_OBSTACLE_ADAPTER",
+    "geometry_basis": "ORIGINAL_SOURCE_POLYGON_WITH_HOLES",
+    "families": [
+      "water"
+    ],
+    "source_id": "way/165953417",
+    "type": "way",
+    "id": 165953417,
+    "source_version": 3,
+    "tags": {
+      "natural": "water"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            354039.92864492733,
+            3456497.0544746197
+          ],
+          [
+            354036.3816909581,
+            3456495.4628226534
+          ],
+          [
+            354035.93844335945,
+            3456493.0409422535
+          ],
+          [
+            354037.9866604024,
+            3456486.8593000793
+          ],
+          [
+            354034.4593081531,
+            3456481.1873996016
+          ],
+          [
+            354027.4945618757,
+            3456476.3281868417
+          ],
+          [
+            354018.3915135801,
+            3456473.9045036635
+          ],
+          [
+            354021.209827779,
+            3456455.937890892
+          ],
+          [
+            354030.29520474945,
+            3456457.086829574
+          ],
+          [
+            354033.3820815999,
+            3456449.5492626345
+          ],
+          [
+            354037.3109118791,
+            3456447.077813423
+          ],
+          [
+            354040.4540798422,
+            3456443.597271028
+          ],
+          [
+            354040.52669542236,
+            3456439.90432822
+          ],
+          [
+            354036.361161892,
+            3456434.241280195
+          ],
+          [
+            354032.23453188734,
+            3456431.3826779276
+          ],
+          [
+            354023.1685114788,
+            3456431.630416552
+          ],
+          [
+            354018.8586820213,
+            3456434.1071571913
+          ],
+          [
+            354017.5125162144,
+            3456438.7047226015
+          ],
+          [
+            354015.06212288584,
+            3456446.111507194
+          ],
+          [
+            354009.71191189444,
+            3456447.072696272
+          ],
+          [
+            354006.52814777783,
+            3456447.626871446
+          ],
+          [
+            354001.79396893654,
+            3456456.5953418612
+          ],
+          [
+            354001.0009204494,
+            3456463.9791323375
+          ],
+          [
+            354006.94437052426,
+            3456477.6222345787
+          ],
+          [
+            354020.8824752858,
+            3456496.886335267
+          ],
+          [
+            354026.4129275655,
+            3456499.9915401777
+          ],
+          [
+            354031.72435726936,
+            3456496.2369988305
+          ],
+          [
+            354033.5484009548,
+            3456498.6175482483
+          ],
+          [
+            354034.87316341547,
+            3456501.4041530397
+          ],
+          [
+            354035.3016773371,
+            3456504.824058329
+          ],
+          [
+            354038.7867315727,
+            3456507.4476497294
+          ],
+          [
+            354043.9166494948,
+            3456509.150384565
+          ],
+          [
+            354047.74101149756,
+            3456508.0773359113
+          ],
+          [
+            354051.29345055256,
+            3456506.6311064768
+          ],
+          [
+            354054.56826020253,
+            3456503.026785323
+          ],
+          [
+            354058.89221412083,
+            3456501.5698562623
+          ],
+          [
+            354061.78004568804,
+            3456498.2259040885
+          ],
+          [
+            354064.7373686397,
+            3456499.204877074
+          ],
+          [
+            354068.6527648366,
+            3456505.381401356
+          ],
+          [
+            354072.7653654981,
+            3456507.231303572
+          ],
+          [
+            354078.8869078142,
+            3456506.248360186
+          ],
+          [
+            354081.3920592967,
+            3456502.7877654345
+          ],
+          [
+            354082.8514577104,
+            3456497.423642796
+          ],
+          [
+            354087.55287536234,
+            3456495.7064922294
+          ],
+          [
+            354088.7833933813,
+            3456492.3855329603
+          ],
+          [
+            354090.4219562264,
+            3456490.3228205484
+          ],
+          [
+            354092.29248588416,
+            3456487.126028567
+          ],
+          [
+            354089.69739561965,
+            3456484.102036222
+          ],
+          [
+            354085.21194957604,
+            3456483.5322905956
+          ],
+          [
+            354079.6010461005,
+            3456484.242061882
+          ],
+          [
+            354077.28971989756,
+            3456483.1321690306
+          ],
+          [
+            354075.20313175756,
+            3456480.3672126876
+          ],
+          [
+            354075.0370290454,
+            3456477.3206212386
+          ],
+          [
+            354070.78568818374,
+            3456475.084600769
+          ],
+          [
+            354065.9358397025,
+            3456475.029914498
+          ],
+          [
+            354064.66766442463,
+            3456476.3224976426
+          ],
+          [
+            354064.0928455727,
+            3456480.8982705506
+          ],
+          [
+            354065.44682285935,
+            3456486.4783704868
+          ],
+          [
+            354062.73887453775,
+            3456489.054830603
+          ],
+          [
+            354041.1877606822,
+            3456496.4826619653
+          ],
+          [
+            354039.92864492733,
+            3456497.0544746197
+          ]
+        ]
+      ]
+    },
+    "kind": [
+      "water"
+    ],
+    "source_geometry_warning": null,
+    "source_file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-huangpu-01\\source.osm.json",
+    "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "source_timestamp": "2026-11-08T21:21:00Z",
+    "source_crs": "EPSG:4326",
+    "working_crs": "EPSG:32651",
+    "imported_in_previous_payload": true,
+    "imported_in_routing_context": true,
+    "import_reason": "SOURCE_OBSTACLE_ADAPTER",
+    "previously_rendered_policy": "CARRIED_DEFAULT_ENABLED_BUT_GENERIC_CONTEXT_STYLE",
+    "native_filter_status": null,
+    "source_id_membership_is_not_side_association": true
+  }
+}

@@ -1,0 +1,859 @@
+{
+  "checked_at": "2026-11-13T04:46:08.583473+08:00",
+  "checks": [
+    {
+      "kind": "original_OSM",
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-huangpu-01\\source.osm.json",
+      "unchanged": true,
+      "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91"
+    },
+    {
+      "kind": "original_OSM",
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-library\\source.osm.json",
+      "unchanged": true,
+      "sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8"
+    },
+    {
+      "kind": "original_OSM",
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-wukang\\source.osm.json",
+      "unchanged": true,
+      "sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45"
+    },
+    {
+      "kind": "old_fixed_ZIP",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\delivery\\PG1_RESUME_STREET_SIDE_R1_REVIEW_FIXED.zip",
+      "unchanged": true,
+      "sha256": "6b2db66e8347603c2aa346810846f4d6c5cf39e2e830f12a162b0e6c6e9485ab"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\CHECKPOINT.md",
+      "unchanged": true,
+      "sha256": "04cb90744a07cf9af9fa3ce313067517030a9b401fb9111127e012514205db92"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\DECISION_BRIEF.md",
+      "unchanged": true,
+      "sha256": "5d234c33dc5ec869b9ad8c0e20bbe83cd68740cab6e2b66bc9c983ea3ad2e0c0"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\DEPENDENCIES_AND_RIGHTS.md",
+      "unchanged": true,
+      "sha256": "d9c2b1fe398b7bcf649a319c845d79e844e80ca8dfc7a47233d9feb105e49af2"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\EXPERIMENT_BRIEF.md",
+      "unchanged": true,
+      "sha256": "13375c19b0d9f7565a559f1d76e628f3fafc2fa721765cadf5276a54b52d2278"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\PROCESS_RECORD.md",
+      "unchanged": true,
+      "sha256": "d3dc58e8c4fbc22d8f47183d3220cf401824a4c2254bf04018f882896c4e5b7b"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\README.md",
+      "unchanged": true,
+      "sha256": "bf45eb1ee28cfed78b063b4f2fe5f24db5d8cb3bde03c71e2157d6824c2b8660"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\RECOVERY_REPORT.md",
+      "unchanged": true,
+      "sha256": "657effe57dd6213bd6a6451912cb6c3bf87dad0d9ad64575fe037c1e5e924248"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\STATUS.json",
+      "unchanged": true,
+      "sha256": "d5386de1433de7a54f8c629228d257ac776002dcdc9df02b037f8177d2309112"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\ROUND_BINDING.json",
+      "unchanged": true,
+      "sha256": "cbc41b471d94df7b72c0a7a1a201607b3791b2759ed057b8a8968b0dd380f07d"
+    },
+    {
+      "kind": "copied_frozen_input",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\data\\frozen\\audit\\ROUND_BINDING.json",
+      "unchanged": true,
+      "sha256": "cbc41b471d94df7b72c0a7a1a201607b3791b2759ed057b8a8968b0dd380f07d"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\browser_export_evidence.json",
+      "unchanged": true,
+      "sha256": "2e0908fa19406d2710ec139020fe3894ddd6c8eea2bc0cb8c8f96e0686029275"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\browser_export_request.json",
+      "unchanged": true,
+      "sha256": "0fb6b43a1b40dd0538679ce4d0b443ca67e5b3c0f36999567ccaf25cceb1cfda"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\budget_and_protocol.json",
+      "unchanged": true,
+      "sha256": "f5989d52a967ff9f54172f990d409317414c3eabc941c0b96463ea559e994360"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\execution_counts.json",
+      "unchanged": true,
+      "sha256": "1c3ae8f5fb3b89b805720ef61fdc048c58895ae5a14e71e7e6724114aa0d9fc3"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\experiment_registry.jsonl",
+      "unchanged": true,
+      "sha256": "6a2a575f015acfa0e5380e6da194ab4d40829efa11d2df1a98c106705624b715"
+    },
+    {
+      "kind": "copied_frozen_input",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\data\\frozen\\audit\\experiment_registry.jsonl",
+      "unchanged": true,
+      "sha256": "6a2a575f015acfa0e5380e6da194ab4d40829efa11d2df1a98c106705624b715"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\git_indices_before_closeout.json",
+      "unchanged": true,
+      "sha256": "85ef027eb1f9126993f1ff1293a129d40e599171990c9d80acbfd3b76b37bef2"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\initial_checks.json",
+      "unchanged": true,
+      "sha256": "7ade52d78b8759ecf3b4d9de7bce01bab5680ad15025bf7eaa3f1747059db2cb"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\old_delivery_verification.json",
+      "unchanged": true,
+      "sha256": "00a4d81def71a37157d62dabb08fad5659ff8788fcd8d8994a873ceec72db900"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\protected_after.json",
+      "unchanged": true,
+      "sha256": "696fbdbb37411776459d3ab9bf5132112961ac4fc8a423c0b2dd10c4a92bee18"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\protected_before.json",
+      "unchanged": true,
+      "sha256": "d6b20c44f9b81f3b3298862dba6d9b3dcebecbd7afc86a9600e98f557c2d11b2"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\runtime_versions.json",
+      "unchanged": true,
+      "sha256": "6e200f98db1abf69ba03b9137af90f96cd6ca3ef0647684487ce85890c5d0711"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\service_check.json",
+      "unchanged": true,
+      "sha256": "c8b66ae13aac293f098712aa4d2e995650f6c028453bce7ba7cd2580e4a91392"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\service_identity.json",
+      "unchanged": true,
+      "sha256": "fc8d48cd96ace7211279957a9bb40d09e7b05c80200bd55b1494e8d07c08fa8d"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\audit\\window_lock.json",
+      "unchanged": true,
+      "sha256": "58177c3e74e5e3bddbdf2b252f8da51077f78b48419e2e0bdc77b994b327a590"
+    },
+    {
+      "kind": "copied_frozen_input",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\data\\frozen\\audit\\window_lock.json",
+      "unchanged": true,
+      "sha256": "58177c3e74e5e3bddbdf2b252f8da51077f78b48419e2e0bdc77b994b327a590"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\figure_build_receipt.json",
+      "unchanged": true,
+      "sha256": "4767f2efe8efdef28f0ab237e44f5c353c6d6c97c29096af5032a8c590d1ec57"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\figure_validation.json",
+      "unchanged": true,
+      "sha256": "33437e34988f5b185138881313b430f01dabe1aea7d42ac1464f0e3d43336948"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\final_visual_receipt.json",
+      "unchanged": true,
+      "sha256": "fb9d5d3ab0de08d5e2e613d2dd320aef642cf75cf3c094e8f98e4679094ecb53"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\license_reference_audit.json",
+      "unchanged": true,
+      "sha256": "a2b7969ef20f56432107c591da7fe096428305970020792fb3e9d8b18cf5ab0d"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\module_contracts.csv",
+      "unchanged": true,
+      "sha256": "e71da5f33d9cc025f52a5d14c65d5daf8bc399455e6dc33df95ad6eee7900637"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\module_contracts.json",
+      "unchanged": true,
+      "sha256": "cf1fe059a0b65274a1b9509448c5e5008e0558de5590a7ac25b6bd5947773bc3"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\module_contracts.md",
+      "unchanged": true,
+      "sha256": "4ca28e81fc140691bd49de71d0f15d30ecb191aa412aed8793ad8d741eb5abba"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\next_acquisition_proposal.json",
+      "unchanged": true,
+      "sha256": "c61930400bf13538b61c39815e671610c83df13a76a13b9281a62177a0c8b3d6"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\next_acquisition_proposal.md",
+      "unchanged": true,
+      "sha256": "c104865a9cae28350dd1850ad560e6143c5c5e26b4b1ade2b6494c9f8ec9d97c"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\source_verification.json",
+      "unchanged": true,
+      "sha256": "2c99bb74c8b9306e5823764a2139dae5d603642c3c5f6e927a4b01b6fae3b065"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\contracts\\visual_author_check.md",
+      "unchanged": true,
+      "sha256": "777ecef7a5371a9e51b195c59e0b37ce03d910f17402eed44809e22a314fd22c"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\decision.html",
+      "unchanged": true,
+      "sha256": "e09d36d34a4e5e7d34fb72ce8a1258eab279fcce259ff83a01f3b4f921b1f676"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\missing_comparison.png",
+      "unchanged": true,
+      "sha256": "f8f8e6f915a2bed572217832e6ad93a32ac23d6e0ddf13e94c618997becabc13"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\missing_detail.png",
+      "unchanged": true,
+      "sha256": "5331ea6942dba5aed0a71f728ee5c2fbca0abbb11af8296b3adad07bdc4a5b69"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\native_comparison.png",
+      "unchanged": true,
+      "sha256": "b114e3c05cc0761538e0e8fc2ecffe81f689c2af992e564d81b33d9d2052758b"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\native_detail.png",
+      "unchanged": true,
+      "sha256": "7fd268f1ee1d6ecca4c9fe31d5eec3d74df782d0b26ed67173e87a1926bb26ef"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\tagged_comparison.png",
+      "unchanged": true,
+      "sha256": "d962ae2e6265b97e3549c38da88023e79c64241af0bfbd0c8f96eea2b6c04928"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\figures\\tagged_detail.png",
+      "unchanged": true,
+      "sha256": "fac66d0f47ab6567fb1ad2afc08e750e1f91ca6b85e1f7c227bf062534e28894"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\index.html",
+      "unchanged": true,
+      "sha256": "27c6d1d87f758246d21544d910b7c24558c46182ad27548c13d63018377a16e8"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\inputs\\PG1_RESUME_FEEDBACK_R1\\00_README_FIRST.md",
+      "unchanged": true,
+      "sha256": "e6da9f3e09f09e1bb3d26adeb915432c77e8804b46d5bfc6f1ed95963d95ccd7"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\inputs\\PG1_RESUME_FEEDBACK_R1\\CODEX_FEEDBACK_AND_RESUME.md",
+      "unchanged": true,
+      "sha256": "28599030574a1401ef708884451af3307b62e70ec8b3c66e6a6aa0225ef50171"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\inputs\\PG1_RESUME_FEEDBACK_R1\\MANIFEST_SHA256.json",
+      "unchanged": true,
+      "sha256": "d806cb28fb7ca6f2210483fe10ccd06ebd7c3dfc9b7b34928e623f27d12487a3"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\inputs\\PG1_RESUME_FEEDBACK_R1\\SOURCE_CHECK.json",
+      "unchanged": true,
+      "sha256": "f55278d779571b7c585b2bf225f7538f9ff66368f71397c1f369cc3c17c2997b"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\inputs\\PG1_RESUME_FEEDBACK_R1\\evidence\\FOUNDATION_REVIEW.md",
+      "unchanged": true,
+      "sha256": "225a13e82717e6519a956bb8dcb0f3b5c893927d2475226bb6c6236f77cfe242"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\inputs\\PG1_RESUME_FEEDBACK_R1\\evidence\\STATUS.json",
+      "unchanged": true,
+      "sha256": "e08dcfb23063f04e6e7fcea8310ec185002811230dd93032a4ef4f6eeab0de7a"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\inputs\\PG1_RESUME_FEEDBACK_R1\\evidence\\phase1\\audit_findings.md",
+      "unchanged": true,
+      "sha256": "87616d5a64b287a9aa71d630bb0ab9481e796b42a0e5f1f18c1338ee82881a2c"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\inputs\\PG1_RESUME_FEEDBACK_R1\\evidence\\phase2\\collection_receipt.json",
+      "unchanged": true,
+      "sha256": "01dab8a9b9d012243fc745ebd13335f5deae8557245d1f0bd56bd1dfa984abe3"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\inputs\\PG1_RESUME_FEEDBACK_R1\\evidence\\reviews\\PRESEAL_SIGNOFF.json",
+      "unchanged": true,
+      "sha256": "bc82f109f44a8826507819fe5781dd313483415dbe29e7be8ea20887649cb726"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\maps\\trial_map_data.json",
+      "unchanged": true,
+      "sha256": "349f321d820feb9935f52160bc85b4a1ff030733ce53c7cc30058d89ae14e23c"
+    },
+    {
+      "kind": "copied_frozen_input",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\data\\frozen\\maps\\trial_map_data.json",
+      "unchanged": true,
+      "sha256": "349f321d820feb9935f52160bc85b4a1ff030733ce53c7cc30058d89ae14e23c"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\maps\\viewer.css",
+      "unchanged": true,
+      "sha256": "8bb4048626e9ac985b2c6bccbed83767ec1f138ba80a40cea767c09fd4c3944c"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\maps\\viewer.js",
+      "unchanged": true,
+      "sha256": "d47d51001c6c30451fb25bda03c4e1758cab7ba4fb8ebd0f6a6c037fea0798ee"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\R0_cost_repair_receipt.json",
+      "unchanged": true,
+      "sha256": "df5fe0a9bf60c99d1df2e539acfa5430e6efc6f84ee0eb93997510a6ff9eeed9"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\business_route_axis_segments.csv",
+      "unchanged": true,
+      "sha256": "9dc2b3917986dc0b6b637aa2cb5ba6e1de2077f422b81f7855767fe504041f9a"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\business_route_axis_usage.csv",
+      "unchanged": true,
+      "sha256": "7c889ea95fbfaae99c1bb4d7c7ef1628ffd996fcd95677fd3cffbe0061d9d445"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\business_route_axis_usage.json",
+      "unchanged": true,
+      "sha256": "f70269d7b9ff8738b0fe041f3d6cebdd020dd4b4baa794142d379288a3a132d2"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\business_route_axis_usage.md",
+      "unchanged": true,
+      "sha256": "5805373c0d0cb779ff18037c482415d1e5fcecd5a25faab00a466be0c6dbe3eb"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\engineering_fix_receipt.json",
+      "unchanged": true,
+      "sha256": "6f3c5e6c7dd0ff45143bb03efd0edc527d5b3588fa08d8432d161c246f288798"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\graphs\\missing_R0.json",
+      "unchanged": true,
+      "sha256": "63837deeb0d175006d9f6fd5b37593b8096506464093455048e824908b8fe7b8"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\graphs\\missing_R1.json",
+      "unchanged": true,
+      "sha256": "19afeaeef1828d6c58414839828e2df7fcb4ea72fbfd78d782026f4927305b39"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\graphs\\missing_R2.json",
+      "unchanged": true,
+      "sha256": "25374badc0d2f00422d6380f9f59fb5924fb8c8775fd7adf7a6fd14c6d896c15"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\graphs\\native_R0.json",
+      "unchanged": true,
+      "sha256": "41a9ef44c33e4a2a3890410e589d9a3dec9645466512ed8e9c9528bf5284f556"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\graphs\\native_R1.json",
+      "unchanged": true,
+      "sha256": "c70671a8bc94407f11e7508e6ac8a532be9c8ec7ae3b4634ad31aa3bae2f5197"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\graphs\\native_R2.json",
+      "unchanged": true,
+      "sha256": "72d5c38bcf8d565dcf795dbb28ada00f08b6f991975b929309218b4a4e179437"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\graphs\\tagged_R0.json",
+      "unchanged": true,
+      "sha256": "7da2714a81d2286c65d7d87d3c8497eeaa95918e262d2b8cfd572ca6580fbecb"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\graphs\\tagged_R1.json",
+      "unchanged": true,
+      "sha256": "3445b20498ef629e861b81a0055807c86c041fed9e038e3d1f5383a793e9a24f"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\graphs\\tagged_R2.json",
+      "unchanged": true,
+      "sha256": "323d2b2d61bf2c89eaf03a90f02b0a1912e8e1b32287f16bd62fbd80f9d04cc7"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\inputs\\missing.json",
+      "unchanged": true,
+      "sha256": "a1a541fdf1b1b787a27ec5e1ea15901b102829991e45d3dd7b14bee5daec89be"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\inputs\\native.json",
+      "unchanged": true,
+      "sha256": "a010970b9355ee8ab05f6846440724b7acc453eb243079f8bd7b2b74417a553c"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\inputs\\tagged.json",
+      "unchanged": true,
+      "sha256": "4ec7a03b913f8be16767b60494beaa5468b3b98ca7e57c09ab7c9e0f356d01a3"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\local_input_provenance.json",
+      "unchanged": true,
+      "sha256": "0575f87267c71414f1bc43043d22f576877687ca8769da0f1d8a84c25ec6bf16"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\metric_qualification_receipt.json",
+      "unchanged": true,
+      "sha256": "f048f66ebf671bdb2caf3e94539fdb89aa586edbcd33db4f92f15b348cf54862"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\executed_street_side_before_cost_fix.py",
+      "unchanged": true,
+      "sha256": "fcf09e894da882d28f81d98eef18a9736dfead44f11eb2f3c393e186e3ad9c22"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\graphs\\missing_R0.json",
+      "unchanged": true,
+      "sha256": "a9f2fcd8e268ce1c762eca483138342f0eac2899315641bd1a221b8e18f3b3d7"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\graphs\\missing_R1.json",
+      "unchanged": true,
+      "sha256": "19afeaeef1828d6c58414839828e2df7fcb4ea72fbfd78d782026f4927305b39"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\graphs\\missing_R2.json",
+      "unchanged": true,
+      "sha256": "25374badc0d2f00422d6380f9f59fb5924fb8c8775fd7adf7a6fd14c6d896c15"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\graphs\\native_R0.json",
+      "unchanged": true,
+      "sha256": "81ad7755417713c68ce475fed19a410ff0c917bd73fcab58af4124df0a61055c"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\graphs\\native_R1.json",
+      "unchanged": true,
+      "sha256": "c70671a8bc94407f11e7508e6ac8a532be9c8ec7ae3b4634ad31aa3bae2f5197"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\graphs\\native_R2.json",
+      "unchanged": true,
+      "sha256": "72d5c38bcf8d565dcf795dbb28ada00f08b6f991975b929309218b4a4e179437"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\graphs\\tagged_R0.json",
+      "unchanged": true,
+      "sha256": "51b2c7b3289266b9a7da8bf5ce2daa02be68dea47cee740d7b947bf06e568f68"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\graphs\\tagged_R1.json",
+      "unchanged": true,
+      "sha256": "3445b20498ef629e861b81a0055807c86c041fed9e038e3d1f5383a793e9a24f"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\graphs\\tagged_R2.json",
+      "unchanged": true,
+      "sha256": "323d2b2d61bf2c89eaf03a90f02b0a1912e8e1b32287f16bd62fbd80f9d04cc7"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\query_results.csv",
+      "unchanged": true,
+      "sha256": "31135ff40729315fccaff30f884143f2bb32b58ea5cafe8399e02e62602e157d"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_R0_cost_fix\\trial_map_data.json",
+      "unchanged": true,
+      "sha256": "98f9bc888d6fadce4898ad38cee9d45037c3a1b83d2ca28c59805df4ce928a7d"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_fix\\executed_street_side.py",
+      "unchanged": true,
+      "sha256": "030d73246bfdc54a2789c965ec93d4589bcae7b38608d934e88c4781c168750f"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_fix\\initial_road_information_inventory.csv",
+      "unchanged": true,
+      "sha256": "2a6b0bff916eb10b8570f2403a2ee16fa476c0271f78281fe727402615481a0d"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_fix\\source_before_metric_qualification.py",
+      "unchanged": true,
+      "sha256": "11ec5c9f54b5bc19b8c3dd8d238c0a95facfc54309698923c8feeaa02e3aa0b3"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_fix\\source_before_permission_inventory_fix.py",
+      "unchanged": true,
+      "sha256": "0659159ff27c72f0917a1d95d2fe128fba3da8bdcfa429bf95195c639b1da5a3"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\pre_fix\\synthetic_tests.json",
+      "unchanged": true,
+      "sha256": "6f0fd524f99316f252ee642448367dfe5b54973cb869f375c8edc3318277e79a"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\query_results.csv",
+      "unchanged": true,
+      "sha256": "fbbb52587030434256d3a6576d53d8fced9dd2f04b146966734d28bd9f03c01d"
+    },
+    {
+      "kind": "copied_frozen_input",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\data\\frozen\\results\\query_results.csv",
+      "unchanged": true,
+      "sha256": "fbbb52587030434256d3a6576d53d8fced9dd2f04b146966734d28bd9f03c01d"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\road_information_inventory.csv",
+      "unchanged": true,
+      "sha256": "5148eb977dda869dd3ed618ec33ef77d379bbdecea37c90ec59a78abc49c23de"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\road_information_summary.json",
+      "unchanged": true,
+      "sha256": "9d869bd07c605517a570ef112d409c6489a63cd07a7a35246c5fc27c6aa003f6"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\source_permission_inventory_fix.json",
+      "unchanged": true,
+      "sha256": "3d6d06cdc499971f1845ec5ee5998d85b86df088dae436cc1423ab590a890e91"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\street_side_findings.md",
+      "unchanged": true,
+      "sha256": "27910b4f02ba47dd92798f4c4a29d2a3c905d68626410bb59945ef826fe07582"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\synthetic_tests.json",
+      "unchanged": true,
+      "sha256": "2ecc5d578f5cdee1850a49707c2182336353de11c9a7e28c9d7d15e7e10c3e8d"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\results\\trial_summary.json",
+      "unchanged": true,
+      "sha256": "f8bfc5c09295f931fda3f103c03a84ef6b2e4bf6688ca3c915909f5eab76d992"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\author_algorithm_review.md",
+      "unchanged": true,
+      "sha256": "16f5c611824f9d383627893f065f21672d4767f44ae19ff740363c346fee5c7b"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\author_browser_actual.png",
+      "unchanged": true,
+      "sha256": "ec86c7547d69fa38b95a459fef6fe6b3732fb3246ef1547fad1bc30c16349ce9"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\author_browser_check.json",
+      "unchanged": true,
+      "sha256": "285a21dff068fe467427ca5fc42c9e5707125d3ceaf0116bd194d48c3fdb5132"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_browser.json",
+      "unchanged": true,
+      "sha256": "472a789d89f1cd89fe30bf0273dea644b81607003748e314f3c8aeb3ba4f1653"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_browser.png",
+      "unchanged": true,
+      "sha256": "c841938282f640b528e923e051a612259a92dd54a0f7a0019d117e0f59483610"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_browser.py",
+      "unchanged": true,
+      "sha256": "f56570ece0ccde813b2edf65a00a39a7fca4edd483179837e0c74aa7b30e2b4f"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_browser_export.json",
+      "unchanged": true,
+      "sha256": "2306f65b2bb7e14080c033adfe5c51436db7c0a9fdd7c53af0f8d83efe5f4e06"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_browser_export_first.json",
+      "unchanged": true,
+      "sha256": "2f074108ea5cea593d9ee1a1332ff5fd0b4e8a704372822482e6174599436bd8"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_browser_first.json",
+      "unchanged": true,
+      "sha256": "dd21c6c4f4391b58967d4fa125d42b7857fdb0ffd73f06f84f1c2fc757ed7f32"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_browser_first.png",
+      "unchanged": true,
+      "sha256": "80a6f471e9cf22d8f2f13438ff8af36b8e1a2f63c3486f2deced00ca9a180604"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_business_axis.json",
+      "unchanged": true,
+      "sha256": "d55bfa343baea443fff947308425ff321f777877993369ac191307d411cd11eb"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_contracts.json",
+      "unchanged": true,
+      "sha256": "400a18ccaf872ae2acfba06f4152c60d36b5b7e9bcdeecc3b19a4aa299d91307"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_execution_log.json",
+      "unchanged": true,
+      "sha256": "a1ca6b6a01c058f8f0974101f5314a1918436d0c42af164ae70589a869479697"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_metamorphic.json",
+      "unchanged": true,
+      "sha256": "7cb735811aa5bc6ebb5d50cca3e470cf2063d47d7addcd706af89f73def1a7ff"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_metamorphic.py",
+      "unchanged": true,
+      "sha256": "57f2a5821f70083516b7a5b49e05e2c9dd6c359486ff9b2b99d9a8b9314bfecd"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_metamorphic_first.json",
+      "unchanged": true,
+      "sha256": "16a94a99f567f323e25e1275eb26140b1dcef60815e0fc695281d2b7e22d75b3"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_old_delivery.json",
+      "unchanged": true,
+      "sha256": "13245f4b1fd8356af27341c20395a66a8474199bb76617f5133dbfba826271b1"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_old_delivery.md",
+      "unchanged": true,
+      "sha256": "44daadaa753aa6f63502dd3cfad09290ff9eed9faf840d7936b3f9460f5f5148"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_original_working_map_drift.json",
+      "unchanged": true,
+      "sha256": "008238821f95c449061469d1b006d82094a893995fc30e7e2ad612db72f7c84b"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_review.md",
+      "unchanged": true,
+      "sha256": "124ede341172616fd03b9b1c9f6b41c45051368bf3ee9971e4dc2736beb31a65"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\reviews\\independent_trial.json",
+      "unchanged": true,
+      "sha256": "a7e317a0d06edc9fce19b3cf6e0a2811f6f68a1a5a54a4a2fe07db5fbf34dbe7"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\audit_business_axes.py",
+      "unchanged": true,
+      "sha256": "4ebb0f3e2f5d9def3ff1e38a806beb7b62474bea9746489e5cde8d05617c7a84"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\build_closeout.py",
+      "unchanged": true,
+      "sha256": "e3c37329d64ebfeeda0a4e1bebdab1aecb5218f51daff24297e68cd2930a9aff"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\build_visuals.py",
+      "unchanged": true,
+      "sha256": "aa6836e605208dad1a678783b4139a64360e05a6cba7a2671509220de99d14c2"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\check_browser.py",
+      "unchanged": true,
+      "sha256": "852ef693b5ab4daed44de0daeaa25d9217cc65e74b5193ee1137f1ef71463661"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\freeze_source.py",
+      "unchanged": true,
+      "sha256": "839bab8cbaa974df3ce5808a294e7eed9c3af270b8cc4bd7354e112e34e132fe"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\independent_check.py",
+      "unchanged": true,
+      "sha256": "bfff77ad8eeb275c66f8848ab093f181479924f13603ec87227a3ae0642b591d"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\recover_delivery.py",
+      "unchanged": true,
+      "sha256": "80f16256f210818a7518229ce9f7709266a256571e28eff481ace4aa9a718b20"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\serve_review.py",
+      "unchanged": true,
+      "sha256": "c5f048286be74ee9d1be72f2bc0906eca8f3affd6b95bff2c24a7598cb16f3e7"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\street_side.py",
+      "unchanged": true,
+      "sha256": "b7243dca1c9c3c0bae2dd5cc4e2786ddafc528ed2fb635c7f79893d22d53be6a"
+    },
+    {
+      "kind": "old_working_member",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\source\\PG1_RESUME_SOURCE.bundle",
+      "unchanged": true,
+      "sha256": "e63d055caa8467d325e91216b6ce547d32f7c2f8c5ad6bb51917536fed581425"
+    },
+    {
+      "kind": "old_git_index",
+      "path": "E:\\智慧城市和位置服务\\.git\\index",
+      "unchanged": true,
+      "sha256": "4216b12478e717dcb367733fbbb430911edf77b785c1d3fc9ebd9cd8a80e2bd4"
+    },
+    {
+      "kind": "old_git_index",
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services\\.git\\index",
+      "unchanged": true,
+      "sha256": "67f47e86c92bc814144043bdb235f62149b9e0d95aad58cbec356fa68e7f2f0f"
+    },
+    {
+      "kind": "old_git_index",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\repository\\.git\\index",
+      "unchanged": true,
+      "sha256": "03525ed495f231d7f9f737d459d277cc8afff91584a2e80481aeef2420164dbb"
+    }
+  ],
+  "old_git_head": "1ab7fd75704d98e85fe4e69a85dc828e7df2ffb5",
+  "old_git_status_unchanged": true,
+  "algorithm_runs_added": 0,
+  "solver_calls_added": 0,
+  "external_map_requests": 0,
+  "new_data_downloads": 0,
+  "algorithm_result_drift": 0,
+  "basis": "New scripts only extract/render frozen files; no solver imports or calls. Old archive+all present sealed member files, original3OSM, exact5frozen copies and oldindices verified unchanged."
+}

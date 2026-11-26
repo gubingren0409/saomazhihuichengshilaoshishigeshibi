@@ -1,0 +1,235 @@
+{
+  "identity": "VISUAL_REPAIR_EXPORT_NO_SOLVER",
+  "window_id": "missing",
+  "query_id": "missing-along",
+  "query": {
+    "query_id": "missing-along",
+    "kind": "SAME_LEFT_SIDE",
+    "road_id": "way/11761212",
+    "start_node": 105253460,
+    "end_node": 10703754083,
+    "start_side": "left",
+    "end_side": "left",
+    "description": "SAME_LEFT_SIDE",
+    "bindings": {
+      "R0": {
+        "start": "native:105253460:layer=0;level=0;bridge=no;tunnel=no",
+        "end": "native:10703754083:layer=0;level=0;bridge=no;tunnel=no",
+        "meaning": "R0 collapses side identity to axis node"
+      },
+      "R1": {
+        "start": "way/11761212:left:node/105253460:layer=0;level=0;bridge=no;tunnel=no",
+        "end": "way/11761212:left:node/10703754083:layer=0;level=0;bridge=no;tunnel=no",
+        "meaning": "same source station and logical road side;physical position unknown"
+      },
+      "R2": {
+        "start": "way/11761212:left:node/105253460:layer=0;level=0;bridge=no;tunnel=no",
+        "end": "way/11761212:left:node/10703754083:layer=0;level=0;bridge=no;tunnel=no",
+        "meaning": "same source station and logical road side;physical position unknown"
+      }
+    },
+    "results": {
+      "R0": {
+        "status": "CONNECTED",
+        "solver_invoked": true,
+        "edge_ids": [
+          "R0:native:way/11761212:6",
+          "R0:native:way/11761212:7",
+          "R0:native:way/11761212:8",
+          "R0:native:way/11761212:9",
+          "R0:native:way/11761212:10"
+        ],
+        "node_path": [
+          "native:105253460:layer=0;level=0;bridge=no;tunnel=no",
+          "native:3020066685:layer=0;level=0;bridge=no;tunnel=no",
+          "native:3017753313:layer=0;level=0;bridge=no;tunnel=no",
+          "native:1317175521:layer=0;level=0;bridge=no;tunnel=no",
+          "native:105259252:layer=0;level=0;bridge=no;tunnel=no",
+          "native:10703754083:layer=0;level=0;bridge=no;tunnel=no"
+        ],
+        "cost_f1_proxy": 265.308722279409,
+        "cost_f0_proxy": 265.3087222794089,
+        "source_line_reference_length_m": 265.3087222794089,
+        "hypothesis_edges": 0,
+        "schematic_edges": 0,
+        "physical_route_length_m": null,
+        "popped_nodes": 29,
+        "distance_labels": {
+          "native:105253460:layer=0;level=0;bridge=no;tunnel=no": 0,
+          "native:3020066685:layer=0;level=0;bridge=no;tunnel=no": 60.77582721857781,
+          "native:3017753313:layer=0;level=0;bridge=no;tunnel=no": 170.44703616272548,
+          "native:1317175521:layer=0;level=0;bridge=no;tunnel=no": 246.26244275827807,
+          "native:3017753312:layer=0;level=0;bridge=no;tunnel=no": 300.56098481477716,
+          "native:105259252:layer=0;level=0;bridge=no;tunnel=no": 257.18129792340306,
+          "native:10703754088:layer=0;level=0;bridge=no;tunnel=no": 272.180084893173,
+          "native:10703754083:layer=0;level=0;bridge=no;tunnel=no": 265.308722279409,
+          "native:10703754084:layer=0;level=0;bridge=no;tunnel=no": 277.53940608396175,
+          "native:3048216957:layer=0;level=0;bridge=no;tunnel=no": 372.06556678356554,
+          "native:10703754087:layer=0;level=0;bridge=no;tunnel=no": 277.8523846235789,
+          "native:10703754085:layer=0;level=0;bridge=no;tunnel=no": 285.48139659539925,
+          "native:10703754086:layer=0;level=0;bridge=no;tunnel=no": 284.4936947945281,
+          "native:10703761805:layer=0;level=0;bridge=no;tunnel=no": 311.666941548071,
+          "native:10703754089:layer=0;level=0;bridge=no;tunnel=no": 321.06378556077453,
+          "native:10703754104:layer=0;level=0;bridge=no;tunnel=no": 317.08234769978617,
+          "native:10703754103:layer=0;level=0;bridge=no;tunnel=no": 326.4980307790226,
+          "native:10703761835:layer=0;level=0;bridge=no;tunnel=no": 323.7968179204484,
+          "native:10703754090:layer=0;level=0;bridge=no;tunnel=no": 329.76570321355774,
+          "native:10703761834:layer=0;level=0;bridge=no;tunnel=no": 329.8224435666224,
+          "native:10703754102:layer=0;level=0;bridge=no;tunnel=no": 334.3206845823351,
+          "native:10703754091:layer=0;level=0;bridge=no;tunnel=no": 338.9973848546778,
+          "native:10703754101:layer=0;level=0;bridge=no;tunnel=no": 340.11309749334424,
+          "native:10703754100:layer=0;level=0;bridge=no;tunnel=no": 345.5356495962612,
+          "native:10703754096:layer=0;level=0;bridge=no;tunnel=no": 350.66937235952696,
+          "native:10703754095:layer=0;level=0;bridge=no;tunnel=no": 362.31286164370493,
+          "native:10703754097:layer=0;level=0;bridge=no;tunnel=no": 358.3996472402871,
+          "native:10703754094:layer=0;level=0;bridge=no;tunnel=no": 370.93920761036014,
+          "native:1487384237:layer=0;level=0;bridge=no;tunnel=no": 395.63897434963866
+        },
+        "length_interpretation": "WALKING_LENGTH_UNKNOWN;cost_or_axis_reference_only",
+        "qualified_from_original_registry": false,
+        "current_formal_attempt": 23
+      },
+      "R1": {
+        "status": "ENDPOINT_UNAVAILABLE",
+        "solver_invoked": false,
+        "edge_ids": [],
+        "node_path": [],
+        "length_interpretation": "WALKING_LENGTH_UNKNOWN;cost_or_axis_reference_only",
+        "qualified_from_original_registry": true
+      },
+      "R2": {
+        "status": "CONNECTED",
+        "solver_invoked": true,
+        "edge_ids": [
+          "R2:side:way/11761212:left:6",
+          "R2:side:way/11761212:left:7",
+          "R2:side:way/11761212:left:8",
+          "R2:side:way/11761212:left:9",
+          "R2:side:way/11761212:left:10"
+        ],
+        "node_path": [
+          "way/11761212:left:node/105253460:layer=0;level=0;bridge=no;tunnel=no",
+          "way/11761212:left:node/3020066685:layer=0;level=0;bridge=no;tunnel=no",
+          "way/11761212:left:node/3017753313:layer=0;level=0;bridge=no;tunnel=no",
+          "way/11761212:left:node/1317175521:layer=0;level=0;bridge=no;tunnel=no",
+          "way/11761212:left:node/105259252:layer=0;level=0;bridge=no;tunnel=no",
+          "way/11761212:left:node/10703754083:layer=0;level=0;bridge=no;tunnel=no"
+        ],
+        "cost_f1_proxy": 530.617444558818,
+        "cost_f0_proxy": 265.3087222794089,
+        "source_line_reference_length_m": 0,
+        "hypothesis_edges": 5,
+        "schematic_edges": 5,
+        "physical_route_length_m": null,
+        "popped_nodes": 6,
+        "distance_labels": {
+          "way/11761212:left:node/105253460:layer=0;level=0;bridge=no;tunnel=no": 0,
+          "way/11761212:left:node/3020066685:layer=0;level=0;bridge=no;tunnel=no": 121.55165443715562,
+          "way/11761212:left:node/3017753313:layer=0;level=0;bridge=no;tunnel=no": 340.89407232545096,
+          "way/11761212:left:node/1317175521:layer=0;level=0;bridge=no;tunnel=no": 492.52488551655614,
+          "way/11761212:left:node/105259252:layer=0;level=0;bridge=no;tunnel=no": 514.3625958468061,
+          "way/11761212:left:node/10703754083:layer=0;level=0;bridge=no;tunnel=no": 530.617444558818
+        },
+        "length_interpretation": "WALKING_LENGTH_UNKNOWN;cost_or_axis_reference_only",
+        "qualified_from_original_registry": true
+      }
+    }
+  },
+  "view": [
+    350468.41478489165,
+    3453680.7693530084,
+    350788.41478489165,
+    3454000.7693530084
+  ],
+  "crs": "EPSG:32651",
+  "effective_formal_attempts": {
+    "R0": 23,
+    "R1": 14,
+    "R2": 15
+  },
+  "source": {
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-wukang\\source.osm.json",
+    "sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+    "timestamp": "2026-11-08T21:21:00Z",
+    "version": "FROZEN_OSM_CLIP",
+    "full_clip_bytes": 4696108
+  },
+  "enabled_layers": [
+    "road_centerlines",
+    "road_areas",
+    "road_names",
+    "native_walkways",
+    "crossings",
+    "traffic_facilities",
+    "pedestrian_areas",
+    "vegetation",
+    "water",
+    "barriers",
+    "railway",
+    "poi",
+    "other_context",
+    "R0",
+    "R1",
+    "route_markers",
+    "rejected_unknown",
+    "buildings",
+    "R2"
+  ],
+  "selected_object": {
+    "identity": "FROZEN_DIAGNOSTIC_GRAPH_EDGE",
+    "window_id": "missing",
+    "query_id": "missing-along",
+    "variant": "R2",
+    "parent_source_ids": [
+      "way/11761212"
+    ],
+    "road_id": "way/11761212",
+    "side": "left",
+    "assumption_class": "CONDITIONAL_HYPOTHESIS",
+    "source": {
+      "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-wukang\\source.osm.json",
+      "sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "timestamp": "2026-11-08T21:21:00Z",
+      "version": "FROZEN_OSM_CLIP",
+      "full_clip_bytes": 4696108
+    },
+    "edge_id": "R2:side:way/11761212:left:6",
+    "u": "way/11761212:left:node/105253460:layer=0;level=0;bridge=no;tunnel=no",
+    "v": "way/11761212:left:node/3020066685:layer=0;level=0;bridge=no;tunnel=no",
+    "xy": [
+      [
+        350666.25356605084,
+        3453731.4520182167
+      ],
+      [
+        350644.3969377948,
+        3453788.1617085296
+      ]
+    ],
+    "layer": "hypothesis",
+    "evidence": "CONDITIONAL_MISSING_SIDE_TAG_ORDINARY_GROUND_ROAD",
+    "source_id": "way/11761212",
+    "source_node_ids": [
+      105253460,
+      3020066685
+    ],
+    "directions": [
+      1,
+      -1
+    ],
+    "geometry_status": "SCHEMATIC",
+    "hypothesis": true,
+    "cost_f0": 60.77582721857781,
+    "cost_f1": 121.55165443715562,
+    "length_basis": "SOURCE_AXIS_REFERENCE_LENGTH_COST_PROXY_NOT_PHYSICAL_SIDEWALK_M",
+    "tags": {
+      "cycleway": "opposite_lane",
+      "highway": "residential",
+      "lanes": "2",
+      "name": "兴国路",
+      "name:en": "Xingguo Road",
+      "oneway": "yes",
+      "surface": "asphalt"
+    }
+  }
+}

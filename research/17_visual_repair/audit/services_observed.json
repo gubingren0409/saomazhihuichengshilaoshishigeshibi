@@ -1,0 +1,38 @@
+{
+  "observed_at": "2026-11-13T04:48:32.697622+08:00",
+  "scope": "Actual current read-only process/listen observations; not retroactively claimed as first-command snapshot. Prior53511 originalPID/create_time precedes visualtask; no stop/restart issued.",
+  "observations": [
+    {
+      "pid": 99416,
+      "port": 53511,
+      "exists": true,
+      "created_at": "2026-11-13T03:39:50.017499+08:00",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "E:\\智慧城市和位置服务\\_task_runtime\\PG1_RESUME_STREET_SIDE_R1\\scripts\\serve_review.py",
+        "--port",
+        "53511"
+      ],
+      "listen": true
+    },
+    {
+      "pid": 119704,
+      "port": 53521,
+      "exists": true,
+      "created_at": "2026-11-13T04:32:31.087013+08:00",
+      "command": [
+        "C:\\Users\\28489\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "E:\\智慧城市和位置服务\\_task_runtime\\PG1_MAP_CONTEXT_VISUAL_REPAIR_R1\\scripts\\serve_review.py",
+        "--port",
+        "53521"
+      ],
+      "listen": true
+    }
+  ]
+}

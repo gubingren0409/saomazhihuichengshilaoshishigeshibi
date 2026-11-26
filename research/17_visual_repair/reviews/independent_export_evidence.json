@@ -1,0 +1,57 @@
+{
+  "identity": "FROZEN_DIAGNOSTIC_GRAPH_EDGE",
+  "window_id": "missing",
+  "query_id": "missing-along",
+  "variant": "R2",
+  "parent_source_ids": [
+    "way/11761212"
+  ],
+  "road_id": "way/11761212",
+  "side": "left",
+  "assumption_class": "CONDITIONAL_HYPOTHESIS",
+  "source": {
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-wukang\\source.osm.json",
+    "sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+    "timestamp": "2026-11-08T21:21:00Z",
+    "version": "FROZEN_OSM_CLIP",
+    "full_clip_bytes": 4696108
+  },
+  "edge_id": "R2:side:way/11761212:left:6",
+  "u": "way/11761212:left:node/105253460:layer=0;level=0;bridge=no;tunnel=no",
+  "v": "way/11761212:left:node/3020066685:layer=0;level=0;bridge=no;tunnel=no",
+  "xy": [
+    [
+      350666.25356605084,
+      3453731.4520182167
+    ],
+    [
+      350644.3969377948,
+      3453788.1617085296
+    ]
+  ],
+  "layer": "hypothesis",
+  "evidence": "CONDITIONAL_MISSING_SIDE_TAG_ORDINARY_GROUND_ROAD",
+  "source_id": "way/11761212",
+  "source_node_ids": [
+    105253460,
+    3020066685
+  ],
+  "directions": [
+    1,
+    -1
+  ],
+  "geometry_status": "SCHEMATIC",
+  "hypothesis": true,
+  "cost_f0": 60.77582721857781,
+  "cost_f1": 121.55165443715562,
+  "length_basis": "SOURCE_AXIS_REFERENCE_LENGTH_COST_PROXY_NOT_PHYSICAL_SIDEWALK_M",
+  "tags": {
+    "cycleway": "opposite_lane",
+    "highway": "residential",
+    "lanes": "2",
+    "name": "兴国路",
+    "name:en": "Xingguo Road",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+}

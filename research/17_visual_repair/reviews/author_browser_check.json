@@ -1,0 +1,152 @@
+{
+  "role": "root author browser check; independent review separate",
+  "at": "2026-11-13T04:53:29.298596+08:00",
+  "views": [
+    {
+      "window": "native",
+      "query": "native-along",
+      "source_objects_per_panel": 154,
+      "same_base": true,
+      "extent": [
+        353729.5267431182,
+        3456270.902233435,
+        354049.5267431182,
+        3456590.902233435
+      ],
+      "meters_per_css_px": [
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981
+      ],
+      "statuses": {
+        "R0": "CONNECTED · 最终有效 #19 · 13段 · F1代理代价 266.10",
+        "R1": "CONNECTED · 最终有效 #2 · 13段 · F1代理代价 266.10",
+        "R2": "CONNECTED · 最终有效 #3 · 13段 · F1代理代价 266.10"
+      }
+    },
+    {
+      "window": "native",
+      "query": "native-reverse",
+      "source_objects_per_panel": 154,
+      "same_base": true,
+      "extent": [
+        353729.5267431182,
+        3456270.902233435,
+        354049.5267431182,
+        3456590.902233435
+      ],
+      "meters_per_css_px": [
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981
+      ],
+      "statuses": {
+        "R0": "CONNECTED · 最终有效 #20 · 13段 · F1代理代价 266.10",
+        "R1": "CONNECTED · 最终有效 #5 · 13段 · F1代理代价 266.10",
+        "R2": "CONNECTED · 最终有效 #6 · 13段 · F1代理代价 266.10"
+      }
+    },
+    {
+      "window": "tagged",
+      "query": "tagged-along",
+      "source_objects_per_panel": 122,
+      "same_base": true,
+      "extent": [
+        351323.31002892845,
+        3454451.3702966054,
+        351643.31002892845,
+        3454771.3702966054
+      ],
+      "meters_per_css_px": [
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981
+      ],
+      "statuses": {
+        "R0": "CONNECTED · 最终有效 #21 · 4段 · F1代理代价 158.81",
+        "R1": "CONNECTED · 最终有效 #8 · 4段 · F1代理代价 158.81",
+        "R2": "CONNECTED · 最终有效 #9 · 4段 · F1代理代价 158.81"
+      }
+    },
+    {
+      "window": "tagged",
+      "query": "tagged-cross-side",
+      "source_objects_per_panel": 122,
+      "same_base": true,
+      "extent": [
+        351323.31002892845,
+        3454451.3702966054,
+        351643.31002892845,
+        3454771.3702966054
+      ],
+      "meters_per_css_px": [
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981
+      ],
+      "statuses": {
+        "R0": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS · 最终有效 #22 · 0段 · F1代理代价 0.00 · 侧别别名，不算合法跨路",
+        "R1": "DISCONNECTED · 最终有效 #11 · 0段 · F1代理代价 N/A",
+        "R2": "DISCONNECTED · 最终有效 #12 · 0段 · F1代理代价 N/A"
+      }
+    },
+    {
+      "window": "missing",
+      "query": "missing-along",
+      "source_objects_per_panel": 85,
+      "same_base": true,
+      "extent": [
+        350468.41478489165,
+        3453680.7693530084,
+        350788.41478489165,
+        3454000.7693530084
+      ],
+      "meters_per_css_px": [
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981
+      ],
+      "statuses": {
+        "R0": "CONNECTED · 最终有效 #23 · 5段 · F1代理代价 265.31",
+        "R1": "ENDPOINT_UNAVAILABLE · 最终有效 #14 · 0段 · F1代理代价 N/A",
+        "R2": "CONNECTED · 最终有效 #15 · 5段 · F1代理代价 530.62"
+      }
+    },
+    {
+      "window": "missing",
+      "query": "missing-cross-side",
+      "source_objects_per_panel": 85,
+      "same_base": true,
+      "extent": [
+        350468.41478489165,
+        3453680.7693530084,
+        350788.41478489165,
+        3454000.7693530084
+      ],
+      "meters_per_css_px": [
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981,
+        0.3921568627450981
+      ],
+      "statuses": {
+        "R0": "ZERO_LENGTH_COLLAPSED_SIDE_ALIAS · 最终有效 #24 · 0段 · F1代理代价 0.00 · 侧别别名，不算合法跨路",
+        "R1": "ENDPOINT_UNAVAILABLE · 最终有效 #17 · 0段 · F1代理代价 N/A",
+        "R2": "DISCONNECTED · 最终有效 #18 · 0段 · F1代理代价 N/A"
+      }
+    }
+  ],
+  "page_errors": [],
+  "external_requests_blocked": [],
+  "solver_calls_added": 0,
+  "offline_open": "PASS",
+  "exports": "JSON_VIEW_JSON_OBJECT_EDITABLE_SVG_PASS",
+  "loading_switches_no_blank": "PASS",
+  "history_selection_no_map_override": "PASS",
+  "status": "PASS"
+}

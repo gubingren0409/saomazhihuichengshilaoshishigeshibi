@@ -1,0 +1,689 @@
+{
+  "reviewer": "actual independent /root/visual_context_review",
+  "checked_at": "2026-11-12T20:41:31.752924+00:00",
+  "scope": "Independent static artifact hashes/XML, source object census and same-base/extent checks; all frozen overlay geometries/weights/identities hashed against unchanged frozen input. No rendering/solver called by this check.",
+  "solver_calls_added": 0,
+  "BFS_or_graph_rebuilds_added": 0,
+  "algorithm_runs_added": 0,
+  "external_map_requests": 0,
+  "new_data_downloads": 0,
+  "status": "PASS_STATIC_MAPS_AND_FROZEN_OVERLAYS",
+  "static_figure_pairs": 18,
+  "files_checked": 36,
+  "figures": [
+    {
+      "window_id": "native",
+      "figure": "context_full",
+      "extent_xy": [
+        353729.5267431182,
+        3456270.902233435,
+        354049.5267431182,
+        3456590.902233435
+      ],
+      "panels": [
+        {
+          "variant": null,
+          "source_object_count": 154,
+          "base_sha256": "b2a45229032cb6fdda035b36b6e007336884314750616fe35513db66a9bb88eb",
+          "label_count": 36
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 0,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "native",
+      "figure": "R0_context_overlay",
+      "extent_xy": [
+        353729.5267431182,
+        3456270.902233435,
+        354049.5267431182,
+        3456590.902233435
+      ],
+      "panels": [
+        {
+          "variant": "R0",
+          "source_object_count": 154,
+          "base_sha256": "b2a45229032cb6fdda035b36b6e007336884314750616fe35513db66a9bb88eb",
+          "label_count": 36
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 144,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "native",
+      "figure": "R1_context_overlay",
+      "extent_xy": [
+        353729.5267431182,
+        3456270.902233435,
+        354049.5267431182,
+        3456590.902233435
+      ],
+      "panels": [
+        {
+          "variant": "R1",
+          "source_object_count": 154,
+          "base_sha256": "b2a45229032cb6fdda035b36b6e007336884314750616fe35513db66a9bb88eb",
+          "label_count": 36
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 113,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "native",
+      "figure": "R2_context_overlay",
+      "extent_xy": [
+        353729.5267431182,
+        3456270.902233435,
+        354049.5267431182,
+        3456590.902233435
+      ],
+      "panels": [
+        {
+          "variant": "R2",
+          "source_object_count": 154,
+          "base_sha256": "b2a45229032cb6fdda035b36b6e007336884314750616fe35513db66a9bb88eb",
+          "label_count": 36
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 175,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "native",
+      "figure": "R0_R1_R2_same_extent",
+      "extent_xy": [
+        353729.5267431182,
+        3456270.902233435,
+        354049.5267431182,
+        3456590.902233435
+      ],
+      "panels": [
+        {
+          "variant": "R0",
+          "source_object_count": 154,
+          "base_sha256": "b2a45229032cb6fdda035b36b6e007336884314750616fe35513db66a9bb88eb",
+          "label_count": 36
+        },
+        {
+          "variant": "R1",
+          "source_object_count": 154,
+          "base_sha256": "b2a45229032cb6fdda035b36b6e007336884314750616fe35513db66a9bb88eb",
+          "label_count": 36
+        },
+        {
+          "variant": "R2",
+          "source_object_count": 154,
+          "base_sha256": "b2a45229032cb6fdda035b36b6e007336884314750616fe35513db66a9bb88eb",
+          "label_count": 36
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 432,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "native",
+      "figure": "local_detail",
+      "extent_xy": [
+        353839.62963549304,
+        3456325.870544758,
+        353989.62963549304,
+        3456475.870544758
+      ],
+      "panels": [
+        {
+          "variant": "R0",
+          "source_object_count": 44,
+          "base_sha256": "ec5a641c544f74ae0efbbf63883d00315e53bf20fb0383995fdfdfe9a081cef7",
+          "label_count": 15
+        },
+        {
+          "variant": "R1",
+          "source_object_count": 44,
+          "base_sha256": "ec5a641c544f74ae0efbbf63883d00315e53bf20fb0383995fdfdfe9a081cef7",
+          "label_count": 15
+        },
+        {
+          "variant": "R2",
+          "source_object_count": 44,
+          "base_sha256": "ec5a641c544f74ae0efbbf63883d00315e53bf20fb0383995fdfdfe9a081cef7",
+          "label_count": 15
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 338,
+      "SVG_canvas_clipped_vertex_checks": 30,
+      "SVG_outside_view_clipped_artists": [
+        "panel_R0_edge_R0_native_way_39764384_2",
+        "panel_R0_edge_R0_native_way_39764384_3",
+        "panel_R0_edge_R0_native_way_39764384_4",
+        "panel_R0_edge_R0_native_way_39764384_5",
+        "panel_R0_edge_R0_native_way_39764384_6",
+        "panel_R0_edge_R0_native_way_39764417_22",
+        "panel_R0_edge_R0_native_way_39764417_23",
+        "panel_R0_edge_R0_native_way_39772375_0",
+        "panel_R0_edge_R0_native_way_39838691_10",
+        "panel_R0_edge_R0_native_way_39838691_11",
+        "panel_R0_edge_R0_native_way_39838691_12",
+        "panel_R0_edge_R0_native_way_39838691_13",
+        "panel_R0_edge_R0_native_way_39838691_14",
+        "panel_R0_edge_R0_native_way_39838691_15",
+        "panel_R0_edge_R0_native_way_48872352_1",
+        "panel_R0_edge_R0_native_way_48872352_2",
+        "panel_R0_edge_R0_native_way_48872352_3",
+        "panel_R0_edge_R0_native_way_387381528_4",
+        "panel_R0_edge_R0_native_way_387381528_5",
+        "panel_R0_edge_R0_native_way_387381528_6",
+        "panel_R0_edge_R0_native_way_435833211_7",
+        "panel_R0_edge_R0_native_way_449565666_0",
+        "panel_R0_edge_R0_native_way_451068222_0",
+        "panel_R0_edge_R0_native_way_451068223_0",
+        "panel_R0_edge_R0_native_way_513764727_7",
+        "panel_R0_edge_R0_native_way_513764727_8",
+        "panel_R0_edge_R0_native_way_513764732_1",
+        "panel_R0_edge_R0_native_way_513764755_0",
+        "panel_R0_edge_R0_native_way_564255387_7",
+        "panel_R0_edge_R0_native_way_564255387_8",
+        "panel_R1_edge_R1_native_way_39764384_2",
+        "panel_R1_edge_R1_native_way_39764384_3",
+        "panel_R1_edge_R1_native_way_39764384_4",
+        "panel_R1_edge_R1_native_way_39764384_5",
+        "panel_R1_edge_R1_native_way_39764384_6",
+        "panel_R1_edge_R1_native_way_39764417_22",
+        "panel_R1_edge_R1_native_way_39764417_23",
+        "panel_R1_edge_R1_native_way_39772375_0",
+        "panel_R1_edge_R1_native_way_513764727_7",
+        "panel_R1_edge_R1_native_way_513764727_8",
+        "panel_R1_edge_R1_native_way_513764732_1",
+        "panel_R1_edge_R1_native_way_513764755_0",
+        "panel_R1_edge_R1_native_way_564255387_7",
+        "panel_R1_edge_R1_native_way_564255387_8",
+        "panel_R2_edge_R2_native_way_39764384_2",
+        "panel_R2_edge_R2_native_way_39764384_3",
+        "panel_R2_edge_R2_native_way_39764384_4",
+        "panel_R2_edge_R2_native_way_39764384_5",
+        "panel_R2_edge_R2_native_way_39764384_6",
+        "panel_R2_edge_R2_native_way_39764417_2",
+        "panel_R2_edge_R2_native_way_39764417_3",
+        "panel_R2_edge_R2_native_way_39764417_4",
+        "panel_R2_edge_R2_native_way_39764417_5",
+        "panel_R2_edge_R2_native_way_39764417_22",
+        "panel_R2_edge_R2_native_way_39764417_23",
+        "panel_R2_edge_R2_native_way_39764417_24",
+        "panel_R2_edge_R2_native_way_39764607_3",
+        "panel_R2_edge_R2_native_way_39772375_0",
+        "panel_R2_edge_R2_native_way_39772375_1",
+        "panel_R2_edge_R2_native_way_165953415_0",
+        "panel_R2_edge_R2_native_way_165953416_2",
+        "panel_R2_edge_R2_native_way_165953420_0",
+        "panel_R2_edge_R2_native_way_165953420_1",
+        "panel_R2_edge_R2_native_way_165953420_2",
+        "panel_R2_edge_R2_native_way_165953420_3",
+        "panel_R2_edge_R2_native_way_165953420_4",
+        "panel_R2_edge_R2_native_way_165953420_5",
+        "panel_R2_edge_R2_native_way_165953420_6",
+        "panel_R2_edge_R2_native_way_165953420_7",
+        "panel_R2_edge_R2_native_way_165953420_8",
+        "panel_R2_edge_R2_native_way_165953420_14",
+        "panel_R2_edge_R2_native_way_165953424_0",
+        "panel_R2_edge_R2_native_way_513764727_7",
+        "panel_R2_edge_R2_native_way_513764727_8",
+        "panel_R2_edge_R2_native_way_513764732_1",
+        "panel_R2_edge_R2_native_way_513764755_0",
+        "panel_R2_edge_R2_native_way_564255387_7",
+        "panel_R2_edge_R2_native_way_564255387_8",
+        "panel_R2_edge_R2_native_way_1287048321_0",
+        "panel_R2_edge_R2_native_way_1287048322_0",
+        "panel_R2_edge_R2_native_way_1287048323_0",
+        "panel_R2_edge_R2_native_way_1287048323_1",
+        "panel_R2_edge_R2_native_way_1287048323_2",
+        "panel_R2_edge_R2_native_way_1287048323_3",
+        "panel_R2_edge_R2_native_way_1287048327_0",
+        "panel_R2_edge_R2_native_way_1287048327_1",
+        "panel_R2_edge_R2_native_way_1287048327_2",
+        "panel_R2_edge_R2_native_way_1287048327_3",
+        "panel_R2_edge_R2_side_way_387381528_left_4",
+        "panel_R2_edge_R2_side_way_387381528_right_4",
+        "panel_R2_edge_R2_side_way_387381528_left_5",
+        "panel_R2_edge_R2_side_way_387381528_right_5",
+        "panel_R2_edge_R2_side_way_387381528_left_6",
+        "panel_R2_edge_R2_side_way_387381528_right_6"
+      ]
+    },
+    {
+      "window_id": "tagged",
+      "figure": "context_full",
+      "extent_xy": [
+        351323.31002892845,
+        3454451.3702966054,
+        351643.31002892845,
+        3454771.3702966054
+      ],
+      "panels": [
+        {
+          "variant": null,
+          "source_object_count": 122,
+          "base_sha256": "a670a7d9bfc46d454ca9b0b419bf462107f963697f1697b799eaf7e62ce41b2c",
+          "label_count": 26
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 0,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "tagged",
+      "figure": "R0_context_overlay",
+      "extent_xy": [
+        351323.31002892845,
+        3454451.3702966054,
+        351643.31002892845,
+        3454771.3702966054
+      ],
+      "panels": [
+        {
+          "variant": "R0",
+          "source_object_count": 122,
+          "base_sha256": "a670a7d9bfc46d454ca9b0b419bf462107f963697f1697b799eaf7e62ce41b2c",
+          "label_count": 26
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 75,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "tagged",
+      "figure": "R1_context_overlay",
+      "extent_xy": [
+        351323.31002892845,
+        3454451.3702966054,
+        351643.31002892845,
+        3454771.3702966054
+      ],
+      "panels": [
+        {
+          "variant": "R1",
+          "source_object_count": 122,
+          "base_sha256": "a670a7d9bfc46d454ca9b0b419bf462107f963697f1697b799eaf7e62ce41b2c",
+          "label_count": 26
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 14,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "tagged",
+      "figure": "R2_context_overlay",
+      "extent_xy": [
+        351323.31002892845,
+        3454451.3702966054,
+        351643.31002892845,
+        3454771.3702966054
+      ],
+      "panels": [
+        {
+          "variant": "R2",
+          "source_object_count": 122,
+          "base_sha256": "a670a7d9bfc46d454ca9b0b419bf462107f963697f1697b799eaf7e62ce41b2c",
+          "label_count": 26
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 144,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "tagged",
+      "figure": "R0_R1_R2_same_extent",
+      "extent_xy": [
+        351323.31002892845,
+        3454451.3702966054,
+        351643.31002892845,
+        3454771.3702966054
+      ],
+      "panels": [
+        {
+          "variant": "R0",
+          "source_object_count": 122,
+          "base_sha256": "a670a7d9bfc46d454ca9b0b419bf462107f963697f1697b799eaf7e62ce41b2c",
+          "label_count": 26
+        },
+        {
+          "variant": "R1",
+          "source_object_count": 122,
+          "base_sha256": "a670a7d9bfc46d454ca9b0b419bf462107f963697f1697b799eaf7e62ce41b2c",
+          "label_count": 26
+        },
+        {
+          "variant": "R2",
+          "source_object_count": 122,
+          "base_sha256": "a670a7d9bfc46d454ca9b0b419bf462107f963697f1697b799eaf7e62ce41b2c",
+          "label_count": 26
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 233,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "tagged",
+      "figure": "local_detail",
+      "extent_xy": [
+        351465.754283369,
+        3454557.0968461502,
+        351615.754283369,
+        3454707.0968461502
+      ],
+      "panels": [
+        {
+          "variant": "R0",
+          "source_object_count": 18,
+          "base_sha256": "a0e2dc18270bddd6f7209e31f0faabc924f172824c1b99853c90f6a07f5b7f57",
+          "label_count": 7
+        },
+        {
+          "variant": "R1",
+          "source_object_count": 18,
+          "base_sha256": "a0e2dc18270bddd6f7209e31f0faabc924f172824c1b99853c90f6a07f5b7f57",
+          "label_count": 7
+        },
+        {
+          "variant": "R2",
+          "source_object_count": 18,
+          "base_sha256": "a0e2dc18270bddd6f7209e31f0faabc924f172824c1b99853c90f6a07f5b7f57",
+          "label_count": 7
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 181,
+      "SVG_canvas_clipped_vertex_checks": 16,
+      "SVG_outside_view_clipped_artists": [
+        "panel_R0_edge_R0_native_way_13866212_0",
+        "panel_R0_edge_R0_native_way_13866212_3",
+        "panel_R0_edge_R0_native_way_277743540_0",
+        "panel_R0_edge_R0_native_way_277743540_1",
+        "panel_R0_edge_R0_native_way_277743540_2",
+        "panel_R0_edge_R0_native_way_277743540_3",
+        "panel_R0_edge_R0_native_way_492977116_1",
+        "panel_R0_edge_R0_native_way_492977116_2",
+        "panel_R0_edge_R0_native_way_492977116_3",
+        "panel_R0_edge_R0_native_way_492977116_4",
+        "panel_R0_edge_R0_native_way_492977116_5",
+        "panel_R0_edge_R0_native_way_540244278_0",
+        "panel_R0_edge_R0_native_way_540244278_1",
+        "panel_R0_edge_R0_native_way_646626922_0",
+        "panel_R0_edge_R0_native_way_646635932_0",
+        "panel_R0_edge_R0_native_way_671103347_0",
+        "panel_R0_edge_R0_native_way_671103348_0",
+        "panel_R0_edge_R0_native_way_671103348_1",
+        "panel_R0_edge_R0_native_way_671760924_1",
+        "panel_R0_edge_R0_native_way_679985698_0",
+        "panel_R0_edge_R0_native_way_679985698_1",
+        "panel_R0_edge_R0_native_way_679985698_2",
+        "panel_R0_edge_R0_native_way_679985698_3",
+        "panel_R0_edge_R0_native_way_679985698_4",
+        "panel_R0_edge_R0_native_way_679985698_5",
+        "panel_R0_edge_R0_native_way_679985698_6",
+        "panel_R0_edge_R0_native_way_679985698_7",
+        "panel_R0_edge_R0_native_way_679985698_8",
+        "panel_R0_edge_R0_native_way_679985698_9",
+        "panel_R0_edge_R0_native_way_679985698_10",
+        "panel_R0_edge_R0_native_way_679985698_11",
+        "panel_R0_edge_R0_native_way_679985698_12",
+        "panel_R0_edge_R0_native_way_679985698_13",
+        "panel_R0_edge_R0_native_way_679985698_14",
+        "panel_R0_edge_R0_native_way_679985698_15",
+        "panel_R0_edge_R0_native_way_679985698_16",
+        "panel_R0_edge_R0_native_way_679985698_17",
+        "panel_R0_edge_R0_native_way_679985698_18",
+        "panel_R0_edge_R0_native_way_685337067_0",
+        "panel_R0_edge_R0_native_way_685337067_1",
+        "panel_R0_edge_R0_native_way_1068486065_4",
+        "panel_R2_edge_R2_side_way_13866212_left_2",
+        "panel_R2_edge_R2_side_way_13866212_left_3",
+        "panel_R2_edge_R2_side_way_13866212_right_3",
+        "panel_R2_edge_R2_side_way_540244278_left_0",
+        "panel_R2_edge_R2_side_way_540244278_right_0",
+        "panel_R2_edge_R2_side_way_540244278_left_1",
+        "panel_R2_edge_R2_side_way_540244278_right_1",
+        "panel_R2_edge_R2_side_way_646626922_left_0",
+        "panel_R2_edge_R2_side_way_646626922_right_0",
+        "panel_R2_edge_R2_side_way_685337067_left_0",
+        "panel_R2_edge_R2_side_way_685337067_left_1"
+      ]
+    },
+    {
+      "window_id": "missing",
+      "figure": "context_full",
+      "extent_xy": [
+        350468.41478489165,
+        3453680.7693530084,
+        350788.41478489165,
+        3454000.7693530084
+      ],
+      "panels": [
+        {
+          "variant": null,
+          "source_object_count": 85,
+          "base_sha256": "cbf33c910ec8e526d71c18f134fa73535e0ffffb7b3e80bbe8b879b3dd00cdf9",
+          "label_count": 8
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 0,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "missing",
+      "figure": "R0_context_overlay",
+      "extent_xy": [
+        350468.41478489165,
+        3453680.7693530084,
+        350788.41478489165,
+        3454000.7693530084
+      ],
+      "panels": [
+        {
+          "variant": "R0",
+          "source_object_count": 85,
+          "base_sha256": "cbf33c910ec8e526d71c18f134fa73535e0ffffb7b3e80bbe8b879b3dd00cdf9",
+          "label_count": 8
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 34,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "missing",
+      "figure": "R1_context_overlay",
+      "extent_xy": [
+        350468.41478489165,
+        3453680.7693530084,
+        350788.41478489165,
+        3454000.7693530084
+      ],
+      "panels": [
+        {
+          "variant": "R1",
+          "source_object_count": 85,
+          "base_sha256": "cbf33c910ec8e526d71c18f134fa73535e0ffffb7b3e80bbe8b879b3dd00cdf9",
+          "label_count": 8
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 20,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "missing",
+      "figure": "R2_context_overlay",
+      "extent_xy": [
+        350468.41478489165,
+        3453680.7693530084,
+        350788.41478489165,
+        3454000.7693530084
+      ],
+      "panels": [
+        {
+          "variant": "R2",
+          "source_object_count": 85,
+          "base_sha256": "cbf33c910ec8e526d71c18f134fa73535e0ffffb7b3e80bbe8b879b3dd00cdf9",
+          "label_count": 8
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 43,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "missing",
+      "figure": "R0_R1_R2_same_extent",
+      "extent_xy": [
+        350468.41478489165,
+        3453680.7693530084,
+        350788.41478489165,
+        3454000.7693530084
+      ],
+      "panels": [
+        {
+          "variant": "R0",
+          "source_object_count": 85,
+          "base_sha256": "cbf33c910ec8e526d71c18f134fa73535e0ffffb7b3e80bbe8b879b3dd00cdf9",
+          "label_count": 8
+        },
+        {
+          "variant": "R1",
+          "source_object_count": 85,
+          "base_sha256": "cbf33c910ec8e526d71c18f134fa73535e0ffffb7b3e80bbe8b879b3dd00cdf9",
+          "label_count": 8
+        },
+        {
+          "variant": "R2",
+          "source_object_count": 85,
+          "base_sha256": "cbf33c910ec8e526d71c18f134fa73535e0ffffb7b3e80bbe8b879b3dd00cdf9",
+          "label_count": 8
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 97,
+      "SVG_canvas_clipped_vertex_checks": 0,
+      "SVG_outside_view_clipped_artists": []
+    },
+    {
+      "window_id": "missing",
+      "figure": "local_detail",
+      "extent_xy": [
+        350547.342301626,
+        3453781.693444743,
+        350697.342301626,
+        3453931.693444743
+      ],
+      "panels": [
+        {
+          "variant": "R0",
+          "source_object_count": 19,
+          "base_sha256": "e2def04fa7308f971b80c20430ed64d48c5ce83fc5f0098c93c81e89db997a49",
+          "label_count": 2
+        },
+        {
+          "variant": "R1",
+          "source_object_count": 19,
+          "base_sha256": "e2def04fa7308f971b80c20430ed64d48c5ce83fc5f0098c93c81e89db997a49",
+          "label_count": 2
+        },
+        {
+          "variant": "R2",
+          "source_object_count": 19,
+          "base_sha256": "e2def04fa7308f971b80c20430ed64d48c5ce83fc5f0098c93c81e89db997a49",
+          "label_count": 2
+        }
+      ],
+      "same_base": true,
+      "actual_SVG_frozen_edge_vertex_checks": 41,
+      "SVG_canvas_clipped_vertex_checks": 11,
+      "SVG_outside_view_clipped_artists": [
+        "panel_R0_edge_R0_native_way_1150630714_0",
+        "panel_R0_edge_R0_native_way_1150630714_1",
+        "panel_R0_edge_R0_native_way_1150630714_2",
+        "panel_R0_edge_R0_native_way_1150630715_0",
+        "panel_R0_edge_R0_native_way_1150630715_1",
+        "panel_R0_edge_R0_native_way_1150630715_2",
+        "panel_R0_edge_R0_native_way_1150630715_3",
+        "panel_R0_edge_R0_native_way_1150630715_7",
+        "panel_R0_edge_R0_native_way_1150630715_8",
+        "panel_R0_edge_R0_native_way_1150630715_9",
+        "panel_R0_edge_R0_native_way_1150630716_0",
+        "panel_R0_edge_R0_native_way_1150630716_1",
+        "panel_R0_edge_R0_native_way_1150630716_2",
+        "panel_R0_edge_R0_native_way_1150630716_3",
+        "panel_R0_edge_R0_native_way_1150630716_4",
+        "panel_R0_edge_R0_native_way_1150630716_5",
+        "panel_R0_edge_R0_native_way_1150630718_12",
+        "panel_R0_edge_R0_native_way_1150630718_13",
+        "panel_R1_edge_R1_native_way_1150630714_0",
+        "panel_R1_edge_R1_native_way_1150630714_1",
+        "panel_R1_edge_R1_native_way_1150630714_2",
+        "panel_R1_edge_R1_native_way_1150630715_0",
+        "panel_R1_edge_R1_native_way_1150630715_1",
+        "panel_R1_edge_R1_native_way_1150630715_2",
+        "panel_R1_edge_R1_native_way_1150630715_3",
+        "panel_R1_edge_R1_native_way_1150630715_7",
+        "panel_R1_edge_R1_native_way_1150630715_8",
+        "panel_R1_edge_R1_native_way_1150630715_9",
+        "panel_R1_edge_R1_native_way_1150630716_0",
+        "panel_R1_edge_R1_native_way_1150630716_1",
+        "panel_R1_edge_R1_native_way_1150630716_2",
+        "panel_R1_edge_R1_native_way_1150630716_3",
+        "panel_R1_edge_R1_native_way_1150630716_4",
+        "panel_R1_edge_R1_native_way_1150630716_5",
+        "panel_R1_edge_R1_native_way_1150630718_12",
+        "panel_R1_edge_R1_native_way_1150630718_13",
+        "panel_R2_edge_R2_native_way_1150630714_0",
+        "panel_R2_edge_R2_native_way_1150630714_1",
+        "panel_R2_edge_R2_native_way_1150630714_2",
+        "panel_R2_edge_R2_native_way_1150630715_0",
+        "panel_R2_edge_R2_native_way_1150630715_1",
+        "panel_R2_edge_R2_native_way_1150630715_2",
+        "panel_R2_edge_R2_native_way_1150630715_3",
+        "panel_R2_edge_R2_native_way_1150630715_7",
+        "panel_R2_edge_R2_native_way_1150630715_8",
+        "panel_R2_edge_R2_native_way_1150630715_9",
+        "panel_R2_edge_R2_native_way_1150630716_0",
+        "panel_R2_edge_R2_native_way_1150630716_1",
+        "panel_R2_edge_R2_native_way_1150630716_2",
+        "panel_R2_edge_R2_native_way_1150630716_3",
+        "panel_R2_edge_R2_native_way_1150630716_4",
+        "panel_R2_edge_R2_native_way_1150630716_5",
+        "panel_R2_edge_R2_native_way_1150630718_12",
+        "panel_R2_edge_R2_native_way_1150630718_13",
+        "panel_R2_edge_R2_side_way_232920699_left_7",
+        "panel_R2_edge_R2_side_way_232920699_right_7"
+      ]
+    }
+  ],
+  "failures": []
+}

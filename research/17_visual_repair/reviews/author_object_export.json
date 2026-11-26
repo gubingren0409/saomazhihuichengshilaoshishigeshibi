@@ -1,0 +1,327 @@
+{
+  "identity": "ORIGINAL_FROZEN_OSM_CONTEXT",
+  "OSM_type_id": "way/165953417",
+  "raw_tags": {
+    "natural": "water"
+  },
+  "geometry_type": "Polygon",
+  "source": {
+    "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-huangpu-01\\source.osm.json",
+    "sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+    "timestamp": "2026-11-08T21:21:00Z",
+    "version": "FROZEN_OSM_CLIP",
+    "full_clip_bytes": 6356390
+  },
+  "entered_previous_visual_payload": true,
+  "entered_routing_adapter_context": true,
+  "routing_adapter_import_reason": "SOURCE_OBSTACLE_ADAPTER",
+  "import_lineage_source": {
+    "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\phase1\\data\\sh-huangpu-01\\scene.json",
+    "sha256": "929de03810663e1085c5c96e2b5ed00448f82a3f7cde1ffc7336bc1fb58523aa",
+    "basis": "ACTUAL_SAVED_FOUNDATION_ADAPTER_LINEAGE; NO_ADAPTER_OR_ROUTER_REEXECUTION"
+  },
+  "graph_membership": {
+    "R0": false,
+    "R1": false,
+    "R2": false
+  },
+  "graph_membership_semantics": "SOURCE_ID_REFERENCE_AS_NATIVE_EDGE_OR_DERIVED_PARENT; NOT_RAW_GEOMETRY_ADMISSION",
+  "frozen_graph_reference_roles": {
+    "R0": {
+      "source_geometry_edge_ids": [],
+      "derived_parent_edge_ids": [],
+      "source_node_reference_edge_ids": [],
+      "meaning": "Frozen edge-record filtering only; partial native-edge reference does not certify entire source geometry or physical access."
+    },
+    "R1": {
+      "source_geometry_edge_ids": [],
+      "derived_parent_edge_ids": [],
+      "source_node_reference_edge_ids": [],
+      "meaning": "Frozen edge-record filtering only; partial native-edge reference does not certify entire source geometry or physical access."
+    },
+    "R2": {
+      "source_geometry_edge_ids": [],
+      "derived_parent_edge_ids": [],
+      "source_node_reference_edge_ids": [],
+      "meaning": "Frozen edge-record filtering only; partial native-edge reference does not certify entire source geometry or physical access."
+    }
+  },
+  "routing_reason": "SOURCE_OBSTACLE_ADAPTER",
+  "geometry_basis": "ORIGINAL_SOURCE_POLYGON_WITH_HOLES",
+  "families": [
+    "water"
+  ],
+  "source_id": "way/165953417",
+  "type": "way",
+  "id": 165953417,
+  "source_version": 3,
+  "tags": {
+    "natural": "water"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          354039.92864492733,
+          3456497.0544746197
+        ],
+        [
+          354036.3816909581,
+          3456495.4628226534
+        ],
+        [
+          354035.93844335945,
+          3456493.0409422535
+        ],
+        [
+          354037.9866604024,
+          3456486.8593000793
+        ],
+        [
+          354034.4593081531,
+          3456481.1873996016
+        ],
+        [
+          354027.4945618757,
+          3456476.3281868417
+        ],
+        [
+          354018.3915135801,
+          3456473.9045036635
+        ],
+        [
+          354021.209827779,
+          3456455.937890892
+        ],
+        [
+          354030.29520474945,
+          3456457.086829574
+        ],
+        [
+          354033.3820815999,
+          3456449.5492626345
+        ],
+        [
+          354037.3109118791,
+          3456447.077813423
+        ],
+        [
+          354040.4540798422,
+          3456443.597271028
+        ],
+        [
+          354040.52669542236,
+          3456439.90432822
+        ],
+        [
+          354036.361161892,
+          3456434.241280195
+        ],
+        [
+          354032.23453188734,
+          3456431.3826779276
+        ],
+        [
+          354023.1685114788,
+          3456431.630416552
+        ],
+        [
+          354018.8586820213,
+          3456434.1071571913
+        ],
+        [
+          354017.5125162144,
+          3456438.7047226015
+        ],
+        [
+          354015.06212288584,
+          3456446.111507194
+        ],
+        [
+          354009.71191189444,
+          3456447.072696272
+        ],
+        [
+          354006.52814777783,
+          3456447.626871446
+        ],
+        [
+          354001.79396893654,
+          3456456.5953418612
+        ],
+        [
+          354001.0009204494,
+          3456463.9791323375
+        ],
+        [
+          354006.94437052426,
+          3456477.6222345787
+        ],
+        [
+          354020.8824752858,
+          3456496.886335267
+        ],
+        [
+          354026.4129275655,
+          3456499.9915401777
+        ],
+        [
+          354031.72435726936,
+          3456496.2369988305
+        ],
+        [
+          354033.5484009548,
+          3456498.6175482483
+        ],
+        [
+          354034.87316341547,
+          3456501.4041530397
+        ],
+        [
+          354035.3016773371,
+          3456504.824058329
+        ],
+        [
+          354038.7867315727,
+          3456507.4476497294
+        ],
+        [
+          354043.9166494948,
+          3456509.150384565
+        ],
+        [
+          354047.74101149756,
+          3456508.0773359113
+        ],
+        [
+          354051.29345055256,
+          3456506.6311064768
+        ],
+        [
+          354054.56826020253,
+          3456503.026785323
+        ],
+        [
+          354058.89221412083,
+          3456501.5698562623
+        ],
+        [
+          354061.78004568804,
+          3456498.2259040885
+        ],
+        [
+          354064.7373686397,
+          3456499.204877074
+        ],
+        [
+          354068.6527648366,
+          3456505.381401356
+        ],
+        [
+          354072.7653654981,
+          3456507.231303572
+        ],
+        [
+          354078.8869078142,
+          3456506.248360186
+        ],
+        [
+          354081.3920592967,
+          3456502.7877654345
+        ],
+        [
+          354082.8514577104,
+          3456497.423642796
+        ],
+        [
+          354087.55287536234,
+          3456495.7064922294
+        ],
+        [
+          354088.7833933813,
+          3456492.3855329603
+        ],
+        [
+          354090.4219562264,
+          3456490.3228205484
+        ],
+        [
+          354092.29248588416,
+          3456487.126028567
+        ],
+        [
+          354089.69739561965,
+          3456484.102036222
+        ],
+        [
+          354085.21194957604,
+          3456483.5322905956
+        ],
+        [
+          354079.6010461005,
+          3456484.242061882
+        ],
+        [
+          354077.28971989756,
+          3456483.1321690306
+        ],
+        [
+          354075.20313175756,
+          3456480.3672126876
+        ],
+        [
+          354075.0370290454,
+          3456477.3206212386
+        ],
+        [
+          354070.78568818374,
+          3456475.084600769
+        ],
+        [
+          354065.9358397025,
+          3456475.029914498
+        ],
+        [
+          354064.66766442463,
+          3456476.3224976426
+        ],
+        [
+          354064.0928455727,
+          3456480.8982705506
+        ],
+        [
+          354065.44682285935,
+          3456486.4783704868
+        ],
+        [
+          354062.73887453775,
+          3456489.054830603
+        ],
+        [
+          354041.1877606822,
+          3456496.4826619653
+        ],
+        [
+          354039.92864492733,
+          3456497.0544746197
+        ]
+      ]
+    ]
+  },
+  "kind": [
+    "water"
+  ],
+  "source_geometry_warning": null,
+  "source_file": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PED_AREA_CONNECTIVITY_R1\\data\\scenes\\sh-huangpu-01\\source.osm.json",
+  "source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+  "source_timestamp": "2026-11-08T21:21:00Z",
+  "source_crs": "EPSG:4326",
+  "working_crs": "EPSG:32651",
+  "imported_in_previous_payload": true,
+  "imported_in_routing_context": true,
+  "import_reason": "SOURCE_OBSTACLE_ADAPTER",
+  "previously_rendered_policy": "CARRIED_DEFAULT_ENABLED_BUT_GENERIC_CONTEXT_STYLE",
+  "native_filter_status": null,
+  "source_id_membership_is_not_side_association": true
+}
