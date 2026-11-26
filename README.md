@@ -17,3 +17,12 @@ python -X utf8 -B -m unittest discover -s tests -v
 ```
 
 The development probe uses an explicitly supplied, SHA-checked historical archive. It does not download maps, fit a model, generate entrances, change constraints or consult blind data. Actual local commands and private output manifests are delivered in the round review packet.
+
+## 渐进层次与当前公开范围
+
+- [1. 早期问题与跨域证据边界](docs/progress/01_historical_scope.md)
+- [2. 可步行空间机制逐步改进](docs/progress/02_walkable_space.md)
+- [3. 探索、系统集成与材料交接](docs/progress/03_exploration_and_handoff.md)
+- [4. 固定审核证据SHA索引](docs/progress/04_frozen_evidence_index.md)
+
+提交记录区分工程基础与后补历史文档；这些新提交不是历史实验发生时的原始commit。全部历史算法尚未迁入，原始数据/私有包和凭据不公开。未代选新的开源许可证。
