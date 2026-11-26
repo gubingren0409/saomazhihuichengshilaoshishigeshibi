@@ -1,0 +1,742 @@
+{
+  "contract": "R3_IR_COMPATIBLE_R4_GRAPH_CAPABILITY",
+  "shared_auxiliary_osm_input": false,
+  "graph_variants": "NOT_EXECUTABLE_MISSING_INPUT",
+  "shared_diagnostic": "RECOMPUTED_WGS84",
+  "core_protocol_sha256": "8056bde37509bd26f2e7c779c04c1c4e8554a9f9613ee5b832b52a24fe145a17",
+  "new_geoapify_requests": 0,
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "same_frozen_task": true,
+      "comparison": "COMMON_INPUT_READ_ONLY",
+      "hosted_baseline": "OBSERVED_FROZEN_PROVIDER_RESPONSE",
+      "osm_augmented": "RUNS_EXPERIMENT_JSON",
+      "local": {
+        "provider": "LOCAL_OSM",
+        "shared_request_origin": [
+          121.4671613,
+          31.2309408
+        ],
+        "shared_request_target": [
+          121.4712158,
+          31.2299607
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "osm:node/6897141353",
+          "grade": "OSM_TAGGED",
+          "coordinate": [
+            121.4712158,
+            31.2299607
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "NO_ROUTE",
+        "route_profile_observed": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "result_source": "LOCAL_OSM",
+        "route_end_role": "UNKNOWN",
+        "provider_reported_m": null,
+        "provider_snap": "OBSERVED",
+        "provider_native_features": {
+          "buildings": "OBSERVED_CLIP",
+          "pedestrian": "OBSERVED_CLIP",
+          "open_spaces": "OBSERVED_CLIP"
+        },
+        "provider_native_topology": "NATIVE_MEMBERSHIP_AND_FROZEN_PROFILE",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": false,
+        "route_length_m": null,
+        "start_offset_m": null,
+        "target_gap_m": null,
+        "max_component_gap_m": null,
+        "geometry_end": null
+      },
+      "hosted": {
+        "provider": "GEOAPIFY",
+        "shared_request_origin": [
+          121.4671613,
+          31.2309408
+        ],
+        "shared_request_target": [
+          121.4712158,
+          31.2299607
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "osm:node/6897141353",
+          "grade": "OSM_TAGGED",
+          "coordinate": [
+            121.4712158,
+            31.2299607
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "LIVE_ROUTE_RETURNED",
+        "route_profile_observed": "mode=walk;type=balanced",
+        "result_source": "GEOAPIFY",
+        "route_end_role": "RETURNED_ROUTE_VERTEX",
+        "provider_reported_m": 964,
+        "provider_snap": "UNKNOWN",
+        "provider_native_features": {
+          "buildings": "UNKNOWN",
+          "pedestrian": "UNKNOWN",
+          "open_spaces": "UNKNOWN"
+        },
+        "provider_native_topology": "UNKNOWN",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": true,
+        "route_length_m": 961.8193148263103,
+        "start_offset_m": 0.03617523242292412,
+        "target_gap_m": 54.98581971942229,
+        "max_component_gap_m": 0.0,
+        "geometry_end": [
+          121.471329,
+          31.230447
+        ]
+      }
+    },
+    {
+      "scene_id": "sh-wukang",
+      "same_frozen_task": true,
+      "comparison": "COMMON_INPUT_READ_ONLY",
+      "hosted_baseline": "OBSERVED_FROZEN_PROVIDER_RESPONSE",
+      "osm_augmented": "RUNS_EXPERIMENT_JSON",
+      "local": {
+        "provider": "LOCAL_OSM",
+        "shared_request_origin": [
+          121.4344902,
+          31.2085978
+        ],
+        "shared_request_target": [
+          121.43341330000001,
+          31.20601750000001
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "sh-wukang:request-reference",
+          "grade": "PROXY_OR_UNCERTAIN",
+          "coordinate": [
+            121.43341330000001,
+            31.20601750000001
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "PASS",
+        "route_profile_observed": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "result_source": "LOCAL_OSM",
+        "route_end_role": "RETURNED_ROUTE_VERTEX",
+        "provider_reported_m": 326.69306963059694,
+        "provider_snap": "OBSERVED",
+        "provider_native_features": {
+          "buildings": "OBSERVED_CLIP",
+          "pedestrian": "OBSERVED_CLIP",
+          "open_spaces": "OBSERVED_CLIP"
+        },
+        "provider_native_topology": "NATIVE_MEMBERSHIP_AND_FROZEN_PROFILE",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": true,
+        "route_length_m": 326.69306963059694,
+        "start_offset_m": 0.0,
+        "target_gap_m": 6.711114790620279,
+        "max_component_gap_m": 0.0,
+        "geometry_end": [
+          121.43334631611643,
+          31.206036182447612
+        ]
+      },
+      "hosted": {
+        "provider": "GEOAPIFY",
+        "shared_request_origin": [
+          121.4344902,
+          31.2085978
+        ],
+        "shared_request_target": [
+          121.43341330000001,
+          31.20601750000001
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "sh-wukang:request-reference",
+          "grade": "PROXY_OR_UNCERTAIN",
+          "coordinate": [
+            121.43341330000001,
+            31.20601750000001
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "LIVE_ROUTE_RETURNED",
+        "route_profile_observed": "mode=walk;type=balanced",
+        "result_source": "GEOAPIFY",
+        "route_end_role": "RETURNED_ROUTE_VERTEX",
+        "provider_reported_m": 327,
+        "provider_snap": "UNKNOWN",
+        "provider_native_features": {
+          "buildings": "UNKNOWN",
+          "pedestrian": "UNKNOWN",
+          "open_spaces": "UNKNOWN"
+        },
+        "provider_native_topology": "UNKNOWN",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": true,
+        "route_length_m": 326.7249418387878,
+        "start_offset_m": 0.029239775918454083,
+        "target_gap_m": 6.733586286040405,
+        "max_component_gap_m": 0.0,
+        "geometry_end": [
+          121.433346,
+          31.206036
+        ]
+      }
+    },
+    {
+      "scene_id": "sh-tower",
+      "same_frozen_task": true,
+      "comparison": "COMMON_INPUT_READ_ONLY",
+      "hosted_baseline": "OBSERVED_FROZEN_PROVIDER_RESPONSE",
+      "osm_augmented": "RUNS_EXPERIMENT_JSON",
+      "local": {
+        "provider": "LOCAL_OSM",
+        "shared_request_origin": [
+          121.4989962,
+          31.2367947
+        ],
+        "shared_request_target": [
+          121.50072749999998,
+          31.235499299999994
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "sh-tower:request-reference",
+          "grade": "PROXY_OR_UNCERTAIN",
+          "coordinate": [
+            121.50072749999998,
+            31.235499299999994
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "PASS",
+        "route_profile_observed": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "result_source": "LOCAL_OSM",
+        "route_end_role": "RETURNED_ROUTE_VERTEX",
+        "provider_reported_m": 256.45502273622617,
+        "provider_snap": "OBSERVED",
+        "provider_native_features": {
+          "buildings": "OBSERVED_CLIP",
+          "pedestrian": "OBSERVED_CLIP",
+          "open_spaces": "OBSERVED_CLIP"
+        },
+        "provider_native_topology": "NATIVE_MEMBERSHIP_AND_FROZEN_PROFILE",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": true,
+        "route_length_m": 256.45502273622617,
+        "start_offset_m": 0.0,
+        "target_gap_m": 22.280971814572304,
+        "max_component_gap_m": 0.0,
+        "geometry_end": [
+          121.50050240685164,
+          31.235444748923324
+        ]
+      },
+      "hosted": {
+        "provider": "GEOAPIFY",
+        "shared_request_origin": [
+          121.4989962,
+          31.2367947
+        ],
+        "shared_request_target": [
+          121.50072749999998,
+          31.235499299999994
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "sh-tower:request-reference",
+          "grade": "PROXY_OR_UNCERTAIN",
+          "coordinate": [
+            121.50072749999998,
+            31.235499299999994
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "LIVE_ROUTE_RETURNED",
+        "route_profile_observed": "mode=walk;type=balanced",
+        "result_source": "GEOAPIFY",
+        "route_end_role": "RETURNED_ROUTE_VERTEX",
+        "provider_reported_m": 269,
+        "provider_snap": "UNKNOWN",
+        "provider_native_features": {
+          "buildings": "UNKNOWN",
+          "pedestrian": "UNKNOWN",
+          "open_spaces": "UNKNOWN"
+        },
+        "provider_native_topology": "UNKNOWN",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": true,
+        "route_length_m": 270.58383486670925,
+        "start_offset_m": 0.038332757250980495,
+        "target_gap_m": 22.24932954653573,
+        "max_component_gap_m": 0.0,
+        "geometry_end": [
+          121.500503,
+          31.235444
+        ]
+      }
+    },
+    {
+      "scene_id": "sh-newworld",
+      "same_frozen_task": true,
+      "comparison": "COMMON_INPUT_READ_ONLY",
+      "hosted_baseline": "OBSERVED_FROZEN_PROVIDER_RESPONSE",
+      "osm_augmented": "RUNS_EXPERIMENT_JSON",
+      "local": {
+        "provider": "LOCAL_OSM",
+        "shared_request_origin": [
+          121.4650294,
+          31.2387326
+        ],
+        "shared_request_target": [
+          121.46840570000002,
+          31.237151999999995
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "sh-newworld:request-reference",
+          "grade": "PROXY_OR_UNCERTAIN",
+          "coordinate": [
+            121.46840570000002,
+            31.237151999999995
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "NO_ROUTE",
+        "route_profile_observed": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "result_source": "LOCAL_OSM",
+        "route_end_role": "UNKNOWN",
+        "provider_reported_m": null,
+        "provider_snap": "OBSERVED",
+        "provider_native_features": {
+          "buildings": "OBSERVED_CLIP",
+          "pedestrian": "OBSERVED_CLIP",
+          "open_spaces": "OBSERVED_CLIP"
+        },
+        "provider_native_topology": "NATIVE_MEMBERSHIP_AND_FROZEN_PROFILE",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": false,
+        "route_length_m": null,
+        "start_offset_m": null,
+        "target_gap_m": null,
+        "max_component_gap_m": null,
+        "geometry_end": null
+      },
+      "hosted": {
+        "provider": "GEOAPIFY",
+        "shared_request_origin": [
+          121.4650294,
+          31.2387326
+        ],
+        "shared_request_target": [
+          121.46840570000002,
+          31.237151999999995
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "sh-newworld:request-reference",
+          "grade": "PROXY_OR_UNCERTAIN",
+          "coordinate": [
+            121.46840570000002,
+            31.237151999999995
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "LIVE_ROUTE_RETURNED",
+        "route_profile_observed": "mode=walk;type=balanced",
+        "result_source": "GEOAPIFY",
+        "route_end_role": "RETURNED_ROUTE_VERTEX",
+        "provider_reported_m": 511,
+        "provider_snap": "UNKNOWN",
+        "provider_native_features": {
+          "buildings": "UNKNOWN",
+          "pedestrian": "UNKNOWN",
+          "open_spaces": "UNKNOWN"
+        },
+        "provider_native_topology": "UNKNOWN",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": true,
+        "route_length_m": 510.69598081965347,
+        "start_offset_m": 0.058471827802214084,
+        "target_gap_m": 8.423144270577211,
+        "max_component_gap_m": 0.0,
+        "geometry_end": [
+          121.46835,
+          31.237211
+        ]
+      }
+    },
+    {
+      "scene_id": "sh-library",
+      "same_frozen_task": true,
+      "comparison": "COMMON_INPUT_READ_ONLY",
+      "hosted_baseline": "OBSERVED_FROZEN_PROVIDER_RESPONSE",
+      "osm_augmented": "RUNS_EXPERIMENT_JSON",
+      "local": {
+        "provider": "LOCAL_OSM",
+        "shared_request_origin": [
+          121.4378012,
+          31.2078318
+        ],
+        "shared_request_target": [
+          121.4402357,
+          31.2096329
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "osm:node/11300000483",
+          "grade": "OSM_TAGGED",
+          "coordinate": [
+            121.4402357,
+            31.2096329
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "PASS",
+        "route_profile_observed": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "result_source": "LOCAL_OSM",
+        "route_end_role": "RETURNED_ROUTE_VERTEX",
+        "provider_reported_m": 478.82665233627716,
+        "provider_snap": "OBSERVED",
+        "provider_native_features": {
+          "buildings": "OBSERVED_CLIP",
+          "pedestrian": "OBSERVED_CLIP",
+          "open_spaces": "OBSERVED_CLIP"
+        },
+        "provider_native_topology": "NATIVE_MEMBERSHIP_AND_FROZEN_PROFILE",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": true,
+        "route_length_m": 478.82665233627716,
+        "start_offset_m": 0.0,
+        "target_gap_m": 0.0,
+        "max_component_gap_m": 0.0,
+        "geometry_end": [
+          121.4402357,
+          31.2096329
+        ]
+      },
+      "hosted": {
+        "provider": "GEOAPIFY",
+        "shared_request_origin": [
+          121.4378012,
+          31.2078318
+        ],
+        "shared_request_target": [
+          121.4402357,
+          31.2096329
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "osm:node/11300000483",
+          "grade": "OSM_TAGGED",
+          "coordinate": [
+            121.4402357,
+            31.2096329
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "LIVE_ROUTE_RETURNED",
+        "route_profile_observed": "mode=walk;type=balanced",
+        "result_source": "GEOAPIFY",
+        "route_end_role": "RETURNED_ROUTE_VERTEX",
+        "provider_reported_m": 497,
+        "provider_snap": "UNKNOWN",
+        "provider_native_features": {
+          "buildings": "UNKNOWN",
+          "pedestrian": "UNKNOWN",
+          "open_spaces": "UNKNOWN"
+        },
+        "provider_native_topology": "UNKNOWN",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": true,
+        "route_length_m": 496.046835891268,
+        "start_offset_m": 0.029239873501541336,
+        "target_gap_m": 0.03066309722912139,
+        "max_component_gap_m": 0.0,
+        "geometry_end": [
+          121.440236,
+          31.209633
+        ]
+      }
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "same_frozen_task": true,
+      "comparison": "COMMON_INPUT_READ_ONLY",
+      "hosted_baseline": "OBSERVED_FROZEN_PROVIDER_RESPONSE",
+      "osm_augmented": "RUNS_EXPERIMENT_JSON",
+      "local": {
+        "provider": "LOCAL_OSM",
+        "shared_request_origin": [
+          121.4449644,
+          31.2268704
+        ],
+        "shared_request_target": [
+          121.447139,
+          31.226187800000005
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "sh-exhibition:request-reference",
+          "grade": "PROXY_OR_UNCERTAIN",
+          "coordinate": [
+            121.447139,
+            31.226187800000005
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "PASS",
+        "route_profile_observed": "OSM_PEDESTRIAN_CONSERVATIVE_V1",
+        "result_source": "LOCAL_OSM",
+        "route_end_role": "RETURNED_ROUTE_VERTEX",
+        "provider_reported_m": 508.05983828667433,
+        "provider_snap": "OBSERVED",
+        "provider_native_features": {
+          "buildings": "OBSERVED_CLIP",
+          "pedestrian": "OBSERVED_CLIP",
+          "open_spaces": "OBSERVED_CLIP"
+        },
+        "provider_native_topology": "NATIVE_MEMBERSHIP_AND_FROZEN_PROFILE",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": true,
+        "route_length_m": 508.05983828667433,
+        "start_offset_m": 0.0,
+        "target_gap_m": 19.736346184586882,
+        "max_component_gap_m": 0.0,
+        "geometry_end": [
+          121.4469324,
+          31.2262007
+        ]
+      },
+      "hosted": {
+        "provider": "GEOAPIFY",
+        "shared_request_origin": [
+          121.4449644,
+          31.2268704
+        ],
+        "shared_request_target": [
+          121.447139,
+          31.226187800000005
+        ],
+        "shared_reference": {
+          "source": "FROZEN_SHARED_TASK",
+          "provider_native_identity": "UNKNOWN",
+          "id": "sh-exhibition:request-reference",
+          "grade": "PROXY_OR_UNCERTAIN",
+          "coordinate": [
+            121.447139,
+            31.226187800000005
+          ],
+          "physical_validation": "UNKNOWN"
+        },
+        "route_state": "LIVE_ROUTE_RETURNED",
+        "route_profile_observed": "mode=walk;type=balanced",
+        "result_source": "GEOAPIFY",
+        "route_end_role": "RETURNED_ROUTE_VERTEX",
+        "provider_reported_m": 296,
+        "provider_snap": "UNKNOWN",
+        "provider_native_features": {
+          "buildings": "UNKNOWN",
+          "pedestrian": "UNKNOWN",
+          "open_spaces": "UNKNOWN"
+        },
+        "provider_native_topology": "UNKNOWN",
+        "shared_core_gate": {
+          "status": "NOT_EXECUTABLE_MISSING_INPUT",
+          "missing": [
+            "open_space_geometry",
+            "native_pedestrian_geometry",
+            "native_node_topology",
+            "obstacle_geometry"
+          ]
+        },
+        "shared_declared_fields": {
+          "open_space_geometry": "UNKNOWN",
+          "native_pedestrian_geometry": "UNKNOWN",
+          "native_node_topology": "UNKNOWN",
+          "obstacle_geometry": "UNKNOWN"
+        },
+        "line_available": true,
+        "route_length_m": 295.3810257333531,
+        "start_offset_m": 0.058474869846186786,
+        "target_gap_m": 19.776791019092354,
+        "max_component_gap_m": 0.0,
+        "geometry_end": [
+          121.446932,
+          31.226201
+        ]
+      }
+    }
+  ]
+}

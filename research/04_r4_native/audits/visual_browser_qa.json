@@ -1,0 +1,250 @@
+{
+  "payload": {
+    "scenes": 6,
+    "projection": "EPSG:32651",
+    "data_bytes": 1327688,
+    "feature_counts": {
+      "sh-huangpu-01": {
+        "detail": {
+          "crossing": 4,
+          "walk": 40,
+          "building": 10,
+          "fence": 3,
+          "grass": 14,
+          "plaza": 1,
+          "contact": 4,
+          "candidate": 37,
+          "entry": 2,
+          "end": 3,
+          "route": 2,
+          "network": 201,
+          "obstacle": 16,
+          "target_building": 1
+        },
+        "context": {
+          "crossing": 22,
+          "building": 53,
+          "walk": 103,
+          "fence": 6,
+          "grass": 24,
+          "plaza": 1,
+          "contact": 4,
+          "candidate": 37,
+          "entry": 2,
+          "origin": 1,
+          "end": 3,
+          "route": 2,
+          "network": 227,
+          "obstacle": 17,
+          "target_building": 1
+        }
+      },
+      "sh-wukang": {
+        "detail": {
+          "walk": 10,
+          "building": 43,
+          "end": 2,
+          "route": 2,
+          "network": 45,
+          "obstacle": 31,
+          "target_building": 1,
+          "proxy": 1
+        },
+        "context": {
+          "walk": 14,
+          "building": 195,
+          "origin": 1,
+          "end": 2,
+          "route": 2,
+          "network": 46,
+          "obstacle": 31,
+          "target_building": 1,
+          "proxy": 1
+        }
+      },
+      "sh-tower": {
+        "detail": {
+          "crossing": 5,
+          "building": 7,
+          "walk": 9,
+          "grass": 2,
+          "plaza": 1,
+          "contact": 3,
+          "candidate": 15,
+          "baseline_evidence": 6,
+          "end": 2,
+          "route": 2,
+          "network": 91,
+          "obstacle": 7,
+          "target_building": 1,
+          "proxy": 1
+        },
+        "context": {
+          "crossing": 31,
+          "building": 16,
+          "walk": 26,
+          "grass": 8,
+          "plaza": 1,
+          "contact": 3,
+          "candidate": 15,
+          "baseline_evidence": 6,
+          "origin": 1,
+          "end": 2,
+          "route": 2,
+          "network": 91,
+          "obstacle": 11,
+          "target_building": 1,
+          "proxy": 1
+        }
+      },
+      "sh-newworld": {
+        "detail": {
+          "crossing": 12,
+          "walk": 67,
+          "building": 70,
+          "grass": 4,
+          "fence": 1,
+          "plaza": 3,
+          "contact": 28,
+          "candidate": 129,
+          "baseline_evidence": 14,
+          "rejected": 8,
+          "end": 2,
+          "route": 1,
+          "network": 242,
+          "obstacle": 58,
+          "target_building": 1,
+          "proxy": 1
+        },
+        "context": {
+          "crossing": 30,
+          "walk": 118,
+          "building": 405,
+          "grass": 6,
+          "fence": 1,
+          "plaza": 3,
+          "contact": 28,
+          "candidate": 129,
+          "baseline_evidence": 14,
+          "rejected": 8,
+          "origin": 1,
+          "end": 2,
+          "route": 1,
+          "network": 317,
+          "obstacle": 78,
+          "target_building": 1,
+          "proxy": 1
+        }
+      },
+      "sh-library": {
+        "detail": {
+          "building": 56,
+          "walk": 12,
+          "fence": 1,
+          "grass": 2,
+          "route": 5,
+          "end": 5,
+          "plaza": 1,
+          "contact": 3,
+          "candidate": 10,
+          "baseline_evidence": 5,
+          "entry": 1,
+          "network": 44,
+          "obstacle": 21,
+          "target_building": 1
+        },
+        "context": {
+          "walk": 20,
+          "building": 175,
+          "fence": 1,
+          "grass": 3,
+          "route": 5,
+          "end": 5,
+          "plaza": 1,
+          "contact": 3,
+          "candidate": 10,
+          "baseline_evidence": 5,
+          "entry": 1,
+          "origin": 1,
+          "network": 59,
+          "obstacle": 26,
+          "target_building": 1
+        }
+      },
+      "sh-exhibition": {
+        "detail": {
+          "walk": 6,
+          "building": 34,
+          "water": 1,
+          "end": 2,
+          "route": 2,
+          "network": 25,
+          "obstacle": 31,
+          "target_building": 1,
+          "proxy": 1
+        },
+        "context": {
+          "crossing": 5,
+          "walk": 20,
+          "building": 78,
+          "water": 1,
+          "origin": 1,
+          "end": 2,
+          "route": 2,
+          "network": 37,
+          "obstacle": 36,
+          "target_building": 1,
+          "proxy": 1
+        }
+      }
+    }
+  },
+  "browser": {
+    "status": "PASS",
+    "scenes_and_variants": {
+      "sh-huangpu-01": {
+        "B0": 338,
+        "B1": 338,
+        "B2": 338,
+        "B3": 338
+      },
+      "sh-wukang": {
+        "B0": 135,
+        "B1": 135,
+        "B2": 135,
+        "B3": 135
+      },
+      "sh-tower": {
+        "B0": 152,
+        "B1": 146,
+        "B2": 152,
+        "B3": 152
+      },
+      "sh-newworld": {
+        "B0": 641,
+        "B1": 621,
+        "B2": 641,
+        "B3": 641
+      },
+      "sh-library": {
+        "B0": 163,
+        "B1": 158,
+        "B2": 163,
+        "B3": 161
+      },
+      "sh-exhibition": {
+        "B0": 103,
+        "B1": 103,
+        "B2": 103,
+        "B3": 103
+      }
+    },
+    "external_requests": 0,
+    "svg_download": "PASS_MUSEUM_B1_AND_NEW_WORLD_B2",
+    "layer_toggle": "PASS",
+    "source_evidence_status_layers": "PASS_BASELINE_PRESENT_AND_REJECTED_SEPARATE",
+    "keyboard_feature_inspection": "PASS",
+    "browser": "Microsoft Edge",
+    "identity": "AUTHOR_BROWSER_TECHNICAL_QA_NO_HUMAN_OR_FIELD_CHECK"
+  }
+}

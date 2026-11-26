@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R4 开放空间边缘接入 · 证据地图</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="scene_data.js"></script>
+<script defer src="review.js"></script>
+</head>
+<body>
+<header class="masthead">
+<div class="wrap">
+<p class="eyebrow">OSM–GEOAPIFY R4 / 证据地图</p>
+<h1>开放空间边缘接入</h1>
+<p class="lead">从外围步行网络到已登记入口，逐段检查几何、原生对象和实际连通性。</p>
+<div class="header-tags"><span>离线审查</span><span>固定 6 场景</span><span>人工验收待填写</span></div>
+</div>
+</header>
+<main class="wrap">
+<section class="overview" aria-labelledby="scope-title">
+<div><p class="eyebrow">共同任务</p><h2 id="scope-title">冻结位置，同图比较</h2><p>先看上海博物馆南侧广场，再看 R3 的五栋建筑。地图中的原始入口、代理点、路线终点和边界候选使用不同符号。</p></div>
+<div class="overview-note"><b>读图口径</b><p>广场填色表示地图记录的面范围。候选接点、已接纳边和失败原因分别显示。托管折线沿用历史响应，服务内部图保持未知。</p></div>
+</section>
+<section class="workbench" aria-labelledby="scene-heading">
+<div class="section-top">
+<div><p class="eyebrow">01 / 场景与机制</p><h2 id="scene-heading">上海博物馆人民广场馆</h2><p id="scene-meta"></p></div>
+<label class="scene-selector">固定场景 <select id="scene"></select></label>
+</div>
+<div class="controls">
+<fieldset id="variants"><legend>实验变体</legend>
+<label><input type="radio" name="variant" value="B0" checked><span><b>B0</b> 原始网络</span></label>
+<label><input type="radio" name="variant" value="B1"><span><b>B1</b> 边缘连接</span></label>
+<label><input type="radio" name="variant" value="B2"><span><b>B2</b> 原生内部线</span></label>
+<label><input type="radio" name="variant" value="B3"><span><b>B3</b> 已登记入口联合</span></label>
+</fieldset>
+<fieldset id="views"><legend>视野</legend>
+<label><input type="radio" name="view" value="detail" checked><span>开放空间细节</span></label>
+<label><input type="radio" name="view" value="context"><span>完整路线范围</span></label>
+</fieldset>
+</div>
+<div class="workspace">
+<div class="map-column">
+<div class="map-toolbar"><span id="mode-caption" aria-live="polite"></span><button type="button" id="export">导出当前 SVG</button></div>
+<div class="map" id="map" aria-label="可交互证据地图"></div>
+<div class="legend" id="legend" aria-label="地图图例"></div>
+</div>
+<aside class="sidebar">
+<fieldset id="layers"><legend>显示图层</legend><div id="layer-list"></div></fieldset>
+<section id="inspector" aria-labelledby="inspect-heading"><p class="eyebrow">对象证据</p><h3 id="inspect-heading">点击边、接点或入口</h3><p>可用 Tab 定位，Enter 打开详情。证据条目保留原生 ID、标签、距离和判定。</p></section>
+</aside>
+</div>
+</section>
+<section class="result-section" aria-labelledby="results-heading">
+<div class="section-top"><div><p class="eyebrow">02 / 读数与失败</p><h2 id="results-heading">当前变体路线与入口</h2></div><span class="badge" id="variant-status"></span></div>
+<div id="variant-metrics" class="stats"></div>
+<div id="route-table" class="scroll" aria-live="polite"></div>
+<h3>冻结 B0 回放与历史服务</h3>
+<div id="frozen-table" class="scroll"></div>
+<h3>已登记入口身份</h3>
+<div id="entry-table" class="scroll"></div>
+<h3>边界候选和新增边证据</h3>
+<div id="edge-table" class="scroll"></div>
+</section>
+<section class="result-section" aria-labelledby="matrix-heading">
+<p class="eyebrow">03 / 复核材料</p><h2 id="matrix-heading">跨场景与静态图件</h2>
+<div id="matrix" class="scroll"></div>
+<div class="downloads">
+<a href="figures/01_museum_overview.svg">博物馆广场总览</a>
+<a href="figures/02_museum_boundary.svg">B1 边界接入</a>
+<a href="figures/03_museum_internal.svg">B2 原生内部线</a>
+<a href="figures/04_museum_entrances.svg">B3 入口身份</a>
+<a href="figures/05_museum_route_comparison.svg">博物馆路线对照</a>
+<a href="figures/06_library_topology.svg">图书馆拓扑</a>
+<a href="figures/07_failed_boundary.svg">边界失败图</a>
+<a href="figures/08_cross_scene.svg">跨场景概览</a>
+<a href="figures/09_connectivity_and_lengths.svg">连通性和长度</a>
+<a href="figures/11_newworld_layer_refusal.svg">新世界城跨层拒绝</a>
+</div>
+<p>原图和地图记录的许可署名随图保留。图件由冻结 OSM 记录、留存托管响应和 R4 机器输出生成。</p>
+</section>
+</main>
+<footer><div class="wrap">© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> · 托管路线由 <a href="https://www.geoapify.com/">Geoapify</a> 提供 · 人工验收和现场核验分别记录</div></footer>
+</body>
+</html>

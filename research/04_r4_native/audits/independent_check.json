@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "scope": "INDEPENDENT_RAW_GRAPH_GEODESIC_PROVENANCE",
+  "scenes": {
+    "sh-huangpu-01": {
+      "b0_status": "NO_ROUTE",
+      "nodes": 6780,
+      "directed_edges": 14412,
+      "weak_components": 133,
+      "largest_weak_component": 5509,
+      "eligible": [
+        "node/6897141353"
+      ],
+      "hosted_length_m": 961.8193148263103,
+      "hosted_gap_m": 54.98581971942229
+    },
+    "sh-wukang": {
+      "b0_status": "PASS",
+      "nodes": 2613,
+      "directed_edges": 5316,
+      "weak_components": 127,
+      "largest_weak_component": 1107,
+      "eligible": [],
+      "hosted_length_m": 326.7249418387878,
+      "hosted_gap_m": 6.733586286040405
+    },
+    "sh-tower": {
+      "b0_status": "PASS",
+      "nodes": 8414,
+      "directed_edges": 17754,
+      "weak_components": 159,
+      "largest_weak_component": 4330,
+      "eligible": [],
+      "hosted_length_m": 270.58383486670925,
+      "hosted_gap_m": 22.24932954653573
+    },
+    "sh-newworld": {
+      "b0_status": "NO_ROUTE",
+      "nodes": 5621,
+      "directed_edges": 11846,
+      "weak_components": 111,
+      "largest_weak_component": 4741,
+      "eligible": [],
+      "hosted_length_m": 510.69598081965347,
+      "hosted_gap_m": 8.423144270577211
+    },
+    "sh-library": {
+      "b0_status": "PASS",
+      "nodes": 3191,
+      "directed_edges": 6546,
+      "weak_components": 150,
+      "largest_weak_component": 1638,
+      "eligible": [
+        "node/11300000483"
+      ],
+      "hosted_length_m": 496.046835891268,
+      "hosted_gap_m": 0.03066309722912139
+    },
+    "sh-exhibition": {
+      "b0_status": "PASS",
+      "nodes": 3448,
+      "directed_edges": 7002,
+      "weak_components": 152,
+      "largest_weak_component": 950,
+      "eligible": [],
+      "hosted_length_m": 295.3810257333531,
+      "hosted_gap_m": 19.776791019092354
+    }
+  },
+  "sources": {
+    "data/manifest.csv": 31,
+    "audits/ir_evidence.csv": 29
+  },
+  "strict_pass": {
+    "B0": 1,
+    "B1": 1,
+    "B2": 1
+  },
+  "edge_records": {
+    "ALREADY_IN_B0": 25,
+    "REJECTED": 8
+  },
+  "museum": {
+    "focus_id": "relation/2385771",
+    "projected_area_m2": 5880.020892024011,
+    "inner_grass_way_ids": [
+      178721634,
+      178721647
+    ],
+    "reachable_native_contacts": [
+      1890745480,
+      1890935415,
+      1890935454
+    ],
+    "explicitly_tagged_interior_segments": 0,
+    "boundary_collinear_segments": 0,
+    "local_gap_m": 55.02217444013307,
+    "hosted_gap_m": 54.98581971942229
+  },
+  "library_obstacles": {
+    "nearby_valid_raw_obstacle_objects": 47,
+    "hits": []
+  },
+  "field_checks": 0,
+  "human_visual_status": "PENDING_USER_REVIEW"
+}

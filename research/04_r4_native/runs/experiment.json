@@ -1,0 +1,1952 @@
+{
+  "protocol": "runs/protocol_core.json",
+  "scenes": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "label": "上海博物馆人民广场馆",
+      "focus_space_ids": [
+        "relation/2385771"
+      ],
+      "missing_focus_geometries": [],
+      "open_space_count": 1,
+      "entrances": [
+        {
+          "native_id": "node/6897141353",
+          "coordinate": [
+            121.4712158,
+            31.2299607
+          ],
+          "tags": {
+            "entrance": "main"
+          },
+          "entrance_grade": "OSM_TAGGED",
+          "eligible": true,
+          "reason": "NATIVE_OUTER_RING_OSM_TAGGED_INBOUND_REFERENCE",
+          "original_coordinate": [
+            121.4712158,
+            31.2299607
+          ],
+          "entrance_type": "main",
+          "target_building_native_id": "way/161090899",
+          "boundary_distance_m": 0.0,
+          "physical_access": "UNKNOWN",
+          "public_access": "UNKNOWN",
+          "entrance_field_verified": false
+        },
+        {
+          "native_id": "node/6897145227",
+          "coordinate": [
+            121.4706605,
+            31.2305674
+          ],
+          "tags": {
+            "entrance": "exit"
+          },
+          "entrance_grade": "OSM_TAGGED",
+          "eligible": false,
+          "reason": "EXIT_INBOUND_APPLICABILITY_UNKNOWN",
+          "original_coordinate": [
+            121.4706605,
+            31.2305674
+          ],
+          "entrance_type": "exit",
+          "target_building_native_id": "way/161090899",
+          "boundary_distance_m": 0.0,
+          "physical_access": "UNKNOWN",
+          "public_access": "UNKNOWN",
+          "entrance_field_verified": false
+        }
+      ],
+      "eligible_entrance_count": 1,
+      "boundary_contacts": [
+        {
+          "native_ids": [
+            "relation/2385771",
+            "node/1890745480",
+            "way/761403177"
+          ],
+          "space_id": "relation/2385771",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "relation/2385771",
+            "node/1890935415",
+            "way/178737608"
+          ],
+          "space_id": "relation/2385771",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "relation/2385771",
+            "node/1890935454",
+            "way/178737605"
+          ],
+          "space_id": "relation/2385771",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        }
+      ],
+      "boundary_contact_count": 3,
+      "geometric_boundary_candidate_count": 0,
+      "unsupported_boundary_segments": 37,
+      "source_line_candidates": 0,
+      "candidate_status_counts": {},
+      "verified_b1_edges": 0,
+      "verified_b2_additional_edges": 0,
+      "variants": {
+        "B0": {
+          "status": "EVALUATED",
+          "routes": [
+            {
+              "target_native_id": "node/6897141353",
+              "target": [
+                121.4712158,
+                31.2299607
+              ],
+              "geometry": null,
+              "route_end": null,
+              "length_m": null,
+              "target_gap_m": null,
+              "obstacle_ids": [],
+              "used_added_edge_ids": [],
+              "source_way_ids": [],
+              "status": "NO_ROUTE",
+              "failure_reason": "NO_NATIVE_ENTRY_GRAPH_NODE",
+              "baseline_nearest_network_gap_m": 55.02217444013307
+            }
+          ],
+          "route": {
+            "target_native_id": "node/6897141353",
+            "target": [
+              121.4712158,
+              31.2299607
+            ],
+            "geometry": null,
+            "route_end": null,
+            "length_m": null,
+            "target_gap_m": null,
+            "obstacle_ids": [],
+            "used_added_edge_ids": [],
+            "source_way_ids": [],
+            "status": "NO_ROUTE",
+            "failure_reason": "NO_NATIVE_ENTRY_GRAPH_NODE",
+            "baseline_nearest_network_gap_m": 55.02217444013307
+          },
+          "graph": {
+            "nodes": 6780,
+            "directed_edges": 14412,
+            "weak_components": 133,
+            "largest_weak_component": 5509
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B1": {
+          "status": "EVALUATED",
+          "routes": [
+            {
+              "target_native_id": "node/6897141353",
+              "target": [
+                121.4712158,
+                31.2299607
+              ],
+              "geometry": null,
+              "route_end": null,
+              "length_m": null,
+              "target_gap_m": null,
+              "obstacle_ids": [],
+              "used_added_edge_ids": [],
+              "source_way_ids": [],
+              "status": "NO_ROUTE",
+              "failure_reason": "NO_NATIVE_ENTRY_GRAPH_NODE",
+              "baseline_nearest_network_gap_m": 55.02217444013307
+            }
+          ],
+          "route": {
+            "target_native_id": "node/6897141353",
+            "target": [
+              121.4712158,
+              31.2299607
+            ],
+            "geometry": null,
+            "route_end": null,
+            "length_m": null,
+            "target_gap_m": null,
+            "obstacle_ids": [],
+            "used_added_edge_ids": [],
+            "source_way_ids": [],
+            "status": "NO_ROUTE",
+            "failure_reason": "NO_NATIVE_ENTRY_GRAPH_NODE",
+            "baseline_nearest_network_gap_m": 55.02217444013307
+          },
+          "graph": {
+            "nodes": 6780,
+            "directed_edges": 14412,
+            "weak_components": 133,
+            "largest_weak_component": 5509
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B2": {
+          "status": "EVALUATED",
+          "routes": [
+            {
+              "target_native_id": "node/6897141353",
+              "target": [
+                121.4712158,
+                31.2299607
+              ],
+              "geometry": null,
+              "route_end": null,
+              "length_m": null,
+              "target_gap_m": null,
+              "obstacle_ids": [],
+              "used_added_edge_ids": [],
+              "source_way_ids": [],
+              "status": "NO_ROUTE",
+              "failure_reason": "NO_NATIVE_ENTRY_GRAPH_NODE",
+              "baseline_nearest_network_gap_m": 55.02217444013307
+            }
+          ],
+          "route": {
+            "target_native_id": "node/6897141353",
+            "target": [
+              121.4712158,
+              31.2299607
+            ],
+            "geometry": null,
+            "route_end": null,
+            "length_m": null,
+            "target_gap_m": null,
+            "obstacle_ids": [],
+            "used_added_edge_ids": [],
+            "source_way_ids": [],
+            "status": "NO_ROUTE",
+            "failure_reason": "NO_NATIVE_ENTRY_GRAPH_NODE",
+            "baseline_nearest_network_gap_m": 55.02217444013307
+          },
+          "graph": {
+            "nodes": 6780,
+            "directed_edges": 14412,
+            "weak_components": 133,
+            "largest_weak_component": 5509
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B3": {
+          "status": "NOT_APPLICABLE_LT2_ELIGIBLE_REGISTERED_ENTRANCES",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 6780,
+            "directed_edges": 14412,
+            "weak_components": 133,
+            "largest_weak_component": 5509
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": null
+        }
+      },
+      "sensitivity": [
+        {
+          "tolerance_m": 0.1,
+          "source_line_candidates": 0,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        },
+        {
+          "tolerance_m": 0.5,
+          "source_line_candidates": 0,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        }
+      ],
+      "structured_input_gate": {
+        "status": "EXECUTABLE",
+        "missing": []
+      },
+      "unresolved_obstacle_geometry_count": 1,
+      "local_b0_frozen_replay": {
+        "match": true,
+        "status": "NO_ROUTE",
+        "failure_reason": "TARGET_SNAP_OUTSIDE_LIMIT",
+        "length_m": null,
+        "target_gap_m": 55.02217444013307,
+        "start_gap_m": 0.0,
+        "target_snap": {
+          "way_id": 178719573,
+          "source_node_ids": [
+            1891590993,
+            1890732610
+          ],
+          "segment_index": 98,
+          "fraction": 1.0,
+          "position": [
+            121.4713292,
+            31.2304473
+          ],
+          "distance_m": 55.02217444013307,
+          "evidence": "MAPPED_PEDESTRIAN_WAY"
+        },
+        "graph_stats": {
+          "eligible_ways": 1760,
+          "eligible_segments": 7113,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 54,
+          "outside_snapshot_segments": 567
+        },
+        "historical_path": "data/source/historical/sh-huangpu-01_local_route.json"
+      },
+      "clip_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "geometry_path": "runs/geometry/sh-huangpu-01.geojson"
+    },
+    {
+      "scene_id": "sh-wukang",
+      "label": "武康大楼",
+      "focus_space_ids": [],
+      "missing_focus_geometries": [],
+      "open_space_count": 0,
+      "entrances": [],
+      "eligible_entrance_count": 0,
+      "boundary_contacts": [],
+      "boundary_contact_count": 0,
+      "geometric_boundary_candidate_count": 0,
+      "unsupported_boundary_segments": 0,
+      "source_line_candidates": 0,
+      "candidate_status_counts": {},
+      "verified_b1_edges": 0,
+      "verified_b2_additional_edges": 0,
+      "variants": {
+        "B0": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 2613,
+            "directed_edges": 5316,
+            "weak_components": 127,
+            "largest_weak_component": 1107
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B1": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 2613,
+            "directed_edges": 5316,
+            "weak_components": 127,
+            "largest_weak_component": 1107
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B2": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 2613,
+            "directed_edges": 5316,
+            "weak_components": 127,
+            "largest_weak_component": 1107
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B3": {
+          "status": "NOT_APPLICABLE_LT2_ELIGIBLE_REGISTERED_ENTRANCES",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 2613,
+            "directed_edges": 5316,
+            "weak_components": 127,
+            "largest_weak_component": 1107
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": null
+        }
+      },
+      "sensitivity": [
+        {
+          "tolerance_m": 0.1,
+          "source_line_candidates": 0,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        },
+        {
+          "tolerance_m": 0.5,
+          "source_line_candidates": 0,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        }
+      ],
+      "structured_input_gate": {
+        "status": "NOT_EXECUTABLE_MISSING_INPUT",
+        "missing": [
+          "open_space_geometry"
+        ]
+      },
+      "unresolved_obstacle_geometry_count": 0,
+      "local_b0_frozen_replay": {
+        "match": true,
+        "status": "PASS",
+        "failure_reason": null,
+        "length_m": 326.69306963059694,
+        "target_gap_m": 6.711114790620279,
+        "start_gap_m": 0.0,
+        "target_snap": {
+          "way_id": 47451483,
+          "source_node_ids": [
+            2970332722,
+            105253431
+          ],
+          "segment_index": 8,
+          "fraction": 0.04962180642131501,
+          "position": [
+            121.43334631611643,
+            31.206036182447612
+          ],
+          "distance_m": 6.711114790620279,
+          "evidence": "SHARED_STREET_ASSUMPTION"
+        },
+        "graph_stats": {
+          "eligible_ways": 651,
+          "eligible_segments": 2639,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 34,
+          "outside_snapshot_segments": 252,
+          "graph_nodes": 2614,
+          "graph_directed_edges": 5318
+        },
+        "historical_path": "data/source/historical/sh-wukang_local_route.json"
+      },
+      "clip_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "geometry_path": "runs/geometry/sh-wukang.geojson"
+    },
+    {
+      "scene_id": "sh-tower",
+      "label": "上海中心大厦",
+      "focus_space_ids": [
+        "way/965081081"
+      ],
+      "missing_focus_geometries": [],
+      "open_space_count": 1,
+      "entrances": [],
+      "eligible_entrance_count": 0,
+      "boundary_contacts": [
+        {
+          "native_ids": [
+            "way/965081081",
+            "node/8927684299",
+            "way/965081082"
+          ],
+          "space_id": "way/965081081",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/965081081",
+            "node/8927684300",
+            "way/965081083"
+          ],
+          "space_id": "way/965081081",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/965081081",
+            "node/8927684303",
+            "way/1300193605"
+          ],
+          "space_id": "way/965081081",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        }
+      ],
+      "boundary_contact_count": 3,
+      "geometric_boundary_candidate_count": 0,
+      "unsupported_boundary_segments": 15,
+      "source_line_candidates": 6,
+      "candidate_status_counts": {
+        "ALREADY_IN_B0": 6
+      },
+      "verified_b1_edges": 0,
+      "verified_b2_additional_edges": 0,
+      "variants": {
+        "B0": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 8414,
+            "directed_edges": 17754,
+            "weak_components": 159,
+            "largest_weak_component": 4330
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B1": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 8414,
+            "directed_edges": 17754,
+            "weak_components": 159,
+            "largest_weak_component": 4330
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B2": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 8414,
+            "directed_edges": 17754,
+            "weak_components": 159,
+            "largest_weak_component": 4330
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B3": {
+          "status": "NOT_APPLICABLE_LT2_ELIGIBLE_REGISTERED_ENTRANCES",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 8414,
+            "directed_edges": 17754,
+            "weak_components": 159,
+            "largest_weak_component": 4330
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": null
+        }
+      },
+      "sensitivity": [
+        {
+          "tolerance_m": 0.1,
+          "source_line_candidates": 6,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        },
+        {
+          "tolerance_m": 0.5,
+          "source_line_candidates": 6,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        }
+      ],
+      "structured_input_gate": {
+        "status": "EXECUTABLE",
+        "missing": []
+      },
+      "unresolved_obstacle_geometry_count": 52,
+      "local_b0_frozen_replay": {
+        "match": true,
+        "status": "PASS",
+        "failure_reason": null,
+        "length_m": 256.45502273622617,
+        "target_gap_m": 22.280971814572304,
+        "start_gap_m": 0.0,
+        "target_snap": {
+          "way_id": 961634152,
+          "source_node_ids": [
+            8895305867,
+            8895305891
+          ],
+          "segment_index": 0,
+          "fraction": 0.5815942557665057,
+          "position": [
+            121.50050240685164,
+            31.235444748923324
+          ],
+          "distance_m": 22.280971814572304,
+          "evidence": "SHARED_STREET_ASSUMPTION"
+        },
+        "graph_stats": {
+          "eligible_ways": 1839,
+          "eligible_segments": 8747,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 56,
+          "outside_snapshot_segments": 522,
+          "graph_nodes": 8415,
+          "graph_directed_edges": 17756
+        },
+        "historical_path": "data/source/historical/sh-tower_local_route.json"
+      },
+      "clip_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "geometry_path": "runs/geometry/sh-tower.geojson"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "label": "新世界城",
+      "focus_space_ids": [
+        "way/160023915",
+        "relation/8055906",
+        "way/182520941"
+      ],
+      "missing_focus_geometries": [],
+      "open_space_count": 3,
+      "entrances": [],
+      "eligible_entrance_count": 0,
+      "boundary_contacts": [
+        {
+          "native_ids": [
+            "way/160023915",
+            "node/267198435",
+            "way/27041875"
+          ],
+          "space_id": "way/160023915",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/160023915",
+            "node/1720857452",
+            "way/39839751"
+          ],
+          "space_id": "way/160023915",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/160023915",
+            "node/1720857537",
+            "way/564255336"
+          ],
+          "space_id": "way/160023915",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/160023915",
+            "node/1720857563",
+            "way/39839751"
+          ],
+          "space_id": "way/160023915",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/160023915",
+            "node/1728704352",
+            "way/27041875",
+            "way/564255336"
+          ],
+          "space_id": "way/160023915",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/160023915",
+            "node/7116075700",
+            "way/1196980499"
+          ],
+          "space_id": "way/160023915",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/160023915",
+            "node/7116075705",
+            "way/1196925973"
+          ],
+          "space_id": "way/160023915",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/160023915",
+            "way/564255325"
+          ],
+          "space_id": "way/160023915",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "way/160023915",
+            "way/868525507"
+          ],
+          "space_id": "way/160023915",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "way/160023915",
+            "way/868525507"
+          ],
+          "space_id": "way/160023915",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "relation/8055906",
+            "node/5436983542",
+            "way/564255320"
+          ],
+          "space_id": "relation/8055906",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "relation/8055906",
+            "node/5436983743",
+            "way/564255406"
+          ],
+          "space_id": "relation/8055906",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "relation/8055906",
+            "way/178801534"
+          ],
+          "space_id": "relation/8055906",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "relation/8055906",
+            "way/513764727"
+          ],
+          "space_id": "relation/8055906",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "relation/8055906",
+            "way/513764728"
+          ],
+          "space_id": "relation/8055906",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "relation/8055906",
+            "way/513764729"
+          ],
+          "space_id": "relation/8055906",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "relation/8055906",
+            "way/564255325"
+          ],
+          "space_id": "relation/8055906",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "node/1928818226",
+            "way/182520943"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "node/1928818228",
+            "way/182520946"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_NOT_CONNECTED",
+          "distance_m": 0.0,
+          "reachable_from_start": false
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "node/1928818240",
+            "way/182520947"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "node/1928818245",
+            "way/182520950"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "node/1928818257",
+            "way/182520945"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "node/1928818262",
+            "way/182520949"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "way/513764726"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "way/513764726"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "way/513764735"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "way/513764736"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        },
+        {
+          "native_ids": [
+            "way/182520941",
+            "way/564255299"
+          ],
+          "space_id": "way/182520941",
+          "variant": "ALL",
+          "status": "PROPOSED",
+          "evidence": "GEOMETRIC_INTERSECTION_ONLY",
+          "reason": "NATIVE_SHARED_TOPOLOGY_UNVERIFIED",
+          "distance_m": 0.0,
+          "reachable_from_start": null
+        }
+      ],
+      "boundary_contact_count": 15,
+      "geometric_boundary_candidate_count": 13,
+      "unsupported_boundary_segments": 113,
+      "source_line_candidates": 22,
+      "candidate_status_counts": {
+        "ALREADY_IN_B0": 14,
+        "REJECTED": 8
+      },
+      "verified_b1_edges": 0,
+      "verified_b2_additional_edges": 0,
+      "variants": {
+        "B0": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 5621,
+            "directed_edges": 11846,
+            "weak_components": 111,
+            "largest_weak_component": 4741
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B1": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 5621,
+            "directed_edges": 11846,
+            "weak_components": 111,
+            "largest_weak_component": 4741
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B2": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 5621,
+            "directed_edges": 11846,
+            "weak_components": 111,
+            "largest_weak_component": 4741
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B3": {
+          "status": "NOT_APPLICABLE_LT2_ELIGIBLE_REGISTERED_ENTRANCES",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 5621,
+            "directed_edges": 11846,
+            "weak_components": 111,
+            "largest_weak_component": 4741
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": null
+        }
+      },
+      "sensitivity": [
+        {
+          "tolerance_m": 0.1,
+          "source_line_candidates": 22,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        },
+        {
+          "tolerance_m": 0.5,
+          "source_line_candidates": 22,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        }
+      ],
+      "structured_input_gate": {
+        "status": "EXECUTABLE",
+        "missing": []
+      },
+      "unresolved_obstacle_geometry_count": 1,
+      "local_b0_frozen_replay": {
+        "match": true,
+        "status": "NO_ROUTE",
+        "failure_reason": "NO_DIRECTED_PATH_BETWEEN_NEAREST_SNAPS",
+        "length_m": null,
+        "target_gap_m": 8.451166376278174,
+        "start_gap_m": 0.0,
+        "target_snap": {
+          "way_id": 85796883,
+          "source_node_ids": [
+            1490098832,
+            11104555718
+          ],
+          "segment_index": 3,
+          "fraction": 1.0,
+          "position": [
+            121.4683438,
+            31.2372066
+          ],
+          "distance_m": 8.451166376278174,
+          "evidence": "SHARED_STREET_ASSUMPTION"
+        },
+        "graph_stats": {
+          "eligible_ways": 1407,
+          "eligible_segments": 5854,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 46,
+          "outside_snapshot_segments": 369,
+          "graph_nodes": 5621,
+          "graph_directed_edges": 11846
+        },
+        "historical_path": "data/source/historical/sh-newworld_local_route.json"
+      },
+      "clip_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "geometry_path": "runs/geometry/sh-newworld.geojson"
+    },
+    {
+      "scene_id": "sh-library",
+      "label": "上海图书馆淮海路馆",
+      "focus_space_ids": [
+        "way/1160136226"
+      ],
+      "missing_focus_geometries": [],
+      "open_space_count": 1,
+      "entrances": [
+        {
+          "native_id": "node/11300000483",
+          "coordinate": [
+            121.4402357,
+            31.2096329
+          ],
+          "tags": {
+            "door": "yes/manual/main_entrance",
+            "entrance": "yes"
+          },
+          "entrance_grade": "OSM_TAGGED",
+          "eligible": true,
+          "reason": "NATIVE_OUTER_RING_OSM_TAGGED_INBOUND_REFERENCE",
+          "original_coordinate": [
+            121.4402357,
+            31.2096329
+          ],
+          "entrance_type": "yes",
+          "target_building_native_id": "way/293434188",
+          "boundary_distance_m": 0.0,
+          "physical_access": "UNKNOWN",
+          "public_access": "UNKNOWN",
+          "entrance_field_verified": false
+        }
+      ],
+      "eligible_entrance_count": 1,
+      "boundary_contacts": [
+        {
+          "native_ids": [
+            "way/1160136226",
+            "node/10789601371",
+            "way/1160136221"
+          ],
+          "space_id": "way/1160136226",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/1160136226",
+            "node/10789601372",
+            "way/1160136221"
+          ],
+          "space_id": "way/1160136226",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        },
+        {
+          "native_ids": [
+            "way/1160136226",
+            "node/10789601373",
+            "way/1160136220"
+          ],
+          "space_id": "way/1160136226",
+          "variant": "ALL",
+          "status": "OBSERVED",
+          "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+          "reason": "B0_ORIGIN_REACHABLE",
+          "distance_m": 0.0,
+          "reachable_from_start": true
+        }
+      ],
+      "boundary_contact_count": 3,
+      "geometric_boundary_candidate_count": 0,
+      "unsupported_boundary_segments": 10,
+      "source_line_candidates": 5,
+      "candidate_status_counts": {
+        "ALREADY_IN_B0": 5
+      },
+      "verified_b1_edges": 0,
+      "verified_b2_additional_edges": 0,
+      "variants": {
+        "B0": {
+          "status": "EVALUATED",
+          "routes": [
+            {
+              "target_native_id": "node/11300000483",
+              "target": [
+                121.4402357,
+                31.2096329
+              ],
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    121.4378012,
+                    31.2078318
+                  ],
+                  [
+                    121.4380858,
+                    31.2079153
+                  ],
+                  [
+                    121.4383866,
+                    31.2079639
+                  ],
+                  [
+                    121.4386387,
+                    31.2079014
+                  ],
+                  [
+                    121.4390208,
+                    31.2079779
+                  ],
+                  [
+                    121.439412,
+                    31.2081969
+                  ],
+                  [
+                    121.4388024,
+                    31.2093459
+                  ],
+                  [
+                    121.4392705,
+                    31.2096349
+                  ],
+                  [
+                    121.4396357,
+                    31.2098701
+                  ],
+                  [
+                    121.4397367,
+                    31.2099351
+                  ],
+                  [
+                    121.4399154,
+                    31.2097518
+                  ],
+                  [
+                    121.4401438,
+                    31.209747
+                  ],
+                  [
+                    121.4402357,
+                    31.2096329
+                  ]
+                ]
+              },
+              "route_end": [
+                121.4402357,
+                31.2096329
+              ],
+              "length_m": 478.82665233627716,
+              "target_gap_m": 0.0,
+              "obstacle_ids": [],
+              "used_added_edge_ids": [],
+              "source_way_ids": [
+                "way/277743619",
+                "way/1327579140",
+                "way/451728953",
+                "way/1219527813",
+                "way/1219527812"
+              ],
+              "status": "MAPPED_ENTRY_REACHED",
+              "failure_reason": null,
+              "baseline_nearest_network_gap_m": 0.0
+            }
+          ],
+          "route": {
+            "target_native_id": "node/11300000483",
+            "target": [
+              121.4402357,
+              31.2096329
+            ],
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  121.4378012,
+                  31.2078318
+                ],
+                [
+                  121.4380858,
+                  31.2079153
+                ],
+                [
+                  121.4383866,
+                  31.2079639
+                ],
+                [
+                  121.4386387,
+                  31.2079014
+                ],
+                [
+                  121.4390208,
+                  31.2079779
+                ],
+                [
+                  121.439412,
+                  31.2081969
+                ],
+                [
+                  121.4388024,
+                  31.2093459
+                ],
+                [
+                  121.4392705,
+                  31.2096349
+                ],
+                [
+                  121.4396357,
+                  31.2098701
+                ],
+                [
+                  121.4397367,
+                  31.2099351
+                ],
+                [
+                  121.4399154,
+                  31.2097518
+                ],
+                [
+                  121.4401438,
+                  31.209747
+                ],
+                [
+                  121.4402357,
+                  31.2096329
+                ]
+              ]
+            },
+            "route_end": [
+              121.4402357,
+              31.2096329
+            ],
+            "length_m": 478.82665233627716,
+            "target_gap_m": 0.0,
+            "obstacle_ids": [],
+            "used_added_edge_ids": [],
+            "source_way_ids": [
+              "way/277743619",
+              "way/1327579140",
+              "way/451728953",
+              "way/1219527813",
+              "way/1219527812"
+            ],
+            "status": "MAPPED_ENTRY_REACHED",
+            "failure_reason": null,
+            "baseline_nearest_network_gap_m": 0.0
+          },
+          "graph": {
+            "nodes": 3191,
+            "directed_edges": 6546,
+            "weak_components": 150,
+            "largest_weak_component": 1638
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 1
+        },
+        "B1": {
+          "status": "EVALUATED",
+          "routes": [
+            {
+              "target_native_id": "node/11300000483",
+              "target": [
+                121.4402357,
+                31.2096329
+              ],
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    121.4378012,
+                    31.2078318
+                  ],
+                  [
+                    121.4380858,
+                    31.2079153
+                  ],
+                  [
+                    121.4383866,
+                    31.2079639
+                  ],
+                  [
+                    121.4386387,
+                    31.2079014
+                  ],
+                  [
+                    121.4390208,
+                    31.2079779
+                  ],
+                  [
+                    121.439412,
+                    31.2081969
+                  ],
+                  [
+                    121.4388024,
+                    31.2093459
+                  ],
+                  [
+                    121.4392705,
+                    31.2096349
+                  ],
+                  [
+                    121.4396357,
+                    31.2098701
+                  ],
+                  [
+                    121.4397367,
+                    31.2099351
+                  ],
+                  [
+                    121.4399154,
+                    31.2097518
+                  ],
+                  [
+                    121.4401438,
+                    31.209747
+                  ],
+                  [
+                    121.4402357,
+                    31.2096329
+                  ]
+                ]
+              },
+              "route_end": [
+                121.4402357,
+                31.2096329
+              ],
+              "length_m": 478.82665233627716,
+              "target_gap_m": 0.0,
+              "obstacle_ids": [],
+              "used_added_edge_ids": [],
+              "source_way_ids": [
+                "way/277743619",
+                "way/1327579140",
+                "way/451728953",
+                "way/1219527813",
+                "way/1219527812"
+              ],
+              "status": "MAPPED_ENTRY_REACHED",
+              "failure_reason": null,
+              "baseline_nearest_network_gap_m": 0.0
+            }
+          ],
+          "route": {
+            "target_native_id": "node/11300000483",
+            "target": [
+              121.4402357,
+              31.2096329
+            ],
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  121.4378012,
+                  31.2078318
+                ],
+                [
+                  121.4380858,
+                  31.2079153
+                ],
+                [
+                  121.4383866,
+                  31.2079639
+                ],
+                [
+                  121.4386387,
+                  31.2079014
+                ],
+                [
+                  121.4390208,
+                  31.2079779
+                ],
+                [
+                  121.439412,
+                  31.2081969
+                ],
+                [
+                  121.4388024,
+                  31.2093459
+                ],
+                [
+                  121.4392705,
+                  31.2096349
+                ],
+                [
+                  121.4396357,
+                  31.2098701
+                ],
+                [
+                  121.4397367,
+                  31.2099351
+                ],
+                [
+                  121.4399154,
+                  31.2097518
+                ],
+                [
+                  121.4401438,
+                  31.209747
+                ],
+                [
+                  121.4402357,
+                  31.2096329
+                ]
+              ]
+            },
+            "route_end": [
+              121.4402357,
+              31.2096329
+            ],
+            "length_m": 478.82665233627716,
+            "target_gap_m": 0.0,
+            "obstacle_ids": [],
+            "used_added_edge_ids": [],
+            "source_way_ids": [
+              "way/277743619",
+              "way/1327579140",
+              "way/451728953",
+              "way/1219527813",
+              "way/1219527812"
+            ],
+            "status": "MAPPED_ENTRY_REACHED",
+            "failure_reason": null,
+            "baseline_nearest_network_gap_m": 0.0
+          },
+          "graph": {
+            "nodes": 3191,
+            "directed_edges": 6546,
+            "weak_components": 150,
+            "largest_weak_component": 1638
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 1
+        },
+        "B2": {
+          "status": "EVALUATED",
+          "routes": [
+            {
+              "target_native_id": "node/11300000483",
+              "target": [
+                121.4402357,
+                31.2096329
+              ],
+              "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                  [
+                    121.4378012,
+                    31.2078318
+                  ],
+                  [
+                    121.4380858,
+                    31.2079153
+                  ],
+                  [
+                    121.4383866,
+                    31.2079639
+                  ],
+                  [
+                    121.4386387,
+                    31.2079014
+                  ],
+                  [
+                    121.4390208,
+                    31.2079779
+                  ],
+                  [
+                    121.439412,
+                    31.2081969
+                  ],
+                  [
+                    121.4388024,
+                    31.2093459
+                  ],
+                  [
+                    121.4392705,
+                    31.2096349
+                  ],
+                  [
+                    121.4396357,
+                    31.2098701
+                  ],
+                  [
+                    121.4397367,
+                    31.2099351
+                  ],
+                  [
+                    121.4399154,
+                    31.2097518
+                  ],
+                  [
+                    121.4401438,
+                    31.209747
+                  ],
+                  [
+                    121.4402357,
+                    31.2096329
+                  ]
+                ]
+              },
+              "route_end": [
+                121.4402357,
+                31.2096329
+              ],
+              "length_m": 478.82665233627716,
+              "target_gap_m": 0.0,
+              "obstacle_ids": [],
+              "used_added_edge_ids": [],
+              "source_way_ids": [
+                "way/277743619",
+                "way/1327579140",
+                "way/451728953",
+                "way/1219527813",
+                "way/1219527812"
+              ],
+              "status": "MAPPED_ENTRY_REACHED",
+              "failure_reason": null,
+              "baseline_nearest_network_gap_m": 0.0
+            }
+          ],
+          "route": {
+            "target_native_id": "node/11300000483",
+            "target": [
+              121.4402357,
+              31.2096329
+            ],
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  121.4378012,
+                  31.2078318
+                ],
+                [
+                  121.4380858,
+                  31.2079153
+                ],
+                [
+                  121.4383866,
+                  31.2079639
+                ],
+                [
+                  121.4386387,
+                  31.2079014
+                ],
+                [
+                  121.4390208,
+                  31.2079779
+                ],
+                [
+                  121.439412,
+                  31.2081969
+                ],
+                [
+                  121.4388024,
+                  31.2093459
+                ],
+                [
+                  121.4392705,
+                  31.2096349
+                ],
+                [
+                  121.4396357,
+                  31.2098701
+                ],
+                [
+                  121.4397367,
+                  31.2099351
+                ],
+                [
+                  121.4399154,
+                  31.2097518
+                ],
+                [
+                  121.4401438,
+                  31.209747
+                ],
+                [
+                  121.4402357,
+                  31.2096329
+                ]
+              ]
+            },
+            "route_end": [
+              121.4402357,
+              31.2096329
+            ],
+            "length_m": 478.82665233627716,
+            "target_gap_m": 0.0,
+            "obstacle_ids": [],
+            "used_added_edge_ids": [],
+            "source_way_ids": [
+              "way/277743619",
+              "way/1327579140",
+              "way/451728953",
+              "way/1219527813",
+              "way/1219527812"
+            ],
+            "status": "MAPPED_ENTRY_REACHED",
+            "failure_reason": null,
+            "baseline_nearest_network_gap_m": 0.0
+          },
+          "graph": {
+            "nodes": 3191,
+            "directed_edges": 6546,
+            "weak_components": 150,
+            "largest_weak_component": 1638
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 1
+        },
+        "B3": {
+          "status": "NOT_APPLICABLE_LT2_ELIGIBLE_REGISTERED_ENTRANCES",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 3191,
+            "directed_edges": 6546,
+            "weak_components": 150,
+            "largest_weak_component": 1638
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": null
+        }
+      },
+      "sensitivity": [
+        {
+          "tolerance_m": 0.1,
+          "source_line_candidates": 5,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        },
+        {
+          "tolerance_m": 0.5,
+          "source_line_candidates": 5,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        }
+      ],
+      "structured_input_gate": {
+        "status": "EXECUTABLE",
+        "missing": []
+      },
+      "unresolved_obstacle_geometry_count": 0,
+      "local_b0_frozen_replay": {
+        "match": true,
+        "status": "PASS",
+        "failure_reason": null,
+        "length_m": 478.82665233627716,
+        "target_gap_m": 0.0,
+        "start_gap_m": 0.0,
+        "target_snap": {
+          "way_id": 1219527812,
+          "source_node_ids": [
+            11300000483,
+            11300000484
+          ],
+          "segment_index": 0,
+          "fraction": 0.0,
+          "position": [
+            121.4402357,
+            31.2096329
+          ],
+          "distance_m": 0.0,
+          "evidence": "MAPPED_PEDESTRIAN_WAY"
+        },
+        "graph_stats": {
+          "eligible_ways": 812,
+          "eligible_segments": 3251,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 53,
+          "outside_snapshot_segments": 367,
+          "graph_nodes": 3191,
+          "graph_directed_edges": 6546
+        },
+        "historical_path": "data/source/historical/sh-library_local_route.json"
+      },
+      "clip_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "geometry_path": "runs/geometry/sh-library.geojson"
+    },
+    {
+      "scene_id": "sh-exhibition",
+      "label": "上海展览中心",
+      "focus_space_ids": [],
+      "missing_focus_geometries": [],
+      "open_space_count": 0,
+      "entrances": [],
+      "eligible_entrance_count": 0,
+      "boundary_contacts": [],
+      "boundary_contact_count": 0,
+      "geometric_boundary_candidate_count": 0,
+      "unsupported_boundary_segments": 0,
+      "source_line_candidates": 0,
+      "candidate_status_counts": {},
+      "verified_b1_edges": 0,
+      "verified_b2_additional_edges": 0,
+      "variants": {
+        "B0": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 3448,
+            "directed_edges": 7002,
+            "weak_components": 152,
+            "largest_weak_component": 950
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B1": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 3448,
+            "directed_edges": 7002,
+            "weak_components": 152,
+            "largest_weak_component": 950
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B2": {
+          "status": "NO_ELIGIBLE_ENTRY_LOCAL_TOPOLOGY_ONLY",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 3448,
+            "directed_edges": 7002,
+            "weak_components": 152,
+            "largest_weak_component": 950
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": 0
+        },
+        "B3": {
+          "status": "NOT_APPLICABLE_LT2_ELIGIBLE_REGISTERED_ENTRANCES",
+          "routes": [],
+          "route": null,
+          "graph": {
+            "nodes": 3448,
+            "directed_edges": 7002,
+            "weak_components": 152,
+            "largest_weak_component": 950
+          },
+          "added_edges": 0,
+          "valid_entry_route_count": null
+        }
+      },
+      "sensitivity": [
+        {
+          "tolerance_m": 0.1,
+          "source_line_candidates": 0,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        },
+        {
+          "tolerance_m": 0.5,
+          "source_line_candidates": 0,
+          "verified_b1": 0,
+          "verified_b2_additional": 0
+        }
+      ],
+      "structured_input_gate": {
+        "status": "NOT_EXECUTABLE_MISSING_INPUT",
+        "missing": [
+          "open_space_geometry"
+        ]
+      },
+      "unresolved_obstacle_geometry_count": 0,
+      "local_b0_frozen_replay": {
+        "match": true,
+        "status": "PASS",
+        "failure_reason": null,
+        "length_m": 508.05983828667433,
+        "target_gap_m": 19.736346184586882,
+        "start_gap_m": 0.0,
+        "target_snap": {
+          "way_id": 454282316,
+          "source_node_ids": [
+            4508546841,
+            4508546842
+          ],
+          "segment_index": 0,
+          "fraction": 1.0,
+          "position": [
+            121.4469324,
+            31.2262007
+          ],
+          "distance_m": 19.736346184586882,
+          "evidence": "SHARED_STREET_ASSUMPTION"
+        },
+        "graph_stats": {
+          "eligible_ways": 914,
+          "eligible_segments": 3473,
+          "missing_node_segments": 0,
+          "blocked_node_segments": 86,
+          "outside_snapshot_segments": 416,
+          "graph_nodes": 3448,
+          "graph_directed_edges": 7002
+        },
+        "historical_path": "data/source/historical/sh-exhibition_local_route.json"
+      },
+      "clip_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "geometry_path": "runs/geometry/sh-exhibition.geojson"
+    }
+  ],
+  "runtime_scope": "OSM_STRUCTURED_ENHANCEMENT",
+  "geoapify_new_requests": 0
+}

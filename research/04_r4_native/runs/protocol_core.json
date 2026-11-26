@@ -1,0 +1,29 @@
+{
+  "state": "LOCKED_BEFORE_R4_EXPERIMENT",
+  "crs": "EPSG:32651",
+  "output_crs": "EPSG:4326 lon/lat",
+  "geometry_tolerance_m": 0.25,
+  "sensitivity_m": [
+    0.1,
+    0.5
+  ],
+  "exact_native_node_identity": true,
+  "nearness_creates_routable_link": false,
+  "covered_fraction_for_boundary": 1,
+  "tagged_path_min_length_m": 0.05,
+  "open_space_obstacle_blocks_path": true,
+  "path_weight": "WGS84 geodesic frozen metres",
+  "frozen_baseline_snap_m": 35,
+  "strict_start": "Original frozen origin on its native graph node",
+  "strict_target": "Original eligible exterior entrance on its native graph node",
+  "scope": "Only source-backed linear walking features, exact shared topological attachments, no added support from area tags alone. Boundary matching may accept projected line drift inside a fixed tolerance but added topology always uses original exact shared native IDs. A path component must link two verified exterior anchors, or one exterior anchor and one suitable known entrance. New edges preserve source direction and source endpoints.",
+  "hard_veto": [
+    "explicit restricted/conditional access",
+    "ambiguous level/layer or grade separation",
+    "building overlap",
+    "water/grass/flowerbed overlap",
+    "fence/wall/gate conflict",
+    "no evidence or missing source geometry"
+  ],
+  "b3": "Execute only when 2 or more suitable pre-existing entrances. Evaluate identical origin and B2 graph and retain shortest valid route."
+}

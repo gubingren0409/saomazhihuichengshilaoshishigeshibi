@@ -1,0 +1,478 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NO_CONNECTION_ADDED",
+  "source_timestamp": "2026-11-08T21:21:00Z",
+  "evidence": "OBSERVED_RAW_OSM_TAGS; HISTORICAL_RECOMPUTED_R2_ROUTE_CORRESPONDENCE",
+  "hosted_internal_topology": "UNKNOWN",
+  "actual_walking_permission": "UNKNOWN",
+  "ways": [
+    {
+      "native_id": "way/39764601",
+      "original_tags": {
+        "bicycle": "no",
+        "highway": "footway"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": null,
+      "source_node_ids": [
+        476682036,
+        13763096985,
+        476682043
+      ],
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "way/654297629",
+      "original_tags": {
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "name:zh-Hans": "黄陂北路",
+        "name:zh-Hant": "黃陂北路"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": null,
+      "source_node_ids": [
+        477568284,
+        13075885199,
+        476682036,
+        476682057,
+        267195069,
+        602259562,
+        477575777,
+        4353429880,
+        620101576,
+        4397696163,
+        5437083667,
+        5437083665,
+        5437083703,
+        5437083666,
+        132491635
+      ],
+      "decision": "AXIS_FILTERED_BY_FROZEN_PROFILE",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "way/1074409256",
+      "original_tags": {
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "黄陂北路",
+        "name:en": "North Huangpi Road",
+        "name:zh": "黄陂北路",
+        "name:zh-Hans": "黄陂北路",
+        "name:zh-Hant": "黃陂北路"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": null,
+      "source_node_ids": [
+        476675200,
+        9854898689,
+        1928785178,
+        5021317172,
+        477568284
+      ],
+      "decision": "AXIS_FILTERED_BY_FROZEN_PROFILE",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "way/761403176",
+      "original_tags": {
+        "footway": "crossing",
+        "highway": "footway"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": null,
+      "source_node_ids": [
+        1890935445,
+        7113798197,
+        7113798198,
+        7113798199,
+        7113798200,
+        7113798201
+      ],
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": true
+    },
+    {
+      "native_id": "way/39764359",
+      "original_tags": {
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": null,
+      "source_node_ids": [
+        13763096985,
+        13763096984,
+        13763096983,
+        5437083705,
+        5437083706,
+        5437083704,
+        5437083693,
+        5437083692,
+        5437083691,
+        5437083690,
+        5437083689,
+        5436983733,
+        5436983732,
+        5436983620,
+        132489729,
+        1728701622
+      ],
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "way/165953415",
+      "original_tags": {
+        "highway": "footway"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": null,
+      "source_node_ids": [
+        1774546618,
+        479442750,
+        479442751,
+        13763096983,
+        602259562
+      ],
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "way/39764607",
+      "original_tags": {
+        "bicycle": "no",
+        "highway": "footway"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": null,
+      "source_node_ids": [
+        476682044,
+        7116059372,
+        5021317171,
+        1774546618,
+        476682050
+      ],
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "way/513764740",
+      "original_tags": {
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": null,
+      "source_node_ids": [
+        1928818268,
+        5021317180,
+        5021317227,
+        5021317179,
+        8941646059,
+        5021317228,
+        5021317178,
+        5021317177,
+        5021317176,
+        5021317175,
+        5021317174,
+        5021317173,
+        5021317169,
+        5021317170,
+        7116059365,
+        622678192,
+        6976180608,
+        6976180609,
+        7116059375,
+        7116059374,
+        5021317171,
+        7113798201,
+        5021317172
+      ],
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": false
+    }
+  ],
+  "nodes": [
+    {
+      "native_id": "node/13763096985",
+      "original_tags": {},
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": [
+        121.4667922,
+        31.2306999
+      ],
+      "source_node_ids": null,
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "node/476682036",
+      "original_tags": {},
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": [
+        121.46672,
+        31.2306528
+      ],
+      "source_node_ids": null,
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "node/477568284",
+      "original_tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": [
+        121.4668043,
+        31.2305194
+      ],
+      "source_node_ids": null,
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "node/7113798201",
+      "original_tags": {},
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": [
+        121.4671167,
+        31.2303947
+      ],
+      "source_node_ids": null,
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "node/1890935445",
+      "original_tags": {},
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": [
+        121.4674255,
+        31.2300047
+      ],
+      "source_node_ids": null,
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": false
+    },
+    {
+      "native_id": "node/7113798197",
+      "original_tags": {
+        "highway": "crossing"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": [
+        121.4673882,
+        31.2300518
+      ],
+      "source_node_ids": null,
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": true
+    },
+    {
+      "native_id": "node/7113798198",
+      "original_tags": {
+        "highway": "crossing"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": [
+        121.4673073,
+        31.230154
+      ],
+      "source_node_ids": null,
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": true
+    },
+    {
+      "native_id": "node/7113798199",
+      "original_tags": {
+        "highway": "crossing"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": [
+        121.4672391,
+        31.23024
+      ],
+      "source_node_ids": null,
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": true
+    },
+    {
+      "native_id": "node/7113798200",
+      "original_tags": {
+        "highway": "crossing"
+      },
+      "foot": "UNKNOWN",
+      "sidewalk": "UNKNOWN",
+      "access": "UNKNOWN",
+      "crossing": "UNKNOWN",
+      "layer": "UNKNOWN",
+      "coords": [
+        121.4671409,
+        31.2303642
+      ],
+      "source_node_ids": null,
+      "decision": "SOURCE_CONTEXT_ONLY",
+      "explicit_crossing_evidence": true
+    }
+  ],
+  "historical_r2_alignment": {
+    "split_node_id": 13763096985,
+    "split_wgs84": [
+      121.4667922,
+      31.2306999
+    ],
+    "common_way_id": 39764601,
+    "shared_prefix_m": 44.15880563622369,
+    "local_dead_end_node_id": 476682036,
+    "local_dead_end_wgs84": [
+      121.46672,
+      31.2306528
+    ],
+    "local_dead_end_graph_neighbors": [
+      13763096985
+    ],
+    "signal_node_id": 477568284,
+    "signal_wgs84": [
+      121.4668043,
+      31.2305194
+    ],
+    "rejoin_node_id": 7113798201,
+    "rejoin_wgs84": [
+      121.4671167,
+      31.2303947
+    ],
+    "hosted_rejoin_offset_m": 0.043855473395935235,
+    "crossing_way_id": 761403176,
+    "crossing_node_ids": [
+      1890935445,
+      7113798197,
+      7113798198,
+      7113798199,
+      7113798200,
+      7113798201
+    ],
+    "crossing_road_way_ids": [
+      39763700,
+      24576922
+    ],
+    "crossing_road_node_ids": [
+      7113798199,
+      7113798198
+    ],
+    "local_detour_way_ids": [
+      39764359,
+      165953415,
+      39764607,
+      513764740
+    ],
+    "hosted_candidate_way_ids": [
+      39764601,
+      654297629,
+      1074409256,
+      513764740
+    ],
+    "hosted_candidate_road_axis_way_ids": [
+      654297629,
+      1074409256
+    ],
+    "origin_building_way_id": 39763758,
+    "hosted_split_rejoin_m": 73.9015501571813,
+    "local_split_rejoin_m": 537.3540401552509,
+    "hosted_shared_crossing_m": 52.25773970715543,
+    "local_shared_crossing_m": 52.30035645012128,
+    "local_theatre_interior_crossing_m_projected": 0.0,
+    "hosted_theatre_interior_crossing_m_projected": 0.0,
+    "after_rejoin_2m_overlap_fraction_hosted": 0.8990204657111481,
+    "after_rejoin_2m_overlap_fraction_local": 0.9084157316883692,
+    "counterfactual_local_original_returned_coords": {
+      "length_m": 1416.7193428331866,
+      "first_after_split_native_id": 13763096984,
+      "start_snap_m": 0.0,
+      "end_snap_m": 0.0,
+      "start_snap_way_id": 39764601,
+      "end_snap_way_id": 178719573
+    },
+    "counterfactual_local_hosted_returned_coords": {
+      "length_m": 1416.7099941219058,
+      "first_after_split_native_id": 13763096984,
+      "start_snap_m": 0.034946372692674636,
+      "end_snap_m": 0.038333363226779923,
+      "start_snap_way_id": 39764601,
+      "end_snap_way_id": 178719573
+    },
+    "hosted_same_graph_counterfactual": "UNKNOWN; provider graph unavailable"
+  }
+}

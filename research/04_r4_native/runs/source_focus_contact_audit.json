@@ -1,0 +1,932 @@
+{
+  "scope": "OBSERVED_RAW_GEOMETRY_AND_TAGS_RECOMPUTED_METRIC_CONTACTS",
+  "analysis_crs": "EPSG:32651",
+  "interior_exclusion_band_m": 0.25,
+  "focus_spaces": [
+    {
+      "scene_id": "sh-huangpu-01",
+      "space_native_id": "relation/2385771",
+      "near_area_foot_way_contacts": [
+        {
+          "native_way_id": "way/178737605",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            1890935454
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/178737608",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            1890935415
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/761403177",
+          "tags": {
+            "footway": "crossing",
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            1890745480
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        }
+      ],
+      "explicit_shared_outer_nodes": [
+        1890745480,
+        1890935415,
+        1890935454
+      ],
+      "area_inner_line_objects": [],
+      "explicit_boundary_line_geometry_overlap_ids": [],
+      "registered_entrance_relations": [
+        {
+          "native_id": "node/6897141353",
+          "eligible": true,
+          "shared_outer_node": true,
+          "distance_to_area_boundary_m": 0.0
+        },
+        {
+          "native_id": "node/6897145227",
+          "eligible": false,
+          "shared_outer_node": false,
+          "distance_to_area_boundary_m": 85.5442
+        }
+      ],
+      "source_layer": "UNSPECIFIED",
+      "interpretation": "GEOMETRIC_INVENTORY_ONLY_REQUIRES_CORE_TOPOLOGY_AND_LAYER_GATES"
+    },
+    {
+      "scene_id": "sh-tower",
+      "space_native_id": "way/965081081",
+      "near_area_foot_way_contacts": [
+        {
+          "native_way_id": "way/965081082",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            8927684299
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/965081083",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            8927684300
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/1300193605",
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "footway": "crossing",
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            8927684303
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        }
+      ],
+      "explicit_shared_outer_nodes": [
+        8927684299,
+        8927684300,
+        8927684303
+      ],
+      "area_inner_line_objects": [
+        {
+          "native_way_id": "way/965081082",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "geometry_inside_m": 24.1629,
+          "source_node_ids": [
+            8927684298,
+            8927684299,
+            8927684305,
+            8927684307,
+            8927684306,
+            8927684304
+          ]
+        },
+        {
+          "native_way_id": "way/965081083",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway"
+          },
+          "geometry_inside_m": 12.9811,
+          "source_node_ids": [
+            8927684304,
+            8927684300,
+            8927684301
+          ]
+        },
+        {
+          "native_way_id": "way/1300193605",
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "footway": "crossing",
+            "highway": "footway"
+          },
+          "geometry_inside_m": 5.656,
+          "source_node_ids": [
+            8895321567,
+            8895321568,
+            8927684302,
+            8927684303,
+            8927684304
+          ]
+        }
+      ],
+      "explicit_boundary_line_geometry_overlap_ids": [],
+      "registered_entrance_relations": [],
+      "source_layer": "UNSPECIFIED",
+      "interpretation": "GEOMETRIC_INVENTORY_ONLY_REQUIRES_CORE_TOPOLOGY_AND_LAYER_GATES"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "space_native_id": "way/160023915",
+      "near_area_foot_way_contacts": [
+        {
+          "native_way_id": "way/27041875",
+          "tags": {
+            "bicycle": "no",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "南京路步行街",
+            "name:de": "Nanjing Straße",
+            "name:en": "Nanjing Road Pedestrian Street",
+            "name:etymology:wikidata": "Q16666",
+            "name:ko": "달러 샾 훠궈 전문점",
+            "surface": "paving_stones",
+            "tourism": "attraction"
+          },
+          "shared_outer_nodes": [
+            267198435,
+            1728704352
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/39839751",
+          "tags": {
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "贵州路",
+            "name:en": "Guizhou Road",
+            "name:zh": "贵州路",
+            "name:zh-Hans": "贵州路",
+            "name:zh-Hant": "貴州路",
+            "surface": "asphalt"
+          },
+          "shared_outer_nodes": [
+            1720857452,
+            1720857563
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/564255325",
+          "tags": {
+            "highway": "pedestrian",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "shared_outer_nodes": [],
+          "geometry_intersects_outer": true,
+          "native_topology": "NO_SHARED_OUTER_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/564255336",
+          "tags": {
+            "footway": "sidewalk",
+            "highway": "footway",
+            "lit": "yes"
+          },
+          "shared_outer_nodes": [
+            1720857537,
+            1728704352
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 26.3607
+        },
+        {
+          "native_way_id": "way/868525507",
+          "tags": {
+            "highway": "pedestrian",
+            "layer": "-1",
+            "lit": "yes",
+            "source": "maxar"
+          },
+          "shared_outer_nodes": [
+            1720857580,
+            11105037733
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 7.3745
+        },
+        {
+          "native_way_id": "way/1196925973",
+          "tags": {
+            "highway": "pedestrian"
+          },
+          "shared_outer_nodes": [
+            7116075705
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/1196980499",
+          "tags": {
+            "highway": "pedestrian"
+          },
+          "shared_outer_nodes": [
+            7116075700
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        }
+      ],
+      "explicit_shared_outer_nodes": [
+        267198435,
+        1720857452,
+        1720857537,
+        1720857563,
+        1720857580,
+        1728704352,
+        7116075700,
+        7116075705,
+        11105037733
+      ],
+      "area_inner_line_objects": [
+        {
+          "native_way_id": "way/27041875",
+          "tags": {
+            "bicycle": "no",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "南京路步行街",
+            "name:de": "Nanjing Straße",
+            "name:en": "Nanjing Road Pedestrian Street",
+            "name:etymology:wikidata": "Q16666",
+            "name:ko": "달러 샾 훠궈 전문점",
+            "surface": "paving_stones",
+            "tourism": "attraction"
+          },
+          "geometry_inside_m": 374.1258,
+          "source_node_ids": [
+            601097074,
+            267198300,
+            267198280,
+            1729306039,
+            477640296,
+            477639734,
+            477639693,
+            7116075698,
+            267198281,
+            11104669826,
+            11107181429,
+            267198435,
+            654578474,
+            267198431,
+            477626400,
+            8095636850,
+            477635095,
+            5436983543,
+            1728704352,
+            156253446
+          ]
+        },
+        {
+          "native_way_id": "way/39839751",
+          "tags": {
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "贵州路",
+            "name:en": "Guizhou Road",
+            "name:zh": "贵州路",
+            "name:zh-Hans": "贵州路",
+            "name:zh-Hant": "貴州路",
+            "surface": "asphalt"
+          },
+          "geometry_inside_m": 31.7155,
+          "source_node_ids": [
+            477626301,
+            5436983558,
+            7116075709,
+            1720857452,
+            477626400,
+            1720857563
+          ]
+        },
+        {
+          "native_way_id": "way/564255322",
+          "tags": {
+            "highway": "pedestrian"
+          },
+          "geometry_inside_m": 12.4808,
+          "source_node_ids": [
+            5436983543,
+            5436983544
+          ]
+        },
+        {
+          "native_way_id": "way/564255325",
+          "tags": {
+            "highway": "pedestrian",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "geometry_inside_m": 14.1467,
+          "source_node_ids": [
+            5436983545,
+            5436983546
+          ]
+        },
+        {
+          "native_way_id": "way/761632796",
+          "tags": {
+            "highway": "steps"
+          },
+          "geometry_inside_m": 9.1696,
+          "source_node_ids": [
+            5436983545,
+            5436983544
+          ]
+        },
+        {
+          "native_way_id": "way/868525507",
+          "tags": {
+            "highway": "pedestrian",
+            "layer": "-1",
+            "lit": "yes",
+            "source": "maxar"
+          },
+          "geometry_inside_m": 14.8008,
+          "source_node_ids": [
+            477635164,
+            11109172573,
+            11109172574,
+            10753411765,
+            10753364799,
+            11105037733,
+            1720857580,
+            8095636850
+          ]
+        },
+        {
+          "native_way_id": "way/1196925973",
+          "tags": {
+            "highway": "pedestrian"
+          },
+          "geometry_inside_m": 20.4624,
+          "source_node_ids": [
+            7116075705,
+            477635095
+          ]
+        },
+        {
+          "native_way_id": "way/1196980499",
+          "tags": {
+            "highway": "pedestrian"
+          },
+          "geometry_inside_m": 11.6916,
+          "source_node_ids": [
+            654578474,
+            7116075700
+          ]
+        }
+      ],
+      "explicit_boundary_line_geometry_overlap_ids": [
+        "way/564255336",
+        "way/868525507"
+      ],
+      "registered_entrance_relations": [],
+      "source_layer": "UNSPECIFIED",
+      "interpretation": "GEOMETRIC_INVENTORY_ONLY_REQUIRES_CORE_TOPOLOGY_AND_LAYER_GATES"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "space_native_id": "relation/8055906",
+      "near_area_foot_way_contacts": [
+        {
+          "native_way_id": "way/178801534",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "shared_outer_nodes": [
+            1990203599
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/513764727",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "shared_outer_nodes": [
+            477665906
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/513764728",
+          "tags": {
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "shared_outer_nodes": [
+            477665815
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/513764729",
+          "tags": {
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "shared_outer_nodes": [
+            477666011
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/564255320",
+          "tags": {
+            "handrail": "no",
+            "highway": "steps",
+            "incline": "down",
+            "ramp": "no",
+            "surface": "paving_stones"
+          },
+          "shared_outer_nodes": [
+            5436983542
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/564255325",
+          "tags": {
+            "highway": "pedestrian",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "shared_outer_nodes": [
+            5436983546
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/564255406",
+          "tags": {
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            5436983743
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        }
+      ],
+      "explicit_shared_outer_nodes": [
+        477665815,
+        477665906,
+        477666011,
+        1990203599,
+        5436983542,
+        5436983546,
+        5436983743
+      ],
+      "area_inner_line_objects": [
+        {
+          "native_way_id": "way/513764727",
+          "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "geometry_inside_m": 15.8246,
+          "source_node_ids": [
+            477665906,
+            5021317143,
+            5021317146,
+            5021317153,
+            5021317141,
+            5021317148,
+            5021317150,
+            5021317142,
+            5021317152,
+            1172174599
+          ]
+        }
+      ],
+      "explicit_boundary_line_geometry_overlap_ids": [],
+      "registered_entrance_relations": [],
+      "source_layer": "UNSPECIFIED",
+      "interpretation": "GEOMETRIC_INVENTORY_ONLY_REQUIRES_CORE_TOPOLOGY_AND_LAYER_GATES"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "space_native_id": "way/182520941",
+      "near_area_foot_way_contacts": [
+        {
+          "native_way_id": "way/182520943",
+          "tags": {
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            1928818226
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/182520945",
+          "tags": {
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            1928818257
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/182520946",
+          "tags": {
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            1928818228
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/182520947",
+          "tags": {
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            1928818240
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/182520949",
+          "tags": {
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            1928818262
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/182520950",
+          "tags": {
+            "highway": "footway"
+          },
+          "shared_outer_nodes": [
+            1928818245
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/513764726",
+          "tags": {
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "shared_outer_nodes": [],
+          "geometry_intersects_outer": true,
+          "native_topology": "NO_SHARED_OUTER_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/513764735",
+          "tags": {
+            "conveying": "yes",
+            "highway": "steps",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "shared_outer_nodes": [],
+          "geometry_intersects_outer": true,
+          "native_topology": "NO_SHARED_OUTER_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/513764736",
+          "tags": {
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "shared_outer_nodes": [],
+          "geometry_intersects_outer": true,
+          "native_topology": "NO_SHARED_OUTER_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/564255299",
+          "tags": {
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "shared_outer_nodes": [],
+          "geometry_intersects_outer": true,
+          "native_topology": "NO_SHARED_OUTER_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        }
+      ],
+      "explicit_shared_outer_nodes": [
+        1928818226,
+        1928818228,
+        1928818240,
+        1928818245,
+        1928818257,
+        1928818262
+      ],
+      "area_inner_line_objects": [
+        {
+          "native_way_id": "way/513764726",
+          "tags": {
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "geometry_inside_m": 142.0548,
+          "source_node_ids": [
+            5021317141,
+            5021317140,
+            5021317139,
+            5021317132,
+            5021317133,
+            5021317155,
+            5021317134,
+            5021317135,
+            5021317156,
+            5021317136,
+            5021317137,
+            5021317138
+          ]
+        },
+        {
+          "native_way_id": "way/513764735",
+          "tags": {
+            "conveying": "yes",
+            "highway": "steps",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "geometry_inside_m": 6.0971,
+          "source_node_ids": [
+            1990203597,
+            5021317155
+          ]
+        },
+        {
+          "native_way_id": "way/513764736",
+          "tags": {
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "geometry_inside_m": 7.9242,
+          "source_node_ids": [
+            1990203594,
+            5021317156
+          ]
+        },
+        {
+          "native_way_id": "way/564255299",
+          "tags": {
+            "highway": "footway",
+            "layer": "-1",
+            "tunnel": "yes"
+          },
+          "geometry_inside_m": 26.341,
+          "source_node_ids": [
+            5436982345,
+            5436982341,
+            5021317155
+          ]
+        }
+      ],
+      "explicit_boundary_line_geometry_overlap_ids": [],
+      "registered_entrance_relations": [],
+      "source_layer": "1",
+      "interpretation": "GEOMETRIC_INVENTORY_ONLY_REQUIRES_CORE_TOPOLOGY_AND_LAYER_GATES"
+    },
+    {
+      "scene_id": "sh-library",
+      "space_native_id": "way/1160136226",
+      "near_area_foot_way_contacts": [
+        {
+          "native_way_id": "way/1160136220",
+          "tags": {
+            "highway": "pedestrian",
+            "surface": "paving_stones"
+          },
+          "shared_outer_nodes": [
+            10789601373
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        },
+        {
+          "native_way_id": "way/1160136221",
+          "tags": {
+            "highway": "footway",
+            "surface": "paved"
+          },
+          "shared_outer_nodes": [
+            10789601371,
+            10789601372
+          ],
+          "geometry_intersects_outer": true,
+          "native_topology": "SHARED_NODE",
+          "line_distance_m": 0.0,
+          "line_overlap_m": 0.0
+        }
+      ],
+      "explicit_shared_outer_nodes": [
+        10789601371,
+        10789601372,
+        10789601373
+      ],
+      "area_inner_line_objects": [
+        {
+          "native_way_id": "way/1160136220",
+          "tags": {
+            "highway": "pedestrian",
+            "surface": "paving_stones"
+          },
+          "geometry_inside_m": 43.8061,
+          "source_node_ids": [
+            10789601324,
+            10789601373,
+            10789601341,
+            10789601342
+          ]
+        },
+        {
+          "native_way_id": "way/1160136221",
+          "tags": {
+            "highway": "footway",
+            "surface": "paved"
+          },
+          "geometry_inside_m": 3.181,
+          "source_node_ids": [
+            10789601342,
+            10789601371,
+            10789601353,
+            10789601343,
+            10789601344,
+            10789601345,
+            10789601346,
+            10789601347,
+            10789601348,
+            10789601349,
+            10789601350,
+            10789601351,
+            10789601372,
+            10789601352
+          ]
+        },
+        {
+          "native_way_id": "way/1160136222",
+          "tags": {
+            "highway": "pedestrian",
+            "surface": "paving_stones"
+          },
+          "geometry_inside_m": 10.6809,
+          "source_node_ids": [
+            10789601341,
+            10789601352
+          ]
+        }
+      ],
+      "explicit_boundary_line_geometry_overlap_ids": [],
+      "registered_entrance_relations": [
+        {
+          "native_id": "node/11300000483",
+          "eligible": true,
+          "shared_outer_node": false,
+          "distance_to_area_boundary_m": 153.5297
+        }
+      ],
+      "source_layer": "UNSPECIFIED",
+      "interpretation": "GEOMETRIC_INVENTORY_ONLY_REQUIRES_CORE_TOPOLOGY_AND_LAYER_GATES"
+    }
+  ]
+}

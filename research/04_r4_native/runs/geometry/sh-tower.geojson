@@ -1,0 +1,5247 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.50257950000001,
+              31.235237299999998
+            ],
+            [
+              121.5026378,
+              31.235251000000005
+            ],
+            [
+              121.50266620000001,
+              31.23525769999998
+            ],
+            [
+              121.5026927,
+              31.235189599999995
+            ],
+            [
+              121.50275110000001,
+              31.235156300000003
+            ],
+            [
+              121.5028361,
+              31.23513359999999
+            ],
+            [
+              121.5029051,
+              31.23513359999999
+            ],
+            [
+              121.50290830000002,
+              31.235120900000002
+            ],
+            [
+              121.50293950000001,
+              31.2349968
+            ],
+            [
+              121.5028506,
+              31.23497909999999
+            ],
+            [
+              121.50277590000002,
+              31.23498989999999
+            ],
+            [
+              121.50268689999999,
+              31.235027300000002
+            ],
+            [
+              121.50263370000002,
+              31.235088499999993
+            ],
+            [
+              121.5026171,
+              31.235124100000004
+            ],
+            [
+              121.5026015,
+              31.235157300000008
+            ],
+            [
+              121.50257950000001,
+              31.235237299999998
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "open_space",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "status": "OBSERVED",
+        "evidence": "NATIVE_AREA_GEOMETRY",
+        "reason": null,
+        "variant": "ALL",
+        "area_m2": 542.2421762778339
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50290830000002,
+          31.235120900000002
+        ]
+      },
+      "properties": {
+        "kind": "access_candidate",
+        "native_ids": [
+          "way/965081081",
+          "node/8927684299",
+          "way/965081082"
+        ],
+        "space_id": "way/965081081",
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+        "reason": "B0_ORIGIN_REACHABLE",
+        "distance_m": 0.0,
+        "reachable_from_start": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5026378,
+          31.235251000000005
+        ]
+      },
+      "properties": {
+        "kind": "access_candidate",
+        "native_ids": [
+          "way/965081081",
+          "node/8927684300",
+          "way/965081083"
+        ],
+        "space_id": "way/965081081",
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+        "reason": "B0_ORIGIN_REACHABLE",
+        "distance_m": 0.0,
+        "reachable_from_start": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5026171,
+          31.235124100000004
+        ]
+      },
+      "properties": {
+        "kind": "access_candidate",
+        "native_ids": [
+          "way/965081081",
+          "node/8927684303",
+          "way/1300193605"
+        ],
+        "space_id": "way/965081081",
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "B0_NATIVE_NODE_ON_PERIMETER",
+        "reason": "B0_ORIGIN_REACHABLE",
+        "distance_m": 0.0,
+        "reachable_from_start": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.50257950000001,
+            31.235237299999998
+          ],
+          [
+            121.5026378,
+            31.235251000000005
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge0",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026378,
+            31.235251000000005
+          ],
+          [
+            121.50266620000001,
+            31.23525769999998
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge1",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.50266620000001,
+            31.23525769999998
+          ],
+          [
+            121.5026927,
+            31.235189599999995
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge2",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026927,
+            31.235189599999995
+          ],
+          [
+            121.50275110000001,
+            31.235156300000003
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge3",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.50275110000001,
+            31.235156300000003
+          ],
+          [
+            121.5028361,
+            31.23513359999999
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge4",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5028361,
+            31.23513359999999
+          ],
+          [
+            121.5029051,
+            31.23513359999999
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge5",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5029051,
+            31.23513359999999
+          ],
+          [
+            121.50290830000002,
+            31.235120900000002
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge6",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.50290830000002,
+            31.235120900000002
+          ],
+          [
+            121.50293950000001,
+            31.2349968
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge7",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.50293950000001,
+            31.2349968
+          ],
+          [
+            121.5028506,
+            31.23497909999999
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge8",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5028506,
+            31.23497909999999
+          ],
+          [
+            121.50277590000002,
+            31.23498989999999
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge9",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.50277590000002,
+            31.23498989999999
+          ],
+          [
+            121.50268689999999,
+            31.235027300000002
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge10",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.50268689999999,
+            31.235027300000002
+          ],
+          [
+            121.50263370000002,
+            31.235088499999993
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge11",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.50263370000002,
+            31.235088499999993
+          ],
+          [
+            121.5026171,
+            31.235124100000004
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge12",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026171,
+            31.235124100000004
+          ],
+          [
+            121.5026015,
+            31.235157300000008
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge13",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026015,
+            31.235157300000008
+          ],
+          [
+            121.50257950000001,
+            31.235237299999998
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "boundary_candidate",
+        "native_ids": [
+          "way/965081081"
+        ],
+        "space_id": "way/965081081",
+        "variant": "B1",
+        "status": "REJECTED",
+        "evidence": "NATIVE_RING_GEOMETRY_ONLY",
+        "reason": "UNSUPPORTED_BOUNDARY",
+        "edge_id": "way/965081081:ring0:edge14",
+        "distance_m": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5029083,
+            31.2351209
+          ],
+          [
+            121.5027777,
+            31.2350943
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "edge_evidence",
+        "variant": "B2",
+        "native_ids": [
+          "way/965081081",
+          "way/965081082",
+          "node/8927684299",
+          "node/8927684305"
+        ],
+        "status": "ALREADY_IN_B0",
+        "reason": "ALREADY_IN_B0",
+        "evidence": "EXPLICIT_NATIVE_WALK_LINE",
+        "distance_m": 0.0,
+        "edge_id": "way/965081081:way/965081082:1",
+        "length_m": 12.786911232907666,
+        "obstacle_ids": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027777,
+            31.2350943
+          ],
+          [
+            121.502737,
+            31.2350911
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "edge_evidence",
+        "variant": "B2",
+        "native_ids": [
+          "way/965081081",
+          "way/965081082",
+          "node/8927684305",
+          "node/8927684307"
+        ],
+        "status": "ALREADY_IN_B0",
+        "reason": "ALREADY_IN_B0",
+        "evidence": "EXPLICIT_NATIVE_WALK_LINE",
+        "distance_m": 5.811417054059729,
+        "edge_id": "way/965081081:way/965081082:2",
+        "length_m": 3.893653278572704,
+        "obstacle_ids": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.502737,
+            31.2350911
+          ],
+          [
+            121.5027034,
+            31.2351079
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "edge_evidence",
+        "variant": "B2",
+        "native_ids": [
+          "way/965081081",
+          "way/965081082",
+          "node/8927684307",
+          "node/8927684306"
+        ],
+        "status": "ALREADY_IN_B0",
+        "reason": "ALREADY_IN_B0",
+        "evidence": "EXPLICIT_NATIVE_WALK_LINE",
+        "distance_m": 6.606218778043398,
+        "edge_id": "way/965081081:way/965081082:3",
+        "length_m": 3.70354402025776,
+        "obstacle_ids": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027034,
+            31.2351079
+          ],
+          [
+            121.5026774,
+            31.2351366
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "edge_evidence",
+        "variant": "B2",
+        "native_ids": [
+          "way/965081081",
+          "way/965081082",
+          "node/8927684306",
+          "node/8927684304"
+        ],
+        "status": "ALREADY_IN_B0",
+        "reason": "ALREADY_IN_B0",
+        "evidence": "EXPLICIT_NATIVE_WALK_LINE",
+        "distance_m": 5.701401414225959,
+        "edge_id": "way/965081081:way/965081082:4",
+        "length_m": 4.032503539559031,
+        "obstacle_ids": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026774,
+            31.2351366
+          ],
+          [
+            121.5026378,
+            31.235251
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "edge_evidence",
+        "variant": "B2",
+        "native_ids": [
+          "way/965081081",
+          "way/965081083",
+          "node/8927684304",
+          "node/8927684300"
+        ],
+        "status": "ALREADY_IN_B0",
+        "reason": "ALREADY_IN_B0",
+        "evidence": "EXPLICIT_NATIVE_WALK_LINE",
+        "distance_m": 0.0,
+        "edge_id": "way/965081081:way/965081083:0",
+        "length_m": 13.233102748920844,
+        "obstacle_ids": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026171,
+            31.2351241
+          ],
+          [
+            121.5026774,
+            31.2351366
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "edge_evidence",
+        "variant": "B2",
+        "native_ids": [
+          "way/965081081",
+          "way/1300193605",
+          "node/8927684303",
+          "node/8927684304"
+        ],
+        "status": "ALREADY_IN_B0",
+        "reason": "ALREADY_IN_B0",
+        "evidence": "EXPLICIT_NATIVE_WALK_LINE",
+        "distance_m": 0.0,
+        "edge_id": "way/965081081:way/1300193605:3",
+        "length_m": 5.9095408181033395,
+        "obstacle_ids": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4989962,
+          31.2367947
+        ]
+      },
+      "properties": {
+        "kind": "origin",
+        "native_ids": [
+          "node/12110067788"
+        ],
+        "status": "OBSERVED",
+        "evidence": "FROZEN_SOURCE_ORIGIN",
+        "variant": "ALL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5007275,
+              31.2354993
+            ],
+            [
+              121.5007601,
+              31.2354319
+            ],
+            [
+              121.500802,
+              31.2353455
+            ],
+            [
+              121.5008716,
+              31.2353243
+            ],
+            [
+              121.500846,
+              31.2352592
+            ],
+            [
+              121.5009721,
+              31.2352198
+            ],
+            [
+              121.5011559,
+              31.235189
+            ],
+            [
+              121.5013239,
+              31.2351902
+            ],
+            [
+              121.501398,
+              31.2351991
+            ],
+            [
+              121.5014697,
+              31.2352127
+            ],
+            [
+              121.5016027,
+              31.2352433
+            ],
+            [
+              121.501674,
+              31.2352732
+            ],
+            [
+              121.5017446,
+              31.2353027
+            ],
+            [
+              121.5017848,
+              31.2353453
+            ],
+            [
+              121.501806,
+              31.2353988
+            ],
+            [
+              121.5017965,
+              31.2354427
+            ],
+            [
+              121.5017866,
+              31.235488
+            ],
+            [
+              121.5017632,
+              31.2355247
+            ],
+            [
+              121.5017289,
+              31.2355784
+            ],
+            [
+              121.5016592,
+              31.2356876
+            ],
+            [
+              121.5015721,
+              31.2358244
+            ],
+            [
+              121.5014693,
+              31.2359357
+            ],
+            [
+              121.5013968,
+              31.2360115
+            ],
+            [
+              121.5013308,
+              31.2360492
+            ],
+            [
+              121.5012621,
+              31.2360316
+            ],
+            [
+              121.5012357,
+              31.2360155
+            ],
+            [
+              121.5011838,
+              31.2359839
+            ],
+            [
+              121.5010465,
+              31.2358859
+            ],
+            [
+              121.5008579,
+              31.235698
+            ],
+            [
+              121.5007998,
+              31.2356117
+            ],
+            [
+              121.5007275,
+              31.2354993
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "building",
+        "native_ids": [
+          "way/165792123"
+        ],
+        "status": "OBSERVED",
+        "evidence": "FROZEN_FOOTPRINT",
+        "variant": "ALL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50050240685164,
+          31.235444748923324
+        ]
+      },
+      "properties": {
+        "kind": "route_end",
+        "native_ids": [
+          "way/961634152"
+        ],
+        "status": "FROZEN_NEAREST_NETWORK_POINT",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "distance_m": 22.280971814572304,
+        "variant": "B0_DIAGNOSTIC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.498996,
+            31.236795
+          ],
+          [
+            121.499131,
+            31.23679
+          ],
+          [
+            121.499181,
+            31.236818
+          ],
+          [
+            121.499218,
+            31.236666
+          ],
+          [
+            121.499236,
+            31.236565
+          ],
+          [
+            121.499252,
+            31.236431
+          ],
+          [
+            121.499287,
+            31.236411
+          ],
+          [
+            121.499347,
+            31.236335
+          ],
+          [
+            121.499461,
+            31.236341
+          ],
+          [
+            121.49966,
+            31.236356
+          ],
+          [
+            121.499806,
+            31.236355
+          ],
+          [
+            121.49988,
+            31.236311
+          ],
+          [
+            121.499891,
+            31.236214
+          ],
+          [
+            121.499957,
+            31.23593
+          ],
+          [
+            121.499954,
+            31.235844
+          ],
+          [
+            121.499959,
+            31.235799
+          ],
+          [
+            121.499964,
+            31.235757
+          ],
+          [
+            121.499979,
+            31.235711
+          ],
+          [
+            121.500007,
+            31.235668
+          ],
+          [
+            121.500019,
+            31.235614
+          ],
+          [
+            121.500118,
+            31.235624
+          ],
+          [
+            121.500212,
+            31.235596
+          ],
+          [
+            121.500293,
+            31.23559
+          ],
+          [
+            121.50037,
+            31.235594
+          ],
+          [
+            121.500452,
+            31.235623
+          ],
+          [
+            121.500482,
+            31.235506
+          ],
+          [
+            121.500503,
+            31.235444
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "route",
+        "variant": "HOSTED",
+        "native_ids": [],
+        "status": "HISTORICAL_HOSTED_SERVICE",
+        "evidence": "PRESERVED_HISTORICAL_GEOMETRY",
+        "distance_m": 22.24932954653573
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.500503,
+          31.235444
+        ]
+      },
+      "properties": {
+        "kind": "route_end",
+        "variant": "HOSTED",
+        "native_ids": [],
+        "status": "HISTORICAL_HOSTED_SERVICE",
+        "evidence": "PRESERVED_HISTORICAL_GEOMETRY",
+        "distance_m": 22.24932954653573
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.4989962,
+            31.2367947
+          ],
+          [
+            121.4991308,
+            31.2367905
+          ],
+          [
+            121.499181,
+            31.2368177
+          ],
+          [
+            121.4992178,
+            31.2366664
+          ],
+          [
+            121.4992358,
+            31.2365647
+          ],
+          [
+            121.4992517,
+            31.2364314
+          ],
+          [
+            121.4992873,
+            31.2364112
+          ],
+          [
+            121.4993465,
+            31.236335
+          ],
+          [
+            121.4994614,
+            31.2363408
+          ],
+          [
+            121.4996603,
+            31.2363559
+          ],
+          [
+            121.4998059,
+            31.2363546
+          ],
+          [
+            121.4998629,
+            31.2363876
+          ],
+          [
+            121.4999204,
+            31.2363944
+          ],
+          [
+            121.4999429,
+            31.2363903
+          ],
+          [
+            121.4999604,
+            31.2363761
+          ],
+          [
+            121.5000951,
+            31.2362253
+          ],
+          [
+            121.5001496,
+            31.2361566
+          ],
+          [
+            121.5002021,
+            31.2360863
+          ],
+          [
+            121.5002378,
+            31.2360219
+          ],
+          [
+            121.5002715,
+            31.2359423
+          ],
+          [
+            121.5002888,
+            31.2358733
+          ],
+          [
+            121.5003022,
+            31.2358077
+          ],
+          [
+            121.5003595,
+            31.2357923
+          ],
+          [
+            121.500421,
+            31.2357469
+          ],
+          [
+            121.5004384,
+            31.2356929
+          ],
+          [
+            121.5004423,
+            31.235673
+          ],
+          [
+            121.5004519,
+            31.2356235
+          ],
+          [
+            121.5004824,
+            31.2355057
+          ],
+          [
+            121.50050240685164,
+            31.235444748923324
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "route",
+        "variant": "B0_FROZEN",
+        "native_ids": [],
+        "status": "FROZEN_NEAR_NETWORK_ROUTE",
+        "evidence": "FROZEN_PROFILE_REPLAY",
+        "distance_m": 22.280971814572304
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.502472,
+            31.23538
+          ],
+          [
+            121.5025905,
+            31.2354046
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061741",
+          "node/1784682716",
+          "node/8927684301"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5025905,
+            31.2354046
+          ],
+          [
+            121.5026736,
+            31.2354218
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061741",
+          "node/8927684301",
+          "node/1784682754"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026736,
+            31.2354218
+          ],
+          [
+            121.5027631,
+            31.2354503
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061741",
+          "node/1784682754",
+          "node/1784682709"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027188,
+            31.2356047
+          ],
+          [
+            121.5026845,
+            31.2356027
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682755",
+          "node/1784682718"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026845,
+            31.2356027
+          ],
+          [
+            121.5026531,
+            31.2355909
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682718",
+          "node/1784682753"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026531,
+            31.2355909
+          ],
+          [
+            121.5026283,
+            31.2355706
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682753",
+          "node/1784682682"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026283,
+            31.2355706
+          ],
+          [
+            121.5026131,
+            31.2355442
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682682",
+          "node/1784682752"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026131,
+            31.2355442
+          ],
+          [
+            121.5026094,
+            31.2355151
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682752",
+          "node/1784682674"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026094,
+            31.2355151
+          ],
+          [
+            121.5026176,
+            31.2354865
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682674",
+          "node/1784682680"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026176,
+            31.2354865
+          ],
+          [
+            121.5026265,
+            31.2354729
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682680",
+          "node/1784682750"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026265,
+            31.2354729
+          ],
+          [
+            121.5026505,
+            31.2354519
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682750",
+          "node/1784682707"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026505,
+            31.2354519
+          ],
+          [
+            121.5026814,
+            31.2354392
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682707",
+          "node/1784682675"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026814,
+            31.2354392
+          ],
+          [
+            121.5027156,
+            31.2354363
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682675",
+          "node/1784682685"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027156,
+            31.2354363
+          ],
+          [
+            121.5027631,
+            31.2354503
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682685",
+          "node/1784682709"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027631,
+            31.2354503
+          ],
+          [
+            121.5027879,
+            31.2354707
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682709",
+          "node/1784682714"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027879,
+            31.2354707
+          ],
+          [
+            121.502803,
+            31.235497
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682714",
+          "node/1784682690"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.502803,
+            31.235497
+          ],
+          [
+            121.5028068,
+            31.2355262
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682690",
+          "node/1784682722"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5028068,
+            31.2355262
+          ],
+          [
+            121.5027986,
+            31.2355547
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682722",
+          "node/1784682747"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027986,
+            31.2355547
+          ],
+          [
+            121.5027795,
+            31.2355791
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682747",
+          "node/1784682727"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027795,
+            31.2355791
+          ],
+          [
+            121.5027518,
+            31.2355965
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682727",
+          "node/1784682720"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027518,
+            31.2355965
+          ],
+          [
+            121.5027188,
+            31.2356047
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/167061751",
+          "node/1784682720",
+          "node/1784682755"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5023015,
+            31.2355267
+          ],
+          [
+            121.5020783,
+            31.2355043
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634149",
+          "node/8895305842",
+          "node/8895305843"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.501877,
+            31.2354148
+          ],
+          [
+            121.501907,
+            31.235394
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305854",
+          "node/8895305855"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.501907,
+            31.235394
+          ],
+          [
+            121.5019432,
+            31.2353827
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305855",
+          "node/8895305856"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5019432,
+            31.2353827
+          ],
+          [
+            121.5019818,
+            31.2353821
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305856",
+          "node/8895305857"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5019818,
+            31.2353821
+          ],
+          [
+            121.5020186,
+            31.2353923
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305857",
+          "node/8895305858"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5020186,
+            31.2353923
+          ],
+          [
+            121.5020494,
+            31.2354121
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305858",
+          "node/8895305859"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5020494,
+            31.2354121
+          ],
+          [
+            121.502071,
+            31.2354395
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305859",
+          "node/8895305860"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.502071,
+            31.2354395
+          ],
+          [
+            121.502081,
+            31.2354714
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305860",
+          "node/8895305861"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.502081,
+            31.2354714
+          ],
+          [
+            121.5020783,
+            31.2355043
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305861",
+          "node/8895305843"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5020783,
+            31.2355043
+          ],
+          [
+            121.5020633,
+            31.2355345
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305843",
+          "node/8895305844"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5020633,
+            31.2355345
+          ],
+          [
+            121.5020378,
+            31.235559
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305844",
+          "node/8895305847"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5020378,
+            31.235559
+          ],
+          [
+            121.5020043,
+            31.235575
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305847",
+          "node/8895305848"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5020043,
+            31.235575
+          ],
+          [
+            121.5019666,
+            31.2355809
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305848",
+          "node/8895305849"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5019666,
+            31.2355809
+          ],
+          [
+            121.5019287,
+            31.2355761
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305849",
+          "node/8895305850"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5019287,
+            31.2355761
+          ],
+          [
+            121.5018946,
+            31.235561
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305850",
+          "node/8895305851"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5018946,
+            31.235561
+          ],
+          [
+            121.5018681,
+            31.2355373
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305851",
+          "node/8895305852"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5018681,
+            31.2355373
+          ],
+          [
+            121.5018519,
+            31.2355076
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305852",
+          "node/8895305853"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5018519,
+            31.2355076
+          ],
+          [
+            121.5018479,
+            31.235475
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305853",
+          "node/8895305845"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5018479,
+            31.235475
+          ],
+          [
+            121.5018566,
+            31.2354428
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305845",
+          "node/8895305846"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5018566,
+            31.2354428
+          ],
+          [
+            121.501877,
+            31.2354148
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634150",
+          "node/8895305846",
+          "node/8895305854"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 28,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5012853,
+            31.2350816
+          ],
+          [
+            121.501386,
+            31.2350921
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634152",
+          "node/8895305893",
+          "node/8895305886"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.501386,
+            31.2350921
+          ],
+          [
+            121.5015662,
+            31.2351265
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634152",
+          "node/8895305886",
+          "node/8895305863"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5015662,
+            31.2351265
+          ],
+          [
+            121.5016367,
+            31.235148
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634152",
+          "node/8895305863",
+          "node/8895305894"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5016367,
+            31.235148
+          ],
+          [
+            121.5017004,
+            31.2351811
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634152",
+          "node/8895305894",
+          "node/8895305887"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5017004,
+            31.2351811
+          ],
+          [
+            121.5017536,
+            31.2352169
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634152",
+          "node/8895305887",
+          "node/8895305895"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5017536,
+            31.2352169
+          ],
+          [
+            121.5018034,
+            31.2352586
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634152",
+          "node/8895305895",
+          "node/8895305862"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5018034,
+            31.2352586
+          ],
+          [
+            121.5018603,
+            31.2353234
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634152",
+          "node/8895305862",
+          "node/8895305896"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5018603,
+            31.2353234
+          ],
+          [
+            121.501907,
+            31.235394
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634152",
+          "node/8895305896",
+          "node/8895305855"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5013263,
+            31.2348956
+          ],
+          [
+            121.5014091,
+            31.234903
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321560",
+          "node/8895321573"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5014091,
+            31.234903
+          ],
+          [
+            121.5014919,
+            31.2349015
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321573",
+          "node/8895321561"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5014919,
+            31.2349015
+          ],
+          [
+            121.501598,
+            31.2348934
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321561",
+          "node/8895321572"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.501598,
+            31.2348934
+          ],
+          [
+            121.5016937,
+            31.2348794
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321572",
+          "node/8895321562"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5016937,
+            31.2348794
+          ],
+          [
+            121.5018283,
+            31.234869
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321562",
+          "node/8895321563"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5018283,
+            31.234869
+          ],
+          [
+            121.5019051,
+            31.2348713
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321563",
+          "node/8895321571"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5019051,
+            31.2348713
+          ],
+          [
+            121.5019818,
+            31.2348853
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321571",
+          "node/8895321564"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5019818,
+            31.2348853
+          ],
+          [
+            121.5020517,
+            31.2349052
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321564",
+          "node/8895321569"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5020517,
+            31.2349052
+          ],
+          [
+            121.5021147,
+            31.2349369
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321569",
+          "node/8895321565"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5021147,
+            31.2349369
+          ],
+          [
+            121.5021871,
+            31.2349863
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321565",
+          "node/8895321570"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5021871,
+            31.2349863
+          ],
+          [
+            121.5022699,
+            31.2350298
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321570",
+          "node/8895321566"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5022699,
+            31.2350298
+          ],
+          [
+            121.502351,
+            31.2350638
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961634159",
+          "node/8895321566",
+          "node/8895321567"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027795,
+            31.2355791
+          ],
+          [
+            121.5028784,
+            31.2358723
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/1784682727",
+          "node/8895364620"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5028784,
+            31.2358723
+          ],
+          [
+            121.5029378,
+            31.2360993
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364620",
+          "node/8895364621"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5029378,
+            31.2360993
+          ],
+          [
+            121.5029467,
+            31.2361501
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364621",
+          "node/8895364626"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5029467,
+            31.2361501
+          ],
+          [
+            121.5029358,
+            31.2361976
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364626",
+          "node/8895364622"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5029358,
+            31.2361976
+          ],
+          [
+            121.5029051,
+            31.2362323
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364622",
+          "node/8895364625"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5029051,
+            31.2362323
+          ],
+          [
+            121.5028506,
+            31.2362399
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364625",
+          "node/8895364623"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5028506,
+            31.2362399
+          ],
+          [
+            121.5026564,
+            31.2362247
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364623",
+          "node/8895364624"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026564,
+            31.2362247
+          ],
+          [
+            121.5026078,
+            31.2362086
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364624",
+          "node/8895364632"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026078,
+            31.2362086
+          ],
+          [
+            121.5025633,
+            31.2361806
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364632",
+          "node/8895364627"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5025633,
+            31.2361806
+          ],
+          [
+            121.5025286,
+            31.2361425
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364627",
+          "node/8895364631"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5025286,
+            31.2361425
+          ],
+          [
+            121.5025177,
+            31.2360858
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364631",
+          "node/8895364628"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5025177,
+            31.2360858
+          ],
+          [
+            121.5025256,
+            31.2360298
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364628",
+          "node/8895364630"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5025256,
+            31.2360298
+          ],
+          [
+            121.5025415,
+            31.2359739
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364630",
+          "node/8895364629"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5025415,
+            31.2359739
+          ],
+          [
+            121.5026531,
+            31.2355909
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638136",
+          "node/8895364629",
+          "node/1784682753"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 38,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5024503,
+            31.2363524
+          ],
+          [
+            121.5024743,
+            31.2362742
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638138",
+          "node/8895364634",
+          "node/8895364645"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5024743,
+            31.2362742
+          ],
+          [
+            121.5025089,
+            31.2362189
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638138",
+          "node/8895364645",
+          "node/8895364646"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5025089,
+            31.2362189
+          ],
+          [
+            121.5025633,
+            31.2361806
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/961638138",
+          "node/8895364646",
+          "node/8895364627"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5036929,
+            31.235148
+          ],
+          [
+            121.5036328,
+            31.2353168
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/965081079",
+          "node/8927684277",
+          "node/8927684298"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5036328,
+            31.2353168
+          ],
+          [
+            121.5036124,
+            31.235374
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/965081079",
+          "node/8927684298",
+          "node/8927684278"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "SHARED_STREET_ASSUMPTION",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5036328,
+            31.2353168
+          ],
+          [
+            121.5029083,
+            31.2351209
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/965081082",
+          "node/8927684298",
+          "node/8927684299"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5029083,
+            31.2351209
+          ],
+          [
+            121.5027777,
+            31.2350943
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/965081082",
+          "node/8927684299",
+          "node/8927684305"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027777,
+            31.2350943
+          ],
+          [
+            121.502737,
+            31.2350911
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/965081082",
+          "node/8927684305",
+          "node/8927684307"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.502737,
+            31.2350911
+          ],
+          [
+            121.5027034,
+            31.2351079
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/965081082",
+          "node/8927684307",
+          "node/8927684306"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5027034,
+            31.2351079
+          ],
+          [
+            121.5026774,
+            31.2351366
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/965081082",
+          "node/8927684306",
+          "node/8927684304"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026774,
+            31.2351366
+          ],
+          [
+            121.5026378,
+            31.235251
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/965081083",
+          "node/8927684304",
+          "node/8927684300"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026378,
+            31.235251
+          ],
+          [
+            121.5025905,
+            31.2354046
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/965081083",
+          "node/8927684300",
+          "node/8927684301"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.502351,
+            31.2350638
+          ],
+          [
+            121.5024309,
+            31.235083
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/1300193605",
+          "node/8895321567",
+          "node/8895321568"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5024309,
+            31.235083
+          ],
+          [
+            121.5025496,
+            31.2351113
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/1300193605",
+          "node/8895321568",
+          "node/8927684302"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5025496,
+            31.2351113
+          ],
+          [
+            121.5026171,
+            31.2351241
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/1300193605",
+          "node/8927684302",
+          "node/8927684303"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            121.5026171,
+            31.2351241
+          ],
+          [
+            121.5026774,
+            31.2351366
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "b0_network",
+        "native_ids": [
+          "way/1300193605",
+          "node/8927684303",
+          "node/8927684304"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED_IN_B0",
+        "evidence": "MAPPED_PEDESTRIAN_WAY",
+        "component_id": 1,
+        "native_direction": [
+          1,
+          -1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.50269800000001,
+              31.2368214
+            ],
+            [
+              121.50283630000001,
+              31.23683189999999
+            ],
+            [
+              121.50304570000002,
+              31.236847700000002
+            ],
+            [
+              121.5032097,
+              31.23686010000001
+            ],
+            [
+              121.50332749999998,
+              31.236868999999995
+            ],
+            [
+              121.50333799999999,
+              31.2367679
+            ],
+            [
+              121.50335239999998,
+              31.236628900000003
+            ],
+            [
+              121.5033831,
+              31.236332299999997
+            ],
+            [
+              121.503035,
+              31.236305900000005
+            ],
+            [
+              121.5028799,
+              31.236294200000003
+            ],
+            [
+              121.5028721,
+              31.236293600000003
+            ],
+            [
+              121.5027536,
+              31.236284600000005
+            ],
+            [
+              121.5027432,
+              31.23638499999999
+            ],
+            [
+              121.5027287,
+              31.236524699999997
+            ],
+            [
+              121.50269800000001,
+              31.2368214
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "way/10691100"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "BUILDING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.50295270000001,
+              31.237244999999994
+            ],
+            [
+              121.5030491,
+              31.2372181
+            ],
+            [
+              121.5032711,
+              31.2371539
+            ],
+            [
+              121.50335110000002,
+              31.2371308
+            ],
+            [
+              121.5033755,
+              31.237123699999998
+            ],
+            [
+              121.50339770000001,
+              31.237117299999998
+            ],
+            [
+              121.50349909999998,
+              31.2370882
+            ],
+            [
+              121.5035547,
+              31.237072300000005
+            ],
+            [
+              121.50370750000002,
+              31.237028399999993
+            ],
+            [
+              121.50382219999999,
+              31.236995499999992
+            ],
+            [
+              121.50382760000001,
+              31.2368762
+            ],
+            [
+              121.5038727,
+              31.23687809999999
+            ],
+            [
+              121.5038727,
+              31.2368276
+            ],
+            [
+              121.50376540000002,
+              31.23682300000001
+            ],
+            [
+              121.5038115,
+              31.2358763
+            ],
+            [
+              121.50390539999998,
+              31.235763999999996
+            ],
+            [
+              121.50392900000001,
+              31.23576119999999
+            ],
+            [
+              121.5039295,
+              31.2356653
+            ],
+            [
+              121.50388880000001,
+              31.235662599999994
+            ],
+            [
+              121.50376810000002,
+              31.23562819999999
+            ],
+            [
+              121.5037439,
+              31.235697
+            ],
+            [
+              121.5035481,
+              31.235664900000003
+            ],
+            [
+              121.50298000000001,
+              31.235514000000002
+            ],
+            [
+              121.5029607,
+              31.23546079999999
+            ],
+            [
+              121.50298000000001,
+              31.235417599999998
+            ],
+            [
+              121.50277830000002,
+              31.235364399999998
+            ],
+            [
+              121.50275199999999,
+              31.2353832
+            ],
+            [
+              121.50286419999999,
+              31.23541489999999
+            ],
+            [
+              121.5029232,
+              31.2356396
+            ],
+            [
+              121.50284860000001,
+              31.2356241
+            ],
+            [
+              121.50290980000001,
+              31.235891899999995
+            ],
+            [
+              121.50290170000001,
+              31.236050200000005
+            ],
+            [
+              121.5028799,
+              31.236294200000003
+            ],
+            [
+              121.5033831,
+              31.236332299999997
+            ],
+            [
+              121.50332749999998,
+              31.236868999999995
+            ],
+            [
+              121.50283630000001,
+              31.23683189999999
+            ],
+            [
+              121.50282660000002,
+              31.2369492
+            ],
+            [
+              121.50259110000002,
+              31.237250099999997
+            ],
+            [
+              121.5026179,
+              31.237282199999996
+            ],
+            [
+              121.5028829,
+              31.236983599999995
+            ],
+            [
+              121.50295800000002,
+              31.237015700000004
+            ],
+            [
+              121.50292960000002,
+              31.237107700000006
+            ],
+            [
+              121.5029076,
+              31.237179000000005
+            ],
+            [
+              121.50295270000001,
+              31.237244999999994
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "way/165591946"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "BUILDING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.50072749999998,
+              31.235499299999997
+            ],
+            [
+              121.5007601,
+              31.23543189999999
+            ],
+            [
+              121.500802,
+              31.2353455
+            ],
+            [
+              121.5008716,
+              31.235324300000006
+            ],
+            [
+              121.50084599999998,
+              31.235259199999998
+            ],
+            [
+              121.5009721,
+              31.2352198
+            ],
+            [
+              121.50115589999999,
+              31.235189000000002
+            ],
+            [
+              121.50132389999999,
+              31.2351902
+            ],
+            [
+              121.50139800000001,
+              31.2351991
+            ],
+            [
+              121.50146969999999,
+              31.235212700000005
+            ],
+            [
+              121.5016027,
+              31.235243300000004
+            ],
+            [
+              121.50167400000001,
+              31.23527319999999
+            ],
+            [
+              121.50174459999998,
+              31.2353027
+            ],
+            [
+              121.50178479999998,
+              31.235345299999995
+            ],
+            [
+              121.50180600000002,
+              31.235398800000002
+            ],
+            [
+              121.5017965,
+              31.235442699999993
+            ],
+            [
+              121.5017866,
+              31.235487999999986
+            ],
+            [
+              121.5017632,
+              31.2355247
+            ],
+            [
+              121.50172889999999,
+              31.2355784
+            ],
+            [
+              121.50165920000002,
+              31.235687599999984
+            ],
+            [
+              121.5015721,
+              31.23582439999999
+            ],
+            [
+              121.5014693,
+              31.235935699999995
+            ],
+            [
+              121.50139680000001,
+              31.236011500000004
+            ],
+            [
+              121.5013308,
+              31.2360492
+            ],
+            [
+              121.5012621,
+              31.236031600000008
+            ],
+            [
+              121.50123570000001,
+              31.236015499999997
+            ],
+            [
+              121.5011838,
+              31.235983900000004
+            ],
+            [
+              121.5010465,
+              31.235885899999992
+            ],
+            [
+              121.50085790000001,
+              31.235697999999996
+            ],
+            [
+              121.50079979999998,
+              31.2356117
+            ],
+            [
+              121.50072749999998,
+              31.235499299999997
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "way/165792123"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "BUILDING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5038727,
+              31.2368276
+            ],
+            [
+              121.50387820000002,
+              31.236722699999998
+            ],
+            [
+              121.50392900000001,
+              31.23576119999999
+            ],
+            [
+              121.50390539999998,
+              31.235763999999996
+            ],
+            [
+              121.5038115,
+              31.2358763
+            ],
+            [
+              121.50376540000002,
+              31.23682300000001
+            ],
+            [
+              121.5038727,
+              31.2368276
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "way/167061753"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "RESTRICTED_SURFACE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.50385810000002,
+              31.2348521
+            ],
+            [
+              121.50403159999999,
+              31.234900800000005
+            ],
+            [
+              121.5041157,
+              31.234681800000004
+            ],
+            [
+              121.50394220000001,
+              31.23463309999999
+            ],
+            [
+              121.50385810000002,
+              31.2348521
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "way/415667888"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "BUILDING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.50277830000002,
+              31.235364399999998
+            ],
+            [
+              121.5028227,
+              31.23518419999999
+            ],
+            [
+              121.50291919999998,
+              31.23515900000001
+            ],
+            [
+              121.50328129999998,
+              31.235250699999998
+            ],
+            [
+              121.50328129999998,
+              31.2352897
+            ],
+            [
+              121.5036124,
+              31.235374
+            ],
+            [
+              121.50365080000002,
+              31.2353838
+            ],
+            [
+              121.50393850000002,
+              31.2354571
+            ],
+            [
+              121.50392509999999,
+              31.23549609999999
+            ],
+            [
+              121.5040833,
+              31.2355397
+            ],
+            [
+              121.5041376,
+              31.23556980000001
+            ],
+            [
+              121.50418250000001,
+              31.235603900000008
+            ],
+            [
+              121.504239,
+              31.235592699999994
+            ],
+            [
+              121.5042979,
+              31.235580999999993
+            ],
+            [
+              121.50433939999999,
+              31.235645399999996
+            ],
+            [
+              121.5043998,
+              31.2357392
+            ],
+            [
+              121.5042871,
+              31.235780499999997
+            ],
+            [
+              121.5042861,
+              31.235795099999997
+            ],
+            [
+              121.5042657,
+              31.236099299999992
+            ],
+            [
+              121.50433009999999,
+              31.236161199999998
+            ],
+            [
+              121.50437570000001,
+              31.2362254
+            ],
+            [
+              121.50437029999999,
+              31.236333200000004
+            ],
+            [
+              121.50435419999998,
+              31.23640659999999
+            ],
+            [
+              121.5043515,
+              31.236470799999985
+            ],
+            [
+              121.50437570000001,
+              31.23654420000001
+            ],
+            [
+              121.50436490000001,
+              31.236608399999998
+            ],
+            [
+              121.5043435,
+              31.236674899999993
+            ],
+            [
+              121.5043167,
+              31.236748300000002
+            ],
+            [
+              121.50427640000001,
+              31.236851499999997
+            ],
+            [
+              121.50427909999999,
+              31.236897399999997
+            ],
+            [
+              121.50428180000002,
+              31.236926099999998
+            ],
+            [
+              121.50427640000001,
+              31.236959300000002
+            ],
+            [
+              121.50426299999998,
+              31.236988
+            ],
+            [
+              121.50424160000001,
+              31.237012099999998
+            ],
+            [
+              121.50421879999999,
+              31.237030399999995
+            ],
+            [
+              121.5041892,
+              31.2370488
+            ],
+            [
+              121.50415169999998,
+              31.2370614
+            ],
+            [
+              121.50411010000002,
+              31.237064799999985
+            ],
+            [
+              121.50407390000001,
+              31.237062499999997
+            ],
+            [
+              121.50404039999998,
+              31.237052200000008
+            ],
+            [
+              121.50401149999999,
+              31.237037299999994
+            ],
+            [
+              121.5039867,
+              31.237016599999997
+            ],
+            [
+              121.5039639,
+              31.2369937
+            ],
+            [
+              121.5039519,
+              31.236968500000007
+            ],
+            [
+              121.5039438,
+              31.236941
+            ],
+            [
+              121.50394250000001,
+              31.236907699999993
+            ],
+            [
+              121.50394919999998,
+              31.2368756
+            ],
+            [
+              121.50396529999999,
+              31.23684640000001
+            ],
+            [
+              121.5039894,
+              31.2368148
+            ],
+            [
+              121.50400549999999,
+              31.236762099999996
+            ],
+            [
+              121.50387820000002,
+              31.236722699999998
+            ],
+            [
+              121.50392900000001,
+              31.23576119999999
+            ],
+            [
+              121.5039295,
+              31.2356653
+            ],
+            [
+              121.50388880000001,
+              31.235662599999994
+            ],
+            [
+              121.50376810000002,
+              31.23562819999999
+            ],
+            [
+              121.50298000000001,
+              31.235417599999998
+            ],
+            [
+              121.50277830000002,
+              31.235364399999998
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "way/957451688"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "BUILDING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5012967,
+              31.2342919
+            ],
+            [
+              121.50136100000002,
+              31.23416529999999
+            ],
+            [
+              121.5014356,
+              31.234147399999994
+            ],
+            [
+              121.5015169,
+              31.234135300000005
+            ],
+            [
+              121.50158600000002,
+              31.234126000000003
+            ],
+            [
+              121.5016552,
+              31.23412529999999
+            ],
+            [
+              121.5017584,
+              31.234128699999996
+            ],
+            [
+              121.5018076,
+              31.234119900000007
+            ],
+            [
+              121.50185000000002,
+              31.234093699999995
+            ],
+            [
+              121.50190110000001,
+              31.234079199999996
+            ],
+            [
+              121.50195910000001,
+              31.234082
+            ],
+            [
+              121.5020272,
+              31.234186999999995
+            ],
+            [
+              121.5019106,
+              31.234245200000004
+            ],
+            [
+              121.5018472,
+              31.2342729
+            ],
+            [
+              121.50178370000002,
+              31.234296200000003
+            ],
+            [
+              121.5017282,
+              31.234307899999997
+            ],
+            [
+              121.5016693,
+              31.23431949999999
+            ],
+            [
+              121.5016087,
+              31.234326799999995
+            ],
+            [
+              121.5015463,
+              31.23432979999999
+            ],
+            [
+              121.5014869,
+              31.234327599999997
+            ],
+            [
+              121.5014224,
+              31.234319500000005
+            ],
+            [
+              121.5012967,
+              31.2342919
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "way/961322834"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "BUILDING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.50365080000002,
+              31.2353838
+            ],
+            [
+              121.503675,
+              31.235313200000004
+            ],
+            [
+              121.5039123,
+              31.235373900000003
+            ],
+            [
+              121.50412610000001,
+              31.235431699999996
+            ],
+            [
+              121.5040833,
+              31.2355397
+            ],
+            [
+              121.50392509999999,
+              31.23549609999999
+            ],
+            [
+              121.50393850000002,
+              31.2354571
+            ],
+            [
+              121.50365080000002,
+              31.2353838
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "way/965081080"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "RESTRICTED_SURFACE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.50262930000001,
+              31.23615639999999
+            ],
+            [
+              121.502597,
+              31.236144799999987
+            ],
+            [
+              121.50256740000002,
+              31.236121599999997
+            ],
+            [
+              121.5025532,
+              31.236087999999988
+            ],
+            [
+              121.502555,
+              31.23605199999999
+            ],
+            [
+              121.5026081,
+              31.235873500000004
+            ],
+            [
+              121.5027231,
+              31.235882599999993
+            ],
+            [
+              121.5027461,
+              31.23564649999999
+            ],
+            [
+              121.50277270000001,
+              31.2356465
+            ],
+            [
+              121.5028842,
+              31.236067199999994
+            ],
+            [
+              121.50287539999998,
+              31.236103099999998
+            ],
+            [
+              121.5028452,
+              31.23613220000001
+            ],
+            [
+              121.5028139,
+              31.2361527
+            ],
+            [
+              121.50277440000002,
+              31.236164000000002
+            ],
+            [
+              121.5027019,
+              31.236169999999998
+            ],
+            [
+              121.50262930000001,
+              31.23615639999999
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "way/965081084"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "RESTRICTED_SURFACE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.50139680000001,
+              31.236011500000004
+            ],
+            [
+              121.5014693,
+              31.235935699999995
+            ],
+            [
+              121.5015721,
+              31.23582439999999
+            ],
+            [
+              121.50165920000002,
+              31.235687599999984
+            ],
+            [
+              121.5017306,
+              31.235695299999993
+            ],
+            [
+              121.50178260000001,
+              31.235721700000003
+            ],
+            [
+              121.5018122,
+              31.235769599999998
+            ],
+            [
+              121.5017981,
+              31.2358398
+            ],
+            [
+              121.5017618,
+              31.2359103
+            ],
+            [
+              121.5016993,
+              31.235946
+            ],
+            [
+              121.50162980000002,
+              31.2359749
+            ],
+            [
+              121.50147930000001,
+              31.2360003
+            ],
+            [
+              121.50139680000001,
+              31.236011500000004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "way/967281058"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "BUILDING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50267660000002,
+          31.234127500000003
+        ]
+      },
+      "properties": {
+        "kind": "obstacle",
+        "native_ids": [
+          "node/8892616415"
+        ],
+        "variant": "ALL",
+        "status": "OBSERVED",
+        "evidence": "RESTRICTED_NODE"
+      }
+    }
+  ]
+}
