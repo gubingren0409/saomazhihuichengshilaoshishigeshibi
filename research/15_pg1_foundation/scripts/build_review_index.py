@@ -1,0 +1,22 @@
+"""Local-only human review overview, built from actual private machine records."""
+from pathlib import Path
+import json,html,datetime,csv
+ROOT=Path(__file__).resolve().parents[1]
+def h(s):return html.escape(str(s))
+def main():
+ records=json.loads((ROOT/'audit/baseline_registry_private.json').read_text(encoding='utf-8'))['artifacts'];rows=''.join('<tr><td>'+h(r['artifact_id'])+'</td><td>'+h(r['verification'])+'</td><td>'+h(r['role'])+'</td><td><code>'+h(r['sha256'])+'</code></td></tr>'for r in records)
+ page='''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PG1 · 基础审查</title><style>body{font:16px/1.75 system-ui,"Microsoft YaHei",sans-serif;background:#FCFAF7;color:#2D3238;max-width:1280px;margin:auto;padding:28px}a{color:#327a9b}h1{font-size:28px}h2{margin-top:32px}nav{display:flex;gap:22px;flex-wrap:wrap;padding:20px 0;border-block:1px solid #DDE3E7}.note{background:#F5D9B8;padding:16px}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid #DDE3E7;text-align:left;padding:10px;vertical-align:top}code{font-size:11px;overflow-wrap:anywhere}.scroll{overflow:auto}img{max-width:100%;height:auto}article{padding:16px 0}small{color:#70757A}</style><h1>PG1：地图保真、独立数据与持续算法研究</h1><p class="note">当前仅完成初始化基础轮，等待 G0 / G1 / G2 的 GPT 与用户审核。没有首次公开 Push，没有冻结或使用 Blind Test，也不代表整个 Parent Goal 已完成。</p><nav><a href="phase1/index.html">六开发场景：真实原始/导入/路由/旧显示</a><a href="phase2/index.html">非校园候选地图图册与数据契约</a><a href="audit/baseline_registry_private.csv">历史接管表 CSV</a><a href="track_a/TA-PG1-01/results.csv">Track A 本轮真实8次结果</a><a href="reviews/INDEPENDENT_REVIEW.md">独立审核</a></nav><h2>先审查哪些内容</h2><ol><li>G0：个人空仓库与本机推送权限已核实；仅 dry-run。最终精确文件清单、逐文件 SHA、安全与许可审核随固定交付提供，首次 Push 等待批准。</li><li>G1：对六个冻结裁片追踪原始对象、语义导入、路由准入和显示。原生车行线与可走边分别显示；未登记的道路面、路宽和过街设施不补造。</li><li>G2：仅小样本公开来源预览与许可/字段检查。图册明确区分真实矢量街区和仅 metadata 范围；候选已暴露，不能改称新的盲测。</li></ol><h2>六场景同尺度地图</h2><p>点图进入完整图层对照。路线为 SHA 绑定的历史实跑结果；本页面切换不调用求解器。</p>'''
+ for scene,label in[('sh-huangpu-01','上海博物馆'),('sh-wukang','武康大楼'),('sh-tower','上海中心'),('sh-newworld','商业街区'),('sh-library','上海图书馆'),('sh-exhibition','展览中心')]:
+  page+='<article><h3>'+h(label)+' · '+h(scene)+'</h3><a href="phase1/index.html"><img loading="lazy" src="phase1/maps/'+scene+'.png" alt="'+h(label)+'真实源与当前输出同尺度对照"></a></article>'
+ page+='''<h2>本轮 Track A：没有暂停，但保留负结果</h2><p>在现有暴露开发图上实际运行8个固定请求，只比较标量与批处理的平行选项成本构建。F0/F1区域、图、端点与有限代价未变；最小代价复现历史结果。批处理未稳定加速，因此不作为新方法选留。该结果不证明泛化或现场公众通行。</p><h2>历史成果接管</h2><p>下面是新测 SHA 与实际 CRC/历史回执对照，不重建旧成果。NOT_FOUND 保持缺失；内部 PASS 不冒称用户验收。</p><div class="scroll"><table><thead><tr><th>历史成果</th><th>本机核验</th><th>当前角色</th><th>SHA256</th></tr></thead><tbody>'''+rows+'</tbody></table></div><h2>交付与运行</h2><p><a href="FOUNDATION_REVIEW.md">中文审查说明</a> · <a href="audit/PUBLIC_FILE_INVENTORY.csv">首次公开精确文件清单</a> · <a href="audit/PUBLIC_RELEASE_AUDIT.json">安全扫描</a> · <a href="delivery/PG1_FOUNDATION_REVIEW.zip">固定本地审查 ZIP</a> · <a href="delivery/FINAL_STATUS.json">最终状态及 Commit/ZIP SHA 绑定</a></p><p><small>只读本机服务端口53501；前台运行 scripts/serve_review.py，Ctrl+C停止。已运行后台实例先核对 /api/health 身份和PID再停该实例。不要停止旧53421/53431/53441/53451。页面的地图数据不属于首次Public推送清单。生成时间 '+h(datetime.datetime.now().astimezone().isoformat())+'</small></p></html>'
+ page=page.replace('<h2>六场景同尺度地图</h2>','<p>无需互联网瓦片：六场景交互须通过上面的本机HTTP地址读取JSON；直接打开本HTML可看以下六图，候选图册也支持直接离线打开。</p><h2>六场景同尺度地图</h2>')
+ page=page.replace('<h2>历史成果接管</h2>','<h2 id="history">历史成果接管</h2>')
+ page=page.replace('<nav>','<nav><a href="#history">历史成果接管</a><a href="#publication">首次公开精确清单</a>')
+ if(ROOT/'audit/ROUND_BINDING.json').exists():
+  binding=json.loads((ROOT/'audit/ROUND_BINDING.json').read_text(encoding='utf-8'))
+  with(ROOT/'audit/PUBLIC_FILE_INVENTORY.csv').open(encoding='utf-8-sig')as f:inventory=list(csv.DictReader(f))
+  items=''.join('<tr><td>'+h(r['path'])+'</td><td>'+h(r['bytes'])+'</td><td><code>'+h(r['sha256'])+'</code></td></tr>'for r in inventory)
+  section='<h2 id="publication">G0：拟首次公开的精确文件</h2><p>个人仓库仍未Push。拟公开 '+str(len(inventory))+' 个文件，连同 '+str(binding['reachable_commit_count'])+' 个本轮本地提交历史；没有导入旧仓库history。Final Commit <code>'+h(binding['final_commit'])+'</code>。自动化及独立扫描未发现秘密，不等于用户已经批准公开。新增源码许可证仍未代用户指定；原件、坐标、地图和私有审查包不属于清单。</p><div class="scroll"><table><tr><th>文件</th><th>字节</th><th>SHA256</th></tr>'+items+'</table></div>'
+  page=page.replace('<h2>六场景同尺度地图</h2>',section+'<h2>六场景同尺度地图</h2>')
+ (ROOT/'index.html').write_text(page,encoding='utf-8');print('INDEX_READY')
+if __name__=='__main__':main()

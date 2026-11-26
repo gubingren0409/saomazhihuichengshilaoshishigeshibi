@@ -1,0 +1,79 @@
+[
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_kevytliikenne_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.93%2C60.17%2C24.943%2C60.178%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_oodi_pedestrian_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_ajorata_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.93%2C60.17%2C24.943%2C60.178%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_oodi_roads_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Viherosat_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.93%2C60.17%2C24.943%2C60.178%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_oodi_green_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3ARakennukset_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.897%2C60.186%2C24.914%2C60.195%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_meilahti_buildings_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_kevytliikenne_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.897%2C60.186%2C24.914%2C60.195%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_meilahti_pedestrian_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_ajorata_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.897%2C60.186%2C24.914%2C60.195%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_meilahti_roads_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Viherosat_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.897%2C60.186%2C24.914%2C60.195%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_meilahti_green_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3ARakennukset_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.946%2C60.18%2C24.96%2C60.187%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_kallio_buildings_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_kevytliikenne_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.946%2C60.18%2C24.96%2C60.187%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_kallio_pedestrian_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_ajorata_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.946%2C60.18%2C24.96%2C60.187%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_kallio_roads_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Viherosat_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.946%2C60.18%2C24.96%2C60.187%2CEPSG%3A4326&maxFeatures=400",
+    "path": "samples/hel_kallio_green_crsfix.json",
+    "max_bytes": 500000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required; repair explicit bbox CRS EPSG:4326 lonlat"
+  }
+]

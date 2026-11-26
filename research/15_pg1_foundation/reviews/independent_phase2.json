@@ -1,0 +1,89 @@
+{
+  "at_utc": "2026-11-12T08:23:56.924636+00:00",
+  "scope": "independent raw count/tag/geometry/atlas ring coordinates/hash/native-ID split checks; no author functions or new map acquisition",
+  "scenes": [
+    {
+      "scene_id": "nyc_grand_central",
+      "verified_real_feature_counts": {
+        "buildings": 362,
+        "sidewalk": 81
+      },
+      "verified_unique_source_ids": 443,
+      "duplicate_source_ids": [],
+      "target_building_denominator": 0,
+      "registered_entrance_denominator": 0,
+      "metadata_only": false
+    },
+    {
+      "scene_id": "nyc_lincoln_center",
+      "verified_real_feature_counts": {
+        "buildings": 330,
+        "sidewalk": 91
+      },
+      "verified_unique_source_ids": 411,
+      "duplicate_source_ids": [
+        "NYC:sidewalk:0.0"
+      ],
+      "target_building_denominator": 0,
+      "registered_entrance_denominator": 0,
+      "metadata_only": false
+    },
+    {
+      "scene_id": "hel_oodi",
+      "verified_real_feature_counts": {
+        "buildings": 112
+      },
+      "verified_unique_source_ids": 112,
+      "duplicate_source_ids": [],
+      "target_building_denominator": 0,
+      "registered_entrance_denominator": 0,
+      "metadata_only": false
+    },
+    {
+      "scene_id": "hel_meilahti",
+      "verified_real_feature_counts": {
+        "buildings": 259
+      },
+      "verified_unique_source_ids": 259,
+      "duplicate_source_ids": [],
+      "target_building_denominator": 0,
+      "registered_entrance_denominator": 0,
+      "metadata_only": false
+    },
+    {
+      "scene_id": "hel_kallio",
+      "verified_real_feature_counts": {},
+      "verified_unique_source_ids": 0,
+      "duplicate_source_ids": [],
+      "target_building_denominator": 0,
+      "registered_entrance_denominator": 0,
+      "metadata_only": true
+    }
+  ],
+  "atlas_vertices_checked": 75271,
+  "pairwise_id_checks": {
+    "all_pairs": 55,
+    "numeric_source_intersections": 17,
+    "correctly_uncomparable_or_missing_ids": 38
+  },
+  "provisional_groups": 3,
+  "frozen_splits": 0,
+  "new_candidates_suitable_for_blind": 0,
+  "requests": {
+    "all_logged_requests": 38,
+    "vector_requests": 23,
+    "retained_vector_requests": 18,
+    "failed_vector_requests": 5,
+    "known_vector_response_bytes": 5000001,
+    "unknown_vector_byte_paths": [
+      "samples/berlin_potsdamer.json"
+    ],
+    "unknown_OSM_reserved_bytes": 3000000,
+    "budget_accounting_estimate_bytes": 8000001,
+    "actual_total_vector_transfer_bytes": "UNKNOWN",
+    "reserve_is_not_proven_network_upper_bound": true,
+    "legacy_sentinel_accounting_excess_bytes": 1
+  },
+  "field_or_reference_truth_verified": false,
+  "status": "PASS_FOR_BOUNDED_DISCOVERY_EVIDENCE_AND_NO_FROZEN_SPLIT_SCOPE"
+}

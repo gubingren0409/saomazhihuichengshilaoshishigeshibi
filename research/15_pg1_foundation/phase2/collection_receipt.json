@@ -1,0 +1,27 @@
+{
+  "http_request_attempts": 38,
+  "terms_schema_capabilities_http_attempts": 15,
+  "vector_http_attempts": 23,
+  "vector_outcomes": {
+    "NONEMPTY_RETAINED": 6,
+    "EMPTY_NO_OBSERVATION": 12,
+    "TIMEOUT_UNKNOWN_TRANSFER_BYTES": 1,
+    "BYTE_CAPPED_NOT_RETAINED": 4
+  },
+  "vector_known_application_read_bytes": 5000001,
+  "vector_retained_file_bytes": 3409629,
+  "vector_unknown_timeout_application_read_bytes": "UNKNOWN for original Overpass timeout",
+  "vector_total_actual_transfer_bytes": "UNKNOWN; timeout read count and transport-level transfer were not measured",
+  "unknown_timeout_budget_reserve_bytes": 3000000,
+  "budget_accounting_estimate_bytes": 8000001,
+  "preview_budget_bytes": 8000000,
+  "budget_accounting_estimate_excess_bytes": 1,
+  "budget_accounting_note": "Known application-read bytes plus an assumed timeout reserve is a budget accounting estimate, NOT a proven transfer upper bound. The original timed-out call used read(limit+1) with no retained read count; its configured max_bytes reserve excludes a possible additional sentinel byte and does not measure HTTP/TLS/socket transfer. The accounting estimate exceeds budget by 1 byte, but the true total transfer and actual budget excess are UNKNOWN. No more acquisition occurred; current fetch code reads no more than remaining cap.",
+  "remaining_manifest_items_not_attempted": 6,
+  "map_api_cost": 0,
+  "paid_api_calls": 0,
+  "training_calls": 0,
+  "split_freeze": false,
+  "blind_evaluation": false,
+  "web_search_accounting": "Separate web search/open tools used official source pages; their transfer bytes and backend HTTP request counts are not exposed, and are not asserted zero. HTTP counts above refer only to audited Python downloader ledger."
+}

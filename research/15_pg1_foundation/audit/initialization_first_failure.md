@@ -1,0 +1,1 @@
+初始化首次运行在Windows沙盒读取GetExtendedTcpTable时受阻，输入CRC/内容SHA及旧Git快照已经完成。该非关键端口枚举不能阻断其余任务；修复为明确NOT_VERIFIED，后续通过只读本机HTTP健康检查补证。已有初始时刻与Git快照复用，不重置或覆盖旧工程。没有实验或Git写操作发生。

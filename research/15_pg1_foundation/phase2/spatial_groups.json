@@ -1,0 +1,51 @@
+{
+  "groups": [
+    {
+      "group_id": "PROVISIONAL_GROUP_01",
+      "members": [
+        "sh-huangpu-01",
+        "sh-wukang",
+        "sh-tower",
+        "sh-newworld",
+        "sh-library",
+        "sh-exhibition"
+      ],
+      "split": "DEVELOPMENT",
+      "network_reference_complete": false,
+      "building_reference_complete": false,
+      "eligible_for_frozen_validation": false,
+      "eligible_for_blind": false
+    },
+    {
+      "group_id": "PROVISIONAL_GROUP_02",
+      "members": [
+        "nyc_grand_central",
+        "nyc_lincoln_center"
+      ],
+      "split": "UNASSIGNED_NOT_FROZEN",
+      "network_reference_complete": false,
+      "building_reference_complete": false,
+      "eligible_for_frozen_validation": false,
+      "eligible_for_blind": false
+    },
+    {
+      "group_id": "PROVISIONAL_GROUP_03",
+      "members": [
+        "hel_oodi",
+        "hel_meilahti",
+        "hel_kallio"
+      ],
+      "split": "UNASSIGNED_NOT_FROZEN",
+      "network_reference_complete": false,
+      "building_reference_complete": false,
+      "eligible_for_frozen_validation": false,
+      "eligible_for_blind": false
+    }
+  ],
+  "buffer_each_m": 500,
+  "buffer_rationale": "500m discovery guard surrounds whole observed feature envelopes; no observed road network closure, therefore same-city candidates remain grouped regardless of this distance. This is a proposal, not accepted task semantics.",
+  "development_identity_sha256": "6ed1cdcd652d2e59ae0f6e71fef01e86980942dc71cdbb1a4c1a1de88ac189be",
+  "pair_count": 55,
+  "independence_pass_count": 0,
+  "freeze_performed": false
+}

@@ -1,0 +1,15 @@
+{
+  "task": "TA-PG1-01",
+  "locked_at": "2026-11-12T15:34:34.132708+08:00",
+  "max_formal_calls": 8,
+  "method": "same B3 graph; scalar versus batch min-option construction; fresh forward Dijkstra once per request",
+  "source_archive_sha256": "3988e9fba95da70dc03b8191a177740a3ccd13602019afe3765e566648b55711",
+  "code": {
+    "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+    "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+  },
+  "split": "EXPOSED_DEVELOPMENT_ONLY",
+  "new_constraint_or_penalty": false,
+  "answer_cache": false,
+  "positive_gain_not_required": true
+}

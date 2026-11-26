@@ -1,0 +1,121 @@
+[
+  {
+    "source_id": "NYC",
+    "url": "https://data.cityofnewyork.us/resource/5zhs-2jue.geojson?%24where=intersects%28the_geom%2C+%22POLYGON%28%28-73.98+40.749%2C-73.971+40.749%2C-73.971+40.756%2C-73.98+40.756%2C-73.98+40.749%29%29%22%29&%24limit=500",
+    "path": "samples/nyc_grand_central_buildings.json",
+    "max_bytes": 1800000,
+    "license_basis": "NYC OpenData terms + official Open Data Technical Standards 2.3.2; local audit sample; public release review pending"
+  },
+  {
+    "source_id": "NYC",
+    "url": "https://data.cityofnewyork.us/resource/52n9-sdep.geojson?%24where=intersects%28the_geom%2C+%22POLYGON%28%28-73.98+40.749%2C-73.971+40.749%2C-73.971+40.756%2C-73.98+40.756%2C-73.98+40.749%29%29%22%29&%24limit=500",
+    "path": "samples/nyc_grand_central_sidewalk.json",
+    "max_bytes": 1800000,
+    "license_basis": "NYC OpenData terms + official Open Data Technical Standards 2.3.2; local audit sample; public release review pending"
+  },
+  {
+    "source_id": "NYC",
+    "url": "https://data.cityofnewyork.us/resource/5zhs-2jue.geojson?%24where=intersects%28the_geom%2C+%22POLYGON%28%28-73.99+40.769%2C-73.979+40.769%2C-73.979+40.776%2C-73.99+40.776%2C-73.99+40.769%29%29%22%29&%24limit=500",
+    "path": "samples/nyc_lincoln_center_buildings.json",
+    "max_bytes": 1800000,
+    "license_basis": "NYC OpenData terms + official Open Data Technical Standards 2.3.2; local audit sample; public release review pending"
+  },
+  {
+    "source_id": "NYC",
+    "url": "https://data.cityofnewyork.us/resource/52n9-sdep.geojson?%24where=intersects%28the_geom%2C+%22POLYGON%28%28-73.99+40.769%2C-73.979+40.769%2C-73.979+40.776%2C-73.99+40.776%2C-73.99+40.769%29%29%22%29&%24limit=500",
+    "path": "samples/nyc_lincoln_center_sidewalk.json",
+    "max_bytes": 1800000,
+    "license_basis": "NYC OpenData terms + official Open Data Technical Standards 2.3.2; local audit sample; public release review pending"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3ARakennukset_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.93%2C60.17%2C24.943%2C60.178&maxFeatures=400",
+    "path": "samples/hel_oodi_buildings.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_kevytliikenne_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.93%2C60.17%2C24.943%2C60.178&maxFeatures=400",
+    "path": "samples/hel_oodi_pedestrian.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_ajorata_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.93%2C60.17%2C24.943%2C60.178&maxFeatures=400",
+    "path": "samples/hel_oodi_roads.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Viherosat_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.93%2C60.17%2C24.943%2C60.178&maxFeatures=400",
+    "path": "samples/hel_oodi_green.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3ARakennukset_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.897%2C60.186%2C24.914%2C60.195&maxFeatures=400",
+    "path": "samples/hel_meilahti_buildings.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_kevytliikenne_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.897%2C60.186%2C24.914%2C60.195&maxFeatures=400",
+    "path": "samples/hel_meilahti_pedestrian.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_ajorata_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.897%2C60.186%2C24.914%2C60.195&maxFeatures=400",
+    "path": "samples/hel_meilahti_roads.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Viherosat_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.897%2C60.186%2C24.914%2C60.195&maxFeatures=400",
+    "path": "samples/hel_meilahti_green.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3ARakennukset_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.946%2C60.18%2C24.96%2C60.187&maxFeatures=400",
+    "path": "samples/hel_kallio_buildings.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_kevytliikenne_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.946%2C60.18%2C24.96%2C60.187&maxFeatures=400",
+    "path": "samples/hel_kallio_pedestrian.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Katu_ja_viherosat_ajorata_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.946%2C60.18%2C24.96%2C60.187&maxFeatures=400",
+    "path": "samples/hel_kallio_roads.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "HELSINKI",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=1.0.0&request=GetFeature&typeName=avoindata%3AYLRE_Viherosat_alue&outputFormat=application%2Fjson&srsName=EPSG%3A4326&bbox=24.946%2C60.18%2C24.96%2C60.187&maxFeatures=400",
+    "path": "samples/hel_kallio_green.json",
+    "max_bytes": 1800000,
+    "license_basis": "CC BY 4.0; primary HRI/national catalog indexed metadata; buildings and YLRE; attribution required"
+  },
+  {
+    "source_id": "OSM",
+    "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A30%5D%5Bmaxsize%3A8000000%5D%3Bnwr%2852.504%2C13.366%2C52.511%2C13.380%29%3Bout+body+geom%3B",
+    "path": "samples/berlin_potsdamer.json",
+    "max_bytes": 3000000,
+    "license_basis": "ODbL 1.0; © OpenStreetMap contributors; tiny bbox; no meta/user/changeset output"
+  }
+]

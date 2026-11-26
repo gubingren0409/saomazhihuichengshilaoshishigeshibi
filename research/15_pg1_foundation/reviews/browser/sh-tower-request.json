@@ -1,0 +1,111 @@
+{
+  "schema": "PG1_NATURAL_LANGUAGE_MAP_REVIEW",
+  "timestamp": "2026-11-12T08:13:19.345Z",
+  "scene_id": "sh-tower",
+  "extent_xy": [
+    355577.45764778147,
+    3455347.904426615,
+    358956.63671626383,
+    3458018.382746005
+  ],
+  "crs": "EPSG:32651",
+  "source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+  "layers": [
+    "vehicle_road",
+    "road_area",
+    "pedestrian_line",
+    "pedestrian_area",
+    "sidewalk_geometry",
+    "sidewalk_tag_on_axis",
+    "crossing",
+    "grass",
+    "water",
+    "vegetation_park",
+    "barrier",
+    "restriction",
+    "level_steps_bridge_tunnel",
+    "exact_interfaces",
+    "conditional_seams",
+    "entrance",
+    "other_context",
+    "building"
+  ],
+  "selected_object": {
+    "properties": {
+      "id": "conditional-seam/a1b53e0e6cfcbf71f7c1dd76",
+      "kind": "CONDITIONAL_GAP_LINK",
+      "layer": "inferred",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            356365.0186058996,
+            3456252.5263893977
+          ],
+          [
+            356365.0579473104,
+            3456252.228980162
+          ]
+        ],
+        "_bounds": [
+          356365.0186058996,
+          3456252.228980162,
+          356365.0579473104,
+          3456252.5263893977
+        ],
+        "_path": "M356365.0186058996,-3456252.5263893977 L356365.0579473104,-3456252.228980162"
+      },
+      "distance_m": 0.2999999999400729,
+      "probe_m": 10,
+      "seam_max_m": 2,
+      "source_area_ids": [
+        "relation/7474324",
+        "way/515758743"
+      ],
+      "source_ids": [],
+      "p_distance_m": 0,
+      "omega_distance_m": 0.2999999999400729,
+      "accepted": false,
+      "entered_graph": false,
+      "reasons": [
+        "MAPPED_HARD_INTERIOR_CONFLICT",
+        "NO_FILL_P_TO_OMEGA_REMOVAL"
+      ],
+      "status": "REJECTED",
+      "width_m": null,
+      "width_semantics": "LOGICAL_LINE_ONLY_UNKNOWN_SOURCE_WIDTH_NO_AREA_PROMOTION",
+      "assumption_multiplier_F0": 1,
+      "assumption_multiplier_F1": 2,
+      "source_id": "conditional-seam/a1b53e0e6cfcbf71f7c1dd76",
+      "families": [
+        "conditional_seams"
+      ],
+      "geometry_basis": "HISTORICAL_R1_CURRENT_GRAPH_INTERFACE_OR_SEAM_RECORD",
+      "historical_run_id": "RUN-20261112T030651-d6cbf1105e"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          356365.0186058996,
+          3456252.5263893977
+        ],
+        [
+          356365.0579473104,
+          3456252.228980162
+        ]
+      ],
+      "_bounds": [
+        356365.0186058996,
+        3456252.228980162,
+        356365.0579473104,
+        3456252.5263893977
+      ],
+      "_path": "M356365.0186058996,-3456252.5263893977 L356365.0579473104,-3456252.228980162"
+    }
+  },
+  "historical_result": {},
+  "solver_invoked_this_audit": false,
+  "user_observation": "Independent browser mechanics check; user visual acceptance remains pending.",
+  "acceptance": "PENDING_USER_DECISION"
+}

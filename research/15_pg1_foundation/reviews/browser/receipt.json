@@ -1,0 +1,626 @@
+{
+  "at_utc": "2026-11-12T08:12:04.609559+00:00",
+  "scope": "actual Edge browser, all six map scenes, local GET-only server; source-code-independent UI checks",
+  "phase1": [
+    {
+      "scene_id": "sh-exhibition",
+      "render_primitive_counts_block": {
+        "raw": 1248,
+        "import": 721,
+        "graph": 1675,
+        "legacy": 1248
+      },
+      "primitive_count_is_not_source_object_denominator": true,
+      "illegal_line_fills": 0,
+      "layer_toggle_removed_primitives": 446,
+      "clicked_source_object": "way/8758061",
+      "clicked_current_graph_objects": [
+        {
+          "layer": "interfaces",
+          "id": "source-interface/42751e3c3ad9807758191229"
+        },
+        {
+          "layer": "seams",
+          "id": "conditional-seam/640e3bdd1ac6790c13e799ba"
+        }
+      ],
+      "graph_click_attempts": [
+        {
+          "layer": "interfaces",
+          "target": "interface/a0270572816417f9e1a64db0",
+          "selected": "conditional-seam/640e3bdd1ac6790c13e799ba"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/2535fb472f064c3589011d28",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/5d9e12bdecd191bf694ddff6",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/90134e2da8ee82a302f08bf9",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/1b3ee3e1a2e667a21bf29806",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/410e0cb66d85d403bf1412b2",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/255f689d989a9ea012a5d13e",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/0eb543a1348e42798610460e",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/ae0de3da4b78fce44c0c0795",
+          "selected": "way/10358632"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/264cde934e035cbe66d7a65b",
+          "selected": "way/10358632"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/13c52c39a8b022187e07d288",
+          "selected": "way/10358632"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/0d39a3e80c8a0ea23ccbd4d6",
+          "selected": "way/10358632"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/834c3bd0e2acd6b637363afe",
+          "selected": "way/10358632"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/64032775d7d8e56640411d0f",
+          "selected": "way/10358632"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/54184cb706e8208531cfc88a",
+          "selected": "source-interface/42751e3c3ad9807758191229"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/e4a85bd963b95b614e4223ae",
+          "selected": "conditional-seam/640e3bdd1ac6790c13e799ba"
+        }
+      ],
+      "export_source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "html_sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c",
+      "renderer_sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02"
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "render_primitive_counts_block": {
+        "raw": 1630,
+        "import": 961,
+        "graph": 10038,
+        "legacy": 1695
+      },
+      "primitive_count_is_not_source_object_denominator": true,
+      "illegal_line_fills": 0,
+      "layer_toggle_removed_primitives": 376,
+      "clicked_source_object": "way/9374529",
+      "clicked_current_graph_objects": [
+        {
+          "layer": "interfaces",
+          "id": "source-interface/0c15351bdb48f1c73eedb989"
+        },
+        {
+          "layer": "seams",
+          "id": "conditional-seam/640e3bdd1ac6790c13e799ba"
+        }
+      ],
+      "graph_click_attempts": [
+        {
+          "layer": "interfaces",
+          "target": "interface/a0270572816417f9e1a64db0",
+          "selected": "source-interface/0c15351bdb48f1c73eedb989"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/e4a85bd963b95b614e4223ae",
+          "selected": "conditional-seam/640e3bdd1ac6790c13e799ba"
+        }
+      ],
+      "export_source_sha256": "3219eccb7a7d37ea463895c63cc98688d66e0abe6b85575d38ea53ec023afc91",
+      "html_sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c",
+      "renderer_sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02"
+    },
+    {
+      "scene_id": "sh-library",
+      "render_primitive_counts_block": {
+        "raw": 1347,
+        "import": 1051,
+        "graph": 1803,
+        "legacy": 1352
+      },
+      "primitive_count_is_not_source_object_denominator": true,
+      "illegal_line_fills": 0,
+      "layer_toggle_removed_primitives": 906,
+      "clicked_source_object": "way/10045544",
+      "clicked_current_graph_objects": [
+        {
+          "layer": "interfaces",
+          "id": "source-interface/f8eb38c77c8e5e23fb6bc22c"
+        },
+        {
+          "layer": "seams",
+          "id": "conditional-seam/8e99a145801977347ac98fec"
+        }
+      ],
+      "graph_click_attempts": [
+        {
+          "layer": "interfaces",
+          "target": "interface/4debc812a582c09f05081847",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/fae90d0b2a8f0169885a4973",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/7d8624ab269314fcdd902ad5",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/2535fb472f064c3589011d28",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/5d9e12bdecd191bf694ddff6",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/90134e2da8ee82a302f08bf9",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/1b3ee3e1a2e667a21bf29806",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/410e0cb66d85d403bf1412b2",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/255f689d989a9ea012a5d13e",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/0eb543a1348e42798610460e",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "interfaces",
+          "target": "interface/dffae3c2ce01c3ea226ebe91",
+          "selected": "source-interface/f8eb38c77c8e5e23fb6bc22c"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/010f4a6dc3f663c78ad19aae",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/5342fd10e91a6b51b1c59326",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/c7a60b9e2fd60c612ecb2039",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/1263a46f626a54d874a91d6c",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/29e338d1dc15efc1548e01ae",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/4105e0877cacd24b35618746",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/b8e1ee81f13dbf1ce2c54ac2",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/533884982757cbdedb4d33ad",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/23baa5876f96ca4df056aa7f",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/2e4b320ee79c766bff590792",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/2870cffe89233579d9344110",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/b1a2891a63b2853147b893c8",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/31ab07fc8b21d1e758e29e48",
+          "selected": "way/13866212"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/cb0df9f83cd26a604c574790",
+          "selected": "way/10677242"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/fb003e0e7b984a4eecca89d6",
+          "selected": "conditional-seam/8e99a145801977347ac98fec"
+        }
+      ],
+      "export_source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+      "html_sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c",
+      "renderer_sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "render_primitive_counts_block": {
+        "raw": 1889,
+        "import": 1313,
+        "graph": 2740,
+        "legacy": 1889
+      },
+      "primitive_count_is_not_source_object_denominator": true,
+      "illegal_line_fills": 0,
+      "layer_toggle_removed_primitives": 942,
+      "clicked_source_object": "way/11624973",
+      "clicked_current_graph_objects": [],
+      "graph_click_attempts": [],
+      "export_source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "html_sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c",
+      "renderer_sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02"
+    },
+    {
+      "scene_id": "sh-tower",
+      "render_primitive_counts_block": {
+        "raw": 1170,
+        "import": 730,
+        "graph": 2964,
+        "legacy": 1170
+      },
+      "primitive_count_is_not_source_object_denominator": true,
+      "illegal_line_fills": 0,
+      "layer_toggle_removed_primitives": 168,
+      "clicked_source_object": "way/8792644",
+      "clicked_current_graph_objects": [
+        {
+          "layer": "interfaces",
+          "id": "interface/b3b139b2f72d8139988112d5"
+        },
+        {
+          "layer": "seams",
+          "id": "conditional-seam/a1b53e0e6cfcbf71f7c1dd76"
+        }
+      ],
+      "graph_click_attempts": [
+        {
+          "layer": "interfaces",
+          "target": "interface/d3217c2c06fd30523e506266",
+          "selected": "interface/b3b139b2f72d8139988112d5"
+        },
+        {
+          "layer": "seams",
+          "target": "conditional-seam/a1b53e0e6cfcbf71f7c1dd76",
+          "selected": "conditional-seam/a1b53e0e6cfcbf71f7c1dd76"
+        }
+      ],
+      "export_source_sha256": "561a06ec4db2f730b1f3629427e89d3c54ef1f14d7db585433f4ad5d359c6999",
+      "html_sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c",
+      "renderer_sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02"
+    },
+    {
+      "scene_id": "sh-wukang",
+      "render_primitive_counts_block": {
+        "raw": 1038,
+        "import": 774,
+        "graph": 1409,
+        "legacy": 1038
+      },
+      "primitive_count_is_not_source_object_denominator": true,
+      "illegal_line_fills": 0,
+      "layer_toggle_removed_primitives": 621,
+      "clicked_source_object": "way/11761212",
+      "clicked_current_graph_objects": [],
+      "graph_click_attempts": [],
+      "export_source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "html_sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c",
+      "renderer_sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02"
+    }
+  ],
+  "phase2": [
+    {
+      "scene_id": "nyc_grand_central",
+      "svg_paths": 444,
+      "real_geometry_paths": 443,
+      "metadata_only": false
+    },
+    {
+      "scene_id": "nyc_lincoln_center",
+      "svg_paths": 422,
+      "real_geometry_paths": 421,
+      "metadata_only": false
+    },
+    {
+      "scene_id": "hel_oodi",
+      "svg_paths": 113,
+      "real_geometry_paths": 112,
+      "metadata_only": false
+    },
+    {
+      "scene_id": "hel_meilahti",
+      "svg_paths": 260,
+      "real_geometry_paths": 259,
+      "metadata_only": false
+    },
+    {
+      "scene_id": "hel_kallio",
+      "svg_paths": 1,
+      "real_geometry_paths": 0,
+      "metadata_only": true
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/index.html",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/maps/sh-huangpu-01.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/maps/sh-wukang.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/maps/sh-tower.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/maps/sh-newworld.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/maps/sh-library.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/maps/sh-exhibition.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/index.html",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/src/map.css",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/src/map.js",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/scene_index.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-exhibition/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-exhibition/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-exhibition/current_graph.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-exhibition/historical_variants.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-exhibition/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-exhibition/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-exhibition/current_graph.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-exhibition/historical_variants.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-huangpu-01/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-huangpu-01/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-huangpu-01/current_graph.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-huangpu-01/historical_variants.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-library/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-library/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-library/current_graph.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-library/historical_variants.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-newworld/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-newworld/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-newworld/current_graph.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-newworld/historical_variants.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-tower/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-tower/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-tower/current_graph.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-tower/historical_variants.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-wukang/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-wukang/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-wukang/current_graph.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase1/data/sh-wukang/historical_variants.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:57658/phase2/index.html",
+      "allowed": true
+    }
+  ],
+  "page_errors": [],
+  "server_stopped": true,
+  "browser_stopped": true,
+  "new_solver_calls": 0,
+  "temporary_local_port": 57658,
+  "overview_html_sha256": "ccf415c75eac20683f8a9d47b4dda17c5a56ec154235061dde2cfd82985521e7",
+  "candidate_html_sha256": "365b20e82abd6fd10aa32bbafd06cbb9c85105976a1d60bbd8469da0459594fc",
+  "status": "PASS_FOR_REAL_BROWSER_GET_RENDER_INTERACTION_SCOPE"
+}

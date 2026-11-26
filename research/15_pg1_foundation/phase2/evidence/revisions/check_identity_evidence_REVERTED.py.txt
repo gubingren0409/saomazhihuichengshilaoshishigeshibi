@@ -1,0 +1,38 @@
+"""Offline scene-level identity evidence regression using actual cached registry.
+Checks real-vs-metadata scenes and a missing-ID guard; never reads network data.
+"""
+import argparse, csv, hashlib, json, pathlib
+from build_atlas import building_identity_observed
+
+def run(root):
+    root=pathlib.Path(root);registry=json.loads((root/'candidate_registry.json').read_text(encoding='utf-8'))
+    with (root/'dimension_contract.csv').open(encoding='utf-8-sig',newline='') as f:
+        matrix={r['scene_id']:r for r in csv.DictReader(f) if r['dimension']=='building_identity'}
+    comparisons=[];real=metadata=0
+    for scene in registry:
+        observed=building_identity_observed(scene['object_counts'].get('buildings'),scene['source_object_ids'])
+        expected='SILVER' if observed else 'BRONZE'
+        assert scene['dimensions']['building_identity']==matrix[scene['scene_id']]['tier']==expected
+        if scene['status']=='EXPOSED_METADATA_EXTENT_ONLY':
+            metadata+=1
+            assert not observed and not scene['source_object_ids'] and scene['object_counts']['buildings']=='UNKNOWN'
+            assert 'provider schema' in matrix[scene['scene_id']]['evidence']
+        elif observed: real+=1
+        comparisons.append(dict(scene_id=scene['scene_id'],building_count=scene['object_counts'].get('buildings'),source_id_count=len(scene['source_object_ids']),expected_identity_tier=expected,registry_and_matrix_agree=True))
+    # Positive feature count alone, unrelated layer IDs and schema-only evidence
+    # cannot establish observed building identity. These are explicit unit states,
+    # not claimed geographic observations or fabricated feature geometry.
+    guards=dict(positive_count_no_ids=not building_identity_observed(1,[]),unrelated_layer_id=not building_identity_observed(1,['TEST:sidewalk:1']),unknown_building_id=not building_identity_observed(1,['TEST:buildings:UNKNOWN']),unknown_count=not building_identity_observed('UNKNOWN',['TEST:buildings:1']))
+    assert all(guards.values())
+    before_path=root/'evidence/revisions/candidate_registry_before_identity_guard.json'
+    unchanged=True
+    if before_path.exists():
+        before={x['scene_id']:x for x in json.loads(before_path.read_text(encoding='utf-8'))}
+        unchanged=all(x['source_hashes']==before[x['scene_id']]['source_hashes'] and x['source_object_ids']==before[x['scene_id']]['source_object_ids'] and x['object_counts']==before[x['scene_id']]['object_counts'] for x in registry)
+        assert unchanged
+    report=dict(status='PASS',scope='author offline identity-evidence regression only',actual_observed_identity_scenes=real,metadata_only_scenes=metadata,comparisons=comparisons,missing_evidence_guards=guards,original_source_hashes_object_ids_counts_unchanged=unchanged,source_code_sha256=hashlib.sha256((pathlib.Path(__file__).parent/'build_atlas.py').read_bytes()).hexdigest(),registry_sha256=hashlib.sha256((root/'candidate_registry.json').read_bytes()).hexdigest(),matrix_sha256=hashlib.sha256((root/'dimension_contract.csv').read_bytes()).hexdigest(),network_calls=0)
+    (root/'identity_evidence_check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+    print(json.dumps(report))
+
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('--root',required=True,type=pathlib.Path);run(p.parse_args().root)

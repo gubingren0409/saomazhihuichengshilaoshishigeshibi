@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "invocation_id": "TA-PG1-01-00d4e1ae44684b3497be2e089b86b24b",
+      "nodes": 6455,
+      "arcs": 24602,
+      "dual_residual_m": 2.2737367544323206e-13,
+      "primal_cost_m": 180.58111866323975,
+      "status": "PASS",
+      "certificate_sha256": "e9a62364abb1e6beb439a2237a794a78f6b8517b5b104fdc669133fb969b86f0"
+    },
+    {
+      "invocation_id": "TA-PG1-01-40ba748740e94adaaa554c4425353ce3",
+      "nodes": 42262,
+      "arcs": 253042,
+      "dual_residual_m": 4.547473508864641e-13,
+      "primal_cost_m": 677.5979155094066,
+      "status": "PASS",
+      "certificate_sha256": "7ae60eb0787004ccf341c1ff280299e17228ffe49d113abe246164fc0dc298c2"
+    },
+    {
+      "invocation_id": "TA-PG1-01-6bafbb0c40bb4310a24f9b96210172dc",
+      "nodes": 42262,
+      "arcs": 253042,
+      "dual_residual_m": 4.547473508864641e-13,
+      "primal_cost_m": 666.6635999370017,
+      "status": "PASS",
+      "certificate_sha256": "c3d3d68abb4d4147a33635ca72625f0aedc60ecbd367e070a650c0fbbb295fe1"
+    },
+    {
+      "invocation_id": "TA-PG1-01-6daabccdb62c430baf864f5ae0c160e7",
+      "nodes": 6455,
+      "arcs": 24602,
+      "dual_residual_m": 2.2737367544323206e-13,
+      "primal_cost_m": 180.58111866323975,
+      "status": "PASS",
+      "certificate_sha256": "58dbd0077c59a02d1c27a0c22ecb1db2a83923c71d9f956fabdfc9d22cb91466"
+    },
+    {
+      "invocation_id": "TA-PG1-01-a4117662ccde4db0818271d0cccbeae7",
+      "nodes": 42262,
+      "arcs": 253042,
+      "dual_residual_m": 4.547473508864641e-13,
+      "primal_cost_m": 310.46576550789956,
+      "status": "PASS",
+      "certificate_sha256": "e0fdc3847ab20aaff8f53cd5079dd074cf0d59c71e2ca4bff8bbe29b93e3c129"
+    },
+    {
+      "invocation_id": "TA-PG1-01-afe67aed70a54964b1817470191ae0c2",
+      "nodes": 42262,
+      "arcs": 253042,
+      "dual_residual_m": 4.547473508864641e-13,
+      "primal_cost_m": 299.5314499354948,
+      "status": "PASS",
+      "certificate_sha256": "ffbd8acf23ea109a915dd5230bd2ae24040859abb6d445d3ca87c50c785fba96"
+    },
+    {
+      "invocation_id": "TA-PG1-01-df1448c2bea74705874a960d31f92cff",
+      "nodes": 42326,
+      "arcs": 302044,
+      "dual_residual_m": 4.547473508864641e-13,
+      "primal_cost_m": 148.8631220697961,
+      "status": "PASS",
+      "certificate_sha256": "00e7037ae6d5b71440830f5a262a8afb441aa2edc48a12d115162854f8635bdb"
+    },
+    {
+      "invocation_id": "TA-PG1-01-ea03e043b55a4baeb91d5dd46f058aa9",
+      "nodes": 42326,
+      "arcs": 302044,
+      "dual_residual_m": 4.547473508864641e-13,
+      "primal_cost_m": 148.8631220697961,
+      "status": "PASS",
+      "certificate_sha256": "3de653e9d0cc744f589d9d0942687a5ead3d27ca9b57912eb190b81490ec5aa7"
+    }
+  ],
+  "new_solver_calls": 0,
+  "new_SSSP_calls": 0,
+  "scope": "Author certificate replay, finite source mask; source geometry and permissions inherited from fixed graph, independent review separate."
+}

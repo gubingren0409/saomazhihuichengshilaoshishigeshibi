@@ -1,0 +1,42 @@
+{
+  "measurement_utc": "2026-11-12T07:46:36Z",
+  "scope": "phase2 only; observed before writing this resource receipt",
+  "file_count": 74,
+  "storage_bytes": 11263705,
+  "http_elapsed_seconds": 233.059,
+  "vector_http_elapsed_seconds": 163.404,
+  "peak_memory_bytes": "UNKNOWN not instrumented",
+  "python": "3.12.6",
+  "api_cost": 0,
+  "no_future_acquisition": true,
+  "author_visual_review": {
+    "sections_inspected": 5,
+    "actual_geometry_maps": 4,
+    "metadata_only": 1,
+    "final_bbox_frame_aspect_reviewed": true,
+    "source_rings_preserved": true,
+    "blind_reference": false
+  },
+  "public_source_files": [
+    {
+      "path": "src/build_atlas.py",
+      "sha256": "6ddf39d3592efc05d9d31d2e05030902737760f1b159e97de16c49e9b8c94073"
+    },
+    {
+      "path": "src/fetch_bounded.py",
+      "sha256": "635a0de3184ade54741af4d125a4ee01674bab4712b3e0f9a49561dd30069a9a"
+    },
+    {
+      "path": "src/spatial_groups.py",
+      "sha256": "f40e57e12848055712b3f3f14fbc0c405ad33cf549386f4865686356a0afa50b"
+    },
+    {
+      "path": "src/summarize_audit.py",
+      "sha256": "627344dc15832e0df51c926a1f0884672cefdd02f9da9b9f640f4308bcbd59bc"
+    },
+    {
+      "path": "src/verify_atlas.py",
+      "sha256": "e9ed3d6619289f7d7e5c53ce9ca9952411e2cfd7ebc1df08259c301d89b599c7"
+    }
+  ]
+}

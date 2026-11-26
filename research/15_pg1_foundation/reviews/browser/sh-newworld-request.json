@@ -1,0 +1,123 @@
+{
+  "schema": "PG1_NATURAL_LANGUAGE_MAP_REVIEW",
+  "timestamp": "2026-11-12T08:13:10.834Z",
+  "scene_id": "sh-newworld",
+  "extent_xy": [
+    352514.11332490016,
+    3455550.766861532,
+    355894.0573652652,
+    3458220.2472202405
+  ],
+  "crs": "EPSG:32651",
+  "source_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+  "layers": [
+    "vehicle_road",
+    "road_area",
+    "pedestrian_line",
+    "pedestrian_area",
+    "sidewalk_geometry",
+    "sidewalk_tag_on_axis",
+    "crossing",
+    "grass",
+    "water",
+    "vegetation_park",
+    "barrier",
+    "restriction",
+    "level_steps_bridge_tunnel",
+    "exact_interfaces",
+    "conditional_seams",
+    "entrance",
+    "other_context",
+    "building"
+  ],
+  "selected_object": {
+    "properties": {
+      "source_id": "way/11624973",
+      "families": [
+        "vehicle_road"
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "name": "汉口路",
+        "name:en": "Hankou Road",
+        "name:zh": "汉口路",
+        "name:zh-Hans": "汉口路",
+        "name:zh-Hant": "漢口路",
+        "oneway": "yes",
+        "oneway:bicycle": "no"
+      },
+      "geometry_basis": "ORIGINAL_SOURCE_LINE",
+      "imported_context": true,
+      "import_reason": "FULL_SOURCE_HIGHWAY_LINE_CONTEXT_NOT_ROUTE_ADMISSION",
+      "native_kept_segments": 6,
+      "native_filter_status": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+      "face_status": null,
+      "diagnostic_render": true,
+      "diagnostic_properties": {
+        "id": "way/11624973",
+        "tags": {
+          "cycleway:both": "no",
+          "highway": "residential",
+          "name": "汉口路",
+          "name:en": "Hankou Road",
+          "name:zh": "汉口路",
+          "name:zh-Hans": "汉口路",
+          "name:zh-Hant": "漢口路",
+          "oneway": "yes",
+          "oneway:bicycle": "no"
+        },
+        "kind": "ROAD",
+        "geometry_role": "INDEPENDENT_NATIVE_SOURCE_LINE"
+      },
+      "source_version": 38,
+      "source_clip_sha256": "fa8a2c9bf8615bb9799a7ee7639cc505e900eb01d8479cf6a65ecf7af9966cb9",
+      "native_topology_endpoint": false,
+      "import_kind": "ROAD"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          354385.01198126504,
+          3456638.752519888
+        ],
+        [
+          354396.3040511234,
+          3456643.108589588
+        ],
+        [
+          354508.9562910149,
+          3456686.5849453057
+        ],
+        [
+          354582.42172491027,
+          3456713.9515851303
+        ],
+        [
+          354720.12326195557,
+          3456747.5159383765
+        ],
+        [
+          354827.0513983907,
+          3456778.1584416567
+        ],
+        [
+          354842.52516264527,
+          3456782.51270194
+        ]
+      ],
+      "_bounds": [
+        354385.01198126504,
+        3456638.752519888,
+        354842.52516264527,
+        3456782.51270194
+      ],
+      "_path": "M354385.01198126504,-3456638.752519888 L354396.3040511234,-3456643.108589588 L354508.9562910149,-3456686.5849453057 L354582.42172491027,-3456713.9515851303 L354720.12326195557,-3456747.5159383765 L354827.0513983907,-3456778.1584416567 L354842.52516264527,-3456782.51270194"
+    }
+  },
+  "historical_result": {},
+  "solver_invoked_this_audit": false,
+  "user_observation": "Independent browser mechanics check; user visual acceptance remains pending.",
+  "acceptance": "PENDING_USER_DECISION"
+}

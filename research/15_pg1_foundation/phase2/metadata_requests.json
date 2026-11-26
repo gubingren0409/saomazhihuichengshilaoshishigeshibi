@@ -1,0 +1,44 @@
+[
+  {
+    "source_id": "nyc_buildings_meta",
+    "url": "https://data.cityofnewyork.us/api/views/5zhs-2jue.json",
+    "path": "evidence/metadata/nyc_buildings_meta.txt",
+    "max_bytes": 1000000,
+    "license_basis": "official public schema/license; no feature data"
+  },
+  {
+    "source_id": "nyc_sidewalk_meta",
+    "url": "https://data.cityofnewyork.us/api/views/52n9-sdep.json",
+    "path": "evidence/metadata/nyc_sidewalk_meta.txt",
+    "max_bytes": 1000000,
+    "license_basis": "official public schema/license; no feature data"
+  },
+  {
+    "source_id": "helsinki_buildings_schema",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=2.0.0&request=DescribeFeatureType&typeNames=avoindata%3ARakennukset_alue",
+    "path": "evidence/metadata/helsinki_buildings_schema.txt",
+    "max_bytes": 1000000,
+    "license_basis": "official public schema/license; no feature data"
+  },
+  {
+    "source_id": "helsinki_ylre_schema",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs?service=WFS&version=2.0.0&request=DescribeFeatureType&typeNames=avoindata%3AYLRE_Katu_ja_viherosat_kevytliikenne_alue",
+    "path": "evidence/metadata/helsinki_ylre_schema.txt",
+    "max_bytes": 1000000,
+    "license_basis": "official public schema/license; no feature data"
+  },
+  {
+    "source_id": "hri_buildings_license",
+    "url": "https://avoindata.suomi.fi/data/en_GB/dataset/helsingin-rakennukset",
+    "path": "evidence/metadata/hri_buildings_license.txt",
+    "max_bytes": 1000000,
+    "license_basis": "official public schema/license; no feature data"
+  },
+  {
+    "source_id": "hri_wfs_license",
+    "url": "https://avoindata.suomi.fi/data/en_GB/apiset/helsingin-kaupungin-wfs-palvelu",
+    "path": "evidence/metadata/hri_wfs_license.txt",
+    "max_bytes": 1000000,
+    "license_basis": "official public schema/license; no feature data"
+  }
+]

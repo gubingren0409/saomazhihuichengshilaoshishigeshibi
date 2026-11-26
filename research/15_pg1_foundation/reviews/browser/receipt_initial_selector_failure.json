@@ -1,0 +1,65 @@
+{
+  "at_utc": "2026-11-12T07:40:14.435648+00:00",
+  "scope": "actual Edge browser, all six map scenes, local GET-only server; source-code-independent UI checks",
+  "phase1": [],
+  "phase2": [],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:52796/phase1/index.html",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:52796/phase1/src/map.css",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:52796/phase1/src/map.js",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:52796/phase1/scene_index.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:52796/phase1/data/sh-exhibition/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:52796/phase1/data/sh-exhibition/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:52796/phase1/data/sh-exhibition/historical_variants.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:52796/phase1/data/sh-exhibition/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:52796/phase1/data/sh-exhibition/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:52796/phase1/data/sh-exhibition/historical_variants.json",
+      "allowed": true
+    }
+  ],
+  "page_errors": [],
+  "server_stopped": true,
+  "browser_stopped": false,
+  "new_solver_calls": 0,
+  "temporary_local_port": 52796,
+  "status": "REQUIRES_FIX",
+  "error": "AssertionError()"
+}

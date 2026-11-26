@@ -1,0 +1,146 @@
+{
+  "at_utc": "2026-11-12T07:37:53.910362+00:00",
+  "scope": "independent all-arc min-option weights, finite-source Bellman inequalities and original-endpoint path witness; no author function or shortest path call",
+  "new_reviewer_solver_calls": 0,
+  "formal_author_calls": 8,
+  "checks": [
+    {
+      "case": "south",
+      "method": "F0",
+      "status": "PASS_PRIMAL_DUAL_FOR_FIXED_GRAPH",
+      "arcs": 302044,
+      "finite_source_arcs_checked": 291764,
+      "unreachable_source_arcs_excluded_from_inf_subtraction": 10280,
+      "max_bellman_violation_m": 4.547473508864641e-13,
+      "path_arcs": 8,
+      "cost_m": 148.8631220697961,
+      "historical_cost_error_m": -2.842170943040401e-14,
+      "source_certificate_sha256": "00e7037ae6d5b71440830f5a262a8afb441aa2edc48a12d115162854f8635bdb",
+      "original_executed_code_hashes": {
+        "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+        "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+      }
+    },
+    {
+      "case": "south",
+      "method": "F1",
+      "status": "PASS_PRIMAL_DUAL_FOR_FIXED_GRAPH",
+      "arcs": 302044,
+      "finite_source_arcs_checked": 291764,
+      "unreachable_source_arcs_excluded_from_inf_subtraction": 10280,
+      "max_bellman_violation_m": 4.547473508864641e-13,
+      "path_arcs": 8,
+      "cost_m": 148.8631220697961,
+      "historical_cost_error_m": -2.842170943040401e-14,
+      "source_certificate_sha256": "3de653e9d0cc744f589d9d0942687a5ead3d27ca9b57912eb190b81490ec5aa7",
+      "original_executed_code_hashes": {
+        "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+        "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+      }
+    },
+    {
+      "case": "north_near",
+      "method": "F0",
+      "status": "PASS_PRIMAL_DUAL_FOR_FIXED_GRAPH",
+      "arcs": 253042,
+      "finite_source_arcs_checked": 242762,
+      "unreachable_source_arcs_excluded_from_inf_subtraction": 10280,
+      "max_bellman_violation_m": 4.547473508864641e-13,
+      "path_arcs": 58,
+      "cost_m": 299.5314499354948,
+      "historical_cost_error_m": -5.684341886080802e-14,
+      "source_certificate_sha256": "ffbd8acf23ea109a915dd5230bd2ae24040859abb6d445d3ca87c50c785fba96",
+      "original_executed_code_hashes": {
+        "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+        "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+      }
+    },
+    {
+      "case": "north_near",
+      "method": "F1",
+      "status": "PASS_PRIMAL_DUAL_FOR_FIXED_GRAPH",
+      "arcs": 253042,
+      "finite_source_arcs_checked": 242762,
+      "unreachable_source_arcs_excluded_from_inf_subtraction": 10280,
+      "max_bellman_violation_m": 4.547473508864641e-13,
+      "path_arcs": 52,
+      "cost_m": 310.46576550789956,
+      "historical_cost_error_m": -5.684341886080802e-14,
+      "source_certificate_sha256": "e0fdc3847ab20aaff8f53cd5079dd074cf0d59c71e2ca4bff8bbe29b93e3c129",
+      "original_executed_code_hashes": {
+        "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+        "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+      }
+    },
+    {
+      "case": "north_far",
+      "method": "F0",
+      "status": "PASS_PRIMAL_DUAL_FOR_FIXED_GRAPH",
+      "arcs": 253042,
+      "finite_source_arcs_checked": 242762,
+      "unreachable_source_arcs_excluded_from_inf_subtraction": 10280,
+      "max_bellman_violation_m": 4.547473508864641e-13,
+      "path_arcs": 75,
+      "cost_m": 666.6635999370017,
+      "historical_cost_error_m": -2.2737367544323206e-13,
+      "source_certificate_sha256": "c3d3d68abb4d4147a33635ca72625f0aedc60ecbd367e070a650c0fbbb295fe1",
+      "original_executed_code_hashes": {
+        "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+        "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+      }
+    },
+    {
+      "case": "north_far",
+      "method": "F1",
+      "status": "PASS_PRIMAL_DUAL_FOR_FIXED_GRAPH",
+      "arcs": 253042,
+      "finite_source_arcs_checked": 242762,
+      "unreachable_source_arcs_excluded_from_inf_subtraction": 10280,
+      "max_bellman_violation_m": 4.547473508864641e-13,
+      "path_arcs": 69,
+      "cost_m": 677.5979155094066,
+      "historical_cost_error_m": -1.1368683772161603e-13,
+      "source_certificate_sha256": "7ae60eb0787004ccf341c1ff280299e17228ffe49d113abe246164fc0dc298c2",
+      "original_executed_code_hashes": {
+        "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+        "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+      }
+    },
+    {
+      "case": "library",
+      "method": "F0",
+      "status": "PASS_PRIMAL_DUAL_FOR_FIXED_GRAPH",
+      "arcs": 24602,
+      "finite_source_arcs_checked": 21532,
+      "unreachable_source_arcs_excluded_from_inf_subtraction": 3070,
+      "max_bellman_violation_m": 2.2737367544323206e-13,
+      "path_arcs": 5,
+      "cost_m": 180.58111866323975,
+      "historical_cost_error_m": 0.0,
+      "source_certificate_sha256": "58dbd0077c59a02d1c27a0c22ecb1db2a83923c71d9f956fabdfc9d22cb91466",
+      "original_executed_code_hashes": {
+        "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+        "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+      }
+    },
+    {
+      "case": "library",
+      "method": "F1",
+      "status": "PASS_PRIMAL_DUAL_FOR_FIXED_GRAPH",
+      "arcs": 24602,
+      "finite_source_arcs_checked": 21532,
+      "unreachable_source_arcs_excluded_from_inf_subtraction": 3070,
+      "max_bellman_violation_m": 2.2737367544323206e-13,
+      "path_arcs": 5,
+      "cost_m": 180.58111866323975,
+      "historical_cost_error_m": 0.0,
+      "source_certificate_sha256": "e9a62364abb1e6beb439a2237a794a78f6b8517b5b104fdc669133fb969b86f0",
+      "original_executed_code_hashes": {
+        "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+        "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+      }
+    }
+  ],
+  "constraints": "inherit original R2 graph only; no physical/public-access validation",
+  "result": "NO_BUSINESS_GAIN_CLAIMED; timing decision belongs to measured weight construction; no validation/blind inference"
+}

@@ -1,0 +1,56 @@
+{
+  "status": "CANDIDATES_ONLY_NOT_USER_APPROVED_FOR_FIRST_PUBLIC_PUSH",
+  "license": "NEW_WRAPPERS_AND_RENDERERS_SUBJECT_TO_PARENT_REPO_LICENSE_REVIEW; BASELINE_CODE_AND_OSM_DATA_NOT_RELICENSED",
+  "dependencies": [
+    "Python 3.12",
+    "shapely 2.1.2",
+    "pyproj 3.8.0",
+    "networkx 3.6.1",
+    "matplotlib 3.10.6",
+    "numpy 2.3.3"
+  ],
+  "excluded": [
+    "data/",
+    "maps/",
+    "all receipts containing local paths",
+    "source identity indexes",
+    "historical planner source"
+  ],
+  "files": [
+    {
+      "path": "phase1\\index.html",
+      "bytes": 4664,
+      "sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c"
+    },
+    {
+      "path": "phase1\\src\\build_audit.py",
+      "bytes": 23830,
+      "sha256": "515caf50f948cd202e3242bff1988d0d893d45af78f07adc34039f00a554c8d8"
+    },
+    {
+      "path": "phase1\\src\\export_current_graph.py",
+      "bytes": 6401,
+      "sha256": "4f50a0af38ec57699cae4c265a3814544abe1bd9b9907e065b316973ca0d46c3"
+    },
+    {
+      "path": "phase1\\src\\render_maps.py",
+      "bytes": 8025,
+      "sha256": "dff266e49a62a9256cf1703a59747023efa1b9e96b9f7746f0e412809106e37a"
+    },
+    {
+      "path": "phase1\\src\\map.js",
+      "bytes": 15475,
+      "sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02"
+    },
+    {
+      "path": "phase1\\src\\map.css",
+      "bytes": 2560,
+      "sha256": "ff4d3081044c4687aca70f4c340564d9a9df2733fad4007de6b4be199a96eb0a"
+    },
+    {
+      "path": "phase1\\requirements.txt",
+      "bytes": 77,
+      "sha256": "f5ec06935e283a1d2aa5dae573e50f7683863064343e1d11b1a9fdfbff908feb"
+    }
+  ]
+}

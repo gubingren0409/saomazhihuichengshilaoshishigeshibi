@@ -1,0 +1,14 @@
+{
+  "kind": "READ_ONLY_CURRENT_VERSION_RECHECK_AFTER_REVERT",
+  "source_sha256": "6ddf39d3592efc05d9d31d2e05030902737760f1b159e97de16c49e9b8c94073",
+  "parent_repository_source_sha256": "6ddf39d3592efc05d9d31d2e05030902737760f1b159e97de16c49e9b8c94073",
+  "html_sha256": "365b20e82abd6fd10aa32bbafd06cbb9c85105976a1d60bbd8469da0459594fc",
+  "kallio_identity_tier": "BRONZE",
+  "kallio_source_ids": [],
+  "kallio_building_count": "UNKNOWN",
+  "matrix_evidence": "UNKNOWN: metadata extent only; no feature identity was read.",
+  "current_defect_reproduced": false,
+  "reviewer_report": "Reviewer confirmed initial SILVER observation came from an older tool output; no saved raw bytes available; current version BRONZE confirmed.",
+  "reverted_change": "Stronger positive-count-plus-ID guard and its check were implemented under previous parent instruction, then reverted when latest parent freeze arrived. Saved only as REVERTED evidence; no active rule or new public source remains.",
+  "network_calls": 0
+}

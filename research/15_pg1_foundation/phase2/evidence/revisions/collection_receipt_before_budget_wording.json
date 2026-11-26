@@ -1,0 +1,26 @@
+{
+  "http_request_attempts": 38,
+  "terms_schema_capabilities_http_attempts": 15,
+  "vector_http_attempts": 23,
+  "vector_outcomes": {
+    "NONEMPTY_RETAINED": 6,
+    "EMPTY_NO_OBSERVATION": 12,
+    "TIMEOUT_UNKNOWN_TRANSFER_BYTES": 1,
+    "BYTE_CAPPED_NOT_RETAINED": 4
+  },
+  "vector_known_received_bytes": 5000001,
+  "vector_retained_file_bytes": 3409629,
+  "vector_unknown_transfer_bytes": "UNKNOWN for original Overpass timeout",
+  "unknown_transfer_conservative_reserve_bytes": 3000000,
+  "conservative_vector_transfer_upper_bound_bytes": 8000001,
+  "preview_budget_bytes": 8000000,
+  "legacy_detection_sentinel_upper_bound_excess_bytes": 1,
+  "budget_excess_note": "Legacy read(limit+1) used a one-byte overflow detector. The historical final conservative bound exceeds budget by 1 byte; no more acquisition occurred. Current fetch code reads no more than remaining cap.",
+  "remaining_manifest_items_not_attempted": 6,
+  "map_api_cost": 0,
+  "paid_api_calls": 0,
+  "training_calls": 0,
+  "split_freeze": false,
+  "blind_evaluation": false,
+  "web_search_accounting": "Separate web search/open tools used official source pages; their transfer bytes and backend HTTP request counts are not exposed, and are not asserted zero. HTTP counts above refer only to audited Python downloader ledger."
+}

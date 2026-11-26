@@ -1,0 +1,79 @@
+{
+  "source_mirrors_byte_identical": true,
+  "rows": [
+    {
+      "source": "phase1/index.html",
+      "public_path": "tools/phase1/index.html",
+      "sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c",
+      "reason": "new generic source/template; no raw data copied"
+    },
+    {
+      "source": "phase1/src/build_audit.py",
+      "public_path": "tools/phase1/src/build_audit.py",
+      "sha256": "515caf50f948cd202e3242bff1988d0d893d45af78f07adc34039f00a554c8d8",
+      "reason": "new generic source/template; no raw data copied"
+    },
+    {
+      "source": "phase1/src/export_current_graph.py",
+      "public_path": "tools/phase1/src/export_current_graph.py",
+      "sha256": "4f50a0af38ec57699cae4c265a3814544abe1bd9b9907e065b316973ca0d46c3",
+      "reason": "new generic source/template; no raw data copied"
+    },
+    {
+      "source": "phase1/src/render_maps.py",
+      "public_path": "tools/phase1/src/render_maps.py",
+      "sha256": "dff266e49a62a9256cf1703a59747023efa1b9e96b9f7746f0e412809106e37a",
+      "reason": "new generic source/template; no raw data copied"
+    },
+    {
+      "source": "phase1/src/map.js",
+      "public_path": "tools/phase1/src/map.js",
+      "sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02",
+      "reason": "new generic source/template; no raw data copied"
+    },
+    {
+      "source": "phase1/src/map.css",
+      "public_path": "tools/phase1/src/map.css",
+      "sha256": "ff4d3081044c4687aca70f4c340564d9a9df2733fad4007de6b4be199a96eb0a",
+      "reason": "new generic source/template; no raw data copied"
+    },
+    {
+      "source": "phase1/requirements.txt",
+      "public_path": "tools/phase1/requirements.txt",
+      "sha256": "f5ec06935e283a1d2aa5dae573e50f7683863064343e1d11b1a9fdfbff908feb",
+      "reason": "new generic source/template; no raw data copied"
+    },
+    {
+      "source": "phase2/src/build_atlas.py",
+      "public_path": "tools/phase2/src/build_atlas.py",
+      "sha256": "6ddf39d3592efc05d9d31d2e05030902737760f1b159e97de16c49e9b8c94073",
+      "reason": "new generic CLI; private scene acquisition configuration excluded"
+    },
+    {
+      "source": "phase2/src/spatial_groups.py",
+      "public_path": "tools/phase2/src/spatial_groups.py",
+      "sha256": "f40e57e12848055712b3f3f14fbc0c405ad33cf549386f4865686356a0afa50b",
+      "reason": "new generic CLI; private scene acquisition configuration excluded"
+    },
+    {
+      "source": "phase2/src/summarize_audit.py",
+      "public_path": "tools/phase2/src/summarize_audit.py",
+      "sha256": "627344dc15832e0df51c926a1f0884672cefdd02f9da9b9f640f4308bcbd59bc",
+      "reason": "new generic CLI; private scene acquisition configuration excluded"
+    },
+    {
+      "source": "phase2/src/verify_atlas.py",
+      "public_path": "tools/phase2/src/verify_atlas.py",
+      "sha256": "e9ed3d6619289f7d7e5c53ce9ca9952411e2cfd7ebc1df08259c301d89b599c7",
+      "reason": "new generic CLI; private scene acquisition configuration excluded"
+    },
+    {
+      "source": "phase2/src/fetch_bounded.py",
+      "public_path": "tools/phase2/src/fetch_bounded.py",
+      "sha256": "635a0de3184ade54741af4d125a4ee01674bab4712b3e0f9a49561dd30069a9a",
+      "reason": "new generic CLI; private scene acquisition configuration excluded"
+    }
+  ],
+  "data_copied": 0,
+  "legacy_planner_copied": 0
+}

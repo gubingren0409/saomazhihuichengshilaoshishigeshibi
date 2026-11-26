@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-11-12T08:18:46.048753+00:00",
+  "status": "PASS_EXACT_SOURCE_COMMIT_BUNDLE_AND_EXECUTED_BASE_BINDING",
+  "final_commit": "3134c0ea68e00871ed6dc86ca7bc905071449dae",
+  "tree_sha": "d2cc0492d6f4d2c739e1af373a8b82017972a4d1",
+  "source_file_count": 38,
+  "reachable_local_commits": 3,
+  "complete_git_bundle_sha256": "0da7a0e741ee1fa6b7e4134e59e6288babb82e3f51878938e4fa51187b4a2351",
+  "bundle_refs": [
+    "3134c0ea68e00871ed6dc86ca7bc905071449dae refs/heads/codex/pg1-foundation-g0-g2",
+    "3134c0ea68e00871ed6dc86ca7bc905071449dae HEAD"
+  ],
+  "public_private_source_mirrors": 12,
+  "executed_track_a_base_commit": "81eaf8fc8a3f3997813ffef2921b169f54e05adc",
+  "executed_code_hashes_verified": {
+    "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+    "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+  },
+  "remote_pushes": "NONE_BY_REVIEWER; first push requires user approval"
+}

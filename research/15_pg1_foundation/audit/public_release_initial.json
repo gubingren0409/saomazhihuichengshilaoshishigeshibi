@@ -1,0 +1,125 @@
+{
+  "at": "2026-11-12T15:40:29.471206+08:00",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 151,
+      "sha256": "ac1ae364d5675c454074b7b401d9bd35a796abe5207d733ac5a27edc5d16466b"
+    },
+    {
+      "path": "docs/baseline_registry.csv",
+      "bytes": 4105,
+      "sha256": "f7c3d479ec6ba82a283193b9064dd6e2e92456d313f315cef36dee29fe934a96"
+    },
+    {
+      "path": "docs/dataset_registry.md",
+      "bytes": 1221,
+      "sha256": "eb53057be5301414a1b74cdd55dba29880113003c98b3b45efadda64bef7ccfc"
+    },
+    {
+      "path": "docs/governance_pointer.md",
+      "bytes": 846,
+      "sha256": "a83fd6bfb47bff98743b84f03642aa4a6de6e4073dcd740350179764ac00f33d"
+    },
+    {
+      "path": "docs/methodology_registry.md",
+      "bytes": 1335,
+      "sha256": "c7ab5146418a057c3cb5657c81b6edff8e145b39dcaebf76e4a4503f5cc2d957"
+    },
+    {
+      "path": "docs/project_charter.md",
+      "bytes": 1230,
+      "sha256": "20eccadb911625ef1c0d401bf1e3d77d12e4f42ec53877cb47f6713b3e03c3e1"
+    },
+    {
+      "path": "docs/project_status.md",
+      "bytes": 1039,
+      "sha256": "9f45533bc637e75bf928d09070aeea6692b99610a04792353060a4ad6520761f"
+    },
+    {
+      "path": "docs/public_release_audit.md",
+      "bytes": 1466,
+      "sha256": "2b0d57846881f67c91aa73b03516180de55af30717aee2d14119259b35c79d05"
+    },
+    {
+      "path": "docs/research_decisions.md",
+      "bytes": 1436,
+      "sha256": "4b1ef1b9657b1cf8cd383a2791cd4d2beb2379ac3060a9481e8154ee76aa1d05"
+    },
+    {
+      "path": "docs/research_overview.md",
+      "bytes": 1168,
+      "sha256": "0416e8385bba7f420b2b527c4cee5e5dbcdee0977601f2ff8cde87a186ff654c"
+    },
+    {
+      "path": "docs/round_delivery_protocol.md",
+      "bytes": 1333,
+      "sha256": "dc8467fa7104c8f5c2869b0b8bcbfab57425417bab6217c9d904ee2ac2d53f62"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1597,
+      "sha256": "c281ca9523ceca2045e90760372f0a6bd742d701b1b5ca54b6a24ff0c5e58ab1"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 90,
+      "sha256": "1fb5570fc1fefdba08c3fa0c88ca56461b853ef319c9b29db84d140b4aff88e0"
+    },
+    {
+      "path": "schemas/decisions.schema.json",
+      "bytes": 258,
+      "sha256": "532f25bd50f6d002ce9804854df05edd832bbfd831295feb613589798ea9f984"
+    },
+    {
+      "path": "schemas/experiments.schema.json",
+      "bytes": 322,
+      "sha256": "6c2126b57162c8dc8d65bf2eb541c54fd04a522a775535a7bb4ff2d548d07523"
+    },
+    {
+      "path": "schemas/scene.schema.json",
+      "bytes": 973,
+      "sha256": "1aa628bb430f001937bd63209066c1bb23fb56126c98b08e9a8bfd6d83527dbf"
+    },
+    {
+      "path": "schemas/sources.schema.json",
+      "bytes": 284,
+      "sha256": "b61196581e90bebd7ed4911b137806e38ca74088042f2162bcf0da63a1fee10f"
+    },
+    {
+      "path": "src/walkability_foundation/__init__.py",
+      "bytes": 68,
+      "sha256": "a3a73f5828d4d61798ee9544b7ab7aefee756b6c3194e5b63b3b84c093ae11d6"
+    },
+    {
+      "path": "src/walkability_foundation/graph_costs.py",
+      "bytes": 838,
+      "sha256": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+    },
+    {
+      "path": "tests/test_graph_costs.py",
+      "bytes": 866,
+      "sha256": "9a2a70b569500d5bf3e11283a3fa62f02c4cce1fd1cc544699275054abfcea3e"
+    },
+    {
+      "path": "tests/test_release_audit.py",
+      "bytes": 973,
+      "sha256": "47c2ba2f6693522cd912f8b20708fc87f70ccca11a05b0e5e117258d178a5900"
+    },
+    {
+      "path": "tools/audit_public_tree.py",
+      "bytes": 2545,
+      "sha256": "293008ef41ddbd17c31bd544e4f4b7f5102bbb95baac0ade1d197c3aff81cbe4"
+    },
+    {
+      "path": "tools/run_development_probe.py",
+      "bytes": 5887,
+      "sha256": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621"
+    }
+  ],
+  "findings": [],
+  "scan_status": "PASS_NO_AUTOMATED_FINDINGS",
+  "license_status": "USER_CODE_LICENSE_UNSPECIFIED; NO_RAW_MAP_DATA_OR_LEGACY_CODE_RELICENSED",
+  "first_push_approved": false,
+  "limitations": "Conservative patterns cannot prove privacy or legal compliance. Exact inventory requires independent review and explicit user approval."
+}

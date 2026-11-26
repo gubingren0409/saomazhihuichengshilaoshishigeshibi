@@ -1,0 +1,50 @@
+{
+  "browser": "local Edge via Playwright; offline file URI",
+  "author_check_only": true,
+  "checks": [
+    {
+      "scene_id": "nyc_grand_central",
+      "svg_paths": 444,
+      "metadata_only": false,
+      "screenshot": "visual_check/nyc_grand_central.png",
+      "toggle_hides_layer": true
+    },
+    {
+      "scene_id": "nyc_lincoln_center",
+      "svg_paths": 422,
+      "metadata_only": false,
+      "screenshot": "visual_check/nyc_lincoln_center.png",
+      "toggle_hides_layer": true
+    },
+    {
+      "scene_id": "hel_oodi",
+      "svg_paths": 113,
+      "metadata_only": false,
+      "screenshot": "visual_check/hel_oodi.png",
+      "toggle_hides_layer": true
+    },
+    {
+      "scene_id": "hel_meilahti",
+      "svg_paths": 260,
+      "metadata_only": false,
+      "screenshot": "visual_check/hel_meilahti.png",
+      "toggle_hides_layer": true
+    },
+    {
+      "scene_id": "hel_kallio",
+      "svg_paths": 1,
+      "metadata_only": true,
+      "screenshot": "visual_check/hel_kallio.png",
+      "toggle_hides_layer": true
+    }
+  ],
+  "index_sha256": "365b20e82abd6fd10aa32bbafd06cbb9c85105976a1d60bbd8469da0459594fc",
+  "screenshots_sha256": {
+    "visual_check/hel_kallio.png": "689d674dc20d413ba5bbf3227b1f739d1453d264bde6bf8cfca510df1f8a319a",
+    "visual_check/hel_meilahti.png": "56ed24de225e1d3ba74e46f928228adcffc57cddce48a8d4ed9b538072b5dd09",
+    "visual_check/hel_oodi.png": "8698f0f10f6b6d96d8788b352e6fe5d78eac5175ac2efd9220cadd167e9c3010",
+    "visual_check/nyc_grand_central.png": "6d546dd4434f2ce94153593df617b92099f52b2e11372c58f7f12f10e1013469",
+    "visual_check/nyc_lincoln_center.png": "4226c39a6ef05b54dcf2717d4015d619e49af7ee55375329af2ae7166e6def86"
+  },
+  "actual_author_visual_inspection": "All five final scene screenshots inspected; four actual-geometry maps and one explicit metadata-only extent. Direct license/evidence links added and final screenshots regenerated."
+}

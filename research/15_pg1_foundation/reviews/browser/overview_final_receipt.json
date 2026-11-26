@@ -1,0 +1,26 @@
+{
+  "status": "PASS_FINAL_OVERVIEW_RENDER_EXACT_INVENTORY",
+  "HTML_sha256": "43f7d6520f6d1a7aaabd1020ad8d0f8936c757a59a9686ad1bb7faaf276df7e1",
+  "final_commit": "3134c0ea68e00871ed6dc86ca7bc905071449dae",
+  "file_inventory_rows_present": 38,
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60675/",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60675/phase1/maps/sh-huangpu-01.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60675/phase1/maps/sh-wukang.png",
+      "allowed": true
+    }
+  ],
+  "browser_stopped": true,
+  "temporary_server_stopped": true,
+  "new_solver_calls": 0
+}

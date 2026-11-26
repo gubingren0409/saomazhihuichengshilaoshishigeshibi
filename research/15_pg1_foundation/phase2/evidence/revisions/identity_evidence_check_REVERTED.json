@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "scope": "author offline identity-evidence regression only",
+  "actual_observed_identity_scenes": 4,
+  "metadata_only_scenes": 1,
+  "comparisons": [
+    {
+      "scene_id": "nyc_grand_central",
+      "building_count": 362,
+      "source_id_count": 443,
+      "expected_identity_tier": "SILVER",
+      "registry_and_matrix_agree": true
+    },
+    {
+      "scene_id": "nyc_lincoln_center",
+      "building_count": 330,
+      "source_id_count": 411,
+      "expected_identity_tier": "SILVER",
+      "registry_and_matrix_agree": true
+    },
+    {
+      "scene_id": "hel_oodi",
+      "building_count": 112,
+      "source_id_count": 112,
+      "expected_identity_tier": "SILVER",
+      "registry_and_matrix_agree": true
+    },
+    {
+      "scene_id": "hel_meilahti",
+      "building_count": 259,
+      "source_id_count": 259,
+      "expected_identity_tier": "SILVER",
+      "registry_and_matrix_agree": true
+    },
+    {
+      "scene_id": "hel_kallio",
+      "building_count": "UNKNOWN",
+      "source_id_count": 0,
+      "expected_identity_tier": "BRONZE",
+      "registry_and_matrix_agree": true
+    }
+  ],
+  "missing_evidence_guards": {
+    "positive_count_no_ids": true,
+    "unrelated_layer_id": true,
+    "unknown_building_id": true,
+    "unknown_count": true
+  },
+  "original_source_hashes_object_ids_counts_unchanged": true,
+  "source_code_sha256": "f9347504e21be0bd67a576c3d45184072c3129a8483cd4de9fd575804f47d2ab",
+  "registry_sha256": "f673126d59ff655fcf30a5506333f143a35a0f49d2a62ac6d00e8fc1adb5f716",
+  "matrix_sha256": "68e6dd3c316fb78b70e5b50c2c34123f745e67662b839dd9dd9c7f88a71629eb",
+  "network_calls": 0
+}

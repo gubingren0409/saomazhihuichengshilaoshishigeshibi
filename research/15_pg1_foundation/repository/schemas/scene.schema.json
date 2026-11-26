@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PG1 scene contract",
+  "type": "object",
+  "required": [
+    "scene_id",
+    "source_id",
+    "spatial_group_id",
+    "split",
+    "exposure",
+    "license_status",
+    "fields"
+  ],
+  "properties": {
+    "scene_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "spatial_group_id": {
+      "type": "string"
+    },
+    "split": {
+      "enum": [
+        "DEVELOPMENT",
+        "UNASSIGNED_CANDIDATE",
+        "VALIDATION_APPROVED",
+        "BLIND_APPROVED"
+      ]
+    },
+    "exposure": {
+      "enum": [
+        "EXPOSED",
+        "UNEXPOSED_REFERENCE_BY_INDEPENDENT_CURATOR",
+        "UNKNOWN"
+      ]
+    },
+    "license_status": {
+      "enum": [
+        "AUDITED",
+        "RESTRICTED",
+        "UNKNOWN"
+      ]
+    },
+    "fields": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

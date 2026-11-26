@@ -1,0 +1,16 @@
+{
+  "schema_version": "PG1-1",
+  "required_fields": [
+    "round_id",
+    "base_commit",
+    "final_commit",
+    "branch",
+    "data_hash",
+    "config_hash",
+    "code_hash",
+    "split",
+    "invocation_id",
+    "status"
+  ],
+  "unknown_policy": "UNKNOWN is not zero; preserve exact status and evidence"
+}

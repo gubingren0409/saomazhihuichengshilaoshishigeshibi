@@ -1,0 +1,162 @@
+{
+  "schema": "PG1_NATURAL_LANGUAGE_MAP_REVIEW",
+  "timestamp": "2026-11-12T08:13:05.123Z",
+  "scene_id": "sh-library",
+  "extent_xy": [
+    349701.35911584995,
+    3452531.261651413,
+    353082.99237008975,
+    3455200.684792503
+  ],
+  "crs": "EPSG:32651",
+  "source_sha256": "db8bb89533ff7019e8e95fbac84d3e3136b9f47490d909e4aecc1f3dc064e0a8",
+  "layers": [
+    "vehicle_road",
+    "road_area",
+    "pedestrian_line",
+    "pedestrian_area",
+    "sidewalk_geometry",
+    "sidewalk_tag_on_axis",
+    "crossing",
+    "grass",
+    "water",
+    "vegetation_park",
+    "barrier",
+    "restriction",
+    "level_steps_bridge_tunnel",
+    "exact_interfaces",
+    "conditional_seams",
+    "entrance",
+    "other_context",
+    "building"
+  ],
+  "selected_object": {
+    "properties": {
+      "id": "conditional-seam/8e99a145801977347ac98fec",
+      "kind": "CONDITIONAL_GAP_LINK",
+      "layer": "inferred",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            351768.0288081718,
+            3454721.094148079
+          ],
+          [
+            351774.1763820868,
+            3454722.925045912
+          ]
+        ],
+        "_bounds": [
+          351768.0288081718,
+          3454721.094148079,
+          351774.1763820868,
+          3454722.925045912
+        ],
+        "_path": "M351768.0288081718,-3454721.094148079 L351774.1763820868,-3454722.925045912"
+      },
+      "distance_m": 6.414425298989473,
+      "probe_m": 10,
+      "seam_max_m": 2,
+      "source_area_ids": [
+        "way/331207147"
+      ],
+      "source_ids": [
+        "way/1117800969"
+      ],
+      "p_distance_m": 1.0043200247803996,
+      "omega_distance_m": 6.414425298989473,
+      "accepted": false,
+      "entered_graph": false,
+      "reasons": [
+        "ABOVE_FROZEN_SEAM_MAXIMUM",
+        "NO_NEW_FREE_ROAD_CROSSING:way/1068144842",
+        "UNCERTIFIED_STRICT_DOMAIN_ENDPOINT"
+      ],
+      "status": "REJECTED",
+      "width_m": null,
+      "width_semantics": "LOGICAL_LINE_ONLY_UNKNOWN_SOURCE_WIDTH_NO_AREA_PROMOTION",
+      "assumption_multiplier_F0": 1,
+      "assumption_multiplier_F1": 2,
+      "parent": {
+        "u": "node/9775005120",
+        "v": "node/6360292380",
+        "position_m": 0,
+        "option_sha256": "f0305f604788658fbd30fe26cbb02980e495783ecc406a8030173732379c25f2",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              351774.1763820868,
+              3454722.925045912
+            ],
+            [
+              351768.93134439184,
+              3454720.581931921
+            ]
+          ]
+        }
+      },
+      "parent_projection_certificate": {
+        "raw_projection_xy": [
+          351774.1763820868,
+          3454722.925045912
+        ],
+        "stored_parent_xy": [
+          351774.1763820868,
+          3454722.925045912
+        ],
+        "coordinate_shift_m": 0,
+        "parent_position_m": 0,
+        "parent_length_m": 5.744615182628044,
+        "roundoff_limit_m": 1e-8,
+        "policy": "EXACT_SOURCE_ENDPOINT_OR_UNCHANGED_PARENT_ARCLENGTH_SUBSTRING_NO_NATIVE_MOVEMENT"
+      },
+      "source_id": "conditional-seam/8e99a145801977347ac98fec",
+      "families": [
+        "conditional_seams"
+      ],
+      "geometry_basis": "HISTORICAL_R1_CURRENT_GRAPH_INTERFACE_OR_SEAM_RECORD",
+      "historical_run_id": "RUN-20261112T021346-5d56eb2eaf"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          351768.0288081718,
+          3454721.094148079
+        ],
+        [
+          351774.1763820868,
+          3454722.925045912
+        ]
+      ],
+      "_bounds": [
+        351768.0288081718,
+        3454721.094148079,
+        351774.1763820868,
+        3454722.925045912
+      ],
+      "_path": "M351768.0288081718,-3454721.094148079 L351774.1763820868,-3454722.925045912"
+    }
+  },
+  "historical_result": {
+    "run_id": "RUN-20261112T021346-5d56eb2eaf",
+    "sha256": "7a6b68c1e113a11d3eebbb7797ecf1550797ee69cd4541c84777e38941b95e33",
+    "input": {
+      "request_id": "APP-08",
+      "scene_id": "sh-library",
+      "door_id": "node/11300000483",
+      "start_id": "node/105253317",
+      "purpose": "ENTER_BUILDING",
+      "method": "F1",
+      "selection_role": "STABLE_NATIVE_ID_50_200M_NOT_ROUTE_OUTCOME",
+      "connectivity_mode": "CONDITIONAL_SEAMS",
+      "area_routing": "FULL_FACE",
+      "run_purpose": "FORMAL_PRELOCKED_MATRIX"
+    }
+  },
+  "solver_invoked_this_audit": false,
+  "user_observation": "Independent browser mechanics check; user visual acceptance remains pending.",
+  "acceptance": "PENDING_USER_DECISION"
+}

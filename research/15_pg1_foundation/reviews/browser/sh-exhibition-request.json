@@ -1,0 +1,145 @@
+{
+  "schema": "PG1_NATURAL_LANGUAGE_MAP_REVIEW",
+  "timestamp": "2026-11-12T08:12:30.443Z",
+  "scene_id": "sh-exhibition",
+  "extent_xy": [
+    350520.0666505415,
+    3454433.4407154075,
+    353900.8935611586,
+    3457102.6063709036
+  ],
+  "crs": "EPSG:32651",
+  "source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+  "layers": [
+    "vehicle_road",
+    "road_area",
+    "pedestrian_line",
+    "pedestrian_area",
+    "sidewalk_geometry",
+    "sidewalk_tag_on_axis",
+    "crossing",
+    "grass",
+    "water",
+    "vegetation_park",
+    "barrier",
+    "restriction",
+    "level_steps_bridge_tunnel",
+    "exact_interfaces",
+    "conditional_seams",
+    "entrance",
+    "other_context",
+    "building"
+  ],
+  "selected_object": {
+    "properties": {
+      "id": "conditional-seam/640e3bdd1ac6790c13e799ba",
+      "kind": "CONDITIONAL_GAP_LINK",
+      "layer": "inferred",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            353618.4284439002,
+            3454651.215416087
+          ],
+          [
+            353614.5906050309,
+            3454649.6662403923
+          ]
+        ],
+        "_bounds": [
+          353614.5906050309,
+          3454649.6662403923,
+          353618.4284439002,
+          3454651.215416087
+        ],
+        "_path": "M353618.4284439002,-3454651.215416087 L353614.5906050309,-3454649.6662403923"
+      },
+      "distance_m": 4.138713872626595,
+      "probe_m": 10,
+      "seam_max_m": 2,
+      "source_area_ids": [
+        "way/682223773"
+      ],
+      "source_ids": [
+        "way/682223846"
+      ],
+      "p_distance_m": 4.138713872599318,
+      "omega_distance_m": 4.138713872626595,
+      "accepted": false,
+      "entered_graph": false,
+      "reasons": [
+        "ABOVE_FROZEN_SEAM_MAXIMUM"
+      ],
+      "status": "REJECTED",
+      "width_m": null,
+      "width_semantics": "LOGICAL_LINE_ONLY_UNKNOWN_SOURCE_WIDTH_NO_AREA_PROMOTION",
+      "assumption_multiplier_F0": 1,
+      "assumption_multiplier_F1": 2,
+      "parent": {
+        "u": "node/4861590687",
+        "v": "node/6388820782",
+        "position_m": 14.774108070807795,
+        "option_sha256": "d243eca120d79087fb549475b4bd8bea0df1d74df7c7f72bbc43e5150e7f782f",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              353601.0449868136,
+              3454643.7678934713
+            ],
+            [
+              353614.5906050309,
+              3454649.6662403923
+            ]
+          ]
+        }
+      },
+      "parent_projection_certificate": {
+        "raw_projection_xy": [
+          353614.5906050309,
+          3454649.6662403923
+        ],
+        "stored_parent_xy": [
+          353614.5906050309,
+          3454649.6662403923
+        ],
+        "coordinate_shift_m": 0,
+        "parent_position_m": 14.774108070807795,
+        "parent_length_m": 14.774108070807795,
+        "roundoff_limit_m": 1e-8,
+        "policy": "EXACT_SOURCE_ENDPOINT_OR_UNCHANGED_PARENT_ARCLENGTH_SUBSTRING_NO_NATIVE_MOVEMENT"
+      },
+      "source_id": "conditional-seam/640e3bdd1ac6790c13e799ba",
+      "families": [
+        "conditional_seams"
+      ],
+      "geometry_basis": "HISTORICAL_R1_CURRENT_GRAPH_INTERFACE_OR_SEAM_RECORD",
+      "historical_run_id": "RUN-20261112T005440-47cc13ee59"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          353618.4284439002,
+          3454651.215416087
+        ],
+        [
+          353614.5906050309,
+          3454649.6662403923
+        ]
+      ],
+      "_bounds": [
+        353614.5906050309,
+        3454649.6662403923,
+        353618.4284439002,
+        3454651.215416087
+      ],
+      "_path": "M353618.4284439002,-3454651.215416087 L353614.5906050309,-3454649.6662403923"
+    }
+  },
+  "historical_result": {},
+  "solver_invoked_this_audit": false,
+  "user_observation": "Independent browser mechanics check; user visual acceptance remains pending.",
+  "acceptance": "PENDING_USER_DECISION"
+}

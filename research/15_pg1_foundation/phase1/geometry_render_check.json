@@ -1,0 +1,20 @@
+{
+  "scope": "All geometry instances across source/import/diagnostic/native/legal-face/current-interface layers, with repeated stage geometries counted separately",
+  "geometry_type_instances": {
+    "LineString": 92193,
+    "Polygon": 78577,
+    "Point": 28631,
+    "MultiPolygon": 84,
+    "MultiPoint": 30,
+    "MultiLineString": 2,
+    "GeometryCollection": 0
+  },
+  "polygon_hole_winding_conflicts": 0,
+  "unknown_adapter_kind_with_parseable_raw_geometry": 0,
+  "js_point_multipoint_lines_multilines_polygons_multipolygons": "HANDLED",
+  "static_point_multipoint_lines_multilines_polygons_multipolygons": "HANDLED",
+  "holes": "SVG evenodd; static opposite-winding compound paths; actual rings checked",
+  "geometrycollection": "No instances in this frozen input; recursive dispatch exists in drawing functions",
+  "unresolved_source_derived_boxes": 54,
+  "status": "AUTHOR_CHECKED_FROZEN_INPUT_TYPES; INDEPENDENT_BROWSER_PENDING"
+}

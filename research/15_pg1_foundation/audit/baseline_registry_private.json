@@ -1,0 +1,591 @@
+{
+  "at": "2026-11-12T15:31:10.815129+08:00",
+  "artifacts": [
+    {
+      "artifact_id": "NAV_END_V1",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V1_OPEN_REVIEW.zip",
+      "role": "HISTORICAL_SCREENSHOT_REFERENCE",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 60430848,
+      "sha256": "e357e32c8431588dd3c50b80c4546774ea9637ed99c72a3b9c1e29b5565328e9",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V1_PACKAGE_RECEIPT.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V1_REPRODUCE_CHECK.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V1_PACKAGE_RECEIPT.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V1_REPRODUCE_CHECK.json",
+          "field": "archive_sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 4118,
+      "source_members": 13,
+      "data_members": 810,
+      "review_evidence_members": [
+        "NAV_END_V1/audits/independent_review.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "NAV_END_V2",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2_OPEN_REVIEW.zip",
+      "role": "HISTORICAL_SCREENSHOT_REFERENCE",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 150792229,
+      "sha256": "86113eb8a514806f2042dce0833931726003b8cd3c5ff526892a43b2e7b83652",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2_OPEN_PACKAGE_RECEIPT.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2_OPEN_UI_REPLAY.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2_PACKAGE_REPLAY.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2_OPEN_PACKAGE_RECEIPT.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2_OPEN_UI_REPLAY.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\NAV_END_V2_PACKAGE_REPLAY.json",
+          "field": "sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 16892,
+      "source_members": 26,
+      "data_members": 1244,
+      "review_evidence_members": [
+        "audits/independent_review.md",
+        "tests/test_v2_independent_review.py"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "PILOT_R1_AB",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R1\\delivery\\OPEN_REVIEW_AB_COMPLETION.zip",
+      "role": "HISTORICAL_DUAL_PATH",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 11838676,
+      "sha256": "a4b902b530163477bdfd1092d7a88441c11e76950ee394cfb440213eb4453c12",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R1\\delivery\\OPEN_REVIEW_AB_COMPLETION_VERIFICATION.json",
+          "field": "zip_sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 97,
+      "source_members": 15,
+      "data_members": 15,
+      "review_evidence_members": [
+        "audits/INDEPENDENT_REVIEW.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "PILOT_R2",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R2\\delivery\\OPEN_REVIEW.zip",
+      "role": "HISTORICAL_DIAGNOSIS",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 10505269,
+      "sha256": "50e147fba6cec20db02bf2aed8a00c679ad1d8ca2ca5f45c2a5a0db1c89518a2",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R2\\delivery\\OPEN_REVIEW_VERIFICATION.json",
+          "field": "sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 89,
+      "source_members": 9,
+      "data_members": 14,
+      "review_evidence_members": [
+        "audits/independent_review.md",
+        "inputs/r1/audits/INDEPENDENT_REVIEW.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "PILOT_R3",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R3\\delivery\\OPEN_REVIEW.zip",
+      "role": "DEVELOPMENT_SOURCE_SIX_SCENES",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 66433423,
+      "sha256": "13ffb6be75ca0b26710dd3d68bba2951e99539fa06eb51ab4d8195ea487e8c30",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PILOT_R3\\delivery\\OPEN_REVIEW_VERIFICATION.json",
+          "field": "archive_sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 238,
+      "source_members": 22,
+      "data_members": 52,
+      "review_evidence_members": [
+        "inputs/r2/audits/independent_review.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "R4_REV1",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\delivery\\OPEN_REVIEW.zip",
+      "role": "HISTORICAL_FACE_METHOD",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 19579824,
+      "sha256": "f2de5326ffbffe1e62c0fa5d622cec6645582342824ea1ae13716789d5af5ee0",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\delivery\\INDEPENDENT_ARCHIVE_VERIFICATION.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_REV1\\delivery\\OPEN_REVIEW_REPLAY.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R3\\delivery\\independent_package_check.json",
+          "field": "sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 106,
+      "source_members": 16,
+      "data_members": 40,
+      "review_evidence_members": [
+        "audits/INDEPENDENT_REVIEW.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "NORTH_ACCESS_R1",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_NORTH_ACCESS_R1\\delivery\\OPEN_REVIEW.zip",
+      "role": "HISTORICAL_EXIT_HYPOTHESIS",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 2012470,
+      "sha256": "ac829ec6bbb0d8b35f50fba4b424bbca264cbec873a7fa985da71d722d781147",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_NORTH_ACCESS_R1\\delivery\\OPEN_REVIEW_REPLAY.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_NORTH_ACCESS_R1\\delivery\\OPEN_REVIEW_VERIFICATION.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R3\\delivery\\independent_package_check.json",
+          "field": "sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 61,
+      "source_members": 14,
+      "data_members": 24,
+      "review_evidence_members": [
+        "audits/INDEPENDENT_REVIEW.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "WALKABILITY_R1",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R1\\delivery\\OPEN_REVIEW.zip",
+      "role": "NOT_FOUND_NO_RECONSTRUCTION",
+      "exists": false,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "verification": "NOT_FOUND",
+      "bytes": 0,
+      "sha256": "",
+      "CRC": "NOT_RUN",
+      "limitation": "No unambiguous separately named WALKABILITY_R1 package found; NORTH_ACCESS_R1 is a different task, not silently renamed."
+    },
+    {
+      "artifact_id": "WALKABILITY_R2",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R2\\delivery\\OPEN_REVIEW.zip",
+      "role": "HISTORICAL_LINE_INFERENCE",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 22633922,
+      "sha256": "277f1cfac82ec04335262444dcfc3ef1080c2c93d8e481dd8dac42db65ecbf72",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R2\\delivery\\independent_package_check.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R2\\delivery\\replay_receipt.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R3\\delivery\\independent_package_check.json",
+          "field": "sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 116,
+      "source_members": 11,
+      "data_members": 47,
+      "review_evidence_members": [
+        "audits/INDEPENDENT_REVIEW.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "WALKABILITY_R3",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R3\\delivery\\OPEN_REVIEW.zip",
+      "role": "HISTORICAL_REGION_RECOVERY",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 34230769,
+      "sha256": "d623af231c6eabeace1d3c8e284787a51b7d83782c6c8f7990d16b27f5c0cd0e",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R3\\delivery\\independent_package_check.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R3\\delivery\\replay_receipt.json",
+          "field": "archive_sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 249,
+      "source_members": 16,
+      "data_members": 149,
+      "review_evidence_members": [
+        "audits/INDEPENDENT_REVIEW.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "WALKABILITY_R4_CONTEXT",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R4_CONTEXT\\delivery\\OPEN_REVIEW.zip",
+      "role": "HISTORICAL_CONTEXT_DIAGNOSIS",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 65659394,
+      "sha256": "40f8e18d76d04819d66a3bd526ecb2b74fc83201b3b58452881a6576b6651cbf",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R4_CONTEXT\\delivery\\independent_package_check.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_WALKABILITY_R4_CONTEXT\\delivery\\replay_receipt.json",
+          "field": "archive_sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 587,
+      "source_members": 18,
+      "data_members": 496,
+      "review_evidence_members": [
+        "audits/INDEPENDENT_REVIEW.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "FREE_SPACE_R1_FINAL",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\OPEN_REVIEW.zip",
+      "role": "CURRENT_FREE_SPACE_DEFINITION",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 131701394,
+      "sha256": "1d4110a76d0e5006f5c518366d82d6fb1aa98c8e46bac6956b2b0dbd91ccc77a",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\archive_receipt.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\FINAL_STATUS.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\independent_package_check.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\independent_package_initial_R1.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\independent_replay_resources_and_figures.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_R4_FREE_SPACE_R1\\delivery\\replay_receipt.json",
+          "field": "archive_sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 1213,
+      "source_members": 21,
+      "data_members": 897,
+      "review_evidence_members": [
+        "audits/INDEPENDENT_REVIEW.md",
+        "audits/R0_review_history/INDEPENDENT_REVIEW.md",
+        "audits/superseded_access_scoring_GEOS/INDEPENDENT_REVIEW.md",
+        "runs/production_versions/R0_SEALED/audits/INDEPENDENT_REVIEW.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "KNOWN_ENTRANCE_E2E_R1_FIXED",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\OPEN_REVIEW_R1_FIXED.zip",
+      "role": "CURRENT_KNOWN_DOOR_PROTOTYPE",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 26746826,
+      "sha256": "4fc46d467a25aa19db46a8d721f523b1f3a5aed43ae7645d107a52a08682e6da",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\ACTIVE_REVIEW.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\credential_literal_check_r1.json",
+          "field": "zip_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\FINAL_STATUS.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_final_replay_r1.json",
+          "field": "expected_zip_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_final_replay_r1.json",
+          "field": "zip_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_final_replay_r1_progress.json",
+          "field": "expected_zip_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\independent_final_replay_r1_progress.json",
+          "field": "zip_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_KNOWN_ENTRANCE_E2E_R1\\delivery\\OPEN_REVIEW_R1_FIXED_VERIFICATION.json",
+          "field": "sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 778,
+      "source_members": 14,
+      "data_members": 245,
+      "review_evidence_members": [
+        "AUDIT/INDEPENDENT_REVIEW.md",
+        "AUDIT/independent_review_plan.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "PED_AREA_SHORTEST_R1_FIXED",
+      "canonical_path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\delivery\\OPEN_REVIEW_R1_FINAL_FIXED.zip",
+      "role": "CURRENT_FULL_FACE_BASELINE",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 49786142,
+      "sha256": "c5472838de6320d983d80e4defd448e08c017777f23bc7aa083d38e7ce10b08a",
+      "matching_receipt_anchors": [
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\delivery\\FINAL_COMPLETION.json",
+          "field": "main_zip_sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\delivery\\FINAL_DELIVERY.json",
+          "field": "primary_archive_SHA256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\delivery\\FINAL_SERVICE_CHECK.json",
+          "field": "primary_SHA256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\delivery\\OPEN_REVIEW_R1_FINAL_FIXED.integrity.json",
+          "field": "sha256"
+        },
+        {
+          "path": "C:\\Users\\28489\\.codex\\visualizations\\2026\\10\\10\\01a12554-d978-7d60-bdf2-97caf96e0581\\OSM_GEOAPIFY_PEDESTRIAN_AREA_SHORTEST_R1\\STATUS.json",
+          "field": "final_archive_sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 404,
+      "source_members": 16,
+      "data_members": 58,
+      "review_evidence_members": [
+        "audits/independent_review.md",
+        "audits/independent_review_plan.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "PED_AREA_CONNECTIVITY_R1",
+      "canonical_path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\PED_AREA_CONNECTIVITY_R1_OPEN_REVIEW.zip",
+      "role": "CURRENT_SOURCE_TOPOLOGY_BASELINE",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 185669403,
+      "sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+      "matching_receipt_anchors": [
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\DELIVERY_STATUS.json",
+          "field": "main_archive_sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\PED_AREA_CONNECTIVITY_R1_INDEPENDENT_REPLAY_RECEIPT.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\PED_AREA_CONNECTIVITY_R1_OPEN_REVIEW.build_receipt.json",
+          "field": "sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\POSTSEAL_EVIDENCE_INDEPENDENT_CHECK.json",
+          "field": "main_archive_sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\POSTSEAL_EVIDENCE_INDEPENDENT_CHECK.json",
+          "field": "actual_main_sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\POSTSEAL_EVIDENCE_INDEPENDENT_CHECK.json",
+          "field": "manifest_main_sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\POSTSEAL_EVIDENCE_INDEPENDENT_CHECK.json",
+          "field": "receipt_main_sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\delivery\\INDEPENDENT_REPLAY_RECEIPT.json",
+          "field": "baseline_sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\delivery\\independent_unpack_receipt.json",
+          "field": "R1_baseline_SHA256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\MANIFEST_SHA256.json",
+          "field": "historical_R1_SHA256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\STATUS.json",
+          "field": "source_archive_sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 764,
+      "source_members": 82,
+      "data_members": 168,
+      "review_evidence_members": [
+        "audits/independent_review.md",
+        "audits/independent_review_final_candidate.md",
+        "audits/independent_review_plan.md",
+        "audits/independent_review_progress_archive.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    },
+    {
+      "artifact_id": "PED_AREA_CONNECTIVITY_R2",
+      "canonical_path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\delivery\\OPEN_REVIEW.zip",
+      "role": "LATEST_ROUTE_DIAGNOSIS",
+      "exists": true,
+      "source_commit": "NOT_RECORDED_IN_HISTORICAL_PACKAGE",
+      "public_release": "NOT_AUTOMATICALLY_APPROVED",
+      "user_acceptance": "NOT_INFERRED_FROM_INTERNAL_PASS",
+      "bytes": 88836177,
+      "sha256": "3988e9fba95da70dc03b8191a177740a3ccd13602019afe3765e566648b55711",
+      "matching_receipt_anchors": [
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\delivery\\FINAL_STATUS.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\delivery\\INDEPENDENT_FRESH_BROWSER_RECEIPT.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\delivery\\INDEPENDENT_REPLAY_RECEIPT.json",
+          "field": "archive_sha256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\delivery\\independent_unpack_receipt.json",
+          "field": "archive_SHA256"
+        },
+        {
+          "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\delivery\\OPEN_REVIEW.build_receipt.json",
+          "field": "sha256"
+        }
+      ],
+      "CRC": "PASS",
+      "members": 265,
+      "source_members": 45,
+      "data_members": 42,
+      "review_evidence_members": [
+        "audits/INDEPENDENT_REVIEW.md",
+        "audits/independent_review_issue_log.json",
+        "inputs/PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS_CODEX_INPUTS/evidence/audits/independent_review_final_candidate.md"
+      ],
+      "verification": "HASH_MATCHES_HISTORICAL_RECEIPT_CRC_PASS"
+    }
+  ],
+  "note": "CRC/source membership are engineering evidence, not scientific acceptance; no old code rerun."
+}

@@ -1,0 +1,158 @@
+{
+  "at_utc": "2026-11-12T08:07:10.959293+00:00",
+  "scope": "actual Edge browser, all six map scenes, local GET-only server; source-code-independent UI checks",
+  "phase1": [
+    {
+      "scene_id": "sh-exhibition",
+      "render_primitive_counts_block": {
+        "raw": 1248,
+        "import": 721,
+        "graph": 1675,
+        "legacy": 1248
+      },
+      "primitive_count_is_not_source_object_denominator": true,
+      "illegal_line_fills": 0,
+      "layer_toggle_removed_primitives": 446,
+      "clicked_source_object": "way/8758061",
+      "clicked_current_graph_objects": [
+        {
+          "layer": "interfaces",
+          "id": "interface/66ee82d6c763f7588bf27847"
+        },
+        {
+          "layer": "seams",
+          "id": "conditional-seam/dd4636bc00a2ed5b68abb8d8"
+        }
+      ],
+      "export_source_sha256": "19c09f8545926d8ac8d213872659467a37f5333b902d718e0e1997d117097c61",
+      "html_sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c",
+      "renderer_sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02"
+    }
+  ],
+  "phase2": [],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/index.html",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/maps/sh-huangpu-01.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/maps/sh-wukang.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/maps/sh-tower.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/maps/sh-newworld.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/maps/sh-library.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/maps/sh-exhibition.png",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/index.html",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/src/map.css",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/src/map.js",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/scene_index.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-exhibition/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-exhibition/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-exhibition/current_graph.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-exhibition/historical_variants.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-exhibition/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-exhibition/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-exhibition/current_graph.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-exhibition/historical_variants.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-huangpu-01/scene.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-huangpu-01/historical_route.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-huangpu-01/current_graph.json",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:60173/phase1/data/sh-huangpu-01/historical_variants.json",
+      "allowed": true
+    }
+  ],
+  "page_errors": [],
+  "server_stopped": true,
+  "browser_stopped": false,
+  "new_solver_calls": 0,
+  "temporary_local_port": 60173,
+  "overview_html_sha256": "ccf415c75eac20683f8a9d47b4dda17c5a56ec154235061dde2cfd82985521e7",
+  "status": "REQUIRES_FIX",
+  "error": "AssertionError('CURRENT_GRAPH_OBJECT_CLICK_FAILED')"
+}

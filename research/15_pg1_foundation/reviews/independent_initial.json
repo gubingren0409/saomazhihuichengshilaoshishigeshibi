@@ -1,0 +1,162 @@
+{
+  "at_utc": "2026-11-12T07:27:35.431274+00:00",
+  "role": "actual separate independent reviewer",
+  "inputs": [
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\inputs\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\00_README_FIRST.md",
+      "bytes": 896,
+      "sha256": "0b49f19cd1313298a773f04c67001c6a86096d8ee92e667e78b07eef14465932",
+      "expected_match": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\inputs\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\01_ACCEPTANCE_CHECKLIST.md",
+      "bytes": 1634,
+      "sha256": "d3006e25b67f9c1dda60f9653c703209ec218522fe0d4cd97f32381bf4d1397d",
+      "expected_match": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\inputs\\SMART_CITY_WALKABILITY_FOUNDATION_PG1\\SMART_CITY_WALKABILITY_FOUNDATION_PG1_CODEX_PROMPT.md",
+      "bytes": 34092,
+      "sha256": "6e7c01f4cc819944cc3f65345574aa91bd8a677511c840aa55e8ec0932157190",
+      "expected_match": true
+    }
+  ],
+  "rules": [
+    {
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services\\AGENTS.md",
+      "sha256": "d74cefd8452a05ed5ed19beb982c7526facaa21bf2b88801fede6d8722220bc1",
+      "expected_match": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services\\docs\\research\\SMART_CITIES_RESEARCH_PROTOCOL.md",
+      "sha256": "7eb7ad0ebd4ce2bada18830f966f92830ac22024bf6c82a06db1dee9db847d4e",
+      "expected_match": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services\\docs\\design-system\\SMART_CITIES_VISUAL_SYSTEM.md",
+      "sha256": "8571868e88a57781619450b68adf2b3036090718793d450c98310ca901e4fa54",
+      "expected_match": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services\\docs\\report-writing\\SMART_CITIES_REPORT_WRITING_GUIDE.md",
+      "sha256": "73514f878f1bee3d684b80601358caf4d4c9a90a563a116bc066ef693ccd04a5",
+      "expected_match": true
+    },
+    {
+      "path": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services\\docs\\process-report\\WORKFLOW_INTERACTION_EVIDENCE_PROTOCOL.md",
+      "sha256": "87b4f8a246b66433e6dc05f4a301ffead4f4348fcda0668cf14fb767106e028a",
+      "expected_match": true
+    }
+  ],
+  "historical": [
+    {
+      "id": "R2_FINAL",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS\\delivery\\OPEN_REVIEW.zip",
+      "bytes": 88836177,
+      "sha256": "3988e9fba95da70dc03b8191a177740a3ccd13602019afe3765e566648b55711",
+      "expected_sha256": "3988e9fba95da70dc03b8191a177740a3ccd13602019afe3765e566648b55711",
+      "CRC_first_bad": null,
+      "members": 265,
+      "unsafe_members": [],
+      "archive_statuses": {
+        "STATUS.json": {
+          "task": "PED_AREA_CONNECTIVITY_R2_ROUTE_DIAGNOSIS",
+          "status": "CONTENT_FROZEN_PENDING_POSTSEAL_REPLAY",
+          "budget_start": "2026-11-12T12:29:00.200043+08:00",
+          "research_deadline": "2026-11-12T14:29:00.200043+08:00",
+          "new_formal_solver_cap": 8,
+          "new_formal_solver_calls": 8,
+          "source_archive": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\PED_AREA_CONNECTIVITY_R1_OPEN_REVIEW.zip",
+          "source_archive_sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+          "r1_reuse_candidate": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\final_clean_replay\\independent_clean_20261111T194138Z_d5934ae928_d5ac79\\unpacked",
+          "map_API_requests": 0,
+          "user_observation": "PENDING_USER_OBSERVATION",
+          "screenshot_binding": "SCREENSHOT_REQUEST_UNBOUND",
+          "checkpoint_at": "2026-11-12T13:26:00+08:00",
+          "baseline_archive_verified": true,
+          "historical32_independent_check": "PASS",
+          "independent_corridor_pairs_checked": 992,
+          "new_SSSP_traversals": 16,
+          "main_diagnosis_frozen": true,
+          "map_author_review": "PASS",
+          "historical_protection_closure": "PASS",
+          "new_map_or_external_API_requests": 0,
+          "postseal_replay": "NOT_STARTED",
+          "independent_preseal_review": "PASS_FOR_PRESEAL_CONTENT",
+          "stage_note": "Content frozen after actual independent UI review. Later final ZIP replay/status goes outside archive in delivery; no additional solver calls."
+        }
+      },
+      "manifest_members": [
+        "MANIFEST_SHA256.json"
+      ],
+      "failure_and_review_member_names": [],
+      "hash_pass": true
+    },
+    {
+      "id": "R1_FINAL",
+      "path": "E:\\智慧城市和位置服务\\_task_runtime\\PED_AREA_CONNECTIVITY_R1\\delivery\\PED_AREA_CONNECTIVITY_R1_OPEN_REVIEW.zip",
+      "bytes": 185669403,
+      "sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+      "expected_sha256": "d5934ae928e656f7bdc5618b63e2293403ce0b736809d2050fc2f41caac393ed",
+      "CRC_first_bad": null,
+      "members": 764,
+      "unsafe_members": [],
+      "archive_statuses": {
+        "STATUS.json": {
+          "task": "OSM-GEOAPIFY-PED-AREA-CONNECTIVITY-R1",
+          "status": "DELIVERY_CANDIDATE_PENDING_POSTSEAL_REPLAY",
+          "at": "2026-11-12T03:37:59.889016+08:00",
+          "budget_started_at": "2026-11-12T00:09:06.0058603+08:00",
+          "active_experiment_deadline": "2026-11-12T04:09:06.0058603+08:00",
+          "budget_not_reset": true,
+          "new_research_requests_stopped": true,
+          "formal_primary_completed": 104,
+          "formal_replays": 16,
+          "formal_interrupted": 1,
+          "formal_actual_attempts": 121,
+          "formal_solver_invocations": 92,
+          "formal_cap": 128,
+          "engineering_exceptions": 0,
+          "paired_F0_F1_graphs_equal": true,
+          "component_graphs_SHA_verified": 24,
+          "independent_live_completed": 6,
+          "independent_clean_prelocked": 2,
+          "independent_clean_status": "PENDING_FINAL_FIXED_ZIP",
+          "old_services_protected": [
+            53421,
+            53431
+          ],
+          "demo_url": "http://127.0.0.1:53441/",
+          "demo_pid": 275588,
+          "external_map_requests": 0,
+          "training": false,
+          "user_observation": "PENDING_USER_OBSERVATION",
+          "screenshot_binding": "SCREENSHOT_REQUEST_UNBOUND",
+          "backend_code_sha256": "bfa6330f57be3bd7271b0ec9ee91ca7fd78d1388a46d0dc51577b3d0cff46721",
+          "independent_canonical_responses": 104,
+          "independent_component_graphs": 24,
+          "final_gallery_sha256": "97652bf8fc750b21511e222a4c9f0176c1363e50e9fd58600bfb2bffac763da1",
+          "independent_review_sha256": "2e653ed32ab393a439606a26d6b711326319a46ba61773947f7ff414030c9332",
+          "final_gallery_GET_status": "PASS_FOR_FINAL_GALLERY_GET_RENDER_AND_DOWNLOAD_SCOPE",
+          "no_pending_implementation_repairs": true,
+          "postseal_receipt_is_authoritative": true
+        }
+      },
+      "manifest_members": [
+        "MANIFEST_SHA256.json"
+      ],
+      "failure_and_review_member_names": [
+        "audits/previous_replay/FINAL_DELIVERY.json"
+      ],
+      "hash_pass": true
+    }
+  ],
+  "scope": {
+    "new_map_requests": 0,
+    "new_paid_requests": 0,
+    "training": false,
+    "blind_test_used": false,
+    "old_solver_reruns": 0,
+    "overall_PG1": "FOUNDATION_NOT_COMPLETE"
+  }
+}

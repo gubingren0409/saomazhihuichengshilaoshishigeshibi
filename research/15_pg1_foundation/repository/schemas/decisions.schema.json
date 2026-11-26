@@ -1,0 +1,13 @@
+{
+  "schema_version": "PG1-1",
+  "required_fields": [
+    "decision_id",
+    "at",
+    "actor",
+    "evidence",
+    "decision",
+    "gate",
+    "approval_status"
+  ],
+  "unknown_policy": "UNKNOWN is not zero; preserve exact status and evidence"
+}

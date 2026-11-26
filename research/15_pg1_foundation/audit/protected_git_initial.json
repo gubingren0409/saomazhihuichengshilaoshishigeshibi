@@ -1,0 +1,110 @@
+{
+  "at": "2026-11-12T15:24:26.836317+08:00",
+  "roots": [
+    {
+      "root": "E:\\智慧城市和位置服务",
+      "commands": {
+        "tracked_status": {
+          "exit": 0,
+          "sha256": "8c338c05263f904caf9dfe8b458c7d0c9f1e942b0359c8d5a7cfcccb015e6fa2",
+          "bytes": 38873,
+          "lines": 475,
+          "evidence": "audit\\git_0_tracked_status.txt"
+        },
+        "status": {
+          "exit": 0,
+          "sha256": "aa6733519f5d3b6908eb8851c8269be4575af54ca629d571f3d30dea64ed75c2",
+          "bytes": 39001,
+          "lines": 481,
+          "evidence": "audit\\git_0_status.txt"
+        },
+        "HEAD": {
+          "exit": 0,
+          "sha256": "8348ce2ee4e82fc55df8ecdf9835656ab1d4f3005696ac9f0b9aa2b1862c907d",
+          "bytes": 41,
+          "lines": 1,
+          "evidence": "audit\\git_0_HEAD.txt"
+        },
+        "branch": {
+          "exit": 0,
+          "sha256": "b8cb97cf824dd7b5c1c9042502ff79586527c129ef96f3b254bc04a311fa1142",
+          "bytes": 5,
+          "lines": 1,
+          "evidence": "audit\\git_0_branch.txt"
+        },
+        "remotes": {
+          "exit": 0,
+          "sha256": "be41ce0e098c62ba86c4bb8803a7a0c1f0af02569a0e915c97db37fc78495c58",
+          "bytes": 173,
+          "lines": 2,
+          "evidence": "audit\\git_0_remotes.txt"
+        },
+        "git_dir": {
+          "exit": 0,
+          "sha256": "dfd6957c25e3eaea6749f3e6c1d4d23672d61876c6156d6e28c3b7618c6e4185",
+          "bytes": 36,
+          "lines": 1,
+          "evidence": "audit\\git_0_git_dir.txt"
+        }
+      },
+      "HEAD": "2c878cc69aec54cf1f9e5e6803eeb1cb9b06bfdc",
+      "branch": "lab1",
+      "git_dir": "E:/智慧城市和位置服务/.git",
+      "index_sha256": "4216b12478e717dcb367733fbbb430911edf77b785c1d3fc9ebd9cd8a80e2bd4",
+      "HEAD_file_sha256": "665aab1d1876251f934141e502fa023465fcf63e5cef45e4d5bbd1acd813f27e"
+    },
+    {
+      "root": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services",
+      "commands": {
+        "tracked_status": {
+          "exit": 0,
+          "sha256": "34713d189cfddd5830c05d2a784c9b14dc398b3608c5c884681286d1f0b637ab",
+          "bytes": 22492,
+          "lines": 205,
+          "evidence": "audit\\git_1_tracked_status.txt"
+        },
+        "status": {
+          "exit": 0,
+          "sha256": "34713d189cfddd5830c05d2a784c9b14dc398b3608c5c884681286d1f0b637ab",
+          "bytes": 22492,
+          "lines": 205,
+          "evidence": "audit\\git_1_status.txt"
+        },
+        "HEAD": {
+          "exit": 0,
+          "sha256": "60b1957e4ef5142a4970a9eb1b7ef4494a7ff0d9e63dce92c7aa87a88dba43b8",
+          "bytes": 41,
+          "lines": 1,
+          "evidence": "audit\\git_1_HEAD.txt"
+        },
+        "branch": {
+          "exit": 0,
+          "sha256": "6403203dd5a0867eb14d104ee8a73730bd72dd9ad92e78d996a6dba0a5dcfc01",
+          "bytes": 5,
+          "lines": 1,
+          "evidence": "audit\\git_1_branch.txt"
+        },
+        "remotes": {
+          "exit": 0,
+          "sha256": "ee93626ca17d8b2057f9237323d74e16bfe648e5f2dd5ed22da068b49acb7ffb",
+          "bytes": 175,
+          "lines": 2,
+          "evidence": "audit\\git_1_remotes.txt"
+        },
+        "git_dir": {
+          "exit": 0,
+          "sha256": "2cd72e30d1c16c12e8388a57e312c0c750292c76a250f9c44f22c3ebca026540",
+          "bytes": 79,
+          "lines": 1,
+          "evidence": "audit\\git_1_git_dir.txt"
+        }
+      },
+      "HEAD": "677003de184b73a503f830a47186ee7688e13507",
+      "branch": "main",
+      "git_dir": "E:/智慧城市和位置服务/project/Smart_Cities_and_Location_Services/.git",
+      "index_sha256": "67f47e86c92bc814144043bdb235f62149b9e0d95aad58cbec356fa68e7f2f0f",
+      "HEAD_file_sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+    }
+  ],
+  "scope": "Full existing status recorded privately; closure compares tracked status, HEAD/index and preexisting untracked resources. New isolated files may be untracked in ancestor; no old staging touched."
+}

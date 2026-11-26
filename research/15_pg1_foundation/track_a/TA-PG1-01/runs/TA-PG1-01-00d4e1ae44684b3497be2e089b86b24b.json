@@ -1,0 +1,139 @@
+{
+  "invocation_id": "TA-PG1-01-00d4e1ae44684b3497be2e089b86b24b",
+  "case": "library",
+  "method": "F1",
+  "split": "EXPOSED_DEVELOPMENT_ONLY",
+  "start_id": "node/105253317",
+  "door_id": "node/11300000483",
+  "start_xy": [
+    351461.44629125996,
+    3453985.5238055084
+  ],
+  "door_xy": [
+    351413.6223179579,
+    3453883.056178218
+  ],
+  "purpose": "KNOWN_REGISTERED_DOOR_APPROACH",
+  "segments": [
+    {
+      "u": "node/105253317",
+      "v": "node/105253333",
+      "xy": [
+        [
+          351461.44629125996,
+          3453985.5238055084
+        ],
+        [
+          351409.4755140859,
+          3453948.450357066
+        ]
+      ],
+      "length_m": 63.83887733572097,
+      "hypothesis_m": 0.0,
+      "cost_m": 63.83887733572097,
+      "source_area_ids": [],
+      "interface_ids": [],
+      "geometry_kind": "SOURCE_SNAPSHOT"
+    },
+    {
+      "u": "node/105253333",
+      "v": "node/11300000486",
+      "xy": [
+        [
+          351409.4755140859,
+          3453948.450357066
+        ],
+        [
+          351366.55386698036,
+          3453917.22531369
+        ]
+      ],
+      "length_m": 53.07797211729334,
+      "hypothesis_m": 0.0,
+      "cost_m": 53.07797211729334,
+      "source_area_ids": [],
+      "interface_ids": [],
+      "geometry_kind": "SOURCE_SNAPSHOT"
+    },
+    {
+      "u": "node/11300000486",
+      "v": "node/11300000485",
+      "xy": [
+        [
+          351366.55386698036,
+          3453917.22531369
+        ],
+        [
+          351383.2923608563,
+          3453896.6666080416
+        ]
+      ],
+      "length_m": 26.511083628796836,
+      "hypothesis_m": 0.0,
+      "cost_m": 26.511083628796836,
+      "source_area_ids": [],
+      "interface_ids": [],
+      "geometry_kind": "SOURCE_SNAPSHOT"
+    },
+    {
+      "u": "node/11300000485",
+      "v": "node/11300000484",
+      "xy": [
+        [
+          351383.2923608563,
+          3453896.6666080416
+        ],
+        [
+          351405.04519129347,
+          3453895.8274647035
+        ]
+      ],
+      "length_m": 21.769009935443353,
+      "hypothesis_m": 0.0,
+      "cost_m": 21.769009935443353,
+      "source_area_ids": [],
+      "interface_ids": [],
+      "geometry_kind": "SOURCE_SNAPSHOT"
+    },
+    {
+      "u": "node/11300000484",
+      "v": "node/11300000483",
+      "xy": [
+        [
+          351405.04519129347,
+          3453895.8274647035
+        ],
+        [
+          351413.6223179579,
+          3453883.056178218
+        ]
+      ],
+      "length_m": 15.384175645985245,
+      "hypothesis_m": 0.0,
+      "cost_m": 15.384175645985245,
+      "source_area_ids": [],
+      "interface_ids": [],
+      "geometry_kind": "SOURCE_SNAPSHOT"
+    }
+  ],
+  "length_m": 180.58111866323975,
+  "hypothesis_m": 0.0,
+  "cost_m": 180.58111866323975,
+  "historical_cost_m": 180.58111866323975,
+  "historical_cost_error_m": 0.0,
+  "new_solver_calls": 1,
+  "answer_cache": false,
+  "new_geometry_admission": false,
+  "topology_sha256": "c1841cc53a0ae151b593c787d0fd217eed2f6dccaf71b3553986cb5e4290068c",
+  "source_archive_sha256": "3988e9fba95da70dc03b8191a177740a3ccd13602019afe3765e566648b55711",
+  "source_graph_member": "data/library_query_graph.jsonl.gz",
+  "source_code_hashes": {
+    "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+    "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+  },
+  "load_s": 0.21355190000031143,
+  "scalar_weight_s": 0.02109829999972135,
+  "batch_weight_s": 0.020520900000065012,
+  "solver_s": 0.000813799999832554,
+  "geometry_and_permissions": "INHERITED_FIXED_R2_GRAPH_NOT_FIELD_VALIDATED"
+}

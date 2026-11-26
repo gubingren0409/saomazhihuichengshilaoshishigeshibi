@@ -1,0 +1,207 @@
+{
+  "at_utc": "2026-11-12T08:10:57.428707+00:00",
+  "commit": "3134c0ea68e00871ed6dc86ca7bc905071449dae",
+  "repository": "gubingren0409/saomazhihuichengshilaoshishigeshibi",
+  "tree_file_count": 38,
+  "reachable_historical_blobs_scanned": 54,
+  "reachable_commit_count": 3,
+  "inventory_sha256": "c832106bc6a658d49b69a5bfa81c9859fc6ba1510d81a733dd869f44211aa3cc",
+  "all_git_blob_worktree_inventory_bytes_equal": true,
+  "working_tree_clean": true,
+  "findings": [],
+  "checked_files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 84,
+      "sha256": "08fd71392ca9db66c76fbee932d61b471826bf83e8bc3c865daaeb8df356df51"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 151,
+      "sha256": "ac1ae364d5675c454074b7b401d9bd35a796abe5207d733ac5a27edc5d16466b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1597,
+      "sha256": "c281ca9523ceca2045e90760372f0a6bd742d701b1b5ca54b6a24ff0c5e58ab1"
+    },
+    {
+      "path": "docs/baseline_registry.csv",
+      "bytes": 4105,
+      "sha256": "f7c3d479ec6ba82a283193b9064dd6e2e92456d313f315cef36dee29fe934a96"
+    },
+    {
+      "path": "docs/data_contract.md",
+      "bytes": 1811,
+      "sha256": "c946c416551f6df4e502b1ffbe541e253518ca79c8d0c923fd2324dfd19a3812"
+    },
+    {
+      "path": "docs/dataset_registry.md",
+      "bytes": 1221,
+      "sha256": "eb53057be5301414a1b74cdd55dba29880113003c98b3b45efadda64bef7ccfc"
+    },
+    {
+      "path": "docs/governance_pointer.md",
+      "bytes": 846,
+      "sha256": "a83fd6bfb47bff98743b84f03642aa4a6de6e4073dcd740350179764ac00f33d"
+    },
+    {
+      "path": "docs/methodology_registry.md",
+      "bytes": 1729,
+      "sha256": "62ca441086070b760213d3064ae1d91bcee380c0dc394fc0c32137a944657f7a"
+    },
+    {
+      "path": "docs/project_charter.md",
+      "bytes": 1230,
+      "sha256": "20eccadb911625ef1c0d401bf1e3d77d12e4f42ec53877cb47f6713b3e03c3e1"
+    },
+    {
+      "path": "docs/project_status.md",
+      "bytes": 1039,
+      "sha256": "9f45533bc637e75bf928d09070aeea6692b99610a04792353060a4ad6520761f"
+    },
+    {
+      "path": "docs/public_release_audit.md",
+      "bytes": 1466,
+      "sha256": "2b0d57846881f67c91aa73b03516180de55af30717aee2d14119259b35c79d05"
+    },
+    {
+      "path": "docs/research_decisions.md",
+      "bytes": 1436,
+      "sha256": "4b1ef1b9657b1cf8cd383a2791cd4d2beb2379ac3060a9481e8154ee76aa1d05"
+    },
+    {
+      "path": "docs/research_overview.md",
+      "bytes": 1168,
+      "sha256": "0416e8385bba7f420b2b527c4cee5e5dbcdee0977601f2ff8cde87a186ff654c"
+    },
+    {
+      "path": "docs/round_delivery_protocol.md",
+      "bytes": 1333,
+      "sha256": "dc8467fa7104c8f5c2869b0b8bcbfab57425417bab6217c9d904ee2ac2d53f62"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 125,
+      "sha256": "04559febb540fbab83a30c589c878a89c6e12271f3d2db3b2dbbbd8f37833c2f"
+    },
+    {
+      "path": "schemas/decisions.schema.json",
+      "bytes": 258,
+      "sha256": "532f25bd50f6d002ce9804854df05edd832bbfd831295feb613589798ea9f984"
+    },
+    {
+      "path": "schemas/experiments.schema.json",
+      "bytes": 322,
+      "sha256": "6c2126b57162c8dc8d65bf2eb541c54fd04a522a775535a7bb4ff2d548d07523"
+    },
+    {
+      "path": "schemas/scene.schema.json",
+      "bytes": 973,
+      "sha256": "1aa628bb430f001937bd63209066c1bb23fb56126c98b08e9a8bfd6d83527dbf"
+    },
+    {
+      "path": "schemas/sources.schema.json",
+      "bytes": 284,
+      "sha256": "b61196581e90bebd7ed4911b137806e38ca74088042f2162bcf0da63a1fee10f"
+    },
+    {
+      "path": "src/walkability_foundation/__init__.py",
+      "bytes": 68,
+      "sha256": "a3a73f5828d4d61798ee9544b7ab7aefee756b6c3194e5b63b3b84c093ae11d6"
+    },
+    {
+      "path": "src/walkability_foundation/graph_costs.py",
+      "bytes": 838,
+      "sha256": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+    },
+    {
+      "path": "tests/test_graph_costs.py",
+      "bytes": 866,
+      "sha256": "9a2a70b569500d5bf3e11283a3fa62f02c4cce1fd1cc544699275054abfcea3e"
+    },
+    {
+      "path": "tests/test_release_audit.py",
+      "bytes": 1095,
+      "sha256": "436af997643578890c062d2d1e0b568a6fd2167e05f285fd93cc857ef4d9f89a"
+    },
+    {
+      "path": "tools/audit_public_tree.py",
+      "bytes": 2545,
+      "sha256": "293008ef41ddbd17c31bd544e4f4b7f5102bbb95baac0ade1d197c3aff81cbe4"
+    },
+    {
+      "path": "tools/phase1/index.html",
+      "bytes": 4664,
+      "sha256": "61905c624c553ffda3350532379cf29c40f27c272447b88d39e9ed1fb3c43c7c"
+    },
+    {
+      "path": "tools/phase1/requirements.txt",
+      "bytes": 77,
+      "sha256": "f5ec06935e283a1d2aa5dae573e50f7683863064343e1d11b1a9fdfbff908feb"
+    },
+    {
+      "path": "tools/phase1/src/build_audit.py",
+      "bytes": 23830,
+      "sha256": "515caf50f948cd202e3242bff1988d0d893d45af78f07adc34039f00a554c8d8"
+    },
+    {
+      "path": "tools/phase1/src/export_current_graph.py",
+      "bytes": 6401,
+      "sha256": "4f50a0af38ec57699cae4c265a3814544abe1bd9b9907e065b316973ca0d46c3"
+    },
+    {
+      "path": "tools/phase1/src/map.css",
+      "bytes": 2560,
+      "sha256": "ff4d3081044c4687aca70f4c340564d9a9df2733fad4007de6b4be199a96eb0a"
+    },
+    {
+      "path": "tools/phase1/src/map.js",
+      "bytes": 15475,
+      "sha256": "3cc0072e3242626b6413058621672b3b09b9b2bbde2cfbc694a6365cd309ec02"
+    },
+    {
+      "path": "tools/phase1/src/render_maps.py",
+      "bytes": 8025,
+      "sha256": "dff266e49a62a9256cf1703a59747023efa1b9e96b9f7746f0e412809106e37a"
+    },
+    {
+      "path": "tools/phase2/src/build_atlas.py",
+      "bytes": 16319,
+      "sha256": "6ddf39d3592efc05d9d31d2e05030902737760f1b159e97de16c49e9b8c94073"
+    },
+    {
+      "path": "tools/phase2/src/fetch_bounded.py",
+      "bytes": 3260,
+      "sha256": "635a0de3184ade54741af4d125a4ee01674bab4712b3e0f9a49561dd30069a9a"
+    },
+    {
+      "path": "tools/phase2/src/spatial_groups.py",
+      "bytes": 4704,
+      "sha256": "f40e57e12848055712b3f3f14fbc0c405ad33cf549386f4865686356a0afa50b"
+    },
+    {
+      "path": "tools/phase2/src/summarize_audit.py",
+      "bytes": 3613,
+      "sha256": "627344dc15832e0df51c926a1f0884672cefdd02f9da9b9f640f4308bcbd59bc"
+    },
+    {
+      "path": "tools/phase2/src/verify_atlas.py",
+      "bytes": 1671,
+      "sha256": "e9ed3d6619289f7d7e5c53ce9ca9952411e2cfd7ebc1df08259c301d89b599c7"
+    },
+    {
+      "path": "tools/run_development_probe.py",
+      "bytes": 6008,
+      "sha256": "058d107579c9c6b0fa47a034bdd87fe3587b58534f0388302e86c0c6e630d157"
+    },
+    {
+      "path": "tools/verify_probe_certificates.py",
+      "bytes": 2112,
+      "sha256": "75552d0066e8aa045496534a8fd21c29f40e8e5c74e1d6671c9a4a53e7afd527"
+    }
+  ],
+  "first_public_push": "NOT_APPROVED_NOT_PERFORMED_BY_REVIEWER",
+  "license": "New-source copyright/license choice remains user decision; raw and derived map database excluded. Public visibility is not an open-source license.",
+  "scope_limit": "Independent regex/content boundary review is not a legal rights opinion or proof of absence of all secrets."
+}

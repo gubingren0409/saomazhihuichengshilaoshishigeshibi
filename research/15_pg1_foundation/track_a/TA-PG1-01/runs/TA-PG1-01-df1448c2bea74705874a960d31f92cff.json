@@ -1,0 +1,205 @@
+{
+  "invocation_id": "TA-PG1-01-df1448c2bea74705874a960d31f92cff",
+  "case": "south",
+  "method": "F0",
+  "split": "EXPOSED_DEVELOPMENT_ONLY",
+  "start_id": "node/10073042336",
+  "door_id": "node/6897141353",
+  "start_xy": [
+    354290.77721060865,
+    3456012.174117223
+  ],
+  "door_xy": [
+    354396.35132172017,
+    3456095.105993877
+  ],
+  "purpose": "KNOWN_REGISTERED_DOOR_APPROACH",
+  "segments": [
+    {
+      "u": "node/10073042336",
+      "v": "node/1890750304",
+      "xy": [
+        [
+          354290.77721060865,
+          3456012.174117223
+        ],
+        [
+          354309.97812572983,
+          3456015.2010598313
+        ]
+      ],
+      "length_m": 19.4380431897213,
+      "hypothesis_m": 0.0,
+      "cost_m": 19.4380431897213,
+      "source_area_ids": [],
+      "interface_ids": [],
+      "geometry_kind": "SOURCE_SNAPSHOT"
+    },
+    {
+      "u": "node/1890750304",
+      "v": "node/1890842762",
+      "xy": [
+        [
+          354309.97812572983,
+          3456015.2010598313
+        ],
+        [
+          354323.664674054,
+          3456017.67242437
+        ]
+      ],
+      "length_m": 13.907884372296323,
+      "hypothesis_m": 0.0,
+      "cost_m": 13.907884372296323,
+      "source_area_ids": [],
+      "interface_ids": [],
+      "geometry_kind": "SOURCE_SNAPSHOT"
+    },
+    {
+      "u": "node/1890842762",
+      "v": "node/848254822",
+      "xy": [
+        [
+          354323.664674054,
+          3456017.67242437
+        ],
+        [
+          354328.21115573106,
+          3456017.1327487035
+        ]
+      ],
+      "length_m": 4.578399880379212,
+      "hypothesis_m": 0.0,
+      "cost_m": 4.578399880379212,
+      "source_area_ids": [],
+      "interface_ids": [],
+      "geometry_kind": "SOURCE_SNAPSHOT"
+    },
+    {
+      "u": "node/848254822",
+      "v": "node/1890935355",
+      "xy": [
+        [
+          354328.21115573106,
+          3456017.1327487035
+        ],
+        [
+          354325.95743419,
+          3456031.1999268327
+        ]
+      ],
+      "length_m": 14.246570159301976,
+      "hypothesis_m": 0.0,
+      "cost_m": 14.246570159301976,
+      "source_area_ids": [],
+      "interface_ids": [],
+      "geometry_kind": "SOURCE_SNAPSHOT"
+    },
+    {
+      "u": "node/1890935355",
+      "v": "node/1890935454",
+      "xy": [
+        [
+          354325.95743419,
+          3456031.1999268327
+        ],
+        [
+          354331.91300043056,
+          3456032.6585559454
+        ]
+      ],
+      "length_m": 6.1315877335691775,
+      "hypothesis_m": 0.0,
+      "cost_m": 6.1315877335691775,
+      "source_area_ids": [],
+      "interface_ids": [],
+      "geometry_kind": "SOURCE_SNAPSHOT"
+    },
+    {
+      "u": "node/1890935454",
+      "v": "fullface/relation/2385771/component/0/v/60",
+      "xy": [
+        [
+          354331.91300043056,
+          3456032.6585559454
+        ],
+        [
+          354392.2020743764,
+          3456085.795005806
+        ]
+      ],
+      "length_m": 80.36326736149094,
+      "hypothesis_m": 0,
+      "cost_m": 80.36326736149094,
+      "source_area_ids": [
+        "relation/2385771"
+      ],
+      "interface_ids": [],
+      "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+    },
+    {
+      "u": "fullface/relation/2385771/component/0/v/60",
+      "v": "faceportal/aaef4b27332afabc958b88f9",
+      "xy": [
+        [
+          354392.2020743764,
+          3456085.795005806
+        ],
+        [
+          354396.0411514775,
+          3456094.570982071
+        ]
+      ],
+      "length_m": 9.578949441221516,
+      "hypothesis_m": 0,
+      "cost_m": 9.578949441221516,
+      "source_area_ids": [
+        "relation/2385771"
+      ],
+      "interface_ids": [],
+      "geometry_kind": "DERIVED_WITHIN_MAPPED_PEDESTRIAN_FACE"
+    },
+    {
+      "u": "faceportal/aaef4b27332afabc958b88f9",
+      "v": "node/6897141353",
+      "xy": [
+        [
+          354396.0411514775,
+          3456094.570982071
+        ],
+        [
+          354396.35132172017,
+          3456095.105993877
+        ]
+      ],
+      "length_m": 0.6184199318156919,
+      "hypothesis_m": 0,
+      "cost_m": 0.6184199318156919,
+      "source_area_ids": [
+        "relation/2385771"
+      ],
+      "interface_ids": [],
+      "geometry_kind": "FROZEN_R4_REV1_MAPPED_FACE_EDGE"
+    }
+  ],
+  "length_m": 148.86312206979613,
+  "hypothesis_m": 0.0,
+  "cost_m": 148.8631220697961,
+  "historical_cost_m": 148.86312206979613,
+  "historical_cost_error_m": -2.842170943040401e-14,
+  "new_solver_calls": 1,
+  "answer_cache": false,
+  "new_geometry_admission": false,
+  "topology_sha256": "19b185b71266ca29510cedd14446168665d625f13749137e198cb6940b984d17",
+  "source_archive_sha256": "3988e9fba95da70dc03b8191a177740a3ccd13602019afe3765e566648b55711",
+  "source_graph_member": "data/south_query_graph.jsonl.gz",
+  "source_code_hashes": {
+    "tools\\run_development_probe.py": "532ce610b6ef57b741c8045c245564b48c4f72d710c833f73b1cf0c872a88621",
+    "src\\walkability_foundation\\graph_costs.py": "8c24a590d3d2328d259dafe5c5eba4eb2dcc2725cdddd59aa8189df1ef5b6a06"
+  },
+  "load_s": 3.3393074999999044,
+  "scalar_weight_s": 0.20181310000043595,
+  "batch_weight_s": 0.631582200000139,
+  "solver_s": 0.006672799999705603,
+  "geometry_and_permissions": "INHERITED_FIXED_R2_GRAPH_NOT_FIELD_VALIDATED"
+}

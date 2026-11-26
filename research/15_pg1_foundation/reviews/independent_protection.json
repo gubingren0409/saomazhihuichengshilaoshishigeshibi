@@ -1,0 +1,110 @@
+{
+  "at_utc": "2026-11-12T07:50:57.269207+00:00",
+  "old_git": [
+    {
+      "root": "E:\\智慧城市和位置服务",
+      "checks": {
+        "index": {
+          "sha256": "4216b12478e717dcb367733fbbb430911edf77b785c1d3fc9ebd9cd8a80e2bd4",
+          "initial_match": true
+        },
+        "HEAD_file": {
+          "sha256": "665aab1d1876251f934141e502fa023465fcf63e5cef45e4d5bbd1acd813f27e",
+          "initial_match": true
+        },
+        "tracked_status": {
+          "exit": 0,
+          "sha256": "8c338c05263f904caf9dfe8b458c7d0c9f1e942b0359c8d5a7cfcccb015e6fa2",
+          "initial_match": true
+        },
+        "HEAD": {
+          "exit": 0,
+          "sha256": "8348ce2ee4e82fc55df8ecdf9835656ab1d4f3005696ac9f0b9aa2b1862c907d",
+          "initial_match": true
+        },
+        "branch": {
+          "exit": 0,
+          "sha256": "b8cb97cf824dd7b5c1c9042502ff79586527c129ef96f3b254bc04a311fa1142",
+          "initial_match": true
+        },
+        "remotes": {
+          "exit": 0,
+          "sha256": "be41ce0e098c62ba86c4bb8803a7a0c1f0af02569a0e915c97db37fc78495c58",
+          "initial_match": true
+        }
+      }
+    },
+    {
+      "root": "E:\\智慧城市和位置服务\\project\\Smart_Cities_and_Location_Services",
+      "checks": {
+        "index": {
+          "sha256": "67f47e86c92bc814144043bdb235f62149b9e0d95aad58cbec356fa68e7f2f0f",
+          "initial_match": true
+        },
+        "HEAD_file": {
+          "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+          "initial_match": true
+        },
+        "tracked_status": {
+          "exit": 0,
+          "sha256": "34713d189cfddd5830c05d2a784c9b14dc398b3608c5c884681286d1f0b637ab",
+          "initial_match": true
+        },
+        "HEAD": {
+          "exit": 0,
+          "sha256": "60b1957e4ef5142a4970a9eb1b7ef4494a7ff0d9e63dce92c7aa87a88dba43b8",
+          "initial_match": true
+        },
+        "branch": {
+          "exit": 0,
+          "sha256": "6403203dd5a0867eb14d104ee8a73730bd72dd9ad92e78d996a6dba0a5dcfc01",
+          "initial_match": true
+        },
+        "remotes": {
+          "exit": 0,
+          "sha256": "ee93626ca17d8b2057f9237323d74e16bfe648e5f2dd5ed22da068b49acb7ffb",
+          "initial_match": true
+        }
+      }
+    }
+  ],
+  "old_services": [
+    {
+      "port": 53421,
+      "method": "GET",
+      "path": "/api/health",
+      "status": "NOT_VERIFIED",
+      "reason": "URLError",
+      "underlying_reason": "ConnectionRefusedError",
+      "errno": 10061
+    },
+    {
+      "port": 53431,
+      "method": "GET",
+      "path": "/api/health",
+      "status": "NOT_VERIFIED",
+      "reason": "URLError",
+      "underlying_reason": "ConnectionRefusedError",
+      "errno": 10061
+    },
+    {
+      "port": 53441,
+      "method": "GET",
+      "path": "/api/health",
+      "status": "NOT_VERIFIED",
+      "reason": "URLError",
+      "underlying_reason": "ConnectionRefusedError",
+      "errno": 10061
+    },
+    {
+      "port": 53451,
+      "method": "GET",
+      "path": "/api/health",
+      "status": "NOT_VERIFIED",
+      "reason": "URLError",
+      "underlying_reason": "ConnectionRefusedError",
+      "errno": 10061
+    }
+  ],
+  "operations": "Git optional locks disabled; GET health only; no process termination/config/old-data mutation"
+}

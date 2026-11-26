@@ -1,0 +1,159 @@
+{
+  "schema": "PG1_NATURAL_LANGUAGE_MAP_REVIEW",
+  "timestamp": "2026-11-12T08:13:23.893Z",
+  "scene_id": "sh-wukang",
+  "extent_xy": [
+    349094.57158168894,
+    3452184.7860189346,
+    352476.47536240227,
+    3454854.1153480876
+  ],
+  "crs": "EPSG:32651",
+  "source_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+  "layers": [
+    "vehicle_road",
+    "road_area",
+    "pedestrian_line",
+    "pedestrian_area",
+    "sidewalk_geometry",
+    "sidewalk_tag_on_axis",
+    "crossing",
+    "grass",
+    "water",
+    "vegetation_park",
+    "barrier",
+    "restriction",
+    "level_steps_bridge_tunnel",
+    "exact_interfaces",
+    "conditional_seams",
+    "entrance",
+    "other_context",
+    "building"
+  ],
+  "selected_object": {
+    "properties": {
+      "source_id": "way/11761212",
+      "families": [
+        "vehicle_road"
+      ],
+      "tags": {
+        "cycleway": "opposite_lane",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "兴国路",
+        "name:en": "Xingguo Road",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry_basis": "ORIGINAL_SOURCE_LINE",
+      "imported_context": true,
+      "import_reason": "FULL_SOURCE_HIGHWAY_LINE_CONTEXT_NOT_ROUTE_ADMISSION",
+      "native_kept_segments": 16,
+      "native_filter_status": "ELIGIBLE_NATIVE_LINEAR_TAGS",
+      "face_status": null,
+      "diagnostic_render": true,
+      "diagnostic_properties": {
+        "id": "way/11761212",
+        "tags": {
+          "cycleway": "opposite_lane",
+          "highway": "residential",
+          "lanes": "2",
+          "name": "兴国路",
+          "name:en": "Xingguo Road",
+          "oneway": "yes",
+          "surface": "asphalt"
+        },
+        "kind": "ROAD",
+        "geometry_role": "INDEPENDENT_NATIVE_SOURCE_LINE"
+      },
+      "source_version": 26,
+      "source_clip_sha256": "5f43c79fee51de0afcb4438a27fef9e90057c9322e2ceb4a314d8dca860ffe45",
+      "native_topology_endpoint": false,
+      "import_kind": "ROAD"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          350743.82161975274,
+          3453470.7886729203
+        ],
+        [
+          350743.6123789894,
+          3453471.4901207355
+        ],
+        [
+          350721.43738715147,
+          3453547.495528139
+        ],
+        [
+          350711.3767554235,
+          3453581.9635713343
+        ],
+        [
+          350700.9345809154,
+          3453617.745307694
+        ],
+        [
+          350686.4622395346,
+          3453670.381050695
+        ],
+        [
+          350669.9859506457,
+          3453732.890526206
+        ],
+        [
+          350648.12932238966,
+          3453789.600216519
+        ],
+        [
+          350608.7002473937,
+          3453891.9384894976
+        ],
+        [
+          350581.4403117196,
+          3453962.683607946
+        ],
+        [
+          350577.5159319754,
+          3453972.8728494165
+        ],
+        [
+          350574.6986526062,
+          3453980.4963632794
+        ],
+        [
+          350566.3291253439,
+          3454003.121828168
+        ],
+        [
+          350542.9091125743,
+          3454066.41753597
+        ],
+        [
+          350533.9778240868,
+          3454105.8478870215
+        ],
+        [
+          350512.3574872938,
+          3454201.237333503
+        ],
+        [
+          350498.3472673526,
+          3454266.151365197
+        ]
+      ],
+      "_bounds": [
+        350498.3472673526,
+        3453470.7886729203,
+        350743.82161975274,
+        3454266.151365197
+      ],
+      "_path": "M350743.82161975274,-3453470.7886729203 L350743.6123789894,-3453471.4901207355 L350721.43738715147,-3453547.495528139 L350711.3767554235,-3453581.9635713343 L350700.9345809154,-3453617.745307694 L350686.4622395346,-3453670.381050695 L350669.9859506457,-3453732.890526206 L350648.12932238966,-3453789.600216519 L350608.7002473937,-3453891.9384894976 L350581.4403117196,-3453962.683607946 L350577.5159319754,-3453972.8728494165 L350574.6986526062,-3453980.4963632794 L350566.3291253439,-3454003.121828168 L350542.9091125743,-3454066.41753597 L350533.9778240868,-3454105.8478870215 L350512.3574872938,-3454201.237333503 L350498.3472673526,-3454266.151365197"
+    }
+  },
+  "historical_result": {},
+  "solver_invoked_this_audit": false,
+  "user_observation": "Independent browser mechanics check; user visual acceptance remains pending.",
+  "acceptance": "PENDING_USER_DECISION"
+}

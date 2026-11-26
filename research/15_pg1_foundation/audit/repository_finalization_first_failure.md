@@ -1,0 +1,1 @@
+第一次finalization已创建本地候选提交，随后的逐Git blob/工作文件字节检查发现旧已跟踪docs/baseline_registry.csv仍有初次Git换行过滤差异。没有Push或封包。修复为在隔离新仓库用当前* -text属性显式git add --renormalize，保留失败候选提交，另建更正提交；不amend、不改旧Git/全局设置。最终逐38文件blob字节必须全部一致才生成ROUND_BINDING和审查包。实验执行Base仍为81eaf8f，不被新候选HEAD替换。

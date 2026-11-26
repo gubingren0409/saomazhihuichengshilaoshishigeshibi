@@ -1,0 +1,69 @@
+{
+  "at_utc": "2026-11-12T07:57:18.032337+00:00",
+  "scope": "Source-to-derived UNKNOWN envelope lineage and exact saved B3 inventory bytes; no author code or solver invocation",
+  "scenes": [
+    {
+      "scene_id": "sh-exhibition",
+      "imported_unknown_envelopes": 0,
+      "saved_graph_status": "EXACT_SAVED_B3_INVENTORY",
+      "saved_member": "runs/mechanisms/RUN-20261112T005440-47cc13ee59.json",
+      "saved_sha256": "898ced55bc2e0298d705ee3d7caa1dc0b1b357428e7f2cc57943a5185df48b69",
+      "interfaces": 1824,
+      "seam_candidates": 262,
+      "accepted_seams": 8,
+      "portals": 96,
+      "faces": 19,
+      "global_graph_edges": "NOT_EXPORTED_NO_COLD_REBUILD"
+    },
+    {
+      "scene_id": "sh-huangpu-01",
+      "imported_unknown_envelopes": 1,
+      "saved_graph_status": "EXACT_SAVED_B3_INVENTORY",
+      "saved_member": "runs/app/RUN-20261112T030454-3c8a8ed835.json",
+      "saved_sha256": "92e3a764be467e934b2940e4a0a1127f4d21e969e8d35a391366c83d64031d40",
+      "interfaces": 12216,
+      "seam_candidates": 937,
+      "accepted_seams": 10,
+      "portals": 619,
+      "faces": 29,
+      "global_graph_edges": "NOT_EXPORTED_NO_COLD_REBUILD"
+    },
+    {
+      "scene_id": "sh-library",
+      "imported_unknown_envelopes": 0,
+      "saved_graph_status": "EXACT_SAVED_B3_INVENTORY",
+      "saved_member": "runs/app/RUN-20261112T021346-5d56eb2eaf.json",
+      "saved_sha256": "7a6b68c1e113a11d3eebbb7797ecf1550797ee69cd4541c84777e38941b95e33",
+      "interfaces": 1814,
+      "seam_candidates": 215,
+      "accepted_seams": 6,
+      "portals": 85,
+      "faces": 12,
+      "global_graph_edges": "NOT_EXPORTED_NO_COLD_REBUILD"
+    },
+    {
+      "scene_id": "sh-newworld",
+      "imported_unknown_envelopes": 1,
+      "saved_graph_status": "UNKNOWN_NOT_ZERO"
+    },
+    {
+      "scene_id": "sh-tower",
+      "imported_unknown_envelopes": 52,
+      "saved_graph_status": "EXACT_SAVED_B3_INVENTORY",
+      "saved_member": "runs/mechanisms/RUN-20261112T030651-d6cbf1105e.json",
+      "saved_sha256": "d1605475a3fbd9e86cb5d63f1ddcc12d9b287ad07a4f2375e430a521837fda64",
+      "interfaces": 6588,
+      "seam_candidates": 721,
+      "accepted_seams": 25,
+      "portals": 297,
+      "faces": 48,
+      "global_graph_edges": "NOT_EXPORTED_NO_COLD_REBUILD"
+    },
+    {
+      "scene_id": "sh-wukang",
+      "imported_unknown_envelopes": 0,
+      "saved_graph_status": "UNKNOWN_NOT_ZERO"
+    }
+  ],
+  "new_solver_calls": 0
+}
